@@ -1,12 +1,6 @@
 /* v1.2 覆盖与新增样式 */
 .topbar{gap:8px}
 .booksel select{max-width:200px}
-#railToggle{padding:6px 12px;border-radius:9px;background:#eef1f8;font-size:12.5px;font-weight:800;color:#5b6380;white-space:nowrap}
-#railToggle.on{background:var(--ink);color:#fff}
-@media (min-width:901px){.menu-btn{display:none}}
-@media (max-width:900px){#railToggle{display:none}}
-body.rail-off .rail{display:none}
-body.rail-off .stage .main{width:100%}
 
 .tabs{display:flex;gap:4px;background:#eef1f8;padding:4px;border-radius:12px;width:fit-content;margin-bottom:14px}
 .tabbtn{padding:7px 22px;border-radius:9px;font-weight:800;font-size:13px;color:var(--mut)}

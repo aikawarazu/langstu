@@ -4,51 +4,82 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>新概念英语点读 · 学习</title>
-<link rel="stylesheet" href="css/app.css?v=11">
-<link rel="stylesheet" href="css/v12.css?v=11">
-<link rel="stylesheet" href="css/v13.css?v=12">
-<link rel="stylesheet" href="css/textbook.css?v=12">
+<link rel="stylesheet" href="css/app.css?v=19">
+<link rel="stylesheet" href="css/v12.css?v=19">
+<link rel="stylesheet" href="css/textbook.css?v=19">
+<link rel="stylesheet" href="css/split.css?v=19">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
-    <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
     <div class="logo">学</div>
     <span class="sel booksel"><select id="bookSel"></select></span>
-    <button class="edge-btn" id="edgeBtn"></button>
+    <!-- 教材目录：点击展开气泡弹窗，在弹窗里选单元 -->
+    <div class="dir-wrap">
+      <button class="dir-btn" id="dirBtn" aria-haspopup="dialog" aria-expanded="false">📚 教材目录 <i class="caret">▾</i></button>
+      <div class="dir-pop" id="dirPop" role="dialog" aria-label="教材目录" hidden>
+        <div class="dir-top">
+          <div>
+            <div class="dir-t">教材目录</div>
+            <div class="dir-sub" id="dirSub"></div>
+          </div>
+          <button class="dir-x" id="dirX" title="关闭目录">✕</button>
+        </div>
+        <div class="dir-search">
+          <input id="dirSearch" type="text" placeholder="搜课号或标题，如 24 / handbag" autocomplete="off">
+          <span id="dirCount"></span>
+        </div>
+        <div class="dir-list" id="dirList"></div>
+        <div class="dir-foot">
+          <button class="dir-act" id="dirNow">定位当前课</button>
+          <span class="mut sm" id="dirTip">✓ 表示已学完</span>
+        </div>
+      </div>
+    </div>
+    <div class="viewsw">
+      <button class="vwbtn on" id="vwStudy">📖 学习</button>
+      <button class="vwbtn" id="vwNotes">🗂 笔记总览</button>
+    </div>
     <span class="pill" id="topTag"></span>
   </div>
   <div class="stage">
-    <!-- 教材目录 -->
-    <aside class="rail" id="rail">
-      <div class="rail-top">
-        <div class="rail-headrow">
-          <span class="rail-title">教材目录</span>
-          <button class="rail-x" id="railX" title="收起目录（点右下角按钮可再展开）">◂ 收起</button>
-        </div>
-        <div class="pick">
-          <span class="sel"><select id="unitJump"></select></span>
-        </div>
-        <div class="rail-sub" id="railSub"></div>
-      </div>
-      <div class="rail-body" id="unitList"></div>
-    </aside>
-    <div class="mask" id="mask"></div>
-    <!-- 学习区 -->
     <main class="main">
+      <!-- 学习页：左＝音频/视频，右＝教材/学习笔记 -->
       <div id="study"></div>
+      <!-- 笔记总览页：跨课汇总 -->
+      <div id="overview" hidden></div>
     </main>
+  </div>
+</div>
+<div class="wpop" id="wpop" hidden></div>
+
+<!-- 记笔记：弹出浮框 -->
+<div class="nmodal" id="noteModal" hidden>
+  <div class="nm-mask" id="nmMask"></div>
+  <div class="nm-box" role="dialog" aria-modal="true" aria-label="我的笔记">
+    <div class="nm-head">
+      <div><div class="t">📝 我的笔记</div><div class="s" id="nmSub"></div></div>
+      <button class="nm-x" id="nmX" title="关闭">✕</button>
+    </div>
+    <textarea id="nmText" placeholder="记下本课自己的心得：易错点、想造句的句子、听不出来的连读…"></textarea>
+    <div class="nm-foot">
+      <span class="st" id="nmSt">自动保存到本机</span>
+      <span class="sp"></span>
+      <button class="nm-btn" id="nmClear">清空</button>
+      <button class="nm-btn ok" id="nmDone">完成</button>
+    </div>
   </div>
 </div>
 
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
 
-<script src="data/NCE1.js?v=11"></script>
-<script src="data/NCE2.js?v=11"></script>
-<script src="data/NCE3.js?v=11"></script>
-<script src="data/NCE4.js?v=11"></script>
-<script src="data/notes.js?v=12"></script>
-<script src="js/app.js?v=12"></script>
+<script src="data/NCE1.js?v=19"></script>
+<script src="data/NCE2.js?v=19"></script>
+<script src="data/NCE3.js?v=19"></script>
+<script src="data/NCE4.js?v=19"></script>
+<script src="data/notes.js?v=19"></script>
+<script src="data/notes-index.js?v=19"></script>
+<script src="js/app.js?v=19"></script>
 </body>
 </html>
