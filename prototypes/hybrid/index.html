@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>学习助手 · 全端原型</title>
+<style>
+:root{--ink:#222a3f;--mut:#7a839c;--line:#e6eaf3;--bg:#eef1f7;--card:#fff;
+ --pri:#4353ff;--pri-soft:#e8ebff;--ok:#13a06b;--ok-soft:#e2f5ec;--ok-ink:#0e7a52;
+ --warn:#e8862e;--err:#e34f4f;--r:15px;--shadow:0 12px 30px -22px rgba(30,45,95,.5)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;
+ color:var(--ink);background:var(--bg)}
+button{font:inherit;background:none;border:0;color:inherit;cursor:pointer}
+.mut{color:var(--mut)} .sm{font-size:12.5px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.ltitle{font-size:20px;font-weight:900}.lzh{font-size:13px;color:var(--mut);margin-top:3px}
+.back{font-size:13px;font-weight:800;color:var(--mut)}
+
+/* ===== 顶栏 ===== */
+.topbar{display:flex;align-items:center;gap:10px;padding:9px 18px;background:rgba(255,255,255,.96);
+ border-bottom:1px solid var(--line);position:relative;z-index:20}
+.logo{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,var(--pri),#1aa673);
+ color:#fff;display:grid;place-items:center;font-size:13px;font-weight:900;flex:none}
+.brand{font-size:15px;font-weight:900;margin-right:14px;white-space:nowrap}
+.tnav{display:flex;gap:4px}
+.tnav button{padding:7px 14px;border-radius:9px;font-size:13.5px;font-weight:800;color:var(--mut)}
+.tnav button.on{background:var(--ink);color:#fff}
+.tnav .ico{display:none}
+.curtag{margin-left:auto;display:flex;align-items:center;gap:8px}
+.curtag .clb{font-size:13px;font-weight:800;color:var(--mut)}
+.menubtn{display:none;font-size:17px;color:var(--mut);padding:4px 8px}
+.pill{font-size:11px;font-weight:800;color:var(--ok-ink);background:var(--ok-soft);
+ padding:4px 10px;border-radius:99px;white-space:nowrap}
+
+/* ===== 骨架 ===== */
+.stage{display:flex;min-height:0;flex:1}
+.rail{width:336px;flex:none;border-right:1px solid var(--line);background:#fff;
+ display:flex;flex-direction:column;min-height:0}
+.railhead{padding:13px 15px;border-bottom:1px solid var(--line)}
+.railhead .tt{font-size:13px;font-weight:900;margin-bottom:9px;display:flex;justify-content:space-between}
+.railbody{flex:1;overflow-y:auto;padding:9px 8px}
+.mainzone{flex:1;min-width:0;overflow-y:auto;padding:20px 28px 60px}
+
+/* ===== 下拉 ===== */
+.pick{display:flex;gap:8px;flex-wrap:wrap}
+.sel{position:relative}
+.sel select{appearance:none;font:inherit;font-size:12.5px;font-weight:800;color:var(--ink);
+ background:#f4f6fb;border:1px solid var(--line);border-radius:9px;padding:7px 26px 7px 10px;cursor:pointer;max-width:180px}
+.sel::after{content:'▾';position:absolute;right:9px;top:50%;transform:translateY(-50%);
+ font-size:10px;color:var(--mut);pointer-events:none}
+.unitnav{display:flex;gap:6px;margin-top:9px;align-items:center}
+.unitnav .uhint{font-size:11px;color:var(--mut);font-weight:800}
+
+/* ===== 单元 / 课 ===== */
+.uitem{border-radius:11px;padding:5px 7px;cursor:pointer;margin-bottom:2px}
+.uitem:hover{background:#f5f7fb}
+.uitem.active{background:var(--pri-soft)}
+.uitem .urow{display:flex;align-items:center;gap:8px}
+.uitem .uno{width:28px;height:24px;border-radius:7px;background:#f0f2f8;color:#81879c;
+ display:grid;place-items:center;font-size:10px;font-weight:900;flex:none}
+.uitem.active .uno{background:var(--pri);color:#fff}
+.uitem .ut{font-size:12.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+.uitem.active .ut{color:var(--pri)}
+.uitem .lcs{display:flex;gap:4px}
+.lc{width:27px;height:22px;border-radius:6px;background:#f0f2f8;color:#8a90a6;
+ font-size:10.5px;font-weight:900}
+.lc:hover{background:#e0e5f4}
+.lc.done{background:var(--ok-soft);color:var(--ok-ink)}
+.lc.cur{background:var(--pri);color:#fff}
+.lc.sel{outline:2px solid var(--ink);outline-offset:1px}
+.lc.odd{background:#faf7ef;color:#a08a4f}
+
+/* ===== 通用控件 ===== */
+.mainbtn{width:100%;padding:14px;border-radius:13px;background:var(--pri);color:#fff;
+ font-size:15px;font-weight:800;margin-top:8px}.mainbtn:hover{filter:brightness(1.06)}
+.mainbtn.ghost{background:#fff;color:var(--pri);border:1.5px solid #c9d1ff}
+.sidelink{display:block;width:100%;text-align:center;margin-top:12px;font-size:12.5px;color:var(--mut);
+ text-decoration:underline;padding:6px}
+.task{display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid var(--line);
+ border-radius:13px;background:#fff;margin-bottom:9px}
+.task .n{width:24px;height:24px;border-radius:50%;background:#edf0f8;color:#7a829c;
+ display:grid;place-items:center;font-size:12px;font-weight:900;flex:none}
+.task.ok .n{background:var(--ok);color:#fff}
+.task .nm{font-size:14px;font-weight:800}
+.task .pg{font-size:12.5px;color:var(--mut);margin-top:2px}
+.task .cnt{margin-left:auto;font-size:13px;font-weight:800;color:var(--mut);white-space:nowrap}
+.task.ok .cnt{color:var(--ok)}
+.teacher{display:flex;gap:10px;align-items:flex-start;margin-bottom:16px}
+.tea-ava{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#1aa673,#16c79a);
+ color:#fff;display:grid;place-items:center;font-size:13px;font-weight:900;flex:none;margin-top:2px}
+.tea-txt{font-size:15px;line-height:1.75;font-weight:600}
+.ringbox{display:flex;justify-content:center;margin-bottom:18px}
+.ring{position:relative;width:124px;height:124px}
+.ring .ct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring .ct b{font-size:25px}.ring .ct span{font-size:11px;color:var(--mut);margin-top:2px}
+.gbar{height:7px;border-radius:99px;background:#e9edf5;overflow:hidden;margin-top:8px}
+.gbar i{display:block;height:100%;background:var(--ok);border-radius:99px}
+.dsec{margin-bottom:14px}
+.dsec h3{font-size:12.5px;color:var(--mut);font-weight:800;margin-bottom:8px}
+.wrow{display:flex;flex-wrap:wrap;gap:8px}
+.wchip{border:1px solid var(--line);background:#fff;border-radius:11px;padding:9px 12px;
+ font-size:13px;font-weight:800}
+.wchip .bk{display:none;font-weight:600;color:var(--ok);margin-top:3px;font-size:12px}
+.wchip.flip{background:var(--ok-soft);border-color:#bfe6d2}
+.wchip.flip .bk{display:block}
+.grule{padding:13px;border:1px solid var(--line);border-radius:12px;background:#fbfcfe;margin-bottom:9px}
+.grule .k{font-size:14px;font-weight:900}
+.grule .f{font-size:13px;margin-top:5px;font-weight:700;color:var(--pri)}
+.grule .d{font-size:12.5px;color:var(--mut);margin-top:4px;line-height:1.7}
+.relbox{margin-top:9px}
+.relh{font-size:11.5px;font-weight:800;color:var(--mut);margin-bottom:6px}
+.rel{display:flex;flex-wrap:wrap;gap:6px}
+.rel button{font-size:11.5px;font-weight:800;padding:5px 10px;border-radius:8px;background:#f3f5fb;color:#5b6380}
+.rel button:hover{background:var(--pri-soft);color:var(--pri)}
+.rel button.hot{background:#fff3e6;color:#b96a12}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+
+/* ===== 学习区（字幕 + 播放器） ===== */
+.study{border:1px solid var(--line);border-radius:var(--r);background:#fff;overflow:hidden}
+.sub{height:250px;overflow-y:auto;padding:9px}
+.sub-line{display:block;width:100%;text-align:left;padding:9px 11px;border-radius:10px;cursor:pointer}
+.sub-line:hover{background:#f7f8fc}
+.sub-line.active{background:var(--pri-soft)}
+.sub-line .en{font-size:15px;font-weight:700;line-height:1.55;display:block}
+.sub-line.active .en{color:var(--pri)}
+.sub-line .zh{font-size:12.5px;color:var(--mut);margin-top:2px;display:block;line-height:1.5}
+body.sub-english .sub-line .zh{display:none}
+body.sub-chinese .sub-line .en{display:none}
+body.sub-blur .sub-line .zh{filter:blur(5px);user-select:none}
+body.sub-blur .sub-line:hover .zh{filter:none}
+.pl{border-top:1px solid var(--line);padding:12px 13px;background:#fcfdff}
+.pl-top{display:flex;align-items:center;gap:11px}
+.pl-play{width:42px;height:42px;border-radius:50%;background:var(--pri);color:#fff;display:grid;
+ place-items:center;font-size:14px;flex:none;padding-left:2px}
+.pl-mid{flex:1;min-width:0}
+.pl-t{font-size:13.5px;font-weight:900}.pl-s{font-size:11px;color:var(--mut);margin-top:2px}
+.pl-track{position:relative;height:19px;cursor:pointer;margin-top:10px;touch-action:none}
+.pl-rail,.pl-fill,.pl-abseg{position:absolute;top:7px;height:4px;border-radius:99px}
+.pl-rail{left:0;right:0;background:#e9edf5}.pl-fill{left:0;background:var(--pri)}
+.pl-abseg{background:rgba(232,134,46,.4)}
+.pl-knob{position:absolute;top:3px;width:12px;height:12px;border-radius:50%;background:var(--pri);
+ box-shadow:0 2px 6px rgba(30,45,95,.35);margin-left:-6px}
+.pl-time{display:flex;justify-content:space-between;font-size:11px;color:var(--mut);font-weight:700;margin-top:1px}
+.pl-ctrl{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}
+.pl-btn{font-size:11.5px;font-weight:800;padding:6px 10px;border-radius:9px;background:#f3f5fb;color:#5b6380}
+.pl-btn:hover{background:#e7ebf7}.pl-btn.on{background:var(--pri);color:#fff}
+.pl-btn.warm{background:#fff3e6;color:#b96a12}
+.real-audio{margin-top:10px;border-top:1px dashed var(--line);padding-top:9px}
+.real-audio audio{width:100%;height:32px}
+.real-audio .rt{font-size:11px;color:var(--mut);font-weight:800;margin-bottom:5px}
+
+/* 视频 */
+.pv{border-radius:12px;overflow:hidden;background:#1a1f2e}
+.pv-screen{aspect-ratio:16/9;display:grid;place-items:center;position:relative;cursor:pointer;
+ background:radial-gradient(120% 120% at 30% 20%,#2c3448,#151a26)}
+.pv-screen .big{width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.94);color:#1a1f2e;
+ display:grid;place-items:center;font-size:20px;padding-left:3px}
+.pv-screen .lab{position:absolute;left:11px;bottom:10px;right:11px;color:#fff;font-size:12px;
+ font-weight:800;text-shadow:0 1px 5px rgba(0,0,0,.55)}
+.pv-foot{display:flex;align-items:center;gap:8px;padding:7px 10px;background:#232a3d;
+ color:#c3cbdc;font-size:11px;font-weight:700}
+.pv-foot .sp{margin-left:auto}
+.pv-foot a{color:#9fb0d0;font-size:11px;text-decoration:none}
+
+/* 复习/学课小件 */
+.hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.hdr .pos{font-size:13px;font-weight:800;color:var(--mut)}
+.pbar{height:6px;border-radius:99px;background:#e9edf5;overflow:hidden;margin-bottom:22px}
+.pbar i{display:block;height:100%;background:var(--pri);border-radius:99px}
+.face{padding:28px 12px;text-align:center}
+.face .w{font-size:30px;font-weight:900}
+.face .ipa{font-size:14px;color:var(--mut);margin-top:7px}
+.rate2{display:flex;gap:7px;margin-top:20px}
+.rate2 button{flex:1;padding:10px 2px;border-radius:11px;border:1px solid var(--line);background:#fff;
+ font-size:12.5px;font-weight:800;line-height:1.5}
+.rate2 button i{display:block;font-style:normal;font-size:10.5px;font-weight:700;color:var(--mut);margin-top:2px}
+.rate2 .r1{color:var(--err);border-color:#f4c7c7}.rate2 .r2{color:var(--warn);border-color:#f3d5b0}
+.rate2 .r3{color:var(--pri);border-color:#c9d1ff}.rate2 .r4{color:var(--ok);border-color:#b8e3cf}
+.ans{margin-top:20px;padding:15px;border:1px solid var(--line);border-radius:13px;background:#fbfcfe}
+.ans .zh{font-size:16px;font-weight:800}
+.ans .ex{font-size:13px;color:var(--mut);margin-top:6px;line-height:1.7}
+.nextnote{margin-top:13px;text-align:center;font-size:13px;font-weight:800;color:var(--ok)}
+.srcline{margin-top:10px;text-align:center}
+.srcbtn{font-size:12px;font-weight:800;color:var(--pri);background:var(--pri-soft);
+ padding:6px 13px;border-radius:99px}
+.steps{display:flex;gap:5px;margin-bottom:16px}
+.steps .s{flex:1;text-align:center}
+.steps .dot{width:25px;height:25px;margin:0 auto 4px;border-radius:50%;background:#edf0f8;color:#7a829c;
+ display:grid;place-items:center;font-size:11px;font-weight:900}
+.steps .s.done .dot{background:var(--ok);color:#fff}
+.steps .s.cur .dot{background:var(--pri);color:#fff}
+.steps .lb{font-size:10px;color:var(--mut);white-space:nowrap}
+.steps .s.cur .lb{color:var(--pri);font-weight:800}
+.actionbox{padding:20px 14px;text-align:center;background:#fbfcfe;border:1px solid var(--line);border-radius:13px}
+.actionbox .t{font-size:13px;color:var(--mut);line-height:1.8}
+.btnrec{width:66px;height:66px;border-radius:50%;background:var(--pri);color:#fff;display:grid;
+ place-items:center;font-size:26px;margin:12px auto 0}
+.yield{margin-top:18px;padding:15px;border-radius:13px;background:var(--ok-soft)}
+.yield .h{font-size:14px;font-weight:900;color:var(--ok-ink)}
+.yield .b{font-size:14px;margin-top:7px;line-height:1.8}
+.tmrow{margin-top:18px;padding:15px;border:1px solid var(--line);border-radius:13px;background:#fff}
+.tmrow .h{font-size:12.5px;color:var(--mut);font-weight:800}
+.tmrow .t{font-size:15px;font-weight:800;margin-top:5px}
+.empty{padding:18px;border:1px dashed var(--line);border-radius:11px;text-align:center;
+ font-size:12.5px;color:var(--mut);line-height:1.8}
+
+/* 资源 */
+.resgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ap{position:relative;display:block;width:100%;text-align:left;padding:10px 60px 10px 12px;
+ border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:8px}
+.ap .ap-t{display:block;font-size:13px;font-weight:800}
+.ap .ap-s{display:block;font-size:11.5px;color:var(--mut);margin-top:2px}
+.ap .ap-time{position:absolute;right:12px;top:50%;transform:translateY(-50%);
+ font-size:11px;color:var(--mut);font-weight:700}
+
+.demo{margin-top:28px;padding-top:14px;border-top:1px dashed var(--line)}
+.demo .dl{font-size:11px;color:#a9b1c6;text-align:center;margin-bottom:8px}
+.demo .db{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.demo .db button{font-size:11px;padding:5px 9px;border-radius:8px;background:#f2f4f9;color:#8890a8;font-weight:700}
+.demo .db button.on{background:var(--ink);color:#fff}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#222a3f;color:#fff;
+ padding:11px 18px;border-radius:99px;font-size:13px;font-weight:800;z-index:99;opacity:0;
+ transition:.25s;pointer-events:none}
+.overlay{position:fixed;inset:0;background:rgba(20,26,44,.35);z-index:55;display:none}
+body.rail-on .overlay{display:block}
+.railclose{display:none;position:absolute;right:10px;top:10px;font-size:16px;color:var(--mut);z-index:5}
+
+@media (max-width:980px){
+  .wrap{width:100%;padding:0 0 74px}
+  .topbar{padding:8px 12px}
+  .brand{font-size:14px;margin-right:auto}
+  .curtag{display:none}
+  .stage{display:block}
+  .rail{position:fixed;top:0;bottom:0;left:0;width:min(88vw,360px);z-index:60;
+    transform:translateX(-102%);transition:.22s;box-shadow:0 0 40px rgba(20,26,44,.25)}
+  body.rail-on .rail{transform:none}
+  .railclose{display:block}
+  .mainzone{padding:14px 14px 20px;overflow:visible}
+  .two,.resgrid{grid-template-columns:1fr;gap:12px}
+  .tnav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;background:#fff;
+    border-top:1px solid var(--line);padding:5px 0;justify-content:space-around}
+  .tnav button{flex:1;flex-direction:column;gap:2px;padding:5px 0;font-size:10.5px;border-radius:0}
+  .tnav button.on{background:transparent;color:var(--pri)}
+  .tnav .ico{display:block;font-size:18px}
+  .sub{height:220px}
+}
+@media (min-width:981px){
+  .wrap{max-width:none;height:100vh;display:flex;flex-direction:column;padding:0;overflow:hidden}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <button class="menubtn" onclick="openRail()">☰</button>
+    <span class="logo">学</span><span class="brand">英语助手</span>
+    <nav class="tnav" id="tnav"></nav>
+    <span class="curtag" id="curtag"></span>
+  </div>
+  <div class="stage">
+    <aside class="rail" id="rail">
+      <button class="railclose" onclick="closeRail()">✕</button>
+      <div class="railhead">
+        <div class="tt"><span>课程</span><span class="sm mut" id="railProg"></span></div>
+        <div class="pick" id="pickRow"></div>
+      </div>
+      <div class="railbody" id="railBody"></div>
+    </aside>
+    <main class="mainzone" id="main"></main>
+  </div>
+</div>
+<div class="overlay" onclick="closeRail()"></div>
+<div id="toast"></div>
+
+<script>
+"use strict";
+var $=s=>document.querySelector(s);
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function fmtT(s){s=Math.max(0,Math.round(s));return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2)}
+
+/* ================= 数据：来自映射表 backend/data/nce_media_map.json ================= */
+var BK={key:'NCE1',title:'第一册',level:'First Things First'};
+var BOOKS=['第一册','第二册','第三册','第四册'];
+var RAIL=[
+ {u:1, oddu:'001&002',t:'Excuse Me',        ls:[1,2],au:'https://nce.mleo.site/NCE1/001%26002.Excuse%20Me.mp3'},
+ {u:2, oddu:'003&004',t:'Sorry, Sir',       ls:[3,4],au:'https://nce.mleo.site/NCE1/003%26004.Sorry%2C%20Sir.mp3'},
+ {u:3, oddu:'005&006',t:'Nice to Meet You', ls:[5,6],au:'https://nce.mleo.site/NCE1/005%26006.Nice%20to%20Meet%20You.mp3'},
+ {u:4, oddu:'007&008',t:'Are You a Teacher',ls:[7,8],au:'https://nce.mleo.site/NCE1/007%26008.Are%20You%20a%20Teacher.mp3'},
+ {u:5, oddu:'009&010',t:'How Are You Today',ls:[9,10],au:'https://nce.mleo.site/NCE1/009%26010.How%20Are%20You%20Today.mp3'},
+ {u:6, oddu:'011&012',t:'Is This Your Shirt',ls:[11,12],au:'https://nce.mleo.site/NCE1/011%26012.Is%20This%20Your%20Shirt.mp3'},
+ {u:7, oddu:'013&014',t:'A New Dress',      ls:[13,14],au:'https://nce.mleo.site/NCE1/013%26014.A%20New%20Dress.mp3'},
+ {u:8, oddu:'015&016',t:'Your Passports, Please',ls:[15,16],au:'https://nce.mleo.site/NCE1/015%26016.Your%20Passports%2C%20Please.mp3'},
+ {u:9, oddu:'017&018',t:'How Do You Do',    ls:[17,18],au:'https://nce.mleo.site/NCE1/017%26018.How%20do%20you%20do.mp3'},
+ {u:10,oddu:'019&020',t:'Tired and Thirsty',ls:[19,20],au:'https://nce.mleo.site/NCE1/019%26020.Tired%20and%20Thirsty.mp3'},
+ {u:11,oddu:'021&022',t:'Which Book',       ls:[21,22],au:'https://nce.mleo.site/NCE1/021%26022.Which%20Book.mp3'},
+ {u:12,oddu:'023&024',t:'Which Glasses',    ls:[23,24],au:'https://nce.mleo.site/NCE1/023%26024.Which%20Glasses.mp3'},
+ {u:13,oddu:'025&026',t:"Mrs. Smith's Kitchen",ls:[25,26],au:'https://nce.mleo.site/NCE1/025%26026.Mrs.%20Smith%27s%20Kitchen.mp3'},
+ {u:14,oddu:'027&028',t:"Mrs. Smith's Living Room",ls:[27,28],au:'https://nce.mleo.site/NCE1/027%26028.Mrs.%20Smith%27s%20Living%20Room.mp3'},
+ {u:15,oddu:'029&030',t:'Come In, Amy',     ls:[29,30],au:'https://nce.mleo.site/NCE1/029%26030.Come%20In%2C%20Amy.mp3'}
+];
+/* 胶学 NCE1 合集（映射表 collections.NCE1） */
+var VIDEO1={title:'新概念第一册 · 胶学 x 刘羽Leo（199P 按课分P）',
+  bvid:'BV1xa411J7jJ',
+  watch:'https://www.bilibili.com/video/BV1xa411J7jJ/',
+  embed:function(n){return 'https://player.bilibili.com/player.html?bvid=BV1xa411J7jJ&high_quality=1&autoplay=0&p='+n}}
+function audioOf(n){for(var i=0;i<RAIL.length;i++)for(var j=0;j<RAIL[i].ls.length;j++)if(RAIL[i].ls[j]===n)return RAIL[i];return null}
+function railIndexOfLesson(n){for(var i=0;i<RAIL.length;i++)for(var j=0;j<RAIL[i].ls.length;j++)if(RAIL[i].ls[j]===n)return i;return 11}
+
+/* 课文（L21-24 演示有内容；真实逐句 LRC 将在导入器灌入） */
+var LDET={
+ 24:{t:'Give me some glasses',zh:'给我一些玻璃杯',dur:80,
+   lines:[{en:'Give me some glasses, please.',zh:'请给我一些玻璃杯。'},
+    {en:'Which glasses? These glasses?',zh:'哪些玻璃杯？这些吗？'},
+    {en:'No, not those. The ones on the shelf.',zh:'不，不是那些。是架子上的那些。'},
+    {en:'These?',zh:'这些吗？'},{en:'Yes, please.',zh:'对，谢谢。'}],
+   words:[['glasses','玻璃杯(复数)'],['shelf','架子'],['cup','杯子'],['bottle','瓶子'],
+     ['empty','空的'],['full','满的'],['which','哪一个'],['ones','代指复数名词']],
+   gram:[['复数指示代词','these = 近指复数 · those = 远指复数','these/those 后接复数名词，be 动词用 are。'],
+     ['ones 代指','the ones + 介词短语','ones 代替前面提过的复数名词。']]},
+ 23:{t:'Which glasses?',zh:'哪几个玻璃杯？',dur:72,
+   lines:[{en:'Give me some glasses, please, Jane.',zh:'请给我几个玻璃杯，简。'},
+    {en:'Which glasses?',zh:'哪几个玻璃杯？'},{en:'These?',zh:'这些吗？'},
+    {en:'No, not those. The ones on the shelf.',zh:'不，不是那些，是架子上的那些。'},
+    {en:'Yes, please.',zh:'好的，谢谢。'}],
+   words:[['glasses','眼镜；玻璃杯'],['which','哪一个；哪些'],['these','这些(近指)'],['those','那些(远指)'],['shelf','架子']],
+   gram:[['指示代词','This/That is … · These/Those are …','these 近指复数，those 远指复数。']]},
+ 22:{t:'Give me a book',zh:'给我一本书',dur:48,
+   lines:[{en:'Give me a book, please.',zh:'请给我一本书。'},
+    {en:'Which one?',zh:'哪一本？'},{en:'The red one.',zh:'红色的那本。'}],
+   words:[['give','给'],['which','哪一个'],['one','代指单数名词'],['red','红色的']],
+   gram:[['one 代指','the + 形容词 + one','one 代替前面提过的单数名词。']]},
+ 21:{t:'Which book?',zh:'哪一本书？',dur:54,
+   lines:[{en:'Give me a book, please.',zh:'请给我一本书。'},{en:'Which book?',zh:'哪一本书？'},
+    {en:'This one?',zh:'这本吗？'},{en:'No, not that one. The red one.',zh:'不，不是那本。红色的那本。'}],
+   words:[['which','哪一个'],['book','书'],['this','这个'],['that','那个'],['red','红色的']],
+   gram:[['指示代词','this / that + one','this 近指，that 远指。']]}
+};
+var LSN={n:24,title:'Give me some glasses',zh:'给我一些玻璃杯',
+  yield:{vocab:8,grammar:2,pattern:3},
+  steps:['课文精听','本课生词','语法讲解','跟读录音','听写检验']};
+var CARDS=[
+ {t:'glasses',ipa:'/ˈɡlɑːsɪz/',from:23,zh:'眼镜；玻璃杯(复数)',ex:'These are my glasses.'},
+ {t:'these',ipa:'/ðiːz/',from:23,zh:'这些(this 复数·近指)',ex:'These are clean.'},
+ {t:'the ones',ipa:'',from:23,zh:'指代刚提过的复数名词',ex:'The ones on the shelf.'},
+ {t:'指示代词',ipa:'',from:21,zh:'this/that is … · these/those are …',ex:'This is my book.'},
+ {t:'give sb sth',ipa:'',from:21,zh:'给某人某物(双宾语)',ex:'Give me a book.'},
+ {t:'cup',ipa:'/kʌp/',from:22,zh:'杯子',ex:'This cup is empty.'},
+ {t:'bottle',ipa:'/ˈbɒtl/',from:22,zh:'瓶子',ex:'Give me a bottle.'},
+ {t:'empty',ipa:'/ˈempti/',from:22,zh:'空的',ex:'The glass is empty.'},
+ {t:'shelf',ipa:'/ʃelf/',from:23,zh:'架子',ex:'on the shelf'},
+ {t:'which',ipa:'/wɪtʃ/',from:23,zh:'哪一个',ex:'Which one?'},
+ {t:'glasses',ipa:'',from:23,zh:'玻璃杯',ex:'some glasses'},
+ {t:'one',ipa:'/wʌn/',from:22,zh:'代指单数名词',ex:'The red one.'}
+];
+var RATINGS=[{l:'忘了',n:'10 分后'},{l:'模糊',n:'1 天后'},{l:'想起',n:'3 天后'},{l:'简单',n:'7 天后'}];
+var RATES=[0.75,1,1.25,1.5];
+var SUBMODES=['show','blur','english','chinese'];
+var SUBUI={show:'双',blur:'糊',english:'英',chinese:'中'};
+var SUBTIP={show:'双语',blur:'模糊翻译·悬停可看',english:'仅英文',chinese:'仅中文'};
+var EXTRA=[{t:'Coffee Break English · S1E1',s:'打招呼 / 自我介绍',d:'15:12'},
+ {t:'BBC 6 Minute English · 日常作息',s:'日常表达',d:'6:02'}];
+
+/* ================= 状态 ================= */
+function freshPl(n){return {n:n,cur:0,playing:false,rateIdx:1,pos:0,abA:null,abB:null,loop1:false,drag:false}}
+var S={main:'today',book:'0',railOpen:false,
+  todayView:'today',            /* 今日流程子页 */
+  cur:24,                       /* 当前正在学习的课（学课文/自习都用它） */
+  studyN:24,                    /* 自习区显示的课 */
+  sub:0,pl:freshPl(24),flip:{},
+  reviewTotal:8,reviewDone:0,revealed:false,lastNext:'',stepDone:0,curStep:0,
+  usedMin:18,totalMin:45,lessonNo:24,doneLesson:23,totalLesson:144,
+  ret7:false,quick:false};
+var pct=()=>Math.min(100,Math.round(S.usedMin/S.totalMin*100));
+
+/* ================= 渲染 ================= */
+function render(){
+  stopTick();
+  if(document.body){
+    document.body.classList.toggle('rail-on',S.railOpen);
+    for(var i=0;i<SUBMODES.length;i++)document.body.classList.remove('sub-'+SUBMODES[i]);
+    document.body.classList.add('sub-'+SUBMODES[S.sub]);
+  }
+  renderNav();renderRail();renderMain();
+  if(S.pl.playing)startTick();
+}
+function NAVI(){return [{k:'today',i:'◷',t:'今日'},{k:'study',i:'▤',t:'自习'},
+ {k:'res',i:'◈',t:'资源'}]}
+function renderNav(){
+  $('#tnav').innerHTML=NAVI().map(function(x){
+    var on=(S.main===x.k)||(x.k==='today'&&S.main==='today');
+    return '<button class="'+(on?'on':'')+'" onclick="goMain(\''+x.k+'\')">'+
+      '<span class="ico">'+x.i+'</span>'+x.t+'</button>';
+  }).join('');
+  var ct='';
+  if(S.main==='today')ct='<span class="pill">今日 '+(pct()>=100?'已完成':'进行中')+'</span>';
+  else if(S.main==='study')ct='<span class="pill">在学 L'+S.studyN+' · 自由自习</span>';
+  else ct='<span class="pill">资源库</span>';
+  $('#curtag').innerHTML=ct;
+}
+function goMain(k){
+  S.main=k;
+  if(k==='study'){S.studyN=S.cur;S.pl=freshPl(S.studyN);}
+  S.railOpen=false;render();
+}
+function openRail(){S.railOpen=true;render();}
+function closeRail(){S.railOpen=false;render();}
+
+function renderMain(){
+  var h;
+  if(S.main==='res')h=viewRes();
+  else if(S.main==='study')h=studyView(S.studyN);
+  else h=todayFlow();
+  h+=demoBar();
+  $('#main').innerHTML=h;
+}
+
+/* ===== 课程侧栏 ===== */
+function renderRail(){
+  $('#railProg').textContent='已学 '+S.doneLesson+' / '+S.totalLesson;
+  $('#pickRow').innerHTML=
+    '<span class="sel"><select onchange="setBook(this.value)">'+BOOKS.map(function(b,i){
+      return '<option value="'+i+'">'+b+'</option>';
+    }).join('')+'</select></span>'+
+    '<span class="sel"><select id="unitJump" onchange="jumpUnit(this.value)"></select></span>';
+  var us=RAIL,opts=['<option value="-1">跳到单元…</option>'];
+  us.forEach(function(u,i){opts.push('<option value="'+i+'">U'+(i+1)+' '+esc(u.t)+'</option>');});
+  $('#unitJump').innerHTML=opts.join('');
+  /* 高亮当前学习课所在单元 */
+  var hi=railIndexOfLesson(S.main==='study'?S.studyN:S.cur);
+  $('#unitJump').value=String(hi);
+  $('#railBody').innerHTML=us.map(function(u,i){
+    var isHi=i===hi;
+    var txt='<div class="uitem'+(isHi?' active':'')+'" onclick="jumpUnit('+i+')">'+
+      '<div class="urow"><span class="uno">U'+(i+1)+'</span>'+
+      '<span class="ut">'+esc(u.t)+'</span>'+
+      '<span class="lcs">'+u.ls.map(function(n){
+        var c=S.book==='0'?'':(n<=S.doneLesson?'done':(n===S.lessonNo?'cur':''));
+        if(n===S.cur)c+=' sel';
+        return '<button class="lc '+c+'" title="L'+n+'" onclick="event.stopPropagation();openLesson('+n+')">'+n+'</button>';
+      }).join('')+'</span></div></div>';
+    return txt;
+  }).join('');
+  var act=document.querySelector('#railBody .uitem.active');
+  if(act&&isNarrow()===false){ /* PC: 自动滚到中央 */ try{act.scrollIntoView({block:'center'});}catch(e){} }
+}
+function isNarrow(){return typeof window!=='undefined'&&window.innerWidth<=980}
+function setBook(v){
+  if(v!=='0'){toast('第二~四册课文待导入 —— 先用第一册体验布局');render();return;}
+  S.book='0';S.cur=1;S.studyN=1;S.pl=freshPl(1);S.reviewDone=0;render();
+}
+function jumpUnit(i){
+  if(i<0||i>=RAIL.length)return;
+  var u=RAIL[i];
+  /* 单元内默认打开第一课（奇数主课文） */
+  openLesson(u.ls[0]);
+}
+function openLesson(n){
+  S.cur=n;S.studyN=n;S.main='study';S.pl=freshPl(n);S.flip={};
+  if(isNarrow())S.railOpen=false;
+  render();
+  var act=document.querySelector('#railBody .uitem.active');
+  if(act&&!isNarrow()){try{act.scrollIntoView({block:'center'});}catch(e){}}
+}
+
+/* ===== 今日流程 ===== */
+function teacherLine(){
+  if(S.todayView==='done')return '今天的事做完了。剩下的时间是你自己的。';
+  if(S.ret7)return '你断了 3 天。今天不做新的，只清 8 张最关键的卡，其余分摊到后面几天。';
+  if(S.quick)return '只有 5 分钟？做几张最该复习的，今天的链就续上了。';
+  return '今天两件事，约 45 分钟。先复习，再学 L24。';
+}
+function todayFlow(){
+  if(S.todayView==='review')return viewReview();
+  if(S.todayView==='lesson')return viewLesson();
+  if(S.todayView==='done')return viewDone();
+  if(S.todayView==='lessonDone')return viewLessonDone();
+  return viewToday();
+}
+function viewToday(){
+  var p=pct();
+  var h='<div style="max-width:860px">';
+  h+='<div class="teacher"><div class="tea-ava">师</div><div class="tea-txt">'+teacherLine()+'</div></div>';
+  h+='<div class="ringbox"><div class="ring">'+ring(p)+
+     '<div class="ct"><b>'+p+'%</b><span>'+Math.round(S.usedMin)+' / '+S.totalMin+' 分钟</span></div></div></div>';
+  h+=trow('1','复习到期卡',S.reviewTotal+' 张',S.reviewDone+'/'+S.reviewTotal,S.reviewDone>=S.reviewTotal&&S.reviewTotal>0);
+  if(!S.ret7&&!S.quick)h+=trow('2','学 L24 · 五步法','约 25 分钟',S.stepDone+'/5',S.stepDone>=5);
+  h+='<button class="mainbtn" onclick="nextTask()">'+nextLabel()+'</button>';
+  if(!S.ret7&&!S.quick&&p<100)h+='<button class="sidelink" onclick="S.quick=true;S.reviewTotal=5;S.reviewDone=0;render()">只有 5 分钟？做 5 张最该复习的</button>';
+  if(S.ret7||S.quick)h+='<button class="sidelink" onclick="S.ret7=false;S.quick=false;S.reviewTotal=8;S.reviewDone=0;render()">回到今天的完整安排</button>';
+  /* 全局进度 */
+  var gp=Math.round(S.doneLesson/S.totalLesson*100);
+  h+='<div class="card pad" style="margin-top:16px"><div class="sm mut" style="font-weight:800;margin-bottom:6px">你在 L'+S.lessonNo+' / 共 '+S.totalLesson+' 课 · 已学 '+S.doneLesson+' 课</div>'+
+     '<div class="gbar"><i style="width:'+gp+'%"></i></div></div>';
+  h+='</div>';
+  return h;
+}
+function trow(n,name,sub,cnt,ok){
+  return '<div class="task'+(ok?' ok':'')+'"><span class="n">'+(ok?'✓':n)+'</span>'+
+    '<div><div class="nm">'+name+'</div><div class="pg">'+sub+'</div></div><span class="cnt">'+cnt+'</span></div>';
+}
+function nextLabel(){
+  if(S.ret7||S.quick)return '开始复习第 1 张';
+  if(S.reviewDone<S.reviewTotal)return '继续复习：第 '+(S.reviewDone+1)+' 张';
+  if(S.stepDone>=5)return '今日已完成';
+  return '学 L24 · 第 '+(S.stepDone+1)+' 步';
+}
+function nextTask(){
+  if(S.reviewDone<S.reviewTotal){S.todayView='review';S.revealed=false;S.lastNext='';}
+  else if(S.stepDone<5){S.todayView='lesson';S.curStep=S.stepDone;}
+  else S.todayView='done';
+  render();
+}
+function backToday(){S.todayView=pct()>=100?'done':'today';render();}
+
+function viewReview(){
+  if(S.reviewDone>=S.reviewTotal){S.todayView='today';return todayFlow();}
+  var i=S.reviewDone,c=CARDS[i];
+  var h='<div style="max-width:640px;margin:0 auto">';
+  h+='<div class="hdr"><button class="back" onclick="backToday()">← 今日</button>'+
+     '<span class="pos">复习 '+(i+1)+' / '+S.reviewTotal+'</span></div>';
+  h+='<div class="pbar"><i style="width:'+Math.round(i/S.reviewTotal*100)+'%"></i></div>';
+  h+='<div class="card pad"><div class="face"><div class="w">'+esc(c.t)+'</div>'+
+     (c.ipa?'<div class="ipa">'+c.ipa+'</div>':'')+'</div>';
+  h+='<div class="srcline"><button class="srcbtn" onclick="openLesson('+c.from+')">回看 L'+c.from+' 原文（就在左侧列表）→</button></div>';
+  if(!S.revealed)h+='<button class="mainbtn ghost" onclick="S.revealed=true;render()">显示答案</button>';
+  else{
+    h+='<div class="ans"><div class="zh">'+esc(c.zh)+'</div><div class="ex">'+esc(c.ex)+'</div></div>';
+    if(S.lastNext){h+='<div class="nextnote">✓ 下次：'+S.lastNext+'</div>';
+      h+='<button class="mainbtn" onclick="nextCard()">下一张</button>';}
+    else h+='<div class="rate2">'+RATINGS.map(function(r,ri){
+      return '<button class="r'+(ri+1)+'" onclick="rate('+ri+')">'+r.l+'<i>'+r.n+'</i></button>';
+    }).join('')+'</div>';
+  }
+  h+='</div></div>';
+  return h;
+}
+function rate(i){S.lastNext=RATINGS[i].next;render();}
+function nextCard(){
+  S.reviewDone++;S.revealed=false;S.lastNext='';
+  if(S.reviewDone>=S.reviewTotal){
+    if(S.ret7||S.quick){toast('今天的链续上了 ✓');S.ret7=false;S.quick=false;S.todayView='done';S.usedMin=S.totalMin;}
+    else{toast('复习完成 ✓');S.todayView='today';}
+    render();
+  }else render();
+}
+function viewLesson(){
+  var n=S.lessonNo,p=Math.round(S.curStep/5*100);
+  var h='<div style="max-width:960px">';
+  h+='<div class="hdr"><button class="back" onclick="backToday()">← 今日</button>'+
+     '<span class="pos">L'+n+' · 第 '+(S.curStep+1)+' 步 / 5 步</span></div>';
+  h+='<div class="ltitle">'+LSN.title+'</div><div class="lzh">'+LSN.zh+'</div>';
+  h+='<div class="pbar" style="margin:12px 0 16px"><i style="width:'+p+'%"></i></div>';
+  h+='<div class="steps">'+LSN.steps.map(function(s,i){
+    var cls=i<S.stepDone?' done':(i===S.curStep?' cur':'');
+    return '<div class="s'+cls+'"><div class="dot">'+(i<S.stepDone?'✓':(i+1))+'</div>'+
+      '<div class="lb">'+s.slice(0,2)+'</div></div>';
+  }).join('')+'</div>';
+  h+='<div class="dsec"><h3>第 '+(S.curStep+1)+' 步 · '+LSN.steps[S.curStep]+'</h3>'+stepBody(S.curStep)+'</div>';
+  h+='<div class="dsec"><h3>课文精听</h3>'+studyBox(n)+'</div>';
+  h+='<button class="mainbtn" onclick="finishStep()">完成第 '+(S.curStep+1)+' 步</button></div>';
+  return h;
+}
+function stepBody(i){
+  var d=LDET[LSN.n];
+  if(i===0)return '<div class="sm mut">用下方播放器逐句精听 —— 单句循环、A-B 复读、倍速，右侧字幕支持中英/模糊。</div>';
+  if(i===1&&d)return '<div class="wrow">'+d.words.map(function(w,k){
+      return '<button class="wchip'+(S.flip[k]?' flip':'')+'" onclick="S.flip['+k+']=!S.flip['+k+'];render()">'+esc(w[0])+'<span class="bk">'+esc(w[1])+'</span></button>';
+    }).join('')+'</div>';
+  if(i===2&&d)return d.gram.map(gramCard).join('');
+  if(i===3)return '<div class="actionbox"><div class="t">跟读课文，录音后回放对比。读出来就算过。</div>'+
+    '<button class="btnrec" onclick="toast(\'录音中…（演示）\')">🎙</button></div>';
+  if(i===4)return '<div class="actionbox"><div class="t">听一句写一句，写不出就跳过。</div>'+
+    '<input class="dictinput" placeholder="写下你听到的句子…" style="width:100%;padding:11px;border:1px solid var(--line);border-radius:11px;margin-top:10px;font:inherit"> </div>';
+  return '<div class="empty">内容待导入</div>';
+}
+function gramCard(g){
+  var h='<div class="grule"><div class="k">'+esc(g[0])+'</div><div class="f">'+esc(g[1])+'</div><div class="d">'+esc(g[2])+'</div>';
+  if(g[0]==='复数指示代词'||g[0]==='指示代词')h+='<div class="relbox"><div class="relh">出现在 L21 / L23 / L24 · 讲这点的：</div><div class="rel">'+
+     '<button onclick="openLesson(21)">L21 课文</button><button onclick="openLesson(24)">L24 课文</button>'+
+     '<button class="hot" onclick="openVideo(24)">🎬 胶学 L24</button></div></div>';
+  return h+'</div>';
+}
+function finishStep(){
+  S.stepDone++;
+  if(S.stepDone>=5){S.usedMin=S.totalMin;S.doneLesson=Math.max(S.doneLesson,S.lessonNo);S.lessonNo++;S.todayView='lessonDone';}
+  else{S.usedMin=Math.min(S.totalMin,S.usedMin+5);S.curStep=S.stepDone;toast('第 '+S.stepDone+' 步完成 ✓');}
+  render();
+}
+function viewLessonDone(){
+  var y=LSN.yield;
+  return '<div style="max-width:640px;margin:0 auto"><div class="card pad"><div style="font-size:19px;font-weight:900">L'+LSN.n+' 学完了 ✓</div>'+
+    '<div class="yield"><div class="h">本课沉淀</div><div class="b">生词 '+y.vocab+' · 语法 '+y.grammar+' · 句型 '+y.pattern+'</div>'+
+    '<div class="b" style="color:var(--mut);font-size:13px">已加入复习计划，明天会再见。</div></div>'+
+    '<button class="mainbtn" onclick="backToday()">回到今日</button></div></div>';
+}
+function viewDone(){
+  var h='<div style="max-width:720px">';
+  h+='<div class="teacher"><div class="tea-ava">师</div><div class="tea-txt">'+teacherLine()+'</div></div>';
+  h+='<div class="ringbox"><div class="ring">'+ring(100)+'<div class="ct"><b>100%</b><span>用了 '+Math.round(S.usedMin)+' 分钟</span></div></div></div>';
+  h+=trow('1','复习到期卡',S.reviewTotal+' 张',S.reviewTotal+'/'+S.reviewTotal,true);
+  if(!S.ret7&&!S.quick)h+=trow('2','学 L24 · 五步法','约 25 分钟','5/5',true);
+  h+='<div class="tmrow"><div class="h">明天</div><div class="t">复习 8 张 + 学 L25</div></div>';
+  h+='</div>';
+  return h;
+}
+function ring(p){
+  var size=124,r=size/2-10,c=2*Math.PI*r;
+  return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 '+size+' '+size+'">'+
+    '<circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#e9edf4" stroke-width="11"/>'+
+    '<circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#4353ff" stroke-width="11" '+
+    'stroke-linecap="round" stroke-dasharray="'+c+'" stroke-dashoffset="'+c*(1-p/100)+'"/></svg>';
+}
+
+/* ================= 自习区（选课即学） ================= */
+function studyView(n){
+  var d=LDET[n],rc=audioOf(n);
+  var h='';
+  h+='<div class="row" style="gap:10px;margin-bottom:4px">'+
+     '<span class="pill" style="background:var(--pri-soft);color:var(--pri)">自习</span>'+
+     '<span class="sm mut">左栏课程任选 · 不影响今日任务</span>'+
+     '<span style="margin-left:auto">'+(rc?'<a class="back" href="'+rc.au+'" target="_blank">原音频 ↗</a>':'')+'</span></div>';
+  h+='<div class="ltitle" style="font-size:23px">L'+n+' · '+(d?esc(d.t):'')+'</div>';
+  h+='<div class="lzh">'+(d?esc(d.zh):'')+(n<=S.doneLesson?' · 已学':' · '+(n===S.lessonNo?'正在学':'未学'))+'</div>';
+  if(!d){
+    h+='<div class="empty" style="margin-top:16px">L'+n+' 的课文/字幕还没导入（导入器跑完 144 课即齐）。'+
+       '<br>不过这一课的【真实音频】与【胶学讲解】现在就能用 ↓</div>';
+    if(rc)h+=realAudio(rc);
+    h+=videoBox(n);
+    return h;
+  }
+  h+='<div class="two" style="margin-top:16px">';
+  h+='<div>'+studyBox(n)+(rc?realAudio(rc):'')+'</div>';
+  h+='<div><div class="dsec"><h3>生词 · '+d.words.length+'</h3><div class="wrow">'+d.words.map(function(w,k){
+      return '<button class="wchip'+(S.flip[k]?' flip':'')+'" onclick="S.flip['+k+']=!S.flip['+k+'];render()">'+esc(w[0])+'<span class="bk">'+esc(w[1])+'</span></button>';
+    }).join('')+'</div></div>'+
+    '<div class="dsec"><h3>语法</h3>'+d.gram.map(gramCard).join('')+'</div>'+
+    '<div class="dsec"><h3>胶学精讲</h3>'+videoBox(n)+'</div></div></div>';
+  if(n===S.lessonNo)h+='<button class="mainbtn ghost" onclick="goMain(\'today\');S.todayView=\'lesson\';S.curStep=S.stepDone;render()" style="max-width:300px">← 今天正在学这课，去完成今日任务</button>';
+  return h;
+}
+/* 真实音频（映射表 audio_url · CORS * 可直接播放） */
+function realAudio(rc){
+  return '<div class="real-audio"><div class="rt">单元录音（'+(rc.oddu||'')+' · '+esc(rc.t)+'）真实音频 · nce.mleo.site</div>'+
+    '<audio controls preload="none" src="'+rc.au+'" onerror="toast(\'音频加载失败：可能需联网\')"></audio></div>';
+}
+/* 胶学视频（映射表 collections.NCE1 · 真 iframe 尝试） */
+function videoBox(n){
+  var vp=VIDEO1;
+  return '<div class="pv"><iframe class="pv-iframe" style="width:100%;aspect-ratio:16/9;border:0" '+
+    'src="'+vp.embed(n)+'" scrolling="no" frameborder="0" allowfullscreen loading="lazy"></iframe>'+
+    '<div class="pv-foot"><span>胶学 · L'+n+' 精讲（P'+n+'）</span><span class="sp"></span>'+
+    '<a href="'+vp.watch+'" target="_blank">B站原链 ↗</a></div></div>';
+}
+/* ===== 学习区：字幕 + 模拟播放器（演示走位） ===== */
+function studyBox(n){
+  var d=LDET[n];if(!d)return '';
+  var P=S.pl;
+  if(P.n!==n)P=S.pl=freshPl(n);
+  var ui=SUBUI,tt=SUBTIP,sm=SUBMODES[S.sub];
+  var h='<div class="study"><div class="sub" id="subBox">'+d.lines.map(function(l,i){
+      return '<button class="sub-line'+(i===P.cur?' active':'')+'" onclick="plGo('+i+')">'+
+        '<span class="en">'+esc(l.en)+'</span><span class="zh">'+esc(l.zh)+'</span></button>';
+    }).join('')+'</div>';
+  h+='<div class="pl"><div class="pl-top">'+
+     '<button class="pl-play" id="plPlayBtn" onclick="plPlay()">▶</button>'+
+     '<div class="pl-mid"><div class="pl-t">L'+n+' · '+esc(d.t)+'</div>'+
+     '<div class="pl-s" id="plState">'+plState()+'</div></div>'+
+     '<button class="pl-btn" id="subBtn" title="'+tt[sm]+'" onclick="subMode()">'+ui[sm]+'</button></div>';
+  h+='<div class="pl-track" id="plTrack" onpointerdown="plDs(event)" onpointermove="plDm(event)" '+
+     'onpointerup="plDe(event)" onpointercancel="plDe(event)">'+
+     '<div class="pl-rail"></div><div class="pl-abseg" id="plABseg" style="display:none"></div>'+
+     '<div class="pl-fill" id="plFill" style="width:0"></div><div class="pl-knob" id="plKnob" style="left:0"></div></div>';
+  h+='<div class="pl-time"><span id="plCur">0:00</span><span>'+fmtT(d.dur)+'</span></div>';
+  h+='<div class="pl-ctrl">'+
+     '<button class="pl-btn" onclick="plStep(-1)">⏮上一句</button>'+
+     '<button class="pl-btn" onclick="plStep(1)">⏭下一句</button>'+
+     '<button class="pl-btn'+(P.loop1?' on':'')+'" onclick="plLoop()">🔁单句循环</button>'+
+     '<button class="pl-btn'+(P.abA!=null?' warm':'')+'" onclick="plAB()">'+abTxt()+'</button>'+
+     '<button class="pl-btn'+(RATES[P.rateIdx]!==1?' on':'')+'" onclick="plRate()">'+RATES[P.rateIdx]+'x</button>'+
+     '</div></div></div>';
+  return h;
+}
+function plState(){
+  var P=S.pl,b=[];
+  if(P.loop1)b.push('单句循环');
+  if(RATES[P.rateIdx]!==1)b.push(RATES[P.rateIdx]+'x');
+  if(P.abA!=null&&P.abB!=null)b.push('A-B 区间循环');
+  else if(P.abA!=null)b.push('已设 A 点');
+  return b.join(' · ')||'模拟走位演示（接 LRC 后即对齐真实音频）';
+}
+function abTxt(){var P=S.pl;
+  if(P.abA==null)return '⭯ A-B复读';
+  if(P.abB==null)return 'A:句'+(P.abA+1)+'·设B';
+  return 'A-B:'+(Math.min(P.abA,P.abB)+1)+'-'+(Math.max(P.abA,P.abB)+1)+'·取消';
+}
+var tickId=null;
+function startTick(){stopTick();tickId=setInterval(plTick,110);}
+function stopTick(){if(tickId){clearInterval(tickId);tickId=null;}}
+function plTick(){
+  var P=S.pl,d=LDET[P.n];if(!d||!P.playing||P.drag)return;
+  var total=d.lines.length,seg=1/total;
+  P.pos+=0.0035*RATES[P.rateIdx];
+  if(P.abA!=null&&P.abB!=null){var a=Math.min(P.abA,P.abB),b=Math.max(P.abA,P.abB);
+    if(P.pos>=(b+1)*seg-0.0006)P.pos=a*seg;}
+  else if(P.loop1){if(P.pos>=(P.cur+1)*seg-0.0006)P.pos=P.cur*seg;}
+  if(P.pos>=1){P.pos=1;P.playing=false;stopTick();}
+  var idx=Math.min(total-1,Math.floor(P.pos*total));
+  if(idx!==P.cur)P.cur=idx;
+  paint();
+}
+function paint(){
+  var P=S.pl,d=LDET[P.n];if(!d)return;
+  var total=d.lines.length,seg=1/total,w=(P.pos*100).toFixed(2)+'%';
+  var f=$('#plFill'),k=$('#plKnob'),c=$('#plCur'),st=$('#plState'),pb=$('#plPlayBtn');
+  if(f)f.style.width=w;if(k)k.style.left=w;if(c)c.textContent=fmtT(P.pos*d.dur);
+  if(st)st.textContent=plState();if(pb)pb.textContent=P.playing?'❚❚':'▶';
+  var ab=$('#plABseg');
+  if(ab){if(P.abA!=null&&P.abB!=null){var a=Math.min(P.abA,P.abB),b=Math.max(P.abA,P.abB);
+    ab.style.display='block';ab.style.left=(a*seg*100)+'%';ab.style.width=((b-a+1)*seg*100)+'%';}
+    else ab.style.display='none';}
+  var ls=document.querySelectorAll('.sub-line');
+  for(var i=0;i<ls.length;i++)ls[i].classList.toggle('active',i===P.cur);
+  var box=$('#subBox');
+  if(box&&P.playing){
+    var act=box.querySelector('.sub-line.active');
+    if(act){var br=box.getBoundingClientRect(),ar=act.getBoundingClientRect(),pd=br.height*.22;
+      if(ar.top<br.top+pd||ar.bottom>br.bottom-pd)act.scrollIntoView({behavior:'smooth',block:'center'});}
+  }
+}
+function plPlay(){
+  S.pl.playing=!S.pl.playing;
+  if(S.pl.playing)startTick();else stopTick();
+  var pb=$('#plPlayBtn'),st=$('#plState');
+  if(pb)pb.textContent=S.pl.playing?'❚❚':'▶';
+  if(st)st.textContent=plState();
+}
+function plGo(i){var P=S.pl,d=LDET[P.n];if(!d)return;P.cur=i;P.pos=i/d.lines.length;P.playing=true;startTick();paint();}
+function plStep(v){var P=S.pl,d=LDET[P.n];if(!d)return;
+  P.cur=Math.min(d.lines.length-1,Math.max(0,P.cur+v));P.pos=P.cur/d.lines.length;P.playing=true;startTick();paint();}
+function plRate(){S.pl.rateIdx=(S.pl.rateIdx+1)%RATES.length;render();}
+function plLoop(){S.pl.loop1=!S.pl.loop1;render();}
+function plAB(){var P=S.pl;
+  if(P.abA==null)P.abA=P.cur;
+  else if(P.abB==null){if(P.abA===P.cur){P.abA=null;toast('A、B 不能同一句');}else P.abB=P.cur;}
+  else{P.abA=null;P.abB=null;}
+  render();}
+function plDs(e){S.pl.drag=true;if(e.target.setPointerCapture)e.target.setPointerCapture(e.pointerId);plSx(e.clientX);}
+function plDm(e){if(S.pl.drag)plSx(e.clientX);}
+function plDe(e){if(!S.pl.drag)return;S.pl.drag=false;
+  if(e&&e.target&&e.target.releasePointerCapture){try{e.target.releasePointerCapture(e.pointerId);}catch(x){}}}
+function plSx(cx){var P=S.pl,d=LDET[P.n],t=$('#plTrack');if(!d||!t)return;
+  var r=t.getBoundingClientRect();P.pos=Math.min(1,Math.max(0,(cx-r.left)/r.width));
+  P.cur=Math.min(d.lines.length-1,Math.floor(P.pos*d.lines.length));paint();}
+function subMode(){S.sub=(S.sub+1)%4;render();}
+
+/* ================= 资源 ================= */
+function viewRes(){
+  var n=S.lessonNo;
+  var h='<div class="ltitle">资源库</div>';
+  h+='<div class="sm mut" style="margin:6px 0 16px">真实资源已接入：nce 音频（可播放）、胶学讲解（B站内嵌）。</div>';
+  h+='<div class="resgrid">';
+  h+='<div><div class="dsec"><h3>当前课 · L'+n+'</h3>'+studyBox(n)+(audioOf(n)?realAudio(audioOf(n)):'')+'</div></div>';
+  h+='<div><div class="dsec"><h3>胶学讲解 · L'+n+'</h3>'+videoBox(n)+'</div>';
+  h+='<div class="dsec"><h3>泛听</h3>'+EXTRA.map(function(e){
+    return '<button class="ap" onclick="toast(\'播放：'+esc(e.t)+'（演示）\')"><span class="ap-t">'+esc(e.t)+
+      '</span><span class="ap-s">'+esc(e.s)+'</span><span class="ap-time">'+e.d+'</span></button>';
+  }).join('')+'</div></div></div>';
+  return h;
+}
+function openVideo(n){toast('已在右侧打开胶学 L'+n+'（正式版切到该 P 播放）');}
+
+/* ================= 演示切换 ================= */
+var DEMO=[{k:'today',n:'今日'},{k:'study',n:'自习 L24'},{k:'L23',n:'自习 L23'},{k:'res',n:'资源'},
+ {k:'done',n:'今日完成'},{k:'ret7',n:'断3天'}];
+function demoBar(){
+  var cur=S.main==='today'?(S.todayView==='done'?'done':'today'):S.main;
+  return '<div class="demo"><div class="dl">演示切换（正式版不存在）</div><div class="db">'+DEMO.map(function(d){
+    var on=(d.k==='today'&&cur==='today')||(d.k==='done'&&cur==='done')||
+      (d.k==='study'&&S.main==='study'&&S.studyN===24)||(d.k==='L23'&&S.main==='study'&&S.studyN===23)||
+      (d.k==='res'&&S.main==='res');
+    return '<button class="'+(on?'on':'')+'" onclick="goDemo(\''+d.k+'\')">'+d.n+'</button>';
+  }).join('')+'</div></div>';
+}
+function goDemo(k){
+  if(k==='today'){S.main='today';S.todayView='today';S.reviewTotal=8;S.reviewDone=0;S.ret7=false;S.quick=false;}
+  else if(k==='done'){S.main='today';S.todayView='done';S.reviewTotal=8;S.reviewDone=8;S.usedMin=S.totalMin;}
+  else if(k==='ret7'){S.main='today';S.todayView='today';S.ret7=true;S.reviewTotal=8;S.reviewDone=0;S.usedMin=0;}
+  else if(k==='res'){S.main='res';}
+  else if(k==='L23'){openLesson(23);return;}
+  else{openLesson(24);return;}
+  render();
+}
+
+/* 工具 */
+function toast(m){var t=$('#toast');t.textContent=m;t.style.opacity='1';
+  clearTimeout(t._t);t._t=setTimeout(function(){t.style.opacity='0';},2000);}
+
+render();
+</script>
+</body>
+</html>

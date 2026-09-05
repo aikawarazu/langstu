@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>学习助手 · 方案集选型台</title>
+<style>
+  :root{ --ink:#1d2233; --mut:#7a8196; --line:#e6e9f2; --bg:#f4f6fb; --card:#fff;
+    --accent:#4353ff; --accent2:#ff6b4a; --ok:#18a66b; --warn:#e29a21; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;color:var(--ink);background:
+    radial-gradient(1200px 500px at 85% -10%, #e7ecff 0%, transparent 60%),
+    radial-gradient(900px 400px at -10% 20%, #ffece6 0%, transparent 55%), var(--bg);min-height:100vh;padding:48px 20px}
+  .wrap{max-width:1060px;margin:0 auto}
+  .kicker{color:var(--accent);font-weight:800;letter-spacing:2px;font-size:12px}
+  h1{font-size:30px;letter-spacing:.5px;margin:8px 0 10px}
+  .lead{color:var(--mut);line-height:1.9;max-width:780px;font-size:14px}
+  .grid{margin-top:30px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:12px;
+    box-shadow:0 10px 30px -18px rgba(30,40,90,.25);transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden}
+  .card:hover{transform:translateY(-3px);box-shadow:0 18px 40px -20px rgba(30,40,90,.35)}
+  .no{position:absolute;top:14px;right:18px;font-size:44px;font-weight:900;color:#eef0f8;-webkit-text-stroke:1px #dfe3f0}
+  .head2{display:flex;align-items:center;gap:10px}
+  .pill{padding:5px 12px;border-radius:99px;font-size:12px;font-weight:800}
+  .p-blue{background:#e9edff;color:#4353ff}.p-org{background:#ffebe4;color:#e4572e}.p-grn{background:#e3f6ec;color:#0e8a55}
+  h2{font-size:19px}
+  .sub{color:var(--mut);font-size:13.5px;line-height:1.85}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-size:11.5px;padding:4px 9px;border-radius:99px;background:#f1f3fa;color:#5a6180}
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .fb{background:#f8f9fd;border:1px solid var(--line);border-radius:12px;padding:9px 11px;font-size:12px}
+  .fb b{display:block;font-size:12px;margin-bottom:3px}
+  .fb span{color:var(--mut);line-height:1.7}
+  a.open{margin-top:4px;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:#fff;background:var(--ink);
+    border-radius:13px;padding:11px 14px;font-size:14px;font-weight:700}
+  a.open:hover{background:var(--accent)}
+  a.open.ghost{background:#f1f3fa;color:var(--ink)}
+  a.open.ghost:hover{background:#e6e9f6}
+  .note{margin-top:26px;background:#fff8ec;border:1px dashed #e8c98f;border-radius:14px;padding:14px 16px;color:#7a5a16;font-size:12.5px;line-height:1.9}
+  .freq{font-size:12px;color:var(--mut);font-weight:600;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">PROTOTYPE CONCEPT SUITE · 选型台</div>
+  <h1>学习助手 · 三套交互方案原型</h1>
+  <div class="lead">这三套不是换肤，而是在<b>系统骨架、排版与交互逻辑</b>上不同的产品方案，且都做了<b>电脑宽屏 ↔ 手机竖屏</b>的差异化排版。
+  每套右上角有「桌面 / 手机」视口切换器，用来模拟不同设备的排版与操作。逐套点完，告诉我你保留哪套、想融合谁的哪一部分。</div>
+
+  <div class="grid">
+
+    <div class="card">
+      <span class="no">01</span>
+      <div class="head2"><span class="pill p-org">移动优先 · 清单流</span></div>
+      <h2>今日 · 一份清单走到黑</h2>
+      <div class="sub">手机竖屏出生：信息是"一列卡片"，任务是"勾选项"，学习是"翻卡"。老师用来信在页头催你，你按早/午/灵活三组执行，清单完了今天就算完。</div>
+      <div class="tags"><span class="tag">底部 5 Tab</span><span class="tag">任务分组勾选</span><span class="tag">双面卡翻转</span><span class="tag">10 页全流程</span><span class="tag">4 套配色</span></div>
+      <div class="duo">
+        <div class="fb"><b>手机端</b><span>单列信息流是它的主场：勾任务→读课文→翻卡→打卡，拇指到底。</span></div>
+        <div class="fb"><b>桌面端</b><span>演示先用居中窄栏 + 大字排版，牺牲宽屏换取"哪里都一样"。选了这套我们再为 PC 重新铺排版。</span></div>
+      </div>
+      <a class="open" href="flow/index.html" target="_blank">打开原型 01 →</a>
+    </div>
+
+    <div class="card">
+      <span class="no">02</span>
+      <div class="head2"><span class="pill p-blue">桌面优先 · 督学工作台</span></div>
+      <h2>三栏工作台 · 各就各位并行</h2>
+      <div class="sub">宽屏的用法：左侧<b>课程树</b>管进度，中央<b>学习区</b>干活，右侧<b>复习队列</b>随时候命——像 IDE 一样把"下一步"永远摆在眼前，零切换。</div>
+      <div class="tags"><span class="tag">三栏 Dashboard</span><span class="tag">课程树/主区/队列</span><span class="tag">桌面设备切换器</span><span class="tag">窄屏自动收敛</span></div>
+      <div class="duo">
+        <div class="fb"><b>桌面端</b><span>大屏是它的设计前提：多栏并行、侧栏可收、实时掌握度随手可见。</span></div>
+        <div class="fb"><b>手机端</b><span>同一系统折叠成底部 4 Tab 的单列流，右栏队列进"复习页"，不把桌面排版硬塞进竖屏。</span></div>
+      </div>
+      <a class="open" href="desk/index.html" target="_blank">打开原型 02 →</a>
+    </div>
+
+    <div class="card">
+      <span class="no">03</span>
+      <div class="head2"><span class="pill p-grn">对话式 · 老师陪学</span></div>
+      <h2>聊天框就是学习入口</h2>
+      <div class="sub">交互单位从"页面"换成"消息"：老师发来日程、任务与卡片，你用<b>快捷按钮</b>回话决定下一步。学习像跟老师微信，而不是打开 App。</div>
+      <div class="tags"><span class="tag">消息即任务</span><span class="tag">快捷回复按钮</span><span class="tag">打卡卡片内联</span><span class="tag">进度"底牌"侧栏</span></div>
+      <div class="duo">
+        <div class="fb"><b>手机端</b><span>全屏聊天 + 底部胶囊，读/回一气呵成，像在微信里学。</span></div>
+        <div class="fb"><b>桌面端</b><span>左对话右"今日底牌"侧栏，边回消息边看掌握度，宽屏不浪费。</span></div>
+      </div>
+      <a class="open" href="chat/index.html" target="_blank">打开原型 03 →</a>
+    </div>
+
+  </div>
+
+  <div class="note">
+    <b>试用指令：</b>① 在任意原型右上角切「桌面 / 手机」观察排版差异 → ② 把每条真实可点的路径走一遍
+    （原型 01：今天 → L23 → 课文/生词/语法；原型 02：左侧课程点 L23 学一课、右侧队列复习几张；原型 03：先选"开始今天"，再用回复按钮走到底）→ ③ 回头告诉我：
+    留下哪套？拿哪套的局部特征（比如 02 的侧栏队列 + 03 的消息敦促）缝进主方案？配色倾向哪套？
+  </div>
+  <div class="freq">都是纯静态 HTML 原型 · 零依赖 · 点击即可体验 · 若需对比颜色，原型 01 右上角色板可换 4 套主题</div>
+</div>
+</body>
+</html>

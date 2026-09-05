@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新概念英语点读 · 学习</title>
+<link rel="stylesheet" href="css/app.css?v=11">
+<link rel="stylesheet" href="css/v12.css?v=11">
+<link rel="stylesheet" href="css/v13.css?v=12">
+<link rel="stylesheet" href="css/textbook.css?v=12">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+    <div class="logo">学</div>
+    <span class="sel booksel"><select id="bookSel"></select></span>
+    <button class="edge-btn" id="edgeBtn"></button>
+    <span class="pill" id="topTag"></span>
+  </div>
+  <div class="stage">
+    <!-- 教材目录 -->
+    <aside class="rail" id="rail">
+      <div class="rail-top">
+        <div class="rail-headrow">
+          <span class="rail-title">教材目录</span>
+          <button class="rail-x" id="railX" title="收起目录（点右下角按钮可再展开）">◂ 收起</button>
+        </div>
+        <div class="pick">
+          <span class="sel"><select id="unitJump"></select></span>
+        </div>
+        <div class="rail-sub" id="railSub"></div>
+      </div>
+      <div class="rail-body" id="unitList"></div>
+    </aside>
+    <div class="mask" id="mask"></div>
+    <!-- 学习区 -->
+    <main class="main">
+      <div id="study"></div>
+    </main>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+<div id="toast"></div>
+
+<script src="data/NCE1.js?v=11"></script>
+<script src="data/NCE2.js?v=11"></script>
+<script src="data/NCE3.js?v=11"></script>
+<script src="data/NCE4.js?v=11"></script>
+<script src="data/notes.js?v=12"></script>
+<script src="js/app.js?v=12"></script>
+</body>
+</html>

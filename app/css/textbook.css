@@ -1,0 +1,115 @@
+/* ===== 教材（课本原文 + 讲解）排版 v1 =====
+   目标：像一页纸质课本——纸张底色、页眉课号、分栏、中英对照、可收起的练习答案。 */
+
+.tbk{margin-top:16px}
+
+/* 纸页 */
+.tbk-paper{background:#fffdf7;border:1px solid #ece3cf;border-radius:16px;overflow:hidden;
+  box-shadow:0 1px 0 #fff inset,0 10px 24px -18px rgba(74,60,30,.45)}
+
+/* 页眉 */
+.tbk-head{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;
+  padding:15px 18px 13px;border-bottom:1px dashed #e6dcc4;
+  background:linear-gradient(180deg,#fffdf6,#fdf8ec)}
+.tbk-lesson{font-size:11px;font-weight:900;letter-spacing:.06em;color:#b08b3f;
+  background:#fdf1d8;border:1px solid #f0e0bd;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.tbk-head h3{font-size:17.5px;font-weight:900;line-height:1.35}
+.tbk-head .zh{font-size:12px;color:#8a8578;margin-top:3px}
+.tbk-head .sp{margin-left:auto}
+.tbk-q{font-size:12px;color:#7a6a45;background:#fbf3dd;border:1px dashed #ecdcb4;
+  border-radius:10px;padding:8px 11px;margin-top:10px;line-height:1.7}
+.tbk-q b{color:#8a6a20}
+
+/* 分栏：课文 | 词汇 */
+.tbk-body{padding:16px 18px 18px}
+.tbk-cols{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start}
+@media (max-width:1000px){.tbk-cols{grid-template-columns:1fr;gap:16px}}
+
+/* 区块 */
+.tbk-sec{margin-top:18px}
+.tbk-sec:first-child{margin-top:0}
+.tbk-sec>h5{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:900;color:#6d6656;
+  margin-bottom:9px;letter-spacing:.02em}
+.tbk-sec>h5::before{content:'';width:3px;height:13px;border-radius:2px;background:#c9a24a}
+.tbk-sec>h5 i{font-style:normal;font-size:10.5px;font-weight:800;color:#a89a7c;letter-spacing:.06em}
+
+/* 课文原文 */
+.tbk-text{background:#fff;border:1px solid #efe7d6;border-radius:12px;padding:6px 4px}
+.tb-line{display:flex;gap:9px;padding:7px 10px;border-radius:9px;transition:background .12s}
+.tb-line+.tb-line{border-top:1px solid #f5f0e4}
+.tb-line:hover{background:#fdf8ea}
+.tb-sp{width:21px;height:21px;flex:none;border-radius:50%;display:grid;place-items:center;
+  font-size:10.5px;font-weight:900;background:#eef1f8;color:#7b8299;margin-top:2px}
+.tb-sp.b{background:#fff0dc;color:#b87418}
+.tb-l{flex:1;min-width:0}
+.tb-en{font-size:15px;font-weight:700;line-height:1.62;letter-spacing:.005em}
+.tb-zh{font-size:12.5px;color:#8d8878;line-height:1.6;margin-top:2px}
+.tb-note{font-size:11.5px;color:#a08d63;margin-top:3px}
+
+/* 词汇表 */
+.tb-words{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:7px}
+.tb-word{background:#fff;border:1px solid #efe7d6;border-radius:10px;padding:7px 10px}
+.tb-word:hover{border-color:#dcc9a0;background:#fffcf3}
+.tb-word b{display:block;font-size:13px;font-weight:900;line-height:1.4}
+.tb-word span{display:block;font-size:11.5px;color:#0e7a52;font-weight:600;margin-top:2px;line-height:1.5}
+
+/* 语法 */
+.tb-gr{border-left:3px solid var(--pri);background:#f6f8ff;border-radius:0 10px 10px 0;
+  padding:9px 12px;margin-bottom:8px}
+.tb-gr .k{font-size:12.5px;font-weight:900;margin-bottom:5px}
+.tb-gr .f{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;
+  font-weight:800;color:var(--pri);background:#fff;border:1px solid #e2e8ff;border-radius:7px;
+  padding:4px 8px;display:inline-block;line-height:1.5}
+.tb-gr .d{font-size:12px;color:#6f7688;line-height:1.75;margin-top:5px}
+
+/* 重点句 */
+.tb-pats{display:grid;gap:6px}
+.tb-pat{display:flex;gap:9px;align-items:flex-start;background:#fff;border:1px solid #efe7d6;
+  border-radius:10px;padding:8px 11px}
+.tb-pat .no{width:19px;height:19px;flex:none;border-radius:6px;background:#f0ebdc;color:#9a8a63;
+  font-size:10.5px;font-weight:900;display:grid;place-items:center;margin-top:1px}
+.tb-pat .en{font-size:13.5px;font-weight:800;line-height:1.6}
+.tb-pat .zh{font-size:12px;color:#8d8878;margin-top:2px;line-height:1.6}
+
+/* 句型操练 */
+.tb-drill{background:#fffaf0;border:1px solid #f0e3c4;border-radius:12px;padding:11px 13px}
+.tb-drill .q{font-size:15px;font-weight:900;color:#8a6a20;line-height:1.6}
+.tb-drill .q em{font-style:normal;display:inline-block;min-width:64px;text-align:center;
+  border-bottom:2px dashed #d9b769;color:#c08a2a}
+.tb-drill .zh{font-size:12px;color:#96896c;margin-top:3px}
+.tb-slots{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.tb-slot{background:#fff;border:1px solid #e8dcc0;border-radius:8px;padding:4px 9px;font-size:12px;font-weight:800}
+.tb-slot small{color:#a0947a;font-weight:600;margin-left:4px}
+.tb-ans{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px;padding-top:9px;border-top:1px dashed #ecdcb4}
+.tb-ans span{font-size:12px;font-weight:800;background:#fff;border:1px solid #e8dcc0;border-radius:8px;padding:4px 9px}
+.tb-ans span.no{color:#0e7a52;border-color:#cfe9dc;background:#f2fbf7}
+
+/* 练习（答案默认收起） */
+.tb-exs{display:grid;gap:7px}
+.tb-ex{background:#fff;border:1px solid #efe7d6;border-radius:10px;overflow:hidden}
+.tb-ex summary{cursor:pointer;list-style:none;padding:9px 12px;font-size:13px;font-weight:700;
+  display:flex;gap:9px;align-items:flex-start;line-height:1.6}
+.tb-ex summary::-webkit-details-marker{display:none}
+.tb-ex summary::after{content:'答案 ▾';margin-left:auto;flex:none;font-size:11px;font-weight:800;
+  color:#9a8a63;background:#f4efdd;border-radius:6px;padding:2px 7px}
+.tb-ex[open] summary::after{content:'收起 ▴'}
+.tb-ex summary:hover{background:#fdf8ea}
+.tb-ex .a{padding:0 12px 11px 30px;font-size:13px;font-weight:800;color:#0e7a52;line-height:1.75}
+.tb-ex .a i{font-style:normal;display:block;font-size:11.5px;font-weight:600;color:#8d8878;margin-top:3px}
+
+/* 小贴士 */
+.tb-tip{display:flex;gap:9px;background:#fff9ec;border:1px solid #f3e4be;border-left:3px solid #e8b64c;
+  border-radius:0 10px 10px 0;padding:10px 12px;font-size:12.5px;color:#7a6a45;line-height:1.8}
+.tb-tip b{flex:none;font-size:14px}
+
+/* 空态 */
+.tbk-empty{border:1px dashed #e0d6bf;border-radius:12px;padding:18px;text-align:center;
+  color:#a0947a;font-size:12.5px;line-height:1.9;background:#fffdf7}
+.tbk-empty b{display:block;color:#8a7f66;font-size:13px;margin-bottom:4px}
+
+@media (max-width:900px){
+  .tbk-head{padding:13px 14px 11px}
+  .tbk-body{padding:13px 14px 15px}
+  .tbk-head h3{font-size:16px}
+  .tb-en{font-size:14.5px}
+}

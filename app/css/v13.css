@@ -1,0 +1,19 @@
+/* v1.3 覆盖与新增 */
+.rail-headrow{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.rail-title{font-size:13px;font-weight:900;color:var(--ink)}
+.rail-x{padding:4px 10px;border-radius:8px;background:#eef1f8;color:#5b6380;font-size:12px;font-weight:800;white-space:nowrap}
+.rail-x:hover{background:#e0e5f4}
+.rail-top{display:flex;flex-direction:column}
+.rail-x{display:none} /* 收起/展开统一走左缘 edge-btn */
+
+/* 顶栏内的 收起/展开 按钮（在左侧，贴近教材选择） */
+.edge-btn{display:none;align-items:center;gap:4px;padding:7px 13px;border-radius:9px;
+  background:#eef1f8;color:#5b6380;font-size:12.5px;font-weight:800;white-space:nowrap}
+.edge-btn:hover{color:var(--pri);background:#e7ebf7}
+.edge-btn.off{background:var(--ink);color:#fff}
+@media (min-width:901px){.edge-btn{display:inline-flex}}
+@media (max-width:900px){.edge-btn{display:none}}
+.rail-top{padding-top:4px}
+body.rail-off .rail{display:none}
+@media (max-width:900px){body.rail-off .rail{display:block;transform:translateX(-102%)}}
+body.rail-off .main{max-width:none}

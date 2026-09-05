@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>原型 03 · 对话式老师</title>
+<style>
+:root{--ink:#26304a;--mut:#8590a8;--line:#e7ebf3;--bg:#f3f4f8;--card:#fff;
+  --acc:#22b573;--acc2:#12a1d8;--accd:#0e8a5a;--acc-soft:#e3f5ec;--sun:#ffb020;--sun-soft:#fff4dd;--red:#ee5a5a;--red-soft:#feecec;
+  --av:#ff9d66;--av-txt:#fff;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;color:var(--ink);background:var(--bg);overflow:hidden}
+button{font:inherit;background:none;border:0;color:inherit;cursor:pointer}
+.scroll::-webkit-scrollbar{width:8px} .scroll::-webkit-scrollbar-thumb{background:#d6dce9;border-radius:99px}
+
+.layout{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:0;height:100vh}
+.phoneaside{display:none}
+@media (max-width:960px){ .layout{grid-template-columns:1fr} .deskpanel{display:none!important} }
+
+/* 对话列 */
+.chatcol{display:flex;flex-direction:column;background:#fff;border-right:1px solid var(--line)}
+.chhead{display:flex;align-items:center;gap:11px;padding:12px 16px;border-bottom:1px solid var(--line);background:#fff}
+.ava{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--av),#ff6f61);color:#fff;display:grid;place-items:center;font-size:17px;flex:none;box-shadow:0 4px 10px -3px rgba(255,130,80,.6)}
+.ava.small{width:30px;height:30px;font-size:13px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--acc);display:inline-block}
+.headgap{flex:1}
+.viewseg{display:flex;background:#eef1f6;border-radius:99px;padding:3px}
+.viewseg button{padding:5px 13px;border-radius:99px;font-size:12px;font-weight:800;color:var(--mut)}
+.viewseg button.on{background:#fff;color:var(--ink);box-shadow:0 2px 5px rgba(0,0,0,.1)}
+
+/* 顶部今日底牌薄条 */
+.briefbar{display:flex;align-items:center;gap:8px;padding:8px 16px;background:linear-gradient(90deg,#eefaf3,#f4fbf1);border-bottom:1px solid #dff0e5;font-size:12px;font-weight:700;color:#33705b}
+.briefbar .bar{flex:1;height:6px;background:#d7eadf;border-radius:99px;overflow:hidden}
+.briefbar .bar i{display:block;height:100%;background:var(--acc);border-radius:99px;transition:.3s}
+.ph-brief{display:none}
+@media (max-width:960px){ .ph-brief{display:flex} .desk-brief{display:none} }
+
+/* 消息区 */
+.msgs{flex:1;overflow-y:auto;padding:16px 14px 8px;background:
+  radial-gradient(600px 300px at 15% 0%, #f0faf5 0%, transparent 60%), #fff}
+.msgs .col{max-width:min(680px,100%);margin:0 auto;display:flex;flex-direction:column}
+.sysline{display:flex;align-items:center;gap:10px;margin:6px 0 14px;color:#a9b1c5;font-size:11px;font-weight:800}
+.sysline::before,.sysline::after{content:'';flex:1;height:1px;background:var(--line)}
+.mrow{display:flex;gap:9px;margin:2px 0 14px;align-items:flex-end}
+.mrow.u{flex-direction:row-reverse}
+.bub{max-width:78%;background:#f4f6fb;border-radius:4px 18px 18px 18px;padding:11px 14px;font-size:14.5px;line-height:1.8}
+.mrow.u .bub{background:var(--acc);color:#fff;border-radius:18px 4px 18px 18px}
+.mrow .tmeta{font-size:10.5px;color:#b4bccf;font-weight:700;margin-top:4px;padding-left:2px}
+.mrow.u .tmeta{text-align:right}
+.mrow.u .bub b{color:#fff}
+.cmd{display:flex;align-items:center;gap:10px;width:100%;margin-top:7px;background:#f0f4ef;border:1px solid #e0e9e2;border-radius:14px;padding:11px 12px}
+.cmd .ic{width:34px;height:34px;border-radius:10px;background:#fff;display:grid;place-items:center;font-size:16px;flex:none}
+.cmd .gl{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
+.cmd .tag{font-size:11px;font-weight:800;background:#fff;color:#64707f;border:1px solid var(--line);padding:3px 9px;border-radius:99px}
+.rate{display:flex;gap:6px;width:100%;margin-top:9px;flex-wrap:wrap}
+.rate button{flex:1;min-width:64px;padding:7px 4px;border-radius:10px;font-size:12.5px;font-weight:800;border:1px solid var(--line);background:#fff}
+.rate button.k1{color:var(--red);border-color:#f6c8c8} .rate button.k2{color:#e07b16;border-color:#f3d6ae}
+.rate button.k3{color:#0e7a4d;border-color:#b8e0cb} .rate button.k4{color:#1d74b8;border-color:#bfdcf0}
+.steprow{display:flex;align-items:center;gap:10px;width:100%;padding:9px 4px;border-bottom:1px dashed #e5e9f1;text-align:left}
+.steprow.done{opacity:.55}
+.chk{width:22px;height:22px;flex:none;border-radius:7px;border:2px solid #c9d3e0;display:grid;place-items:center;font-size:12px;color:#fff;background:#fff}
+.steprow.done .chk{background:var(--acc);border-color:var(--acc)}
+.sep a{color:var(--acc);font-weight:700;text-decoration:none}
+
+/* 快捷回复 + 输入 */
+.quick{padding:10px 16px 6px;border-top:1px solid var(--line);background:#fff}
+.quick .cage{max-width:min(680px,100%);margin:0 auto;display:flex;flex-wrap:wrap;gap:8px}
+.qbtn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:99px;border:1.5px solid #d5dfd8;color:#2e6b4e;font-size:13px;font-weight:800;background:#f4fbf6}
+.qbtn:hover{border-color:var(--acc);background:#eaf7ef}
+.qbtn.prim{background:var(--acc);border-color:var(--acc);color:#fff}
+.qbtn.ghost{background:#fff;color:#6b7591;border-color:var(--line)}
+.composer{display:flex;align-items:center;gap:9px;padding:8px 16px 14px;background:#fff}
+.composer .box{flex:1;display:flex;align-items:center;background:#f2f4f8;border-radius:99px;padding:9px 16px}
+.composer input{flex:1;border:0;background:none;outline:none;font-size:14px;min-width:0;color:var(--ink)}
+.send{width:40px;height:40px;border-radius:50%;background:var(--acc);color:#fff;display:grid;place-items:center;font-size:17px;box-shadow:0 6px 14px -4px rgba(34,181,115,.6)}
+
+/* 右侧桌面面板 */
+.deskpanel{background:#fbfcfd;border-left:1px solid var(--line);overflow-y:auto;padding:18px}
+.dp-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px}
+.dp-card h4{font-size:13px;display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.bigring{width:118px;height:118px;margin:0 auto;position:relative}
+.bigring svg{position:absolute;inset:0}
+.bigring .ct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.bigring .ct b{font-size:22px} .bigring .ct span{font-size:11px;color:var(--mut)}
+.mline{display:flex;justify-content:space-between;font-size:12.5px;padding:6px 0;border-bottom:1px dashed #edf0f5;font-weight:700;color:#5a6480}
+.mline b{color:var(--ink)}
+.note2{background:var(--sun-soft);border-radius:12px;padding:10px 12px;font-size:12px;line-height:1.85;color:#7a5a16}
+
+/* 视口模拟 */
+html[data-view="phone"] .layout{max-width:430px}
+html[data-view="phone"] .deskpanel{display:none}
+html[data-view="phone"] body{background:#e9ecf2}
+@media (min-width:721px){
+  html[data-view="phone"] .deskpanel{display:none!important}
+  html[data-view="phone"] .layout{grid-template-columns:1fr;max-width:430px;margin:0 auto}
+}
+
+/* toast */
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#26304a;color:#fff;padding:11px 18px;border-radius:99px;font-size:13px;font-weight:700;z-index:99;box-shadow:0 10px 24px -8px rgba(0,0,0,.35);opacity:0;transition:.3s;pointer-events:none}
+</style>
+</head>
+<body>
+<div class="layout">
+  <!-- ===== 对话列 ===== -->
+  <section class="chatcol">
+    <div class="chhead">
+      <div class="ava">师</div>
+      <div>
+        <div style="font-weight:900;font-size:15px">你的学习老师</div>
+        <div style="font-size:11.5px;color:var(--mut)"><span class="dot" style="margin-right:4px"></span>在线 · 今天 07:30 已来信 · 新概念英语</div>
+      </div>
+      <div class="headgap"></div>
+      <div class="viewseg">
+        <button data-v="desk" class="on" onclick="setV('desk')">桌面</button>
+        <button data-v="phone" onclick="setV('phone')">手机</button>
+      </div>
+      <div class="desk-brief" style="font-size:12px;font-weight:800;color:var(--accd)">🔥 连续 12 天</div>
+    </div>
+
+    <div class="briefbar desk-brief"><span>📥 今日底牌</span><span class="bar"><i id="topbar" style="width:8%"></i></span><span id="topbarTxt" style="white-space:nowrap">复习 0/15 · L23 0/5</span></div>
+    <div class="briefbar ph-brief"><span>今日底牌</span><span class="bar"><i id="topbar2" style="width:8%"></i></span><span id="topbarTxt2" style="white-space:nowrap">0/15 · 0/5</span></div>
+
+    <div class="msgs scroll" id="msgs">
+      <div class="col" id="feed"></div>
+    </div>
+
+    <div class="quick">
+      <div class="cage" id="chips"></div>
+    </div>
+    <div class="composer">
+      <div class="box"><span style="color:#b6becf;padding-right:6px">✎</span>
+        <input id="txt" placeholder="想跟老师说点什么？（演示版用按钮回话更快）" onkeydown="if(event.key==='Enter'){sendTxt()}"></div>
+      <button class="send" onclick="sendTxt()">↑</button>
+    </div>
+  </section>
+
+  <!-- ===== 桌面右侧 ===== -->
+  <aside class="deskpanel scroll">
+    <div class="dp-card">
+      <h4><span>今日底牌</span><span style="font-size:10.5px;color:#9aa3b6">每分钟同步</span></h4>
+      <div class="bigring" id="ringWrap"></div>
+      <div class="sm" style="text-align:center;margin-top:10px;color:var(--mut);font-weight:700" id="ringTxt">到期的 15 张卡片</div>
+    </div>
+    <div class="dp-card">
+      <h4><span>今天的分寸</span></h4>
+      <div class="mline"><span>到期复习卡</span><b id="stRev">0 / 15</b></div>
+      <div class="mline"><span>新课 L23 · 五步</span><b id="stL23">0 / 5</b></div>
+      <div class="mline"><span>预计总用时</span><b id="stMin">≈ 48 分钟</b></div>
+      <div class="mline"><span>连续打卡</span><b style="color:#e07b16">12 天</b></div>
+    </div>
+    <div class="note2"><b>老师的语气 = 系统的语气。</b><br>敦促不是轰炸：按“你的排期”来消息；夸在点子上、催在错词上。整个对话由模板 + 你的真实学习数据拼成，不是 AI 在背后陪聊。</div>
+    <div class="dp-card"><h4><span>消息通道（未来）</span></h4>
+      <div class="mline" style="border:0"><span>微信 / PWA / 邮件</span><b>三选一</b></div>
+      <div class="mline" style="border:0"><span>语音播报课文</span><b>预留</b></div>
+    </div>
+  </aside>
+</div>
+<div id="toast"></div>
+
+<script>
+var $=function(s){return document.querySelector(s)};
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function setV(v){document.documentElement.dataset.view=v;var b=document.querySelectorAll('.viewseg button');for(var i=0;i<b.length;i++)b[i].classList.toggle('on',b[i].dataset.v===v)}
+
+/* ===== 状态 ===== */
+var st={mode:'idle',q:0,qRated:{},revDone:0,steps:0};
+
+/* ===== 消息区 ===== */
+var feed=$('#feed');
+function push(role,html){var el=document.createElement('div');el.className='mrow '+role;
+  el.innerHTML=role==='t'?('<div class="ava small">师</div><div><div class="bub">'+html+'</div><div class="tmeta">老师 · 现在</div></div>')
+    :('<div class="bub">'+html+'</div><div class="tmeta" style="flex:1"></div>');
+  feed.appendChild(el);scrollDn();}
+function pushSys(t){var el=document.createElement('div');el.className='sysline';el.textContent=t;feed.appendChild(el);scrollDn();}
+function scrollDn(){var m=$('#msgs');m.scrollTop=m.scrollHeight;}
+
+/* 复习卡消息（带答案/打分） */
+var Q=[
+ {t:'these',k:'生词',a:'这些（this 的复数 · 近指）<br>例句：These are my books.'},
+ {t:'shelf',k:'生词',a:'架子 · 复数 shelves<br>the ones on the shelf 架子上那些'},
+ {t:'the ones',k:'句型',a:'指代 the glasses，避免重复<br>Give me the ones on the shelf.'},
+ {t:'a / some',k:'语法',a:'请求句用 some 更礼貌；some 后接复数。<br>Give me some glasses, please.'}];
+function dueCardMsg(){var i=st.q,it=Q[i],op=st.qOpen===i;
+  push('t','<b>本组 '+(i+1)+'/4</b> · 到期生词/句型卡 · 先自己念出释义，再点开核对 ——'+
+   '<div class="cmd"><span class="ic">🎴</span><span style="font-weight:900;font-size:15px">'+esc(it.t)+'</span><span class="gl"><span class="tag">'+it.k+'</span><button class="tag" style="cursor:pointer" onclick="togA('+i+')">'+(op?'收起':'看答案')+'</button></span></div>'+
+   (op?'<div style="margin-top:8px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-size:13.5px;line-height:1.9">'+it.a+'</div>':'')+
+   '<div class="rate"><button class="k1" onclick="rateQ('+i+',\'a\')">忘了</button><button class="k2" onclick="rateQ('+i+',\'s\')">模糊</button><button class="k3" onclick="rateQ('+i+',\'y\')">想起</button><button class="k4" onclick="rateQ('+i+',\'e\')">简单</button></div>');}
+function togA(i){st.qOpen=(st.qOpen===i?null:i);refresh();}
+function rateQ(i,v){st.qRated[i]=v;st.revDone++;st.qOpen=null;st.q++;
+  refresh();
+  if(st.q<Q.length){dueCardMsg();}
+  else{ st.mode='plan';push('t','好，这 4 张"最有火气的卡"清完了 ✅<b>今日还剩 11 张</b>，剩下的晚饭后 10 分钟扫光就行。'+
+    '<span class="sep">现在进入正题：<a href="#" onclick="return false;">L23 Which glasses?</a></span>'); }
+}
+function chipSet(){
+  var h='';
+  if(st.mode==='idle'){h+=chip('安排详情','安排详情','👀')+chip('直接开始今天','直接开始今天','🚀','prim');}
+  else if(st.mode==='plan'){h+=chip('先复习 4 张','先复习 4 张','🎴')+chip('先学 L23','先学 L23','📖')+chip('改到明天','改到明天','⏰','ghost');}
+  else if(st.mode==='lesson'){h+=chip('学完了','学完了','✅','prim');}
+  else if(st.mode==='post'){h+=chip('先到这儿，晚上再复习','先到这儿','🌙')+chip('重演开场','重演开场','↺','ghost');}
+  return h;
+}
+function chip(id,label,ic,cls){return '<button class="qbtn '+(cls||'')+'" onclick="say(\''+id+'\')">'+ic+' '+label+'</button>';}
+function refresh(){$('#chips').innerHTML=chipSet();syncSt();}
+function say(id){
+  if(id==='安排详情'){
+    push('u','看看今天的安排详情');
+    push('t','没问题，今天就两件事，<b>共 48 分钟</b>：'+
+      '<div class="cmd" style="display:block"><div class="steprow"><span class="chk">✓</span><b>07:30–07:45</b>　复习到期 15 张卡（先做，别让旧账过夜）</div>'+
+      '<div class="steprow"><span class="chk">✓</span><b>20:15–20:50</b>　主课 L23 Which glasses? · 五步学习 + 可选胶学视频</div>'+
+      '<div class="steprow" style="border:0"><span style="width:22px;text-align:center">+</span>　Coffee Break 泛听 1 集（灵活补足）</div></div>'+
+      '<span style="font-size:12.5px;color:var(--mut)">节奏是 45–60 分钟拆早晚两段，你昨晚 11 点才睡，今天先保早段。</span>');
+    st.mode='plan';
+  }
+  else if(id==='直接开始今天'){push('u','直接开始今天');push('t','收到，按顺序来：先清 4 张最该见的到期卡，再进 L23。走 👇');st.mode='plan';startQ();}
+  else if(id==='先复习 4 张'){push('u','先复习到期卡');startQ();}
+  else if(id==='先学 L23'){push('u','先学 L23');startL23();}
+  else if(id==='学完了'){
+    if(st.steps<5){push('t','还没走完 5 步哦——上方清单里没打勾的步骤再点一下，别自欺 😉');}
+    else{st.mode='post';push('u','L23 我学完了！');push('t','太漂亮了 🎉 课文 6 句、生词 8 个、语法 2 点全部收进复习池。'+
+      '<span class="sep">今晚 21:00 我再把这些卡挑出来给你过一遍，<a href="#" onclick="return false;">现在就去把剩下的 11 张复习掉</a>？</span>');}
+  }
+  else if(id==='先到这儿'){push('u','先到这儿，晚上再来复习');push('t','好，那 11 张卡我安排到<b>今晚 21:00</b> 来找你。今天的记录已经存好：复习 '+st.revDone+' 张、L23 五步完成 '+st.steps+'/5。晚点见 🌙');st.mode='idle2';}
+  else if(id==='改到明天'){push('u','今天太忙了，改到明天吧');push('t','理解。帮你做了三件事：① L23 移到明天早段 ② 到期卡只保留 5 张最容易的 ③ 今晚 9 点只来一条"3 分钟版"提醒，不做轰炸。断一天不断链，明天见。');st.mode='idle2';}
+  else if(id==='重演开场'){resetAll();}
+  refresh();scrollDn();
+}
+function startQ(){st.mode='review';st.q=0;st.qRated={};push('t','来，<b>15 张到期卡</b>先拿 4 张开场（these/shelf/句型 ones/语法 a-some，都是昨天课文里的）：');dueCardMsg();refresh();}
+function startL23(){st.mode='lesson';st.steps=0;st.qDone=0;
+  push('t','好，主课开始。<b>L23 · Which glasses?</b>（哪几个玻璃杯？）Unit 1 · 新概念第一册'+
+  '<div class="cmd" style="display:block;margin-top:9px">'+
+  stepRow(1,'课文精听 · 4 分钟','🎧')+stepRow(2,'本课生词 · 8 张','🃏')+stepRow(3,'语法：指示代词 / some','📐')+stepRow(4,'跟读录音 · 自评','🎙')+stepRow(5,'听写检验','✍️')+'</div>'+
+  '<span style="font-size:12.5px;color:var(--mut)">点一项就会真的走一步（原型演示逐步体验，正式版接真实学习工具）。</span>');
+  refresh();}
+function stepRow(n,label,ic){return '<button class="steprow" onclick="stepGo('+n+')" style="width:100%"><span class="chk" id="chk'+n+'"></span><span>'+ic+'　'+label+'</span><span style="margin-left:auto;color:#b6bece">›</span></button>';}
+function stepGo(n){
+  if(st.mode!=='lesson')return;
+  if(st.qDone & (1<<n))return;
+  st.qDone |= (1<<n); st.steps++;
+  var c=$('#chk'+n); c.textContent='✓'; c.parentNode.classList.add('done');
+  var tips=['','精听完成。哪一句还没吃透？待会儿听写会再来一遍。','这 8 个词有 5 个是"shelf/one/give"这类已见的——已见的直接进弱复习池。','注意 those 指"远一点的那些"，课文里简就站在架子边上。','跟读只求"清楚"不求"像"，录一遍自己听出 2 处毛病就够本。','听写全对。L23 走完了，去点一下"学完了"。'];
+  if(n<5)push('t',tips[n]);
+  syncSt();
+}
+function sendTxt(){var i=$('#txt');var v=i.value.trim();if(!v)return;push('u',esc(v));i.value='';
+  var s=v;
+  if(/完成|打完|打卡|学完|拜/.test(s))push('t','收到！我记下了 ✅');
+  else if(/难|不会|卡住|太多/.test(s))push('t','难就对了——你觉得卡住的点，正是待会儿复习卡要多见的点。把它打字告诉我，我明天编进错词本。');
+  else if(/明天|太忙|没空|加班|累/.test(s))push('t','行，今天给你减负：只保留 5 张最容易的卡，剩下的全部顺延，不断链即可。');
+  else if(/你好|hi|早|嗨|在/.test(s))push('t','在的。今天的安排已就绪：先 15 张到期卡，再 L23，共 48 分钟。要点哪个？');
+  else push('t','收到。演示版用下方的快捷按钮回复最快；正式版这里会接学习数据帮你安排。');
+  refresh();}
+function resetAll(){feed.innerHTML='';st={mode:'idle',q:0,qRated:{},revDone:0,steps:0,qDone:0};
+  pushSys('9月3日 周四 · 新的一天');
+  push('t','早上好，小易 ☀️ 这是今天要盯的账：到期复习 <b>15 张</b>（12 分钟）、主课 <b>L23</b>（36 分钟）。昨晚 11 点才睡，早段先保复习，主课放晚上 20:15。'+'<span class="sep"><a href="#" onclick="return false;">还想看看是哪 15 张？</a></span>');
+  refresh();}
+
+/* ===== 顶条/右侧同步 ===== */
+function syncSt(){
+  var p1=st.revDone/15, p2=st.steps/5, sum=Math.round((p1*0.6+p2*0.4)*100);
+  var top='复习 '+st.revDone+'/15 · L23 '+st.steps+'/5';
+  var t1=$('#topbar');t1.style.width=sum+'%';$('#topbarTxt').textContent=top;
+  var t2=$('#topbar2');t2.style.width=sum+'%';$('#topbarTxt2').textContent=st.revDone+'/15 · '+st.steps+'/5';
+  $('#stRev').textContent=st.revDone+' / 15';$('#stL23').textContent=st.steps+' / 5';
+  $('#ringWrap').innerHTML=ring(sum);
+  $('#ringTxt').textContent=st.revDone>=15&&st.steps>=5?'今日已全部完成 🎉':'到期的 15 张卡片 · 已完成 '+st.revDone;
+}
+function ring(pct){var size=118,r=size/2-9,c=2*Math.PI*r;
+  return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 '+size+' '+size+'"><circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#e9edf4" stroke-width="10"/><circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#22b573" stroke-width="10" stroke-linecap="round" stroke-dasharray="'+c+'" stroke-dashoffset="'+c*(1-pct/100)+'" style="transition:.4s"/></svg>'+
+  '<div class="ct"><b>'+(st.revDone+st.steps)+'</b><span>进度点</span></div>';}
+
+/* ===== 开场 ===== */
+pushSys('9月3日 周四 · 新的一天');
+push('t','早上好，小易 ☀️ 今天要盯的账不多：到期复习 <b>15 张</b>（约 12 分钟）+ 主课 <b>L23 Which glasses?</b>（约 36 分钟），合计 48 分钟。'+
+  '<span class="sep">昨晚 11 点才睡，早段先保复习，主课放 20:15。想看具体安排或直接开始，点下面的按钮。</span>');
+refresh();
+</script>
+</body>
+</html>

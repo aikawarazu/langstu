@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>原型 02 · 宽屏督学工作台</title>
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f6f8fc; --line:#e2e7f0; --ink:#20273c; --mut:#69728c;
+  --acc:#4353ff; --accink:#fff; --acc-soft:#e8ebff; --ok:#12a16b; --ok-soft:#e2f5ec; --warn:#e8862e; --warn-soft:#fdeee0;
+  --err:#e34f4f; --err-soft:#fdeaea; --pur:#7b4fe0; --pur-soft:#efe9fd; --r:14px; --shadow:0 10px 30px -22px rgba(30,45,95,.5);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;color:var(--ink);background:var(--bg);min-height:100vh;overflow-x:hidden}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.chip{border:1px solid var(--line);background:var(--panel);padding:5px 11px;border-radius:99px;font-size:12.5px;font-weight:700;color:var(--mut);white-space:nowrap}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.tag{display:inline-block;padding:3px 9px;border-radius:99px;font-size:11.5px;font-weight:800}
+.tag.ok{background:var(--ok-soft);color:var(--ok)} .tag.new{background:var(--acc-soft);color:var(--acc)} .tag.warn{background:var(--warn-soft);color:var(--warn)}
+.tag.gray{background:#eef0f6;color:#79809a}
+.mut{color:var(--mut)} .sm{font-size:12.5px} .tiny{font-size:11px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:11px;padding:10px 16px;font-weight:700;font-size:13.5px;transition:.15s}
+.btn.prim{background:var(--acc);color:#fff} .btn.prim:hover{filter:brightness(1.06)}
+.btn.soft{background:var(--acc-soft);color:var(--acc)} .btn.ok{background:var(--ok-soft);color:var(--ok)} .btn.gray{background:#eef0f6;color:#5b6380}
+.btn.grow{flex:1} .btn.sm{padding:7px 12px;font-size:12.5px} .btn:disabled{opacity:.45;cursor:default}
+.btn.red{background:var(--err-soft);color:var(--err)} .btn.pur{background:var(--pur-soft);color:var(--pur)}
+.row{display:flex;align-items:center;gap:10px} .row.wrap{flex-wrap:wrap} .col{display:flex;flex-direction:column;gap:8px}
+.grow{flex:1;min-width:0} .center{justify-content:center}
+.gap0{gap:0}.between{justify-content:space-between}
+.hide{display:none!important}
+
+/* 顶栏 */
+.topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:10px 18px;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:9px;font-weight:900;font-size:16px;letter-spacing:.2px}
+.logo{width:30px;height:30px;border-radius:9px;background:var(--acc);color:#fff;display:grid;place-items:center;font-size:15px}
+.seg{display:flex;background:#e9edf5;border-radius:10px;padding:3px;gap:2px}
+.seg button{padding:6px 14px;border-radius:8px;font-size:12.5px;font-weight:700;color:var(--mut)}
+.seg button.on{background:#fff;color:var(--acc);box-shadow:0 2px 6px -2px rgba(0,0,0,.15)}
+.who{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--mut);font-weight:700}
+
+/* 三栏骨架 */
+.app{max-width:1400px;margin:0 auto;padding:14px;display:grid;grid-template-columns:220px minmax(0,1fr) 300px;gap:14px;align-items:start}
+.col-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+
+/* 左导航 */
+.side{padding:10px;position:sticky;top:74px}
+.nav-group{font-size:11px;font-weight:900;letter-spacing:1px;color:var(--mut);padding:10px 10px 5px}
+.nav button{width:100%;display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:11px;font-size:13.5px;font-weight:700;color:#4a5270;text-align:left}
+.nav button .ico{width:22px;text-align:center;color:var(--mut)}
+.nav button.on{background:var(--acc-soft);color:var(--acc)} .nav button.on .ico{color:var(--acc)}
+.nav button:hover:not(.on){background:var(--panel2)}
+.side .mini-card{margin:10px 8px 0;padding:11px;background:var(--panel2);border-radius:12px}
+.side .mini-card b{font-size:12.5px} .side .mini-card .sm{line-height:1.7}
+
+/* 中央 */
+.stage{padding:6px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.sechead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.sechead h1{font-size:21px;letter-spacing:.2px}
+.crumb{font-size:12px;font-weight:800;color:var(--mut);display:flex;align-items:center;gap:6px}
+
+/* 右栏 */
+.rail{position:sticky;top:74px;display:flex;flex-direction:column;gap:14px}
+.rp{padding:16px}
+.rp h3{font-size:13px;display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.qrow{width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px;background:var(--panel)}
+.qrow .qt{font-weight:800;font-size:13.5px}
+.qrow.open{background:var(--acc-soft);border-color:#c9d1ff}
+.qrow .ans{display:none;margin-top:8px;padding-top:8px;border-top:1px dashed #c6cdf0;font-size:13px;line-height:1.8;color:#3a4370}
+.qrow.open .ans{display:block}
+.rating{display:flex;gap:6px;margin-top:9px}
+.rating button{flex:1;padding:6px 2px;border-radius:9px;font-size:12px;font-weight:800;background:#fff;border:1px solid var(--line)}
+.rating button.r1{color:var(--err);border-color:#f4c7c7} .rating button.r2{color:var(--warn);border-color:#f3d5b0}
+.rating button.r3{color:var(--acc);border-color:#c9d1ff} .rating button.r4{color:var(--ok);border-color:#b8e3cf}
+
+/* 今日卡片 */
+.hero{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.bigring{width:112px;height:112px;flex:none}
+.hbar{height:8px;border-radius:99px;background:#e9edf5;overflow:hidden} .hbar i{display:block;height:100%;background:var(--acc);border-radius:99px;transition:.3s}
+.mbars{display:flex;gap:6px;align-items:flex-end;height:120px;margin-top:8px}
+.mbars .b{flex:1;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:flex-end;height:100%}
+.mbars .bar{width:100%;border-radius:6px 6px 3px 3px;background:#dfe4f0}
+.mbars .todaybar{background:var(--acc)} .mbars b{font-size:11.5px} .mbars span{font-size:11px;color:var(--mut)}
+
+/* 课程 */
+.uhead{width:100%;display:flex;align-items:center;gap:10px;text-align:left;padding:13px 4px;border-bottom:1px dashed var(--line)}
+.uhead .n{width:34px;height:34px;border-radius:10px;background:var(--acc-soft);color:var(--acc);display:grid;place-items:center;font-weight:900;flex:none}
+.chips{display:flex;flex-wrap:wrap;gap:7px;padding:12px 2px}
+.lchip{width:38px;height:34px;border-radius:10px;background:var(--panel2);color:#6b7390;font-size:12.5px;font-weight:800;position:relative}
+.lchip:hover{background:#e7ebf7}
+.lchip.done{background:var(--ok-soft);color:var(--ok)}
+.lchip.cur{background:var(--acc);color:#fff;box-shadow:0 6px 14px -6px rgba(67,83,255,.8)}
+.lchip.cur::after{content:'现在';position:absolute;top:-9px;right:-4px;font-size:9px;background:var(--warn);color:#fff;border-radius:99px;padding:1px 5px;font-weight:800}
+.lchip.todo{opacity:.5}
+
+/* 课页 */
+.lhead{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.lnum{width:64px;height:64px;border-radius:16px;background:var(--acc);color:#fff;display:grid;place-items:center;font-size:26px;font-weight:900;flex:none;box-shadow:0 10px 20px -8px rgba(67,83,255,.7)}
+.steps{display:flex;flex-direction:column;gap:8px}
+.srow{width:100%;text-align:left;display:flex;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}
+.srow.act{background:var(--acc-soft);border-color:#c9d1ff}
+.snum{width:30px;height:30px;flex:none;border-radius:50%;background:#edf0f8;color:#7a829c;display:grid;place-items:center;font-weight:900;font-size:13px}
+.srow.act .snum{background:var(--acc);color:#fff}
+.srow.done .snum{background:var(--ok);color:#fff}
+.srow.done{opacity:.75}
+.spane{background:var(--panel2);border-radius:13px;padding:14px}
+.wordrow{display:flex;flex-wrap:wrap;gap:8px}
+.wordchip{position:relative;border:1px solid var(--line);background:#fff;border-radius:11px;padding:9px 12px;font-size:13.5px;font-weight:800}
+.wordchip.flip{background:var(--ok-soft);border-color:#bde6d2}
+.wordchip .bk{display:none;font-weight:600;color:#3a6749;margin-top:2px} .wordchip.flip .bk{display:block}
+.playln{border-bottom:1px dashed var(--line);padding:8px 2px}
+.playln.on b{color:var(--acc)}
+.playln .en{font-size:15px;letter-spacing:.2px} .playln .zh{color:var(--mut);font-size:13px;margin-top:2px}
+
+/* 底部导航（手机） */
+.botnav{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;background:#fff;border-top:1px solid var(--line)}
+.botnav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0 8px;font-size:10.5px;font-weight:800;color:#9aa1b6}
+.botnav button.on{color:var(--acc)} .botnav .ico{font-size:19px;line-height:1}
+
+@media (max-width:1020px){ .app{grid-template-columns:170px minmax(0,1fr);} .rail{display:none} }
+@media (max-width:720px){
+  .topbar{padding:8px 12px} .app{grid-template-columns:1fr;padding:10px} .side,.brand-txt{display:none}
+  .who{margin-left:auto}.col-box{border-radius:12px}
+  .botnav{display:flex}
+  html{font-size:16px}
+  .app{padding-bottom:84px}
+  .phoneback{display:block}
+  .sechead h1{font-size:19px}
+}
+.phoneback{display:none;margin-right:4px}
+.deskonly{display:none!important}
+@media (min-width:721px){ .deskonly{display:flex} .phoneonly{display:none} }
+html[data-view="phone"] .deskonly{display:none!important}
+html[data-view="phone"] .brand-txt{display:none}
+@media (min-width:721px){
+  html[data-view="phone"] .side{display:none!important}
+  html[data-view="phone"] .app{grid-template-columns:1fr;max-width:430px;margin:0 auto;padding-bottom:84px}
+  html[data-view="phone"] .rail{display:none}
+  html[data-view="phone"] .botnav{display:flex}
+}
+
+/* 视口模拟器：桌面默认全宽；切手机时收窄 */
+html[data-view="phone"] body{background:#101420}
+html[data-view="phone"] .app{max-width:480px;margin:0 auto}
+html[data-view="phone"] .rail{display:none}
+html[data-view="phone"] .topbar{max-width:480px;margin:0 auto}
+@media (min-width:721px){ html[data-view="phone"] .side{display:none} html[data-view="phone"] .botnav{display:flex} html[data-view="phone"] .app{padding-bottom:70px} }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button class="phoneback btn soft sm" id="pbk" onclick="pbk()">←</button>
+  <div class="brand"><span class="logo">督</span><span class="brand-txt">NCE 督学台</span></div>
+  <span class="chip" style="margin-left:4px">主线 Unit 1 · L23</span>
+  <span class="chip hide phoneonly">连续 12 天</span>
+  <div class="grow"></div>
+  <div class="seg" id="seg">
+    <button data-v="desk" class="on" onclick="setView('desk')">桌面</button>
+    <button data-v="phone" onclick="setView('phone')">手机</button>
+  </div>
+  <div class="who deskonly"><span class="chip">🔥 12 天</span><span class="chip">今日 60%</span><b style="color:var(--acc)">小易</b></div>
+</header>
+
+<div class="app">
+  <!-- 左导航 -->
+  <aside class="side col-box">
+    <nav class="nav" id="nav" style="display:flex;flex-direction:column"></nav>
+    <div class="mini-card">
+      <b>今日建议</b>
+      <div class="sm mut" style="margin-top:5px">先把到期 <b style="color:var(--acc)">15 张</b>清掉，再进 L23（共约 48 分钟）。右栏队列直接开点。</div>
+    </div>
+    <div class="mini-card">
+      <b>打卡</b>
+      <div class="row" style="margin-top:6px">
+        <div style="width:26px;height:26px;border-radius:8px;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:900">四</div>
+        <div style="width:26px;height:26px;border-radius:8px;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:900">五</div>
+        <div style="width:26px;height:26px;border-radius:8px;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:900">六</div>
+        <div style="width:26px;height:26px;border-radius:8px;background:#e9edf5;color:#9aa1b6;display:grid;place-items:center;font-size:11px;font-weight:900">日</div>
+        <div style="width:26px;height:26px;border-radius:8px;background:var(--acc-soft);color:var(--acc);display:grid;place-items:center;font-size:11px;font-weight:900">今</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 中央 -->
+  <main class="stage col-box" style="padding:18px" id="stage"></main>
+
+  <!-- 右栏 -->
+  <aside class="rail">
+    <div class="col-box rp" id="rail"></div>
+    <div class="col-box rp" id="rail2"></div>
+  </aside>
+</div>
+
+<nav class="botnav" id="botnav"></nav>
+
+<script>
+/* ===== 数据 ===== */
+var L23 = {
+  n:23, title:'Which glasses?', zh:'哪几个玻璃杯？', unit:'Unit 1 · L21–24',
+  meta:'生词 8 · 语法 2 · 约 36 分钟', min:36,
+  steps:[
+    {t:'课文精听', m:'4 min', d:'逐句点读 · 可开盲听'},
+    {t:'本课生词', m:'8 张 · 6 min', d:'课文抽取 8 词（3 新）'},
+    {t:'语法讲解', m:'5 min', d:'指示代词 / some 请求'},
+    {t:'跟读录音', m:'4 min', d:'逐句跟读 · 自评三档'},
+    {t:'听写检验', m:'5 min', d:'听写 5 个关键句'}
+  ],
+  lines:[
+    {en:'Give me some glasses, please, Jane.',zh:'请给我几个玻璃杯，简。'},
+    {en:'Which glasses?',zh:'哪几个玻璃杯？'},
+    {en:'These?',zh:'这些吗？'},
+    {en:'No, not those. The ones on the shelf.',zh:'不，不是那些，是架子上的那些。'},
+    {en:'These?',zh:'这些吗？'},
+    {en:'Yes, please.',zh:'好的，谢谢。'}
+  ],
+  words:[
+    {w:'glasses',ipa:'/ˈɡlɑːsɪz/',pos:'n.',zh:'眼镜；玻璃杯（复数）',tag:'新'},
+    {w:'which',ipa:'/wɪtʃ/',pos:'det.',zh:'哪一个；哪些',tag:'新'},
+    {w:'these',ipa:'/ðiːz/',pos:'pron.',zh:'这些（近指）',tag:'新'},
+    {w:'those',ipa:'/ðəʊz/',pos:'pron.',zh:'那些（远指）',tag:'新'},
+    {w:'shelf',ipa:'/ʃelf/',pos:'n.',zh:'架子（复数 shelves）',tag:'新'},
+    {w:'one',ipa:'/wʌn/',pos:'pron.',zh:'代替刚提过的名词',tag:'见'},
+    {w:'give',ipa:'/ɡɪv/',pos:'v.',zh:'给；give sb sth',tag:'见'}
+  ],
+  gram:[
+    {k:'指示代词',f:'This/That is … · These/Those are …',d:'these=近指复数 / those=远指复数，用于限定范围里的选择。'},
+    {k:'some 请求',f:'Give me some + 复数 n., please.',d:'请求时用 some 更礼貌，期待肯定答复。'}
+  ]
+};
+var doneUpTo=22, cur=23;
+var DAYS=['日','一','二','三','四','五','六'];
+var meta={done:22,lessons:144,streak:12};
+
+/* ===== 状态 ===== */
+var st={ tab:'today', lesson:23, inLesson:false, curStep:0, stepDone:new Set(), act:{}, wordFlip:{}, qOpen:null, qRated:{}, qStat:{ok:0,weak:0}, playOn:false, playI:0, bind:0 };
+
+/* ===== 导航 ===== */
+var NAV=[
+  {id:'today',n:'今日',i:'◷'},
+  {id:'course',n:'课程',i:'▤'},
+  {id:'review',n:'复习',i:'↻'},
+  {id:'report',n:'战报',i:'◫'}
+];
+function navBtn(it){return '<button data-tab="'+it.id+'" onclick="goTab(\''+it.id+'\')"><span class="ico">'+it.i+'</span>'+(window.innerWidth<720||document.documentElement.dataset.view==='phone'?'<span style="display:none"></span>':'')+it.n+'</button>';}
+function goTab(t){ st.tab=t; st.inLesson=false; paint(); }
+function pbk(){ st.inLesson=false; paint(); }
+
+/* ===== 绘制 ===== */
+var el=$('#stage'), elR=$('#rail'), elR2=$('#rail2');
+function $(s){return document.querySelector(s)}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function setView(v){ document.documentElement.dataset.view=v; var s=document.querySelectorAll('#seg button'); for(var i=0;i<s.length;i++)s[i].classList.toggle('on',s[i].dataset.v===v); paint(); }
+
+function ringSvg(pct,size){var r=size/2-7,c=2*Math.PI*r;return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 '+size+' '+size+'"><circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#e7ebf5" stroke-width="9"/><circle cx="'+size/2+'" cy="'+size/2+'" r="'+r+'" fill="none" stroke="#4353ff" stroke-width="9" stroke-linecap="round" stroke-dasharray="'+c+'" stroke-dashoffset="'+c*(1-pct)+'" style="transition:.5s"/></svg>';}
+
+/* ---------- 右侧队列数据 ---------- */
+var QUEUE=[
+  {t:'these',k:'生词',a:'这些（this 复数，近指）'},
+  {t:'shelf',k:'生词',a:'架子；复数 shelves。'},
+  {t:'the ones',k:'句型',a:'代 the glasses，避免重复。'},
+  {t:'these/those',k:'语法',a:'近指/远指 复数。'}
+];
+function queuePanel(compact){
+  var rated=Object.keys(st.qRated).length, tot=QUEUE.length;
+  return '<h3><span>到期队列</span><span class="tag '+(rated>=tot?'ok':'new')+'">'+(rated>=tot?'本组完成':'已答 '+rated+'/'+tot)+'</span></h3>'+
+  QUEUE.map(function(q,i){
+    var o=st.qOpen===i;
+    return '<button class="qrow'+(o?' open':'')+'" onclick="ev('+i+',\'open\')" data-i="'+i+'">'+
+      '<div class="row between"><span class="qt">'+esc(q.t)+'</span><span class="tag gray">'+q.k+'</span></div>'+
+      '<div class="ans">'+esc(q.a)+'</div>'+
+      (o?'<div class="rating" onclick="event.stopPropagation()">'+
+        '<button class="r1" onclick="ev('+i+',\'rate\',\'a\')">忘了</button><button class="r2" onclick="ev('+i+',\'rate\',\'s\')">模糊</button>'+
+        '<button class="r3" onclick="ev('+i+',\'rate\',\'y\')">想起</button><button class="r4" onclick="ev('+i+',\'rate\',\'e\')">简单</button></div>':'')+
+      (st.qRated[i]?'<div class="sm" style="margin-top:6px;color:var(--ok);font-weight:800">✓ 已评价，下次 <b>'+(st.qRated[i]==='a'?'10 分钟':st.qRated[i]==='s'?'1 天':st.qRated[i]==='y'?'3 天':'7 天')+'</b> 后回来</div>':'')+
+      '</button>';
+  }).join('');
+}
+function ratingTo(i,v){
+  st.qRated[i]=v; st.qStat[v==='a'||v==='s'?'weak':'ok']++; st.qOpen=null;
+  if(Object.keys(st.qRated).length>=QUEUE.length){ toast('本组 4 张复习完成，数据已计入战报'); }
+  paint();
+}
+
+/* ---------- 中央各 Tab ---------- */
+function todayPanel(){
+  var pct=meta.done/meta.lessons;
+  var g=[['早间 · 先复习',12,['复习到期卡（15 张）','错词快看：cupboard·mirror']],
+         ['主课 · L23 Which glasses?',36,['五步学习：精听→生词→语法→跟读→听写','可选：胶学精讲视频 · 18 分钟']],
+         ['灵活补足 · 可选',0,['Coffee Break English 泛听一集']]];
+  return '<div class="hero">'+
+    '<div class="bigring">'+ringSvg(pct,112)+'<div style="text-align:center;margin-top:-92px;font-weight:900">'+meta.done+'<div class="sm mut">/ 144 课</div></div></div>'+
+    '<div class="grow" style="min-width:220px"><div class="crumb">9月3日 周四 · 主线 · 连续打卡 '+meta.streak+' 天</div>'+
+    '<h1 style="margin-top:6px">早上好，小易</h1><div class="sm mut">今天约 <b style="color:var(--acc)">48 分钟</b>：先清 15 张到期卡，再学 L23。按这个顺序做，每天不欠账。</div>'+
+    '<div class="row wrap" style="margin-top:10px"><button class="btn prim" onclick="goTab(\'course\');openLesson(23)">开始 L23 学习 →</button>'+
+    '<button class="btn soft" onclick="goTab(\'review\')">先复习 15 张</button></div></div></div>'+
+    '<div style="display:flex;flex-direction:column;gap:12px">'+g.map(function(x,i){
+      return '<div style="border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff">'+
+        '<div class="row between"><b>'+x[0]+'</b><span class="tag gray">约 '+x[1]+' 分钟</span></div>'+
+        x[2].map(function(it,j){var k='t'+i+'-'+j,on=st.act[k];
+          return '<button style="width:100%;display:flex;gap:10px;align-items:flex-start;text-align:left;margin-top:8px;padding:8px;border-radius:10px" onclick="toggleTask(\''+k+'\')">'+
+          '<span style="width:20px;height:20px;flex:none;margin-top:1px;border-radius:6px;border:2px solid '+(on?'#12a16b':'#d4dae8')+';background:'+(on?'#12a16b':'#fff')+';color:#fff;font-size:12px;line-height:16px;text-align:center">'+(on?'✓':'')+'</span>'+
+          '<span style="font-size:13.5px;font-weight:700;color:'+(on?'#9aa1b6':'#2a3150')+'">'+it+(on?'（已完成）':'')+'</span></button>';
+        }).join('')+'</div>';
+    }).join('')+'</div>';
+}
+function toggleTask(k){ st.act[k]=!st.act[k]; paint(); }
+
+function coursePanel(){
+  return '<div class="crumb">课程地图 · 新概念英语第一册</div><h1 style="margin:4px 0 2px">主线课程</h1>'+
+  '<div class="sm mut">学完的进复习池，点任意一课进入本课聚合页。当前推荐：L23（今日主课）。</div>'+
+  '<div style="margin-top:14px"><div class="uhead"><span class="n">U1</span><div class="grow"><b>问候 · 请求 · 日常对话</b><div class="sm mut">L1 – L24 · 已完成 '+doneUpTo+' 课</div></div>'+
+  '<button class="btn sm soft" onclick="toast(\'折叠（原型示意）\')">收起</button></div>'+
+  '<div class="chips">'+Array.from({length:24},function(_,i){var n=i+1;
+    return '<button class="lchip '+(n<cur?'done':n===cur?'cur':'todo')+'" onclick="openLesson('+n+')">'+n+'</button>';}).join('')+'</div></div>'+
+  '<div class="row wrap" style="gap:8px"><span class="tag gray">Unit 2 · 时态起步（待通关 U1）</span>'+
+  '<span class="tag gray">Unit 3 · 过去进行 …（锁定）</span></div>';
+}
+
+function lessonPanel(){
+  var L=L23;
+  var stepsHtml=L.steps.map(function(s,i){
+    var done=st.stepDone.has(i), act=st.curStep===i;
+    return '<div class="row" style="align-items:stretch">'+
+      '<button class="srow '+(act?'act':'')+' '+(done?'done':'')+'" onclick="setStep('+i+')" style="flex:1">'+
+      '<span class="snum">'+(done?'✓':(i+1))+'</span><span class="grow"><b>'+s.t+'</b><div class="sm mut">'+s.m+' · '+s.d+'</div></span>'+(act?'<span class="tag new">进行中</span>':'')+'</button></div>';
+  }).join('');
+  var extra='<div class="row wrap" style="margin-top:4px"><button class="btn sm soft" onclick="toast(\'跳转：nce 课文点读 L23（正式版外链）\')">课文点读</button>'+
+  '<button class="btn sm gray" onclick="toast(\'打开：胶学精讲 L23 · 约 18 分钟\')">胶学视频</button>'+
+  '<button class="btn sm gray" onclick="toast(\'绑定：Coffee Break English · 泛听\')">补充泛听</button>'+
+  '<button class="btn sm pur" onclick="toast(\'正式版由 genanki 导出 .apkg\')">导出 Anki</button></div>';
+  return '<div style="display:flex;flex-direction:column;gap:14px">'+
+    '<div class="row"><button class="btn sm gray" onclick="st.inLesson=false;paint()">← 回课程地图</button></div>'+
+    '<div class="lhead"><div class="lnum">L'+L.n+'</div><div class="grow" style="min-width:200px">'+
+    '<div class="crumb">'+L.unit+' · 本课聚合页</div><h1 style="margin-top:4px">'+L.title+'</h1>'+
+    '<div class="sm mut">'+L.zh+'</div><div class="row wrap" style="margin-top:8px"><span class="tag new">今日主课</span><span class="tag gray">'+L.meta+'</span></div></div></div>'+
+    '<div style="border:1px solid var(--line);border-radius:14px;padding:14px"><div class="row between"><b>五步学习法</b><span class="tag ok">预计 '+L.min+' 分钟</span></div>'+
+    '<div class="steps" style="margin-top:10px">'+stepsHtml+'</div></div>'+
+    stepPane(L)+
+    '<div style="border:1px dashed #c9d1ff;background:var(--acc-soft);border-radius:14px;padding:13px"><b>本课产出</b><div class="sm" style="margin-top:4px">学完自动整理：<b>'+L.words.length+' 张生词卡 + 2 句型卡 + 2 语法卡</b> → 进入每日复习池；可一键导出 Anki。</div>'+extra+'</div></div>';
+}
+
+function stepPane(L){
+  var i=st.curStep, H=[];
+  if(i===0){
+    H.push('<div class="crumb">'+'Step 1 · 精听（演示音频为模拟）</div>');
+    H.push('<div class="row" style="gap:8px"><button class="btn prim sm" onclick="togPlay()">'+(st.playOn?'⏸ 暂停':'▶ 播放全课')+'</button><button class="btn soft sm" onclick="st.playOn=false;st.playI=0;paint()">停止</button><span class="sm mut">逐句显示 · 自动走句</span></div>');
+    L.lines.forEach(function(ln,i2){
+      var on=st.playOn&&st.playI===i2;
+      H.push('<div class="playln '+(on?'on':'')+'"><b class="en">'+(on?'▶ ':'')+esc(ln.en)+'</b><div class="zh">'+esc(ln.zh)+'</div></div>');
+    });
+    H.push('<div class="row wrap"><span class="tag gray">盲听模式</span><span class="tag gray">0.8x</span><button class="btn ok sm" onclick="stepDone(0)">精听完成，进入生词 →</button></div>');
+  }else if(i===1){
+    H.push('<div class="crumb">Step 2 · 本课生词（点卡片翻出释义）</div>');
+    H.push('<div class="wordrow">'+L.words.map(function(w,i2){
+      var fl=!!st.wordFlip[i2];
+      return '<button class="wordchip'+(fl?' flip':'')+'" onclick="st.wordFlip['+i2+']=!st.wordFlip['+i2+'];paint()">'+esc(w.w)+' <span class="sm mut">'+w.ipa+' · '+w.pos+'</span><div class="bk">'+esc(w.zh)+'</div></button>';
+    }).join('')+'</div>');
+    H.push('<div class="row"><button class="btn ok sm" onclick="stepDone(1)">8 词过完，进入语法 →</button></div>');
+  }else if(i===2){
+    H.push('<div class="crumb">Step 3 · 语法讲解</div>');
+    L.gram.forEach(function(g){H.push('<div style="border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px;margin-top:8px"><b>'+g.k+'</b><div class="row" style="background:#f2f4fb;border-radius:8px;padding:8px;margin-top:6px;font-weight:700">'+g.f+'</div><div class="sm mut" style="margin-top:6px">'+g.d+'</div></div>');});
+    H.push('<div class="row" style="margin-top:6px"><button class="btn ok sm" onclick="stepDone(2)">理解完毕，进入跟读 →</button></div>');
+  }else if(i===3){
+    H.push('<div class="crumb">Step 4 · 跟读录音（手机端可用麦克风自评）</div>');
+    H.push('<div class="row wrap">'+L.lines.slice(0,4).map(function(ln){return '<button class="btn gray sm" onclick="toast(\'演示：开始跟读录音（正式版接语音评测）\')">🎙 '+esc(ln.en.slice(0,24))+'…</button>';}).join('')+'</div>');
+    H.push('<div class="row" style="margin-top:4px"><button class="btn ok sm" onclick="stepDone(3)">自评完成，进入听写 →</button></div>');
+  }else{
+    H.push('<div class="crumb">Step 5 · 听写检验（隐藏文本，听写关键句）</div>');
+    ['Give me some glasses, please.','The ones on the shelf.'].forEach(function(s2,i2){
+      H.push('<div style="border:1px dashed #c9d1ff;background:#f2f4fb;border-radius:10px;padding:9px 12px;margin-top:6px"><div class="row between"><span class="sm mut">第 '+(i2+1)+' 句 · 可听 3 遍</span><button class="btn soft sm" onclick="toast(\'播放音频（正式版）\')">▶</button></div><div style="border-bottom:1px solid #aab2cc;height:20px;margin-top:4px"></div></div>');
+    });
+    H.push('<div class="row" style="margin-top:6px"><button class="btn prim sm" onclick="finishLesson()">完成 L23，打卡！</button></div>');
+  }
+  return '<div class="spane" style="margin-top:2px">'+H.join('')+'</div>';
+}
+function setStep(i){ st.curStep=i; st.playI=0; st.playOn=false; paint(); }
+function stepDone(i){ st.stepDone.add(i); if(st.curStep<4)st.curStep++; else finishLesson(); paint(); }
+function finishLesson(){ st.inLesson=false; st.tab='report'; toast('L23 完成 ✓ 已生成 12 张新卡进复习池'); paint(); }
+function togPlay(){ st.playOn=!st.playOn; if(st.playOn&&st.playI>=L23.lines.length)st.playI=0; paint(); }
+setInterval(function(){ if(st.playOn){ st.playI++; if(st.playI>=L23.lines.length){st.playI=0;st.playOn=false;} var s=$('#stage'); if(s&&st.tab==='course'&&st.inLesson&&st.curStep===0)paint(); } },2600);
+
+function reviewPanel(){
+  return '<div class="crumb">复习 · 今日到期 15 张 · 预计 10 分钟</div><h1 style="margin:4px 0 6px">到期队列</h1>'+
+  '<div class="sm mut" style="margin-bottom:10px">先在心里作答，再点开核对；如实评分决定下次何时再见到它（FSRS）。右侧/手机下方均有同队列。</div>'+
+  queuePanel(true);
+}
+
+function reportPanel(){
+  var wk=[['一',35],['二',60],['三',50],['四',50],['五',0],['六',65],['日',45]],max=70;
+  var m=[['词汇',74],['句型',66],['语法',58],['听写',41]];
+  return '<div class="crumb">学情战报 · 连续打卡 12 天</div><h1 style="margin:4px 0 6px">本周回顾</h1>'+
+  '<div class="row wrap" style="gap:8px"><button class="btn sm gray" onclick="toast(\'切换日报（演示）\')">日报</button><button class="btn prim sm">周报</button></div>'+
+  '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:12px">'+
+  '<div style="border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff"><b>学习时长（分钟）</b>'+
+  '<div class="mbars">'+wk.map(function(d){var h=Math.max(4,100*d[1]/max);return '<div class="b"><div class="bar" style="height:'+h+'%"></div><span>'+d[0]+'</span></div>';}).join('')+'</div>'+
+  '<div class="row between sm mut" style="margin-top:6px"><span>共 305 分钟 · 5/7 天达标</span><span style="color:var(--acc);font-weight:800">已连续 12 天</span></div></div>'+
+  '<div style="border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff"><b>掌握度（按卡型）</b>'+
+  m.map(function(x){return '<div class="row" style="margin-top:9px"><span class="sm mut" style="width:34px">'+x[0]+'</span><span style="flex:1;height:9px;background:#e9edf5;border-radius:99px;overflow:hidden"><i style="display:block;height:100%;width:'+x[1]+'%;background:var(--acc);border-radius:99px"></i></span><b class="sm" style="width:36px;text-align:right">'+x[1]+'%</b></div>';}).join('')+
+  '<div style="margin-top:12px;padding:10px;background:#fff3e6;border-radius:10px" class="sm"><b style="color:var(--warn)">老师观察：</b>“a / the”连续错 3 次，建议回炉 L17；this/these 辨析今日已进复习队列。</div></div></div>';
+}
+
+/* 右侧固定二卡 */
+function railToday(){ return '<h3><span>今日进度</span><span class="tag new">60%</span></h3>'+
+  '<div class="hbar"><i style="width:60%"></i></div>'+
+  '<div class="sm mut" style="margin-top:8px">复习 <b>6/15</b> · L23 学习 <b>0/5 步</b> · 合 48 分钟。<br>完成后数据自动回填战报。</div>'; }
+function railMaster(){ return '<h3><span>掌握度</span><span class="tag gray">FSRS</span></h3>'+
+  [['词汇',74],['句型',66],['语法',58],['听写',41]].map(function(x){return '<div class="row" style="margin-top:7px"><span class="sm mut" style="width:34px">'+x[0]+'</span><span style="flex:1;height:8px;background:#e9edf5;border-radius:99px;overflow:hidden"><i style="display:block;height:100%;width:'+x[1]+'%;background:var(--ok);border-radius:99px"></i></span><b class="sm" style="width:32px;text-align:right">'+x[1]+'</b></div>';}).join('')+'</div>'; }
+
+/* ===== 渲染主流程 ===== */
+function paint(){
+  // 桌面导航选中 & 组装
+  var nav=$('#nav'), bn=$('#botnav');
+  nav.innerHTML=NAV.map(function(it){
+    var on=st.inLesson?(it.id==='course'):(st.tab===it.id);
+    return '<button class="'+(on?'on':'')+'" onclick="goTab(\''+it.id+'\')"><span class="ico">'+it.i+'</span>'+it.n+'</button>';
+  }).join('')+'<div style="border-top:1px dashed var(--line);margin:8px 4px"></div>'+
+  '<button class="'+(st.inLesson?'on':'')+'" onclick="openLesson(23)"><span class="ico">◆</span>L23 当前课</button>';
+  bn.innerHTML=NAV.map(function(it){return '<button class="'+(st.inLesson&&it.id==='course'?'on':st.tab===it.id?'on':'')+'" onclick="goTab(\''+it.id+'\')"><span class="ico">'+it.i+'</span>'+it.n+'</button>';}).join('');
+
+  var center;
+  if(st.inLesson&&(st.tab==='course')) center=lessonPanel();
+  else if(st.tab==='today') center=todayPanel();
+  else if(st.tab==='course') center=coursePanel();
+  else if(st.tab==='review') center=reviewPanel();
+  else center=reportPanel();
+  $('#stage').innerHTML=center;
+  if(st.curStep===0&&st.playOn){}
+
+  var isWide=window.innerWidth>1020&&document.documentElement.dataset.view!=='phone';
+  elR.innerHTML=isWide?queuePanel(false):'';
+  elR2.innerHTML=isWide?railToday():'';
+}
+function openLesson(n){ st.lesson=n; st.inLesson=true; st.tab='course'; st.curStep=0; paint(); window.scrollTo(0,0); }
+function ev(i,act,v){ if(act==='open'){ st.qOpen=(st.qOpen===i?null:i); } else ratingTo(i,v); paint(); }
+function toast(m){ var t=document.getElementById('toast'); if(!t){ t=document.createElement('div'); t.id='toast'; t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#20273c;color:#fff;padding:11px 18px;border-radius:99px;font-size:13px;font-weight:700;z-index:99;box-shadow:0 8px 20px -6px rgba(0,0,0,.4)'; document.body.appendChild(t);} t.textContent=m; t.style.opacity='1'; clearTimeout(t._t); t._t=setTimeout(function(){t.style.opacity='0';t.style.transition='.3s';},2200); }
+goTab('today');
+</script>
+</body>
+</html>

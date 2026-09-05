@@ -1,0 +1,33 @@
+/* v1.2 覆盖与新增样式 */
+.topbar{gap:8px}
+.booksel select{max-width:200px}
+#railToggle{padding:6px 12px;border-radius:9px;background:#eef1f8;font-size:12.5px;font-weight:800;color:#5b6380;white-space:nowrap}
+#railToggle.on{background:var(--ink);color:#fff}
+@media (min-width:901px){.menu-btn{display:none}}
+@media (max-width:900px){#railToggle{display:none}}
+body.rail-off .rail{display:none}
+body.rail-off .stage .main{width:100%}
+
+.tabs{display:flex;gap:4px;background:#eef1f8;padding:4px;border-radius:12px;width:fit-content;margin-bottom:14px}
+.tabbtn{padding:7px 22px;border-radius:9px;font-weight:800;font-size:13px;color:var(--mut)}
+.tabbtn.on{background:#fff;color:var(--pri);box-shadow:0 2px 8px -4px rgba(30,45,95,.4)}
+.pane{display:none}.pane.on{display:block}
+
+.ldiv{display:flex;align-items:center;gap:8px;margin:10px 0 6px;color:var(--mut);font-size:11px;font-weight:900}
+.ldiv::before,.ldiv::after{content:"";flex:1;height:1px;background:var(--line)}
+
+body.md-zh .sline .en{display:none}
+body.md-en .sline .zh{display:none}
+body.md-blur .sline .en,body.md-blur .sline .zh{filter:blur(6px);user-select:none}
+body.md-blur .sline:hover .en,body.md-blur .sline:hover .zh{filter:none}
+
+.uro{display:flex;align-items:center;gap:9px;padding:8px 9px;border-radius:11px;cursor:pointer}
+.uro:hover{background:#f5f7fb}
+.uro.active{background:var(--pri-soft)}
+.uro .uix{width:34px;height:26px;border-radius:7px;background:#f0f2f8;color:#7f859b;flex:none;display:grid;place-items:center;font-size:10.5px;font-weight:900}
+.uro.active .uix{background:var(--pri);color:#fff}
+.uro .utx{flex:1;min-width:0}
+.uro .ut{font-size:13px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.uro .ur{font-size:10.5px;color:var(--mut);margin-top:1px;font-weight:700}
+.uro .ck{margin-left:auto;font-size:12px;color:#c6ccda;font-weight:900;flex:none}
+.uro.done .ck{color:var(--ok)}
