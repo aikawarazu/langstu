@@ -233,6 +233,12 @@
 .wp-zh.no{color:#9aa2b6;font-weight:700}
 .wp-mut{font-size:11px;color:#a0947a;margin-top:3px}
 
+/* ---------- 播放器：普通/简洁模式切换 ---------- */
+.vmode{display:inline-flex;gap:2px;background:#eef1f8;padding:2px;border-radius:8px}
+.vmini{font-size:11px;font-weight:800;padding:4px 9px;border-radius:6px;background:transparent;color:#5b6380}
+.vmini:hover{color:var(--ink);background:#e4e9f6}
+.vmini.on{background:#fff;color:var(--pri);box-shadow:0 2px 6px -3px rgba(30,45,95,.5)}
+
 /* ---------- 笔记总览页 ---------- */
 .ov-head{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;margin-bottom:14px}
 .ov-head h2{font-size:20px;font-weight:900}

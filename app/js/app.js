@@ -40,7 +40,7 @@ function saveDone(){localStorage.setItem(DONE_KEY,[...done].join(','));}
 var MODES=['show','zh','en','blur'];
 var MODE_TXT={show:'字幕：双语',zh:'字幕：中文',en:'字幕：英文',blur:'字幕：模糊'};
 var S={book:'NCE1',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
-  loopAll:true,view:'study',ovBook:'',ovType:'all',ovQ:'',dict:{},
+  loopAll:true,view:'study',vsimple:false,vp:1,ovBook:'',ovType:'all',ovQ:'',dict:{},
   seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0};
 try{if(localStorage.getItem('nce_loopall')==='0')S.loopAll=false;}catch(e){}
 var lrcCache={};
@@ -115,7 +115,11 @@ var VIDEO_PANE=
     '<div class="vchips" id="vchips"></div>'+
     '<div class="vframe blank" id="vframe"><div class="v-empty"><div class="play-ic">▶</div><div id="vEmptyTxt">选择上方某一集开始播放</div></div>'+
     '<iframe id="vid" allowfullscreen loading="lazy" allow="accelerometer;autoplay;clipboard-write;encrypted-media;picture-in-picture"></iframe></div>'+
-    '<div class="vfoot"><span id="vlabel"></span><span class="sp"></span><a id="vlink" target="_blank" rel="noopener">B站原链 ↗</a></div>'+
+    '<div class="vfoot"><span id="vlabel"></span><span class="sp"></span>'+
+      '<span class="vmode" title="切换播放器外观；两种模式均已禁止跳转 B 站">'+
+        '<button class="vmini on" id="vModeFull">普通模式</button>'+
+        '<button class="vmini" id="vModeSimple">简洁模式</button></span>'+
+      '<a id="vlink" target="_blank" rel="noopener">B站原链 ↗</a></div>'+
     '<div class="vnote" id="vnote"></div></div></div>';
 function skeleton(){
   $('#study').innerHTML=
@@ -151,7 +155,7 @@ function bindStatic(){
   $('#tbVideo').onclick=()=>setTab('video');
   $('#bPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#bNext').onclick=()=>openUnit(S.ui+1,true);
-  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();
+  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
   function doBookSwitch(){
@@ -396,8 +400,8 @@ function renderVideoChips(bk,u){
   var pageTxt=function(p){var it=(vid.pages||[]).find(x=>x.p===p);return it?it.part:('P'+p);};
   /* 有「整课切片」直链（NCE2/3，来自CSV video_lesson_*）→ 主播放器直接播这一课 */
   if(u.ve&&u.vw){
-    var sv=simpleFromUrl(u.ve); /* 整课切片链接统一转成简洁播放器 */
-    setVideoSrc(sv||u.ve);
+    S.vp=1;
+    setVideoSrc(S.vsimple?(simpleFromUrl(u.ve)||u.ve):u.ve);
     $('#vframe').classList.remove('blank');
     $('#vlabel').textContent='整课讲解 · '+u.title;
     $('#vlink').href=u.vw;
@@ -416,18 +420,20 @@ function renderVideoChips(bk,u){
   });
   ps.sort(function(a,b){return a-b;});
   if(ps.length){
-    box.innerHTML=ps.map(function(p){
+    var p0=ps[0];
+    S.vp=p0;
+    box.innerHTML=ps.map(function(p,idx){
       var label=cleanPart(pageTxt(p));
-      return '<button class="vchip" data-p="'+p+'">'+esc(label)+' · P'+p+'</button>';
+      return '<button class="vchip'+(idx===0?' on':'')+'" data-p="'+p+'">'+esc(label)+' · P'+p+'</button>';
     }).join('');
     note.textContent='官方合集按 课号 分P定位（本课涉及 P'+ps.join('/P')+'）。点集切换；切课自动带出本课首集。';
     $('#vEmptyTxt').textContent='选择上方某一集播放';
-    var p0=ps[0];
     setVideoSrc(videoUrl(vid,p0));
     $('#vframe').classList.remove('blank');
     $('#vlabel').textContent='P'+p0+' · '+cleanPart(pageTxt(p0));
     $('#vlink').href='https://www.bilibili.com/video/'+vid.bvid+'/?p='+p0;
   }else{
+    S.vp=1;
     var ws=Array.isArray(vid.watch)?vid.watch:[];
     box.innerHTML=ws.length?ws.map(function(w){
       return '<a class="vchip" href="'+w+'" target="_blank" rel="noopener">官方合集 ↗</a>';
@@ -436,13 +442,20 @@ function renderVideoChips(bk,u){
     $('#vEmptyTxt').textContent='暂无视频内容';
   }
 }
+/* 正在播的集数按钮亮起 */
+function syncVideoChips(p){
+  var chips=document.querySelectorAll('#vchips .vchip[data-p]');
+  for(var i=0;i<chips.length;i++)chips[i].classList.toggle('on',+chips[i].dataset.p===p);
+}
 function playVideoChip(p){
   var bk=dataOf(S.book),vid=bk.video||{},f=$('#vframe');
+  S.vp=p;
   setVideoSrc(videoUrl(vid,p));
   f.classList.remove('blank');
   var it=(vid.pages||[]).find(x=>x.p===p);
   $('#vlabel').textContent='P'+p+' · '+cleanPart(it?it.part:'');
   $('#vlink').href='https://www.bilibili.com/video/'+vid.bvid+'/?p='+p;
+  syncVideoChips(p);
   setTab('video');
 }
 /* 本单元信息：放在顶部 bar 右侧，做成一排紧凑信息片 */
@@ -791,13 +804,16 @@ function setLoopAll(v){
   toast(S.loopAll?'整段循环已开启（听完整课自动重播）':'整段循环已关闭');
 }
 
-/* ===== 视频：固定「简洁播放器 + 沙箱防跳转」=====
+/* ===== 视频播放器：普通 / 简洁两种模式，均带 sandbox 禁止跳转 B 站 =====
    做法参照 https://perrykum.github.io/rtcls/study/bliframe/bliframe.html
-   1) 用 B 站移动版嵌入地址（html5mobileplayer），播放器本身没有跳转入口；
-   2) 再加 sandbox（不给 allow-popups / allow-top-navigation）双保险。 */
+   - 普通模式：player.bilibili.com（默认）
+   - 简洁模式：移动版嵌入地址 html5mobileplayer，本身就没有跳转入口
+   - sandbox 不给 allow-popups / allow-top-navigation，两种模式下点击播放器都无法跳走 */
 var V_SANDBOX='allow-scripts allow-same-origin allow-forms allow-presentation';
 function videoUrl(vid,p){
-  return 'https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid='+vid.bvid+'&page='+p+'&as_wide=1';
+  return S.vsimple
+    ? 'https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid='+vid.bvid+'&page='+p+'&as_wide=1'
+    : 'https://player.bilibili.com/player.html?bvid='+vid.bvid+'&high_quality=1&autoplay=0&p='+p;
 }
 /* 把任意 B 站播放器链接（含整课切片）转成简洁播放器地址 */
 function simpleFromUrl(url){
@@ -808,8 +824,30 @@ function simpleFromUrl(url){
 }
 function setVideoSrc(url){
   var f=$('#vid');if(!f)return;
-  f.setAttribute('sandbox',V_SANDBOX);
+  f.setAttribute('sandbox',V_SANDBOX); /* 无论哪种模式都禁止跳转 */
   f.src=url; /* 改 sandbox 本身就会让 iframe 重载，这里再置一次 src 兜底 */
+}
+/* 用当前单元 + 当前集数按新模式重新装载播放器 */
+function reloadVideo(){
+  var bk=dataOf(S.book),u=bk?bk.units[S.ui-1]:null;
+  if(u&&u.ve){setVideoSrc(S.vsimple?(simpleFromUrl(u.ve)||u.ve):u.ve);return;}
+  var vid=(bk&&bk.video)||{};
+  if(!vid.bvid)return;
+  setVideoSrc(videoUrl(vid,S.vp||1));
+}
+function setVideoMode(simple){
+  if(S.vsimple===simple)return;
+  S.vsimple=simple;
+  var f=$('#vModeFull'),s=$('#vModeSimple');
+  if(f)f.classList.toggle('on',!simple);
+  if(s)s.classList.toggle('on',simple);
+  reloadVideo();
+  toast(simple?'已切换到简洁播放器':'已切换到普通播放器');
+}
+function bindVideoMode(){
+  var f=$('#vModeFull'),s=$('#vModeSimple');
+  if(f)f.onclick=function(){setVideoMode(false);};
+  if(s)s.onclick=function(){setVideoMode(true);};
 }
 
 /* ===== 视图切换：学习 / 笔记总览 ===== */
