@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>新概念英语点读 · 学习</title>
-<link rel="stylesheet" href="css/app.css?v=20">
-<link rel="stylesheet" href="css/v12.css?v=20">
-<link rel="stylesheet" href="css/textbook.css?v=20">
-<link rel="stylesheet" href="css/split.css?v=20">
+<link rel="stylesheet" href="css/app.css?v=22">
+<link rel="stylesheet" href="css/v12.css?v=22">
+<link rel="stylesheet" href="css/textbook.css?v=22">
+<link rel="stylesheet" href="css/split.css?v=22">
 </head>
 <body>
 <div class="wrap">
@@ -53,6 +53,25 @@
 </div>
 <div class="wpop" id="wpop" hidden></div>
 
+<!-- 教材纯文本查看浮框 -->
+<div class="nmodal" id="textModal" hidden>
+  <div class="nm-mask" id="txMask"></div>
+  <div class="nm-box" role="dialog" aria-modal="true" aria-label="教材纯文本">
+    <div class="nm-head">
+      <div><div class="t">📄 教材纯文本</div><div class="s" id="txSub"></div></div>
+      <button class="nm-x" id="txX" title="关闭">✕</button>
+    </div>
+    <pre id="txPre" class="tx-pre"></pre>
+    <div class="nm-foot">
+      <span class="st">可自由选取复制；手机长按全选</span>
+      <span class="sp"></span>
+      <button class="nm-btn" id="txCopy">📋 复制全文</button>
+      <button class="nm-btn" id="txExport">⬇️ 导出 txt</button>
+      <button class="nm-btn ok" id="txDone">完成</button>
+    </div>
+  </div>
+</div>
+
 <!-- 记笔记：弹出浮框 -->
 <div class="nmodal" id="noteModal" hidden>
   <div class="nm-mask" id="nmMask"></div>
@@ -74,12 +93,12 @@
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
 
-<script src="data/NCE1.js?v=20"></script>
-<script src="data/NCE2.js?v=20"></script>
-<script src="data/NCE3.js?v=20"></script>
-<script src="data/NCE4.js?v=20"></script>
-<script src="data/notes.js?v=20"></script>
-<script src="data/notes-index.js?v=20"></script>
-<script src="js/app.js?v=20"></script>
+<script src="data/NCE1.js?v=22"></script>
+<script src="data/NCE2.js?v=22"></script>
+<script src="data/NCE3.js?v=22"></script>
+<script src="data/NCE4.js?v=22"></script>
+<script src="data/notes.js?v=22"></script>
+<script src="data/notes-index.js?v=22"></script>
+<script src="js/app.js?v=22"></script>
 </body>
 </html>

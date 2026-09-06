@@ -103,6 +103,14 @@
 #tbk .tbk-empty{border:1px dashed #e0d6bf;border-radius:12px;padding:14px;text-align:center;
   color:#a0947a;font-size:12.5px;background:#fffdf7}
 
+/* ---------- 教材文本工具 ---------- */
+.achip.tool{background:#fff;border:1px solid var(--line);color:#6b7390}
+.achip.tool:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-soft)}
+.tx-pre{flex:1;min-height:240px;margin:13px 17px 0;padding:13px 14px;overflow:auto;
+  font-family:inherit;font-size:13px;line-height:1.9;white-space:pre-wrap;word-break:break-word;
+  border:1px solid var(--line);border-radius:11px;background:#fbfcfe;color:var(--ink);
+  user-select:text;cursor:text}
+
 /* ---------- 记笔记浮框 ---------- */
 .nmodal{position:fixed;inset:0;z-index:150;display:flex;align-items:center;justify-content:center;padding:18px}
 .nmodal[hidden]{display:none}

@@ -155,7 +155,7 @@ function bindStatic(){
   $('#tbVideo').onclick=()=>setTab('video');
   $('#bPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#bNext').onclick=()=>openUnit(S.ui+1,true);
-  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();
+  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
   function doBookSwitch(){
@@ -736,7 +736,10 @@ function renderAnchors(bk,u){
   box.innerHTML=items.map(function(x){
     return '<button class="achip" data-go="'+x[0]+'">'+esc(x[1])+'</button>';
   }).join('')+
-  '<button class="achip mine'+(myNoteOf(bk,u)?' has':'')+'" id="achMine">📝 我的笔记'+(myNoteOf(bk,u)?' ✓':'')+'</button>';
+  '<button class="achip mine'+(myNoteOf(bk,u)?' has':'')+'" id="achMine">📝 我的笔记'+(myNoteOf(bk,u)?' ✓':'')+'</button>'+
+  '<button class="achip tool" id="achCopy" title="复制本课教材全文">📋 复制</button>'+
+  '<button class="achip tool" id="achExport" title="下载本课教材为 txt 文件">⬇️ 导出</button>'+
+  '<button class="achip tool" id="achView" title="查看纯文本，可自由选取复制">👁 纯文本</button>';
 }
 function jumpSection(id){
   var el=document.getElementById(id);
@@ -751,9 +754,165 @@ function bindAnchors(){
   var box=$('#anchors');if(!box)return;
   box.onclick=function(e){
     if(e.target.closest('#achMine')){openNoteModal();return;}
+    if(e.target.closest('#achCopy')){copyText(tbPlainText(dataOf(S.book),dataOf(S.book).units[S.ui-1]));return;}
+    if(e.target.closest('#achExport')){exportTextbook();return;}
+    if(e.target.closest('#achView')){openTextModal();return;}
     var c=e.target.closest('.achip[data-go]');
     if(c)jumpSection(c.dataset.go);
   };
+}
+
+/* ===== 教材文本工具：复制 / 导出 / 纯文本查看 =====
+   教材正文是大量可点按钮，直接框选困难；这里把它序列化成纯文本再交给剪贴板/文件/浮框。 */
+function tbPlainText(bk,u){
+  var nt=noteOf(bk,u)||{},L=[];
+  var nums=u.ls||[u.n];
+  L.push(bk.title+' · Unit '+u.u+' · '+u.title);
+  L.push((nt.unit||('Lesson '+nums.join(' & '))));
+  L.push('');
+  var has=false;
+  if(nt.question||nt.summary||nt.tips){
+    L.push('—— 导学 ——');
+    if(nt.question)L.push('听录音前先想：'+nt.question);
+    if(nt.summary)L.push(nt.summary);
+    if(nt.tips)L.push('小贴士：'+nt.tips);
+    L.push('');has=true;
+  }
+  L.push('—— 课文 ——');
+  var lessons=nt.lessons||[];
+  if(lessons.length){
+    lessons.forEach(function(ls){
+      L.push('');
+      L.push('Lesson '+ls.no+(ls.title?' · '+ls.title:'')+(ls.kind?'（'+ls.kind+'）':''));
+      (ls.lines||[]).forEach(function(l){
+        L.push((l[0]?l[0]+': ':'')+l[1]);
+        if(l[2])L.push('  '+l[2]);
+        if(l[3])L.push('  注：'+l[3]);
+      });
+      var d=ls.drill;
+      if(d){
+        L.push('');
+        L.push('句型操练：'+d.q);
+        if(d.zh)L.push('  '+d.zh);
+        if(d.slots&&d.slots.length)L.push('  可替换：'+d.slots.map(function(s){return s[0]+(s[1]?'（'+s[1]+'）':'');}).join('、'));
+        if(d.answers&&d.answers.length)L.push('  回答：'+d.answers.join(' / '));
+      }
+    });
+    has=true;
+  }else if(S.seg.length){
+    var di=0;
+    S.seg.forEach(function(r,i){
+      if(di<S.divs.length&&S.divs[di].at===i){
+        L.push('');L.push('—— Lesson '+S.divs[di].lsn+' ——');di++;
+      }
+      L.push(r.en);
+      if(r.zh)L.push('  '+r.zh);
+    });
+    has=true;
+  }else{
+    L.push('（课文尚未加载：请先在学习页播放本课）');
+  }
+  L.push('');
+  if((nt.words||[]).length){
+    L.push('—— 生词 ——');
+    nt.words.forEach(function(w){L.push('  '+w[0]+'  '+(w[1]||''));});
+    L.push('');has=true;
+  }
+  if((nt.phrases||[]).length){
+    L.push('—— 短语 ——');
+    nt.phrases.forEach(function(p){
+      L.push('  '+p[0]+(p[1]?'  '+p[1]:''));
+      (p[2]||[]).forEach(function(e){L.push('    例：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
+    });
+    L.push('');has=true;
+  }
+  if((nt.grammar||[]).length){
+    L.push('—— 语法要点 ——');
+    nt.grammar.forEach(function(g){
+      L.push('· '+g.k);
+      if(g.f)L.push('  句型结构：'+g.f);
+      if(g.d)L.push('  '+g.d);
+      (g.ex||[]).forEach(function(e){L.push('    例：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
+    });
+    L.push('');has=true;
+  }
+  if((nt.patterns||[]).length){
+    L.push('—— 重点句 ——');
+    nt.patterns.forEach(function(p,i){
+      if(p&&p.p!=null){
+        L.push((i+1)+'. '+p.p);
+        if(p.o&&p.o[0])L.push('   课文原句：'+p.o[0]+(p.o[1]?'（'+p.o[1]+'）':''));
+        (p.im||[]).forEach(function(e){L.push('   仿写：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
+      }else{
+        L.push((i+1)+'. '+p[0]);
+        if(p[1])L.push('   '+p[1]);
+      }
+    });
+    L.push('');has=true;
+  }
+  if((nt.exercises||[]).length){
+    L.push('—— 自测练习 ——');
+    nt.exercises.forEach(function(e,i){
+      L.push((i+1)+'. '+e.q);
+      L.push('   答案：'+e.a+(e.n?'（'+e.n+'）':''));
+    });
+    L.push('');has=true;
+  }
+  if(!has&&L.length<=4)L.push('（本课暂无教材内容）');
+  return L.join('\n');
+}
+function copyText(t){
+  function fallback(){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+      document.body.appendChild(ta);ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      toast('已复制到剪贴板');
+    }catch(e){toast('复制失败：请用「👁 纯文本」手动选取复制');}
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(t).then(function(){toast('已复制到剪贴板');},fallback);
+  }else fallback();
+}
+function exportTextbook(){
+  var bk=dataOf(S.book);if(!bk)return;
+  var u=bk.units[S.ui-1];
+  var t=tbPlainText(bk,u);
+  var name=bk.key+'-U'+('0'+u.u).slice(-2)+'-'+String(u.title).replace(/[\\\/:*?"<>|\s]+/g,'-')+'.txt';
+  try{
+    var blob=new Blob(['\ufeff'+t],{type:'text/plain;charset=utf-8'}); /* BOM：Windows 记事本直接可读 */
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);a.download=name;
+    document.body.appendChild(a);a.click();
+    setTimeout(function(){
+      if(URL.revokeObjectURL)URL.revokeObjectURL(a.href);
+      if(a.remove)a.remove();else a.parentNode&&a.parentNode.removeChild(a);
+    },500);
+    toast('已导出 '+name);
+  }catch(e){toast('导出失败：请用「👁 纯文本」手动复制');}
+}
+/* 纯文本查看浮框 */
+function openTextModal(){
+  var bk=dataOf(S.book);if(!bk)return;
+  var u=bk.units[S.ui-1];
+  $('#txSub').textContent=bk.title+' · Unit '+u.u+' · '+u.title;
+  $('#txPre').textContent=tbPlainText(bk,u);
+  $('#textModal').hidden=false;
+  setTimeout(function(){$('#txPre').scrollTop=0;},30);
+}
+function closeTextModal(){$('#textModal').hidden=true;hideWPop();}
+function bindTextModal(){
+  var m=$('#textModal');if(!m)return;
+  $('#txMask').onclick=closeTextModal;
+  $('#txX').onclick=closeTextModal;
+  $('#txDone').onclick=closeTextModal;
+  $('#txCopy').onclick=function(){copyText($('#txPre').textContent);};
+  $('#txExport').onclick=exportTextbook;
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&!m.hidden)closeTextModal();
+  });
 }
 
 /* ===== 记笔记：弹出浮框 ===== */
