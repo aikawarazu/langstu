@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>新概念英语点读 · 学习</title>
-<link rel="stylesheet" href="css/app.css?v=22">
-<link rel="stylesheet" href="css/v12.css?v=22">
-<link rel="stylesheet" href="css/textbook.css?v=22">
-<link rel="stylesheet" href="css/split.css?v=22">
+<link rel="stylesheet" href="css/app.css?v=24">
+<link rel="stylesheet" href="css/v12.css?v=24">
+<link rel="stylesheet" href="css/textbook.css?v=24">
+<link rel="stylesheet" href="css/split.css?v=24">
 </head>
 <body>
 <div class="wrap">
@@ -32,6 +32,7 @@
         <div class="dir-list" id="dirList"></div>
         <div class="dir-foot">
           <button class="dir-act" id="dirNow">定位当前课</button>
+          <button class="dir-act danger" id="dirDel" style="display:none">删除本课程包</button>
           <span class="mut sm" id="dirTip">✓ 表示已学完</span>
         </div>
       </div>
@@ -40,6 +41,8 @@
       <button class="vwbtn on" id="vwStudy">📖 学习</button>
       <button class="vwbtn" id="vwNotes">🗂 笔记总览</button>
     </div>
+    <button class="dir-btn imp" id="impBtn" title="导入课程包（JSON）">＋ 导入课程</button>
+    <input type="file" id="impFile" accept=".json,application/json" hidden>
     <span class="pill" id="topTag"></span>
   </div>
   <div class="stage">
@@ -93,12 +96,8 @@
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
 
-<script src="data/NCE1.js?v=22"></script>
-<script src="data/NCE2.js?v=22"></script>
-<script src="data/NCE3.js?v=22"></script>
-<script src="data/NCE4.js?v=22"></script>
-<script src="data/notes.js?v=22"></script>
-<script src="data/notes-index.js?v=22"></script>
-<script src="js/app.js?v=22"></script>
+<script src="js/data/store.js?v=24"></script>
+<script src="js/data/registry.js?v=24"></script>
+<script src="js/app.js?v=24"></script>
 </body>
 </html>

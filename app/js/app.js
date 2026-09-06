@@ -6,43 +6,38 @@ function fmt(s){s=Math.max(0,Math.floor(s));return Math.floor(s/60)+':'+('0'+(s%
 function clampT(t,dur){if(!isFinite(t))return 0;dur=+dur||0;if(dur>0&&t>dur-0.05)t=dur-0.05;return Math.max(0,t)}
 function setT(t){var a=$('#audio');try{a.currentTime=clampT(t,a.duration);}catch(e){}}
 
-/* 数据脚本的全局变量名历史上有两套（NCE1 / N1），这里按别名逐个试，避免读到 undefined 后静默回退到第一册 */
-var BOOKS=[
-  {key:'NCE1',label:'新概念英语 第一册（144课·两课一音）',globals:['NCE1','N1']},
-  {key:'NCE2',label:'新概念英语 第二册（96课·一课一音）',globals:['NCE2','N2']},
-  {key:'NCE3',label:'新概念英语 第三册（60课·一课一音）',globals:['NCE3','N3']},
-  {key:'NCE4',label:'新概念英语 第四册（48课·一课一音）',globals:['NCE4','N4']}
-];
-var DATA={};
-function entryOf(k){for(var i=0;i<BOOKS.length;i++)if(BOOKS[i].key===k)return BOOKS[i];return null;}
-function pickBook(k){
-  var ent=entryOf(k);if(!ent)return null;
-  for(var i=0;i<ent.globals.length;i++){
-    var o=window[ent.globals[i]];
-    if(o&&o.units&&o.units.length){
-      o.key=o.key||o.book||ent.key;   /* NCE1 旧数据用 book 字段 */
-      o.title=o.title||ent.label;
-      return o;
-    }
-  }
-  console.error('[NCE] 未找到该册数据：'+k+'，已尝试全局变量 '+ent.globals.join(' / '));
-  return null;
-}
-function dataOf(k){if(!DATA[k])DATA[k]=pickBook(k);return DATA[k]||null;}
-/* 真正可用的册（缺数据的册不进下拉框，也就不会“点了没反应还显示第一册”） */
-var AVAIL=BOOKS.filter(b=>!!pickBook(b.key));
-if(!AVAIL.length){document.addEventListener('DOMContentLoaded',function(){toast('教材数据未加载：请检查 data/NCE*.js');});}
-var DONE_KEY='nce_done_v1';
-var done=new Set((localStorage.getItem(DONE_KEY)||'').split(',').filter(Boolean));
-function doneId(k,u){return k+':'+u}
-function saveDone(){localStorage.setItem(DONE_KEY,[...done].join(','));}
+/* ===== 数据层 =====
+   课程一律经 AppData 注册表获取（js/data/registry.js）：内置预设 / 用户导入 / 手动注册三条同源。
+   这里不再嗅探任何全局变量，也不再直接碰 window.NCE*。 */
+var COURSES=[];                 /* 索引：{id,title,kind,unitCount,origin} */
+var DATA={};                    /* id -> 已加载的课程包 */
+function courseList(){return COURSES;}
+function dataOf(id){return DATA[id]||null;}
+function curUnit(){var p=dataOf(S.book);return p?p.units[S.ui-1]:null;}
+/* 当前课的教材内容（已加载才有，未加载为 null） */
+function noteOf(bk,u){return (u&&u._content)||null;}
+function noteExists(bk,u){return !!(u&&(u._content||u.counts));}
+
+/* 已学进度：key = "包id:单元序号"；兼容旧数据里的大写册名（NCE1 → nce1） */
+var done=window.AppStore.progress();
+(function migrateProgress(){
+  var nd=new Set(),changed=false;
+  done.forEach(function(k){ if(/^NCE/i.test(k)){changed=true;nd.add(k.replace(/^NCE/i,'nce'));}else nd.add(k); });
+  if(changed){done=nd;window.AppStore.saveProgress(done);}
+})();
+function doneId(pkgId,idx){return pkgId+':'+idx}
+function saveDone(){window.AppStore.saveProgress(done);}
 
 var MODES=['show','zh','en','blur'];
 var MODE_TXT={show:'字幕：双语',zh:'字幕：中文',en:'字幕：英文',blur:'字幕：模糊'};
-var S={book:'NCE1',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
+var S={book:'nce1',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
   loopAll:true,view:'study',vsimple:false,vp:1,ovBook:'',ovType:'all',ovQ:'',dict:{},
   seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0};
-try{if(localStorage.getItem('nce_loopall')==='0')S.loopAll=false;}catch(e){}
+(function initPref(){
+  var v=window.AppStore.pref('loopAll',null);
+  if(v===null){try{v=localStorage.getItem('nce_loopall');}catch(e){}}   /* 兼容旧 key */
+  if(v==='0'||v===false)S.loopAll=false;
+})();
 var lrcCache={};
 
 /* ===== LRC 解析（兼容“无 Lesson 标记”的文件）===== */
@@ -67,18 +62,20 @@ function parseLrc(text){
   });
   return {by:by,rowsAll:rowsAll,noMarker:noMarker};
 }
-function loadLrc(book,u){
-  if(lrcCache[u.lrc])return Promise.resolve(lrcCache[u.lrc]);
-  if(!u.lrc)return Promise.resolve(null);
+function loadLrc(pkg,u){
+  var tr=window.AppData.audioOf(u,S.ver==='old'?'1985':'new');
+  var lrc=tr?(tr.lrc||''):'';
+  if(!lrc)return Promise.resolve(null);
+  if(lrcCache[lrc])return Promise.resolve(lrcCache[lrc]);
   if(typeof fetch!=='function')return Promise.resolve(null); /* 老环境兜底 */
-  return fetch(u.lrc).then(r=>{if(!r.ok)throw 0;return r.text()})
-    .then(t=>{lrcCache[u.lrc]=parseLrc(t);return lrcCache[u.lrc];})
+  return fetch(lrc).then(r=>{if(!r.ok)throw 0;return r.text()})
+    .then(t=>{lrcCache[lrc]=parseLrc(t);return lrcCache[lrc];})
     .catch(()=>null);
 }
 /* 把单元内各课句子合并成连续字幕；S.seg=句子，S.divs=课分隔位置 */
 function buildSeg(u,parsed){
   var out=[],divs=[];
-  var ls=u.ls||[u.n];
+  var ls=window.AppData.lessonNums(u);
   if(parsed.noMarker){
     parsed.rowsAll.forEach(function(r){out.push(r);});
     return {seg:out,divs:[]};
@@ -155,13 +152,18 @@ function bindStatic(){
   $('#tbVideo').onclick=()=>setTab('video');
   $('#bPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#bNext').onclick=()=>openUnit(S.ui+1,true);
-  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();
+  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();bindImport();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
   function doBookSwitch(){
     var k=bs.value;if(!k||k===S.book)return;
-    try{if(setBook(k)===false)bs.value=S.book;/* 切换失败：下拉框回到当前册 */}
-    catch(err){bs.value=S.book;toast('切换失败：'+err.message);console.error(err);}
+    window.AppData.get(k).then(function(p){
+      DATA[k]=p;
+      try{if(setBook(k)===false)bs.value=S.book;/* 切换失败：下拉框回到当前课程 */}
+      catch(err){bs.value=S.book;toast('切换失败：'+err.message);console.error(err);}
+    }).catch(function(err){
+      bs.value=S.book;toast('加载失败：'+err.message);console.error(err);
+    });
   }
   bs.onchange=doBookSwitch;
   try{bs.addEventListener('input',doBookSwitch);}catch(err){}
@@ -204,17 +206,16 @@ function bindStatic(){
   });
   a.addEventListener('error',()=>toast('音频加载失败：需联网访问资源站'));
 }
-function setBook(k){
-  var bk=dataOf(k);
-  if(!bk){toast('该册数据未加载：'+k);console.error('[NCE] setBook 失败，无数据：',k);return false;}
-  if(!entryOf(k)){k=AVAIL.length?AVAIL[0].key:'NCE1';bk=dataOf(k);if(!bk)return false;}
+function setBook(id){
+  var bk=dataOf(id);
+  if(!bk){toast('课程数据未加载：'+id);console.error('[course] setBook 失败，无数据：',id);return false;}
   try{$('#audio').pause();}catch(e){}
-  var sel=$('#bookSel');if(sel)sel.value=k; /* 保持下拉框与当前册一致 */
-  S.book=k;S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;
+  var sel=$('#bookSel');if(sel)sel.value=id; /* 保持下拉框与当前课程一致 */
+  S.book=id;S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;
   S.seg=[];S.divs=[];S.wantStart=null;
-  S.ui=Math.max(1,Math.min(bk.units.length,+(localStorage.getItem('nce_last_'+k)||1)||1));
+  S.ui=Math.max(1,Math.min(bk.units.length,+(window.AppStore.pref('last.'+id,1)||1)||1));
   closeDir();renderDir();
-  openUnit(S.ui,true); /* 换册属于用户操作，直接开播 */
+  openUnit(S.ui,true); /* 换课程属于用户操作，直接开播 */
   try{toast('已切换到 '+bk.title+'（'+bk.units.length+' 课）');}catch(e){}
 }
 function setTab(t){
@@ -247,12 +248,15 @@ function renderDir(){
   var bk=dataOf(S.book),units=bk.units;
   if(!bk)return;
   dirRows=units.map(function(u,i){
-    var id=doneId(bk.key,u.u);
-    var pair=(u.lesson_no||(u.ls&&u.ls[1]?u.ls[0]+'&'+u.ls[1]:u.n));
-    return {u:u.u,i:i+1,title:u.title,pair:pair?String(pair):'',done:done.has(id),active:(i+1)===S.ui};
+    var id=doneId(bk.id,u.index);
+    var nums=window.AppData.lessonNums(u);
+    var pair=u.lessonLabel||(nums.length>1?('Lesson '+nums.join('&')):'');
+    return {u:u.index,i:i+1,title:u.title,pair:pair?String(pair):'',done:done.has(id),active:(i+1)===S.ui};
   });
   $('#topTag').textContent='已学 '+dirRows.filter(r=>r.done).length+' / '+units.length;
   var sub=$('#dirSub');if(sub)sub.textContent=bk.title+' · 共 '+units.length+' 单元';
+  var cur=COURSES.filter(function(c){return c.id===S.book;})[0];
+  var del=$('#dirDel');if(del)del.style.display=(cur&&cur.origin==='user')?'':'none';
   renderDirList($('#dirSearch')?$('#dirSearch').value:'');
 }
 function renderDirList(kw){
@@ -305,6 +309,20 @@ function bindDirPop(){
       else renderDirList('');
       return;
     }
+    if(e.target.closest('#dirDel')){
+      var id=S.book;
+      if(!window.confirm('删除课程包「'+id+'」？学习进度与笔记会按 id 保留，但课程内容将被移除。'))return;
+      window.AppData.remove(id).then(function(){
+        COURSES=window.AppData.list();
+        closeDir();
+        if(!COURSES.length){renderBookSel();toast('已删除，当前没有课程了');return;}
+        var first=COURSES[0].id;
+        window.AppData.get(first).then(function(p){
+          DATA[first]=p;setBook(first);renderBookSel();
+        });
+      });
+      return;
+    }
   };
   var s=$('#dirSearch');
   if(s)s.oninput=()=>renderDirList(s.value);
@@ -331,10 +349,12 @@ function openUnit(u,autoplay){
   renderTextbook(bk,unit);renderAnchors(bk,unit);refreshTextbook(bk,unit,req);
   var a=$('#audio');
   a.dataset.tok=String(req); /* 打标记：迟到的旧音频事件据此丢弃 */
-  if(S.lastFile!==unit.audio){
-    S.lastFile=unit.audio;
+  var tr=window.AppData.audioOf(unit,S.ver==='old'?'1985':'new');
+  var src=tr?tr.url:'';
+  if(S.lastFile!==src){
+    S.lastFile=src;
     resetSeekUI(); /* 先归零播放器（进度条/时间/播放键/A-B），再换源 */
-    a.src=S.ver==='old'&&unit.audio85?unit.audio85:unit.audio;
+    a.src=src;
     a.playbackRate=S.rate;
     $('#subBox').innerHTML='<div class="loading">加载课文…</div>';
   }
@@ -364,20 +384,21 @@ function openUnit(u,autoplay){
   });
 }
 function renderHead(bk,u){
-  var id=doneId(bk.key,u.u);
-  var pair=u.lesson_no||(u.ls&&u.ls[1]?u.ls[0]+' & '+u.ls[1]:u.n);
-  var nums=u.ls||[u.n];
+  var id=doneId(bk.id,u.index);
+  var pair=u.lessonLabel||'';
+  var nums=window.AppData.lessonNums(u);
+  var hasOld=window.AppData.hasVariant(u,'1985');
   $('#head').innerHTML=
-    '<div class="study-num">'+u.u+'</div>'+
+    '<div class="study-num">'+u.index+'</div>'+
     '<div class="study-t"><h1>'+esc(u.title)+'</h1>'+
-    '<div class="zh">'+(u.ls&&u.ls.length>1?'两课一个音频：Lesson '+nums.join(' / '):'Lesson '+nums[0])+'</div>'+
+    '<div class="zh">'+esc(pair||('Lesson '+nums[0]))+(nums.length>1?'（两课同一段录音）':'')+'</div>'+
     '<div class="study-tags"><span class="tag'+(done.has(id)?' ok':'')+'">'+(done.has(id)?'已学 ✓':'未学')+'</span>'+
-    '<span class="tag">'+(S.ver==='old'&&u.audio85?'1985 老版':'新版英音')+'</span>'+
-    (u.audio85?'<button class="tag" id="tgVer" style="cursor:pointer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
+    '<span class="tag">'+(S.ver==='old'&&hasOld?'1985 老版':'新版英音')+'</span>'+
+    (hasOld?'<button class="tag" id="tgVer" style="cursor:pointer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
     (done.has(id)?'':'<button class="tag new" id="tgDone" style="cursor:pointer">标为已学</button>')+
     '</div></div>'+
     '<div class="study-meta" id="info"></div>';
-  var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.u,true);};
+  var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
   var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
 }
 function renderSubs(){
@@ -395,16 +416,16 @@ function cleanPart(part){
 }
 function renderVideoChips(bk,u){
   var box=$('#vchips');
-  var vid=bk.video||{};
+  var vid=(bk.media||{}).video||{};
   var note=$('#vnote');
   var pageTxt=function(p){var it=(vid.pages||[]).find(x=>x.p===p);return it?it.part:('P'+p);};
   /* 有「整课切片」直链（NCE2/3，来自CSV video_lesson_*）→ 主播放器直接播这一课 */
-  if(u.ve&&u.vw){
+  if(u.video&&u.video.embed){
     S.vp=1;
-    setVideoSrc(S.vsimple?(simpleFromUrl(u.ve)||u.ve):u.ve);
+    setVideoSrc(S.vsimple?(simpleFromUrl(u.video.embed)||u.video.embed):u.video.embed);
     $('#vframe').classList.remove('blank');
     $('#vlabel').textContent='整课讲解 · '+u.title;
-    $('#vlink').href=u.vw;
+    $('#vlink').href=u.video.watch||'';
     $('#vEmptyTxt').textContent='视频加载中…';
     var coll=Array.isArray(vid.watch)?vid.watch:[];
     box.innerHTML='<button class="vchip on">▶ 本课整课讲解</button>'+
@@ -412,10 +433,11 @@ function renderVideoChips(bk,u){
     note.textContent='来源：胶学本课切片（第三方整理）。点播放键即可看这一课的讲解，本页自动带出，切课自动换课。';
     return;
   }
-  var nums=u.ls||[u.n];
+  var nums=window.AppData.lessonNums(u);
+  var vmap=(bk.media||{}).lessonVideoMap||{};
   var seen={},ps=[];
   nums.forEach(function(n){
-    var arr=bk.v?bk.v[String(n)]:null;
+    var arr=vmap[String(n)];
     (arr||[]).forEach(function(p){if(!seen[p]){seen[p]=1;ps.push(p);}});
   });
   ps.sort(function(a,b){return a-b;});
@@ -448,7 +470,7 @@ function syncVideoChips(p){
   for(var i=0;i<chips.length;i++)chips[i].classList.toggle('on',+chips[i].dataset.p===p);
 }
 function playVideoChip(p){
-  var bk=dataOf(S.book),vid=bk.video||{},f=$('#vframe');
+  var bk=dataOf(S.book),vid=(bk.media||{}).video||{},f=$('#vframe');
   S.vp=p;
   setVideoSrc(videoUrl(vid,p));
   f.classList.remove('blank');
@@ -461,42 +483,32 @@ function playVideoChip(p){
 /* 本单元信息：放在顶部 bar 右侧，做成一排紧凑信息片 */
 function renderInfo(bk,u){
   var box=$('#info');if(!box)return;
-  var nums=u.ls||[u.n];
+  var nums=window.AppData.lessonNums(u);
   var has=noteExists(bk,u);
+  var hasOld=window.AppData.hasVariant(u,'1985');
   var chips=
-    '<span class="mi">🎧 '+(u.audio85?'新版 + 1985 老版':'新版英音')+'</span>'+
-    '<span class="mi">📚 Lesson '+nums.join(' · ')+(u.ls&&u.ls.length>1?'（同一段录音）':'')+'</span>'+
+    '<span class="mi">🎧 '+(hasOld?'新版 + 1985 老版':'新版英音')+'</span>'+
+    '<span class="mi">📚 '+(u.lessonLabel||('Lesson '+nums.join(' · ')))+(nums.length>1?'（同一段录音）':'')+'</span>'+
     '<span class="mi'+(has?' ok':'')+'">📖 教材：'+(has?'已生成（右侧可按块跳转）':'本课尚未生成')+'</span>'+
     '<span class="mi">💾 进度存于本机</span>';
   box.innerHTML=chips+'<button class="mi act" id="btnReset" title="清除本单元的「已学」标记">重置标记</button>';
   var r=$('#btnReset');if(r)r.onclick=()=>markUnit(bk,u,false,true);
 }
-/* ===== 教材数据层 =====
-   手写精修（window.NOTES，notes.js）优先；其余课懒加载 data/notes/<册>/<课>.json，
-   由 backend/scripts/import_nce_notes.py 从参考仓库（aikawarazu/new-concept-english）生成。 */
-var noteCache={};   /* '册:单元' -> 已加载的笔记对象；null 表示确认无数据 */
-function noteIdOf(bk,u){return bk.key+':'+u.u}
-function noteFile(bk,u){
-  if(bk.key==='NCE1'){var a=2*u.u-1,b=2*u.u;return ('00'+a).slice(-3)+'-'+('00'+b).slice(-3);}
-  return ('0'+u.u).slice(-2);
-}
-function noteOf(bk,u){return (window.NOTES||{})[noteIdOf(bk,u)]||noteCache[noteIdOf(bk,u)]||null;}
-function noteIdx(bk,u){return ((window.NOTES_IDX||{})[bk.key]||{})[String(u.u)]||null;}
-function noteExists(bk,u){return !!(noteOf(bk,u)||noteIdx(bk,u));}
+/* ===== 教材内容加载：统一走 AppData.content（懒加载 + 缓存 + 404 记忆）=====
+   取到后挂在 unit._content 上，渲染层只读 noteOf(bk,unit)。 */
 function loadNote(bk,u){
-  var id=noteIdOf(bk,u);
-  if(window.NOTES[id]||noteCache[id])return Promise.resolve(noteOf(bk,u));
-  if(noteCache[id]===null)return Promise.resolve(null); /* 已知 404，不再请求 */
-  if(typeof fetch!=='function'){noteCache[id]=null;return Promise.resolve(null);} /* 老环境兜底 */
-  return fetch('data/notes/'+bk.key+'/'+noteFile(bk,u)+'.json')
-    .then(function(r){return r.ok?r.json():null;})
-    .then(function(j){noteCache[id]=j||null;return j;})
-    .catch(function(){noteCache[id]=null;return null;});
+  return window.AppData.content(bk,u).then(function(c){
+    u._content=c||null;
+    return u._content;
+  });
 }
 function normW(w){return String(w==null?'':w).toLowerCase().replace(/[^a-z'’-]/g,'');}
 function buildDict(nt){
   var m={};
-  ((nt&&nt.words)||[]).forEach(function(x){var k=normW(x[0]);if(k&&!m[k])m[k]=x;});
+  ((nt&&nt.words)||[]).forEach(function(x){
+    var k=normW(x.word);
+    if(k&&!m[k])m[k]=[x.word,meaningsText(x)];
+  });
   return m;
 }
 /* 生词表里是原形，课文里可能是复数/过去式，这里做一层简单还原再查 */
@@ -543,16 +555,17 @@ function bindWPop(){
 function tbSec(title,en,inner){
   return '<div class="tbk-sec"><h5>'+esc(title)+' <i>'+esc(en)+'</i></h5>'+inner+'</div>';
 }
+/* 一课课文：{lesson,title?,kind?,lines:[{speaker,en,zh?,note?}],drill?} */
 function tbLesson(L,dict){
-  var h='<div class="tbk-sec"><h5>Lesson '+esc(L.no)+(L.title?' · '+esc(L.title):'')+
+  var h='<div class="tbk-sec"><h5>'+(L.lesson?('Lesson '+esc(L.lesson)):'课文')+(L.title?' · '+esc(L.title):'')+
     (L.kind?' <i>'+esc(L.kind)+'</i>':'')+'</h5>';
   if(L.lines&&L.lines.length){
     h+='<div class="tbk-text">'+L.lines.map(function(l){
-      var sp=l[0]||'',cls=(sp==='B'||sp==='2')?'b':'';
+      var sp=l.speaker||'',cls=(sp==='B'||sp==='2')?'b':'';
       return '<div class="tb-line"><span class="tb-sp '+cls+'">'+esc(sp||'·')+'</span>'+
-        '<div class="tb-l"><div class="tb-en">'+markWords(l[1],dict)+'</div>'+
-        (l[2]?'<div class="tb-zh">'+esc(l[2])+'</div>':'')+
-        (l[3]?'<div class="tb-note">'+esc(l[3])+'</div>':'')+'</div></div>';
+        '<div class="tb-l"><div class="tb-en">'+markWords(l.en,dict)+'</div>'+
+        (l.zh?'<div class="tb-zh">'+esc(l.zh)+'</div>':'')+
+        (l.note?'<div class="tb-note">'+esc(l.note)+'</div>':'')+'</div></div>';
     }).join('')+'</div>';
   }
   var d=L.drill;
@@ -560,7 +573,7 @@ function tbLesson(L,dict){
     h+='<div class="tb-drill" style="margin-top:10px"><div class="q">'+esc(d.q).replace('___','<em>___</em>')+'</div>'+
       (d.zh?'<div class="zh">'+esc(d.zh)+'</div>':'')+
       (d.slots&&d.slots.length?'<div class="tb-slots">'+d.slots.map(function(s){
-        return '<span class="tb-slot">'+esc(s[0])+'<small>'+esc(s[1])+'</small></span>';}).join('')+'</div>':'')+
+        return '<span class="tb-slot">'+esc(s.en)+'<small>'+esc(s.zh||'')+'</small></span>';}).join('')+'</div>':'')+
       (d.answers&&d.answers.length?'<div class="tb-ans">'+d.answers.map(function(a,i){
         return '<span'+(i?' class="no"':'')+'>'+esc(a)+'</span>';}).join('')+'</div>':'')+
       '</div>';
@@ -570,64 +583,70 @@ function tbLesson(L,dict){
 function tbSecId(id,title,en,inner){
   return '<section class="tbk-sec" id="'+id+'"><h5>'+esc(title)+' <i>'+esc(en)+'</i></h5>'+inner+'</section>';
 }
-/* 生词卡：[en, "/音标/ 词性. 释义（用法）"] */
+/* 例句行：{en,zh} */
+function exLine(e,dict){
+  return '<div class="tb-ex-line"><span class="en">'+markWords(e.en,dict)+'</span>'+
+    (e.zh?'<span class="zh">'+esc(e.zh)+'</span>':'')+'</div>';
+}
+function exLines(list,dict,label){
+  var h=(list||[]).map(function(e){return exLine(e,dict);}).join('');
+  return h?('<div class="tb-exs-mini">'+(label?'<div class="t">'+esc(label)+'</div>':'')+h+'</div>'):'';
+}
+/* 释义串：meanings[] -> "词性. 释义（用法）；…" */
+function meaningsText(w){
+  return ((w&&w.meanings)||[]).map(function(m){
+    return (m.pos?m.pos+'. ':'')+(m.meaning||'')+(m.usage?'（'+m.usage+'）':'');
+  }).join('；');
+}
+/* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}]} */
 function tbWordCard(w){
-  return '<div class="tb-word"><b>'+esc(w[0])+'</b><span>'+esc(w[1])+'</span></div>';
+  return '<div class="tb-word"><b>'+esc(w.word)+'</b>'+
+    (w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')+
+    '<span>'+esc(meaningsText(w))+'</span></div>';
 }
-/* 短语卡：[phrase, 用法, [[en,zh],...]]（兼容旧两元组） */
+/* 短语卡：{phrase, usage?, examples:[{en,zh}]} */
 function tbPhraseCard(p){
-  var ex=(p[2]||[]).map(function(e){
-    return '<div class="tb-ex-line"><span class="en">'+markWords(e[0],S.dict)+'</span>'+
-      (e[1]?'<span class="zh">'+esc(e[1])+'</span>':'')+'</div>';
-  }).join('');
-  return '<div class="tb-word phrase"><b>'+esc(p[0])+'</b>'+(p[1]?'<span>'+esc(p[1])+'</span>':'')+
-    (ex?'<div class="tb-exs-mini">'+ex+'</div>':'')+'</div>';
+  return '<div class="tb-word phrase"><b>'+esc(p.phrase)+'</b>'+
+    (p.usage?'<span>'+esc(p.usage)+'</span>':'')+
+    exLines(p.examples,S.dict)+'</div>';
 }
-/* 语法卡：{k,f,d,ex:[[en,zh]]}（兼容旧 {k,f,d}） */
+/* 语法卡：{title, definition?, structure?, usage?, examples:[{en,zh}]} */
 function grCardRich(g,dict){
-  var ex=(g.ex||[]).map(function(e){
-    return '<div class="tb-ex-line"><span class="en">'+markWords(e[0],dict)+'</span>'+
-      (e[1]?'<span class="zh">'+esc(e[1])+'</span>':'')+'</div>';
-  }).join('');
-  return '<div class="tb-gr"><div class="k">'+esc(g.k)+'</div>'+
-    (g.f?'<div class="f">'+esc(g.f)+'</div>':'')+
-    (g.d?'<div class="d">'+esc(g.d)+'</div>':'')+
-    (ex?'<div class="tb-exs-mini">'+ex+'</div>':'')+'</div>';
+  var d=(g.definition||'')+(g.usage?(g.definition?' ':'')+g.usage:'');
+  return '<div class="tb-gr"><div class="k">'+esc(g.title)+'</div>'+
+    (g.structure?'<div class="f">'+esc(g.structure)+'</div>':'')+
+    (d?'<div class="d">'+esc(d)+'</div>':'')+
+    exLines(g.examples,dict)+'</div>';
 }
-/* 句型卡：{p, o:[en,zh], im:[[en,zh]]}（兼容旧 [en,zh]） */
+/* 句型卡：{pattern, original?:{en,zh}, imitations:[{en,zh}]} */
 function patCard(p,i,dict){
-  if(p&&p.p!=null){
-    var im=(p.im||[]).map(function(e){
-      return '<div class="tb-ex-line"><span class="en">'+markWords(e[0],dict)+'</span>'+
-        (e[1]?'<span class="zh">'+esc(e[1])+'</span>':'')+'</div>';
-    }).join('');
-    return '<div class="tb-pat"><span class="no">'+(i+1)+'</span><div>'+
-      '<div class="en">'+markWords(p.p,dict)+'</div>'+
-      (p.o&&p.o[0]?'<div class="zh">课文原句：'+esc(p.o[0])+(p.o[1]?'（'+esc(p.o[1])+'）':'')+'</div>':'')+
-      (im?'<div class="tb-exs-mini"><div class="t">仿写</div>'+im+'</div>':'')+
-      '</div></div>';
-  }
+  var im=exLines(p.imitations,dict,'仿写');
   return '<div class="tb-pat"><span class="no">'+(i+1)+'</span><div>'+
-    '<div class="en">'+markWords(p[0],dict)+'</div><div class="zh">'+esc(p[1])+'</div></div></div>';
+    '<div class="en">'+markWords(p.pattern,dict)+'</div>'+
+    (p.original&&p.original.en
+      ? '<div class="zh">课文原句：'+esc(p.original.en)+(p.original.zh?'（'+esc(p.original.zh)+'）':'')+'</div>'
+      : '')+
+    im+'</div></div>';
 }
 function patCardRich(p,i,dict){return patCard(p,i,dict);}
 function renderTextbook(bk,u){
   var box=$('#tbk');if(!box)return;
   var nt=noteOf(bk,u);
   var dict=S.dict=buildDict(nt||{});
-  var nums=u.ls||[u.n];
+  var nums=window.AppData.lessonNums(u);
   var h='<div class="tbk-paper">';
   /* 页眉 */
   h+='<div class="tbk-head"><span class="tbk-lesson">'+
-    esc((nt&&nt.unit)||('Lesson '+nums.join(' & ')))+'</span>'+
+    esc(u.lessonLabel||('Lesson '+nums.join(' & ')))+'</span>'+
     '<div><h3>'+esc((nt&&nt.title)||u.title)+'</h3>'+
     (nt&&nt.subtitle?'<div class="zh">'+esc(nt.subtitle)+'</div>':'')+'</div></div>';
   h+='<div class="tbk-body">';
-  /* 导学（问 + 概要 + 贴士；生成课没有这部分则整块隐藏） */
+  /* 导学（问 + 概要 + 贴士；没有这部分则整块隐藏） */
+  var lead=(nt&&nt.lead)||{};
   var intro='';
-  if(nt&&nt.question)intro+='<div class="tbk-q">🎧 <b>听录音前先想</b>：'+esc(nt.question)+'</div>';
-  if(nt&&nt.summary)intro+='<div style="font-size:13px;line-height:1.95;color:#5f5a4c">'+esc(nt.summary)+'</div>';
-  if(nt&&nt.tips)intro+='<div class="tb-tip"><b>💡</b><div>'+esc(nt.tips)+'</div></div>';
+  if(lead.question)intro+='<div class="tbk-q">🎧 <b>听录音前先想</b>：'+esc(lead.question)+'</div>';
+  if(lead.summary)intro+='<div style="font-size:13px;line-height:1.95;color:#5f5a4c">'+esc(lead.summary)+'</div>';
+  if(lead.tips)intro+='<div class="tb-tip"><b>💡</b><div>'+esc(lead.tips)+'</div></div>';
   h+=tbSecId('sec-intro','导学','STUDY',
     intro||'<div class="tbk-empty">本课没有单独的导学内容，直接从课文开始。</div>');
   /* 课文（手写精修优先，否则用 LRC 逐句渲染；LRC 异步到达后由 refreshLessonText 填充） */
@@ -647,9 +666,9 @@ function renderTextbook(bk,u){
   h+='</div></div>';
   box.innerHTML=h;
 }
-/* 课文正文：手写 lessons 优先，否则用已解析的 LRC 逐句（点句子可定位音频） */
+/* 课文正文：教材里的 text 优先，否则用已解析的 LRC 逐句（点句子可定位音频） */
 function lessonTextHTML(bk,u,nt,dict){
-  var lessons=(nt&&nt.lessons)||[];
+  var lessons=(nt&&nt.text)||[];
   var inner='';
   if(lessons.length){
     inner=lessons.map(function(L){return tbLesson(L,dict);}).join('');
@@ -675,28 +694,21 @@ function refreshLessonText(bk,u,nt){
 /* ===== 学习笔记（右栏第二个 tab）=====
    分组参考 https://github.com/aikawarazu/new-concept-english 的右侧笔记区：
    词汇 / 短语 / 语法 / 句型 分块切换；额外提供「导学」与随手可写的「我的笔记」。 */
-var MYNOTE_KEY='nce_mynote_v1';
-var myNotes={};
-try{myNotes=JSON.parse(localStorage.getItem(MYNOTE_KEY)||'{}')||{};}catch(e){myNotes={};}
-function myNoteId(bk,u){return bk.key+':'+u.u}
-function myNoteOf(bk,u){return myNotes[myNoteId(bk,u)]||''}
+/* 我的笔记：统一走 AppStore */
+function myNoteId(bk,u){return bk.id+':'+u.id}
+function myNoteOf(bk,u){return window.AppStore.notes()[myNoteId(bk,u)]||''}
 function saveMyNote(id,v){
-  if(v)myNotes[id]=v;else delete myNotes[id];
-  try{localStorage.setItem(MYNOTE_KEY,JSON.stringify(myNotes));}catch(e){}
+  var o=window.AppStore.notes();
+  if(v)o[id]=v;else delete o[id];
+  window.AppStore.saveNotes(o);
 }
-function ntSec(title,en,inner){
-  return '<div class="nt-sec"><h6>'+esc(title)+' <i>'+esc(en)+'</i></h6>'+inner+'</div>';
-}function ntGroups(nt){
-  var w=(nt&&nt.words)||[];
-  var vocab=w.filter(x=>!/\s/.test(x[0]));
-  /* 独立的 phrases 字段（导入数据）+ words 里的多词项（旧手写数据），统一成 [en,说明,例句] 三元组 */
-  var phrase=((nt&&nt.phrases)||[]).map(function(p){
-    return [p[0],p[1],p[2]||[]];
-  }).concat(w.filter(x=>/\s/.test(x[0])).map(function(x){
-    return [x[0],x[1]||'',[]];
-  }));
+/* 笔记分组（标准字段：words/phrases/grammar/patterns/exercises/lead 各自独立） */
+function ntGroups(nt){
+  var vocab=(nt&&nt.words)||[];
+  var phrase=(nt&&nt.phrases)||[];
   var t=[];
-  if(nt.question||nt.summary||nt.tips)t.push(['intro','导学','📌']);
+  var lead=(nt&&nt.lead)||{};
+  if(lead.question||lead.summary||lead.tips)t.push(['intro','导学','📌']);
   if(vocab.length)t.push(['words','词汇','🔤',vocab.length]);
   if(phrase.length)t.push(['phrase','短语','🗣',phrase.length]);
   if(nt.grammar&&nt.grammar.length)t.push(['gram','语法','📐',nt.grammar.length]);
@@ -705,34 +717,38 @@ function ntSec(title,en,inner){
   t.push(['mine','我的笔记','📝']);
   return {tabs:t,vocab:vocab,phrase:phrase};
 }
-/* 卡片片段：教材与笔记总览共用 */
+/* 卡片片段：教材与笔记总览共用（标准对象） */
 function wordCard(w){
-  var ex=(w[2]||[]).map(function(e){
-    return '<div class="wc-ex"><span class="en">'+esc(e[0])+'</span>'+
-      (e[1]?'<span class="zh">'+esc(e[1])+'</span>':'')+'</div>';
+  var ex=(w.examples||[]).map(function(e){
+    return '<div class="wc-ex"><span class="en">'+esc(e.en)+'</span>'+
+      (e.zh?'<span class="zh">'+esc(e.zh)+'</span>':'')+'</div>';
   }).join('');
-  return '<button class="nt-word"><b>'+esc(w[0])+'</b>'+(w[1]?'<span>'+esc(w[1])+'</span>':'')+
+  var head=w.word?'<b>'+esc(w.word)+'</b>'+(w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')
+           :'<b>'+esc(w.phrase)+'</b>';
+  return '<button class="nt-word">'+head+
+    '<span>'+esc(w.word?meaningsText(w):(w.usage||''))+'</span>'+
     (ex?'<div class="wc-exs">'+ex+'</div>':'')+'</button>';
 }
 function grCard(g){return grCardRich(g,S.dict||{});}
 function exCard(e){return '<details class="tb-ex"><summary>'+esc(e.q)+'</summary>'+
-  '<div class="a">'+esc(e.a)+(e.n?'<i>'+esc(e.n)+'</i>':'')+'</div></details>';}
+  '<div class="a">'+esc(e.a)+(e.note?'<i>'+esc(e.note)+'</i>':'')+'</div></details>';}
 function ntWordCards(list){return '<div class="nt-words">'+list.map(wordCard).join('')+'</div>';}
 
 /* ===== 教材锚点按钮条（原「学习笔记」tab 改为定位跳转）===== */
 function renderAnchors(bk,u){
   var box=$('#anchors');if(!box)return;
   var nt=noteOf(bk,u)||{};
-  var ix=noteIdx(bk,u)||{};
+  var ix=(u&&u.counts)||{};   /* 内容未加载时用单元上的计数先顶上 */
   var cnt=function(a,ixk){return (a||[]).length||(ix[ixk]||0);};
+  var lead=nt.lead||{};
   var items=[];
-  if(nt.question||nt.summary||nt.tips)items.push(['sec-intro','📌 导学']);
+  if(lead.question||lead.summary||lead.tips)items.push(['sec-intro','📌 导学']);
   items.push(['sec-text','📖 课文']);
   if(cnt(nt.words,'w'))items.push(['sec-words','🔤 词汇 '+cnt(nt.words,'w')]);
   if(cnt(nt.phrases,'ph'))items.push(['sec-phrases','🗣 短语 '+cnt(nt.phrases,'ph')]);
   if(cnt(nt.grammar,'g'))items.push(['sec-gram','📐 语法 '+cnt(nt.grammar,'g')]);
   if(cnt(nt.patterns,'p'))items.push(['sec-pat','💬 句型 '+cnt(nt.patterns,'p')]);
-  if((nt.exercises||[]).length)items.push(['sec-ex','✏️ 练习 '+nt.exercises.length]);
+  if(cnt(nt.exercises,'ex'))items.push(['sec-ex','✏️ 练习 '+cnt(nt.exercises,'ex')]);
   box.innerHTML=items.map(function(x){
     return '<button class="achip" data-go="'+x[0]+'">'+esc(x[1])+'</button>';
   }).join('')+
@@ -766,35 +782,35 @@ function bindAnchors(){
    教材正文是大量可点按钮，直接框选困难；这里把它序列化成纯文本再交给剪贴板/文件/浮框。 */
 function tbPlainText(bk,u){
   var nt=noteOf(bk,u)||{},L=[];
-  var nums=u.ls||[u.n];
-  L.push(bk.title+' · Unit '+u.u+' · '+u.title);
-  L.push((nt.unit||('Lesson '+nums.join(' & '))));
+  L.push(bk.title+' · Unit '+u.index+' · '+u.title);
+  L.push(u.lessonLabel||'');
   L.push('');
   var has=false;
-  if(nt.question||nt.summary||nt.tips){
+  var lead=nt.lead||{};
+  if(lead.question||lead.summary||lead.tips){
     L.push('—— 导学 ——');
-    if(nt.question)L.push('听录音前先想：'+nt.question);
-    if(nt.summary)L.push(nt.summary);
-    if(nt.tips)L.push('小贴士：'+nt.tips);
+    if(lead.question)L.push('听录音前先想：'+lead.question);
+    if(lead.summary)L.push(lead.summary);
+    if(lead.tips)L.push('小贴士：'+lead.tips);
     L.push('');has=true;
   }
   L.push('—— 课文 ——');
-  var lessons=nt.lessons||[];
+  var lessons=nt.text||[];
   if(lessons.length){
     lessons.forEach(function(ls){
       L.push('');
-      L.push('Lesson '+ls.no+(ls.title?' · '+ls.title:'')+(ls.kind?'（'+ls.kind+'）':''));
+      L.push((ls.lesson?('Lesson '+ls.lesson):'课文')+(ls.title?' · '+ls.title:'')+(ls.kind?'（'+ls.kind+'）':''));
       (ls.lines||[]).forEach(function(l){
-        L.push((l[0]?l[0]+': ':'')+l[1]);
-        if(l[2])L.push('  '+l[2]);
-        if(l[3])L.push('  注：'+l[3]);
+        L.push((l.speaker?l.speaker+': ':'')+l.en);
+        if(l.zh)L.push('  '+l.zh);
+        if(l.note)L.push('  注：'+l.note);
       });
       var d=ls.drill;
       if(d){
         L.push('');
         L.push('句型操练：'+d.q);
         if(d.zh)L.push('  '+d.zh);
-        if(d.slots&&d.slots.length)L.push('  可替换：'+d.slots.map(function(s){return s[0]+(s[1]?'（'+s[1]+'）':'');}).join('、'));
+        if(d.slots&&d.slots.length)L.push('  可替换：'+d.slots.map(function(s){return s.en+(s.zh?'（'+s.zh+'）':'');}).join('、'));
         if(d.answers&&d.answers.length)L.push('  回答：'+d.answers.join(' / '));
       }
     });
@@ -815,38 +831,35 @@ function tbPlainText(bk,u){
   L.push('');
   if((nt.words||[]).length){
     L.push('—— 生词 ——');
-    nt.words.forEach(function(w){L.push('  '+w[0]+'  '+(w[1]||''));});
+    nt.words.forEach(function(w){
+      L.push('  '+w.word+(w.phonetic?'  '+w.phonetic:'')+'  '+meaningsText(w));
+    });
     L.push('');has=true;
   }
   if((nt.phrases||[]).length){
     L.push('—— 短语 ——');
     nt.phrases.forEach(function(p){
-      L.push('  '+p[0]+(p[1]?'  '+p[1]:''));
-      (p[2]||[]).forEach(function(e){L.push('    例：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
+      L.push('  '+p.phrase+(p.usage?'  '+p.usage:''));
+      (p.examples||[]).forEach(function(e){L.push('    例：'+e.en+(e.zh?'（'+e.zh+'）':''));});
     });
     L.push('');has=true;
   }
   if((nt.grammar||[]).length){
     L.push('—— 语法要点 ——');
     nt.grammar.forEach(function(g){
-      L.push('· '+g.k);
-      if(g.f)L.push('  句型结构：'+g.f);
-      if(g.d)L.push('  '+g.d);
-      (g.ex||[]).forEach(function(e){L.push('    例：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
+      L.push('· '+g.title);
+      if(g.structure)L.push('  句型结构：'+g.structure);
+      if(g.definition)L.push('  '+g.definition);
+      (g.examples||[]).forEach(function(e){L.push('    例：'+e.en+(e.zh?'（'+e.zh+'）':''));});
     });
     L.push('');has=true;
   }
   if((nt.patterns||[]).length){
     L.push('—— 重点句 ——');
     nt.patterns.forEach(function(p,i){
-      if(p&&p.p!=null){
-        L.push((i+1)+'. '+p.p);
-        if(p.o&&p.o[0])L.push('   课文原句：'+p.o[0]+(p.o[1]?'（'+p.o[1]+'）':''));
-        (p.im||[]).forEach(function(e){L.push('   仿写：'+e[0]+(e[1]?'（'+e[1]+'）':''));});
-      }else{
-        L.push((i+1)+'. '+p[0]);
-        if(p[1])L.push('   '+p[1]);
-      }
+      L.push((i+1)+'. '+p.pattern);
+      if(p.original&&p.original.en)L.push('   课文原句：'+p.original.en+(p.original.zh?'（'+p.original.zh+'）':''));
+      (p.imitations||[]).forEach(function(e){L.push('   仿写：'+e.en+(e.zh?'（'+e.zh+'）':''));});
     });
     L.push('');has=true;
   }
@@ -854,7 +867,7 @@ function tbPlainText(bk,u){
     L.push('—— 自测练习 ——');
     nt.exercises.forEach(function(e,i){
       L.push((i+1)+'. '+e.q);
-      L.push('   答案：'+e.a+(e.n?'（'+e.n+'）':''));
+      L.push('   答案：'+e.a+(e.note?'（'+e.note+'）':''));
     });
     L.push('');has=true;
   }
@@ -880,7 +893,7 @@ function exportTextbook(){
   var bk=dataOf(S.book);if(!bk)return;
   var u=bk.units[S.ui-1];
   var t=tbPlainText(bk,u);
-  var name=bk.key+'-U'+('0'+u.u).slice(-2)+'-'+String(u.title).replace(/[\\\/:*?"<>|\s]+/g,'-')+'.txt';
+  var name=bk.id+'-U'+('0'+u.index).slice(-2)+'-'+String(u.title).replace(/[\\\/:*?"<>|\s]+/g,'-')+'.txt';
   try{
     var blob=new Blob(['\ufeff'+t],{type:'text/plain;charset=utf-8'}); /* BOM：Windows 记事本直接可读 */
     var a=document.createElement('a');
@@ -897,7 +910,7 @@ function exportTextbook(){
 function openTextModal(){
   var bk=dataOf(S.book);if(!bk)return;
   var u=bk.units[S.ui-1];
-  $('#txSub').textContent=bk.title+' · Unit '+u.u+' · '+u.title;
+  $('#txSub').textContent=bk.title+' · Unit '+u.index+' · '+u.title;
   $('#txPre').textContent=tbPlainText(bk,u);
   $('#textModal').hidden=false;
   setTimeout(function(){$('#txPre').scrollTop=0;},30);
@@ -913,6 +926,33 @@ function bindTextModal(){
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'&&!m.hidden)closeTextModal();
   });
+}
+
+/* ===== 课程包导入（用户上传 JSON）=====
+   格式见 docs/course-package-spec.md；单课 / 系列课程同一个通道。 */
+function bindImport(){
+  var btn=$('#impBtn'),file=$('#impFile');
+  if(!btn||!file)return;
+  btn.onclick=function(){file.value='';file.click();};
+  file.onchange=function(){
+    var f=file.files&&file.files[0];
+    if(!f)return;
+    var rd=new FileReader();
+    rd.onload=function(){
+      var p;
+      try{p=JSON.parse(rd.result);}catch(e){toast('导入失败：不是合法 JSON');return;}
+      var v=window.AppData.validate(p);
+      if(!v.ok){toast('校验失败：'+v.errors.join('；'));console.warn('[import]',v.errors);return;}
+      window.AppData.importPkg(p).then(function(){
+        COURSES=window.AppData.list();
+        renderBookSel();
+        toast('已导入课程包「'+p.title+'」');
+        if(v.warnings.length)console.warn('[import] warnings:',v.warnings);
+      }).catch(function(e){toast('导入失败：'+e.message);console.error(e);});
+    };
+    rd.onerror=function(){toast('读取文件失败');};
+    rd.readAsText(f);
+  };
 }
 
 /* ===== 记笔记：弹出浮框 ===== */
@@ -989,8 +1029,11 @@ function setVideoSrc(url){
 /* 用当前单元 + 当前集数按新模式重新装载播放器 */
 function reloadVideo(){
   var bk=dataOf(S.book),u=bk?bk.units[S.ui-1]:null;
-  if(u&&u.ve){setVideoSrc(S.vsimple?(simpleFromUrl(u.ve)||u.ve):u.ve);return;}
-  var vid=(bk&&bk.video)||{};
+  if(u&&u.video&&u.video.embed){
+    setVideoSrc(S.vsimple?(simpleFromUrl(u.video.embed)||u.video.embed):u.video.embed);
+    return;
+  }
+  var vid=(bk&&bk.media&&bk.media.video)||{};
   if(!vid.bvid)return;
   setVideoSrc(videoUrl(vid,S.vp||1));
 }
@@ -1026,13 +1069,19 @@ function setView(v){
   if(v==='notes')renderOverview();
 }
 function gotoUnit(key,u){
+  var go=function(){
+    setView('study');
+    openUnit(u,true);
+    var h=$('#head');if(h&&h.scrollIntoView)h.scrollIntoView({block:'nearest'});
+  };
   if(key&&key!==S.book){
     var sel=$('#bookSel');if(sel)sel.value=key;
-    if(setBook(key)===false)return;
-  }
-  setView('study');
-  openUnit(u,true);
-  var h=$('#head');if(h&&h.scrollIntoView)h.scrollIntoView({block:'nearest'});
+    window.AppData.get(key).then(function(p){
+      DATA[key]=p;
+      if(setBook(key)===false){return;}
+      go();
+    }).catch(function(err){toast('加载失败：'+err.message);});
+  }else go();
 }
 
 /* ===== 笔记总览：把分散在各课的笔记汇总到一页 ===== */
@@ -1040,14 +1089,14 @@ var OV_TYPES=[['all','全部','📚'],['words','生词','🔤'],['phrase','短�
   ['gram','语法','📐'],['pat','句型','💬'],['ex','练习','✏️'],['mine','我的笔记','📝']];
 function ovCollect(){
   var list=[];
-  AVAIL.forEach(function(e){
-    if(S.ovBook&&e.key!==S.ovBook)return;
-    var bk=dataOf(e.key);if(!bk)return;
+  courseList().forEach(function(e){
+    if(S.ovBook&&e.id!==S.ovBook)return;
+    var bk=dataOf(e.id);if(!bk)return;
     bk.units.forEach(function(u){
-      var nt=noteOf(bk,u),mine=myNoteOf(bk,u),ix=noteIdx(bk,u);
-      if(!nt&&!mine&&!ix)return;   /* 无笔记数据也无手写：跳过 */
+      var nt=noteOf(bk,u),mine=myNoteOf(bk,u),ix=u.counts||{};
+      if(!nt&&!mine&&!ix.w&&!ix.ph&&!ix.g&&!ix.p&&!ix.ex)return;   /* 无笔记数据也无手写：跳过 */
       var g=ntGroups(nt||{});
-      list.push({key:e.key,u:u,nt:nt,mine:mine,ix:ix||{},
+      list.push({key:e.id,u:u,nt:nt,mine:mine,ix:ix,
         vocab:nt?g.vocab:[],phrase:nt?g.phrase:[]});
     });
   });
@@ -1081,12 +1130,13 @@ function ovMatch(it,q,type){
   if(!q)return true;
   var hay=[it.u.title,it.mine||''];
   if(it.nt){
-    (it.nt.words||[]).forEach(function(w){hay.push(w[0],w[1]);});
-    (it.nt.phrases||[]).forEach(function(p){hay.push(p[0],p[1]);});
-    (it.nt.grammar||[]).forEach(function(g){hay.push(g.k,g.f,g.d);});
-    (it.nt.patterns||[]).forEach(function(p){hay.push(p.p||p[0],p.o?p.o[1]:(p[1]||''));});
-    (it.nt.exercises||[]).forEach(function(e){hay.push(e.q,e.a,e.n||'');});
-    hay.push(it.nt.summary||'',it.nt.question||'',it.nt.tips||'');
+    (it.nt.words||[]).forEach(function(w){hay.push(w.word,meaningsText(w));});
+    (it.nt.phrases||[]).forEach(function(p){hay.push(p.phrase,p.usage||'');});
+    (it.nt.grammar||[]).forEach(function(g){hay.push(g.title,g.structure||'',g.definition||'');});
+    (it.nt.patterns||[]).forEach(function(p){hay.push(p.pattern,p.original?p.original.zh:'');});
+    (it.nt.exercises||[]).forEach(function(e){hay.push(e.q,e.a,e.note||'');});
+    var ld=it.nt.lead||{};
+    hay.push(ld.summary||'',ld.question||'',ld.tips||'');
   }
   return hay.join(' ').toLowerCase().indexOf(q)>=0;
 }
@@ -1123,8 +1173,8 @@ function ovUnitCard(it){
   if((n.exercises||[]).length)meta.push('练习 '+n.exercises.length);
   if(it.mine)meta.push('我的笔记 ✓');
   var body=it.nt?ovSections(it):'<div class="ov-none">展开加载这一课的详细笔记…</div>';
-  return '<details class="ov-unit" data-key="'+it.key+'" data-u="'+it.u.u+'"><summary>'+
-    '<span class="ov-no">'+it.u.u+'</span>'+
+  return '<details class="ov-unit" data-key="'+it.key+'" data-u="'+it.u.index+'"><summary>'+
+    '<span class="ov-no">'+it.u.index+'</span>'+
     '<div class="ov-tt"><div class="t">'+esc(it.u.title)+'</div>'+
     '<div class="m">'+esc(meta.join(' · ')||'暂无内容')+'</div></div>'+
     '<span class="ov-go">去学习 →</span></summary>'+
@@ -1144,7 +1194,7 @@ function bindOverviewToggles(){
         if(S.view!=='notes')return;
         var nt=noteOf(bk,u)||{},g=ntGroups(nt);
         det.querySelector('.ov-ub').innerHTML=
-          ovSections({key:bk.key,u:u,nt:nt,mine:mine,ix:noteIdx(bk,u)||{},vocab:g.vocab,phrase:g.phrase});
+          ovSections({key:bk.id,u:u,nt:nt,mine:mine,ix:u.counts||{},vocab:g.vocab,phrase:g.phrase});
       });
     });
   });
@@ -1158,7 +1208,7 @@ function preloadOverviewNotes(){
   books.forEach(function(k){
     var bk=dataOf(k);if(!bk)return;
     bk.units.forEach(function(u){
-      if(noteOf(bk,u)||noteCache[noteIdOf(bk,u)]===null)return;
+      if(noteOf(bk,u))return;   /* 已加载则跳过 */
       jobs.push(loadNote(bk,u));
     });
   });
@@ -1183,8 +1233,8 @@ function renderOverview(){
      '点单元标题展开，点「去学习 →」回到学习页。</div></div>'+
      '<div class="ov-stats">'+ovStatsHTML(ovStatsOf(all),all.length)+'</div></div>'+
    '<div class="ov-bar">'+
-     '<div class="ov-chips"><button class="ovchip'+(S.ovBook?'':' on')+'" data-b="">全部册</button>'+
-       AVAIL.map(function(b){return '<button class="ovchip'+(S.ovBook===b.key?' on':'')+'" data-b="'+b.key+'">'+esc(b.key)+'</button>';}).join('')+'</div>'+
+     '<div class="ov-chips"><button class="ovchip'+(S.ovBook?'':' on')+'" data-b="">全部课程</button>'+
+       courseList().map(function(b){return '<button class="ovchip'+(S.ovBook===b.id?' on':'')+'" data-b="'+b.id+'">'+esc(b.id)+'</button>';}).join('')+'</div>'+
      '<div class="ov-chips">'+OV_TYPES.map(function(t){
        return '<button class="ovchip'+(S.ovType===t[0]?' on':'')+'" data-t="'+t[0]+'">'+t[2]+' '+t[1]+'</button>';}).join('')+'</div>'+
      '<div class="ov-search"><input id="ovQ" type="text" placeholder="搜索单词、语法、句型或自己写的笔记…" value="'+esc(S.ovQ)+'">'+
@@ -1232,7 +1282,7 @@ function speakToggle(text){
 }
 
 function markUnit(bk,u,set,reset){
-  var id=doneId(bk.key,u.u);
+  var id=doneId(bk.id,u.index);
   if(reset)done.delete(id);else if(set)done.add(id);else done.delete(id);
   saveDone();renderDir();renderHead(bk,u);
   toast(reset?'已重置':'标记已学 ✓');
@@ -1352,24 +1402,39 @@ function finishUnit(){
   if(S.doneFlag)return;S.doneFlag=true;
   var bk=dataOf(S.book),u=bk.units[S.ui-1];
   if(!u)return;
-  var id=doneId(bk.key,u.u);
+  var id=doneId(bk.id,u.index);
   if(!done.has(id)){done.add(id);saveDone();}
   renderDir();renderHead(bk,u);
   toast('本单元已听完 ✓');
 }
 
 /* ===== 启动 ===== */
+function renderBookSel(){
+  var sel=$('#bookSel');if(!sel)return;
+  sel.innerHTML=COURSES.map(function(c){
+    return '<option value="'+c.id+'"'+(c.id===S.book?' selected':'')+'>'+esc(c.title)+
+      (c.unitCount?'（'+c.unitCount+' 课）':'')+'</option>';
+  }).join('');
+}
 function boot(){
   skeleton();bindStatic();
   applyMode();
-  if(!AVAIL.length){$('#bookSel').innerHTML='<option value="">教材数据未加载</option>';toast('教材数据未加载：请检查 data/NCE*.js');return;}
-  $('#bookSel').innerHTML=AVAIL.map(b=>'<option value="'+b.key+'"'+(b.key===S.book?' selected':'')+'>'+esc(b.label)+'</option>').join('');
-  var bk=dataOf(S.book)||dataOf(AVAIL[0].key);
-  S.book=bk.key;$('#bookSel').value=bk.key;
-  S.ui=Math.min(bk.units.length,+(localStorage.getItem('nce_last_'+S.book)||24)||1);
-  renderDir();syncCtl();setView('study');
-  try{openUnit(S.ui);}catch(e){console.log('boot/openUnit fail:',e.message,'| book=',S.book,'| ui=',S.ui);throw e;}
-  setInterval(()=>localStorage.setItem('nce_last_'+S.book,String(S.ui)),1200);
+  window.AppData.init().then(function(){
+    COURSES=window.AppData.list();
+    if(!COURSES.length){renderBookSel();toast('未找到任何课程包：请检查 data/courses/ 或导入课程包');return;}
+    /* 恢复上次课程；不再存在的 id 回退到第一个 */
+    if(!COURSES.some(function(c){return c.id===S.book;}))S.book=COURSES[0].id;
+    renderBookSel();
+    return window.AppData.get(S.book).then(function(p){
+      DATA[S.book]=p;
+      S.ui=Math.min(p.units.length,+(window.AppStore.pref('last.'+S.book,1)||1)||1);
+      renderDir();syncCtl();setView('study');
+      try{openUnit(S.ui);}catch(e){console.log('boot/openUnit fail:',e.message,'| course=',S.book,'| ui=',S.ui);throw e;}
+      setInterval(function(){window.AppStore.setPref('last.'+S.book,S.ui);},1200);
+    });
+  }).catch(function(e){
+    toast('课程加载失败：'+e.message);console.error(e);
+  });
 }
 function toast(m){var t=$('#toast');t.textContent=m;t.style.opacity='1';
   clearTimeout(t._t);t._t=setTimeout(function(){t.style.opacity='0';},2000);}
