@@ -152,7 +152,7 @@ function bindStatic(){
   $('#tbVideo').onclick=()=>setTab('video');
   $('#bPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#bNext').onclick=()=>openUnit(S.ui+1,true);
-  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();bindImport();
+  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();bindImport();bindVocabModal();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
   function doBookSwitch(){
@@ -176,7 +176,9 @@ function bindStatic(){
   $('#vchips').onclick=e=>{var b=e.target.closest('.vchip');if(b&&b.dataset.p!=null)playVideoChip(+b.dataset.p);};
   $('#tbk').onclick=e=>{
     var w=e.target.closest('.tb-w');
-    if(w){showWPop(w);return;}                       /* 单词即点即译 */
+    if(w){showWPop(w);return;}                       /* 课文里的单词 → 下钻 */
+    var wd=e.target.closest('.tb-word[data-w]');
+    if(wd){showWPop(wd);return;}                     /* 生词卡 → 下钻 */
     hideWPop();
     var line=e.target.closest('.tb-sline');
     if(line){                                        /* 点课文句子 → 音频跳到该句 */
@@ -507,7 +509,7 @@ function buildDict(nt){
   var m={};
   ((nt&&nt.words)||[]).forEach(function(x){
     var k=normW(x.word);
-    if(k&&!m[k])m[k]=[x.word,meaningsText(x)];
+    if(k&&!m[k])m[k]=x;   /* 存完整对象，下钻面板需要音标/多义/例句 */
   });
   return m;
 }
@@ -526,31 +528,103 @@ function markWords(text,dict){
     return '<span class="tb-w'+(findWord(dict,w)?' hit':'')+'" data-w="'+w+'">'+w+'</span>';
   });
 }
+/* ===== 生词本（收藏）===== */
+function vocabSet(){return window.AppStore.pref('vocab',{})||{};}
+function vocabHas(w){return !!vocabSet()[normW(w)];}
+function vocabToggle(word,snapshot){
+  var o=vocabSet(),k=normW(word);
+  if(o[k])delete o[k];else o[k]=snapshot||{};
+  window.AppStore.setPref('vocab',o);
+  return !!o[k];
+}
+
+/* 在课文 / 字幕里找出该词出现的句子（下钻到语境） */
+function wordContexts(w){
+  var out=[],seen={},low=String(w||'').toLowerCase();
+  function add(en,zh,si){
+    if(!en)return;var k=en;
+    if(seen[k]||out.length>=4)return;seen[k]=1;
+    out.push({en:en,zh:zh||'',si:si});
+  }
+  var bk=dataOf(S.book),u=bk?bk.units[S.ui-1]:null,nt=u?noteOf(bk,u):null;
+  ((nt&&nt.text)||[]).forEach(function(t){
+    (t.lines||[]).forEach(function(l){ if(l.en&&l.en.toLowerCase().indexOf(low)>=0)add(l.en,l.zh); });
+  });
+  S.seg.forEach(function(r,i){ if(r.en&&r.en.toLowerCase().indexOf(low)>=0)add(r.en,r.zh,i); });
+  return out;
+}
+
+/* 单词下钻面板：音标 / 多义 / 例句 / 课文语境 / 外链词典 / 收藏 */
 function showWPop(el){
   var pop=$('#wpop');if(!pop||!el)return;
-  var w=el.dataset.w||el.textContent,hit=findWord(S.dict,w);
-  pop.innerHTML='<div class="wp-row"><b>'+esc(w)+'</b>'+
-    '<button class="wp-sp" id="wpSp" title="朗读这个单词">🔊</button></div>'+
-    (hit?'<div class="wp-zh">'+esc(hit[1])+'</div>'+
-      (normW(hit[0])!==normW(w)?'<div class="wp-mut">生词表原形：'+esc(hit[0])+'</div>':'')
-      :'<div class="wp-zh no">本课生词表未收录</div>');
+  var raw=el.dataset.w||el.textContent;
+  var hit=findWord(S.dict,raw);
+  var w=(hit&&hit.word)||raw;
+  var starred=vocabHas(w);
+  var h='';
+  if(hit){
+    h+='<div class="wp-head"><b>'+esc(hit.word)+'</b>'+(hit.phonetic?'<span class="ph">'+esc(hit.phonetic)+'</span>':'')+
+      '<span class="sp"></span><button class="wp-ic" id="wpSp" title="朗读">🔊</button>'+
+      '<button class="wp-ic'+(starred?' on':'')+'" id="wpStar" title="加入/移出生词本">'+(starred?'⭐':'☆')+'</button></div>';
+    h+='<div class="wp-ms">'+(hit.meanings||[]).map(function(m){
+      return '<div class="wp-m">'+(m.pos?'<span class="pos">'+esc(m.pos)+'</span>':'')+
+        '<span class="mean">'+esc(m.meaning)+'</span>'+
+        (m.usage?'<span class="u">'+esc(m.usage)+'</span>':'')+'</div>';
+    }).join('')+'</div>';
+    if((hit.examples||[]).length)
+      h+='<div class="wp-sec">例句</div><div class="wp-exs">'+(hit.examples||[]).map(function(e){
+        return '<button class="wp-ex" data-en="'+esc(e.en)+'"><span class="en">'+esc(e.en)+'</span><span class="zh">'+esc(e.zh||'')+'</span></button>';
+      }).join('')+'</div>';
+  }else{
+    h+='<div class="wp-head"><b>'+esc(raw)+'</b><span class="sp"></span>'+
+      '<button class="wp-ic" id="wpSp" title="朗读">🔊</button>'+
+      '<button class="wp-ic" id="wpStar" title="收藏到生词本">☆</button></div>'+
+      '<div class="wp-none">本课生词表未收录，可收藏或查外部词典</div>';
+  }
+  var ctx=wordContexts(w);
+  if(ctx.length)
+    h+='<div class="wp-sec">课文语境</div><div class="wp-exs">'+ctx.map(function(c){
+      return '<button class="wp-ex" data-si="'+(c.si!=null?c.si:'-1')+'" data-en="'+esc(c.en)+'"><span class="en">'+esc(c.en)+'</span><span class="zh">'+esc(c.zh)+'</span></button>';
+    }).join('')+'</div>';
+  h+='<div class="wp-foot">'+
+    '<a class="wp-link" href="https://dict.youdao.com/w/eng/'+encodeURIComponent(w)+'" target="_blank" rel="noopener">有道词典 ↗</a>'+
+    '<a class="wp-link" href="https://cn.bing.com/dict/search?q='+encodeURIComponent(w)+'" target="_blank" rel="noopener">必应词典 ↗</a></div>';
+  pop.innerHTML=h;
   pop.hidden=false;pop.style.left='0px';pop.style.top='0px';
   var r=el.getBoundingClientRect(),pw=pop.offsetWidth,ph=pop.offsetHeight;
   var left=Math.max(8,Math.min(r.left,window.innerWidth-pw-8));
   var top=r.bottom+6;if(top+ph>window.innerHeight-8)top=Math.max(8,r.top-ph-6);
   pop.style.left=left+'px';pop.style.top=top+'px';
-  var sp=$('#wpSp');if(sp)sp.onclick=function(){speakToggle(w);};
+  var sp=$('#wpSp');
+  if(sp)sp.onclick=function(e){e.stopPropagation();speakToggle(w);};
+  var st=$('#wpStar');
+  if(st)st.onclick=function(e){
+    e.stopPropagation();
+    var on=vocabToggle(w,{word:w,phonetic:hit?hit.phonetic:'',meaning:hit?meaningsText(hit):''});
+    st.textContent=on?'⭐':'☆';st.classList.toggle('on',on);
+    toast(on?'已加入生词本':'已移出生词本');
+  };
 }
 function hideWPop(){var p=$('#wpop');if(p)p.hidden=true;}
 function bindWPop(){
   document.addEventListener('click',function(e){
     var el=e.target;
-    if(el&&el.closest&&(el.closest('.tb-w')||el.closest('#wpop')))return;
+    if(el&&el.closest&&(el.closest('.tb-w')||el.closest('.tb-word')||el.closest('#wpop')))return;
     hideWPop();
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape')hideWPop();});
   window.addEventListener('scroll',hideWPop,true);
   window.addEventListener('resize',hideWPop);
+  var pop=$('#wpop');
+  if(pop)pop.onclick=function(e){
+    if(e.target.closest('#wpSp')||e.target.closest('#wpStar'))return; /* 各自有 handler */
+    var ex=e.target.closest('.wp-ex');
+    if(ex){
+      var si=+ex.dataset.si;
+      if(si>=0&&S.seg[si]){setT(segStart(si));tryPlay();}   /* 语境句 → 跳音频 */
+      else speakToggle(ex.dataset.en);                      /* 例句 → 朗读 */
+    }
+  };
 }
 function tbSec(title,en,inner){
   return '<div class="tbk-sec"><h5>'+esc(title)+' <i>'+esc(en)+'</i></h5>'+inner+'</div>';
@@ -598,9 +672,10 @@ function meaningsText(w){
     return (m.pos?m.pos+'. ':'')+(m.meaning||'')+(m.usage?'（'+m.usage+'）':'');
   }).join('；');
 }
-/* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}], examples?:[{en,zh}]} */
+/* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}], examples?:[{en,zh}]}（可点下钻） */
 function tbWordCard(w){
-  return '<div class="tb-word"><b>'+esc(w.word)+'</b>'+
+  return '<div class="tb-word" data-w="'+esc(w.word)+'" title="点击查看详情">'+
+    '<b>'+esc(w.word)+'</b>'+
     (w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')+
     '<span>'+esc(meaningsText(w))+'</span>'+
     exLines(w.examples,S.dict)+'</div>';
@@ -754,6 +829,7 @@ function renderAnchors(bk,u){
     return '<button class="achip" data-go="'+x[0]+'">'+esc(x[1])+'</button>';
   }).join('')+
   '<button class="achip mine'+(myNoteOf(bk,u)?' has':'')+'" id="achMine">📝 我的笔记'+(myNoteOf(bk,u)?' ✓':'')+'</button>'+
+  '<button class="achip tool" id="achVocab" title="收藏的生词本">⭐ 生词本</button>'+
   '<button class="achip tool" id="achCopy" title="复制本课教材全文">📋 复制</button>'+
   '<button class="achip tool" id="achExport" title="下载本课教材为 txt 文件">⬇️ 导出</button>'+
   '<button class="achip tool" id="achView" title="查看纯文本，可自由选取复制">👁 纯文本</button>';
@@ -771,6 +847,7 @@ function bindAnchors(){
   var box=$('#anchors');if(!box)return;
   box.onclick=function(e){
     if(e.target.closest('#achMine')){openNoteModal();return;}
+    if(e.target.closest('#achVocab')){openVocabModal();return;}
     if(e.target.closest('#achCopy')){copyText(tbPlainText(dataOf(S.book),dataOf(S.book).units[S.ui-1]));return;}
     if(e.target.closest('#achExport')){exportTextbook();return;}
     if(e.target.closest('#achView')){openTextModal();return;}
@@ -927,6 +1004,41 @@ function bindTextModal(){
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'&&!m.hidden)closeTextModal();
   });
+}
+
+/* ===== 生词本（收藏浮层）===== */
+function renderVocabList(){
+  var o=vocabSet(),keys=Object.keys(o).sort(),box=$('#vocabList');
+  if(!box)return;
+  if(!keys.length){box.innerHTML='<div class="ov-none">还没有收藏的单词。点教材里的任意单词或生词卡 → 点 ⭐ 收藏。</div>';return;}
+  box.innerHTML=keys.map(function(k){
+    var it=o[k]||{};
+    return '<div class="vocab-row">'+
+      '<button class="vocab-w" data-w="'+esc(it.word||k)+'"><b>'+esc(it.word||k)+'</b>'+
+      (it.phonetic?'<i class="ph">'+esc(it.phonetic)+'</i>':'')+
+      '<span>'+esc(it.meaning||'')+'</span></button>'+
+      '<button class="vocab-del" data-w="'+esc(it.word||k)+'" title="移出">✕</button></div>';
+  }).join('');
+}
+function openVocabModal(){
+  renderVocabList();
+  var c=$('#vocabCount');if(c)c.textContent=Object.keys(vocabSet()).length+' 个';
+  $('#vocabModal').hidden=false;
+}
+function closeVocabModal(){$('#vocabModal').hidden=true;}
+function bindVocabModal(){
+  var m=$('#vocabModal');if(!m)return;
+  $('#vxMask').onclick=closeVocabModal;
+  $('#vxX').onclick=closeVocabModal;
+  $('#vxDone').onclick=closeVocabModal;
+  $('#vocabList').onclick=function(e){
+    var d=e.target.closest('.vocab-del');
+    if(d){vocabToggle(d.dataset.w);renderVocabList();
+      var c=$('#vocabCount');if(c)c.textContent=Object.keys(vocabSet()).length+' 个';return;}
+    var w=e.target.closest('.vocab-w');
+    if(w){closeVocabModal();showWPop(w);}   /* 点词再次下钻（查当前课生词表） */
+  };
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden)closeVocabModal();});
 }
 
 /* ===== 课程包导入（用户上传 JSON）=====

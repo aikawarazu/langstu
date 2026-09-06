@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>新概念英语点读 · 学习</title>
-<link rel="stylesheet" href="css/app.css?v=25">
-<link rel="stylesheet" href="css/v12.css?v=25">
-<link rel="stylesheet" href="css/textbook.css?v=25">
-<link rel="stylesheet" href="css/split.css?v=25">
+<link rel="stylesheet" href="css/app.css?v=26">
+<link rel="stylesheet" href="css/v12.css?v=26">
+<link rel="stylesheet" href="css/textbook.css?v=26">
+<link rel="stylesheet" href="css/split.css?v=26">
 </head>
 <body>
 <div class="wrap">
@@ -93,11 +93,28 @@
   </div>
 </div>
 
+<!-- 生词本：收藏浮框 -->
+<div class="nmodal" id="vocabModal" hidden>
+  <div class="nm-mask" id="vxMask"></div>
+  <div class="nm-box" role="dialog" aria-modal="true" aria-label="生词本">
+    <div class="nm-head">
+      <div><div class="t">⭐ 生词本 <span class="mut" id="vocabCount"></span></div>
+        <div class="s">点单词可再次查看详情，✕ 移出收藏</div></div>
+      <button class="nm-x" id="vxX" title="关闭">✕</button>
+    </div>
+    <div class="vocab-list" id="vocabList"></div>
+    <div class="nm-foot">
+      <span class="st">收藏存于本机</span>
+      <span class="sp"></span>
+      <button class="nm-btn ok" id="vxDone">完成</button>
+    </div>
+  </div>
+</div>
+
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
-
-<script src="js/data/store.js?v=25"></script>
-<script src="js/data/registry.js?v=25"></script>
-<script src="js/app.js?v=25"></script>
+<script src="js/data/store.js?v=26"></script>
+<script src="js/data/registry.js?v=26"></script>
+<script src="js/app.js?v=26"></script>
 </body>
 </html>

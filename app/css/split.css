@@ -229,21 +229,48 @@
   .ov-stats{width:100%;justify-content:flex-start}
 }
 
-/* ---------- 单词即点即译 ---------- */
+/* ---------- 单词下钻（课文单词 / 生词卡 → 详情面板） ---------- */
 .tb-w{cursor:pointer;border-radius:3px;transition:background .12s,color .12s;padding:0 1px}
 .tb-w:hover{background:#fdf1d8;color:#8a6a20}
 .tb-w.hit{border-bottom:1px dashed #dcc9a0}
-.wpop{position:fixed;z-index:200;width:max-content;max-width:min(300px,84vw);
-  background:#fff;border:1px solid #e6dcc4;border-radius:11px;padding:9px 11px;
-  box-shadow:0 16px 34px -14px rgba(60,48,20,.4);animation:dirIn .13s ease-out}
+.tb-word{cursor:pointer;transition:border-color .12s,box-shadow .12s}
+.tb-word:hover{border-color:#dcc9a0;box-shadow:0 4px 14px -8px rgba(160,120,40,.35)}
+.wpop{position:fixed;z-index:200;width:min(360px,92vw);
+  background:#fff;border:1px solid #e6dcc4;border-radius:13px;padding:12px 13px;
+  box-shadow:0 24px 50px -18px rgba(60,48,20,.45);animation:dirIn .13s ease-out}
 .wpop[hidden]{display:none}
-.wp-row{display:flex;align-items:center;gap:8px}
-.wp-row b{font-size:14px;font-weight:900;color:var(--ink)}
-.wp-sp{margin-left:auto;width:22px;height:22px;border-radius:7px;display:grid;place-items:center;font-size:11px;background:#eef1f8}
-.wp-sp:hover{background:#e0e5f4}
-.wp-zh{font-size:12px;font-weight:700;color:#0e7a52;line-height:1.6;margin-top:4px}
-.wp-zh.no{color:#9aa2b6;font-weight:700}
-.wp-mut{font-size:11px;color:#a0947a;margin-top:3px}
+.wp-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.wp-head b{font-size:17px;font-weight:900;color:var(--ink)}
+.wp-head .ph{font-size:12.5px;color:var(--mut);font-weight:700}
+.wp-head .sp{margin-left:auto}
+.wp-ic{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font-size:12px;background:#f0f2f8}
+.wp-ic:hover{background:#e0e5f4}
+.wp-ic.on{background:#fff3d6}
+.wp-ms{margin-top:8px}
+.wp-m{display:flex;gap:6px;align-items:baseline;font-size:13px;line-height:1.7;color:#3f3a2e}
+.wp-m .pos{flex:none;font-size:11px;font-weight:800;color:#b08b3f;background:#fdf1d8;border-radius:4px;padding:0 5px}
+.wp-m .u{color:#a0947a;font-size:11.5px;margin-left:4px}
+.wp-none{font-size:12px;color:var(--mut);margin-top:8px}
+.wp-sec{font-size:11px;font-weight:900;color:#a89a7c;letter-spacing:.05em;margin:10px 0 5px;border-top:1px dashed #efe3c8;padding-top:8px}
+.wp-exs{display:grid;gap:4px}
+.wp-ex{display:block;width:100%;text-align:left;padding:6px 8px;border-radius:8px;background:#fffdf7;border:1px solid #f0e8d6}
+.wp-ex:hover{background:#fdf8ea;border-color:#e3d3ae}
+.wp-ex .en{display:block;font-size:13px;font-weight:700;color:#3f3a2e;line-height:1.55}
+.wp-ex .zh{display:block;font-size:11.5px;color:#8d8878;margin-top:1px;line-height:1.5}
+.wp-foot{display:flex;gap:6px;margin-top:10px;padding-top:8px;border-top:1px dashed #efe3c8}
+.wp-link{font-size:11.5px;font-weight:800;color:var(--pri);background:var(--pri-soft);padding:4px 9px;border-radius:8px}
+.wp-link:hover{background:#dde2ff}
+
+/* ---------- 生词本浮层 ---------- */
+.vocab-list{flex:1;min-height:200px;max-height:52vh;overflow-y:auto;margin:12px 17px 0;display:grid;gap:6px;align-content:start}
+.vocab-row{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid #efe7d6;border-radius:10px;background:#fffdf7}
+.vocab-row:hover{border-color:#dcc9a0}
+.vocab-w{flex:1;min-width:0;text-align:left;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.vocab-w b{font-size:14px;font-weight:900;color:var(--ink)}
+.vocab-w .ph{font-size:11.5px;color:var(--mut)}
+.vocab-w span{font-size:12px;color:#0e7a52;font-weight:600;line-height:1.5}
+.vocab-del{flex:none;width:22px;height:22px;border-radius:6px;color:var(--mut);font-size:11px}
+.vocab-del:hover{background:#fdeaea;color:var(--err)}
 
 /* ---------- 播放器：普通/简洁模式切换 ---------- */
 .vmode{display:inline-flex;gap:2px;background:#eef1f8;padding:2px;border-radius:8px}
