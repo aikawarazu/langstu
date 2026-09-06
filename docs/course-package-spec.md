@@ -135,7 +135,8 @@ CoursePackage（课程包 / 系列，如「新概念英语 第一册」）
   ],
   "words": [
     { "word": "excuse", "phonetic": "/ɪkˈskjuːz/",
-      "meanings": [ { "pos": "verb", "meaning": "原谅；宽恕", "usage": "请求原谅或引起注意" } ] }
+      "meanings": [ { "pos": "verb", "meaning": "原谅；宽恕", "usage": "请求原谅或引起注意" } ],
+      "examples": [ { "en": "Excuse me, is this your handbag?", "zh": "打扰一下，这是你的手提包吗？" } ] }
   ],
   "phrases": [
     { "phrase": "Excuse me", "usage": "引起注意、请求让路",
@@ -162,7 +163,7 @@ CoursePackage（课程包 / 系列，如「新概念英语 第一册」）
 |---|---|
 | BilingualText | `{ en, zh }` |
 | Line | `{ speaker?, en, zh?, note? }` |
-| WordEntry | `{ word, phonetic?, meanings:[{pos?, meaning, usage?}] }` |
+| WordEntry | `{ word, phonetic?, meanings:[{pos?, meaning, usage?}], examples?:[BilingualText] }` |
 | PhraseEntry | `{ phrase, usage?, examples:[BilingualText] }` |
 | GrammarEntry | `{ title, definition?, structure?, usage?, examples:[BilingualText] }` |
 | PatternEntry | `{ pattern, original?:BilingualText, imitations:[BilingualText] }` |

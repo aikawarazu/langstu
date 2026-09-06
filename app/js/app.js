@@ -598,11 +598,12 @@ function meaningsText(w){
     return (m.pos?m.pos+'. ':'')+(m.meaning||'')+(m.usage?'（'+m.usage+'）':'');
   }).join('；');
 }
-/* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}]} */
+/* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}], examples?:[{en,zh}]} */
 function tbWordCard(w){
   return '<div class="tb-word"><b>'+esc(w.word)+'</b>'+
     (w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')+
-    '<span>'+esc(meaningsText(w))+'</span></div>';
+    '<span>'+esc(meaningsText(w))+'</span>'+
+    exLines(w.examples,S.dict)+'</div>';
 }
 /* 短语卡：{phrase, usage?, examples:[{en,zh}]} */
 function tbPhraseCard(p){

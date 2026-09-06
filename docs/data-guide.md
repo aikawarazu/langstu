@@ -1,7 +1,7 @@
 # 数据使用与补齐指引
 
 > 课程数据统一走「课程包」格式，结构标准见 [course-package-spec.md](./course-package-spec.md)。
-> 本文回答三件事：**数据现在在哪 / 怎么补齐缺的数据 / 怎么把外部资料提取成标准 JSON**。
+> 本文回答：**数据在哪 / 怎么补缺 / 怎么把外部资料提取成标准 JSON（含针对你手头两类资料的提示词）**。
 
 ---
 
@@ -10,15 +10,15 @@
 ```
 app/data/
   courses/                      ← 运行时唯一的数据源（前端只认这里）
-    index.json                  ← 预设课程清单（{packages:[{id,title,kind,unitCount}]}）
-    nce1.json ~ nce4.json       ← 4 个预设课程包（meta + units 索引 + groups + media）
-    content/<pkg>/<unit>.json   ← 教材内容（276 份，打开课时按需懒加载）
-  NCE1.js ~ NCE4.js             ← 旧格式「源数据」（单元/音频/视频映射），仅供生成脚本读取
+    index.json                  ← 预设课程清单
+    nce1.json ~ nce4.json       ← 4 个预设课程包（meta + units + groups + media）
+    content/<pkg>/<unit>.json   ← 教材内容（276 份，按课懒加载）
+  NCE1.js ~ NCE4.js             ← 旧格式「源数据」，仅供生成脚本读取
   notes.js                      ← 手写精修笔记（源数据，优先级最高）
-  notes/                        ← 参考仓库导入的笔记（源数据，中间产物）
+  notes/                        ← 参考仓库导入的笔记（中间产物）
 ```
 
-**数据管线**（开发者视角）：
+**数据管线**：
 
 ```
 外部源                          脚本                             运行时
@@ -28,164 +28,153 @@ aikawarazu/NCE notes   → import_nce_notes.py → notes/ ─┤→ build_course
 用户上传课程包 JSON ───────────────────────────────────→ IndexedDB（运行时）
 ```
 
-- **运行时**（前端 `js/data/registry.js`）只读 `data/courses/*` + IndexedDB 里用户导入的包。
-- **源数据**（`NCE*.js` / `notes.js` / `notes/`）只在重新生成课程包时被脚本读取，不参与运行。
-
 ---
 
-## 2. 补齐 / 更新数据的三条路径
+## 2. 补齐 / 更新数据的四条路径
 
-### 路径 A：直接编辑课程包（最简单，适合小改）
-`data/courses/content/<pkg>/<unit>.json` 就是最终数据，直接改即可（字段见 spec）。
-改完记得把 `index.html` 里的 `?v=N` 版本号 +1，刷新 CDN 缓存。
-
-### 路径 B：改源数据后重新生成（适合批量）
-1. 编辑源数据：课文/音频映射改 `NCE*.js`，手写精修改 `notes.js`，导入笔记改 `notes/`。
-2. 重新生成：
-   ```bash
-   python3 backend/scripts/build_course_packages.py
-   ```
-   会清空并重建 `data/courses/*`（276 份内容 + 4 个包 + index）。
-
-### 路径 C：上传课程包（适合新课程 / 单课 / 用户自建）
-前端顶栏「**＋ 导入课程**」按钮 → 选择符合 spec 的 JSON → 校验 → 存入 IndexedDB → 课程下拉里出现、可删除。
-这是**不碰代码**就能加课程的方式。
-
-### 路径 D：开发者自定义预设（内置新课程）
-1. 把课程包文件放到 `app/data/courses/<id>.json`（内容放 `content/<id>/`）。
-2. 在 `app/data/courses/index.json` 的 `packages` 数组里加一条 `{id,title,kind,unitCount}`。
-3. 或运行时调 `AppData.register(pkg)`（控制台/插件）。
+- **A 直接改**：编辑 `data/courses/content/<pkg>/<unit>.json`（最终数据），改完 `index.html` 的 `?v=N` +1。
+- **B 改源重生成**：改 `NCE*.js` / `notes.js` / `notes/` 后跑 `python3 backend/scripts/build_course_packages.py`。
+- **C 上传课程包**：顶栏「＋ 导入课程」上传符合 spec 的 JSON（不碰代码）。
+- **D 自定义预设**：包文件放 `data/courses/<id>.json` 并注册到 `index.json`，或运行时 `AppData.register()`。
 
 ---
 
 ## 3. 缺数据的判定
 
-打开一课，右侧教材锚点条会显示当前有哪些块（📌导学 / 🔤词汇 / 🗣短语 / 📐语法 / 💬句型 / ✏️练习）。缺的块不出按钮。要判断「缺什么数据」：
-
 | 现象 | 缺 | 补法 |
 |---|---|---|
-| 没有 📌 导学 | `content.lead`（question/summary/tips） | 手动补或路径 B |
-| 没有课文，只有音频 | `content.text` | 用 LRC 逐句渲染（自动），或补 `text` |
-| 没有 🔤 词汇 | `content.words` | 路径 B/C |
-| 没有 🗣 短语 | `content.phrases` | 路径 B/C |
-| 没有 📐 语法 | `content.grammar` | 路径 B/C |
-| 没有 💬 句型 | `content.patterns` | 路径 B/C |
+| 没有 📌 导学 | `content.lead` | B/C |
+| 没有课文 | `content.text` | 用 LRC 自动渲染，或 B/C |
+| 没有 🔤 词汇 | `content.words` | B/C |
+| 没有 🗣 短语 | `content.phrases` | B/C |
+| 没有 📐 语法 | `content.grammar` | B/C |
+| 没有 💬 句型 | `content.patterns` | B/C |
 | 没有 ✏️ 练习 | `content.exercises` | 手写补 |
-| 音频点不了 | `unit.audio[].url/lrc` | 路径 B |
+| 音频点不了 | `unit.audio[].url/lrc` | B |
 
 ---
 
-## 4. 用 LLM 把资料提取成标准 JSON（提示词）
+## 4. 两类资料的真实格式（已实测你的两份数据）
 
-下面两个提示词对应你手头最常见的两类资料：**听力室原文型**（英文原文 + 中文翻译）、**内容讲解型**（课文 + 生词 + 语法 + 讲解）。把资料粘贴进提示词的 `{{...}}` 处即可。
-
-### 提示词 1：听力室原文（英文 + 翻译，如 tingroom / 在线英语听力室）
+### 类型 A：内容讲解型（NCE1/2/3，如「第 33-34 课内容讲解」「第 103-104 课」）
 
 ```
-你是数据抽取助手。请把下面的《新概念英语》课文资料，提取成**严格合法的 JSON**，
-只输出 JSON，不要任何解释、不要 markdown 代码块围栏。
+Lesson 103 The French test 法语考试
+Listen to the tape then answer this question. …      ← 导学问题
+Gary: How was the examination, Richard?              ← 对话：冒号前是 speaker
+　　加里：考试考得怎样，理查德?
+New words and Expressions 生词和短语                 ← 词 + 词性 + 释义（一行一词）
+　　exam  n. 考试
+Notes on the text 课文注释                           ← 编号条目：原句 + 中文 + 讲解
+Lesson 103-104 自学导读 First things first
+  课文详注 Further notes on the text                 ← 逐条语法/用法讲解
+  语法 Grammar in use                                 ← 语法点：定义 + 结构 + 例句
+  词汇学习 Word study                                 ← 词的多义 + 例句
+```
 
-资料内容：
-{{ 在这里粘贴：课名 + 英文原文 + 中文翻译 }}
+**归类建议**：`Listen to...answer this question` → `lead.question`；对话 → `text[].lines`（带 `speaker`）；生词表 → `words`；课文注释 + 课文详注 → `grammar[].usage` 或 `text[].lines[].note`；语法 → `grammar`（title/structure/examples）；词汇学习 → 并入对应 `words[].meanings[].usage` + `examples`。
 
-输出 schema（字段缺资料就省略，不要编造）：
+### 类型 B：听力室原文型（NCE4，如 tingroom 的「Lesson 9 Royal espionage」）
+
+```
+Lesson 9 Royal espionage 王室谍报活动
+First listen and then answer the following question.  ← 导学问题
+（英文正文，多段，生词带超链接）
+New words and expressions 生词和短语                  ← 词 + 词性 + 释义
+参考译文                                               ← 段落级中文（需按句对齐英文）
+（页面底部单词表：词 + 释义 + 参考例句）               ← 例句吸收进 words[].examples
+```
+
+**归类建议**：英文段落 + 段落译文 → **逐句对齐**后写入 `text[].lines`；生词表 → `words`；底部单词表的「参考例句」→ `words[].examples`；无独立语法/句型则省略这两块。
+
+> 完整提取结果范例见 [`docs/inbox/royal-espionage.example.json`](./inbox/royal-espionage.example.json)，可直接「＋ 导入课程」测试。
+
+---
+
+## 5. 提取提示词（升级版）
+
+### 提示词 A：内容讲解型（对话课文 + 生词 + 注释 + 语法）
+
+```
+你是数据抽取助手。把下面这份《新概念英语》讲解资料提取成**严格合法的 JSON**，
+只输出 JSON，不要解释、不要 markdown 代码块围栏。
+
+资料：
+{{ 粘贴讲解全文 }}
+
+输出 schema（字段缺资料就省略，禁止编造）：
 {
-  "schemaVersion": 1,
-  "unitId": "u001",                       // 保持原样，后面我会改
-  "title": "英文课名",
-  "text": [{
-    "lesson": 1,
-    "title": "英文课名",
-    "lines": [
-      { "en": "英文一句", "zh": "对应中文一句" }
-    ]
-  }],
-  "words": [
-    { "word": "单词", "phonetic": "/音标/", "meanings": [ { "pos": "词性缩写", "meaning": "释义", "usage": "用法" } ] }
-  ]
+  "schemaVersion": 1, "unitId": "u001",
+  "title": "英文课名", "subtitle": "中文课名",
+  "lead": { "question": "Listen to... 那句的中文问题" },
+  "text": [ { "lesson": 103, "title": "英文课名", "kind": "课文 · 对话",
+    "lines": [ { "speaker": "Gary", "en": "英文", "zh": "中文", "note": "语气/连读提示" } ] } ],
+  "words": [ { "word": "exam", "phonetic": "/音标/",
+    "meanings": [ { "pos": "n.", "meaning": "考试", "usage": "用法" } ],
+    "examples": [ { "en": "例句", "zh": "译文" } ] } ],
+  "phrases": [ { "phrase": "短语", "usage": "说明", "examples": [ { "en": "…", "zh": "…" } ] } ],
+  "grammar": [ { "title": "语法点", "definition": "定义", "structure": "结构/公式",
+    "usage": "用法", "examples": [ { "en": "…", "zh": "…" } ] } ],
+  "patterns": [ { "pattern": "模板", "original": { "en": "原句", "zh": "译文" },
+    "imitations": [ { "en": "仿写", "zh": "译文" } ] } ],
+  "exercises": [ { "q": "题目", "a": "答案", "note": "解析" } ]
 }
 
 规则：
-1. 英文原文与中文翻译**逐句对齐**，一句英文对应一句中文；对不上的句子单独成行、zh 留空。
-2. 课名、纯标题、页码、广告、网站导航等无关内容不要放进 lines。
-3. words 只收资料里**明确出现**的生词/难词；没有就省略整个 words 字段。
-4. 中文保持原样，英文保持原文拼写与标点。
-5. 输出必须是可被 JSON.parse 通过的对象。
+1. 对话课文：冒号前的英文人名作 speaker；叙述课文省略 speaker。
+2. 生词表「exam  n. 考试」三要素拆成 word / meanings[0].pos / meanings[0].meaning；无音标就省略 phonetic。
+3. 课文注释、课文详注里对某句的讲解，写成该句 lines[].note；对某个语法/用法的讲解并入 grammar。
+4. 词汇学习(Word study)里词的多义与例句，拆进对应 words[] 的多 meanings + examples。
+5. 语法(Grammar in use)：每个语法点一条 grammar，structure 写公式，examples 至少一个中英对照。
+6. 不要编造；字段缺就省略。输出必须是可 JSON.parse 的对象。
 ```
 
-### 提示词 2：内容讲解型（课文 + 生词 + 语法 + 句型，如「第 x 课内容讲解」）
+### 提示词 B：听力室原文型（英文正文 + 段落译文 + 生词 + 单词表例句）
 
 ```
-你是数据抽取助手。请把下面这份《新概念英语》讲解资料，提取成**严格合法的 JSON**，
-只输出 JSON，不要任何解释、不要 markdown 代码块围栏。
+你是数据抽取助手。把下面这份《新概念英语》课文资料提取成**严格合法的 JSON**，
+只输出 JSON，不要解释、不要 markdown 代码块围栏。
 
-资料内容：
-{{ 在这里粘贴：完整讲解，含课文、翻译、生词表、语法讲解、句型/仿写 }}
+资料：
+{{ 粘贴：课名 + 英文原文 + 段落译文 + 生词表 + 单词表(含例句) }}
 
-输出 schema（字段缺资料就省略，不要编造）：
+输出 schema（字段缺资料就省略，禁止编造）：
 {
-  "schemaVersion": 1,
-  "unitId": "u001",
-  "title": "英文课名",
-  "subtitle": "中文课名",
-  "lead": {
-    "question": "课前提问（若有）",
-    "summary": "一两句话概括本课要点",
-    "tips": "学习建议 / 易错点"
-  },
-  "text": [{
-    "lesson": 1,
-    "title": "英文课名",
-    "kind": "课文 · 对话",
-    "lines": [
-      { "speaker": "A", "en": "英文", "zh": "中文", "note": "语气/连读等提示" }
-    ]
-  }],
-  "words": [
-    { "word": "excuse", "phonetic": "/ɪkˈskjuːz/",
-      "meanings": [ { "pos": "verb", "meaning": "原谅；宽恕", "usage": "请求原谅或引起注意" } ] }
-  ],
-  "phrases": [
-    { "phrase": "Excuse me", "usage": "引起注意、请求让路",
-      "examples": [ { "en": "例句", "zh": "译文" } ] }
-  ],
-  "grammar": [
-    { "title": "一般疑问句", "definition": "定义", "structure": "Be + 主语 …?",
-      "usage": "用法", "examples": [ { "en": "例句", "zh": "译文" } ] }
-  ],
-  "patterns": [
-    { "pattern": "Is this your + 名词?", "original": { "en": "课文原句", "zh": "译文" },
-      "imitations": [ { "en": "仿写", "zh": "译文" } ] }
-  ],
-  "exercises": [
-    { "q": "题目", "a": "答案", "note": "解析" }
-  ]
+  "schemaVersion": 1, "unitId": "u001",
+  "title": "英文课名", "subtitle": "中文课名",
+  "lead": { "question": "听录音回答问题的那句中文" },
+  "text": [ { "lesson": 9, "title": "英文课名",
+    "lines": [ { "en": "英文一句", "zh": "对应中文一句" } ] } ],
+  "words": [ { "word": "espionage", "meanings": [ { "pos": "n.", "meaning": "间谍活动" } ],
+    "examples": [ { "en": "参考例句英文", "zh": "参考例句中文" } ] } ],
+  "phrases": [ { "phrase": "act as one's own spy", "usage": "亲自充当间谍",
+    "examples": [ { "en": "…", "zh": "…" } ] } ]
 }
 
 规则：
-1. 生词要带音标（资料没有就省略 phonetic）、词性、中文释义；一词多义拆成 meanings 数组。
-2. 语法每个点一条：title 是名称，structure 是公式/结构，definition 与 usage 分别写定义和用法，
-   examples 至少给一个中英对照例句。
-3. 句型 patterns 只收可套用的句式：pattern 是模板，original 是课文原句，imitations 是仿写。
-4. 对话课文保留 speaker（A/B）；叙述课文 speaker 省略。
-5. 不要编造资料里没有的内容；字段缺就省略，保持 JSON 最小。
-6. 输出必须是可被 JSON.parse 通过的对象。
+1. 英文正文与段落译文**逐句对齐**：一句英文配一句中文；对不上的句 zh 留空。课名、页码、导航、广告去掉。
+2. 生词表「espionage  n. 间谍活动」拆成 word / pos / meaning；无音标省略 phonetic。
+3. 页面底部单词表的「参考例句」放进对应 words[].examples（中英对照）。
+4. 若正文有明显的固定搭配/词组，提炼到 phrases（从原文找例句），不要凭空造。
+5. 没有语法/句型就整块省略。输出必须是可 JSON.parse 的对象。
 ```
 
 ### 提取后怎么办
 
-1. 把 LLM 输出的 JSON 包成课程包：
-   ```json
-   { "schemaVersion": 1, "id": "my-xxx", "kind": "single", "title": "我的课程",
-     "content": { <上面输出的 JSON> } }
-   ```
-2. 顶栏「＋ 导入课程」上传，或按路径 B 并入预设。
+把输出 JSON 包一层课程包壳即可导入：
+
+```json
+{ "schemaVersion": 1, "id": "nce1-u052", "kind": "single",
+  "title": "Lesson 103-104 The French test", "content": { <上面输出的 JSON> } }
+```
+
+然后顶栏「＋ 导入课程」上传；或按路径 B 把 `content` 覆盖到 `data/courses/content/<pkg>/<unit>.json`。
 
 ---
 
-## 5. 常见问题
+## 6. 常见问题
 
-- **改了数据但页面没变** → 浏览器缓存，把 `index.html` 里 `?v=N` 的 N +1。
-- **上传的包校验不过** → 看控制台 `[import]` 警告：`id` 非法、缺 `title`、`kind` 不是 series/single 是主要原因。
-- **内容没显示、锚点有计数** → 内容懒加载失败（路径/网络），检查 `unit.contentRef`。
-- **进度/笔记会丢吗** → 不会。进度 key=`包id:单元序号`、笔记 key=`包id:单元id`，删课程包不影响已存的进度与笔记记录。
+- **改了数据页面没变** → `index.html` 的 `?v=N` +1 刷缓存。
+- **上传校验不过** → 看控制台 `[import]`：`id` 非法、缺 `title`、`kind` 不是 series/single。
+- **内容没显示但锚点有计数** → 内容懒加载失败，查 `unit.contentRef` 路径。
+- **进度/笔记会丢吗** → 不会。进度 key=`包id:单元序号`、笔记 key=`包id:单元id`，删课程包不影响已存记录。

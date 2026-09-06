@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "nce4-lesson9-example",
+  "kind": "single",
+  "title": "Lesson 9 · Royal espionage 王室谍报活动",
+  "lang": { "from": "en", "to": "zh" },
+  "level": "C1",
+  "source": { "text": "在线英语听力室 tingroom.com", "license": "仅供个人学习" },
+  "content": {
+    "schemaVersion": 1,
+    "unitId": "u1",
+    "title": "Royal espionage",
+    "subtitle": "王室谍报活动",
+    "lead": {
+      "question": "What important thing did King Alfred learn when he penetrated the Danish camp of Guthrum?（阿尔弗雷德国王潜入古瑟罗姆的丹麦军营时，了解到什么重要情况？）"
+    },
+    "text": [
+      {
+        "lesson": 9,
+        "title": "Royal espionage",
+        "lines": [
+          { "en": "Alfred the Great acted his own spy, visiting Danish camps disguised as a minstrel.", "zh": "阿尔弗雷德大帝曾亲自充当间谍。他扮作吟游歌手到丹麦军队的营地里侦察。" },
+          { "en": "In those days wandering minstrels were welcome everywhere.", "zh": "当时，浪迹天涯的吟游歌手到处受欢迎。" },
+          { "en": "They were not fighting men, and their harp was their passport.", "zh": "他们不是作战人员，竖琴就是他们的通行证。" },
+          { "en": "Alfred had learned many of their ballads in his youth, and could vary his programme with acrobatic tricks and simple conjuring.", "zh": "阿尔弗雷德年轻时学过许多民歌，并能穿插演一些杂技和小魔术使自己的节目多样化。" },
+          { "en": "While Alfred's little army slowly began to gather at Athelney, the king himself set out to penetrate the camp of Guthrum, the commander of the Danish invaders.", "zh": "阿尔弗雷德人数不多的军队开始在阿塞尔纳慢慢集结时，他亲自潜入丹麦入侵司令官古瑟罗姆的营地。" },
+          { "en": "There had settled down for the winter at Chippenham: thither Alfred went.", "zh": "丹麦军已在切本哈姆扎下营准备过冬，阿尔弗雷便来到此地。" },
+          { "en": "He noticed at once that discipline was slack: the Danes had the self-confidence of conquerors, and their security precautions were casual.", "zh": "他马上发现丹麦军纪律松弛，他们以征服者自居，安全措施马马虎虎。" },
+          { "en": "They lived well, on the proceeds of raids on neighbouring regions.", "zh": "他们靠掠夺附近地区的财物过着舒适的生活。" },
+          { "en": "There they collected women as well as food and drink, and a life of ease had made them soft.", "zh": "他们不仅搜刮吃的喝的，而且抢掠妇女，安逸的生活已使丹麦军队变得软弱无力。" },
+          { "en": "Alfred stayed in the camp a week before he returned to Athelney.", "zh": "阿尔弗雷德在敌营呆了一个星期后，回到了阿塞尔纳。" },
+          { "en": "The force there assembled was trivial compared with the Danish horde.", "zh": "他集结在那里的军队和丹麦大军相比是微不足道的。" },
+          { "en": "But Alfred had deduced that the Danes were no longer fit for prolonged battle: and that their commissariat had no organization, but depended on irregular raids.", "zh": "然而，阿尔弗雷德断定，丹麦人已不再适应持久的战争，他们的军需供应处于无组织状态，只是靠临时抢夺来维持。" },
+          { "en": "So, faced with the Danish advance, Alfred did not risk open battle but harried the enemy.", "zh": "因此，面对丹麦人的进攻，阿尔弗雷德没有贸然同敌人作战，而是采用骚扰敌人的战术。" },
+          { "en": "He was constantly on the move, drawing the Danes after him.", "zh": "他的部队不停地移动，牵着敌人的鼻子，让他们跟着跑。" },
+          { "en": "His patrols halted the raiding parties: hunger assailed the Danish army.", "zh": "他派出巡逻队阻止敌人抢劫，因而饥饿威胁着丹麦军队。" },
+          { "en": "Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered.", "zh": "这时，阿尔弗雷德发起一连串小规模的进攻，结果不出一个月，丹麦人就投降了。" },
+          { "en": "The episode could reasonably serve as a unique epic of royal espionage!", "zh": "这一幕历史可以说是王室谍报活动中最精彩的篇章。" }
+        ]
+      }
+    ],
+    "words": [
+      { "word": "espionage", "meanings": [{ "pos": "n.", "meaning": "间谍活动；谍报" }],
+        "examples": [{ "en": "The authorities have arrested several people suspected of espionage.", "zh": "官方已经逮捕了几个涉嫌从事间谍活动的人。" }] },
+      { "word": "penetrate", "meanings": [{ "pos": "v.", "meaning": "透（渗）入；刺入，刺穿；洞察，了解" }],
+        "examples": [{ "en": "Western ideas penetrate slowly through the East.", "zh": "西方观念逐渐传入东方。" }] },
+      { "word": "Alfred", "meanings": [{ "meaning": "阿尔弗雷德（公元 871-899 年间任英国国王）" }] },
+      { "word": "Danish", "meanings": [{ "pos": "adj.", "meaning": "丹麦的，丹麦人的，丹麦语的" }] },
+      { "word": "minstrel", "meanings": [{ "pos": "n.", "meaning": "中世纪的吟游歌手" }] },
+      { "word": "wandering", "meanings": [{ "pos": "adj.", "meaning": "漫游的" }] },
+      { "word": "harp", "meanings": [{ "pos": "n.", "meaning": "竖琴" }],
+        "examples": [{ "en": "He played an Irish melody on the harp.", "zh": "他用竖琴演奏了一首爱尔兰曲调。" }] },
+      { "word": "ballad", "meanings": [{ "pos": "n.", "meaning": "民歌；民谣" }] },
+      { "word": "acrobatic", "meanings": [{ "pos": "adj.", "meaning": "杂技的" }] },
+      { "word": "conjuring", "meanings": [{ "pos": "n.", "meaning": "魔术" }] },
+      { "word": "Athelney", "meanings": [{ "pos": "n.", "meaning": "阿塞尔纳（英国一个小岛）" }] },
+      { "word": "Chippenham", "meanings": [{ "pos": "n.", "meaning": "切本哈姆（英国一个城市）" }] },
+      { "word": "thither", "meanings": [{ "pos": "adv.", "meaning": "向那里" }] },
+      { "word": "Dane", "meanings": [{ "pos": "n.", "meaning": "丹麦人" }] },
+      { "word": "slack", "meanings": [{ "pos": "adj.", "meaning": "涣散的，松弛的" }] },
+      { "word": "conqueror", "meanings": [{ "pos": "n.", "meaning": "征服者" }] },
+      { "word": "casual", "meanings": [{ "pos": "adj.", "meaning": "马虎的，随便的" }] },
+      { "word": "precaution", "meanings": [{ "pos": "n.", "meaning": "预防，警惕" }] },
+      { "word": "proceeds", "meanings": [{ "pos": "n.", "meaning": "所得，收益" }] },
+      { "word": "assemble", "meanings": [{ "pos": "v.", "meaning": "集合，集结" }] },
+      { "word": "trivial", "meanings": [{ "pos": "adj.", "meaning": "微不足道的" }] },
+      { "word": "prolonged", "meanings": [{ "pos": "adj.", "meaning": "持久的" }] },
+      { "word": "commissariat", "meanings": [{ "pos": "n.", "meaning": "军粮供应" }] },
+      { "word": "episode", "meanings": [{ "pos": "n.", "meaning": "一个事件，片断" }] },
+      { "word": "epic", "meanings": [{ "pos": "n.", "meaning": "史诗" }] },
+      { "word": "harry", "meanings": [{ "pos": "v.", "meaning": "骚扰，侵扰" }],
+        "examples": [{ "en": "The soldiers harried the enemy out of the country.", "zh": "士兵们不断作骚扰性的攻击直至把敌人赶出国境为止。" }] },
+      { "word": "assail", "meanings": [{ "pos": "v.", "meaning": "袭击；猛烈攻击" }],
+        "examples": [{ "en": "The opposition's newspapers assail the government each day.", "zh": "反对党的报纸每天都对政府进行猛烈抨击。" }] },
+      { "word": "skirmish", "meanings": [{ "pos": "n.", "meaning": "小规模战斗" }] }
+    ],
+    "phrases": [
+      { "phrase": "act as one's own spy", "usage": "亲自充当间谍", "examples": [{ "en": "Alfred the Great acted his own spy.", "zh": "阿尔弗雷德大帝曾亲自充当间谍。" }] },
+      { "phrase": "disguised as", "usage": "装扮成…", "examples": [{ "en": "visiting Danish camps disguised as a minstrel", "zh": "扮作吟游歌手到丹麦军营侦察" }] },
+      { "phrase": "set out to", "usage": "出发去做…", "examples": [{ "en": "the king himself set out to penetrate the camp", "zh": "国王亲自出发去潜入营地" }] },
+      { "phrase": "settle down for the winter", "usage": "扎营过冬", "examples": [{ "en": "There had settled down for the winter at Chippenham.", "zh": "丹麦军已在切本哈姆扎下营准备过冬。" }] },
+      { "phrase": "on the proceeds of", "usage": "靠…的所得", "examples": [{ "en": "They lived well, on the proceeds of raids.", "zh": "他们靠掠夺的所得过着舒适的生活。" }] },
+      { "phrase": "a life of ease", "usage": "安逸的生活", "examples": [{ "en": "A life of ease had made them soft.", "zh": "安逸的生活使他们变得软弱。" }] },
+      { "phrase": "compared with", "usage": "与…相比", "examples": [{ "en": "The force was trivial compared with the Danish horde.", "zh": "这支军队与丹麦大军相比微不足道。" }] },
+      { "phrase": "on the move", "usage": "在移动中；不停地转移", "examples": [{ "en": "He was constantly on the move.", "zh": "他不停地移动。" }] }
+    ]
+  }
+}
