@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+.pp { width: 260px; padding: 14px; color: #2c2a24; }
+.pp-h { font-weight: 700; font-size: 15px; color: #1f8c80; }
+.pp-sub { font-size: 12px; color: #8a8576; margin: 4px 0 10px; line-height: 1.5; }
+.pp-btn { display: block; width: 100%; border: 1px solid #e7e2d6; background: #fff; border-radius: 9px; padding: 8px 0; margin-bottom: 7px; cursor: pointer; font-size: 13px; }
+.pp-btn.primary { background: #2bb3a3; color: #fff; border-color: #2bb3a3; font-weight: 600; }
+.pp-btn.primary:hover { background: #1f8c80; }
+.pp-btn:hover { border-color: #2bb3a3; }
+.pp-sep { height: 1px; background: #eee; margin: 4px 0 10px; }
+.pp-bar { display: flex; gap: 6px; }
+.pp-input { flex: 1; padding: 7px 9px; border: 1px solid #e7e2d6; border-radius: 8px; font-size: 13px; }
+.pp-go { border: 0; background: #2bb3a3; color: #fff; border-radius: 8px; padding: 0 14px; cursor: pointer; }
+.pp-tip { font-size: 11px; color: #8a8576; margin-top: 10px; line-height: 1.5; }

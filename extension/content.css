@@ -1,0 +1,35 @@
+/* 内容脚本注入的即点即译浮框（不影响原页面布局） */
+.nce-bubble {
+  position: fixed;
+  z-index: 2147483647;
+  max-width: 300px;
+  background: #fff;
+  color: #2c2a24;
+  border: 1px solid #e7e2d6;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .22);
+  padding: 10px 12px;
+  font: 13px/1.55 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  animation: nce-pop .12s ease-out;
+}
+.nce-bubble[hidden] { display: none; }
+@keyframes nce-pop { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.nce-bubble .nce-h { display: flex; align-items: center; gap: 8px; }
+.nce-bubble .nce-h b { font-size: 15px; color: #1f8c80; }
+.nce-bubble .nce-h .ph { color: #b06a2c; font-size: 12px; font-style: normal; }
+.nce-bubble .nce-sp, .nce-bubble .nce-x {
+  margin-left: auto; border: 1px solid #e7e2d6; background: #fff; border-radius: 8px;
+  width: 26px; height: 24px; cursor: pointer; font-size: 12px; line-height: 1; padding: 0;
+}
+.nce-bubble .nce-x { margin-left: 4px; color: #999; }
+.nce-bubble .nce-sp:hover, .nce-bubble .nce-x:hover { border-color: #2bb3a3; }
+.nce-bubble .nce-m { margin: 4px 0; }
+.nce-bubble .nce-m:empty { display: none; }
+.nce-bubble .ex { color: #8a8576; font-size: 12px; }
+.nce-bubble .nce-f { color: #8a8576; font-size: 12px; margin-top: 4px; }
+.nce-bubble .nce-acts { margin-top: 8px; }
+.nce-bubble .nce-go {
+  width: 100%; border: 0; background: #2bb3a3; color: #fff; border-radius: 9px;
+  padding: 6px 0; cursor: pointer; font-size: 13px;
+}
+.nce-bubble .nce-go:hover { background: #1f8c80; }

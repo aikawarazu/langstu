@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NCE 学习助手 · 在线阅读参考</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="sp-head">
+    <div class="sp-title">📚 NCE 学习助手</div>
+    <div class="sp-books" id="spBooks"></div>
+    <div class="sp-lessonbar">
+      <button class="sp-nav" id="spPrevL" title="上一课">‹</button>
+      <select id="spLesson" class="sp-sel" title="选择课"></select>
+      <button class="sp-nav" id="spNextL" title="下一课">›</button>
+      <button class="sp-done" id="spDone" title="标记已学">○ 已学</button>
+    </div>
+    <div class="sp-verbar" id="spVer"></div>
+    <nav class="sp-tabs">
+      <button class="sp-tab on" data-tab="audio">🎧 音频精听</button>
+      <button class="sp-tab" data-tab="book">📖 教材</button>
+      <button class="sp-tab" data-tab="dict">🔍 词典</button>
+    </nav>
+  </header>
+
+  <main class="sp-main">
+    <section class="sp-pane on" id="paneAudio"><div id="spPlayer"></div></section>
+    <section class="sp-pane" id="paneBook"><div id="tbk" class="tbk"></div></section>
+    <section class="sp-pane" id="paneDict">
+      <div class="dict-bar">
+        <input id="dictInput" class="dict-input" placeholder="查单词 / 短语，回车搜索" autocomplete="off">
+        <button id="dictBtn" class="dict-go">查找</button>
+      </div>
+      <div id="dictRes" class="dict-res"></div>
+    </section>
+  </main>
+
+  <div id="wpop" class="wpop" hidden></div>
+
+  <script src="js/store.js"></script>
+  <script src="js/registry.js"></script>
+  <script src="js/lrc.js"></script>
+  <script src="js/lookup.js"></script>
+  <script src="js/tb.js"></script>
+  <script src="js/player.js"></script>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

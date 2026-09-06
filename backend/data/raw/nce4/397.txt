@@ -1,0 +1,432 @@
+新概念英语第四册Lesson 14 The Butterfly Effect_在线英语听力室_免费在线英语听力学习网站
+英语
+日语
+韩语
+法语
+德语
+西班牙语
+意大利语
+阿拉伯语
+葡萄牙语
+越南语
+俄语
+芬兰语
+泰语
+丹麦语
+对外汉语
+在线英语听力室_免费在线英语听力学习网站
+收藏本站
+手机版
+首     页
+|
+听力教程
+|
+VOA慢速英语
+|
+英语歌曲
+|
+外语歌曲
+|
+英语下载
+|
+英语小说
+|
+轻松背单词
+|
+英文阅读
+|
+英语听力论坛
+|
+韩语学习
+听力专题
+|
+英语教材
+|
+VOA标准英语
+|
+英语动画
+|
+英语游戏
+|
+英语考试
+|
+资源技巧
+|
+在线背单词
+|
+英语词典
+|
+英语听力家园
+|
+德语学习
+听力搜索
+|
+英语导航
+|
+口语陪练网
+|
+英语视频
+|
+英语QQ群
+|
+英语电台
+|
+英语导读
+|
+单词连连看
+|
+英语网刊
+|
+英语学习网站
+|
+日语学习
+当前位置:
+首页
+>
+听力教程
+>
+新概念英语第四册
+>
+新概念英语第四册Lesson 14 The Butterfly Effect
+时间:
+2005-04-25 16:00
+来源:
+互联网
+提供网友:
+yaopf
+字体： [
+大
+中
+小
+]
+特别声明：本栏目内容均从网络收集或者网友提供，供仅参考试用，我们无法保证内容完整和正确。如果资料损害了您的权益，请与站长联系，我们将及时删除并致以歉意。
+(单词翻译:双击或拖选)
+Lesson 14
+The Butterfly Effect
+蝴蝶效应
+First listen and then answer the following question.
+听录音，然后回答以下问题。
+Why do small errors make it impossible to predict the weather system with a high degree of accuracy?
+Beyond two or three days, the world's best weather forecasts are
+speculative
+1
+, and beyond six or seven they are worthless.
+The Butterfly Effect is the reason. For small pieces of weather -- and to a global forecaster, small can mean thunderstorms and
+blizzards
+3
+-- any prediction
+deteriorates
+5
+rapidly. Errors and
+uncertainties
+6
+multiply,
+cascading
+7
+upward through a chain of turbulent features, from dust devils and squalls up to continent-size
+eddies
+8
+that only satellites can see.
+The modern weather models work with a
+grid
+9
+of points of the order of sixty miles apart, and even so, some starting data has to guessed, since ground stations and satellites cannot see everywhere. But suppose the earth could be covered with
+sensors
+11
+spaced one foot apart, rising at one-foot
+intervals
+12
+all the way to the top of the atmosphere. Suppose every
+sensor
+10
+gives
+perfectly
+13
+accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want.
+Precisely
+14
+at noon an
+infinitely
+15
+powerful computer takes all the data and calculates what will happen at each point at 12.01, then 1202, then 12.03...
+The computer will still be unable to predict whether Princeton, New
+Jersey
+16
+, will have sun or rain on a day one month away. At noon the spaces between the sensors will hide
+fluctuations
+18
+that the computer will not know about, tiny
+deviations
+20
+from the average. By 12.01, those fluctuations will already have created small errors one foot away. Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.
+JAMES GLEICK,
+Chaos
+21
+New words and expressions 生词和短语
+forecast
+n. 预报
+speculative
+adj. 推测的
+blizzard
+2
+n. 暴风雪
+deteriorate
+4
+v. 变坏
+multiply
+v. 增加
+cascade
+22
+v. 瀑布似地落下
+turbulent
+adj. 狂暴的
+dust devil
+小尘暴，尘旋风
+squall
+n. 暴风
+eddy
+23
+n. 旋涡
+grid
+n. 坐标方格
+sensor
+n. 传感器
+humidity
+n. 温度
+meteorologist
+n. 气象学家
+Princeton
+n. 普林斯顿（美国城市名）
+New Jersey
+n. 新泽西（美国州名）
+fluctuation
+17
+n. 起伏，波动
+deviation
+19
+n. 偏差
+参考译文
+世界上最好的两三天以上的天气预报具有很强的猜测性，如果超过六七天，天气预报就没有了任何价值。
+原因是蝴蝶效应。对于小片的恶劣天气 -- 对一个全球性的气象预报员来说，“小”可以意味着雷暴雨和暴风雪 -- 任何预测的质量会很快下降。错误和不可靠性上升，接踵而来的是一系列湍流的徵状，从小尘暴和暴风发展到只有卫星上可以看到的席卷整块大陆的旋涡。
+现代气象模型以一个坐标图来显示，图中每个点大约是间隔60英里。既使是这样，有些开始时的资料也不得不依靠推测，因为地面工作站和卫星不可能看到地球上的每一个地方。假设地球上可以布满传感器，每个相隔1英尺，并按1英尺的间隔从地面一直排列到大气层的顶端。再假定每个传感器都极极端准确地读出了温度、气压、温度和气象学家需要的任何其他数据。在正午时分，一个功能巨大的计算机搜集了所有的资料，并算出在每一个点上12：01、12：02、12：03时可能出现的情况。
+计算机无法推断出1个月以后的某一天，新泽西州的普林斯顿究竟是晴天还是雨天。正午时分，传感器之间的距离会掩盖计算机无法知道的波动、任何偏平均值的变化。到12：01时，那些波动就已经会在1英尺远的地方造成偏差。很快这种偏差会增加到尺10英的范围，如此等等，一直到全球的范围。
+新概念英语正版图书购买
+点击
+收听单词发音
+1
+speculative
+adj.思索性的，暝想性的，推理的
+参考例句：
+Much of our information is speculative.我们的许多信息是带推测性的。
+The report is highly speculative and should be ignored.那个报道推测的成分很大，不应理会。
+2
+blizzard
+n.暴风雪
+参考例句：
+The blizzard struck while we were still on the mountain.我们还在山上的时候暴风雪就袭来了。
+You'll have to stay here until the blizzard blows itself off.你得等暴风雪停了再走。
+3
+blizzards
+暴风雪( blizzard的名词复数 )； 暴风雪似的一阵，大量（或大批）
+参考例句：
+Even in the summertime we might be struck by blizzards. 甚至在夏天，我们也可能受到暴风雪的袭击。
+Blizzards battered Britain for the third day. 大风雪袭击英国已进入第三天。
+4
+deteriorate
+v.变坏；恶化；退化
+参考例句：
+Do you think relations between China and Japan will continue to deteriorate?你认为中日关系会继续恶化吗？
+He held that this would only cause the situation to deteriorate further.他认为，这只会使局势更加恶化。
+5
+deteriorates
+恶化，变坏( deteriorate的第三人称单数 )
+参考例句：
+After a few years' planting, the quality of the potato crop deteriorates. 土豆种了几年之后就会退化。
+Virus activity deteriorates in plasma stored at room temperature. 在室温下储藏的血浆中病毒活动逐渐衰退。
+6
+uncertainties
+无把握( uncertainty的名词复数 )； 不确定； 变化不定； 无把握、不确定的事物
+参考例句：
+One of the uncertainties of military duty is that you never know when you might suddenly get posted away. 任军职不稳定的因素之一是你永远不知道什么时候会突然被派往它处。
+Uncertainties affecting peace and development are on the rise. 影响和平与发展的不确定因素在增加。 来自汉英非文学 - 十六大报告
+7
+cascading
+流注( cascade的现在分词 )； 大量落下； 大量垂悬； 梯流
+参考例句：
+First of all, cascading menus are to be avoided at all costs. 首先，无论如何都要避免使用级联菜单。 来自About Face 3交互设计精髓
+Her sounds began cascading gently. 他的声音开始缓缓地低落下来。
+8
+eddies
+（水、烟等的）漩涡，涡流( eddy的名词复数 )
+参考例句：
+Viscosity overwhelms the smallest eddies and converts their energy into heat. 粘性制服了最小的旋涡而将其能量转换为热。
+But their work appears to merge in the study of large eddies. 但在大旋涡的研究上，他们的工作看来却殊途同归。
+9
+grid
+n.高压输电线路网；地图坐标方格；格栅
+参考例句：
+In this application,the carrier is used to encapsulate the grid.在这种情况下，要用载体把格栅密封起来。
+Modern gauges consist of metal foil in the form of a grid.现代应变仪则由网格形式的金属片组成。
+10
+sensor
+n.传感器，探测设备，感觉器（官）
+参考例句：
+The temperature sensor is enclosed in a protective well.温度传感器密封在保护套管中。
+He plugged the sensor into a outlet.他把传感器插进电源插座。
+11
+sensors
+n.传感器，灵敏元件( sensor的名词复数 )
+参考例句：
+There were more than 2000 sensors here. 这里装有两千多个灵敏元件。 来自《简明英汉词典》
+Significant changes have been noted where sensors were exposed to trichloride. 当传感器暴露在三氯化物中时，有很大变化。 来自辞典例句
+12
+intervals
+n.[军事]间隔( interval的名词复数 )；间隔时间；[数学]区间；（戏剧、电影或音乐会的）幕间休息
+参考例句：
+The forecast said there would be sunny intervals and showers. 预报间晴，有阵雨。
+Meetings take place at fortnightly intervals. 每两周开一次会。
+13
+perfectly
+adv.完美地，无可非议地，彻底地
+参考例句：
+The witnesses were each perfectly certain of what they said.证人们个个对自己所说的话十分肯定。
+Everything that we're doing is all perfectly above board.我们做的每件事情都是光明正大的。
+14
+precisely
+adv.恰好，正好，精确地，细致地
+参考例句：
+It's precisely that sort of slick sales-talk that I mistrust.我不相信的正是那种油腔滑调的推销宣传。
+The man adjusted very precisely.那个人调得很准。
+15
+infinitely
+adv.无限地，无穷地
+参考例句：
+There is an infinitely bright future ahead of us.我们有无限光明的前途。
+The universe is infinitely large.宇宙是无限大的。
+16
+jersey
+n.运动衫
+参考例句：
+He wears a cotton jersey when he plays football.他穿运动衫踢足球。
+They were dressed alike in blue jersey and knickers.他们穿着一致，都是蓝色的运动衫和灯笼短裤。
+17
+fluctuation
+n.(物价的)波动，涨落；周期性变动；脉动
+参考例句：
+The erratic fluctuation of market prices are in consequence of unstable economy.经济波动致使市场物价忽起忽落。
+Early and adequate drainage is essential if fluctuation occurs.有波动感时，应及早地充分引流。
+18
+fluctuations
+波动，涨落，起伏( fluctuation的名词复数 )
+参考例句：
+He showed the price fluctuations in a statistical table. 他用统计表显示价格的波动。
+There were so many unpredictable fluctuations on the Stock Exchange. 股票市场瞬息万变。
+19
+deviation
+n.背离，偏离；偏差，偏向；离题
+参考例句：
+Deviation from this rule are very rare.很少有违反这条规则的。
+Any deviation from the party's faith is seen as betrayal.任何对党的信仰的偏离被视作背叛。
+20
+deviations
+背离，偏离( deviation的名词复数 )； 离经叛道的行为
+参考例句：
+Local deviations depend strongly on the local geometry of the solid matrix. 局部偏离严格地依赖于固体矩阵的局部几何形状。
+They were a series of tactical day-to-day deviations from White House policy. 它们是一系列策略上一天天摆脱白宫政策的偏向。
+21
+chaos
+n.混乱，无秩序
+参考例句：
+After the failure of electricity supply the city was in chaos.停电后，城市一片混乱。
+The typhoon left chaos behind it.台风后一片混乱。
+22
+cascade
+n.小瀑布，喷流；层叠；vi.成瀑布落下
+参考例句：
+She watched the magnificent waterfall cascade down the mountainside.她看着壮观的瀑布从山坡上倾泻而下。
+Her hair fell over her shoulders in a cascade of curls.她的卷发像瀑布一样垂在肩上。
+23
+eddy
+n.漩涡，涡流
+参考例句：
+The motor car disappeared in eddy of dust.汽车在一片扬尘的涡流中不见了。
+In Taylor's picture,the eddy is the basic element of turbulence.在泰勒的描述里，旋涡是湍流的基本要素。
+本文本内容来源于互联网抓取和网友提交，仅供参考，部分栏目没有内容，如果您有更合适的内容，欢迎
+点击提交
+分享给大家。
+上一篇：
+新概念英语第四册Lesson 13 The search for oil
+下一篇：
+新概念英语第四册Lesson 15 Secrecy in industry
+评论
+推荐
+收藏
+挑错
+打印
+------分隔线----------------------------
+TAG标签：
+新概念
+第四册
+顶一下
+(85)
+76.6%
+踩一下
+(26)
+23.4%
+购买
+新概念英语,英语听力
+的相关图书及光盘
+在百度中搜索
+新概念英语第四册
+最新评论
+查看所有评论
+发表评论
+查看所有评论
+请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。
+评价:
+中立
+好评
+差评
+表情:
+验证码:
+匿名?
+发表评论
+听力搜索
+听力搜索
+推荐频道
+英语网址导航
+经典英语教程
+各媒体英语
+学校英语
+考试英语
+自学英语
+英语基础
+听说读写译
+行业英语
+娱乐英语
+英语口语陪练
+单词量测试
+相关文章
+新概念英语第四册Lesson 48 Planning
+新概念英语第四册Lesson 47 The great
+新概念英语第四册Lesson 46 Hobbies
+新概念英语第四册Lesson 45 Of men an
+新概念英语第四册Lesson 44 Patterns
+新概念英语第四册Lesson 43 Are there
+新概念英语第四册Lesson 42 Recording
+新概念英语第四册Lesson 41 Training
+新概念英语第四册Lesson 40 Waves
+新概念英语第四册Lesson 39 What ever
+论坛新贴
+﻿
+©在线英语听力室 2005
+关于我们
+栏目导航
+友情链接
+英语专题
+网站帮助
+有任何问题，请给我们
+留言
+，管理员邮箱：
+[email protected]
+站长QQ ：56065533

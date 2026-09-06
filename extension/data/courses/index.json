@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "packages": [
+  {
+   "id": "nce1",
+   "title": "新概念英语 第一册",
+   "subtitle": "FIRST THINGS FIRST",
+   "kind": "series",
+   "unitCount": 72,
+   "level": "A1",
+   "tags": [
+    "英语",
+    "教材"
+   ]
+  },
+  {
+   "id": "nce2",
+   "title": "新概念英语 第二册",
+   "subtitle": "PRACTICE AND PROGRESS",
+   "kind": "series",
+   "unitCount": 96,
+   "level": "A2-B1",
+   "tags": [
+    "英语",
+    "教材"
+   ]
+  },
+  {
+   "id": "nce3",
+   "title": "新概念英语 第三册",
+   "subtitle": "DEVELOPING SKILLS",
+   "kind": "series",
+   "unitCount": 60,
+   "level": "B2",
+   "tags": [
+    "英语",
+    "教材"
+   ]
+  },
+  {
+   "id": "nce4",
+   "title": "新概念英语 第四册",
+   "subtitle": "FLUENCY IN ENGLISH",
+   "kind": "series",
+   "unitCount": 48,
+   "level": "C1",
+   "tags": [
+    "英语",
+    "教材"
+   ]
+  }
+ ]
+}

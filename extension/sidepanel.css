@@ -1,0 +1,152 @@
+:root {
+  --teal: #2bb3a3;
+  --teal-d: #1f8c80;
+  --ink: #2c2a24;
+  --mut: #8a8576;
+  --line: #e7e2d6;
+  --paper: #fbf8f1;
+  --bg: #f1ede3;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink); background: var(--bg); font-size: 14px; line-height: 1.6;
+}
+
+/* ===== 头部 ===== */
+.sp-head { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); }
+.sp-title { font-weight: 700; padding: 10px 12px 4px; color: var(--teal-d); }
+.sp-books { display: flex; gap: 6px; padding: 0 10px 6px; flex-wrap: wrap; }
+.sp-book {
+  border: 1px solid var(--line); background: #fff; color: var(--ink);
+  padding: 3px 9px; border-radius: 14px; cursor: pointer; font-size: 12px;
+}
+.sp-book.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+.sp-lessonbar { display: flex; gap: 8px; align-items: center; padding: 0 10px 6px; }
+.sp-nav { width: 28px; height: 30px; border: 1px solid var(--line); background: #fff; border-radius: 7px; cursor: pointer; font-size: 18px; line-height: 1; color: var(--teal-d); flex: none; }
+.sp-nav:hover { border-color: var(--teal); background: #eef8f6; }
+.sp-nav:disabled { opacity: .35; cursor: default; }
+.sp-sel { flex: 1; padding: 5px 7px; border: 1px solid var(--line); border-radius: 7px; background: #fff; font-size: 13px; min-width: 0; }
+.sp-done { border: 1px solid var(--line); background: #fff; border-radius: 14px; padding: 4px 10px; cursor: pointer; font-size: 12px; white-space: nowrap; }
+.sp-done.on { background: #f6e7c8; border-color: #e3c684; color: #8a6d1f; }
+.sp-verbar { display: flex; gap: 6px; padding: 0 10px 6px; }
+.sp-ver { border: 1px solid var(--line); background: #fff; border-radius: 12px; padding: 2px 8px; font-size: 11px; cursor: pointer; }
+.sp-ver.on { background: var(--teal-d); color: #fff; border-color: var(--teal-d); }
+.sp-tabs { display: flex; border-top: 1px solid var(--line); }
+.sp-tab { flex: 1; border: 0; background: #fff; padding: 8px 4px; cursor: pointer; font-size: 13px; color: var(--mut); border-bottom: 2px solid transparent; }
+.sp-tab.on { color: var(--teal-d); border-bottom-color: var(--teal); font-weight: 600; }
+
+.sp-main { padding: 10px; }
+.sp-pane { display: none; }
+.sp-pane.on { display: block; }
+
+/* ===== 音频卡片 ===== */
+.scard { background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.sub { max-height: 340px; overflow-y: auto; padding: 10px 12px; background: #faf7f0; border-bottom: 1px solid var(--line); font-size: 14px; line-height: 1.7; }
+.sub .st .tb-w { cursor: pointer; border-bottom: 1px dotted #bbb; }
+.sub .st .tb-w.hit { color: var(--teal-d); border-bottom-color: var(--teal); }
+.sub .loading { color: var(--mut); font-size: 13px; }
+.ldiv { font-size: 11px; color: var(--mut); margin: 8px 0 3px; font-weight: 700; }
+.sline { display: flex; gap: 8px; padding: 5px 6px; border-radius: 7px; cursor: pointer; }
+.sline:hover { background: #f0ece1; }
+.sline.on { background: #e3f4f0; }
+.sline .si { color: var(--mut); font-size: 11px; min-width: 16px; text-align: right; padding-top: 1px; }
+.sline .st { flex: 1; }
+.sline .zs { color: #b06a2c; margin-left: 6px; }
+
+.pbar-wrap { display: flex; align-items: center; gap: 8px; padding: 10px 12px 4px; }
+.pbtn { width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--teal); color: #fff; font-size: 15px; cursor: pointer; flex: none; }
+.pbtn:hover { background: var(--teal-d); }
+.pmeta { flex: 1; min-width: 0; }
+.pmeta .t { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pmeta .s { font-size: 11px; color: var(--mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.seek { position: relative; height: 8px; background: #eee; border-radius: 5px; margin: 6px 0 2px; cursor: pointer; }
+.seek .sa { position: absolute; top: 0; height: 100%; background: rgba(43,179,163,.25); border-radius: 5px; display: none; }
+.seek .sf { position: absolute; top: 0; left: 0; height: 100%; background: var(--teal); border-radius: 5px; width: 0; }
+.seek .kn { position: absolute; top: -2px; width: 12px; height: 12px; border-radius: 50%; background: #fff; border: 2px solid var(--teal); left: 0; transform: translateX(-50%); }
+.sm { font-size: 11px; color: var(--mut); }
+.ctrls { display: flex; flex-wrap: wrap; gap: 6px; }
+.cbtn { border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 5px 9px; font-size: 12px; cursor: pointer; color: var(--ink); }
+.cbtn:hover { border-color: var(--teal); }
+.cbtn.on { background: var(--teal); color: #fff; border-color: var(--teal); }
+
+/* ===== 教材 ===== */
+.tbk { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 12px 13px; }
+.tbk-paper { }
+.tbk-head { display: flex; gap: 10px; align-items: baseline; border-bottom: 2px solid var(--teal); padding-bottom: 8px; margin-bottom: 8px; }
+.tbk-lesson { font-size: 12px; color: #fff; background: var(--teal); padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+.tbk-head h3 { margin: 0; font-size: 16px; }
+.tbk-head .zh { color: var(--mut); font-size: 12px; }
+.tbk-sec { margin: 12px 0; }
+.tbk-sec > h5 { margin: 0 0 6px; font-size: 13px; color: var(--teal-d); border-left: 3px solid var(--teal); padding-left: 7px; }
+.tbk-sec > h5 i { color: var(--mut); font-style: normal; font-weight: 400; font-size: 11px; margin-left: 4px; }
+.tbk-empty { color: var(--mut); font-size: 13px; }
+.tbk-q { background: #eaf4f2; border-radius: 8px; padding: 6px 9px; font-size: 13px; margin-bottom: 6px; }
+.tb-tip { display: flex; gap: 6px; background: #fff7e6; border-radius: 8px; padding: 6px 9px; font-size: 13px; margin-top: 6px; }
+.tb-tip b { color: #c8920a; }
+.tbk-text { }
+.tb-line { display: flex; gap: 8px; padding: 5px 4px; border-radius: 7px; }
+.tb-line:hover { background: #f3efe4; }
+.tb-sp { min-width: 18px; text-align: center; color: #fff; background: var(--teal); border-radius: 5px; font-size: 11px; height: 18px; line-height: 18px; align-self: flex-start; margin-top: 2px; }
+.tb-sp.b { background: #c98a3a; }
+.tb-l { flex: 1; }
+.tb-en { }
+.tb-zh { color: #b06a2c; font-size: 13px; }
+.tb-note { color: var(--mut); font-size: 12px; font-style: italic; }
+.tb-ldiv { font-size: 11px; color: var(--mut); font-weight: 700; margin: 8px 0 3px; }
+.tb-w { cursor: pointer; border-bottom: 1px dotted #bbb; }
+.tb-w.hit { color: var(--teal-d); border-bottom-color: var(--teal); }
+.tb-words { display: flex; flex-direction: column; gap: 6px; }
+.tb-word { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; }
+.tb-word b { color: var(--teal-d); }
+.tb-word .ph { color: #b06a2c; font-style: normal; margin: 0 6px; font-size: 12px; }
+.tb-word.phrase b { color: #8a5cc9; }
+.tb-gr { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; margin-bottom: 6px; }
+.tb-gr .k { font-weight: 700; color: var(--teal-d); }
+.tb-gr .f { font-family: ui-monospace, Menlo, monospace; background: #f3efe4; padding: 2px 6px; border-radius: 5px; margin: 3px 0; font-size: 12px; }
+.tb-gr .d { font-size: 13px; }
+.tb-pats { display: flex; flex-direction: column; gap: 6px; }
+.tb-pat { display: flex; gap: 8px; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; }
+.tb-pat .no { background: var(--teal); color: #fff; width: 18px; height: 18px; border-radius: 50%; text-align: center; font-size: 11px; line-height: 18px; flex: none; }
+.tb-pat .en { font-weight: 600; }
+.tb-pat .zh { color: var(--mut); font-size: 12px; }
+.tb-exs { display: flex; flex-direction: column; gap: 6px; }
+.tb-ex { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 4px 9px; }
+.tb-ex summary { cursor: pointer; font-weight: 600; }
+.tb-ex-body .a { color: var(--teal-d); }
+.tb-ex-body .n { color: var(--mut); font-size: 12px; }
+.tb-exs-mini { margin-top: 4px; }
+.tb-exs-mini .t { font-size: 11px; color: var(--mut); }
+.tb-ex-line { display: flex; gap: 8px; font-size: 13px; padding: 1px 0; }
+.tb-ex-line .zh { color: #b06a2c; }
+.tb-slots { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.tb-slot { background: #eaf4f2; border-radius: 6px; padding: 2px 7px; font-size: 12px; }
+.tb-slot small { color: var(--mut); margin-left: 4px; }
+.tb-ans { display: flex; gap: 8px; margin-top: 4px; font-size: 13px; }
+.tb-ans .no { color: var(--mut); }
+
+/* ===== 词典 ===== */
+.dict-bar { display: flex; gap: 6px; margin-bottom: 8px; }
+.dict-input { flex: 1; padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
+.dict-go { border: 0; background: var(--teal); color: #fff; border-radius: 8px; padding: 0 14px; cursor: pointer; }
+.dict-res { display: flex; flex-direction: column; gap: 8px; }
+.dict-card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; }
+.dict-card .dh { display: flex; align-items: baseline; gap: 8px; }
+.dict-card .dh b { font-size: 16px; color: var(--teal-d); }
+.dict-card .dh .ph { color: #b06a2c; font-size: 12px; }
+.dict-card .dm { font-size: 13px; margin: 3px 0; }
+.dict-card .dex { color: var(--mut); font-size: 12px; }
+.dict-card .dloc { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12px; color: var(--mut); }
+.dict-card .dgo { border: 1px solid var(--teal); color: var(--teal-d); background: #fff; border-radius: 12px; padding: 2px 10px; cursor: pointer; font-size: 12px; }
+.dict-card .dgo:hover { background: var(--teal); color: #fff; }
+.dict-empty { color: var(--mut); font-size: 13px; }
+
+/* ===== 单词浮框（教材内）===== */
+.wpop { position: fixed; z-index: 50; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,.18); padding: 9px 11px; max-width: 260px; font-size: 13px; }
+.wpop .wp-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.wpop .wp-row b { color: var(--teal-d); font-size: 15px; }
+.wpop .wp-sp { border: 1px solid var(--line); background: #fff; border-radius: 8px; cursor: pointer; }
+.wpop .wp-zh { margin-top: 4px; }
+.wpop .wp-zh.no { color: var(--mut); }
+.wpop .wp-mut { color: var(--mut); font-size: 12px; }

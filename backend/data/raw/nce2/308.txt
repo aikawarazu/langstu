@@ -1,0 +1,448 @@
+Lesson 53:Hot snake
+触电的蛇
+First listen and then answer the question.
+听录音，然后回答以下问题。
+What caused the fire?
+At last firemen have put out a big forest fire in California. Since then, they have been trying to find out how the fire began. Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away. Yesterday the firemen examined the ground carefully, but were not able to find any broken glass. They were also quite sure that a cigarette end did not start the fire. This morning, however, a fireman
+accidentally
+1
+discovered the cause. He noticed the
+remains
+2
+of a snake which was wound round the electric wires of a 16,000-volt power line. In this way, he was able to solve the mystery. The explanation was simple but very unusual. A bird had
+snatched
+4
+up the snake from the ground and then dropped it on to the wires. The snake then wound itself round the wires. When it did so, it sent
+sparks
+5
+down to the ground and these immediately started a fire.
+New words and expressions 生词和短语
+hot  adj. 带电的，充电的
+fireman  n. 消防队员
+cause  v. 引起； n. 原因
+examine  v. 检查
+accidentally  adv. 意外地，偶然地
+remains  n. 尸体，残骸
+wire  n. 电线
+volt  n. 伏特（电压单位）
+power line  电力线
+solve  v. 解决
+mystery  n. 谜
+snatch
+3
+v. 抓住
+spark  n. 电火花
+参考译文
+消防队员们终于扑灭了加利福尼亚的一场森林大火。从那时起，他们一直试图找出起火的原因。森林火灾时常由破碎的玻璃或人们随手扔掉的香烟头引起。昨天，消防队员仔细查看了地面，但未能发现碎玻璃。他们还十分肯定火灾也不是由烟头引起的。然而今天上午，一个消防队员偶然发现了起火的原因。他发现了缠绕在16,000伏高压线上的一条死蛇。就这样，他解开了起火之谜。解释很简单，却异乎寻常。一只鸟把蛇从地上抓起来，然后把它扔到了电线上。于是蛇就缠住了几根电线。当它这样做时，把火花送到了地面，这些火花立刻引起了一场大火。
+新概念英语正版图书购买
+自学导读
+1．At last firemen have put out a big forest fire in California.消防队员们终于扑灭了加利福尼亚的一场森林大火。
+（1）at last（终于，到底）表示经过一番努力之后。
+（2）put out可以表示“扑灭”、“熄灭”、“关掉”等含义：
+Please put the light/ fire out.
+请把灯关掉／把火灭掉。
+（3）forest虽然是名词，但在句中起形容词的作用，修饰fire。
+2．…they have been trying to find out how the fire began．……他们一直试图找出起火的原因。
+（1）短语动词find out表示经过研究、努力等“发现”、“找出”、“查出”：
+I'll try and find out the name of the person who saved my life yesterday.
+我将设法查出昨天救我命的那个人的姓名。
+（2）how the fire began是find out的宾语，它是一个由疑问词how引导的名词从句。
+3．They were also quite sure that a cigarette end did not start the fire.他们还十分肯定火灾也不是由烟头引起的。
+（1）start作及物动词时可以表示“使……发生”、“引起”。
+（2）be sure后面跟的是名词从句。that引导的这个名词从句也可以写成that the fire was not started by a cigarette end。但这里强调的是引起火灾的原因（不是碎玻璃或烟头），所以用烟头作主语。
+4．…a fireman accidentally discovered the cause．……一个消防队员偶然发现了起火的原因。
+discover本身含有偶然发现（某个已经存在的东西）的含义：
+I don't know who discovered America.
+我不知道谁发现美洲的。
+在discover前面加上accidentally更加强了“偶然”、“意外”的含义。
+5．He noticed the remains of a snake which was wound round the electric wires of a 16,000-volt power line.他发现了缠绕在16，000伏高压线上的一条死蛇。
+（1）the remains表示“尸体”、“残骸”，必须用复数形式：
+The villagers were surprised to see the remains of an aeroplane near the lake.
+村民们惊讶地发现湖边有一架飞机的残骸。
+（2）wound为wind的过去分词。wind在这里不表示“蜿蜒”，而表示“卷在……上”、“缠绕”，常与around／round连用：
+Did you wind this piece of wire round the tree?
+是你把这根铁丝缠在树上的吗？
+（3）wire指具体的电线、铁丝等，line在这里指“线路”，含义比wire广。
+6．When it did so…当它这样做时……
+so常用于一些动词之后，代指前面提过的某个动作／某件事，以免重复
+语法 Grammar in use
+一般过去时、现在完成时与现在完成进行时（cf．第29课与第52课语法）
+一般过去时通常与一个表示确切的时间的状语连用，现在完成时则有时与表示一段时间的状语连用，有时不需要时间状语，而现在完成进行时则有时与表示一段时间的状语连用，有时与all+表示时间的名词连用。现在完成时与一般过去时中既可以用状态动词（表示存在、拥有、感情、思想、需求等的动词）也可以用行为动词，现在完成进行时则通常与行为动词连用
+词汇学习 Word study
+1．throw
+throw作及物动词主要含义为“投”、“掷”、“抛”、“扔”。当它与不同的介词或副词连用时，其意义会稍有变化。throw away表示“扔掉”、“丢弃”；throw at表示对准某一目标扔；throw to则表示扔给（某人）：
+Many people throw away cigarette ends carelessly.
+许多人随手乱扔香烟头。
+Shall I throw this old newspaper away?
+我把这旧报纸扔掉好吗？
+Don't throw stones at the dog/ the window.
+别对着狗／窗子扔石头。
+I threw the ball to John but Tom caught it.
+我把球扔给约翰，但汤姆接住了球。
+2．cause与reason
+（1）cause作名词时最重要的含义是“原因”、“起因”：
+A fireman accidentally discovered the cause of the fire.
+一个消防队员偶然发现了起火的原因。
+Do you know the cause of the war?
+你知道这场战争的起因吗？（cause通常与of连用）
+cause作动词时可以表示“使……产生／发生”、“引起”：
+Forest fires are often caused by broken glass or cigarette ends.
+森林火灾时常由碎玻璃或香烟头引起。
+What caused the accident?
+事故是如何造成的？
+（2）reason作名词时最重要的含义是“理由”、“原因”：
+Give me your reasons for going there.
+请告诉我你去那里的理由。
+What was the reason for the delay?
+延迟的原因是什么？
+作“原因”讲时，reason与cause可以互相交换使用，但reason与介词for连用，而cause则与介词of连用：
+What was the cause of the delay?
+（译文同上）
+reason后面通常跟why引导的从句：
+That was the reason why the meeting was put off.
+这就是会议推迟的原因。
+reason作动词时表示“推理”、“劝导”、“说服”等：
+How can you reason with him when he is so worried?
+他现在如此担心，你怎么能劝得了他？
+3．drop与fall
+drop既可作及物动词又可作不及物动词，表示“（使）掉下”、“（使）落下”、“放下”：
+As he walked past the tree, an apple dropped from it.
+当他走过那棵树时，一个苹果从树上掉了下来。
+The waiter dropped a fork.
+那侍者掉了一把叉子。
+He dropped the bag on the floor.
+他把包放在地板上。
+fall通常为不及物动词，表示“落下”、“（雨、雪）下”、“降”、“跌倒”、“摔倒”：
+I fell and hurt myself.
+我摔倒了并受了伤。
+Please hold the vase and don't let it fall.
+请拿住这花瓶，别让它倒了。
+When leaves fall in autumn, I'll come back.
+秋天叶落时，我就会回来。
+练习答案 Key to written exercises
+1．关键句型练习答案
+A What happened: began(1.2);examined(1.4);were not able to find(1.5);did not start(1.6);discovered(1.7); noticed (1.8);was wound(1.8);was able to solve(1.9);dropped (1.10); wound(1.11); it did so(1.11); sent(1.11); started(1.11)
+What has happened: have put out(1.1)
+What has been happening: have been trying to find(1.2)
+C
+Jack
+6
+looked at his watch for the twentieth time. Suddenly Jill arrived.
+‘I've been waiting for over an hour,’he said angrily.‘You never come on time.’
+‘Oh, is that so?’Jill answered.‘Were you here at  2.30?’Jack went red.‘Well,’he said,‘I go here five minutes late myself, but you weren't here.’
+‘I came here at exactly  2.30,’Jill said,‘and I waited for five minutes, but you didn't come.’
+‘What have you been doing since then?’Jack asked.‘I've just been to the hairdresser's,’Jill answered brightly.
+2．难点练习答案
+a Look: you threw the potato-peeler away by mistake.
+The
+shepherd
+7
+threw some food to his dogs.
+The teacher threw some chalk at a boy who wasn't listening.
+b I'm quite certain these are my glasses.
+The children are very quiet. What's going on?
+c The cause of unemployment is
+complicated
+8
+.
+Can you explain the reason for changing our arrangements?
+He reasoned that we would have to
+comply
+9
+, even if we didn't wish to.
+d Please don't drop that vase!
+It fell from my hands and broke.
+3．多项选择题答案
+1c  2d  3a  4c  5c  6c
+7d  8c  9d  10 a  11c  12 c
+【New words and expressions】 生词和短语
+★hot　adj. 带电的，充电的
+热的
+hot-hot-hot: 麻辣烫
+hot-wings: 辣鸡翅
+hot-tempered :火爆(脾气)的
+hot-line :热线
+hot topic :热门话题
+hot cake :热蛋糕
+hot dog :热狗
+It sells like a hot cake/cakes.
+hot :新鲜的
+best
+seller
+11
+: 畅销的东西
+hot potato :棘手的问题
+hot news :最热点的新闻
+hot snake
+★fireman　n. 消防队员
+hydrant: 消防栓
+fire extinguisher:灭火器
+extinguish=put out: 灭火
+★cause　v. 引起； n. 原因
+cause sth.:引起麻烦
+Carelessness causes accidents.
+Pride causes failure.
+cause sb to do sth. :导致某人做某事
+Illness caused him to lose his
+temper
+10
+Because 因为 be cause
+reason : 理由, cause 原因
+cause :强调事情发生的直接原因(一个)
+reason :其他各种的理由(很多个)
+★examine　v. 检查
+examine the soil
+check :核实,核对
+★accidentally　adv. 意外地，偶然地
+accident->accidental->accidentally
+accident :事故
+unexpectedly
+12
+:出乎意料地
+Unexpectedly he didn't go.
+I met the famous writer accidentally.
+★remains　n. 尸体，残骸
+dead body
+★wire　n. 电线
+★volt　n. 伏特（电压单位）
+★power line　电力线
+★solve　v. 解决
+solve the mystery(迷)
+solve the problem
+★mystery　n. 谜
+★snatch　v. 抓住
+catch: 抓鱼
+hold
+snatch :突然抓起来
+seize : 抓住(用力)
+seize my arm
+★spark　n. 电火花
+【课文讲解】
+put out a fire : 扑灭火
+a fire :一场(堆)火
+since then: 从那时起到现在为止
+have been trying to
+现在完成时强调的是很有可能
+broken glass :被打碎的玻璃片
+cigarette ends :烟头
+be able to
+be sure that :对...很有把握
+quite sure :相当的把握性
+rather: 相当
+fairly
+quite(=completely)->rather->fairly
+quite a few :颇有几个(相当多的)
+start a fire= cause a fire
+accidentally :偶然地
+unexpectedly :出乎别人意料之外
+cause :直接原因
+notice :注意别人不注意的东西
+wound
+wind one's way :蜿蜒而行
+wind　vt. 盘旋,缠绕
+16,000-volt power line
+连字符一旦加在两个词中间,这个词之间就失去了加复数的资格,能够加连字符的概念一定是做定语
+in this way :以这种方式
+explanation:解释
+had done
+drop
+it->snake
+do so :这么做
+I refuse to do so
+send+宾补
+down to the ground
+these->sparks
+hot snake :触电的蛇
+get an electric　shake :触电
+now that : 既然
+quite/quiet
+quiet adj. 安静的
+quite adv. 相当地,非常地,很
+cause/reason
+reason:理由　 cause:原因(直接)
+cause v.
+1. cause sth..导致,引起
+2.cause sb to do sth...导致某人做某事
+reason v.
+reason with sb　劝说(以道理)
+beg for sth :乞求什么东西
+drop/fall
+drop vt.+宾语(名词或代词),强调的是不小心掉下来
+fall vi. 无宾语, 强调的是掉下来的概念,动作
+Multiple choice questions】
+6. key phrase : be able to = can, succeed in doing
+11. in this way 以这种方式 = that's how
+like 在英文中不表示方式
+Summary writing】
+1. now that 既然
+Now that firemen have put out a big forest fire in California,they have been trying to discover its cause.
+2. 区分同位语和定语从句的区别:
+如果that做了主语或者宾语,是定语从句
+如果that即不作主语也不作宾语,是同位语从句
+5. In
+winding
+13
+itself around the wires the snake had sent sparks to the ground and it caused the fire.
+介词in,on 放在动词-ing前面的理解方式和没有in,on的理解方式一样
+点击
+收听单词发音
+1
+accidentally
+adv.偶然地；意外地
+参考例句：
+Mary accidentally let out that her mother had telephoned.玛丽无意中说出她的母亲来过电话。
+As I turned around,I accidentally hit him in the face.我转身时不经意撞了他的脸。
+2
+remains
+n.剩余物，残留物；遗体，遗迹
+参考例句：
+He ate the remains of food hungrily.他狼吞虎咽地吃剩余的食物。
+The remains of the meal were fed to the dog.残羹剩饭喂狗了。
+3
+snatch
+n.抢夺，碎片，一阵，一瞬间，一点点；v.夺取，抢劫，抓住
+参考例句：
+The magazine was snatch from my hand before I could read it.我还没来得及看那期杂志，就被从我手里抢走了。
+He had a snatch of sleep sitting in his chair.他坐在椅子里稍睡片刻。
+4
+snatched
+突然伸手拿取，攫取，抓住( snatch的过去式和过去分词 )； 抓紧时间做； 乘机获得； 夺去
+参考例句：
+The boy snatched a piece of cake and ate it hungrily. 男孩抢过一块饼便贪婪地吃起来。
+The thief snatched her handbag and ran. 盗贼抢了她的手提包就跑。
+5
+sparks
+电工，无线电通讯员； 火花( spark的名词复数 )； （指品质或感情）一星； 丝毫； 电火花
+参考例句：
+The amplifier exploded in a fountain of sparks. 放大器爆炸，喷射出火星。
+A shower of sparks flew up the chimney. 烟囱里飞出无数火星。
+6
+jack
+n.插座，千斤顶，男人；v.抬起，提醒，扛举；n.（Jake）杰克
+参考例句：
+I am looking for the headphone jack.我正在找寻头戴式耳机插孔。
+He lifted the car with a jack to change the flat tyre.他用千斤顶把车顶起来换下瘪轮胎。
+7
+shepherd
+n.牧羊者，牧师，指导者；v.看守，领导，指导
+参考例句：
+The shepherd boy waited for his sheep to drink.牧童等羊喝水。
+The shepherd and his dog gathered in the sheep.牧羊人和牧羊狗把羊群赶到一块。
+8
+complicated
+adj.错综复杂的，麻烦的，结构复杂的
+参考例句：
+The poem is so complicated that I cannot make out its meaning.这首诗太复杂，我理解不了它的意思。
+This is the most complicated case I have ever handled.这是我所处理过的最为复杂的案子。
+9
+comply
+v.遵照，照做，应允，顺从，服从
+参考例句：
+She was told to pay the fine,but refused to comply.她被通知交纳罚款，但她拒不服从。
+Candidates must comply strictly with these instructions.候选人必须严格遵守这些指示。
+10
+temper
+n.恶劣的心情，心绪焦躁；性情，脾气
+参考例句：
+The man lost his temper and struck out wildly.那人因发怒而大打出手。
+One day the man flew at me in a temper.一天,那个人冲着我大发脾气。
+11
+seller
+n.售货者，畅销品
+参考例句：
+I hope for this book to become a best seller.我希望这本书会成为一本畅销书。
+She drove a hard bargain with the seller.她狠杀卖主的价。
+12
+unexpectedly
+adv.未料到地，意外地；竟；居然；骤然
+参考例句：
+The volcano unexpectedly blew up early in the morning. 火山一早突然爆发了。
+I had just put the dinner on when Jim walked in unexpectedly. 我刚把晚饭摆上桌，吉姆突然走进来。
+13
+winding
+n.绕，缠，绕组，线圈
+参考例句：
+A winding lane led down towards the river.一条弯弯曲曲的小路通向河边。
+The winding trail caused us to lose our orientation.迂回曲折的小道使我们迷失了方向。
+本文本内容来源于互联网抓取和网友提交，仅供参考，部分栏目没有内容，如果您有更合适的内容，欢迎
+点击提交
+分享给大家。
+上一篇：
+新概念英语第二册lesson 52 A pretty carpet
+下一篇：
+新概念英语第二册lesson 54 Sticky fingers
+评论
+推荐
+收藏
+挑错
+打印
+------分隔线----------------------------
+TAG标签：
+新概念英语
+第二册
+lesso
+第二册
+lesso
+顶一下
+(611)
+81.4%
+踩一下
+(140)
+18.6%
+购买
+新概念英语,英语听力
+的相关图书及光盘
+在百度中搜索
+新概念英语第二册
+最新评论
+查看所有评论
+发表评论
+查看所有评论
+请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。
+评价:
+中立
+好评
+差评
+表情:
+验证码:
+匿名?
+发表评论
+听力搜索
+听力搜索
+推荐频道
+英语网址导航
+经典英语教程
+各媒体英语
+学校英语
+考试英语
+自学英语
+英语基础
+听说读写译
+行业英语
+娱乐英语
+英语口语陪练
+单词量测试
+相关文章
+新概念英语第二册Lesson 96 The dead
+新概念英语第二册Lesson 95 A fantasy
+新概念英语第二册Lesson 94  Future c
+新概念英语第二册Lesson 93 A noble g
+新概念英语第二册Lesson 92 Asking fo
+新概念英语第二册Lesson 91 Three men
+新概念英语第二册Lesson 90 What's fo
+新概念二Lesson 89 slip of the tongue
+新概念英语第二册Lesson 88 Trapped i
+新概念英语第二册Lesson 87  A perfec
+论坛新贴
+﻿
+©在线英语听力室 2005
+关于我们
+栏目导航
+友情链接
+英语专题
+网站帮助
+有任何问题，请给我们
+留言
+，管理员邮箱：
+[email protected]
+站长QQ ：56065533
