@@ -100,26 +100,9 @@ cd app && python3 -m http.server 8080
 - 部署方式：GitHub Actions 工作流 `.github/workflows/pages.yml`，push `main` 时自动把 `app/` 目录发布到 Pages（Source = GitHub Actions）
 - 站点已启用 HTTPS（`https_enforced: true`）
 
-### 重新部署（提交并推送）
+### 重新部署
 
-```bash
-# 1. 查看改动
-git status
-
-# 2. 暂存全部改动并提交
-git add -A
-git -c user.name="deploy" -c user.email="deploy@local" commit -m "说明本次改动"
-
-# 3. 推送到 GitHub（push 后自动触发 Actions 发布到 Pages）
-git push git@github.com:aikawarazu/langstu.git main
-```
-
-> **为什么用 SSH 而不是 `git push origin main`**：
-> 本仓库 `origin` 是 HTTPS（`https://github.com/aikawarazu/langstu.git`），在当前环境里被 CNB
-> credential helper 拦截，`git push origin main` 会报 `unknown host: github.com` / 无法读用户名。
-> 因此统一用 SSH 地址推送（`~/.ssh/id_rsa` 已配好 GitHub 认证）。
->
-> 若你在自己电脑上已把 `origin` 配成 SSH、或配置了凭据，则普通的 `git push origin main` 也可以。
+push `main` 即自动触发 Actions 发布到 Pages。提交、推送、数据再生成的完整操作见 [docs/development.md](./docs/development.md)。
 
 > 注意：`app/` 为站点根目录；`index.html` 通过 `?v=N` 版本号刷新 CDN 缓存（改完记得 N +1）。
 
