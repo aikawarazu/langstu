@@ -257,11 +257,14 @@ function renderDir(){
   });
   $('#topTag').textContent='已学 '+dirRows.filter(r=>r.done).length+' / '+units.length;
   var sub=$('#dirSub');if(sub)sub.textContent=bk.title+' · 共 '+units.length+' 单元';
-  /* 顶栏目录按钮直接显示当前课程名，切换教材时跟着变 */
+  /* 顶栏目录按钮直接显示当前课名，切课/换单元时跟着变 */
   var dirBtn=$('#dirBtn');
   if(dirBtn){
-    dirBtn.innerHTML='📚 '+esc(bk.title||'教材目录')+' <i class="caret">▾</i>';
-    dirBtn.title='展开《'+esc(bk.title||'')+'》目录（共 '+units.length+' 单元）';
+    var cu=units[S.ui-1]||units[0]||{};
+    var cnums=window.AppData.lessonNums(cu);
+    var curLabel=((cu.lessonLabel||(cnums.length?('Lesson '+cnums.join(' & ')):'教材目录'))+' · '+(cu.title||''));
+    dirBtn.innerHTML='📚 <span class="dir-cur">'+esc(curLabel)+'</span> <i class="caret">▾</i>';
+    dirBtn.title='当前：'+(cu.title||'')+'（'+bk.title+'，共 '+units.length+' 单元）';
   }
   var cur=COURSES.filter(function(c){return c.id===S.book;})[0];
   var del=$('#dirDel');if(del)del.style.display=(cur&&cur.origin==='user')?'':'none';
@@ -689,7 +692,7 @@ function exLines(list,dict,label){
 /* 释义串：meanings[] -> "词性. 释义（用法）；…" */
 function meaningsText(w){
   return ((w&&w.meanings)||[]).map(function(m){
-    return (m.pos?m.pos+'. ':'')+(m.meaning||'')+(m.usage?'（'+m.usage+'）':'');
+    return (m.pos?String(m.pos).replace(/\.+$/,'')+'. ':'')+(m.meaning||'')+(m.usage?'（'+m.usage+'）':'');
   }).join('；');
 }
 /* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}], examples?:[{en,zh}]}（可点下钻） */
