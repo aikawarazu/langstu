@@ -1,0 +1,351 @@
+{
+ "unitId": "u014",
+ "unit": 14,
+ "lessons": [
+  {
+   "lesson": 27,
+   "title": "Mrs. Smith’s living room",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Mrs. Smith’s living room is large.",
+     "zh": "史密斯夫人的客厅很大。"
+    },
+    {
+     "en": "There is a television in the room.",
+     "zh": "客厅里有台电视机。"
+    },
+    {
+     "en": "The television is near the window.",
+     "zh": "电视机靠近窗子。"
+    },
+    {
+     "en": "There are some magazines on the television.",
+     "zh": "电视机上放着几本杂志。"
+    },
+    {
+     "en": "There is a table in the room.",
+     "zh": "客厅里有张桌子。"
+    },
+    {
+     "en": "There are some newspapers on the table.",
+     "zh": "桌上放着几份报纸。"
+    },
+    {
+     "en": "There are some armchairs in the room.",
+     "zh": "客厅里有几把扶手椅。"
+    },
+    {
+     "en": "The armchairs are near the table.",
+     "zh": "那些扶手椅靠近桌子。"
+    },
+    {
+     "en": "There is a stereo in the room.",
+     "zh": "客厅里有台立体声音响。"
+    },
+    {
+     "en": "The stereo is near the door.",
+     "zh": "音响靠近门。"
+    },
+    {
+     "en": "There are some books on the stereo.",
+     "zh": "音响上面有几本书。"
+    },
+    {
+     "en": "There are some pictures in the room.",
+     "zh": "客厅里有几幅画。"
+    },
+    {
+     "en": "The pictures are on the wall.",
+     "zh": "画挂在墙上。"
+    }
+   ]
+  },
+  {
+   "lesson": 28,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "There are some pencils on the desk."
+    },
+    {
+     "en": "There are some knives near that tin."
+    },
+    {
+     "en": "There are some policemen in the kitchen."
+    },
+    {
+     "en": "There are some newspapers in the living room."
+    },
+    {
+     "en": "There are some keyboard operators in the office."
+    },
+    {
+     "en": "B Are there any books in the room?"
+    },
+    {
+     "en": "No, there aren't any books in the room."
+    },
+    {
+     "en": "There are some magazines."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're on the television."
+    },
+    {
+     "en": "Are there any ties on the floor?"
+    },
+    {
+     "en": "No, there aren't any ties on the floor."
+    },
+    {
+     "en": "There are some shoes."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're near the bed."
+    },
+    {
+     "en": "Are there any glasses on the cupboard?"
+    },
+    {
+     "en": "No, there aren't any glasses on  the cupboard."
+    },
+    {
+     "en": "There are some bottles."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're near those tins."
+    },
+    {
+     "en": "Are there any newspapers on the shelf?"
+    },
+    {
+     "en": "No, there aren't any newspapers on the shelf."
+    },
+    {
+     "en": "There are some tickets."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're in that handbag."
+    },
+    {
+     "en": "Are there any forks on the table?"
+    },
+    {
+     "en": "No, there aren't any forks on the table."
+    },
+    {
+     "en": "There are some knives."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're in that box."
+    },
+    {
+     "en": "Are there any cups on the stereo?"
+    },
+    {
+     "en": "No, there aren't any cups on the stereo."
+    },
+    {
+     "en": "There are some glasses."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're near those bottles."
+    },
+    {
+     "en": "Are there any cups in the kitchen?"
+    },
+    {
+     "en": "No, there aren't any cups in the kitchen."
+    },
+    {
+     "en": "There are some plates."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're on the cooker."
+    },
+    {
+     "en": "Are there any glasses in the kitchen?"
+    },
+    {
+     "en": "No, there aren't any glasses in the kitchen."
+    },
+    {
+     "en": "There are some bottles."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're in the refrigerator."
+    },
+    {
+     "en": "Are there any books in the room?"
+    },
+    {
+     "en": "No, there aren't any books in the room."
+    },
+    {
+     "en": "There are some pictures."
+    },
+    {
+     "en": "Where are they?"
+    },
+    {
+     "en": "They're on the wall."
+    },
+    {
+     "en": "Are there any chairs in the room?"
+    },
+    {
+     "en": "No, there aren't any chairs in the room."
+    },
+    {
+     "en": "There are some armchairs."
+    },
+    {
+     "en": "Where are they?"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Where are the books?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "living room",
+   "pos": "",
+   "zh": "客厅"
+  },
+  {
+   "word": "near",
+   "pos": "prep",
+   "zh": "靠近"
+  },
+  {
+   "word": "window",
+   "pos": "n",
+   "zh": "窗户"
+  },
+  {
+   "word": "armchair",
+   "pos": "n",
+   "zh": "扶手椅"
+  },
+  {
+   "word": "door",
+   "pos": "n",
+   "zh": "门"
+  },
+  {
+   "word": "picture",
+   "pos": "n",
+   "zh": "图画"
+  },
+  {
+   "word": "wall",
+   "pos": "n",
+   "zh": "墙"
+  }
+ ],
+ "translation": [
+  "史密斯夫人的客厅很大。",
+  "客厅里有台电视机。",
+  "电视机靠近窗子。",
+  "电视机上放着几本杂志。",
+  "客厅里有张桌子。",
+  "桌上放着几份报纸。",
+  "客厅里有几把扶手椅。",
+  "那些扶手椅靠近桌子。",
+  "客厅里有台立体声音响。",
+  "音响靠近门。",
+  "音响上面有几本书。",
+  "客厅里有几幅画。",
+  "画挂在墙上。"
+ ],
+ "notes": [
+  "课文详注  Further notes on the text",
+  "1．Where are they?它们在哪里？",
+  "句中they指图中的那些东西。（可参见Lessons 25～26语法部分。）",
+  "2．数字9，999与10，001的英文写法",
+  "9，999----nine thousand nine hundred and ninety-nine",
+  "10，001----ten thousand and one",
+  "1．there＋be结构（2）",
+  "（1）there＋be结构变成疑问句时，只需将动词be和there互换位",
+  "置，句子其余部分不变。如：",
+  "Is there a dirty fork on the plate?",
+  "碟子上有一个脏的叉子吗？",
+  "Is there a full bottle in the cupboard?",
+  "橱柜里有一瓶酒吗？",
+  "Are there any ties on the floor?",
+  "地上有一些领带吗？",
+  "Are there any newspapers on the shelf?",
+  "架子上有些报纸吗？",
+  "（2）there＋be结构变成否定句时，需在动词be后加not（any）或no。如：",
+  "No, there is not a fork on the plate.",
+  "没有，碟子上没有叉子。",
+  "No, there isn't one in the cupboard.",
+  "没有，橱柜里一个也没有。",
+  "No, there aren't any ties on the floor.",
+  "没有，地板上没有任何领带。",
+  "No, there are no newspapers on the shelf.",
+  "没有，架子上没有任何报纸。",
+  "2．some和any的用法",
+  "在英语中，some和any是两个最常用的数量词。用some和any时，一般不必精确地说明数量到底有多么大或多么小。它们的作用常常像是a/an的复数。",
+  "（1）some（表示确定的数量）表示\"某些但不是全部\"的意思，通常用于肯定句中。在疑问句中，所希望的回答是Yes时也可使用some。如：",
+  "There is some water in the glass.",
+  "玻璃杯里有些水。",
+  "There are some cigarettes in the box.",
+  "盒子里有些雪茄。",
+  "Have you got some paper-clips in that box?",
+  "你那只盒子里有一些回形针吧？（我知道或我认为你有一些，故希望你会说\"有\"。）",
+  "some加可数名词或不可数名词时，在流畅的话语中一般不重读，而念为/s+m/。",
+  "（2）any（表示不确定的数量）通常用在含有not或-n't的否定句中，也用于表示我们不能确定答案是肯定还是否定，或者用于预料得到的回答是No的疑问句中。如：",
+  "There are not any spoons in the cupboard.",
+  "橱柜中没有任何汤匙。",
+  "There aren't any plates on the",
+  "dressing",
+  "table.",
+  "梳妆台上任何碟子都没有。",
+  "near  adj.",
+  "（1）靠近的，接近的：",
+  "The television is near the window.",
+  "电视机在窗户旁边。",
+  "There are some shoes on the floor. They're near the bed.",
+  "地板上有些鞋子。它们在床附近。",
+  "（2）关系接近的，亲近的：",
+  "She is a near friend of mine.",
+  "她是我的一位密友。",
+  "My  uncle is my nearest relative.",
+  "我叔叔是我血缘最近的亲戚。",
+  "（3）近似的；几乎是的：",
+  "The picture may not be an exact",
+  "replica",
+  "but it's pretty near.",
+  "这幅画也许不是一件一模一样的复制品，但它已酷似原作了。"
+ ]
+}

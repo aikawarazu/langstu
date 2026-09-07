@@ -1,0 +1,303 @@
+{
+ "unitId": "u061",
+ "unit": 61,
+ "lessons": [
+  {
+   "lesson": 121,
+   "title": "The man in the hat",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Customer",
+     "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Who served you, sir?"
+    },
+    {
+     "speaker": "Customer",
+     "en": "The lady who is standing behind the counter."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Which books did you buy?"
+    },
+    {
+     "speaker": "Customer",
+     "en": "The books which are on the counter."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Did you serve this gentleman half an hour ago, Miss Roberts?"
+    },
+    {
+     "en": "He says he’s the man who bought these books."
+    },
+    {
+     "speaker": "Miss Roberts",
+     "en": "I can’t remember, sir. The man whom I served was wearing a hat."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Have you got a hat, sir?"
+    },
+    {
+     "speaker": "Customer",
+     "en": "Yes, I have."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Would you put it on, please?"
+    },
+    {
+     "speaker": "Customer",
+     "en": "All right."
+    },
+    {
+     "speaker": "Manager",
+     "en": "Is this the man that you served, Miss Roberts?"
+    },
+    {
+     "speaker": "Miss Roberts",
+     "en": "Yes, sir. I recognize him now."
+    }
+   ]
+  },
+  {
+   "lesson": 122,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "This is the car which the mechanic repaired yesterday."
+    },
+    {
+     "en": "He is the man whom I invited to the party."
+    },
+    {
+     "en": "These are the things which I bought yesterday."
+    },
+    {
+     "en": "He is the man who came here last week."
+    },
+    {
+     "en": "He is the policeman who caught the thieves."
+    },
+    {
+     "en": "She is the nurse who looked after me."
+    },
+    {
+     "en": "She is the woman whom I met at the party."
+    },
+    {
+     "en": "I am the person who wrote to you."
+    },
+    {
+     "en": "B Who met him? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman who met him."
+    },
+    {
+     "en": "Who sat there? That man?"
+    },
+    {
+     "en": "Yes, he's the man who sat there."
+    },
+    {
+     "en": "Who made it? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman who made it."
+    },
+    {
+     "en": "Who read it? That man?"
+    },
+    {
+     "en": "Yes, he's the man who read it."
+    },
+    {
+     "en": "Who shut it? That man?"
+    },
+    {
+     "en": "Yes, he's the man who shut it."
+    },
+    {
+     "en": "Who took it? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman who took it."
+    },
+    {
+     "en": "Who told me? That man?"
+    },
+    {
+     "en": "Yes, he's the man who told me."
+    },
+    {
+     "en": "Who saw me? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman who saw me."
+    },
+    {
+     "en": "C Whom did you see? That man?"
+    },
+    {
+     "en": "Yes, he's the man whom I saw."
+    },
+    {
+     "en": "Whom did you telephone? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman whom I telephoned."
+    },
+    {
+     "en": "Whom did you invite? That man?"
+    },
+    {
+     "en": "Yes, he's the man whom I invited."
+    },
+    {
+     "en": "Whom did you take to the cinema? That man?"
+    },
+    {
+     "en": "Yes, he's the man whom I took to the cinema."
+    },
+    {
+     "en": "Whom did you find in the garden? That man?"
+    },
+    {
+     "en": "Yes, he's the man whom I found in the garden."
+    },
+    {
+     "en": "Whom did you drive to London? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman whom I drove to London."
+    },
+    {
+     "en": "Whom did you hear? That woman?"
+    },
+    {
+     "en": "Yes, she's the woman whom I heard."
+    },
+    {
+     "en": "Whom did you remember? That man?"
+    },
+    {
+     "en": "Yes, he's the man whom I remembered."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [
+  {
+   "word": "customer",
+   "pos": "n",
+   "zh": "顾客"
+  },
+  {
+   "word": "manager",
+   "pos": "n",
+   "zh": "经理"
+  },
+  {
+   "word": "serve",
+   "pos": "v",
+   "zh": "照应，服务，接待"
+  },
+  {
+   "word": "counter",
+   "pos": "n",
+   "zh": "柜台"
+  },
+  {
+   "word": "recognize",
+   "pos": "v",
+   "zh": "认出"
+  }
+ ],
+ "translation": [
+  "顾 客：半小时以前我在这里买了两本很",
+  "贵的辞典，但是我忘了拿走。",
+  "经 理：是谁接待您的，先生？",
+  "顾 客：站在柜台后面的那位女士。",
+  "经 理：您买的是两本什么书？",
+  "顾 客：就是柜台上的那两本。",
+  "经 理：卡罗琳，半小时前你接待过这位先生",
+  "吗？他说他就是买这两本书的人。",
+  "卡罗琳：我记不起来了。我接待的那个人戴着",
+  "一顶帽子。",
+  "经 理：先生，您有帽子吗？",
+  "顾 客：有的，我有帽子。",
+  "经 理：请您把帽子戴上好吗？",
+  "顾 客：好吧。",
+  "经 理：卡罗琳，",
+  "这就是你接待过的那个人吗？",
+  "卡罗琳：是他。我现在认出他来了。"
+ ],
+ "notes": [
+  "1．…but I forgot to take them with me.……但是我忘了拿走。",
+  "forget to do sth.表示“忘了做某事”，them指两本字典。",
+  "2．put it on,戴上它。",
+  "这里的 it指 a hat，以避免重复。 put on是“戴上”、“穿上”的意思。如果它的宾语是一个名词，这个名词可放在 put on之后，也可放在put和on之间。如果是代词，就必须放在put和on 之间。如：",
+  "Put on your coat./Put your coat on.",
+  "穿上外衣。",
+  "但只能说：",
+  "Put it on.",
+  "把它穿上。",
+  "定语从句",
+  "定语从句像形容词一样起修饰作用，但位于所修饰的名词之后。定语从句由关系代词引导，紧跟在它所修饰的成分后面。关系代词 who，whom与 that修饰人，which与 that修饰东西。关系代词指代从句的主语或宾语，同时又充当连接词，把从句和主句连接起来。请看例句：",
+  "（1）",
+  "关系代词作从句的主语（who/which/that）：",
+  "The dog which/that is carrying the basket is mine.",
+  "叼着篮子的那只狗是我的。",
+  "He's the porter who/that carried my suitcase.",
+  "他就是那个扛着我的衣箱的搬运工。",
+  "（2）关系代词作从句的宾语（whom/that/which）：",
+  "They're the windows which/that the children broke yesterday.",
+  "这些就是孩子们昨天打碎的窗户。",
+  "She's the lady whom I served yesterday.",
+  "她就是我昨天服务过的那位女士。",
+  "1．recognize  v.",
+  "（1）认出；认识：",
+  "I recognize him now.",
+  "我现在认出他来了。",
+  "Can you recognize this",
+  "tune",
+  "?",
+  "你能听出这支曲调吗？",
+  "（2）承认；确认：",
+  "I recognize that he is more capable than I am.",
+  "我承认他比我更有能力。",
+  "They recognized Richard as his",
+  "lawful",
+  "heir",
+  ".",
+  "他们确认理查德为他的合法继承人。",
+  "Are British medical qualifications recognized in other European countries?",
+  "英国的医生执照在欧洲其他国家能否得到承认？",
+  "2．serve  v.",
+  "（1）服务；接待；侍候：",
+  "Are you being served, sir?",
+  "先生，有人为您服务吗？",
+  "A young waiter served them.",
+  "一位年轻的侍者侍候他们进餐。",
+  "（2）供应；摆出（食物或饮料等）：",
+  "What time is breakfast served in this hotel?",
+  "这个饭店里什么时候供应早餐？",
+  "Serve it to the ladies first.",
+  "把它先端给女士们。",
+  "（3）为……服务／服役；任职：",
+  "The old cook has served the family for 30 years.",
+  "这位老厨师已为这家干了30年了。",
+  "He  began to serve in the Navy in 1960.",
+  "他从1960年起开始在海军服役。"
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "unitId": "u036",
+ "unit": 36,
+ "lessons": [
+  {
+   "lesson": 71,
+   "title": "He’s awful",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Jane",
+     "en": "What’s Ron Marston like , Pauline ?"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "He’s awful ! He telephoned me four times yesterday , and three times the day before yesterday. He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone ."
+    },
+    {
+     "speaker": "Jane",
+     "en": "What did your boss say to him ?"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "He said"
+    },
+    {
+     "en": ",”Pauline  is typing letters .She can’t speak to you now !”"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "Then I arrived home at six o’clock yesterday evening .He telephoned again .But I didn’t answer the phone !"
+    },
+    {
+     "speaker": "Jane",
+     "en": "Did he telephone again last night ?"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "Yes , he did . He telephoned at nine o’clock ."
+    },
+    {
+     "speaker": "Jane",
+     "en": "What did you say to him ?"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "I said ,”This is Pauline ‘s mother . Please don’t telephone my daughter again !”"
+    },
+    {
+     "speaker": "Jane",
+     "en": "Did he telephone again ?"
+    },
+    {
+     "speaker": "Pauline",
+     "en": "No , he didn’t !"
+    }
+   ]
+  },
+  {
+   "lesson": 72,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "It is raining now. It rained yesterday."
+    },
+    {
+     "en": "It is snowing now. It snowed yesterday."
+    },
+    {
+     "en": "He is boiling some eggs. He boiled some yesterday."
+    },
+    {
+     "en": "We are enjoying our lunch. We enjoyed it yesterday, too."
+    },
+    {
+     "en": "B What did they do yesterday?"
+    },
+    {
+     "en": "They cleaned their shoes yesterday."
+    },
+    {
+     "en": "What did he do last night?"
+    },
+    {
+     "en": "He opened the box last night."
+    },
+    {
+     "en": "What did they do this morning?"
+    },
+    {
+     "en": "They sharpened their pencils this morning."
+    },
+    {
+     "en": "What did she do this evening?"
+    },
+    {
+     "en": "She turned on the television this evening."
+    },
+    {
+     "en": "What did she do last night?"
+    },
+    {
+     "en": "She listened to the radio last night."
+    },
+    {
+     "en": "What did she do yesterday morning?"
+    },
+    {
+     "en": "She boiled an egg yesterday morning."
+    },
+    {
+     "en": "What did they do yesterday afternoon?"
+    },
+    {
+     "en": "They played a game yesterday afternoon."
+    },
+    {
+     "en": "What did he do in the morning the day before yesterday?"
+    },
+    {
+     "en": "He stayed in bed in the morning the day before yesterday."
+    },
+    {
+     "en": "What did she do yesterday evening?"
+    },
+    {
+     "en": "She telephoned her husband yesterday evening."
+    },
+    {
+     "en": "What did she do the night before last?"
+    },
+    {
+     "en": "She called the doctor the night before last."
+    },
+    {
+     "en": "boiling"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "How did Pauline answer the telephone at nine o'clock?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "telephone",
+   "pos": "v",
+   "zh": "& n. 打电话；电话"
+  },
+  {
+   "word": "time",
+   "pos": "n",
+   "zh": "次（数）"
+  },
+  {
+   "word": "answer",
+   "pos": "v",
+   "zh": "接（电话）"
+  },
+  {
+   "word": "last",
+   "pos": "adj",
+   "zh": "最后的，前一次的"
+  },
+  {
+   "word": "phone",
+   "pos": "n",
+   "zh": "电话（=telephone）"
+  },
+  {
+   "word": "again",
+   "pos": "adv",
+   "zh": "又一次地"
+  }
+ ],
+ "translation": [
+  "简：罗恩.马斯顿是怎样一个人？",
+  "波淋：他讨厌透了！他昨天给我打了4次电话",
+  "前天打了3次。",
+  "波淋：他昨天上午和下午把电话打到了我的",
+  "办公室，是我的老板接的。",
+  "简：你老板是怎么对他说的？",
+  "波淋：他说：“波淋正在打信，她现在不能",
+  "同你讲话！”",
+  "波淋：后来，我昨晚6点钟回到家里。",
+  "他又打来电话，但我没接。",
+  "简：他昨夜里又打电话了吗？",
+  "波淋：是的，打了。他在9点钟又打电话。",
+  "简：你对他怎么说的？",
+  "波淋：我说：“我是波淋的母亲。",
+  "请不要再给我女儿打电话了！”",
+  "简：他又打了没有？",
+  "波淋：没有！"
+ ],
+ "notes": [
+  "1．What's Ron Marston like, Pauline? 波琳，朗·马斯顿是怎样一个人？",
+  "What is sb.  like? 这一句式可用来询问某人的外貌或品行。就本课的具体情况而言，波琳的回答更多地是指马斯顿的品行如何。",
+  "2．He telephoned me four times yesterday…他昨天给我打了4次电话……",
+  "four times, 4次。 time在英语中作不可数名词时表示\"时间\"；作可数名词时表示\"次数\"。请注意英语中次数的表示法：",
+  "once 1次",
+  "twice",
+  "两次",
+  "three times 3次",
+  "3次或 3次以上通常都用基数词+ times表示：",
+  "five times 5次",
+  "thirty times 30次",
+  "3． the day before yesterday, 前天。",
+  "4．answer the telephone, 接电话。",
+  "口语中也常用 answer the phone。类似的短语如：",
+  "answer the door／doorbell应声开门",
+  "answer a letter回信",
+  "5．She can't speak to you now! 她现在不能同你讲话！",
+  "speak to sb. 意为\"与某人说话\"。例如打电话时可以说：",
+  "May I speak to Pauline, please?",
+  "请让波琳接电话好吗？",
+  "I' d like to speak to Pauline,  please.",
+  "我想请波琳听电话。",
+  "6．This is Pauline's mother. 我是波琳的母亲。",
+  "This is…是英美人打电话时表示\"我是……\"的句式，而不说",
+  "I'm…。相关的电话用语如：",
+  "This is Mary speaking.",
+  "我是玛丽。",
+  "This is Edward calling from London.",
+  "我是爱德华，现正在伦敦给你打电话。",
+  "语法",
+  "Grammar",
+  "in use",
+  "一般过去时（2）",
+  "（请参见 Lessons 67～68语法部分。）",
+  "be动词以外的动词在一般过去时中一般有两种形式。规则动词一般是在动词后面加-ed，如  answered；以-e结尾的规则动词加-d，如 telephoned, arrived。另一部分动词的过去式拼写不规则，因此称为不规则动词，如：say----said,  do----did。",
+  "用一般过去时的句子中常常有表示过去某一时刻的时间状语，如本课中的 yesterday（昨天），the day before yesterday（前天），yesterday morning（昨天上午），yesterday afternoon（昨天下午），yesterday evening（昨天晚上），last night（昨夜）。",
+  "answer",
+  "（1）v. 对……作出反应；响应：",
+  "Who answered the telephone?",
+  "谁接的电话？",
+  "Mary",
+  "took",
+  "a",
+  "few",
+  "minutes to answer the door.",
+  "玛丽拖了几分钟时间才去开门。",
+  "（2）v. 回答；答复：",
+  "I don't think you've answered my question.",
+  "我认为你没有回答我的问题。",
+  "I",
+  "wrote",
+  "him",
+  "several",
+  "letters but couldn't get an answer.",
+  "我给他写了好几封信，可都没有回音。",
+  "（3）n. 答案；解决办法：",
+  "Do you know the answer to Question 10?",
+  "你知道第10题的答案吗？",
+  "This is one of the",
+  "possible",
+  "answers to today's",
+  "environmental",
+  "problems",
+  ".",
+  "这是有可能解决当今环境问题的办法之一。"
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "unitId": "u065",
+ "unit": 65,
+ "lessons": [
+  {
+   "lesson": 129,
+   "title": "70 miles an hour",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Ann",
+     "en": "Look, Harry"
+    },
+    {
+     "en": "! That policeman’s waving to you. He wants you to stop."
+    },
+    {
+     "speaker": "Policeman",
+     "en": "Where do you think you are? On a race track"
+    },
+    {
+     "en": "You must have been driving at seventy miles an hour."
+    },
+    {
+     "speaker": "Harry",
+     "en": "I can’t have been."
+    },
+    {
+     "speaker": "Policeman",
+     "en": "I was doing eighty when I overtook you. Didn’t you see the speed limit?"
+    },
+    {
+     "speaker": "Harry",
+     "en": "I’m afraid I didn’t, officer. I must have been dreaming ."
+    },
+    {
+     "speaker": "Ann",
+     "en": "He wasn’t dreaming, officer. I was telling him to drive slowly."
+    },
+    {
+     "speaker": "Harry",
+     "en": "That’s why I didn’t see the sign."
+    },
+    {
+     "speaker": "Policeman",
+     "en": "Let me see your driving-license and your insurance certificate I won’t charge you this time. But you’d better not do it again!"
+    },
+    {
+     "speaker": "Harry",
+     "en": "Thank you. I’ll certainly be more careful."
+    },
+    {
+     "speaker": "Ann",
+     "en": "I told you to drive slowly, Harry."
+    },
+    {
+     "speaker": "Harry",
+     "en": "You always tell me to drive slowly, darling."
+    },
+    {
+     "speaker": "Ann",
+     "en": "Well, next time you’d better take my advice!"
+    }
+   ]
+  },
+  {
+   "lesson": 130,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "He didn't come to work yesterday. He must have been ill."
+    },
+    {
+     "en": "He didn't come to the office this morning. He had to stay a home."
+    },
+    {
+     "en": "I don't think she was Austrian"
+    },
+    {
+     "en": ". She must have been German."
+    },
+    {
+     "en": "I lost my pen so I had to buy a new one."
+    },
+    {
+     "en": "He forgot his case so he had to return home."
+    },
+    {
+     "en": "She didn't hear the phone. She must have been sleeping."
+    },
+    {
+     "en": "B I don't think they were. They can't have been Canadian."
+    },
+    {
+     "en": "They must have been Australian."
+    },
+    {
+     "en": "I don't think she was. She can't have been Finnish."
+    },
+    {
+     "en": "She must have been Russian."
+    },
+    {
+     "en": "I don't think they were. They can't have been Japanese."
+    },
+    {
+     "en": "They must have been Chinese."
+    },
+    {
+     "en": "I don't think they were. They can't have been butchers"
+    },
+    {
+     "en": "They must have been bakers"
+    },
+    {
+     "en": "I don't think she was. She can't have been a dentist."
+    },
+    {
+     "en": "She must have been a doctor."
+    },
+    {
+     "en": "I don't think he was. He can't have been a sales rep."
+    },
+    {
+     "en": "He must have been the boss."
+    },
+    {
+     "en": "I don't think she was. She can't have been seventeen."
+    },
+    {
+     "en": "She must have been twenty-one."
+    },
+    {
+     "en": "I don't think they were. They can't have been five."
+    },
+    {
+     "en": "They must have been seven."
+    },
+    {
+     "en": "I don't think he was. He can't have been seventy-six."
+    },
+    {
+     "en": "He must have been over eighty."
+    },
+    {
+     "en": "I don't think she was. She can't have been fifty-five."
+    },
+    {
+     "en": "She must have been under fifty."
+    },
+    {
+     "en": "I don't think it was. It can't have been the 17th yesterday."
+    },
+    {
+     "en": "It must have been the 16th yesterday."
+    },
+    {
+     "en": "I don't think it was. It can't have been Tuesday yesterday."
+    },
+    {
+     "en": "It must have been Wednesday yesterday."
+    },
+    {
+     "en": "I don't think it was. It can't have been the 19th yesterday."
+    },
+    {
+     "en": "It must have been the 20th yesterday."
+    },
+    {
+     "en": "I don't think it was. It can't have been cheap."
+    },
+    {
+     "en": "It must have been expensive."
+    },
+    {
+     "en": "I don't think it was. It can't have been easy."
+    },
+    {
+     "en": "It must have been difficult."
+    },
+    {
+     "en": "I don't think she was. She can't have been old."
+    },
+    {
+     "en": "She must have been young."
+    },
+    {
+     "en": "I don't think he was. He can't have been ill."
+    },
+    {
+     "en": "He must have been tired."
+    },
+    {
+     "en": "I don't think they were. They can't have been listening to the radio."
+    },
+    {
+     "en": "They must have been watching television."
+    },
+    {
+     "en": "I don't think she was. She can't have been retiring."
+    },
+    {
+     "en": "She must have been looking for a new job."
+    },
+    {
+     "en": "I don't think they were. They can't have been sitting."
+    },
+    {
+     "en": "They must have been standing"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What does Ann advise her husband to do next time?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "wave",
+   "pos": "v",
+   "zh": "招手"
+  },
+  {
+   "word": "track",
+   "pos": "n",
+   "zh": "跑道"
+  },
+  {
+   "word": "mile",
+   "pos": "n",
+   "zh": "英里"
+  },
+  {
+   "word": "overtake",
+   "pos": "",
+   "zh": "(overtook, overtaken) v. 从后面超越，超车"
+  },
+  {
+   "word": "speed limit",
+   "pos": "",
+   "zh": "限速"
+  },
+  {
+   "word": "dream",
+   "pos": "v",
+   "zh": "做梦，思想不集中"
+  },
+  {
+   "word": "sign",
+   "pos": "n",
+   "zh": "标记，牌子"
+  },
+  {
+   "word": "driving licence",
+   "pos": "",
+   "zh": "驾驶执照"
+  },
+  {
+   "word": "charge",
+   "pos": "v",
+   "zh": "罚款"
+  },
+  {
+   "word": "darling",
+   "pos": "n",
+   "zh": "亲爱的（用作表示称呼）"
+  }
+ ],
+ "translation": [
+  "安：瞧，加里！那个警察正朝你挥手呢。",
+  "他要你停下来。",
+  "警察：你认为你现在是在哪儿？",
+  "在赛车道上吗？你刚才一定是以每小时",
+  "70英里的速度开车。",
+  "加里：我不会开得那么快的。",
+  "警察：我是以每小时80英里的速度赶上你的。",
+  "警察：难道你没看见限速牌吗？",
+  "加里：恐怕我没有看见，警官。",
+  "我一定思想开小差了。",
+  "安：警官，他思想没有开小差。",
+  "我刚才正告诉他开慢点。",
+  "安里：所以我才没看见那牌子。",
+  "警察：让我看一看你的驾驶执照。",
+  "警察：这次我就不罚你款了。但你最好不要再",
+  "开得这样快。",
+  "加里：谢谢您。我以后一定会多加注意。",
+  "安：加里，我刚才叫你开慢点吧。",
+  "加里：你总是叫我开慢点，亲爱的。",
+  "安：好啦，下次你最好还是听从我的劝告！"
+ ],
+ "notes": [
+  "课文详注  Further notes on the text",
+  "1．Where do you think you are?你认为你现在是在哪儿？",
+  "do you think 是用在特殊疑问句中的插入语，用来征询见解或表达看法。因为句中插入语已经是疑问式，主谓倒装了，所以you are的位置不能再对调了。插入语一般是对句子加一些附加的解释，在句子中作独立成分。常用来作插入语的结构有I hope, I think, I'm afraid, you know等。插入语可以位于句尾或句中，有时也可出现在疑问句中。",
+  "2．must have been doing sth.,一定/准是在做某事。",
+  "这种结构用来表示对过去正进行的事情的推测。下文中的can't have been是 can't have been driving的省略式，在意思上与must have been driving正相反。",
+  "3．That's why I didn't see the sign.所以我才没看见那牌子。",
+  "why I didn't see the sign作is的表语从句，以why引导的从句用来解释事情的原因。",
+  "4．…you'd better take my advice!……你最好还是听从我的劝告吧！",
+  "take one's advice是“听从劝告”的意思。",
+  "表示猜测和推断的情态助动词must和can't（2）",
+  "must与can't不仅能表达对现在和将来的猜测和推断，而且能表达对过去的猜测和推断——这时可用 must have been表示肯定的推断，用can't have been（而不是mustn't have been）来表示否定的推断，如后面跟进行时则表示对过去正在进行的动作的猜测。请看例句：",
+  "You must have been driving at seventy miles an hour.",
+  "你当时肯定正以每小时70英里的速度行驶。",
+  "I didn't see it. I must have been dreaming.",
+  "我没看见。我当时一定是在胡思乱想吧。",
+  "She can't have been 29.She must have been 36.",
+  "她那时肯定不会是29岁，她一定36岁了。",
+  "He can't have been reading. He must have been sleeping.",
+  "他那时肯定不是在看书，他准是在睡觉。",
+  "1．charge  v.",
+  "（1）罚款；使承受经济负担：",
+  "He was charged by the policeman for speeding.",
+  "他因开车超速而被警察罚款。",
+  "（2）要（价）；收（费）：",
+  "The hotel charged them ￡ 900 for one night.",
+  "饭店向他们索要900英镑作为住一晚的费用。",
+  "（3）指控；指责：",
+  "They charged him with murder.",
+  "他们指控他犯了谋杀罪。",
+  "2．dream  v.",
+  "（1）做梦；梦见：",
+  "He dreamt about his grandmother last night.",
+  "他昨天夜里梦见他的祖母了。",
+  "Do you often dream at night?",
+  "你晚上经常做梦吗？",
+  "（2）梦想；幻想：",
+  "She dreamed that one day she would be as free as a bird",
+  "她幻想着有一天自己能像鸟儿那般自由。",
+  "I once dreamed of becoming a famous doctor.",
+  "我曾一度梦想着成为一位著名的医生。",
+  "（3）出神；心不在焉；空想：",
+  "Don't dream away your life!",
+  "不要在想入非非中虚度你的人生。",
+  "Sorry, I didn't see the sign. I must have been dream ing.",
+  "对不起，我没看见那牌子。我一定是思想开小差了。",
+  "3．wave  v.",
+  "（1）招手；挥手示意：",
+  "He waved us quiet.",
+  "他挥手要我们别出声。",
+  "She waved me goodbye.",
+  "她向我挥手告别。",
+  "（2）起伏；飘动：",
+  "The flag is waving in the wind.",
+  "旗帜正在风中飘扬。",
+  "She was attracted by the waving sea.",
+  "她被那汹涌起伏的大海吸引。"
+ ]
+}

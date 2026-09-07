@@ -1,0 +1,95 @@
+{
+ "unitId": "u010",
+ "unit": 10,
+ "lessons": [
+  {
+   "lesson": 20,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Those children are tired."
+    },
+    {
+     "en": "Their mother is tired, too."
+    },
+    {
+     "en": "That ice cream man is very busy."
+    },
+    {
+     "en": "His ice creams are very nice."
+    },
+    {
+     "en": "What's the matter, children? We are thirsty."
+    },
+    {
+     "en": "What's the matter, Tim? I am tired."
+    },
+    {
+     "en": "B Are the children tired or thirsty?"
+    },
+    {
+     "en": "They're not tired. They're thirsty."
+    },
+    {
+     "en": "Are the postmen cold or hot?"
+    },
+    {
+     "en": "They're not cold. They're hot."
+    },
+    {
+     "en": "Are the hairdressers thin or fat?"
+    },
+    {
+     "en": "They're not thin. They're fat."
+    },
+    {
+     "en": "Are the shoes small or big?"
+    },
+    {
+     "en": "They're not small. They're big."
+    },
+    {
+     "en": "Are the shops shut or open?"
+    },
+    {
+     "en": "They're not shut. They're open."
+    },
+    {
+     "en": "Are his cases heavy or light?"
+    },
+    {
+     "en": "They're not heavy. They're light."
+    },
+    {
+     "en": "Are grandmother and grandfather young or old?"
+    },
+    {
+     "en": "They're not young. They're old."
+    },
+    {
+     "en": "Are their hats old or new?"
+    },
+    {
+     "en": "They're not old. They're new."
+    },
+    {
+     "en": "Are the policemen short or tall?"
+    },
+    {
+     "en": "They're not short. They're tall."
+    },
+    {
+     "en": "Are his trousers short or long?"
+    },
+    {
+     "en": "They're not short. They're long."
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [],
+ "translation": [],
+ "notes": []
+}

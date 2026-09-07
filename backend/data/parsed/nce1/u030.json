@@ -1,0 +1,117 @@
+{
+ "unitId": "u030",
+ "unit": 30,
+ "lessons": [
+  {
+   "lesson": 60,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I don't have any grapes, but I have some peaches."
+    },
+    {
+     "en": "I don't have any tomatoes, but I have some potatoes."
+    },
+    {
+     "en": "I don't have any mince"
+    },
+    {
+     "en": ", but I have some steak."
+    },
+    {
+     "en": "I don't have any glue, but I have some ink."
+    },
+    {
+     "en": "I don't have any envelopes, but I have some writing paper."
+    },
+    {
+     "en": "B I don't have any honey, but I have some jam."
+    },
+    {
+     "en": "Penny and I don't have any beans, but we have some potatoes."
+    },
+    {
+     "en": "Penny and Sam don't have any wine, but they have some beer."
+    },
+    {
+     "en": "Sam and I don't have any bread, but we have some biscuits."
+    },
+    {
+     "en": "Sam and Penny don't have any grapes, but they have some bananas."
+    },
+    {
+     "en": "I don't have any mince, but I have some steak."
+    },
+    {
+     "en": "The children don't have any butter, but they have some eggs."
+    },
+    {
+     "en": "I don't have any lettuces"
+    },
+    {
+     "en": ", but I have some cabbages."
+    },
+    {
+     "en": "Penny and I don't have any beans, but we have some peas."
+    }
+   ]
+  },
+  {
+   "lesson": 59,
+   "title": "Is that all? 就这些吗？",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I want the large size."
+    },
+    {
+     "en": "I don't want the large size."
+    },
+    {
+     "en": "Do you want the large size?"
+    },
+    {
+     "en": "Do you want the large size or the small size?"
+    },
+    {
+     "en": "Does she want the large size or the small size?"
+    },
+    {
+     "en": "Do they want the large size or the small size?"
+    },
+    {
+     "en": "Do the students want the large size or the small size?"
+    },
+    {
+     "en": "Is she a student or a teacher?"
+    },
+    {
+     "en": "Are they keyboard operators or engineers?"
+    },
+    {
+     "en": "Are you reading newspapers or reading books?"
+    },
+    {
+     "en": "Is she sleeping or swimming?"
+    },
+    {
+     "en": "Are they jumping or running?"
+    },
+    {
+     "en": "Do you want the large size or the small size?"
+    },
+    {
+     "en": "I want the large size."
+    },
+    {
+     "en": "I have been working hard for so many years to turn my dream into reality."
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [],
+ "translation": [],
+ "notes": []
+}

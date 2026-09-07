@@ -1,0 +1,302 @@
+{
+ "unitId": "u044",
+ "unit": 44,
+ "lessons": [
+  {
+   "lesson": 87,
+   "title": "A car crash",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Mr Wood",
+     "en": "Is my car ready yet?"
+    },
+    {
+     "en": "Attendant"
+    },
+    {
+     "en": ":       I don’t know, sir.  What’s the licence number of your car?"
+    },
+    {
+     "speaker": "Mr Wood",
+     "en": "It’s LFZ 312 G."
+    },
+    {
+     "speaker": "Attendant",
+     "en": "When did you bring it to us?"
+    },
+    {
+     "speaker": "Mr Wood",
+     "en": "I brought it here three days ago."
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Ah yes, I remember now."
+    },
+    {
+     "speaker": "Mr Wood",
+     "en": "Have your mechanics finished yet?"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "No, they’re still working on it. Let’s go into the garage and have a look at it. Isn’t that your car?"
+    },
+    {
+     "speaker": "Mr Wood",
+     "en": "Well, it was my car."
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Didn’t you have a crash? Well, they’re trying to repair it, sir. But to tell you the truth, you need a new car."
+    }
+   ]
+  },
+  {
+   "lesson": 88,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Did he find his pen a minute ago?"
+    },
+    {
+     "en": "He didn't find his pen a minute ago."
+    },
+    {
+     "en": "Did he get a new television last week?"
+    },
+    {
+     "en": "He didn't get a new television last week."
+    },
+    {
+     "en": "Did you hear the news on the radio?"
+    },
+    {
+     "en": "We didn't hear the news on the radio."
+    },
+    {
+     "en": "Did they leave this morning?"
+    },
+    {
+     "en": "They didn't leave this morning."
+    },
+    {
+     "en": "Did he lose his umbrella yesterday?"
+    },
+    {
+     "en": "He didn't lose his umbrella yesterday."
+    },
+    {
+     "en": "Did you sweep the floor this morning?"
+    },
+    {
+     "en": "I didn't sweep the floor this morning."
+    },
+    {
+     "en": "B Has he met Mrs. Jones yet?"
+    },
+    {
+     "en": "Yes, he has already met Mrs. Jones."
+    },
+    {
+     "en": "When did he meet Mrs. Jones?"
+    },
+    {
+     "en": "He met her two weeks ago."
+    },
+    {
+     "en": "Has the boss left yet?"
+    },
+    {
+     "en": "Yes, the boss has already left."
+    },
+    {
+     "en": "When did the boss leave?"
+    },
+    {
+     "en": "He left ten minutes ago."
+    },
+    {
+     "en": "Has he had breakfast yet?"
+    },
+    {
+     "en": "Yes, he has already had breakfast."
+    },
+    {
+     "en": "When did he have breakfast?"
+    },
+    {
+     "en": "He had breakfast at half past seven."
+    },
+    {
+     "en": "Has she found her pen yet?"
+    },
+    {
+     "en": "Yes, she has already found her pen."
+    },
+    {
+     "en": "When did she find her pen?"
+    },
+    {
+     "en": "She found her pen an hour ago."
+    },
+    {
+     "en": "Has he got a television yet?"
+    },
+    {
+     "en": "Yes, he has already got a television."
+    },
+    {
+     "en": "When did he get a television?"
+    },
+    {
+     "en": "He got a television two weeks ago."
+    },
+    {
+     "en": "Has she heard the news yet?"
+    },
+    {
+     "en": "Yes, she has already heard the news."
+    },
+    {
+     "en": "When did she hear the news?"
+    },
+    {
+     "en": "She heard the news yesterday."
+    },
+    {
+     "en": "Has she made the bed yet?"
+    },
+    {
+     "en": "Yes, she has already made the bed."
+    },
+    {
+     "en": "When did she make the bed?"
+    },
+    {
+     "en": "She made the bed this morning."
+    },
+    {
+     "en": "Has he sent the letter yet?"
+    },
+    {
+     "en": "Yes, he has already sent the letter."
+    },
+    {
+     "en": "When did he send the letter?"
+    },
+    {
+     "en": "He sent the letter the day before yesterday Has she swept the floor yet?"
+    },
+    {
+     "en": "Yes, she has already swept the floor."
+    },
+    {
+     "en": "When did she sweep the floor?"
+    },
+    {
+     "en": "She swept  the floor yesterday morning."
+    },
+    {
+     "en": "Has she told him the truth yet?"
+    },
+    {
+     "en": "Yes, she has already told him the truth."
+    },
+    {
+     "en": "When did she tell him the truth?"
+    },
+    {
+     "en": "She told him the truth last night."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Can the mechanics repair Mr. Wood's car?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "attendant",
+   "pos": "n",
+   "zh": "接待员"
+  },
+  {
+   "word": "garage",
+   "pos": "n",
+   "zh": "车库，汽车修理厂"
+  },
+  {
+   "word": "crash",
+   "pos": "n",
+   "zh": "碰撞"
+  },
+  {
+   "word": "lamp-post",
+   "pos": "",
+   "zh": "灯杆"
+  },
+  {
+   "word": "repair",
+   "pos": "v",
+   "zh": "修理"
+  },
+  {
+   "word": "try",
+   "pos": "v",
+   "zh": "努力，设法"
+  }
+ ],
+ "translation": [
+  "伍德先生：我的汽车修好了吗？",
+  "服 务 员：我不知道，先生。",
+  "您的汽车牌号是多少？",
+  "伍德先生：是 LFZ312G。",
+  "服 务 员：您什么时候送来的？",
+  "伍德先生：3天前。",
+  "服 务 员：啊，是的，我现在记起来了。",
+  "伍德先生：你们的机械师修好了吗？",
+  "服 务 员：没有，他们还在修呢。",
+  "我们到车库去看一下吧。",
+  "服 务 员：这难道不是您的车吗？",
+  "伍德先生：唔，这曾是我的车。",
+  "服 务 员：难说您没有出车祸吗？",
+  "伍德先生：是啊。我把汽车撞在电线杆上了。",
+  "你们的机械师能修好吗？",
+  "服 务 员：啊，他们正设法修呢，先生。",
+  "不过说实在的，您需要一辆",
+  "新车了。"
+ ],
+ "notes": [
+  "现在完成时的疑问式及否定式",
+  "现在完成时的构成是 have/has+ 过去分词，因此其疑问式是将have/has提到主语之前，否定式则在have/has后加上not即可",
+  "1.repair v.",
+  "(1)修理;修复;修补：",
+  "I'll have to get the bicycle repaired.",
+  "我得请人把自行车修理一下。",
+  "She looked into the mirror and began to repair her face.",
+  "她向镜中望去，开始往脸上重敷脂粉。",
+  "(2)弥补;修复;赔偿：",
+  "How can I repair the mistake I have made?",
+  "我如何才能弥补我所犯的错误呢?",
+  "It will take a while to repair the",
+  "confidence",
+  "of the general public.",
+  "要恢复公众的信心尚需要一些时间。",
+  "2.try v.",
+  "(1)试图;设法，努力：",
+  "They tried hard to repair the damaged car.",
+  "他们竭尽全力修理那辆被损坏了的汽车。",
+  "He is trying to move the book shelf.",
+  "他正试图搬动那个书架。",
+  "(2)尝试，试用;试验：",
+  "She's trying her new car.",
+  "她正在试她的新车。",
+  "I'll try that Italian restaurant next time.",
+  "下次我要到那家意大利餐馆去尝尝他们的菜"
+ ]
+}

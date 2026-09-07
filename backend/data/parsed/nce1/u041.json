@@ -1,0 +1,246 @@
+{
+ "unitId": "u041",
+ "unit": 41,
+ "lessons": [
+  {
+   "lesson": 81,
+   "title": "Roast beef and potato.",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "John",
+     "en": "Hello, Peggy! Where’s Tom?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "He’s upstairs. He’s having a bath. Tom!"
+    },
+    {
+     "speaker": "Tom",
+     "en": "Yes?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "John’s here."
+    },
+    {
+     "speaker": "Tom",
+     "en": "I’m nearly ready. Hello, John. Have a cigarette."
+    },
+    {
+     "speaker": "John",
+     "en": "No thanks, Tom."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Have a glass of whisky then."
+    },
+    {
+     "speaker": "John",
+     "en": "O.K. Thanks."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Is dinner ready, Peggy?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "It’s nearly ready. We can have dinner at seven o’clock."
+    },
+    {
+     "speaker": "Tom",
+     "en": "John and I had lunch together today. We went to a restaurant."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "What did you have?"
+    },
+    {
+     "speaker": "Tom",
+     "en": "We had roast beef and potatoes."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "Oh!"
+    },
+    {
+     "speaker": "Tom",
+     "en": "What’s the matter, Peggy?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "Well, you’re going to have roast beef and potatoes again tonight!"
+    }
+   ]
+  },
+  {
+   "lesson": 82,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "They ate a meal at a restaurant."
+    },
+    {
+     "en": "We went for a holiday last month."
+    },
+    {
+     "en": "Eat a biscuit."
+    },
+    {
+     "en": "You enjoyed yourself."
+    },
+    {
+     "en": "They are eating their lunch."
+    },
+    {
+     "en": "I drank a glass of milk."
+    },
+    {
+     "en": "B They are going to have breakfast."
+    },
+    {
+     "en": "They are having lunch."
+    },
+    {
+     "en": "He must have tea."
+    },
+    {
+     "en": "They had dinner."
+    },
+    {
+     "en": "They must have a meal."
+    },
+    {
+     "en": "He is going to have a swim."
+    },
+    {
+     "en": "He is having a bath."
+    },
+    {
+     "en": "He had a haircut."
+    },
+    {
+     "en": "They are having a lesson."
+    },
+    {
+     "en": "They had a party."
+    },
+    {
+     "en": "They must have a holiday."
+    },
+    {
+     "en": "They are going to have a good time."
+    },
+    {
+     "en": "users"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why is Carol disappointed?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "bath",
+   "pos": "n",
+   "zh": "洗澡"
+  },
+  {
+   "word": "nearly",
+   "pos": "adv",
+   "zh": "几乎，将近"
+  },
+  {
+   "word": "ready",
+   "pos": "adj",
+   "zh": "准备好的，完好的"
+  },
+  {
+   "word": "dinner",
+   "pos": "n",
+   "zh": "正餐，晚餐"
+  },
+  {
+   "word": "roast",
+   "pos": "adj",
+   "zh": "烤的"
+  }
+ ],
+ "translation": [
+  "萨 姆：你好，卡罗尔！汤姆在哪儿？",
+  "卡罗尔：他在楼上。他正在洗澡。",
+  "卡罗尔：汤姆！",
+  "汤 姆：什么事？",
+  "卡罗尔：萨姆来了。",
+  "汤 姆：我马上就好。",
+  "汤 姆：你好，萨姆。请抽烟。",
+  "萨 姆：不，谢谢，汤姆。",
+  "汤 姆：那么，来杯威士忌吧。",
+  "萨 姆：好的，谢谢。",
+  "汤 姆：卡罗尔，饭好了吗？",
+  "卡罗尔：马上就好。7点钟我们可以吃饭。",
+  "汤 姆：我和萨姆今天一起吃的午饭。",
+  "我们去了一家饭店。",
+  "卡罗尔：你们吃了什么？",
+  "汤 姆：我们吃的是烤牛肉和土豆。",
+  "卡罗尔：噢！",
+  "汤 姆：怎么了，卡罗尔？",
+  "卡罗尔：唉，今晚你们又要吃烤牛肉",
+  "和土豆了！"
+ ],
+ "notes": [
+  "1．No, thanks, Tom. 不，谢谢，汤姆。",
+  "在别人请你吃东西时，如果你吃，就说Ok, thanks／Oh, thank you。如果你不吃，则说No, thanks。",
+  "2． Oh! 噢！",
+  "是感叹词，在这里表示惊讶。",
+  "3．Well, you're going to have roast beef and potatoes  again tonight!唉，今晚你们又要吃烤牛肉和土豆了！",
+  "是陈述句形式的感叹句。这里的well可理解为感叹词，表示惊讶。",
+  "完全动词have（3）",
+  "have可以代替常用动词，表示eat, enjoy, experience, drink, take等意义。这时的have是行为动词，所以与动作有关，而不像 have表示\"具有\"时（请参见 Lessons 59～60语法部分）那样表示状态（如 I have〈got〉a car）。因此，它可以用于各种时态。",
+  "如：",
+  "Have a cigarette!",
+  "抽根烟吧！",
+  "I'm having a drink.",
+  "我在喝酒。",
+  "We had lunch together today.",
+  "我们今天一起吃了午饭。",
+  "当have不表示\"有\"而表示其他意思时，其用法和英语中的其他动词相同，意即：在疑问和否定结构中，have的一般现在时和一般过去时形式必须用do，does和 did",
+  "1． nearly  v.",
+  "（1）几乎；差不多；差点儿：",
+  "The dinner is nearly ready.",
+  "饭马上就好。",
+  "I nearly missed the train.",
+  "我险些赶不上火车。",
+  "（2）极；密切地：",
+  "He resembles a film star nearly.",
+  "他酷似一位电影明星。",
+  "The matter concerns us nearly.",
+  "这事与我们有切身关系。",
+  "2．ready  adj.",
+  "（1）准备就绪的：",
+  "Dinner will be ready in 20 minutes.",
+  "20分钟后就可以开饭了。",
+  "Are you ready to leave?",
+  "你是不是准备好这就可以动身了？",
+  "（2）预先准备好的；立即可得到的：",
+  "The apples are ripe and ready to eat.",
+  "苹果完全熟了，随时可以享用。",
+  "We must get the house ready for our guests.",
+  "我们必须把房子收拾停当，以期我们的客人随时入住。",
+  "（3）快的，立即的：",
+  "He gave a ready",
+  "consent",
+  ".",
+  "他立即爽快地表示同意。",
+  "This new system gives",
+  "users",
+  "readier access to the data.",
+  "这个新系统可以使用户们更快捷地进入数据库。"
+ ]
+}

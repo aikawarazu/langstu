@@ -85,6 +85,52 @@ body {
 .tbk-q { background: #eaf4f2; border-radius: 8px; padding: 6px 9px; font-size: 13px; margin-bottom: 6px; }
 .tb-tip { display: flex; gap: 6px; background: #fff7e6; border-radius: 8px; padding: 6px 9px; font-size: 13px; margin-top: 6px; }
 .tb-tip b { color: #c8920a; }
+
+.tb-warm { margin-top: 7px; background: #f7f4ec; border: 1px dashed #ded2b6; border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.9; color: #5f5a4c; white-space: pre-wrap; }
+.tb-goals { margin-top: 8px; background: #f3f8f5; border: 1px solid #d8e8de; border-radius: 8px; padding: 7px 10px; }
+.tb-goals b { display: block; font-size: 12px; color: #2f7a58; margin-bottom: 4px; }
+.tb-goals ul { margin: 0; padding-left: 17px; }
+.tb-goals li { font-size: 12.5px; line-height: 1.8; color: #3f5a4c; }
+
+.tb-quizs { display: grid; gap: 9px; }
+.tb-quiz { background: #fff; border: 1px solid #efe7d6; border-radius: 10px; padding: 9px 11px 11px; }
+.tb-quiz-t { font-size: 13.5px; font-weight: 700; color: #33301f; line-height: 1.7; }
+.tb-quiz-t .no { display: inline-block; min-width: 18px; height: 18px; line-height: 18px; text-align: center; background: #f4efdd; color: #8a7a52; border-radius: 50%; font-size: 11px; font-weight: 800; margin-right: 5px; }
+.tb-quiz-t i { display: block; font-style: normal; font-size: 12px; font-weight: 500; color: #8d8878; margin-top: 2px; }
+.tb-quiz-opts { display: grid; gap: 5px; margin-top: 7px; }
+.tb-opt { display: flex; gap: 7px; align-items: flex-start; text-align: left; cursor: pointer; background: #fdfbf5; border: 1px solid #ece3cf; border-radius: 8px; padding: 6px 9px; font: inherit; font-size: 13px; line-height: 1.6; color: #3d3a2c; }
+.tb-opt:hover:not(:disabled) { background: #f7f2e4; border-color: #ddd0b0; }
+.tb-opt .k { flex: none; width: 17px; height: 17px; line-height: 17px; text-align: center; border-radius: 50%; background: #efe8d5; color: #8a7a52; font-size: 11px; font-weight: 800; }
+.tb-opt.right { background: #eaf7f0; border-color: #a9dcc2; }
+.tb-opt.right .k { background: #2f8f63; color: #fff; }
+.tb-opt.wrong { background: #fdeeee; border-color: #f0bcbc; }
+.tb-opt.wrong .k { background: #c94f4f; color: #fff; }
+.tb-opt:disabled { cursor: default; }
+.tb-quiz-fb { margin-top: 6px; font-size: 12.5px; line-height: 1.8; border-radius: 7px; padding: 5px 9px; }
+.tb-quiz-fb.ok { background: #eef7f2; color: #0e7a52; font-weight: 700; }
+.tb-quiz-fb.no { background: #fdeeee; color: #a84040; font-weight: 700; }
+.tb-quiz-fb .why { font-weight: 500; color: #6d6650; margin-top: 2px; }
+.tb-quiz-sum { font-size: 12px; color: #8a7a52; text-align: right; }
+.tb-quiz-sum b { color: #0e7a52; font-size: 13px; }
+
+.tb-qs { display: grid; gap: 7px; }
+.tb-q { background: #fff; border: 1px solid #efe7d6; border-radius: 9px; padding: 8px 11px 9px; }
+.tb-q.k-listen { border-left: 3px solid #6a9fd8; }
+.tb-q.k-detail { border-left: 3px solid #e0b45c; }
+.tb-q.k-think { border-left: 3px solid #a98ad0; }
+.tb-q.k-drill { border-left: 3px solid #6fb98a; }
+.tb-q-h { display: flex; align-items: center; gap: 7px; margin-bottom: 4px; }
+.tb-q-k { font-size: 11px; font-weight: 800; color: #7a6a45; background: #f4efdd; border-radius: 6px; padding: 1px 6px; }
+.tb-q-no { margin-left: auto; font-size: 11px; font-weight: 800; color: #b3a684; }
+.tb-q-t { font-size: 13.5px; font-weight: 700; color: #33301f; line-height: 1.7; }
+.tb-q-t i { display: block; font-style: normal; font-size: 12px; font-weight: 500; color: #8d8878; margin-top: 2px; }
+.tb-q-hint, .tb-q-a { margin-top: 5px; }
+.tb-q-hint summary, .tb-q-a summary { cursor: pointer; list-style: none; display: inline-block; font-size: 11.5px; font-weight: 700; color: #9a8a63; background: #f7f3e7; border: 1px solid #eee5cd; border-radius: 6px; padding: 1px 7px; }
+.tb-q-a summary { color: #0e7a52; background: #eef7f2; border-color: #d5e9de; }
+.tb-q-hint summary::-webkit-details-marker, .tb-q-a summary::-webkit-details-marker { display: none; }
+.tb-q-hint > div, .tb-q-a > div { margin-top: 4px; font-size: 12.5px; line-height: 1.8; color: #6d6650; }
+.tb-q-a > div { color: #0e7a52; font-weight: 700; }
+.tb-q-a > div i { font-style: normal; display: block; font-weight: 500; color: #8d8878; margin-top: 2px; }
 .tbk-text { }
 .tb-line { display: flex; gap: 8px; padding: 5px 4px; border-radius: 7px; }
 .tb-line:hover { background: #f3efe4; }

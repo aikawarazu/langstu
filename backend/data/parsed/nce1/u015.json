@@ -1,0 +1,251 @@
+{
+ "unitId": "u015",
+ "unit": 15,
+ "lessons": [
+  {
+   "lesson": 29,
+   "title": "Come in, Amy.",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Come in, Amy."
+    },
+    {
+     "en": "Shut the door, please."
+    },
+    {
+     "en": "This bedroom is very untidy."
+    },
+    {
+     "en": "What must I do, Mrs. Jones?"
+    },
+    {
+     "en": "Open the window and air the room."
+    },
+    {
+     "en": "Then make the bed."
+    },
+    {
+     "en": "Dust the dressing table."
+    },
+    {
+     "en": "Then sweep the floor."
+    }
+   ]
+  },
+  {
+   "lesson": 30,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Clean it!"
+    },
+    {
+     "en": "Shut it!"
+    },
+    {
+     "en": "Open it!"
+    },
+    {
+     "en": "B Shut the door!"
+    },
+    {
+     "en": "Open the window!"
+    },
+    {
+     "en": "Put on your shirt!"
+    },
+    {
+     "en": "Take off your shoes!"
+    },
+    {
+     "en": "Turn on the stereo"
+    },
+    {
+     "en": "Turn off the tap!"
+    },
+    {
+     "en": "Sweep the floor!"
+    },
+    {
+     "en": "Clean the blackboard!"
+    },
+    {
+     "en": "Dust the cupboard!"
+    },
+    {
+     "en": "Empty the cup!"
+    },
+    {
+     "en": "Read this magazine!"
+    },
+    {
+     "en": "Sharpen these knives!"
+    },
+    {
+     "en": "You must open the window."
+    },
+    {
+     "en": "They must shut the door."
+    },
+    {
+     "en": "You mustn't open the windows."
+    },
+    {
+     "en": "Must I open the window?"
+    },
+    {
+     "en": "Yes, you must."
+    },
+    {
+     "en": "No, you needn't."
+    },
+    {
+     "en": "What must I do?"
+    },
+    {
+     "en": "What must they do?"
+    },
+    {
+     "en": "flattered"
+    },
+    {
+     "en": "complements"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "How must Amy clean the floor?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "shut",
+   "pos": "v",
+   "zh": "关门"
+  },
+  {
+   "word": "bedroom",
+   "pos": "n",
+   "zh": "卧室"
+  },
+  {
+   "word": "untidy",
+   "pos": "adj",
+   "zh": "乱，不整齐"
+  },
+  {
+   "word": "must",
+   "pos": "",
+   "zh": "modal verb 必须，应该"
+  },
+  {
+   "word": "open",
+   "pos": "v",
+   "zh": "打开"
+  },
+  {
+   "word": "air",
+   "pos": "v",
+   "zh": "使 … 通风，换换空气"
+  },
+  {
+   "word": "put",
+   "pos": "v",
+   "zh": "放置"
+  },
+  {
+   "word": "clothes",
+   "pos": "n",
+   "zh": "衣服"
+  },
+  {
+   "word": "wardrobe",
+   "pos": "n",
+   "zh": "大衣柜"
+  },
+  {
+   "word": "dust",
+   "pos": "v",
+   "zh": "掸掉灰尘土"
+  },
+  {
+   "word": "sweep",
+   "pos": "v",
+   "zh": "扫"
+  }
+ ],
+ "translation": [
+  "琼斯夫人：进来，艾米。",
+  "琼斯夫人：请把门关上。",
+  "琼斯夫人：这卧室太不整洁了。",
+  "艾 米：我应该做些什么呢，琼斯夫人？",
+  "琼斯夫人：打开窗子，给房间通通风。",
+  "琼斯夫人：然后把这些衣服放进衣橱里去。",
+  "琼斯夫人：再把床整理一下。",
+  "琼斯夫人：掸掉梳妆台上的灰尘。",
+  "琼斯夫人：然后扫扫地。"
+ ],
+ "notes": [
+  "1．untidy，乱，不整齐。",
+  "un-是前缀，表示\"not\"这类否定的意思。",
+  "2．air the room，给房间通通风。",
+  "这里的air作动词用。名词作动词用是英语构词法的一种。又如：dust(n.)灰尘；(v.)掸掉灰尘。",
+  "must(1)",
+  "must是一个情态助动词，表示\"必须\"、\"应当\"，与have to相似，表示不可逃避的义务。在说话人看来，没有选择余地。但是，must带有个人色彩，表示说话人的主观意图。表示个人感情时通常用must。You must…（你必须……）表示说话人说/认为……是必要的。如：",
+  "You  must sweep the floor.",
+  "你必须扫地。（我说这有必要）",
+  "1．air",
+  "（1）n.空气，新鲜空气：",
+  "Let's go out and breathe some fresh air.",
+  "咱们出去呼吸点新鲜空气吧。",
+  "（2）n.空中，空间：",
+  "He likes to stay in the open air.",
+  "他喜欢在户外呆着。",
+  "（3）v.晾（衣服、被褥等）；使通风：",
+  "Open the windows and air the room.",
+  "打开窗户使房间通风。",
+  "Leave the trousers on the washing-line to air.",
+  "把裤子挂到晾衣绳上去晾干。",
+  "2．empty",
+  "（1）v. 使空；把…倒出（移出）：",
+  "Empty the bottle of milk.",
+  "倒光瓶里的牛奶。",
+  "They emptied the house.",
+  "他们把房屋搬空了。",
+  "（2）v. 流出；走出：",
+  "The river emptied itself into the sea.",
+  "河水流入大海。",
+  "It was raining, and the streets began to empty.",
+  "天下起了雨，街上的行人开始稀少了。",
+  "（3）adj. 空的：",
+  "There are some empty bottles in the refrigerator.",
+  "冰箱里有一些空瓶子。",
+  "Her purse is empty.",
+  "她的钱包是空的。",
+  "（4）adj. 空虚的，无意义的：",
+  "It's an empty dream.",
+  "这是个不现实的梦想。",
+  "Officials were",
+  "flattered",
+  "by empty",
+  "complements",
+  ".",
+  "官员们被空洞的恭维话弄得心里美滋滋的。",
+  "（5）adj. 呆板的，毫无表情的：",
+  "She looked at him with empty eyes.",
+  "她木然地看着他。",
+  "He said all this in an empty voice.",
+  "他用一种呆板的声调说了这一切。",
+  "参考例句：",
+  "His business skill complements her flair for design. 他的经营技巧和她的设计才能相辅相成。",
+  "The isoseismal maps are valuable complements to the instrumental records. 等震线图是仪器记录有价值的补充资料。",
+  "stereo",
+  "adj.有立体视觉的，立体声的；n.固定形象，立体声",
+  "参考例句：",
+  "She had the stereo on at full blast.她把立体声音响开到了最大音量。",
+  "This program is being broadcast in stereo.这个节目正用立体声播放。"
+ ]
+}

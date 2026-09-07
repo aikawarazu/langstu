@@ -116,10 +116,19 @@ CoursePackage（课程包 / 系列，如「新概念英语 第一册」）
   "title": "Excuse me! / Is this your …?",
   "subtitle": "打扰一下！/ 这是你的……吗？",
   "lead": {                    // 导学（都可缺省）
-    "question": "Whose handbag is it?（这是谁的手提包？）",
+    "question": "听录音前先想：你在哪些场合需要打断陌生人？",
+    "warmup": "先别看课文。想象你在火车站捡到一个手提包……",   // 启发式导入
+    "goals": ["能用 Is this your …? 询问物品归属", "能用 it 简略回答"],  // 本课目标
     "summary": "入门第一关，核心只有一句 Is this your …?",
     "tips": "把 10 个名词挨个填进句型，肯定否定各来一次。"
   },
+  "questions": [               // 提问（每课必备；教材官方听力提问 + 自编理解题）
+    { "kind": "listen", "q": "Whose handbag is it?", "zh": "这是谁的手提包？",
+      "a": "It's the woman's handbag.", "aZh": "是那位女士的手提包。", "hint": "听 Is this your handbag? 之后的那句简略回答。" },
+    { "kind": "detail", "q": "How many times does A ask the same question?", "zh": "A 把同一个问题问了几次？",
+      "a": "Twice.", "aZh": "两次。", "hint": "因为第一次没听清。" },
+    { "kind": "think", "q": "为什么这里用 Excuse me 而不用 Sorry？", "zh": "", "a": "Excuse me 是引起注意，不是道歉。", "aZh": "", "hint": "" }
+  ],
   "text": [                    // 课文；一个单元可含多课
     {
       "lesson": 1, "title": "Excuse me!", "kind": "课文 · 对话",
@@ -153,6 +162,12 @@ CoursePackage（课程包 / 系列，如「新概念英语 第一册」）
   ],
   "exercises": [
     { "q": "把 This is my handbag. 改成一般疑问句。", "a": "Is this your handbag?", "note": "be 动词提前，my 换 your" }
+  ],
+  "quiz": [                    // 选择题（可选；点选项即时判分）
+    { "q": "— Is this your handbag? — ____", "zh": "「这是你的手提包吗？」该怎么简略回答？",
+      "options": ["Yes, it is.", "Yes, this is.", "Yes, I am.", "Yes, it's."],
+      "answer": 0,
+      "note": "回答用 it 指代 this；简略回答句末不缩写成 it's。" }
   ]
 }
 ```
@@ -163,13 +178,37 @@ CoursePackage（课程包 / 系列，如「新概念英语 第一册」）
 |---|---|
 | BilingualText | `{ en, zh }` |
 | Line | `{ speaker?, en, zh?, note? }` |
+| QuestionEntry | `{ kind?, q, zh?, a?, aZh?, hint? }`；`kind`: `listen`（听前主旨）\| `detail`（细节）\| `think`（开放启发）\| `drill`（操练） |
 | WordEntry | `{ word, phonetic?, meanings:[{pos?, meaning, usage?}], examples?:[BilingualText] }` |
 | PhraseEntry | `{ phrase, usage?, examples:[BilingualText] }` |
 | GrammarEntry | `{ title, definition?, structure?, usage?, examples:[BilingualText] }` |
 | PatternEntry | `{ pattern, original?:BilingualText, imitations:[BilingualText] }` |
 | ExerciseEntry | `{ q, a, note? }` |
+| QuizEntry | `{ q, zh?, options:[string], answer:number, note? }`；`answer` 是 `options` 的下标（从 0 开始） |
 
 **全部区块可选**：缺 `words` 就不显示生词块（锚点按钮也自动隐藏），缺 `text` 就只显示音频；**渐进补齐数据不会打断学习**。
+
+**但 `questions` 是内容质量标准**：每课都要有提问，否则这一课不算精编完成。编排原则：
+
+| kind | 作用 | 一课建议数量 |
+|---|---|---|
+| `listen` | 教材官方「听录音回答问题」，抓主旨 | 1（有原书提问的照录） |
+| `detail` | 扣细节，逼回课文找原句 | 2-3 |
+| `think` | 开放/启发，联系中文习惯与已学知识 | 1 |
+| `drill` | 句型操练式的口头问答 | 视情况 |
+
+- `q` 用英文提问（训练直接用英语理解），`zh` 给中文对照。
+- `a` 给参考答案，`hint` 只在学生答不出时看的提示——**不要直接把答案写进提示**。
+- `think` 类可以没有标准答案，`a` 写"参考答案"。
+
+### 选择题 `quiz`
+
+与 `exercises`（需自己动笔写答案）互补，`quiz` 是**点一下就能判分**的客观题，适合快速自测：
+
+- `options` 建议 3-4 项，干扰项要**来自本课真实易错点**（如 `Yes, this is.`），别拿明显无关的选项凑数。
+- `answer` 是下标（0 起），运行时按 `options[answer]` 判定。
+- `note` 讲「为什么」，重点解释干扰项错在哪。
+- 题干可以是问答式（`— … — ____`）、填空式（`He is ____ engineer.`）或选择正确译句。
 
 ---
 

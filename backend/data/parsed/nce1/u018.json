@@ -1,0 +1,310 @@
+{
+ "unitId": "u018",
+ "unit": 18,
+ "lessons": [
+  {
+   "lesson": 35,
+   "title": "Our village",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "This is a photograph of our village.",
+     "zh": "这是我们村庄的一张照片。"
+    },
+    {
+     "en": "Our village is in a valley.",
+     "zh": "我们的村庄坐落在一个山谷之中。"
+    },
+    {
+     "en": "It is between two hills.",
+     "zh": "它们于两座小山之间。"
+    },
+    {
+     "en": "The village is on a river.",
+     "zh": "它靠近一条小河。"
+    },
+    {
+     "en": "Here is another photograph of the village.",
+     "zh": "这是我们村庄的另一张照片。"
+    },
+    {
+     "en": "My wife and I are walking along the banks of the river.",
+     "zh": "我和妻子沿河岸走着。"
+    },
+    {
+     "en": "We are on the left.",
+     "zh": "我们在河的左侧。"
+    },
+    {
+     "en": "There is a boy in the water.",
+     "zh": "河里面有个男孩。"
+    },
+    {
+     "en": "He is swimming across the river.",
+     "zh": "他正横渡小河。"
+    },
+    {
+     "en": "Here is another photograph.",
+     "zh": "这是另一张照片。"
+    },
+    {
+     "en": "This is the school building.",
+     "zh": "这是学校大楼。"
+    },
+    {
+     "en": "It is beside a park.",
+     "zh": "它位于公园的旁边。"
+    },
+    {
+     "en": "The park is on the right.",
+     "zh": "公园在右面。"
+    },
+    {
+     "en": "Some children are coming out of the building.",
+     "zh": "一些孩子正从楼里出来。"
+    },
+    {
+     "en": "Some of them are going into the park.",
+     "zh": "他们中有几个正走进公园。"
+    }
+   ]
+  },
+  {
+   "lesson": 36,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "He is swimming across the river."
+    },
+    {
+     "en": "She is sitting on the grass."
+    },
+    {
+     "en": "The cat is running along the wall."
+    },
+    {
+     "en": "B Where is the man going? He's going  into the shop."
+    },
+    {
+     "en": "Where is the woman going? She's going out of the shop."
+    },
+    {
+     "en": "Where is he sitting? He's sitting beside his mother."
+    },
+    {
+     "en": "Where are they walking? They're walking across the street."
+    },
+    {
+     "en": "Where are the cats running? They're running along the wall."
+    },
+    {
+     "en": "Where are the children jumping? They're jumping off the branch."
+    },
+    {
+     "en": "Where is the man standing? He's standing between two policemen."
+    },
+    {
+     "en": "Where is she sitting? She's sitting near the tree."
+    },
+    {
+     "en": "Where is it  flying? It's flying under the bridge."
+    },
+    {
+     "en": "Where is the aeroplane flying? It's flying over the bridge."
+    },
+    {
+     "en": "Where are they sitting? They're sitting on the grass."
+    },
+    {
+     "en": "Where are the man and the woman reading? They're reading in the living room."
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Are the children coming out of the park or going into it?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "photograph",
+   "pos": "n",
+   "zh": "照片"
+  },
+  {
+   "word": "village",
+   "pos": "n",
+   "zh": "村庄"
+  },
+  {
+   "word": "valley",
+   "pos": "n",
+   "zh": "山谷"
+  },
+  {
+   "word": "between",
+   "pos": "prep",
+   "zh": "在……之间"
+  },
+  {
+   "word": "hill",
+   "pos": "n",
+   "zh": "小山"
+  },
+  {
+   "word": "another",
+   "pos": "",
+   "zh": "det. 另一个"
+  },
+  {
+   "word": "wife",
+   "pos": "n",
+   "zh": "妻子"
+  },
+  {
+   "word": "along",
+   "pos": "prep",
+   "zh": "沿着"
+  },
+  {
+   "word": "bank",
+   "pos": "n",
+   "zh": "河岸"
+  },
+  {
+   "word": "water",
+   "pos": "n",
+   "zh": "水"
+  },
+  {
+   "word": "swim",
+   "pos": "v",
+   "zh": "游泳"
+  },
+  {
+   "word": "building",
+   "pos": "n",
+   "zh": "大楼，建筑物"
+  },
+  {
+   "word": "park",
+   "pos": "n",
+   "zh": "公园"
+  },
+  {
+   "word": "into",
+   "pos": "prep",
+   "zh": "进入"
+  }
+ ],
+ "translation": [
+  "这是我们村庄的一张照片。",
+  "我们的村庄坐落在一个山谷之中。",
+  "它们于两座小山之间。",
+  "它靠近一条小河。",
+  "这是我们村庄的另一张照片。",
+  "我和妻子沿河岸走着。",
+  "我们在河的左侧。",
+  "河里面有个男孩。",
+  "他正横渡小河。",
+  "这是另一张照片。",
+  "这是学校大楼。",
+  "它位于公园的旁边。",
+  "公园在右面。",
+  "一些孩子正从楼里出来。",
+  "他们中有几个正走进公园。"
+ ],
+ "notes": [
+  "课文详注 Further notes on the text",
+  "1．This is  a photograph  of our village.这是我们村庄的一张照片。",
+  "句中of是介词，表示\"……的\"。又如：",
+  "the windows of a room  房间的窗户",
+  "2．It is between two hills. 我们的村庄坐落在一个山谷之中。",
+  "句中It指village。between是介词，表示\"在……（两者）之间\"。又如：",
+  "The man is",
+  "standing",
+  "between two policemen.",
+  "这个男人正站在两名警察之间。",
+  "3．along the banks of the river, 沿着河岸。",
+  "along为介词，表示\"沿着\"。",
+  "4．He is swimming across the river.他正横渡小河。",
+  "across为介词，表示\"通过\"某个平面。",
+  "5．beside a park，位于公园旁边。",
+  "beside为介词，表示\"在……旁边\"。",
+  "短语动词",
+  "短语动词通常是指后面常跟一个介词或副词短语的动词，即动词+介词或副词小品词。英语（特别是在非正式的、惯用的英语）中存在着一种用动词短语代替与其同义的单个动词的强烈趋势。如听到敲门声，我们会说Come in而不会用Enter来表达。最常见的短语动词是由英语中最短小和最简单的动词构成的，这些动词常与表示位置或方向的词组合，如along, down, in, off, on, out, over, under等。例如：",
+  "The cats are running along the wall.",
+  "猫正沿着墙跑。",
+  "The children are jumping off the branch.",
+  "孩子们正从树枝上跳下来。",
+  "不仅一个单个动词可以同大量的介词或副词小品词一起构成短语动词，而且一个短语动词本身也可能有几种不同的意义。",
+  "1．go into",
+  "（1）走进；进入：",
+  "He is going into a shop.",
+  "他正走进一家商店。",
+  "（2）进入；介入：",
+  "They're going into the business world.",
+  "他们正步入商界。",
+  "2．sit on",
+  "（1）坐在……上：",
+  "The children are sitting on the grass.",
+  "孩子们正坐在草地上。",
+  "（2）<口>拖延；压下：",
+  "They are trying to sit on the bad news as long as possible.",
+  "他们正试图尽可能拖延时间不把这个坏消息讲出去。",
+  "3．run along",
+  "（1）沿着……跑：",
+  "The dogs are running along the river banks.",
+  "狗正沿着河岸奔跑。",
+  "（2）离开；走开：",
+  "It's getting dark, we must  run along.",
+  "天黑了，我们得走了。",
+  "新单词：photograph、village、valley、between、hill、another、wife、along、bank、water、swim、building、park、into",
+  "photographer：摄影师",
+  "picture：图片",
+  "drawing：（用铅笔、钢笔画）制图，素描术",
+  "painting：绘画、油画（指油画、水彩画等上色的画）",
+  "portrait：肖像、画像；描写",
+  "sketch：（设计）草图",
+  "cartoon：卡通片",
+  "take a picture：照照片",
+  "a photograph of our village",
+  "villager：村民",
+  "Our village is in a valley.",
+  "hill：不高的小山丘",
+  "mount：名山，专有名词 Mount Tai",
+  "mountain：大型的，高山",
+  "range：山区，连绵起伏的群山",
+  "peak：山峰",
+  "another＋单数",
+  "other＋单数/复数",
+  "wife：妻子",
+  "husband：丈夫",
+  "spouse：配偶",
+  "couple：夫妻，一对",
+  "take a wife：娶妻",
+  "abandon one's wife：抛弃妻子",
+  "a nagging wife：唠唠叨叨的妻子",
+  "a jealous wife：妒妇",
+  "a lawful wife：原配夫人",
+  "a former wife：前妻",
+  "bank：银行；河岸",
+  "beach：海滩",
+  "coast：海滩，专业地理词",
+  "shore：海滨，海岸",
+  "along the banks of the rive",
+  "go into",
+  "come out of",
+  "standing",
+  "n.持续，地位；adj.永久的，不动的，直立的，不流动的",
+  "参考例句：",
+  "After the earthquake only a few houses were left standing.地震过后只有几幢房屋还立着。",
+  "They're standing out against any change in the law.他们坚决反对对法律做任何修改。",
+  "aeroplane",
+  "n.(英)飞机 (=airplane)",
+  "参考例句：",
+  "I can see that aeroplane,but I can't see a bird.我能看见那架飞机，但是小鸟我就看不见了。",
+  "The aeroplane was flying a few feet above the sea.飞机正在距海面几英尺的低空飞行。"
+ ]
+}

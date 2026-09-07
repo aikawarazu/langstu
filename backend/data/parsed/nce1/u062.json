@@ -1,0 +1,277 @@
+{
+ "unitId": "u062",
+ "unit": 62,
+ "lessons": [
+  {
+   "lesson": 123,
+   "title": "A trip to Australia",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Bill",
+     "en": "Look, Scott. This is a photograph I took during my trip to Australia."
+    },
+    {
+     "speaker": "Bob",
+     "en": "Let me see it, Bill. This is a good photograph. Who are these people?"
+    },
+    {
+     "speaker": "Bill",
+     "en": "They’re people I met during the trip. That’s the ship we traveled on."
+    },
+    {
+     "speaker": "Bob",
+     "en": "What a beautiful ship! Who’s this?"
+    },
+    {
+     "speaker": "Bill",
+     "en": "That’s the man I told you about. Remember?"
+    },
+    {
+     "speaker": "Bob",
+     "en": "Ah yes. The one who offered you a job in Australia."
+    },
+    {
+     "speaker": "Bill",
+     "en": "That’s right."
+    },
+    {
+     "speaker": "Bob",
+     "en": "Who’s this?"
+    },
+    {
+     "speaker": "Bill",
+     "en": "Guess!"
+    },
+    {
+     "speaker": "Bob",
+     "en": "It’s not you, is it?"
+    },
+    {
+     "speaker": "Bill",
+     "en": "That’s right. I grew a beard during the trip, but I shaved it off when I came home."
+    },
+    {
+     "speaker": "Bob",
+     "en": "Why did you shave it off?"
+    },
+    {
+     "speaker": "Bill",
+     "en": "My wife didn’t like it!"
+    }
+   ]
+  },
+  {
+   "lesson": 124,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "She is the woman I drove to London."
+    },
+    {
+     "en": "That's the film I saw."
+    },
+    {
+     "en": "That's the man I spoke to."
+    },
+    {
+     "en": "They are the thieves the police caught."
+    },
+    {
+     "en": "These are the letters I typed."
+    },
+    {
+     "en": "These are the people you asked me about."
+    },
+    {
+     "en": "B Which man? That man?"
+    },
+    {
+     "en": "Yes, that's the man I saw yesterday."
+    },
+    {
+     "en": "Which car? That car?"
+    },
+    {
+     "en": "Yes, that's the car I repaired yesterday."
+    },
+    {
+     "en": "Which woman? That woman?"
+    },
+    {
+     "en": "Yes, that's the woman I drove to London yesterday."
+    },
+    {
+     "en": "Which umbrella? That umbrella?"
+    },
+    {
+     "en": "Yes, that's the umbrella I bought yesterday."
+    },
+    {
+     "en": "Which medicine ?That medicine?"
+    },
+    {
+     "en": "Yes , that's the medicine I took yesterday."
+    },
+    {
+     "en": "Which man? That man?"
+    },
+    {
+     "en": "Yes, that's the man I invited to my house yesterday."
+    },
+    {
+     "en": "C That's right. This is the village I wrote to you about."
+    },
+    {
+     "en": "That's right. He is the person I have heard about."
+    },
+    {
+     "en": "That's right. This is the test I spoke to you about."
+    },
+    {
+     "en": "That's right. She is the woman I read about."
+    },
+    {
+     "en": "That's right. This is something(new) I haven't thought about."
+    },
+    {
+     "en": "That's right. This is something I must decide about."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": "Who is the man with the beard"
+ },
+ "words": [
+  {
+   "word": "trip",
+   "pos": "n",
+   "zh": "旅行"
+  },
+  {
+   "word": "travel",
+   "pos": "v",
+   "zh": "旅行"
+  },
+  {
+   "word": "offer",
+   "pos": "v",
+   "zh": "提供"
+  },
+  {
+   "word": "job",
+   "pos": "n",
+   "zh": "工作"
+  },
+  {
+   "word": "guess",
+   "pos": "v",
+   "zh": "猜"
+  },
+  {
+   "word": "beard",
+   "pos": "n",
+   "zh": "（下巴上的）胡子，络腮胡子"
+  }
+ ],
+ "translation": [
+  "迈 克：看，这是我到澳大利来旅行时",
+  "拍的一张照片。",
+  "斯科特：让我看看，迈克。",
+  "斯科特：这是一张很好的照片。这些人是谁。",
+  "迈 克：他们是我旅行时认识的人。",
+  "迈 克：这是我们所乘的那条船。",
+  "斯科特：多漂亮的船啊！",
+  "斯科特：这是谁？",
+  "迈 克：这就是我跟你说过的那个人。",
+  "还记得吗？",
+  "斯科特：啊，记得。就是在澳大利亚给你工作",
+  "的那个人。",
+  "迈 克：对。",
+  "斯科特：这是谁？",
+  "迈 克：你猜！",
+  "斯科特：这不是你，对吗？",
+  "迈 克：不，是我。",
+  "迈 克：我在旅行时留了胡子，",
+  "但我回到家时就把它刮了。",
+  "斯科特：你为什么把它刮了？",
+  "迈 克：我妻子不喜欢！"
+ ],
+ "notes": [
+  "1．What a beautiful  ship!多漂亮的轮船啊！",
+  "what引导的感叹句通常是由 What + a（n）+形容词+名词构成的。",
+  "2．That's right.对。",
+  "这句是对上面附加疑问句的回答。上面一句虽用否定形式提问，但回答则根据事实来决定是用肯定或是否定形式。That's right是肯定的回答，相当于Yes, it is（那正是我）。",
+  "3．grow a beard,留胡子。",
+  "4．shave it off,把胡子刮掉。",
+  "it指 a beard。",
+  "5．定语成分",
+  "standing",
+  "behind the",
+  "counter",
+  "和 repairing the road是现在分词短语，作后置定语，分别修饰 The man, The woman和The men。",
+  "I served yesterday 和I saw yesterday 是定语从句，分别修饰the man, the woman和the men。此处关系代词 whom省略了。",
+  "I bought yesterday和I found in the garden是定语从句，分别修饰 the book, the books和 the kitten。关系代词 which或 that 省略了。",
+  "定语从句中的省略",
+  "当关系代词代表主语并且从句中的谓语动词是（现在）进行时态时，关系代词及助动词be均可省略。如果关系代词在从句中代表宾语，则往往可以省略。此外，定语从句可用介词结尾。",
+  "请分别看以下的例句：",
+  "The woman  standing behind the counter served me.",
+  "站在柜台后边的那位妇女为我服务／招待了我。",
+  "This is the book I bought yesterday.",
+  "这就是我昨天买的那本书。",
+  "The man I served was wearing a hat.",
+  "我招待过的那个人当时戴着一顶帽子。",
+  "That's the ship we travelled on.",
+  "那就是我们旅行时乘的船。",
+  "That's the man I told you about.",
+  "那就是我告诉过你有关情况的那个人。",
+  "1．travel  v.",
+  "（1）旅行；游历：",
+  "He said that if he had a lot of money he would  travel around the world.",
+  "他说，如果他有很多钱的话，他将会周游全世界。",
+  "（2）行进；（被）传送：",
+  "Light travels faster than sound at the speed of 300,000 kilometres",
+  "per",
+  "second.",
+  "光速比声速要快，为每秒钟30万公里。",
+  "The news didn't travel as fast as we had expected.",
+  "这消息传播得不如我们所预料得那样快。",
+  "2．offer  v.",
+  "（1）（主动）给予；提供：",
+  "He is offered a job in Canada.",
+  "有人提供给他一份在加拿大的工作。",
+  "We offered some coffee to the guests.",
+  "我们为客人们提供了咖啡。",
+  "（2）提出；出（价）：",
+  "Do you have any good suggestions to offer?",
+  "你能否提供一些好的建议？",
+  "I'll offer you ￡ 30,000 for the house.",
+  "这所房子我愿出3万英镑买下来。",
+  "（3）（主动）表示愿意，提议：",
+  "He offered to help me with my",
+  "research",
+  "paper.",
+  "他表示愿意帮助我一起做我的研究论文。",
+  "‘I could lend you some books,’Jane offered.",
+  "“我可以借你一些书，”简自告奋勇地提议。",
+  "3．grow  v.",
+  "（1）生长；成长：",
+  "His hair has grown too long.",
+  "他的头发长得太长了。",
+  "The trees have grown",
+  "rapidly",
+  ".",
+  "树木生长得快。",
+  "（2）使生长；留（须发）：",
+  "He grew a beard during the trip.",
+  "他在旅行时留了胡子。",
+  "We grew a lot of roses in our garden.",
+  "我们在自己的花园里种植了大量的玫瑰花。"
+ ]
+}

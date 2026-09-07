@@ -1,0 +1,225 @@
+{
+ "unitId": "u012",
+ "unit": 12,
+ "lessons": [
+  {
+   "lesson": 23,
+   "title": "Which glasses?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Give me some glasses please, Jane.",
+     "zh": "丈夫：请拿给我几只玻璃杯，简。"
+    },
+    {
+     "en": "Which glasses?",
+     "zh": "妻子：哪几只？"
+    },
+    {
+     "en": "These glasses?",
+     "zh": "妻子：这几只吗？"
+    },
+    {
+     "en": "No, not those. The ones on the shelf.",
+     "zh": "丈夫：不，不是那几只。是架子上的那几只。"
+    },
+    {
+     "en": "These?",
+     "zh": "妻子：这几只？"
+    },
+    {
+     "en": "Yes, please.",
+     "zh": "丈夫：是的，请拿给我。"
+    },
+    {
+     "en": "Here you are.",
+     "zh": "妻子：给你。"
+    },
+    {
+     "en": "Thanks.",
+     "zh": "丈夫：谢谢。"
+    }
+   ]
+  },
+  {
+   "lesson": 24,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Give Jane this watch. Give her this one, too."
+    },
+    {
+     "en": "Give the children these ice creams. Give them these, too."
+    },
+    {
+     "en": "Give Tom this book. Give him this one, too."
+    },
+    {
+     "en": "That is my passport. Give me my passport please."
+    },
+    {
+     "en": "That is my coat. Give me my coat please."
+    },
+    {
+     "en": "Those are our umbrellas. Give us our umbrellas please."
+    },
+    {
+     "en": "B Give me some pens please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the desk."
+    },
+    {
+     "en": "Give me some ties please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the chair."
+    },
+    {
+     "en": "Give me some spoons please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the table."
+    },
+    {
+     "en": "Give me some plates please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the cupboard."
+    },
+    {
+     "en": "Give me some cigarettes please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the television."
+    },
+    {
+     "en": "Give me some boxes please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the floor."
+    },
+    {
+     "en": "Give me some bottles please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the dressing table."
+    },
+    {
+     "en": "Give me some books please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the shelf."
+    },
+    {
+     "en": "Give me some magazines please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the bed."
+    },
+    {
+     "en": "Give me some newspapers please."
+    },
+    {
+     "en": "Which ones? These?"
+    },
+    {
+     "en": "No, not those. The ones on the stereo"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Which glasses does the man want?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "on",
+   "pos": "prep",
+   "zh": "在……之上"
+  },
+  {
+   "word": "shelf",
+   "pos": "n",
+   "zh": "架子，搁板"
+  }
+ ],
+ "translation": [
+  "丈夫：请拿给我几只玻璃杯，简。",
+  "妻子：哪几只？",
+  "妻子：这几只吗？",
+  "丈夫：不，不是那几只。是架子上的那几只。",
+  "妻子：这几只？",
+  "丈夫：是的，请拿给我。",
+  "妻子：给你。",
+  "丈夫：谢谢。"
+ ],
+ "notes": [
+  "1．动词的双宾语",
+  "在Give me some glasses中，动词give后面有两个宾语，即直接宾语some glasses和间接宾语me。人称代词作宾语时要用人称代词的宾格。请参见Lessons 21～22语法部分。",
+  "2．The ones on the shelf.是架子上的那几只。",
+  "本句是省略句，句首省略了I want。句中的ones代表glasses。on the shelf是介词短语，作定语，修饰ones。",
+  "3．These?这几只？",
+  "是Do you want these?的省略形式。",
+  "4．Yes, please.是的，请拿给我。",
+  "当别人问你要不要某物而你同意要时，就可用这句话。又如：",
+  "假如你不同意要，则应说：",
+  "No, thank you.",
+  "不，谢谢。",
+  "5．数字1，117，1，420，1，925，2，000的英文写法",
+  "1，117----one thousand one hundred and seventeen",
+  "1，420----one thousand four hundred and twenty",
+  "1，925----one thousand nine hundred and twenty-five",
+  "2，000----two thousand",
+  "on引导的介词短语",
+  "（1）我们经常在名词、名词短语、代词或动名词前面用介词表示人物、事件等与其他人物、事件等之间的各种关系，如空间关系、时间关系、因果关系等。介词始终带有宾语。即使介词与宾语分开时，这种关系仍必定存在。有许多固定的介词短语常可见到。许多介词短语是由介词+名词（+介词）构成的，如：on time（准时），in the middle of（在……中间）。",
+  "（2）当我们从不同的角度看空间中的位置时，应根据我们想要表达的意思来选择介词。想表示在一个表面（即看来是平面）上面时，就可用介词on：",
+  "the pens on the desk桌上的钢笔",
+  "the boxes on the floor地板上的盒子",
+  "the bottles on the",
+  "dressing",
+  "table梳妆台上的瓶子",
+  "the magazines on the bed床上的杂志",
+  "desk与table",
+  "在汉语中，这两个词都被称为\"桌子\"，而在英语中，它们仍是有所区别的。",
+  "（1）desk通常指有抽屉的桌子，用于办公、读书、写字等，即\"书桌\"、\"写字台\"、\"办公桌\"：",
+  "He is working at his desk.",
+  "他正在自己的书桌前用功。",
+  "I put it on his desk.",
+  "我把它放在他的办公桌上了。",
+  "（2）table通常指由若干条腿支撑着的平板，没有抽屉，即\"餐桌\"、\"会议桌\"、\"工作台\"、\"手术台\"等：",
+  "I've booked a table for two at 7.00.",
+  "我预订了一张两人桌，是在7点钟。",
+  "They sat round the table and made this big decision.",
+  "他们围坐在会议桌旁，作出了这个重大的决定。"
+ ]
+}

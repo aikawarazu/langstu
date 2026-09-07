@@ -1,0 +1,230 @@
+{
+ "unitId": "u048",
+ "unit": 48,
+ "lessons": [
+  {
+   "lesson": 95,
+   "title": "Ticket, please.",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "George",
+     "en": "Two return tickets to London please. What time will the next train leave?"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "At nineteen minutes past eight."
+    },
+    {
+     "speaker": "George",
+     "en": "Which platform?"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Platform Two. Over the bridge."
+    },
+    {
+     "speaker": "Ken",
+     "en": "What time will the next train leave?"
+    },
+    {
+     "speaker": "George",
+     "en": "At eight nineteen."
+    },
+    {
+     "speaker": "Ken",
+     "en": "We’ve got plenty of time."
+    },
+    {
+     "speaker": "George",
+     "en": "It’s only three minutes to eight."
+    },
+    {
+     "speaker": "Ken",
+     "en": "Let’s go and have a drink. There’s a bar next door to the station."
+    },
+    {
+     "speaker": "George",
+     "en": "We had better go back to the station now, Ken."
+    },
+    {
+     "en": "Porter"
+    },
+    {
+     "en": ":          Tickets please."
+    },
+    {
+     "speaker": "George",
+     "en": "We want to catch the eight nineteen to London."
+    },
+    {
+     "speaker": "Porter",
+     "en": "You’ve just missed it!"
+    },
+    {
+     "speaker": "George",
+     "en": "What! It’s only eight fifteen."
+    },
+    {
+     "speaker": "Porter",
+     "en": "I’m sorry, sir. That clock’s ten minutes slow."
+    },
+    {
+     "speaker": "George",
+     "en": "When’s the next train?"
+    },
+    {
+     "speaker": "Porter",
+     "en": "In five hours’ time!"
+    }
+   ]
+  },
+  {
+   "lesson": 96,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I had better stay here."
+    },
+    {
+     "en": "We had better wait for him."
+    },
+    {
+     "en": "You had better call a doctor."
+    },
+    {
+     "en": "They had better go home."
+    },
+    {
+     "en": "She had better hurry."
+    },
+    {
+     "en": "You had better be careful."
+    },
+    {
+     "en": "B I'll go to Sydney in a month's time."
+    },
+    {
+     "en": "The next train will leave for Geneva in an hour's time."
+    },
+    {
+     "en": "I'll fly to Beijing in two days' time."
+    },
+    {
+     "en": "Jean and I will go to London in an hour's time."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why did George and Ken miss the train?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "return",
+   "pos": "n",
+   "zh": "往返"
+  },
+  {
+   "word": "train",
+   "pos": "n",
+   "zh": "火车"
+  },
+  {
+   "word": "platform",
+   "pos": "n",
+   "zh": "站台"
+  },
+  {
+   "word": "plenty",
+   "pos": "n",
+   "zh": "大量"
+  },
+  {
+   "word": "bar",
+   "pos": "n",
+   "zh": "洒吧"
+  },
+  {
+   "word": "station",
+   "pos": "n",
+   "zh": "车站，火车站"
+  },
+  {
+   "word": "porter",
+   "pos": "n",
+   "zh": "收票员"
+  },
+  {
+   "word": "miss",
+   "pos": "v",
+   "zh": "错过"
+  }
+ ],
+ "translation": [
+  "乔 治：买两张到伦敦的往返票。",
+  "下一班火车什么时候开？",
+  "服务员：8点19分。",
+  "乔 治：在哪个站台？",
+  "服务员：2号站台。过天桥。",
+  "肯：下一班火车什么时候开？",
+  "乔 治：8点19分。",
+  "肯：我们时间还很宽裕。",
+  "乔 治：现在才7点57分。",
+  "肯：让我们去喝点东西吧，",
+  "车站旁有一个酒吧。",
+  "乔 治：肯，我们现在最好回车站去。",
+  "收票员：请把车票拿出来。",
+  "乔 治：我们要乘8点19分的车去伦敦。",
+  "收票员：你们刚好错过了那班车。",
+  "乔 治：什么！现在只有8点15分。",
+  "收票员：对不起，先生，那个钟慢了10分钟。",
+  "乔 治：下一班车是什么时候？",
+  "收票员：5个小时以后！"
+ ],
+ "notes": [
+  "1．plenty of, 充足的，足够的。",
+  "后面可跟可数名词或不可数名词。",
+  "2．ten minutes slow, 慢 10分钟； ten minutes fast, 快 10分钟。",
+  "3．When's the next train?下一班车是什么时候？",
+  "这个句子是用来询问火车启程时间时常见的句型。",
+  "had better与 must",
+  "had better表示“最好还是”、“最好”，表达某种忠告或建议。",
+  "must则表示“必须”、“一定”，语气比 had better强烈。",
+  "had better表示现在时或将来时，而不是过去时。其否定形式为 had better not",
+  "1．exact  adj.",
+  "（1）精确的；确切的；恰好的：",
+  "What is the exact time?",
+  "确切时间是什么时候？",
+  "This",
+  "vase",
+  "is an exact",
+  "replica",
+  ".",
+  "这只花瓶是件很巧妙的复制品。",
+  "It's the exact shape I've been looking for.",
+  "这恰好是我一直以来要寻找的形状。",
+  "（2）严格的；严厉的：",
+  "The workers must obey exact rules.",
+  "工人们必须遵守严格的规定。",
+  "2．catch  v.",
+  "（1）赶上；及时赶到：",
+  "We must hurry if we want to catch the last train.",
+  "如果我们想赶上最后一班火车就必须快点。",
+  "Every morning she would catch the 7.30 train to town.",
+  "每天早上她都赶7点半的那班火车进城。",
+  "（2）听清楚；理解：",
+  "I didn't catch what you said just now.",
+  "我没听清楚你刚才所说的话。",
+  "（3）引起（注意等）；吸引，迷住：",
+  "The bright colours on the wall caught our attention.",
+  "墙壁上鲜艳的颜色吸引了我们的注意力。",
+  "The beautiful view in front of me caught and held me.",
+  "我面前美丽的景色把我迷住了。"
+ ]
+}

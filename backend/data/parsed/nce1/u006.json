@@ -1,0 +1,296 @@
+{
+ "unitId": "u006",
+ "unit": 6,
+ "lessons": [
+  {
+   "lesson": 11,
+   "title": "Is this your shirt?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "TEACHER：Whose shirt is that?"
+    },
+    {
+     "en": "TEACHER：Is this your shirt, Dave?"
+    },
+    {
+     "speaker": "DAVE",
+     "en": "No. Sir."
+    },
+    {
+     "en": "It's not my shirt."
+    },
+    {
+     "speaker": "DAVE",
+     "en": "This is my shirt."
+    },
+    {
+     "en": "My shirt's blue."
+    },
+    {
+     "speaker": "TEACHER",
+     "en": "Is this shirt Tim's?"
+    },
+    {
+     "en": "DAVE:"
+    },
+    {
+     "en": "Perhaps it is, sir."
+    },
+    {
+     "en": "Tim's shirt's white."
+    },
+    {
+     "en": "TEACHER：Tim!"
+    },
+    {
+     "speaker": "TIM",
+     "en": "Yes, sir?"
+    },
+    {
+     "en": "TEACHER：Is this your shirt?"
+    },
+    {
+     "speaker": "TIM",
+     "en": "Yes, sir."
+    },
+    {
+     "en": "TEACHER：Here you are."
+    },
+    {
+     "en": "Catch!"
+    },
+    {
+     "speaker": "TIM",
+     "en": "Thank you, sir."
+    }
+   ]
+  },
+  {
+   "lesson": 12,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Stella is here. That is her car."
+    },
+    {
+     "en": "Excuse me, Steven. Is this your umbrella?"
+    },
+    {
+     "en": "I am an air hostess"
+    },
+    {
+     "en": ". My name is Britt."
+    },
+    {
+     "en": "Paul is here, too. That is his coat."
+    },
+    {
+     "en": "B Whose is this handbag"
+    },
+    {
+     "en": "? It's Stella 's. It's her handbag."
+    },
+    {
+     "en": "Whose is this car? It's Paul's. It's his car."
+    },
+    {
+     "en": "Whose is this coat? It's Sophie 's. It's her coat."
+    },
+    {
+     "en": "Whose is this umbrella? It's Steven's. It's his umbrella."
+    },
+    {
+     "en": "Whose is this pen? It's my daughter's. It's her pen."
+    },
+    {
+     "en": "Whose is this dress? It's my son's. It's his dress."
+    },
+    {
+     "en": "Whose is this suit"
+    },
+    {
+     "en": "? It's my father's. It's his suit."
+    },
+    {
+     "en": "Whose is this skirt? It's my mother's. It's her skirt."
+    },
+    {
+     "en": "Whose is this blouse? It's my sister's. It's her blouse."
+    },
+    {
+     "en": "Whose is this tie? It's my brother's. It's his tie."
+    },
+    {
+     "en": "Whose is this pen? It's Sophie's. It's her pen."
+    },
+    {
+     "en": "Whose is this pencil? It's Hans'. It's his pencil."
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Whose shirt is white?",
+  "zh": "谁的衬衣是白色的"
+ },
+ "words": [
+  {
+   "word": "blue",
+   "pos": "adj",
+   "zh": "蓝色的"
+  },
+  {
+   "word": "perhaps",
+   "pos": "adv",
+   "zh": "大概"
+  },
+  {
+   "word": "white",
+   "pos": "adj",
+   "zh": "白色的"
+  },
+  {
+   "word": "catch",
+   "pos": "v",
+   "zh": "抓住"
+  }
+ ],
+ "translation": [
+  "老师：那是谁的衬衫？",
+  "老师：戴夫， 这是你的衬衫吗？",
+  "戴夫：不， 先生。这不是我的衬衫。",
+  "戴夫：这是我的衬衫。我的衬衫是蓝色的。",
+  "老师：这件衬衫是蒂姆的吗？",
+  "戴夫：也许是，先生。蒂姆的衬衫是白色的。",
+  "老师：蒂姆！",
+  "蒂姆: 什么事，先生。",
+  "老师：这是你的衬衫吗？",
+  "蒂姆：是的，先生。",
+  "老师：给你。接着！",
+  "蒂姆：谢谢您，先生。"
+ ],
+ "notes": [
+  "1．Whose shirt is that？那是谁的衬衫？",
+  "这是特殊疑问句。读时用降调。",
+  "2．Yes，sir？什么事，先生？",
+  "请参见 Lessons 1～2课文详注以及 Lessons 3～4课文详注。",
+  "3．Here you are．给你。",
+  "是给对方东西时的习惯用语。递给对方东西或对方在找某物而你指出该物在什么地方时，往往用这种表达方式。也可以说：Here it is（指单数的物）或 Here they are（指复数的物）。句中的are和is一般应重读。",
+  "4．非省略形式和省略形式之间的关系",
+  "it is not = it isn't = it's not。",
+  "5．数字30的英文写法",
+  "30 -thirty",
+  "语法",
+  "Grammar",
+  "in use",
+  "1．以疑问词 whose 引导的特殊疑问句",
+  "（1）用来询问所有关系。所有者总是一个人而且期望得到的回答是某人的名字加-'s形式（如 Tim's蒂姆的），或者是一个所有格代词（如 mine我的）。",
+  "（2）这时 whose 也可在句子中作表语，如：",
+  "（3）当所有关系中指的是某件东西或某种物质时，whose后面的名词可以省略：",
+  "2．所有格形容词和所有格代词（1）",
+  "（1）所有格形容词与所有格代词都表示所有，即某人或某物属于某一个人，回答以whose引导的问句。所有格形容词my，your等是限定词，必须始终放在名词之前，只能作定语。它们的形式取决于所有者，而不是被拥有的东西。所有格代词mine，yours等不能用在名词前，并且在说话时要加重语气。它们指人或物，单数或复数都一样。请见下表：",
+  "如：",
+  "This is my car.",
+  "这是我的汽车。（定语）",
+  "That is her coat.",
+  "这是她的上衣。（定语）",
+  "Your car is red，mine is blue.",
+  "你的车是红色的，我的是蓝色的。（主语）",
+  "This book is his，not yours.",
+  "这本书是他的，不是你的。（表语）",
+  "I have my way, and she has hers.",
+  "我有我的处事方式，她有她的。（宾语）",
+  "（2）名词所有格是在词尾加-'s构成的，不仅可作定语，还可作表语：",
+  "Is this Dave's shirt?",
+  "这是戴夫的衬衫吗？（作定语）",
+  "Whose is that shirt? Is it your daughter's?",
+  "那条裙子是谁的？是你女儿的吗？（作表语）",
+  "1．perhaps  adv.",
+  "或许，大概，可能：",
+  "Perhaps it is, sir.",
+  "也许是，先生。",
+  "Perhaps it will rain.",
+  "也许要下雨了。",
+  "Perhaps it's Sophie's handbag.",
+  "也许这是索菲娅的手提包。",
+  "2．catch  v.",
+  "（1）接住，拦住：",
+  "Catch!",
+  "接着！",
+  "（2）逮住，捕获：",
+  "catch a",
+  "thief",
+  "捉住一个贼",
+  "（3）染上（疾病）：",
+  "catch a cold 伤风",
+  "I have caught a bad cold.",
+  "我得了重感冒。",
+  "课堂笔记",
+  "特殊疑问句的变换：",
+  "Step",
+  "1. 确定特殊疑问词",
+  "Step 2. 把句子变成一般疑问句 Is this whose shirt?",
+  "Step 3. 把特殊疑问词提前 Whose shirt is this?",
+  "This shirt is whose?",
+  "Is this shirt whose？",
+  "Whose is this shirt?",
+  "另一个语法点：名词所有格",
+  "Tim's Jones' boss's",
+  "一般情况直接加's",
+  "人名字如果是s结尾的，直接加'",
+  "单词是s结尾的，加's",
+  "名词所有格有两种属性：形容词性、名词性",
+  "This is Tim's shirt. This shirt is Tim's.",
+  "Whose shirt is this? Whose is this shirt?",
+  "如果这个词后面跟了一个名词，那么就是形容词性所有格",
+  "如果它是单独使用的，那么就是名词性所有格",
+  "This is Lucy's umbrella.",
+  "This umbrella is Lucy's.",
+  "This is her umbrella.",
+  "This umbrella is hers.",
+  "Whose umbrella is this? Whose is this umbrella?",
+  "blue movie 不健康的电影（黄色电影）",
+  "perhaps表示可能但不肯定，可以和maybe互换",
+  "white-collar blue-collar pink-collar一般由妇女从事的职业",
+  "white book政治或财政方面的书 white lie善意的谎言 True Lie",
+  "White House白宫 White Hall",
+  "as white as snow",
+  "新概念英语默写本点击购买",
+  "perhaps",
+  "adv.也许，可能",
+  "参考例句：",
+  "Perhaps it will rain in the afternoon.下午可能有雨。",
+  "Perhaps I can help you.也许我能帮帮你的忙吧。",
+  "expressions",
+  "n.表情( expression的名词复数 )；表示；（数学）表达式；词",
+  "参考例句：",
+  "ritualized expressions of grief 以例行的方式表达悲伤",
+  "The fashionable remarks of today often become the commonplace expressions of tomorrow. 今天的时髦话往往变成明天的陈词滥调。 来自《简明英汉词典》",
+  "grammar",
+  "n.语法，语法规则",
+  "参考例句：",
+  "I find German grammar very difficult.我发现德语语法很难学。",
+  "He spent much time correcting my grammar.他花了很多时间来改我的语法错误。",
+  "hostess",
+  "n.女主人，女房东，女老板",
+  "参考例句：",
+  "The hostess set a lamp on the table.女主人把一盏灯放在桌子上。",
+  "The hostess pressed fish on her guests.女主人催促客人吃鱼。",
+  "handbag",
+  "n.手提袋，女用提包",
+  "参考例句：",
+  "The girl bought a nice handbag.这女孩买了一个精致的手提包。",
+  "Why do not you clean out your handbag? 你为何不把你的手提包清理干净呢？",
+  "suit",
+  "n.(一套)衣服；起诉；v.合适，中..的意；相称",
+  "参考例句：",
+  "That suit is so expensive.这套衣服很贵。",
+  "Which day would suit you?哪一天适合你？",
+  "thief",
+  "n.贼；小偷",
+  "参考例句：",
+  "He saw the thief running away.他看见贼逃走了。"
+ ]
+}

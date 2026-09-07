@@ -1,0 +1,210 @@
+{
+ "unitId": "u063",
+ "unit": 63,
+ "lessons": [
+  {
+   "lesson": 125,
+   "title": "Tea for two",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Susan",
+     "en": "Can’t you come in and have tea now, Peter?"
+    },
+    {
+     "speaker": "Peter",
+     "en": "Not yet, dear. I must water the garden first."
+    },
+    {
+     "speaker": "Susan",
+     "en": "Do you have to water it now?"
+    },
+    {
+     "speaker": "Peter",
+     "en": "I’m afraid I must. Look at it!   It’s terribly dry."
+    },
+    {
+     "speaker": "Susan",
+     "en": "What a nuisance"
+    },
+    {
+     "speaker": "Peter",
+     "en": "Last summer it was very dry, too. Don’t you remember? I had to water it every day."
+    },
+    {
+     "speaker": "Susan",
+     "en": "Well, I’ll have tea by myself. That was quick! Have you finished already?"
+    },
+    {
+     "speaker": "Peter",
+     "en": "Yes, dear. Look out of the window."
+    },
+    {
+     "speaker": "Susan",
+     "en": "Good heaven! It’s raining. That means you needn’t water the garden."
+    },
+    {
+     "speaker": "Peter",
+     "en": "That was a pleasant surprise. It means I can have tea, instead."
+    }
+   ]
+  },
+  {
+   "lesson": 126,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Does she have to decide immediately?"
+    },
+    {
+     "en": "She doesn't have to decide immediately."
+    },
+    {
+     "en": "Must she decide immediately?"
+    },
+    {
+     "en": "She needn't decide immediately."
+    },
+    {
+     "en": "Do we have to take a taxi?"
+    },
+    {
+     "en": "We don't have to take a taxi."
+    },
+    {
+     "en": "Must we take a taxi?"
+    },
+    {
+     "en": "We needn't take a taxi."
+    },
+    {
+     "en": "B I have to telephone him, too."
+    },
+    {
+     "en": "Mary has to wait for him, too."
+    },
+    {
+     "en": "Jim has to meet her ,too."
+    },
+    {
+     "en": "Tom and Mary have to travel by ship, too."
+    },
+    {
+     "en": "C Do you really have to telephone him?"
+    },
+    {
+     "en": "Does Mary really have to wait for him?"
+    },
+    {
+     "en": "Does Jim really have to meet her?"
+    },
+    {
+     "en": "Do Tom and Mary really have to travel by ship?"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Does Susan have tea by herself?",
+  "zh": "苏"
+ },
+ "words": [
+  {
+   "word": "water",
+   "pos": "v",
+   "zh": "浇水"
+  },
+  {
+   "word": "terribly",
+   "pos": "adv",
+   "zh": "非常"
+  },
+  {
+   "word": "dry",
+   "pos": "adj",
+   "zh": "干燥的，干的"
+  },
+  {
+   "word": "nuisance",
+   "pos": "n",
+   "zh": "讨厌的东西或人"
+  },
+  {
+   "word": "surprise",
+   "pos": "n",
+   "zh": "惊奇，意外的事"
+  }
+ ],
+ "translation": [
+  "苏珊：彼得，你现在能进来喝茶吗？",
+  "彼得：还不能。我得先给花园浇水。",
+  "苏珊：你一定得现在浇吗？",
+  "彼得：恐怕我得现在浇。你看看，干得厉害。",
+  "苏珊：真讨厌！",
+  "彼得：去年夏天也是干得很。",
+  "你记得了吗？我不得不每天浇水。",
+  "苏珊：好吧，我一个喝茶了。",
+  "苏珊：好快啊！你已经浇完了？",
+  "彼得：是的。你看看窗外。",
+  "苏珊：下雨了，这就是就是说，",
+  "你不必给花园浇水了。",
+  "彼得：这是意想不能的好事。",
+  "这意味着我反倒可以喝茶了。"
+ ],
+ "notes": [
+  "1．Can't you come in and have tea now, Peter?彼得，你现在能进来喝茶吗？",
+  "这是否定疑问句，表示邀请。请参见 Lessons 77～78语法部分。",
+  "2．Don't you remember?你不记得了吗？",
+  "这也是否定疑问句。",
+  "3．don't need to= needn't。",
+  "表示“不必”，是 must和 have to的一般现在时否定式。",
+  "4． a pleasant surprise,意想不到的好事，令人惊喜的事。",
+  "must, have to和 needn't",
+  "这3个词都表示必要性。在前面已对 must和 have to介绍过。",
+  "must是情态助动词，而have to是普通动词，二者在肯定句中一般可以互换，表示不可逃避的义务或责任。must更带有说话人的主观色彩，而have to则更强调客观要求和外界影响。",
+  "must一般只能表达现在的必要性，而have to则可以表达过去或将来的必要性。",
+  "I shall have to leave London tomorrow.",
+  "我明早得离开伦敦。",
+  "I had to stop",
+  "smoking",
+  "because it was forbidden in my company.",
+  "因为我所在的公司内禁止抽烟，所以我不得不停止了吸烟。",
+  "如果我们用 must来提问，则只能用needn't来表达否定的回答。 needn't 还可以理解为have to的否定回答。needn't (don't need to)和 don't have to都表示不必要；而 mustn't却表示绝对禁止，在说话人看来根本没有选择余地。请看例句：",
+  "You mustn't turn left.",
+  "你不能左转弯。（表示绝对禁止）",
+  "1．mean  v.",
+  "（1）意味着，即：",
+  "It's raining! That means you don't need to water the garden.",
+  "下雨了！这就是说，你不必给花园浇水了。",
+  "（2）（词语）表示……意思：",
+  "What does‘perfume’ mean  in English?",
+  "“perfume”一词在英语中是什么意思？",
+  "The green light means‘Go on.’",
+  "绿灯的意思是“继续向前”。",
+  "（3）意指；意欲：",
+  "What I mean is that we'll have to go back and look for it.",
+  "我的意思是：我们必须回去寻找它。",
+  "He didn't mean to hurt you.",
+  "他的本意并不是想伤害你。",
+  "2．water  v.",
+  "（1）浇（洒）水；供水；喂水：",
+  "The garden is very dry, I'm going to water it tomorrow morning.",
+  "花园里很干了，明早我准备给它浇些水。",
+  "Tim is watering his lovely little dog.",
+  "蒂姆正在给他那只可爱的小狗喂水。",
+  "（2）充满水；充满泪水；流口水：",
+  "He felt sad and his eyes watered  a little.",
+  "他感到难过，眼睛有点儿湿润了。",
+  "Ice cream always makes his mouth  water.",
+  "冰淇淋总能让他馋得淌口水。",
+  "（3）搀水冲淡；加水稀释：",
+  "Someone had been watering the milk.",
+  "有人往牛奶里搀了水。",
+  "He always waters drinks and sells them to tourists.",
+  "他总是在饮料里搀水并将之卖给游客们。"
+ ]
+}

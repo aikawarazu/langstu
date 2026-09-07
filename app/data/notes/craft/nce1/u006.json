@@ -1,0 +1,108 @@
+{
+  "title": "Is this your shirt? / Whose is this …?",
+  "subtitle": "这是你的衬衣吗？/ 这是谁的……？",
+  "lead": {
+    "question": "地上捡到一件衬衫，你怎么找到失主？",
+    "warmup": "本课你要学一个新的疑问词。先做个小实验：\n中文问「这是**谁**的衬衫」和「**谁**的衬衫是白的」——「谁」在这两处问的对象不一样：一个问「物属于谁」，一个问「人是谁」。英语把这两件事分给了两个长得几乎一样的词：whose 和 who's。\n它们读音完全相同（都读 /huːz/），但意思不同。先记结论：**问归属用 whose**。然后带着这个判断去听第 11 课，看老师在教室里怎么追问那件衬衫的主人。",
+    "goals": [
+      "能用 Whose is this / that …? 询问物品归属",
+      "能用名词所有格 's 回答：It's Tim's.（蒂姆的）",
+      "能用 his / her 代替人名复述归属：It's her handbag.",
+      "会说 Here you are. Catch! 这两句递东西的常用语"
+    ],
+    "summary": "第 11 课是教室里的一幕：老师举着一件衬衫从 Dave 问到 Tim，最后用 Here you are. Catch! 把衬衫扔还给失主。核心语法只有一个——名词所有格 's（Tim's shirt = Tim 的衬衫）。第 12 课把 Whose is this …? 铺开操练，回答分两步：先用人名+'s（It's Stella's.），再用 his/her + 物（It's her handbag.）。",
+    "tips": "① whose 与 who's 同音不同义：whose 问「谁的」，who's = who is 问「是谁」；② 所有格 's 加在人名后：Tim's（Tim 的），不是 Tims'；③ It's Stella's. 里 Stella's 后面的名词被省略了，避免重复；④ Catch! 意思是「接住！」，是扔东西时的提醒；⑤ Dave 说 No, Sir. 时 sir 单独用要大写吗？——句中一般小写，称呼语开头可大写。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Whose shirt is white?",
+      "zh": "谁的衬衣是白色的？",
+      "a": "Tim's.",
+      "aZh": "蒂姆的。",
+      "hint": "Dave 替老师提供了线索：Tim's shirt's white."
+    },
+    {
+      "kind": "detail",
+      "q": "What colour is Dave's shirt?",
+      "zh": "戴夫的衬衣是什么颜色？",
+      "a": "It's blue.",
+      "aZh": "是蓝色的。",
+      "hint": "Dave 说 My shirt's blue."
+    },
+    {
+      "kind": "detail",
+      "q": "Is the shirt the teacher holds Dave's?",
+      "zh": "老师手里那件衬衫是戴夫的吗？",
+      "a": "No, it isn't. Dave's shirt is blue, and his is white.",
+      "aZh": "不是。戴夫的衬衫是蓝的，这件是白的。",
+      "hint": "Dave 连说了两句否定：No, Sir. It's not my shirt."
+    },
+    {
+      "kind": "detail",
+      "q": "What does the teacher say when he gives the shirt back to Tim?",
+      "zh": "老师把衬衫还给蒂姆时说了什么？",
+      "a": "Here you are. Catch!",
+      "aZh": "给你。接住！",
+      "hint": "衬衫是被「扔」过去的。"
+    },
+    {
+      "kind": "think",
+      "q": "In \"Whose is this car? — It's Stella's.\", why can we stop at \"Stella's\" without saying \"car\" again?",
+      "zh": "回答 It's Stella's. 时，Stella's 后面为什么不重复 car？",
+      "a": "The noun is left out to avoid repeating it — Stella's = Stella's car. English often drops the noun after a possessive when it is clear from context.",
+      "aZh": "为了避免重复，所有格后面的名词省略了：Stella's = Stella's car。上下文清楚时英语常这样省。",
+      "hint": "想想中文「这是斯特拉的」——也没说「的车」。"
+    },
+    {
+      "kind": "drill",
+      "q": "Whose is this handbag? — It's Stella's. It's her handbag. / Whose is this car? — It's Paul's. It's his car.",
+      "zh": "第 12 课操练：这是谁的……？——是……的。这是他/她的……。（把 5 组物品问一遍，先答人名，再换 his/her 复述）",
+      "a": "Whose is this coat? — It's Sophie's. It's her coat. / Whose is this umbrella? — It's Steven's. It's his umbrella.",
+      "aZh": "这是谁的外套？——是索菲的，她的外套。",
+      "hint": "女性的物品用 her，男性的用 his。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "whose", "phonetic": "/huːz/", "meanings": [{ "pos": "pron.", "meaning": "谁的", "usage": "问归属；与 who's（who is）同音不同义" }], "examples": [{ "en": "Whose is this shirt?", "zh": "这件衬衣是谁的？" }] },
+    { "word": "shirt", "phonetic": "/ʃɜːt/", "meanings": [{ "pos": "n.", "meaning": "衬衣", "usage": "第 11 课核心词" }], "examples": [{ "en": "Is this your shirt, Dave?", "zh": "这是你的衬衣吗，戴夫？" }] },
+    { "word": "catch", "phonetic": "/kætʃ/", "meanings": [{ "pos": "v.", "meaning": "接住；抓住", "usage": "扔东西给对方时喊 Catch!" }], "examples": [{ "en": "Here you are. Catch!", "zh": "给你。接住！" }] },
+    { "word": "sir", "phonetic": "/sɜː/", "meanings": [{ "pos": "n.", "meaning": "先生", "usage": "学生对男老师、店员对男顾客的尊称" }] }
+  ],
+  "textExtra": [
+    {
+      "lesson": 12,
+      "title": "Whose is this …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Whose is this ___? — It's ___. It's his / her ___.",
+        "zh": "这是谁的……？——是……的。这是他/她的……。（把下面的物品挨个问一遍，两种答法都要练）",
+        "slots": [
+          { "en": "handbag → Stella", "zh": "手提包 → 斯特拉" },
+          { "en": "car → Paul", "zh": "小汽车 → 保罗" },
+          { "en": "coat → Sophie", "zh": "外套 → 索菲" },
+          { "en": "umbrella → Steven", "zh": "雨伞 → 史蒂文" },
+          { "en": "shirt → Tim", "zh": "衬衣 → 蒂姆" }
+        ],
+        "answers": ["It's Stella's. It's her handbag.", "It's Paul's. It's his car."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：这是谁的衬衣？", "a": "Whose shirt is this? （= Whose is this shirt?）", "note": "问归属用 whose，不用 who's。" },
+    { "q": "回答：Whose is this car?（保罗的）", "a": "It's Paul's.", "note": "人名后加 's 表示「某人的」；后面的名词可省略。" },
+    { "q": "填空：Stella is here. That is ___ car.", "a": "her", "note": "Stella 是女性，用 her；男性的物品用 his。" },
+    { "q": "汉译英：给你。接住！", "a": "Here you are. Catch!", "note": "递东西的固定说法，语序固定。" },
+    { "q": "改错：Who's shirt is this?", "a": "Whose shirt is this?", "note": "who's = who is（是谁），问归属要用 whose。" },
+    { "q": "回答：Is this your shirt, Dave?（否定）", "a": "No, it isn't. It's not my shirt.", "note": "否定回答用 it 指代 this。" },
+    { "q": "汉译英：我的衬衣是蓝色的。", "a": "My shirt is blue. （= My shirt's blue.）", "note": "shirt's 里的 's 是 is，不是所有格——同一个 's，两种用法，靠位置区分。" }
+  ],
+  "quiz": [
+    { "q": "问「这是谁的伞」，应该说：", "options": ["Whose is this umbrella?", "Who's this umbrella?", "Whose this umbrella is?", "What is this umbrella?"], "answer": 0, "note": "问归属用 Whose；who's = who is 只能问「人是谁」。" },
+    { "q": "— Whose is this coat? — ____", "options": ["It's Sophie's.", "It's Sophie.", "It's Sophies'.", "It's her Sophie."], "answer": 0, "note": "人名后加 's 构成所有格；Sophies' 的撇号位置是复数所有格，不对。" },
+    { "q": "Whose 和 who's 的区别是：", "options": ["Whose 问归属，who's = who is 问身份", "两者同音同义，可互换", "Whose 问人，who's 问物", "英语只有 who's"], "answer": 0, "note": "同音不同义：Whose shirt is white? 问物；Who's Tim? 问人。" },
+    { "q": "结合课文：Stella is here. That is her car. 中的 her 指：", "options": ["斯特拉的", "保罗的", "我的", "老师的"], "answer": 0, "note": "前一句主语是 Stella，her 指她的。" },
+    { "q": "把东西递给对方时说「给你」，正确的是：", "options": ["Here you are.", "Here are you.", "You are here.", "Give you."], "answer": 0, "note": "Here you are. 是固定语序；You are here. 是「你在这里」，意思完全不同。" },
+    { "q": "My shirt's blue. 中 shirt's 的 's 表示：", "options": ["is（shirt is）", "「某人的衬衣」", "复数 shirts", "was"], "answer": 0, "note": "同一个 's 可以是 is 也可以是所有格，看它在 be 动词的位置还是在名词后。" }
+  ]
+}

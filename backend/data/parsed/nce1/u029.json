@@ -1,0 +1,114 @@
+{
+ "unitId": "u029",
+ "unit": 29,
+ "lessons": [
+  {
+   "lesson": 58,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "She usually drinks tea in the morning, but this morning, she is drinking coffee."
+    },
+    {
+     "en": "They usually play in the garden in the afternoon, but this afternoon, they are playing in the park."
+    },
+    {
+     "en": "He usually washes the dishes at night, but tonight he is washing clothes."
+    },
+    {
+     "en": "B What does she usually do in the morning?"
+    },
+    {
+     "en": "She usually drinks tea in the morning."
+    },
+    {
+     "en": "What is she doing this morning?"
+    },
+    {
+     "en": "She is drinking coffee."
+    },
+    {
+     "en": "What do they usually do in the afternoon?"
+    },
+    {
+     "en": "They usually play in the garden in the afternoon."
+    },
+    {
+     "en": "What are they doing this afternoon?"
+    },
+    {
+     "en": "They are swimming in the river."
+    },
+    {
+     "en": "What do you usually do in the evening?"
+    },
+    {
+     "en": "I usually cook a meal in the evening."
+    },
+    {
+     "en": "What are you doing this evening?"
+    },
+    {
+     "en": "I am reading a book this evening."
+    },
+    {
+     "en": "What do you usually do at night?"
+    },
+    {
+     "en": "We usually watch television at night."
+    },
+    {
+     "en": "What are you doing tonight?"
+    },
+    {
+     "en": "We are listening to the stereo tonight."
+    }
+   ]
+  },
+  {
+   "lesson": 57,
+   "title": "An unusual day",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Ten past seven."
+    },
+    {
+     "en": "Twenty past nine."
+    },
+    {
+     "en": "It's half past eight."
+    },
+    {
+     "en": "It's half past ten."
+    },
+    {
+     "en": "Ten to seven."
+    },
+    {
+     "en": "Twenty to four."
+    },
+    {
+     "en": "Two to two."
+    },
+    {
+     "en": "a quarter A quarter past one."
+    },
+    {
+     "en": "It's a quarter to four."
+    },
+    {
+     "en": "It's a quarter past nine."
+    },
+    {
+     "en": "It's a quarter to seven."
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [],
+ "translation": [],
+ "notes": []
+}

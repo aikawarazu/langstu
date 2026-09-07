@@ -1,0 +1,277 @@
+{
+ "unitId": "u022",
+ "unit": 22,
+ "lessons": [
+  {
+   "lesson": 43,
+   "title": "Hurry up!",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Can you make the tea, Sam?",
+     "zh": "彭妮：你会沏茶吗，萨姆？"
+    },
+    {
+     "en": "Yes, of course I can, Penny",
+     "zh": "萨姆：会的，我当然会，彭妮。"
+    },
+    {
+     "en": "Yes, there is.",
+     "zh": "萨姆：这水壶里有水吗？"
+    },
+    {
+     "en": "Where’s the tea?",
+     "zh": "彭妮：有水。"
+    },
+    {
+     "en": "It’s over there, behind the teapot.",
+     "zh": "萨姆：茶叶在哪儿？"
+    },
+    {
+     "en": "Can you see it?",
+     "zh": "彭妮：就在那儿，茶壶后面。"
+    },
+    {
+     "en": "I can see the teapot, but I can’t see the tea.",
+     "zh": "彭妮：你看见了吗？"
+    },
+    {
+     "en": "There it is!",
+     "zh": "萨姆：茶壶我看见了，但茶叶没看到。"
+    },
+    {
+     "en": "It’s in front of you.",
+     "zh": "彭妮：那不是么！ 就在你眼前。"
+    },
+    {
+     "en": "Ah yes, I can see it now.",
+     "zh": "萨姆：噢，是啊，我现在看到了。"
+    },
+    {
+     "en": "Where are the cups?",
+     "zh": "萨姆：茶杯在哪儿呢？"
+    },
+    {
+     "en": "Can you find them?",
+     "zh": "彭妮：碗橱里有几只。"
+    },
+    {
+     "en": "Yes. Here they are.",
+     "zh": "彭妮：你找得到吗？"
+    },
+    {
+     "en": "Hurry up, Sam.",
+     "zh": "萨姆：找得到。就在这儿呢。"
+    },
+    {
+     "en": "The kettle’s boiling.",
+     "zh": "彭妮：快，萨姆。水开了！"
+    }
+   ]
+  },
+  {
+   "lesson": 44,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I can see some spoons, but I can't see any knives."
+    },
+    {
+     "en": "I can see some hammers, but I can't see any boxes."
+    },
+    {
+     "en": "I can see some coffee, but I can't see any loaves of bread."
+    },
+    {
+     "en": "I can see some cupboards, but I can't see any shelves."
+    },
+    {
+     "en": "I can see Mr. Jones and Mr. Brown, but I can't see their wives."
+    },
+    {
+     "en": "I can see some cups, but I can't see any dishes."
+    },
+    {
+     "en": "I can see some cars, but I can't see any buses."
+    },
+    {
+     "en": "B Is there any milk here?"
+    },
+    {
+     "en": "Yes, there is. There's some in front of the door."
+    },
+    {
+     "en": "Is there any soap here?"
+    },
+    {
+     "en": "Yes, there is. There's some on the cupboard."
+    },
+    {
+     "en": "Are there any newspapers here?"
+    },
+    {
+     "en": "Yes, there are. There are some behind that vase"
+    },
+    {
+     "en": "Is there any water here?"
+    },
+    {
+     "en": "Yes, there is. There's some in those glasses."
+    },
+    {
+     "en": "Is there any tea here?"
+    },
+    {
+     "en": "Yes, there is. There's some in those cups."
+    },
+    {
+     "en": "Are there any cups here?"
+    },
+    {
+     "en": "Yes, there are. There are some in front of that kettle."
+    },
+    {
+     "en": "Is there any chocolate here?"
+    },
+    {
+     "en": "Yes, there is. There's some behind that book."
+    },
+    {
+     "en": "Are there any teapots here?"
+    },
+    {
+     "en": "Yes, there are. There are some in that cupboard."
+    },
+    {
+     "en": "Are there any cars here?"
+    },
+    {
+     "en": "Yes, there are. There are some in front of that building."
+    },
+    {
+     "en": "Is there any coffee here?"
+    },
+    {
+     "en": "Yes, there is. There's some on the table."
+    }
+   ]
+  },
+  {
+   "lesson": 43,
+   "title": "Hurry up! 快点！",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "must"
+    },
+    {
+     "en": "can / can't I can make the tea."
+    },
+    {
+     "en": "I can't make the tea."
+    },
+    {
+     "en": "Can you make the tea?"
+    },
+    {
+     "en": "Yes, I can."
+    },
+    {
+     "en": "No, I can't."
+    },
+    {
+     "en": "What must I do?"
+    },
+    {
+     "en": "What can you do?"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "How do you know Sam doesn't make the tea very often?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "of course",
+   "pos": "",
+   "zh": "当然"
+  },
+  {
+   "word": "kettle",
+   "pos": "n",
+   "zh": "水壶"
+  },
+  {
+   "word": "behind",
+   "pos": "prep",
+   "zh": "在……后面"
+  },
+  {
+   "word": "teapot",
+   "pos": "n",
+   "zh": "茶壶"
+  },
+  {
+   "word": "now",
+   "pos": "adv",
+   "zh": "现在，此刻"
+  },
+  {
+   "word": "find",
+   "pos": "v",
+   "zh": "找到"
+  },
+  {
+   "word": "boil",
+   "pos": "v",
+   "zh": "沸腾，开"
+  }
+ ],
+ "translation": [
+  "彭妮：你会沏茶吗，萨姆？",
+  "萨姆：会的，我当然会，彭妮。",
+  "萨姆：这水壶里有水吗？",
+  "彭妮：有水。",
+  "萨姆：茶叶在哪儿？",
+  "彭妮：就在那儿，茶壶后面。",
+  "彭妮：你看见了吗？",
+  "萨姆：茶壶我看见了，但茶叶没看到。",
+  "彭妮：那不是么！ 就在你眼前。",
+  "萨姆：噢，是啊，我现在看到了。",
+  "萨姆：茶杯在哪儿呢？",
+  "彭妮：碗橱里有几只。",
+  "彭妮：你找得到吗？",
+  "萨姆：找得到。就在这儿呢。",
+  "彭妮：快，萨姆。水开了！"
+ ],
+ "notes": [
+  "1． Can you make the tea, Sam? 你会沏茶吗，萨姆？",
+  "make the tea,沏茶。句中can是英语中最常见的几个情态助动词之一，请参见本课语法部分。",
+  "2．behind，在……的后面。",
+  "与in front of（在……前面）互为反义词。",
+  "3．The  kettle's  boiling!水开了!",
+  "这里的kettle =water in the kettle。用容器来指代容器内的东西是一种修辞格，叫借代（metonymy/i'mtnmi/）。",
+  "can(1)",
+  "can是英语中最常用的几个情态助动词之一，它本身不表示动作，只表示体力或脑力方面的能力或客观可能等。它必须与其他动词连用，本身没有性和数的变化。如：",
+  "I can see some coffee on the table.",
+  "我能看到桌子上的一些咖啡。",
+  "Can Sam read this book?",
+  "萨姆看得懂这本书吗？",
+  "can的否定形式为can  not, cannot或can't（省略式）：",
+  "I can't see any coffee.",
+  "我看不见什么咖啡。",
+  "He can't find the cups.",
+  "他找不到杯子。",
+  "1．find  v.",
+  "（1）找到；寻得：",
+  "It is most important to find a",
+  "suitable",
+  "person for the job.",
+  "找到一位适合做这项工作的人是至关重要的。",
+  "Where are the cups? I can't find them.",
+  "杯子放在哪儿"
+ ]
+}

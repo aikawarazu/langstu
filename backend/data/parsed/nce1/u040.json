@@ -1,0 +1,251 @@
+{
+ "unitId": "u040",
+ "unit": 40,
+ "lessons": [
+  {
+   "lesson": 79,
+   "title": "Peggy’s shopping-list",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "en": "What are you doing, Peggy?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "I’m making a shopping-list, Tom."
+    },
+    {
+     "speaker": "Tom",
+     "en": "What do we need?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "We need a lot of things this week. I must go to the grocer’s. We haven’t got much tea or coffee, and we haven’t got any sugar or jam."
+    },
+    {
+     "speaker": "Tom",
+     "en": "What about vegetables?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "I must go to the greengrocer’s. We haven’t got many tomatoes, but we’ve got a lot of potatoes. I must go to the butcher’s, too. We need some meat. We haven’t got any meat at all."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Have we got any beer and wine?"
+    },
+    {
+     "speaker": "Peggy",
+     "en": "No, we haven’t. And I’m not going to get any!"
+    },
+    {
+     "speaker": "Tom",
+     "en": "I hope that you’ve got some money."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "I haven’t got much."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Well, I haven’t got much either!"
+    }
+   ]
+  },
+  {
+   "lesson": 80,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I haven't got much butter."
+    },
+    {
+     "en": "You haven't got many envelopes."
+    },
+    {
+     "en": "We haven't got much milk."
+    },
+    {
+     "en": "She hasn't got many biscuits."
+    },
+    {
+     "en": "They haven't got much stationery"
+    },
+    {
+     "en": "B They need a lot of bread. They haven't got much."
+    },
+    {
+     "en": "They must go to the baker's to get some bread."
+    },
+    {
+     "en": "She needs a lot of eggs. She hasn't got many."
+    },
+    {
+     "en": "She must go to the grocer's to get some eggs."
+    },
+    {
+     "en": "They need a lot of magazines. They haven't got many."
+    },
+    {
+     "en": "They must go to the newsagent's to get some magazines."
+    },
+    {
+     "en": "I need a lot of beef. I haven't got much."
+    },
+    {
+     "en": "I must go to the butcher's to get some beef."
+    },
+    {
+     "en": "She needs a lot of butter. She hasn't got much."
+    },
+    {
+     "en": "She must go to the grocer's to get some butter."
+    },
+    {
+     "en": "They need a lot of bananas. They haven't got many."
+    },
+    {
+     "en": "They must go to the greengrocer's to get some bananas."
+    },
+    {
+     "en": "He needs a lot of medicine. He hasn't got much."
+    },
+    {
+     "en": "He must go to the chemist's to get some medicine."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What is Carol not going to buy?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "shopping",
+   "pos": "n",
+   "zh": "购物"
+  },
+  {
+   "word": "list",
+   "pos": "n",
+   "zh": "单子"
+  },
+  {
+   "word": "vegetable",
+   "pos": "n",
+   "zh": "蔬菜"
+  },
+  {
+   "word": "need",
+   "pos": "v",
+   "zh": "需要"
+  },
+  {
+   "word": "hope",
+   "pos": "v",
+   "zh": "希望"
+  },
+  {
+   "word": "thing",
+   "pos": "n",
+   "zh": "事情"
+  },
+  {
+   "word": "money",
+   "pos": "n",
+   "zh": "钱"
+  }
+ ],
+ "translation": [
+  "汤 姆：卡罗尔，你在干什么？",
+  "卡罗尔：我在写购物单，汤姆。",
+  "汤 姆：我们都需要什么？",
+  "卡罗尔：这星期我们需要很多东西。",
+  "卡罗尔：我得去一下食品店。我们的茶叶和",
+  "咖啡不多了，糖和果酱也没有了。",
+  "汤 姆：蔬菜呢？",
+  "卡罗尔：我还得到蔬菜水果店去一下。我们",
+  "番茄不多了，但土豆还有不少。",
+  "卡罗尔：我还要到肉店去一下。我们",
+  "需要些肉。我们一点肉也没有了。",
+  "汤 姆：我们还有啤酒和葡萄酒吗？",
+  "卡罗尔：没有了。不过，我不打算去买！",
+  "汤 姆：我希望你还有钱。",
+  "卡罗尔：我的钱不多了。",
+  "汤 姆：唉，我也不多了。"
+ ],
+ "notes": [
+  "1． And I'm not going to get any!不过，我不打算去买！",
+  "这里get表示\"买\"，与buy同义：",
+  "I'll get a new bike for you.",
+  "我将给你买辆新自行车来。",
+  "2．",
+  "groceries",
+  ", 食品杂货。",
+  "must与 need",
+  "（1）must 表示\"必须\"、\"应当\"：",
+  "I must go to the grocer's.",
+  "我得去趟杂货店。",
+  "You mustn't make a noise!",
+  "你不该弄出噪音来！",
+  "Must I call the doctor?",
+  "我必须请大夫吗？",
+  "（2）need表示\"需要\"、\"必须\"。作助动词时多用于疑问句和否定句，如：",
+  "Need I make an appointment?",
+  "我需要约一下时间吗？",
+  "You need not hurry.",
+  "你不必太匆忙。",
+  "need也可作实义动词，这时就要有人称、数及时态上的变化，疑问句中也需用助动词 do。如：",
+  "We need a lot of things this week.",
+  "我们这周需要许多东西。",
+  "He needs some money.",
+  "他需要一些钱。",
+  "Do you need any sugar?",
+  "你需要一些糖吗？",
+  "What do they need this week?",
+  "他们这周需要什么东西？",
+  "1．hope",
+  "（1）v. 希望；盼望；期待：",
+  "I hope that you'll have a lovely vacation.",
+  "我希望你能有一个愉快的假期。",
+  "Mark's hoping to study Law at Harvard.",
+  "马克盼望着进入哈佛大学学习法律。",
+  "I hope that you've got some money.",
+  "我希望你有了些钱。",
+  "（2）n. 希望，期望；指望：",
+  "We are full of hope for the future.",
+  "我们对未来充满信心。",
+  "（3）n. 期望着的事；被寄予希望的人：",
+  "His hope is that his son will get married and",
+  "settle",
+  "down soon.",
+  "他所希望的是他儿子能早点结婚，安顿下来。",
+  "He is a young man of genius, the hope of Russian poetry.",
+  "他是一位年轻的天才，是俄罗斯诗歌的希望所在。",
+  "2．need",
+  "（1）v. 需要：",
+  "We need some honey.",
+  "我们需要些蜂蜜。",
+  "Do you need any help?",
+  "你需要帮忙吗？",
+  "Does he need to know?",
+  "他需要知道吗？",
+  "（2）n. 需要（物）；必要：",
+  "There is no need of worrying.",
+  "不必担心。",
+  "There's a growing need of new",
+  "housing",
+  "in many cities.",
+  "许多城市正面临着对新建房屋的不断增长的需求。",
+  "We don't have any",
+  "urgent",
+  "need for money.",
+  "我们并不急需钱。"
+ ]
+}

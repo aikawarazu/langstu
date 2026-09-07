@@ -1,0 +1,273 @@
+{
+ "unitId": "u072",
+ "unit": 72,
+ "lessons": [
+  {
+   "lesson": 143,
+   "title": "A walk through the woods 林中散步",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods. Visitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere. Last Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres",
+     "zh": "我住在一个由美丽的树林环绕的古老的小镇上。这是一个著名的风景胜地。每逢星期天，有许许多人从城里来观赏我们的小镇，并在树林中散步。游客已被告知要保持树林的整洁。树下都已设置了废物筐，但是人们仍到处扔垃圾。上星期三我到树林里去散步。我所见到的一切使我非常难过。我数了一下，有7辆旧汽车和3个旧冰箱。废物筐是空的，而满地都是纸片、烟头、旧轮胎，空瓶子和生锈的空罐头盒。在垃圾堆中我发现了一块牌子，上面写着：“凡在此树林里丢弃垃圾者，将依法处置\"。"
+    },
+    {
+     "en": ", empty bottles and rusty tins. Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted",
+     "zh": "新概念英语正版图书购买"
+    }
+   ]
+  },
+  {
+   "lesson": 144,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "The writer lives in a very old town which is surrounded by beautiful woods."
+    },
+    {
+     "en": "Because it is a famous beauty spot."
+    },
+    {
+     "en": "Visitors have been asked to keep the woods clean and tidy."
+    },
+    {
+     "en": "Litter baskets have been placed under the trees."
+    },
+    {
+     "en": "The writer went for a walk in the woods."
+    },
+    {
+     "en": "Yes, he saw a lot of rubbish."
+    },
+    {
+     "en": "He saw a sign among the rubbish."
+    },
+    {
+     "en": "The sign said, ‘Anyone who leaves litter in these woods will be prosecuted."
+    },
+    {
+     "en": "B Someone has aired it. It has already been aired."
+    },
+    {
+     "en": "Someone has cleaned them. They have already been cleaned."
+    },
+    {
+     "en": "Someone has emptied it. It has already been emptied."
+    },
+    {
+     "en": "Someone has sharpened it. It has already been sharpened."
+    },
+    {
+     "en": "Someone has turned them on. They have already been turned on."
+    },
+    {
+     "en": "Someone has bought them. They have already been bought."
+    },
+    {
+     "en": "Someone has swept it. It has already been swept."
+    },
+    {
+     "en": "Someone has taken them to school. They have already been taken to school."
+    },
+    {
+     "en": "Someone has invited them. They have already been invited."
+    },
+    {
+     "en": "Someone has told them. They have already been told."
+    },
+    {
+     "en": "C It hasn't been aired yeet. It will be aired tomorrow."
+    },
+    {
+     "en": "They haven't been cleaned yet. They will be cleaned tomorrow."
+    },
+    {
+     "en": "It hasn't been emptied yet. It will be emptied tomorrow."
+    },
+    {
+     "en": "It hasn't been sharpened yet. It will be sharpened tomorrow."
+    },
+    {
+     "en": "They haven't been turned on yet. They will be turned on tomorrow."
+    },
+    {
+     "en": "They haven't been watered yet. They will be watered tomorrow."
+    },
+    {
+     "en": "It hasn't been repaired yet. It will be repaired tomorrow."
+    },
+    {
+     "en": "It hasn't been dusted yet. It will be dusted tomorrow."
+    },
+    {
+     "en": "They haven't been corrected yet. They will be corrected tomorrow."
+    },
+    {
+     "en": "It hasn't been shut yet. It will be shut tomorrow."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What was so funny about the words on the sign?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "surround",
+   "pos": "v",
+   "zh": "包围"
+  },
+  {
+   "word": "wood",
+   "pos": "n",
+   "zh": "树林"
+  },
+  {
+   "word": "beauty spot",
+   "pos": "",
+   "zh": "风景点"
+  },
+  {
+   "word": "hundred",
+   "pos": "n",
+   "zh": "百"
+  },
+  {
+   "word": "city",
+   "pos": "n",
+   "zh": "城市"
+  },
+  {
+   "word": "through",
+   "pos": "prep",
+   "zh": "穿过"
+  },
+  {
+   "word": "visitor",
+   "pos": "n",
+   "zh": "参观者，游客，来访者"
+  },
+  {
+   "word": "tidy",
+   "pos": "adj",
+   "zh": "整齐的"
+  },
+  {
+   "word": "litter",
+   "pos": "n",
+   "zh": "杂乱的东西"
+  },
+  {
+   "word": "litter basket",
+   "pos": "",
+   "zh": "废物筐"
+  },
+  {
+   "word": "place",
+   "pos": "v",
+   "zh": "放"
+  },
+  {
+   "word": "rubbish",
+   "pos": "n",
+   "zh": "垃圾"
+  },
+  {
+   "word": "count",
+   "pos": "v",
+   "zh": "数，点"
+  },
+  {
+   "word": "cover",
+   "pos": "v",
+   "zh": "覆盖"
+  },
+  {
+   "word": "piece",
+   "pos": "n",
+   "zh": "碎片"
+  },
+  {
+   "word": "tyre",
+   "pos": "n",
+   "zh": "轮胎"
+  },
+  {
+   "word": "rusty",
+   "pos": "adj",
+   "zh": "生锈的"
+  },
+  {
+   "word": "among",
+   "pos": "prep",
+   "zh": "在……之间"
+  },
+  {
+   "word": "prosecute",
+   "pos": "v",
+   "zh": "依法处置"
+  }
+ ],
+ "translation": [
+  "我住在一个由美丽的树林环绕的古老的小镇上。这是一个著名的风景胜地。每逢星期天，有许许多人从城里来观赏我们的小镇，并在树林中散步。游客已被告知要保持树林的整洁。树下都已设置了废物筐，但是人们仍到处扔垃圾。上星期三我到树林里去散步。我所见到的一切使我非常难过。我数了一下，有7辆旧汽车和3个旧冰箱。废物筐是空的，而满地都是纸片、烟头、旧轮胎，空瓶子和生锈的空罐头盒。在垃圾堆中我发现了一块牌子，上面写着：“凡在此树林里丢弃垃圾者，将依法处置\"。",
+  "新概念英语正版图书购买"
+ ],
+ "notes": [
+  "1．is surrounded by，由……环绕着。",
+  "2．hundreds of people，数以百计的（游）人。",
+  "3．Visitors have been asked to keep the woods clean and tidy．游客已被告知要保持树林的整洁。",
+  "句中 have been asked是被动语态的完成时结构。（详见本课语法部分。）to keep the woods clean and tidy是动词不定式短语，作主语visitors的补足语。clean and tidy 是宾语 the woods 的宾语补足语。",
+  "4．go for a walk，去散步。",
+  "5．What I saw made me very sad．我所见到的一切使我非常难过。",
+  "句中的主语What I saw 是 what 引导的名词性从句。",
+  "被动语态（2）",
+  "上一次介绍了被动语态的一般现在时和一般过去时形式，这里介绍其现在完成时和一般将来时形式：",
+  "（1）现在完成时形式： has/have + been + 过去分词：",
+  "The basket has  already been emptied.",
+  "篮子已经被腾空了。",
+  "They have already been invited.",
+  "他们已被邀请。",
+  "（2）一般将来时形式： will/shall +be +过去分词：",
+  "The floor will be swept soon.",
+  "地不久就会扫的。",
+  "The knives will be",
+  "sharpened",
+  "soon.",
+  "刀不久就会磨的。",
+  "1．place  v.",
+  "（1）（小心地）放；放置：",
+  "He placed the record back to the shelf.",
+  "他把唱片放回到架子上。",
+  "Their request placed me in a difficult position.",
+  "他们的要求将我置于困境。",
+  "（2）任命；安置：",
+  "The company has placed him with a branch office in Tokyo.",
+  "公司任命他在东京的一家分支机构工作。",
+  "There is no better way to place the homeless children.",
+  "没有更好的办法来安置这些无家可归的孩子们。",
+  "2．prosecute  v.",
+  "（1）起诉，检举；依法处置：",
+  "Trespassers will be prosecuted.",
+  "闲人莫入，违者法办。",
+  "They prosecuted him for shoplifting.",
+  "他们起诉他扒窃商店货物。",
+  "（2）〈书面语〉彻底进行；执行：",
+  "We are going to prosecute the",
+  "investigation",
+  "further.",
+  "我们将进一步彻底进行调查。",
+  "3．surround  v.",
+  "包围；围绕：",
+  "The beautiful white house is surrounded by green trees.",
+  "那所漂亮的白房子被绿树环绕着。",
+  "That old professor loved to surround himself with young people.",
+  "那位老教授非常喜欢年轻人围在他左右。",
+  "When I went into the room, I saw Tim sitting on the floor surrounded by boxes.",
+  "当我走进房间时，我看到蒂姆正坐在地板上，他的周围到处都是盒子。"
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "unitId": "u042",
+ "unit": 42,
+ "lessons": [
+  {
+   "lesson": 83,
+   "title": "Going on a holiday",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Peggy",
+     "en": "Hello, John. Come in."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Hello, John. We’re having lunch. Do you want to have lunch with us?"
+    },
+    {
+     "speaker": "John",
+     "en": "No thank you, Tom. I’ve already had lunch. I had lunch at half past twelve."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "Have a cup of coffee then."
+    },
+    {
+     "speaker": "John",
+     "en": "I’ve just had a cup, thank you. I had one after my lunch."
+    },
+    {
+     "speaker": "Tom",
+     "en": "Let’s go into the living-room"
+    },
+    {
+     "en": ", Peggy. We can have our coffee there."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "Excuse the mess, John. This room’s very untidy"
+    },
+    {
+     "en": ". We’re packing our suitcases. We’re going to leave tomorrow. Tom and I are going to have a holiday."
+    },
+    {
+     "speaker": "John",
+     "en": "Aren’t you lucky!"
+    },
+    {
+     "speaker": "Tom",
+     "en": "When are you going to have a holiday, John?"
+    },
+    {
+     "speaker": "John",
+     "en": "I don’t know. I’ve already had my holiday this year."
+    },
+    {
+     "speaker": "Peggy",
+     "en": "Where did you go?"
+    },
+    {
+     "speaker": "John",
+     "en": "I stayed at home!"
+    }
+   ]
+  },
+  {
+   "lesson": 84,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "I've already had some."
+    },
+    {
+     "en": "I've already had one."
+    },
+    {
+     "en": "B He hasn't had any beans."
+    },
+    {
+     "en": "He's just  had some peas"
+    },
+    {
+     "en": "They haven't had any tea."
+    },
+    {
+     "en": "They've just had some coffee."
+    },
+    {
+     "en": "I haven't had any apples."
+    },
+    {
+     "en": "I've just had some peaches."
+    },
+    {
+     "en": "I haven't had any cabbage."
+    },
+    {
+     "en": "I've just had some lettuce"
+    },
+    {
+     "en": "She hasn't had any beer."
+    },
+    {
+     "en": "She's just had some wine."
+    },
+    {
+     "en": "He hasn't had any lamb."
+    },
+    {
+     "en": "He's just had some beef."
+    },
+    {
+     "en": "They haven't had any tea."
+    },
+    {
+     "en": "They've just had some milk."
+    },
+    {
+     "en": "She hasn't had any meat."
+    },
+    {
+     "en": "She's just had some vegetables."
+    },
+    {
+     "en": "I haven't had any chicken."
+    },
+    {
+     "en": "I've just had some steak."
+    },
+    {
+     "en": "They haven't had any bananas."
+    },
+    {
+     "en": "They've just had some oranges."
+    },
+    {
+     "en": "peas"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Where did Sam go for his holiday this year?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "mess",
+   "pos": "n",
+   "zh": "杂乱，凌乱"
+  },
+  {
+   "word": "pack",
+   "pos": "v",
+   "zh": "包装，打包，装箱"
+  },
+  {
+   "word": "suitcase",
+   "pos": "n",
+   "zh": "手提箱"
+  },
+  {
+   "word": "leave",
+   "pos": "v",
+   "zh": "离开"
+  },
+  {
+   "word": "already",
+   "pos": "adv",
+   "zh": "已经"
+  }
+ ],
+ "translation": [
+  "卡罗尔：你好，萨姆。进来吧。",
+  "汤 姆：你好，萨姆。我们正在吃午饭，",
+  "你跟我们一起吃午饭好吗？",
+  "萨 姆：不，汤姆，谢谢。我已经吃过饭了。",
+  "我在12点半吃的。",
+  "卡罗尔：那么喝杯咖啡吧。",
+  "萨 姆：我刚喝了一杯，谢谢。",
+  "我是在饭后喝的。",
+  "汤 姆：我们到客厅里去吧，",
+  "卡罗尔。我们可以在那里喝咖啡。",
+  "卡罗尔：屋子很乱，请原谅，萨姆。",
+  "我们正在收拾手提箱。明天我们就要走了。",
+  "我和汤姆准备去度假。",
+  "萨 姆：你们真幸运！",
+  "汤 姆：萨姆，你准备什么时候去度假？",
+  "萨 姆：我不知道。今年我已度过假了。",
+  "卡罗尔：你去哪儿了？",
+  "萨 姆：我呆在家里了！"
+ ],
+ "notes": [
+  "1．Come in. 进来吧。",
+  "Have a cup of tea then. 那么喝杯咖啡吧。",
+  "Let's go into the living－room,",
+  "Carol",
+  ". 我们到客厅里去吧，卡罗尔。",
+  "这3句都是祈使句。表示请求或命令的句子叫祈使句。祈使句中主语you常不出现，谓语动词用原形，句末用感叹号或句号。读时用降调。",
+  "2．I've just had a cup. 我刚喝了一杯。",
+  "句中 cup后省略了 of coffee。",
+  "3．We're going to leave tomorrow. 明天我们就要走了。",
+  "这里的 are going to表示\"打算\"、\"准备\"。请参见 Lessons 37～38语法部分。",
+  "现在完成时",
+  "（1）在英语中，现在完成时主要用于以下两种情况：或者表示在过去不确定的时间里发生的并与现在有着某种联系的动作；或者表示开始于过去并持续到现在的动作。本课中萨姆所面临的是第1种情况，正是因为他吃了饭，喝过了咖啡，也休过假，因此他谢绝了汤姆的邀请，并表示今年已无可能再次休假。",
+  "（2）现在完成时在汉语中常用\"了\"、\"过\"或\"已经\"来表示。",
+  "（3）现在完成时由 have／has+ 过去分词构成，单数第 3人称用",
+  "has，其他人称皆用have。规则动词的过去分词与过去式相同，而不规则动词的过去分词则无统一的规律可言，需特别加以记忆。",
+  "（4）一般现在完成时通常与表示不确定的时间副词或短语连用如 just, already, before, never, ever, twice, three times等。",
+  "1． leave  v.",
+  "（1）离开，出发：",
+  "The train is going to leave in 5 minutes.",
+  "火车将于5分钟后开出。",
+  "I'm going to leave Italy.",
+  "我准备离开意大利。",
+  "（2）舍弃；脱离：",
+  "John's wife left him for another man.",
+  "约翰的妻子舍他而去，投入另一个男子的怀抱。",
+  "Alexander is leaving the company after 30 years' service",
+  "亚历山大将在为公司服务了30年之后离开公司。",
+  "（3）留给，遗留；委托：",
+  "The famous actress left all her money to",
+  "charity",
+  ".",
+  "这位著名的女演员将她所有的钱都遗留给了慈善机构。",
+  "'Leave it to me, 'he said.",
+  "\"这事交给我来办吧，\"他说道。",
+  "2．pack  v.",
+  "（1）打包，装箱：",
+  "We are leaving tomorrow and I haven't even started packing yet.",
+  "我们明天就要走了，而我甚至还没开始将行李打包呢。",
+  "Don' t forget to pack the mirror!",
+  "别忘了把镜子装起来！",
+  "（2）挤满，塞满：",
+  "The movie fans packed the hall.",
+  "大厅里挤满了影迷。",
+  "The bus was packed with people.",
+  "公共汽车里挤满了人"
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "unitId": "u020",
+ "unit": 20,
+ "lessons": [
+  {
+   "lesson": 39,
+   "title": "Don’t drop it!",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "What are you going to do with that vase, Penny"
+    },
+    {
+     "en": "I’m going to put it on this table, Sam."
+    },
+    {
+     "en": "Don’t do that."
+    },
+    {
+     "en": "Give it to me."
+    },
+    {
+     "en": "What are you going to do with it?"
+    },
+    {
+     "en": "I’m going to put it here, in front of the window."
+    },
+    {
+     "en": "Be careful."
+    },
+    {
+     "en": "Don’t drop it!"
+    },
+    {
+     "en": "Don’t put it there, Sam."
+    },
+    {
+     "en": "Put it here, on this shelf."
+    },
+    {
+     "en": "There we are!"
+    },
+    {
+     "en": "It’s a lovely vase."
+    },
+    {
+     "en": "Those flowers are lovely, too."
+    }
+   ]
+  },
+  {
+   "lesson": 40,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Send that letter to George."
+    },
+    {
+     "en": "Take those flowers to her."
+    },
+    {
+     "en": "Show that picture to me."
+    },
+    {
+     "en": "Give these books to Mrs. Jones."
+    },
+    {
+     "en": "Give these ice creams to the children."
+    },
+    {
+     "en": "B I'm going to put it on."
+    },
+    {
+     "en": "I'm going to take them off."
+    },
+    {
+     "en": "I'm going to turn them on."
+    },
+    {
+     "en": "I'm going to turn it off."
+    },
+    {
+     "en": "I'm going to put it on."
+    },
+    {
+     "en": "I'm going to take it off."
+    },
+    {
+     "en": "I'm going to turn them on."
+    },
+    {
+     "en": "I'm going to turn it off."
+    },
+    {
+     "en": "I'm going to turn them off."
+    },
+    {
+     "en": "I'm going to turn it on."
+    },
+    {
+     "en": "There is a garden in front of the building."
+    },
+    {
+     "en": "There is a blackboard in the front of the classroom."
+    },
+    {
+     "en": "sweep the floor / dust the dressing table Be careful!"
+    },
+    {
+     "en": "Be quiet!"
+    },
+    {
+     "en": "Cross the road with care!"
+    },
+    {
+     "en": "I don't care about money."
+    },
+    {
+     "en": "I don't care (about) you."
+    },
+    {
+     "en": "I don't care (about) what people think."
+    },
+    {
+     "en": "She doesn't really care for red wine."
+    },
+    {
+     "en": "bloom"
+    },
+    {
+     "en": "blossom"
+    },
+    {
+     "en": "do with What are you going to do?"
+    },
+    {
+     "en": "What are you going to do with the vase?"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Where does Sam put the vase in the end?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "front",
+   "pos": "n",
+   "zh": "前面"
+  },
+  {
+   "word": "in front of",
+   "pos": "",
+   "zh": "在……之前"
+  },
+  {
+   "word": "careful",
+   "pos": "adj",
+   "zh": "小心的，仔细的"
+  },
+  {
+   "word": "vase",
+   "pos": "n",
+   "zh": "花瓶"
+  },
+  {
+   "word": "drop",
+   "pos": "v",
+   "zh": "掉下"
+  },
+  {
+   "word": "flower",
+   "pos": "n",
+   "zh": "花"
+  }
+ ],
+ "translation": [
+  "萨姆：你打算如何处理那花瓶？",
+  "彭妮：我打算把它放在这张桌子上，萨姆。",
+  "萨姆：不要放在那儿，把它给我。",
+  "彭妮：你打算怎么办？",
+  "萨姆：我准备把它摆在这儿，放在窗前。",
+  "彭妮：小心点！别摔了！",
+  "彭妮：别放在那儿，萨姆。放在这儿，这个架子上。",
+  "萨姆：这只漂亮的花瓶。",
+  "彭妮：这些花也很漂亮啊。"
+ ],
+ "notes": [
+  "课文详注  Further notes on the text",
+  "1． Don't do that.不要放在那儿。",
+  "在英文中需用祈使语气来表示直接的命令、建议等多种意图。而祈使句的否定式则由Don't（或Do not）+动词原形构成，又如课文中的Don't drop it!（别摔了！）等句子。（请参见本课语法部分。）",
+  "2．Give it to me.把它给我。",
+  "在第21课有give me a book这样的句型，在本课中又出现了give it to me的句型。",
+  "在动词give后面可以有两个宾语：即直接宾语（指物，如a book, it）和间接宾语（指人，如me）。如果直接宾语置于动词give之后，间接宾语之前则带to。再比较一下下列句式：",
+  "Show her the magazine. 给她那本杂志。",
+  "Show it to her.        把它给她。",
+  "Give me that knife.    给我那把小刀。",
+  "Give it to me.         把它给我。",
+  "3．in front of，在……前面。",
+  "有别于in the front of，在……的前部。",
+  "4．There  we  are!就放在那里!",
+  "在这里表示说话人的满意心情，可理解为\"好了\"、\"行了\"等。",
+  "祈使句的否定缩略式",
+  "形式为Don't（或Do not）+动词原形，如：",
+  "Don't wait!",
+  "别等了！",
+  "Don't speak to me like that!",
+  "别那样跟我讲话！",
+  "使用祈使句时，重音、语调、手势和面部表情，尤其是情境和上下文，都说明这种形式用于表示是否友好、不客气、愤怒、不耐烦、有说服性等。一般而言，祈使句的否定式通常用Don't来表示，完整形式Do not主要用于正式文告中。",
+  "1．drop  v.",
+  "（1）（失手）落下；掉下；放下：",
+  "Be careful! Don't drop it.",
+  "小心！别摔了。",
+  "She dropped her knife and fork and hurried to answer the phone.",
+  "她放下刀叉赶紧去接电话。",
+  "（2）（使）滴下；滴水：",
+  "Tears dropped from her face.",
+  "泪珠从她的脸上滑落。",
+  "（3）（使）下降；降低：",
+  "He dropped his voice.",
+  "他把声音放低了些。",
+  "Yesterday the temperature dropped to 8℃ below zero.",
+  "昨天气温下降到了摄氏零下8度。",
+  "2．send  v.",
+  "（1）送给；寄：",
+  "She is going to send a  letter to her sister.",
+  "她准备给她的姐姐寄封信。",
+  "I'll send him a present.",
+  "我将给他送去一件礼物。",
+  "（2）差遣；命（或请）……去：",
+  "He sent his secretary for a doctor.",
+  "他派他的秘书去请医生了。",
+  "Her mother often sends her to the store for some",
+  "groceries",
+  ".",
+  "她母亲经常差遣她去商店买些杂货。"
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "unitId": "u008",
+ "unit": 8,
+ "lessons": [
+  {
+   "lesson": 15,
+   "title": "",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Your passports, please."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are you Swedish"
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "No, we are not."
+    },
+    {
+     "en": "We are Danish."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are your friends Danish, too?"
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "No, they aren't."
+    },
+    {
+     "en": "They are Norwegian."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Your passports, please."
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "Here they are."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are these your cases?"
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "No, they aren't. Our cases are brown."
+    },
+    {
+     "en": "Here they are."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are you tourists?"
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "Yes, we are."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are your friends tourists too?"
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "Yes, they are."
+    },
+    {
+     "speaker": "CUSTOMS OFFICER",
+     "en": "That's fine."
+    },
+    {
+     "speaker": "GIRLS",
+     "en": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "lesson": 16,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "It is an English car."
+    },
+    {
+     "en": "It is a Japanese car."
+    },
+    {
+     "en": "It is an Italian car."
+    },
+    {
+     "en": "It is a French car."
+    },
+    {
+     "en": "It is an American car."
+    },
+    {
+     "en": "Robert is not a teacher."
+    },
+    {
+     "en": "B What colour are your shirts? Our shirts are white."
+    },
+    {
+     "en": "What colour are your coats? Our coats are grey."
+    },
+    {
+     "en": "What colour are your tickets? Our tickets are yellow."
+    },
+    {
+     "en": "What colour are your suits? Our suits are blue."
+    },
+    {
+     "en": "What colour are your hats? Our hats are black and grey."
+    },
+    {
+     "en": "What colour are your passports? Our passports are green."
+    },
+    {
+     "en": "What colour are your umbrellas? Our umbrellas are black."
+    },
+    {
+     "en": "What colour are your handbags? Our handbags are white."
+    },
+    {
+     "en": "What colour are your ties? Our ties are orange."
+    },
+    {
+     "en": "What colour are your dogs? Our dogs are brown and white."
+    },
+    {
+     "en": "What colour are your pens? Our pens are blue."
+    },
+    {
+     "en": "What colour are your cars? Our cars are red."
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Is there a problem with the Customs officer?",
+  "zh": "海关官员有什么疑问吗"
+ },
+ "words": [
+  {
+   "word": "customs",
+   "pos": "n",
+   "zh": "海关"
+  },
+  {
+   "word": "officer",
+   "pos": "n",
+   "zh": "官员"
+  },
+  {
+   "word": "girl",
+   "pos": "n",
+   "zh": "女孩，姑娘"
+  },
+  {
+   "word": "Danish",
+   "pos": "adj",
+   "zh": "& n. 丹麦人"
+  },
+  {
+   "word": "friend",
+   "pos": "n",
+   "zh": "朋友"
+  },
+  {
+   "word": "Norwegian",
+   "pos": "adj",
+   "zh": "& n. 挪威人"
+  },
+  {
+   "word": "passport",
+   "pos": "n",
+   "zh": "护照"
+  },
+  {
+   "word": "brown",
+   "pos": "adj",
+   "zh": "棕色的"
+  },
+  {
+   "word": "tourist",
+   "pos": "n",
+   "zh": "旅游者"
+  }
+ ],
+ "translation": [
+  "海关官员：你们是瑞典人吗？",
+  "姑 娘 们：不，我们不是瑞典人。我们是丹麦人。",
+  "海关官员：你们的朋友也是丹麦人吗？",
+  "姑 娘 们：不，他们不是丹麦人。他们是挪威人。",
+  "海关官员：请出示们的护照。",
+  "姑 娘 们：给您。",
+  "海关官员：这些是你们的箱子吗？",
+  "姑 娘 们：不，不是。",
+  "姑 娘 们：我们的箱子是棕色的。在这儿呢。",
+  "海关官员：你们是来旅游的吗？",
+  "姑 娘 们：是的，我们是来旅游的。",
+  "海关官员：你们的朋友也是来旅游的吗？",
+  "姑 娘 们：是的，他们也是。",
+  "海关官员：好了。",
+  "姑 娘 们：非常感谢。"
+ ],
+ "notes": [
+  "1．Your passports，please．请出示你们的护照。",
+  "请参见 Lessons 3～4课文详注。",
+  "2．Here they are．给您。",
+  "本句中的 they指 passports。请参见 Lessons 11～12课文详注。",
+  "3．名词的复数形式（1）",
+  "英语中可数名词有单数和复数两种形式，指一个以上的事物时用复数形式。可数名词的复数形式一般是在单数名词后面加上-s，如课文中的friend-friends／frendz／，tourist-tourists／'tu+rists／，case-cases／'keisiz／。请注意-s的不同发音。如果名词是以-s结尾的，变成复数时则要加-es，如dress-dresses／'dresiz／，blouse-blouses／'blauziz／。",
+  "1．表示复数的-s或-es一般遵循的发音规则",
+  "（1）如果名词词尾的发音是一个清辅音（如",
+  "／f／，",
+  "／k／，",
+  "／p／，／t／，／I／；但／s／，／M／，／tM／除外），-s发",
+  "／s／的音，如：",
+  "books／buks／",
+  "suits／su:ts／",
+  "（2）如果名词词尾的发音是一个浊辅音（如",
+  "／b／，／d／，／g／，／l／，／m／，／n／，／R／；但／z／，／N／，／DN／除外）或元音，-s发",
+  "／z／的音，如：",
+  "ties ／taiz／",
+  "dogs ／d&gz／",
+  "（3）如果名词词尾的发音是",
+  "／s／，／z／，／M／，／N／，／tM／或／DN／，-s",
+  "发／iz／的音，如：",
+  "dresses／'dresz／",
+  "blouses／'bluziz／",
+  "1．blue  adj.",
+  "（1）蓝色的，蔚蓝的：",
+  "The sea is deep blue.",
+  "大海呈深蓝色。",
+  "He wears a blue tie.",
+  "他打一条蓝色的领带。",
+  "（2）沮丧的，忧郁的：",
+  "He looks a bit blue.",
+  "他看上去有点儿忧郁。",
+  "His mood is blue.",
+  "他的情绪低落。",
+  "2．grey  adj.",
+  "（1）灰色的，偏灰的：",
+  "His hat is grey.",
+  "他的帽子是灰色的。",
+  "（2）头发灰白的：",
+  "Her hair is grey.",
+  "她的头发灰白。",
+  "（3）面色苍白的：",
+  "Tony looks grey and tired.",
+  "托尼面色苍白，显得疲惫。"
+ ]
+}

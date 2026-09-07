@@ -1,0 +1,141 @@
+{
+ "unitId": "u024",
+ "unit": 24,
+ "lessons": [
+  {
+   "lesson": 48,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "The aeroplane is flying over the village."
+    },
+    {
+     "en": "The ship is going under the bridge."
+    },
+    {
+     "en": "The children are swimming across the river."
+    },
+    {
+     "en": "Two cats are running along the wall."
+    },
+    {
+     "en": "The boy is jumping off the branch."
+    },
+    {
+     "en": "The girl is sitting between her mother and her father."
+    },
+    {
+     "en": "The teacher is standing in front of the blackboard."
+    },
+    {
+     "en": "The blackboard is behind the teacher."
+    },
+    {
+     "en": "B Yes, I do."
+    },
+    {
+     "en": "I like honey, but I don't want any."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like bananas, but I don't want one."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like jam, but I don't want any."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like oranges, but I don't want one."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like ice cream, but I don't want any."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like whisky"
+    },
+    {
+     "en": ", but I don't want any."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like apples, but I don't want one."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like wine, but I don't want any."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like biscuits, but I don't want one."
+    },
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "I like beer, but I don't want any."
+    }
+   ]
+  },
+  {
+   "lesson": 47,
+   "title": "A cup of coffee",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "It is very hot today."
+    },
+    {
+     "en": "She lives in Paris."
+    },
+    {
+     "en": "She gets up at 7 o'clock every day."
+    },
+    {
+     "en": "Do you come tomorrow?"
+    },
+    {
+     "en": "I like music."
+    },
+    {
+     "en": "I don't like music."
+    },
+    {
+     "en": "Do you like music."
+    },
+    {
+     "en": "Yes, I do. / No, I don't."
+    },
+    {
+     "en": "What do you like?"
+    },
+    {
+     "en": "often sometimes always usually never"
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [],
+ "translation": [],
+ "notes": []
+}

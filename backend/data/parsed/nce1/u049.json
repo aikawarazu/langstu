@@ -1,0 +1,270 @@
+{
+ "unitId": "u049",
+ "unit": 49,
+ "lessons": [
+  {
+   "lesson": 97,
+   "title": "A small blue case",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Mr Hall",
+     "en": "I left a suitcase on the train to London the other day.",
+     "zh": "霍尔先生：几天前我把一只手提箱忘在"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Can you describe it, sir?",
+     "zh": "开往伦敦的火车上了。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "It’s a small blue case and it’s got a zip",
+     "zh": "服 务 员：先生，您能描述一下它是什么"
+    },
+    {
+     "en": ". There’s a label on the handle with my name and address on it.",
+     "zh": "样子的吗？"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Is this case yours?",
+     "zh": "霍尔先生：是只蓝色的小箱子，上面有拉链。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "No, that’s not mine.",
+     "zh": "箱把上有一标签，"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "What about this one? This one’s got a label.",
+     "zh": "上面写着我的姓名和住址。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "Let me see it.",
+     "zh": "服 务 员：这箱子是您的吗？"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "What’s your name and address?",
+     "zh": "霍尔先生：不，那不是我的。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "David Hall,",
+     "zh": "服 务 员：这只是不是？这只箱子有张标签。"
+    },
+    {
+     "en": "83, Bridge Street.",
+     "zh": "霍尔先生：让我看看。"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "That’s right.",
+     "zh": "服 务 员：您的姓名和住址？"
+    },
+    {
+     "en": "D.N.Hall.",
+     "zh": "霍尔先生：大卫.霍尔，大桥街83号。"
+    },
+    {
+     "en": "Bridge Street.",
+     "zh": "大桥街83号。"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Three pound and fifty pence please.",
+     "zh": "服 务 员：请付3英镑50便士。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "Here you are.",
+     "zh": "霍尔先生：给您。"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "Thank you.",
+     "zh": "服 务 员：谢谢您。"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "Hey!",
+     "zh": "霍尔先生：嗨！"
+    },
+    {
+     "speaker": "Attendant",
+     "en": "What’s the matter?",
+     "zh": "服 务 员：怎么回事？"
+    },
+    {
+     "speaker": "Mr Hall",
+     "en": "This case doesn’t belong to me! You’ve given me the wrong case!",
+     "zh": "霍尔先生：这箱子不是我的！您给错了！"
+    }
+   ]
+  },
+  {
+   "lesson": 98,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "They are his."
+    },
+    {
+     "en": "It is mine."
+    },
+    {
+     "en": "They are hers."
+    },
+    {
+     "en": "They are ours."
+    },
+    {
+     "en": "The pens are theirs."
+    },
+    {
+     "en": "It is yours."
+    },
+    {
+     "en": "B Yes, it's hers. It belongs to Jane."
+    },
+    {
+     "en": "Yes, they're theirs. They belong to them."
+    },
+    {
+     "en": "Yes, it's mine. It belongs to me."
+    },
+    {
+     "en": "Yes, they're hers. They belong to her."
+    },
+    {
+     "en": "Yes, it's yours. It belongs to you."
+    },
+    {
+     "en": "Yes, it's his. It belongs to him."
+    },
+    {
+     "en": "Yes, they' re theirs. They belong to them."
+    },
+    {
+     "en": "Yes, it's ours. It belongs to us."
+    },
+    {
+     "en": "Yes, they' re theirs. They belong to them."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Does Mr. Hall get his case back?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "describe",
+   "pos": "v",
+   "zh": "描述"
+  },
+  {
+   "word": "zip",
+   "pos": "n",
+   "zh": "拉链"
+  },
+  {
+   "word": "label",
+   "pos": "n",
+   "zh": "标签"
+  },
+  {
+   "word": "handle",
+   "pos": "n",
+   "zh": "提手，把手"
+  },
+  {
+   "word": "address",
+   "pos": "n",
+   "zh": "地址"
+  },
+  {
+   "word": "pence",
+   "pos": "n",
+   "zh": "penny 的复数形式"
+  },
+  {
+   "word": "belong",
+   "pos": "v",
+   "zh": "属于"
+  }
+ ],
+ "translation": [
+  "霍尔先生：几天前我把一只手提箱忘在",
+  "开往伦敦的火车上了。",
+  "服 务 员：先生，您能描述一下它是什么",
+  "样子的吗？",
+  "霍尔先生：是只蓝色的小箱子，上面有拉链。",
+  "箱把上有一标签，",
+  "上面写着我的姓名和住址。",
+  "服 务 员：这箱子是您的吗？",
+  "霍尔先生：不，那不是我的。",
+  "服 务 员：这只是不是？这只箱子有张标签。",
+  "霍尔先生：让我看看。",
+  "服 务 员：您的姓名和住址？",
+  "霍尔先生：大卫.霍尔，大桥街83号。",
+  "服 务 员：那就对了。D.N.霍尔，",
+  "大桥街83号。",
+  "服 务 员：请付3英镑50便士。",
+  "霍尔先生：给您。",
+  "服 务 员：谢谢您。",
+  "霍尔先生：嗨！",
+  "服 务 员：怎么回事？",
+  "霍尔先生：这箱子不是我的！您给错了！"
+ ],
+ "notes": [
+  "1．I left a suitcase on the train to London the other day. 几天前我把一只手提箱忘在开往伦敦的火车上了。",
+  "句中left是leave的过去式。leave在这里表示“遗忘”、“丢下”，通常可与表示地点的短语连用。又如：",
+  "I left my glasses in the library.",
+  "我把眼镜忘在图书馆里了。",
+  "the other day表示“几天前”。the other +表示时间的名词通常只与过去时态连用。类似的短语有：the other morning/afternoon/evening/night（几天前上午/下午/晚上/夜里），the other week/ month/ year（几周／月／年前）。",
+  "2．There's a label on the handle with my name and address on it. 箱把上有一标签，上面写着我的姓名和住址。",
+  "句中介词with在这里可理解为“有”的意思。",
+  "3．fifty pence, 50 便士。",
+  "pence是penny（便士）的复数形式，表示币值。",
+  "所有格形容词和所有格代词",
+  "（2）",
+  "（请参见 Lessons 11～12语法部分。）",
+  "所有格形容词和所有格代词都是用来表示所有关系的。所有格形容词是限定词，放在名词前与名词构成名词短语，在句中作定语用。所有格代词后面不能再加名词，在句中作主语、宾语、表语用。",
+  "1．belong  v.",
+  "（1）（在所有权方面）属于：",
+  "That pen belongs to him.",
+  "那枝笔是他的。",
+  "This house belongs to Mrs. White.",
+  "这所房子属于怀特太太。",
+  "（2）是……的成员：",
+  "Do you belong to the golf club?",
+  "你是高尔夫球俱乐部的成员吗？",
+  "Which party does he belong to?",
+  "他是哪个党的党员？",
+  "（3）（在关系等方面）属于：",
+  "The novel really belongs to the 19th century.",
+  "这部小说其实是属于19世纪的。",
+  "We belong to the same generation.",
+  "我们属于同代人。",
+  "2．describe  v.",
+  "（1）描述；形容：",
+  "She described the woman to the police.",
+  "她向警方描述了那个女人的外貌。",
+  "He described the whole event in detail.",
+  "他详尽地描述了整个事件。",
+  "（2）把……说成；把……称为(as)：",
+  "They describe him as",
+  "ambitious",
+  ".",
+  "他们把他称为雄心勃勃的人。"
+ ]
+}

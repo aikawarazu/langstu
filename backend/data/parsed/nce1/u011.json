@@ -1,0 +1,288 @@
+{
+ "unitId": "u011",
+ "unit": 11,
+ "lessons": [
+  {
+   "lesson": 21,
+   "title": "Which book?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Give me a book please, Jane.",
+     "zh": "丈夫：请拿本书给我，简。"
+    },
+    {
+     "en": "Which book?",
+     "zh": "妻子：哪一本？"
+    },
+    {
+     "en": "This one?",
+     "zh": "妻子：是这本吗？"
+    },
+    {
+     "en": "No, not that one. The red one.",
+     "zh": "丈夫：不，不是那本。是那本红皮的。"
+    },
+    {
+     "en": "This one?",
+     "zh": "妻子：这本吗？"
+    },
+    {
+     "en": "Yes, please.",
+     "zh": "丈夫：是的，请给我。"
+    },
+    {
+     "en": "Here you are.",
+     "zh": "妻子：给你。"
+    },
+    {
+     "en": "Thank you.",
+     "zh": "丈夫：谢谢。"
+    }
+   ]
+  },
+  {
+   "lesson": 22,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Is this Nicola's coat? No, it's not. Her coat  is grey."
+    },
+    {
+     "en": "Are these your pens? No, they're not. My pens are blue."
+    },
+    {
+     "en": "Is this Mr. Jackson's hat? No, it's not. His hat is black."
+    },
+    {
+     "en": "Are these the  children's books? No, they're not. Their books are red."
+    },
+    {
+     "en": "Is this Helen's dog? No, it's  not. Her dog is brown and white."
+    },
+    {
+     "en": "Is this your father's tie? No, it's not. His tie is orange."
+    },
+    {
+     "en": "B Give me a cup please."
+    },
+    {
+     "en": "Which one? This dirty one?"
+    },
+    {
+     "en": "No, not this dirty one. That clean one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a glass please."
+    },
+    {
+     "en": "Which one? This empty one?"
+    },
+    {
+     "en": "No, not this empty one. That full one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a bottle please."
+    },
+    {
+     "en": "Which one? This large one?"
+    },
+    {
+     "en": "No, not this large one. That small one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a box please."
+    },
+    {
+     "en": "Which one? This big one?"
+    },
+    {
+     "en": "No, not this big one. That little one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a tin please."
+    },
+    {
+     "en": "Which one? This new one?"
+    },
+    {
+     "en": "No, not this new one. That old one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a knife please."
+    },
+    {
+     "en": "Which one? This sharp one?"
+    },
+    {
+     "en": "No, not this sharp one. That blunt one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a spoon please."
+    },
+    {
+     "en": "Which one? This new one?"
+    },
+    {
+     "en": "No, not this new one. That old one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Give me a fork please."
+    },
+    {
+     "en": "Which one? This large one?"
+    },
+    {
+     "en": "No, not this large one. That small one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thank you."
+    },
+    {
+     "en": "Teaching gives me a lot of pleasure."
+    },
+    {
+     "en": "give sb. sth."
+    },
+    {
+     "en": "give sth. to sb."
+    },
+    {
+     "en": "Give a pen to me please."
+    },
+    {
+     "en": "donate"
+    },
+    {
+     "en": "contribute"
+    },
+    {
+     "en": "contributed"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Which book does the man want?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "give",
+   "pos": "v",
+   "zh": "给"
+  },
+  {
+   "word": "one",
+   "pos": "pron",
+   "zh": "一个"
+  },
+  {
+   "word": "which",
+   "pos": "",
+   "zh": "question word 哪一个"
+  }
+ ],
+ "translation": [
+  "丈夫：请拿本书给我，简。",
+  "妻子：哪一本？",
+  "妻子：是这本吗？",
+  "丈夫：不，不是那本。是那本红皮的。",
+  "妻子：这本吗？",
+  "丈夫：是的，请给我。",
+  "妻子：给你。",
+  "丈夫：谢谢。"
+ ],
+ "notes": [
+  "1．Give me a book please, Jane.请拿本书给我，简。",
+  "这是一个祈使句。祈使句表示请求或命令。（请参见Lessons 13～14语法部分的说明。）表示客气的请求时，通常加please。",
+  "2．Which book? 哪一本？",
+  "是Which book do you want?的省略形式。下文中的This one? 是Do you want this one?的省略形式。No, not that one是No, I do not want that one的省略形式。口语中常用这样的省略句。",
+  "3．This  one?是这本吗？",
+  "相当于：Do you want this one? one是不定代词，代替 a book，以避免重复。one的复数形式是ones。one和ones前面都可用定冠词，也可有自己的定语。如：",
+  "4．数字1，010，1，011，1，016的英文写法",
+  "1，010----a thousand and ten",
+  "1，011----a thousand and eleven",
+  "1，016----a thousand and sixteen",
+  "1．人称代词",
+  "代词，顾名思义，就是用来代替名词或名词短语的词，在已经知道所指的是谁或什么的情况下使用，以免行文重复。人称代词有主格和宾格之分。在陈述句中，主格代词差不多总是位于动词之前。宾格代词可代替处于宾语位置上的名词，它们可以作直接宾语和间接宾语。",
+  "Give me/him/her/us/them a book.",
+  "给我/他/她/我们/他（她）们一本书。（宾格代词）",
+  "2．which引导的特殊疑问句",
+  "（请参见Lessons 5～6中语法部分的说明。）",
+  "用which +名词可询问物体（单数或复数）或物质。which总是说明一种限定的、特指的选择。如：",
+  "Which book/books do you prefer?",
+  "你喜欢哪本／哪些书？",
+  "Which car do you like best?",
+  "你最喜欢哪种汽车？",
+  "1．large与big",
+  "（1）large仅指物理量值的大，是small的反义词。",
+  "large主要指体积、面积、形状、数量方面的大，修饰人时指个子大。如：",
+  "China is a large country.",
+  "中国是一个幅员辽阔的国家。",
+  "Look at that large woman in white.",
+  "瞧那个身穿白色衣服、个子高大的女人。",
+  "（2）big所表示的大，主要指不仅体积大而且很重。所以a large box未必big。big在修饰人时，主要指大人物，但个子未必高大。如：",
+  "It is a big house.",
+  "这是一所大房子。（此句指不仅体积大，而且给人深刻的或结实的印象。）",
+  "She's very big in the filmdom.",
+  "她在电影界中是个响当当的人物。（此句指不仅成功，且具有很大的影响力。）",
+  "2．small与little",
+  "（1）small指物理量值的小或少，是large的反义词，不带什么感情色彩。如：",
+  "It is a small factory.",
+  "这是一个小新概念。",
+  "I want the small one with the yellow handle.",
+  "我想要带新概念把手的那个小的。",
+  "（2）little也表示小或少，但有小而可爱的感情色彩，是big的反义词。如：",
+  "There is a little garden behind our house.",
+  "我们的屋后有个小花园。（此句表示花园虽小，但很可爱。）",
+  "She has the sweetest little smiles.",
+  "她的微笑十分甜蜜可爱。"
+ ]
+}

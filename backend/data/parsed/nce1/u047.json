@@ -1,0 +1,161 @@
+{
+ "unitId": "u047",
+ "unit": 47,
+ "lessons": [
+  {
+   "lesson": 93,
+   "title": "Our new neighbor",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Mr Hill is our new next-door neighbour"
+    },
+    {
+     "en": ". He’s a pilot"
+    },
+    {
+     "en": "He will fly to New York next month."
+    },
+    {
+     "en": "The month after next he will fly to Tokyo."
+    },
+    {
+     "en": "He will return to London the week after next."
+    },
+    {
+     "en": "He’s only forty-one years old, and he has already been to nearly every country in the world."
+    },
+    {
+     "en": "Mr Hill is a very lucky man. But his wife isn’t very lucky. She usually stays at home!"
+    }
+   ]
+  },
+  {
+   "lesson": 94,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "He will go to New York next week."
+    },
+    {
+     "en": "She will go to Sydney next month."
+    },
+    {
+     "en": "I will go to Paris the year after next."
+    },
+    {
+     "en": "We will go to Stockholm next year."
+    },
+    {
+     "en": "They will go to Geneva the week after next."
+    },
+    {
+     "en": "B No, Helen won't return to Geneva next year. She'll return to Bombay."
+    },
+    {
+     "en": "No, I won't fly to London tomorrow. I'll fly to Geneva."
+    },
+    {
+     "en": "No, Tom and I won't go to Madrid next year. We'll go to London. w No, Tom won't arrive from Moscow next month. He'll arrive from Madrid."
+    },
+    {
+     "en": "No, Carol and Helen won't stay in New York next month. They'll stay in Moscow."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why is Nigel a lucky man?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "return",
+   "pos": "v",
+   "zh": "返回"
+  },
+  {
+   "word": "New York",
+   "pos": "n",
+   "zh": "纽约"
+  },
+  {
+   "word": "Tokyo",
+   "pos": "n",
+   "zh": "东京"
+  },
+  {
+   "word": "Madrid",
+   "pos": "n",
+   "zh": "马德里"
+  }
+ ],
+ "translation": [
+  "奈杰尔是我们新搬来的隔壁邻居。他是个飞行员。",
+  "他曾在皇家空军任职。",
+  "下个月他将飞往纽约。",
+  "再下个月他将飞往东京。",
+  "现在他在马德里。他是一星期以前飞到西班牙的。",
+  "再下个星期他将返回伦敦。",
+  "他只有41岁，但他却过世界上几乎每一个国家。",
+  "奈杰尔是个很幸运的人。但他的妻子运气不很好。他总是呆在家里！"
+ ],
+ "notes": [
+  "1．next-door, 隔壁的。",
+  "2．the month after next, 再下个月。",
+  "after next 表示“下下个”，如：",
+  "the week after next下下个星期",
+  "语法",
+  "Grammar",
+  "in use",
+  "可与一般将来时连用的时间短语",
+  "（1） this week（这周）,next week（下周）,the week after next（下下周）,this month（这个月）,next month（下个月）,the month after next（下下个月）, this year（今年）,next year（明年）,the year after next（后年）.",
+  "注：一般过去时中通常会用last一词，而不是next.",
+  "（2） in a day's time（一天以后）, in a year's time（一年以后）, in two weeks time（两周后）, in three months' time（3个月后）等等。",
+  "1．return  v.",
+  "（1）回，返回：",
+  "He's just",
+  "returned",
+  "from",
+  "abroad",
+  ".",
+  "他刚从国外回来。",
+  "He'll return to London the week after next.",
+  "下下个星期他将返回伦敦。",
+  "（2）回复：",
+  "Spring will return soon.",
+  "很快就又是春天了。",
+  "He returned to his",
+  "copy",
+  "of the New York Times.",
+  "他又重读起他那份《纽约时报》来。",
+  "（3）归还；退还：",
+  "I'm",
+  "going",
+  "to return  these books to the library.",
+  "我要把这些书还给图书馆。",
+  "I",
+  "lent",
+  "him my",
+  "records",
+  "and he never returned them!",
+  "我把自己的唱片借给他，而他却从未归还！",
+  "2．lucky  adj.",
+  "（1）有好运的，幸运的：",
+  "Nigel is a very lucky man.",
+  "奈杰尔是个很幸运的人。",
+  "She was lucky to get",
+  "such",
+  "a well-paid job.",
+  "她能得到这样一个报酬优厚的工作真幸运。",
+  "（2）侥幸的，碰巧的：",
+  "He didn't really know the answer----it was just a lucky guess.",
+  "他并非真知道答案——那不过是个侥幸的猜测。",
+  "It's lucky he's here.",
+  "他碰巧在这儿。"
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "unitId": "u023",
+ "unit": 23,
+ "lessons": [
+  {
+   "lesson": 45,
+   "title": "",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "The boss's letter",
+     "zh": "老 板：请你来一下好吗？鲍勃？"
+    },
+    {
+     "speaker": "THE BOSS",
+     "en": "Can you come here a minute please, Bob?",
+     "zh": "鲍 勃: 什么事，先生？"
+    },
+    {
+     "speaker": "BOB",
+     "en": "Yes, sir?",
+     "zh": "老 板：帕梅拉在哪儿？"
+    },
+    {
+     "speaker": "THE BOSS",
+     "en": "Where's Pamela?",
+     "zh": "鲍 勃: 她在隔壁，在她的办公室里，先生。"
+    },
+    {
+     "speaker": "BOB",
+     "en": "She's next door.",
+     "zh": "老 板：她能为我打一下这封信吗？请问她。"
+    },
+    {
+     "en": "She's in her office, sir.",
+     "zh": "鲍 勃: 好的，先生。"
+    },
+    {
+     "speaker": "THE BOSS",
+     "en": "Can she type this letter for me?",
+     "zh": "鲍 勃: 请你把这封信给老板打一下可以吗，"
+    },
+    {
+     "en": "Ask her please.",
+     "zh": "帕梅拉？"
+    },
+    {
+     "speaker": "BOB",
+     "en": "Yes, sir. Can you type this letter for the boss please, Pamela?",
+     "zh": "帕梅拉：可以，当然可以。"
+    },
+    {
+     "speaker": "PAMELA",
+     "en": "Yes, of course I can.",
+     "zh": "鲍 勃: 给你这信。"
+    },
+    {
+     "speaker": "BOB",
+     "en": "Here you are.",
+     "zh": "帕梅拉：谢谢你，鲍勃。"
+    },
+    {
+     "speaker": "PAMELA",
+     "en": "Thank you, Bob. Bob!",
+     "zh": "帕梅拉：鲍勃！"
+    },
+    {
+     "speaker": "BOB",
+     "en": "Yes?",
+     "zh": "鲍 勃: 怎么了？怎么回事？"
+    },
+    {
+     "en": "What's the matter.",
+     "zh": "帕梅拉：我打不了这封信。"
+    },
+    {
+     "speaker": "PAMELA",
+     "en": "I can't type this letter. I can't read it!",
+     "zh": "帕梅拉：我看不懂这封信，"
+    },
+    {
+     "en": "The boss's handwriting is terrible!",
+     "zh": "老板的书写太糟糕了！"
+    }
+   ]
+  },
+  {
+   "lesson": 46,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "They can type these letters."
+    },
+    {
+     "en": "She can make the bed."
+    },
+    {
+     "en": "You can swim across the river."
+    },
+    {
+     "en": "We can come now."
+    },
+    {
+     "en": "We can run across the park."
+    },
+    {
+     "en": "He can sit on the grass."
+    },
+    {
+     "en": "I can give him some chocolate."
+    },
+    {
+     "en": "B Can you type this letter?"
+    },
+    {
+     "en": "Yes, I can."
+    },
+    {
+     "en": "What can you do?"
+    },
+    {
+     "en": "I can type this letter."
+    },
+    {
+     "en": "Can Penny wait for the bus?"
+    },
+    {
+     "en": "Yes, she can."
+    },
+    {
+     "en": "What can she do?"
+    },
+    {
+     "en": "She can wait for the bus."
+    },
+    {
+     "en": "Can Penny and Jane wash the dishes?"
+    },
+    {
+     "en": "Yes, they can."
+    },
+    {
+     "en": "What can they do?"
+    },
+    {
+     "en": "They can wash the dishes."
+    },
+    {
+     "en": "Can George take these flowers to her?"
+    },
+    {
+     "en": "Yes, he can."
+    },
+    {
+     "en": "What can he do?"
+    },
+    {
+     "en": "He can take these flowers to her."
+    },
+    {
+     "en": "Can the cat drink its milk?"
+    },
+    {
+     "en": "Yes, it can."
+    },
+    {
+     "en": "What can it do?"
+    },
+    {
+     "en": "It can drink its milk."
+    },
+    {
+     "en": "Can you and Tom paint this bookcase?"
+    },
+    {
+     "en": "Yes, we can."
+    },
+    {
+     "en": "What can you and Tom do?"
+    },
+    {
+     "en": "We can paint this bookcase."
+    },
+    {
+     "en": "Can you see that aeroplane?"
+    },
+    {
+     "en": "Yes, I can."
+    },
+    {
+     "en": "What can you do?"
+    },
+    {
+     "en": "I can see that aeroplane."
+    },
+    {
+     "en": "Can Jane read this book?"
+    },
+    {
+     "en": "Yes, she can."
+    },
+    {
+     "en": "What can she do?"
+    },
+    {
+     "en": "She can read this book."
+    }
+   ]
+  },
+  {
+   "lesson": 45,
+   "title": "The boss's letter 老板的信",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "landlord"
+    },
+    {
+     "en": "The boss is going to ask Pamela to type a letter for him."
+    },
+    {
+     "en": "The teacher is going to ask the students to sweep the floor."
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why can't Pamela type the letter?",
+  "zh": "帕梅拉为什么无法打信"
+ },
+ "words": [
+  {
+   "word": "can",
+   "pos": "",
+   "zh": "modal verb 能够"
+  },
+  {
+   "word": "boss",
+   "pos": "n",
+   "zh": "老板，上司"
+  },
+  {
+   "word": "minute",
+   "pos": "n",
+   "zh": "分（钟）"
+  },
+  {
+   "word": "ask",
+   "pos": "v",
+   "zh": "请求，要求"
+  },
+  {
+   "word": "handwriting",
+   "pos": "n",
+   "zh": "书写"
+  },
+  {
+   "word": "terrible",
+   "pos": "adj",
+   "zh": "糟糕的，可怕的"
+  }
+ ],
+ "translation": [
+  "老 板：请你来一下好吗？鲍勃？",
+  "鲍 勃: 什么事，先生？",
+  "老 板：帕梅拉在哪儿？",
+  "鲍 勃: 她在隔壁，在她的办公室里，先生。",
+  "老 板：她能为我打一下这封信吗？请问她。",
+  "鲍 勃: 好的，先生。",
+  "鲍 勃: 请你把这封信给老板打一下可以吗，",
+  "帕梅拉？",
+  "帕梅拉：可以，当然可以。",
+  "鲍 勃: 给你这信。",
+  "帕梅拉：谢谢你，鲍勃。",
+  "帕梅拉：鲍勃！",
+  "鲍 勃: 怎么了？怎么回事？",
+  "帕梅拉：我打不了这封信。",
+  "帕梅拉：我看不懂这封信，",
+  "老板的书写太糟糕了！"
+ ],
+ "notes": [
+  "1．Can you come here a minute please, Bob? 请你来一下好吗，鲍勃？",
+  "句中的 a minute是时间状语，表示\"一会儿\"、\"片刻\"。又如：",
+  "Wait a minute, please.",
+  "请稍等一会儿。",
+  "2．She's next door. 她在隔壁。",
+  "这里 next door起副词作用，作表语。",
+  "can(2)",
+  "can是情态助动词，表示\"能力\"。情态助动词的否定式由情态助动词加not构成；疑问句中将情态助动词置于句首，后接句子的主语和主要谓语动词。又如：",
+  "Can Penny and Jane wash the dishes?  彭尼和简会洗盘子吗？",
+  "Yes, they can. 是的，她们会。",
+  "can本身没有人称或数方面的变化。它还可以与疑问词一起用在特殊疑问句中。如：",
+  "What can Penny and Jane do? 彭尼和简会干什么？",
+  "They can wash the dishes.她们会洗盘子。",
+  "1．lift  v.",
+  "（1）提；抬；举：",
+  "Can you lift this heavy suitcase?",
+  "你能提起这个沉重的衣箱吗？",
+  "The elderly lady lifted her eyes from the book.",
+  "那位年长的女士从书本上抬起眼睛。",
+  "（2）提高；搞高……地位：",
+  "This polity lifted Chinese exports of silk.",
+  "这项政策提高了中国丝绸的出口量。",
+  "2．make  v.",
+  "（1）制作；创造：",
+  "She is going to make a very big birthday cake.",
+  "她准备做一个非常大的生日蛋糕。",
+  "Hollywood can make the most famous film stars in the world.",
+  "好莱坞可以造就世界上最著名的影星。",
+  "（2）产生，引起，导致：",
+  "You have made a serious mistake.",
+  "你犯了一个严重的错误。",
+  "Don't make so much noise, please!",
+  "请别这么大肆喧闹！",
+  "（3）整理；料理；准备：",
+  "She is now making the bed for a guest.",
+  "她现在正为客人铺床。",
+  "The coffee is made.",
+  "咖啡煮好了。",
+  "3．terrible  adj.",
+  "（1）可怕的；骇人的：",
+  "This is a picture of terrible new weapons.",
+  "这是一张可怕的新式武器的图片。",
+  "（2）困难的；费劲的：",
+  "Who can accomplish this terrible task?",
+  "谁能完成这项艰难的任务？",
+  "（3）极度的；非常严重的：",
+  "I've got a terrible headache.",
+  "我头疼得厉害。",
+  "（4）＜口＞糟透的；很蹩脚的：",
+  "She is terrible at maths.",
+  "她的数学很蹩脚。"
+ ]
+}

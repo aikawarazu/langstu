@@ -102,6 +102,61 @@
   border-radius:0 10px 10px 0;padding:10px 12px;font-size:12.5px;color:#7a6a45;line-height:1.8}
 .tb-tip b{flex:none;font-size:14px}
 
+/* 导学：情境导入 / 本课目标 */
+.tb-warm{margin-top:9px;background:#f7f4ec;border:1px dashed #ded2b6;border-radius:10px;
+  padding:10px 13px;font-size:13px;line-height:1.95;color:#5f5a4c;white-space:pre-wrap}
+.tb-goals{margin-top:10px;background:#f3f8f5;border:1px solid #d8e8de;border-radius:10px;padding:9px 13px}
+.tb-goals b{display:block;font-size:12px;color:#2f7a58;margin-bottom:5px}
+.tb-goals ul{margin:0;padding-left:18px}
+.tb-goals li{font-size:12.5px;line-height:1.85;color:#3f5a4c}
+
+/* 选择题：点选项即时判分 */
+.tb-quizs{display:grid;gap:10px}
+.tb-quiz{background:#fff;border:1px solid #efe7d6;border-radius:11px;padding:10px 13px 12px}
+.tb-quiz-t{font-size:13.5px;font-weight:700;color:#33301f;line-height:1.75}
+.tb-quiz-t .no{display:inline-block;min-width:19px;height:19px;line-height:19px;text-align:center;
+  background:#f4efdd;color:#8a7a52;border-radius:50%;font-size:11px;font-weight:800;margin-right:6px}
+.tb-quiz-t i{display:block;font-style:normal;font-size:12px;font-weight:500;color:#8d8878;margin-top:2px}
+.tb-quiz-opts{display:grid;gap:5px;margin-top:8px}
+.tb-opt{display:flex;gap:8px;align-items:flex-start;text-align:left;cursor:pointer;
+  background:#fdfbf5;border:1px solid #ece3cf;border-radius:9px;padding:7px 10px;
+  font:inherit;font-size:13px;line-height:1.65;color:#3d3a2c;transition:background .12s,border-color .12s}
+.tb-opt:hover:not(:disabled){background:#f7f2e4;border-color:#ddd0b0}
+.tb-opt .k{flex:none;width:18px;height:18px;line-height:18px;text-align:center;border-radius:50%;
+  background:#efe8d5;color:#8a7a52;font-size:11px;font-weight:800;margin-top:1px}
+.tb-opt.right{background:#eaf7f0;border-color:#a9dcc2}
+.tb-opt.right .k{background:#2f8f63;color:#fff}
+.tb-opt.wrong{background:#fdeeee;border-color:#f0bcbc}
+.tb-opt.wrong .k{background:#c94f4f;color:#fff}
+.tb-opt:disabled{cursor:default;opacity:.92}
+.tb-quiz-fb{margin-top:7px;font-size:12.5px;line-height:1.85;border-radius:8px;padding:6px 10px}
+.tb-quiz-fb.ok{background:#eef7f2;color:#0e7a52;font-weight:700}
+.tb-quiz-fb.no{background:#fdeeee;color:#a84040;font-weight:700}
+.tb-quiz-fb .why{font-weight:500;color:#6d6650;margin-top:3px}
+.tb-quiz-sum{margin-top:2px;font-size:12px;color:#8a7a52;text-align:right}
+.tb-quiz-sum b{color:#0e7a52;font-size:13px}
+
+/* 提问：先自己想，再看提示/答案 */
+.tb-qs{display:grid;gap:8px}
+.tb-q{background:#fff;border:1px solid #efe7d6;border-radius:11px;padding:10px 13px 11px}
+.tb-q.k-listen{border-left:3px solid #6a9fd8}
+.tb-q.k-detail{border-left:3px solid #e0b45c}
+.tb-q.k-think{border-left:3px solid #a98ad0}
+.tb-q.k-drill{border-left:3px solid #6fb98a}
+.tb-q-h{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.tb-q-k{font-size:11px;font-weight:800;color:#7a6a45;background:#f4efdd;border-radius:6px;padding:2px 7px}
+.tb-q-no{margin-left:auto;font-size:11px;font-weight:800;color:#b3a684}
+.tb-q-t{font-size:13.5px;font-weight:700;color:#33301f;line-height:1.75}
+.tb-q-t i{display:block;font-style:normal;font-size:12px;font-weight:500;color:#8d8878;margin-top:2px}
+.tb-q-hint,.tb-q-a{margin-top:6px}
+.tb-q-hint summary,.tb-q-a summary{cursor:pointer;list-style:none;display:inline-block;font-size:11.5px;
+  font-weight:700;color:#9a8a63;background:#f7f3e7;border:1px solid #eee5cd;border-radius:6px;padding:2px 8px}
+.tb-q-a summary{color:#0e7a52;background:#eef7f2;border-color:#d5e9de}
+.tb-q-hint summary::-webkit-details-marker,.tb-q-a summary::-webkit-details-marker{display:none}
+.tb-q-hint>div,.tb-q-a>div{margin-top:5px;font-size:12.5px;line-height:1.85;color:#6d6650}
+.tb-q-a>div{color:#0e7a52;font-weight:700}
+.tb-q-a>div i{font-style:normal;display:block;font-weight:500;color:#8d8878;margin-top:2px}
+
 /* 空态 */
 .tbk-empty{border:1px dashed #e0d6bf;border-radius:12px;padding:18px;text-align:center;
   color:#a0947a;font-size:12.5px;line-height:1.9;background:#fffdf7}

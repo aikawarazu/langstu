@@ -1,0 +1,267 @@
+{
+ "unitId": "u070",
+ "unit": 70,
+ "lessons": [
+  {
+   "lesson": 139,
+   "title": "Is that you, John?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Mr Grimes",
+     "en": "Is that you, John?"
+    },
+    {
+     "speaker": "John Smith",
+     "en": "Yes, speaking."
+    },
+    {
+     "speaker": "Mr Grimes",
+     "en": "Tell Mary we shall be late for dinner this evening."
+    },
+    {
+     "speaker": "John Smith",
+     "en": "I’m afraid I don’t understand."
+    },
+    {
+     "speaker": "Mr Grimes",
+     "en": "Hasn’t Mary told you? She invited betty and me to dinner this evening. I said I would be at your house at six o’clock, but the boss wants me to do some extra work. I’ll have to stay at the office. I don’t know when I shall finish. Oh, and by the way, my wife wants to know if Mary needs any help."
+    },
+    {
+     "speaker": "John Smith",
+     "en": "I don’t know what you’re talking about."
+    },
+    {
+     "speaker": "Mr Grimes",
+     "en": "That is John Smith, isn’t it?"
+    },
+    {
+     "speaker": "John Smith",
+     "en": "Yes, I’m John Smith."
+    },
+    {
+     "speaker": "Mr Grimes",
+     "en": "You are John Smith, the engineer, aren’t you?"
+    },
+    {
+     "speaker": "John Smith",
+     "en": "That’s right."
+    },
+    {
+     "speaker": "Mr Grimes",
+     "en": "You work for the Overseas Engineering Company, don’t you?"
+    },
+    {
+     "speaker": "John Smith",
+     "en": "No, I don’t. I’m John Smith the telephone engineer and I’m repairing your telephone line."
+    }
+   ]
+  },
+  {
+   "lesson": 140,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Yes, Graham Turner is speaking to John Smith."
+    },
+    {
+     "en": "Mary invited Mr. and Mrs. Turner to dinner."
+    },
+    {
+     "en": "Graham Turner said he would be there at six o'clock."
+    },
+    {
+     "en": "Because his boss wanted him to do some extra work."
+    },
+    {
+     "en": "No, he doesn't."
+    },
+    {
+     "en": "Mr. Turner's wife wants to know if Mary needs any help."
+    },
+    {
+     "en": "B I want to know if you are late. Tell me if you are late."
+    },
+    {
+     "en": "I want to know why you are late. Tell me why you are late."
+    },
+    {
+     "en": "I want to know if you are dirty. Tell my if you are dirty."
+    },
+    {
+     "en": "I want to know why you are dirty. Tell me why you are dirty."
+    },
+    {
+     "en": "I want to know if you are lazy. Tell me if you are lazy."
+    },
+    {
+     "en": "I want to know why you are lazy. Tell me why you are lazy."
+    },
+    {
+     "en": "I want to know if you are busy. Tell me if you are busy."
+    },
+    {
+     "en": "I want to know why you are busy. Tell me why you are busy."
+    },
+    {
+     "en": "C I want to know if you are writing. Tell me if you are writing."
+    },
+    {
+     "en": "I want to know what you are writing. Tell me what you are writing."
+    },
+    {
+     "en": "I want to know if you are cooking. Tell me if you are cooking."
+    },
+    {
+     "en": "I want to know what you are cooking. Tell me what you are cooking."
+    },
+    {
+     "en": "I want to know if you are painting. Tell me if you are painting."
+    },
+    {
+     "en": "I want to know what you are painting. Tell me what you are painting."
+    },
+    {
+     "en": "I want to know if you are playing. Tell me if you are playing."
+    },
+    {
+     "en": "I want to know what you are playing. Tell me what you are playing."
+    },
+    {
+     "en": "D I want to know if Tom got up early. Tell me if Tom got up early."
+    },
+    {
+     "en": "I want to know when Tom got up. Tell me when Tom got up."
+    },
+    {
+     "en": "I want to know if Tom arrived late. Tell me if Tom arrived late."
+    },
+    {
+     "en": "I want to know when Tom arrived. Tell me when Tom arrived."
+    },
+    {
+     "en": "I want to know if Tom did his homework yesterday. Tell me if Tom did his homework yesterday."
+    },
+    {
+     "en": "I want to know when Tom did his homework yesterday. Tell me when Tom did his homework yesterday."
+    },
+    {
+     "en": "recruits"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Which John Smith does Graham Turner think he is talking to?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "extra",
+   "pos": "adj",
+   "zh": "额外的"
+  },
+  {
+   "word": "overseas",
+   "pos": "adj",
+   "zh": "海外的，国外的"
+  },
+  {
+   "word": "engineering",
+   "pos": "n",
+   "zh": "工程"
+  },
+  {
+   "word": "company",
+   "pos": "n",
+   "zh": "公司"
+  },
+  {
+   "word": "line",
+   "pos": "n",
+   "zh": "线路"
+  }
+ ],
+ "translation": [
+  "格雷厄姆.特纳：是你吗，约翰？",
+  "约 翰.史 密斯：是我，请讲。",
+  "格雷厄姆.特纳：你告诉玛丽，今晚吃饭将晚到一会儿。",
+  "约 翰.史 密斯：恐怕我还不明白您的意思。",
+  "格雷厄姆.特纳：玛丽没有告诉你吗？",
+  "她邀请我和夏洛特今晚去",
+  "吃饭。我说过我6点到你家，",
+  "但老板要我加班。我不得",
+  "不留在办公室，不知道什",
+  "么时候才能结束。喔，",
+  "顺便问一问，我妻子想知",
+  "道玛丽是否需要帮忙。",
+  "约 翰.史 密斯：我不知道您在说些什么。",
+  "格雷厄姆.特纳：你是约翰.史密斯，对吗？",
+  "约 翰.史密 斯： 是的，我是约翰.史密斯。",
+  "格雷厄姆.特纳：你是工程师约翰.史密斯，",
+  "对吗？",
+  "约 翰.史 密斯：对。",
+  "格雷厄姆.特纳：你在海外工程公司上班，",
+  "是吗？",
+  "约 翰.史 密斯：不，不是。我是电话工程",
+  "师约翰.史密斯，我正在",
+  "修理您的电话线。"
+ ],
+ "notes": [
+  "1．Tell Mary we'll be late for dinner this evening. 你告诉玛丽，今晚吃饭我们将晚到一会儿。",
+  "句中 we will be late…是一个宾语从句，作动词 tell的宾语。",
+  "这个宾语从句省略了引导词that。late表示“迟到”的意思时通常作表语，与for连用。",
+  "2．by the way, 顺便（问、说一下）。",
+  "说话者忽然想到另一件事的时候用此来表示改变话题。",
+  "宾语从句（2）",
+  "在以前已介绍过宾语从句一般由that, which和whom引导，它们有时在口语中可以省略。除此之外，宾语从句还可以由when, where, what, why, how以及 if和 whether这些疑问词来引导，而它们在句中往往不能加以省略。无论是that, if还是wh-疑问词引导的宾语从句通常都应以陈述句的形式出现。",
+  "请看例句：",
+  "She wants to know when you'll have a bath.",
+  "她想知道你何时洗澡。",
+  "I don't know where she lives.",
+  "我不知道她住在哪儿。",
+  "He wants to know what you are cooking.",
+  "他想知道你在做什么饭。",
+  "She wants to know why Mary is late.",
+  "她想知道玛丽为何迟到。",
+  "He wants to know if you are tired.",
+  "他想知道你是否累了。",
+  "1．extra",
+  "（1）adj. 额外的；外加的；另外收费的：",
+  "Could you get an extra bottle of milk?",
+  "请你再拿一瓶牛奶好吗？",
+  "On Sundays, she always gets some extra sleep.",
+  "星期天她总是比平时多睡一会儿。",
+  "Guests at this hotel can use the gym at no extra cost.",
+  "这家饭店的客人们可以使用健身房，不再额外收费。",
+  "（2）adv. 额外地；另外：",
+  "He usually",
+  "works",
+  "extra on weekends.",
+  "他通常在周末加班。",
+  "They'll charge you extra for room service.",
+  "饭菜送到房间是要另外收费的。",
+  "She is extra nice to her",
+  "colleagues",
+  "these days.",
+  "这些日子她对她的同事们特别好。",
+  "2．overseas",
+  "（1）adj. 海外的；国外的：",
+  "The university",
+  "recruits",
+  "a large number of overseas",
+  "students each year.",
+  "这所大学每年招收大量的外国留学生。",
+  "This small country depends heavily on its overseas trade.",
+  "这个小国在很大程度上依赖于其海外贸易。",
+  "（2）adv. 在（或向）海外；在（或向）国外：",
+  "John is going to work overseas soon.",
+  "约翰不久就要出国工作了。",
+  "He has never been overseas.",
+  "他还从未出过国。"
+ ]
+}

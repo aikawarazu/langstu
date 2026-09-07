@@ -1,0 +1,272 @@
+{
+ "unitId": "u057",
+ "unit": 57,
+ "lessons": [
+  {
+   "lesson": 113,
+   "title": "small change",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Conductor"
+    },
+    {
+     "en": ":       Fares please!"
+    },
+    {
+     "speaker": "Man",
+     "en": "Trafalgar Square please."
+    },
+    {
+     "speaker": "Conductor",
+     "en": "I’m sorry, sir. I can’t change a pound note. Haven’t you got any small change?"
+    },
+    {
+     "speaker": "Man",
+     "en": "I’ve got no small change, I’m afraid."
+    },
+    {
+     "speaker": "Conductor",
+     "en": "I’ll ask some of the passengers. Have you any small change, sir?"
+    },
+    {
+     "en": "1st Passenger:        I’m sorry. I’ve got none."
+    },
+    {
+     "en": "2ndPassenger:  I haven’t got any either."
+    },
+    {
+     "speaker": "Conductor",
+     "en": "Can you change this pound note, madam?"
+    },
+    {
+     "en": "3rd Passenger:       I’m afraid I can’t."
+    },
+    {
+     "en": "4th Passenger:       Neither can I."
+    },
+    {
+     "speaker": "Conductor",
+     "en": "I’m very sorry, sir. You must get off the bus."
+    },
+    {
+     "en": "None of our passengers can change this note. They’re all millionaires"
+    },
+    {
+     "speaker": "Two Tramps",
+     "en": "Except us, conductor."
+    },
+    {
+     "en": "1st Tramp"
+    },
+    {
+     "en": ":       I’ve got some small change."
+    },
+    {
+     "en": "2nd Tramp:       So have I."
+    }
+   ]
+  },
+  {
+   "lesson": 114,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "There are no books on that shelf."
+    },
+    {
+     "en": "I have got no money."
+    },
+    {
+     "en": "There is no coffee in this tin."
+    },
+    {
+     "en": "I saw no cars in the street."
+    },
+    {
+     "en": "B No, I haven't got any milk."
+    },
+    {
+     "en": "I've got no milk. I've got none."
+    },
+    {
+     "en": "No, I haven't got any envelopes."
+    },
+    {
+     "en": "I've got no envelopes. I've got none."
+    },
+    {
+     "en": "No, I haven't got any magazines."
+    },
+    {
+     "en": "I've got no magazines. I've got none."
+    },
+    {
+     "en": "No, I haven't got any bread."
+    },
+    {
+     "en": "I've got no bread. I've got none."
+    },
+    {
+     "en": "C Neither am I. I'm not hungry, either."
+    },
+    {
+     "en": "Neither did I. I didn't meet him, either."
+    },
+    {
+     "en": "Neither was I. I wasn't at church yesterday, either."
+    },
+    {
+     "en": "Neither do I. I don't like ice cream, either."
+    },
+    {
+     "en": "Neither can I. I can't swim, either."
+    },
+    {
+     "en": "Neither am I. I'm not a doctor,  either."
+    },
+    {
+     "en": "D So am I. I' m hungry, too."
+    },
+    {
+     "en": "So did I. I met him, too."
+    },
+    {
+     "en": "So was I. I was at church yesterday, too."
+    },
+    {
+     "en": "So do I. like ice cream, too."
+    },
+    {
+     "en": "So can I. I can swim, too."
+    },
+    {
+     "en": "So am I. I'm a doctor, too."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Who has got some change?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "conductor",
+   "pos": "n",
+   "zh": "售票员"
+  },
+  {
+   "word": "fare",
+   "pos": "n",
+   "zh": "车费, 车票"
+  },
+  {
+   "word": "change",
+   "pos": "v",
+   "zh": "兑换（钱）"
+  },
+  {
+   "word": "note",
+   "pos": "n",
+   "zh": "纸币"
+  },
+  {
+   "word": "passenger",
+   "pos": "n",
+   "zh": "乘客"
+  },
+  {
+   "word": "none",
+   "pos": "pron",
+   "zh": "没有任何东西"
+  },
+  {
+   "word": "neither",
+   "pos": "adv",
+   "zh": "也不"
+  },
+  {
+   "word": "get off",
+   "pos": "",
+   "zh": "下车"
+  },
+  {
+   "word": "tramp",
+   "pos": "n",
+   "zh": "游浪汉"
+  },
+  {
+   "word": "except",
+   "pos": "prep",
+   "zh": "除……外"
+  }
+ ],
+ "translation": [
+  "售票员： 请买票！",
+  "男 子： 请买一张到特拉法加广场的票。",
+  "售票员： 对不起，我找不开10英镑的钞票。",
+  "您没有零钱吗？",
+  "男 子： 恐怕我没有零钱。",
+  "售票员： 我来问问其他乘客。",
+  "售票员： 先生，您有零钱吗？",
+  "乘 客1： 对不起，我没有。",
+  "乘 客2： 我也没有。",
+  "售票员： 夫人，您能把这10英镑的钞票",
+  "换开吗？",
+  "乘 客3： 恐怕不能。",
+  "乘 客4： 我也不能。",
+  "售票员： 非常抱歉，先生。您必须下车。",
+  "我们的乘客中没人能换开这张",
+  "钞票。",
+  "他们都是百万富翁！",
+  "二流浪汉：我们俩除外。",
+  "流浪汉1： 我有零钱。",
+  "流浪汉2： 我也有。"
+ ],
+ "notes": [
+  "1．I can't change a ten-pound note. 我找不开 10英镑的钞票。",
+  "这里 change是动词，意为“兑换”。change还可作名词，意为“零钱”，如课文中的 I've got no small change, I'm afraid。此外，no +名词表示所指的东西全然没有。以上这句话比 I haven't got any small change更强调没有任何一点儿零钱。",
+  "2．I've got none．我没有。",
+  "这里指零钱（不可数名词）。none也可与可数名词连用",
+  "None of our passengers can change this note.",
+  "我们的乘客中没有一个能破开这张钞票的。",
+  "none在句中通常单独使用",
+  "3．Except us．我们俩除外。",
+  "意思是：除了我们，他们都是百万富翁。",
+  "so与neither引导的简短回答",
+  "以so 或 neither开头的简短回答，必须用倒装形式，即： So／Neither +助动词+主语。假如前一句是肯定的，后一句就用so开头；如前一句是否定的，后一句则用neither／nor开头。前后两句的时态要一致。",
+  "1．change  v.",
+  "（1）兑换：",
+  "I want to change the pounds into dollars.",
+  "我想把这些英镑兑换成美元。",
+  "Could you change me a one-pound note, please?",
+  "能否请你换一镑的零钱给我？",
+  "（2）改变；更改：",
+  "He changed his mind at last.",
+  "他最终改变了自己的主意。",
+  "This plan is to change the desert into",
+  "farmland",
+  ".",
+  "这个计划是要将沙漠变为农田。",
+  "（3）交换；改换：",
+  "Shall we change our seats?",
+  "我们调换一下座位好吗？",
+  "You've got to change your bus at the next stop.",
+  "你得在下一站换车。",
+  "2．except  prep.",
+  "除……外：",
+  "Everyone except Jane went to the party.",
+  "除简之外的所有人都去参加那个派对了。",
+  "They're open every day except Sunday.",
+  "除星期天之外，他们每天都开门。",
+  "I like him except when he's",
+  "gloomy",
+  ".",
+  "除了他满脸阴沉的时候之外，我挺喜欢他。"
+ ]
+}

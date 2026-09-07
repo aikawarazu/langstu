@@ -1,0 +1,111 @@
+{
+ "unitId": "u027",
+ "unit": 27,
+ "lessons": [
+  {
+   "lesson": 54,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Does the sun set late?"
+    },
+    {
+     "en": "The sun doesn't set late."
+    },
+    {
+     "en": "Does he like ice cream?"
+    },
+    {
+     "en": "He doesn't like ice cream."
+    },
+    {
+     "en": "Does Mrs. Jones want a biscuit?"
+    },
+    {
+     "en": "She doesn't want a biscuit."
+    },
+    {
+     "en": "Does Jim come from England?"
+    },
+    {
+     "en": "He doesn't come from England."
+    },
+    {
+     "en": "B Where does he come from? Is he Australian?"
+    },
+    {
+     "en": "Yes. He's Australian. He comes from Australia."
+    },
+    {
+     "en": "Where does he come from? Is he Austrian"
+    },
+    {
+     "en": "Yes. He's Austrian. He comes from Austria"
+    },
+    {
+     "en": "Where does he come from? Is he Canadian?"
+    },
+    {
+     "en": "Yes. He's Canadian. He comes from Canada."
+    },
+    {
+     "en": "Where do they come from? Are they Chinese?"
+    },
+    {
+     "en": "Yes. They're Chinese. They come from China."
+    },
+    {
+     "en": "Where does he come from? Is he Finnish?"
+    },
+    {
+     "en": "Yes. He's Finnish. He comes from Finland."
+    },
+    {
+     "en": "Where does she come from? Is she Indian?"
+    },
+    {
+     "en": "Yes. She's Indian. She comes from India."
+    },
+    {
+     "en": "Where do they come from? Are they Japanese?"
+    },
+    {
+     "en": "Yes. They are Japanese. They come from Japan."
+    },
+    {
+     "en": "Where do they come from? Are they Nigerian?"
+    },
+    {
+     "en": "Yes. They're Nigerian. They come from Nigeria."
+    },
+    {
+     "en": "Where does she come from? Is she Turkish?"
+    },
+    {
+     "en": "Yes. She's Turkish. She comes from Turkey."
+    },
+    {
+     "en": "Where does she come from? Is she Korean?"
+    },
+    {
+     "en": "Yes. She's Korean. She comes from Korea"
+    }
+   ]
+  },
+  {
+   "lesson": 53,
+   "title": "An interesting climate",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "moist"
+    }
+   ]
+  }
+ ],
+ "question": null,
+ "words": [],
+ "translation": [],
+ "notes": []
+}

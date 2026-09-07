@@ -1,0 +1,173 @@
+{
+ "unitId": "u035",
+ "unit": 35,
+ "lessons": [
+  {
+   "lesson": 69,
+   "title": "The car race",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "There is a car race near our town every year. In 1995, there was a very big race.",
+     "zh": "在我们镇子附近每年都有一场汽车比赛。1995年举行了一次盛大的比赛。"
+    },
+    {
+     "en": "There were hundreds of people there. My wife and I were at the race. Our friends, Julie and Jack were there, too. You can see us in the crowd. We are standing on the left.",
+     "zh": "许许多多人都去了赛场。我和我的妻子也去了。我们的朋友朱莉和杰克也去了。你可以在人群中看到我们。我们站在左面。"
+    },
+    {
+     "en": "There were twenty cars in the race. There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
+     "zh": "参加比赛的有20辆汽车。有英国、法国、德国、意大利、美国和日本的汽车。"
+    },
+    {
+     "en": "It was an exciting finish. The winner was Billy Stewart. He was in car number fifteen. Five other cars were just behind him.",
+     "zh": "比赛的结尾是激动人心的。获胜者是比利.斯图尔特。他在第15号车里，其他5辆汽车跟在他后面。"
+    },
+    {
+     "en": "On the way home, my wife said to me, “Don’t drive so quickly! You’re not Billy Stewart!”",
+     "zh": "在回家的途中，我妻子对我说：“别开得这样快！你可不是比利.斯图尔特！”"
+    }
+   ]
+  },
+  {
+   "lesson": 70,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "We were at the stationer's on Monday."
+    },
+    {
+     "en": "We were there  at  four o'clock."
+    },
+    {
+     "en": "They were in Australia in September."
+    },
+    {
+     "en": "They were there in spring."
+    },
+    {
+     "en": "On November 25th, they were in Canada."
+    },
+    {
+     "en": "They were there in 1990."
+    },
+    {
+     "en": "B Where were you and Susan on March 23rd?"
+    },
+    {
+     "en": "We were at the office on March 23rd."
+    },
+    {
+     "en": "Where were Sam and Penny in 1986?"
+    },
+    {
+     "en": "They were in India in 1986."
+    },
+    {
+     "en": "Where were you and Penny on Saturday?"
+    },
+    {
+     "en": "We were at the baker's on Saturday."
+    },
+    {
+     "en": "Where were Sam and Penny in 1993?"
+    },
+    {
+     "en": "They were in Canada in 1993."
+    },
+    {
+     "en": "Where were you and Penny in August?"
+    },
+    {
+     "en": "We were in Austria in August."
+    },
+    {
+     "en": "Where were Sam and Penny on May 25th?"
+    },
+    {
+     "en": "They were at home on May 25th."
+    },
+    {
+     "en": "Where were you and Penny in December?"
+    },
+    {
+     "en": "We were in Finland in December."
+    },
+    {
+     "en": "Where were you and Sam on February 22nd?"
+    },
+    {
+     "en": "We were at school on February 22nd."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Which car was the winner in 1995?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "race",
+   "pos": "n",
+   "zh": "比赛"
+  },
+  {
+   "word": "town",
+   "pos": "n",
+   "zh": "城填"
+  },
+  {
+   "word": "crowd",
+   "pos": "n",
+   "zh": "人群"
+  },
+  {
+   "word": "stand",
+   "pos": "v",
+   "zh": "站立"
+  },
+  {
+   "word": "exciting",
+   "pos": "adj",
+   "zh": "使人激动的"
+  },
+  {
+   "word": "just",
+   "pos": "adv",
+   "zh": "正好，恰好"
+  },
+  {
+   "word": "finish",
+   "pos": "n",
+   "zh": "结尾，结束"
+  },
+  {
+   "word": "winner",
+   "pos": "n",
+   "zh": "获胜者"
+  },
+  {
+   "word": "behind",
+   "pos": "prep",
+   "zh": "在……之后"
+  },
+  {
+   "word": "way",
+   "pos": "n",
+   "zh": "路途"
+  }
+ ],
+ "translation": [
+  "在我们镇子附近每年都有一场汽车比赛。1995年举行了一次盛大的比赛。",
+  "许许多多人都去了赛场。我和我的妻子也去了。我们的朋友朱莉和杰克也去了。你可以在人群中看到我们。我们站在左面。",
+  "参加比赛的有20辆汽车。有英国、法国、德国、意大利、美国和日本的汽车。",
+  "比赛的结尾是激动人心的。获胜者是比利.斯图尔特。他在第15号车里，其他5辆汽车跟在他后面。",
+  "在回家的途中，我妻子对我说：“别开得这样快！你可不是比利.斯图尔特！”"
+ ],
+ "notes": []
+}

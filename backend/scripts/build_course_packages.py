@@ -16,6 +16,9 @@ import shutil
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "app", "data"))
 OUT = os.path.join(ROOT, "courses")
 OLD_NOTES = os.path.join(ROOT, "notes")
+CRAFT = os.path.join(OLD_NOTES, "craft")          # 逐课精编稿（人工/AI 编写，优先级最高）
+BACKEND_PARSED = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), "..", "data", "parsed"))   # 原文底稿（raw txt 解析产物）
 
 BOOKS = [
     # key,   包 id,  标题,              副标题,                     level
@@ -199,7 +202,127 @@ def conv_content(nt):
     exs = [{"q": e.get("q", ""), "a": e.get("a", ""), "note": e.get("n", "")} for e in (nt.get("exercises") or [])]
     if exs:
         c["exercises"] = exs
+    qs = [q for q in (nt.get("questions") or []) if q.get("q")]
+    if qs:
+        c["questions"] = qs
+    qz = [q for q in (nt.get("quiz") or []) if q.get("q") and q.get("options")]
+    if qz:
+        c["quiz"] = qz
     return c
+
+
+def load_json_if(path):
+    if path and os.path.exists(path):
+        try:
+            return json.load(open(path, encoding="utf-8"))
+        except Exception:
+            return None
+    return None
+
+
+def from_parsed(pid, uid):
+    """原文底稿（backend/data/parsed）：课文、官方听力提问、官方生词表。"""
+    d = load_json_if(os.path.join(BACKEND_PARSED, pid, uid + ".json"))
+    if not d:
+        return None
+    c = {}
+    text = []
+    for L in d.get("lessons") or []:
+        item = {"lesson": L.get("lesson")}
+        if L.get("title"):
+            item["title"] = L["title"]
+        if L.get("kind"):
+            item["kind"] = L["kind"]
+        lines = [{"speaker": l["speaker"], "en": l["en"]} if l.get("speaker") else {"en": l["en"]}
+                 for l in (L.get("lines") or []) if l.get("en")]
+        for l, src in zip(lines, [x for x in (L.get("lines") or []) if x.get("en")]):
+            if src.get("zh"):
+                l["zh"] = src["zh"]
+        if lines:
+            item["lines"] = lines
+            text.append(item)
+    if text:
+        c["text"] = text
+    q = d.get("question")
+    if q and (q.get("en") or q.get("zh")):
+        c["questions"] = [{"kind": "listen", "q": q.get("en") or q.get("zh"),
+                           "zh": q.get("zh") or "", "a": "", "aZh": "", "hint": ""}]
+    if d.get("words"):
+        c["_officialWords"] = d["words"]
+    if d.get("translation"):
+        c["translation"] = "\n".join(d["translation"])
+    return c or None
+
+
+def merge_content(base, over):
+    """over 覆盖 base（按字段整体覆盖）。"""
+    if not over:
+        return base
+    out = dict(base)
+    for k, v in over.items():
+        if k.startswith("_"):
+            out[k] = v
+        elif v:
+            out[k] = v
+    return out
+
+
+def merge_text(text, extra):
+    """把 extra 课文段并入 text：同课号替换，否则追加，最后按课号排序。
+
+    NCE1 一个单元含教材两课（奇数课课文 + 偶数课句型操练），
+    精编稿常用 textExtra 补齐偶数课那一半。
+    """
+    def key(t):
+        try:
+            return int(t.get("lesson") or 0)
+        except (TypeError, ValueError):
+            return 0
+
+    out = list(text or [])
+    pos = {key(t): i for i, t in enumerate(out)}
+    for e in extra or []:
+        k = key(e)
+        if k and k in pos:
+            out[pos[k]] = e
+        else:
+            out.append(e)
+    return sorted(out, key=key)
+
+
+def merge_words(words, extra):
+    """把 extra 词条并入 words：同名（忽略大小写）替换，否则按 extra 顺序追加在对应位置后。
+
+    extra 条目可以是完整 WordEntry，也可以是官方生词表的 {word,pos,zh}。
+    """
+    def norm(w):
+        return re.sub(r"[^a-z]", "", str(w.get("word", "")).lower())
+
+    out = list(words)
+    idx = {norm(w): i for i, w in enumerate(out) if norm(w)}
+    for e in extra or []:
+        w = e.get("word")
+        if not w:
+            continue
+        entry = {"word": w}
+        if e.get("phonetic"):
+            entry["phonetic"] = e["phonetic"]
+        if e.get("meanings"):
+            entry["meanings"] = e["meanings"]
+        else:                                   # 官方生词表形态 {word,pos,zh}
+            entry["meanings"] = [{"meaning": e.get("zh", "")}]
+            if e.get("pos"):
+                entry["meanings"][0]["pos"] = e["pos"]
+        if e.get("examples"):
+            entry["examples"] = e["examples"]
+        k = norm(entry)
+        if k in idx:
+            out[idx[k]] = entry                 # 精编/官方版本优先
+        else:
+            out.append(entry)
+            if k:
+                idx[k] = len(out) - 1
+    return out
 
 
 def bvid_of(url):
@@ -208,8 +331,7 @@ def bvid_of(url):
 
 
 def build():
-    if os.path.isdir(OUT):
-        shutil.rmtree(OUT)
+    # 不清空目录：直接覆盖写全部产物（幂等）；若源数据减少了单元，残留旧文件需手工清理
     os.makedirs(os.path.join(OUT, "content"), exist_ok=True)
 
     hand = load_js_global(os.path.join(ROOT, "notes.js")) if os.path.exists(os.path.join(ROOT, "notes.js")) else {}
@@ -251,15 +373,32 @@ def build():
             unit["contentRef"] = f"data/courses/content/{pid}/{uid}.json"
             units_out.append(unit)
 
-            # 内容：手写精修 > 生成笔记
+            # 内容：精编稿 > 手写精修 > 生成笔记 > 原文底稿
             hand_key = f"{key}:{u.get('u', i)}"
             nt = hand.get(hand_key)
             if not nt:
                 gen = os.path.join(OLD_NOTES, key, note_file(key, i) + ".json")
                 if os.path.exists(gen):
                     nt = json.load(open(gen, encoding="utf-8"))
-            if nt:
-                c = conv_content(nt)
+            c = conv_content(nt) if nt else {}
+            parsed = from_parsed(pid, uid)
+            if parsed:
+                if not c.get("text") and parsed.get("text"):
+                    c["text"] = parsed["text"]
+                if not c.get("questions") and parsed.get("questions"):
+                    c["questions"] = parsed["questions"]
+                if not c.get("translation") and parsed.get("translation"):
+                    c["translation"] = parsed["translation"]
+                if parsed.get("_officialWords"):
+                    c["words"] = merge_words(c.get("words", []), parsed["_officialWords"])
+            craft = load_json_if(os.path.join(CRAFT, pid, uid + ".json"))
+            if craft:
+                c = merge_content(c, craft)
+                if craft.get("wordsExtra"):
+                    c["words"] = merge_words(c.get("words", []), craft["wordsExtra"])
+                if craft.get("textExtra"):
+                    c["text"] = merge_text(c.get("text", []), craft["textExtra"])
+            if c:
                 c["unitId"] = uid
                 cdir = os.path.join(OUT, "content", pid)
                 os.makedirs(cdir, exist_ok=True)
@@ -270,7 +409,8 @@ def build():
                 unit["counts"] = {
                     "w": len(c.get("words", [])), "ph": len(c.get("phrases", [])),
                     "g": len(c.get("grammar", [])), "p": len(c.get("patterns", [])),
-                    "ex": len(c.get("exercises", [])),
+                    "ex": len(c.get("exercises", [])), "q": len(c.get("questions", [])),
+                    "qz": len(c.get("quiz", [])),
                     "hasLead": bool(c.get("lead")), "hasText": bool(c.get("text")),
                 }
 

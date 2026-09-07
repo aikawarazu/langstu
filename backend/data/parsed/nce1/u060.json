@@ -1,0 +1,218 @@
+{
+ "unitId": "u060",
+ "unit": 60,
+ "lessons": [
+  {
+   "lesson": 119,
+   "title": "A true story",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago."
+    },
+    {
+     "en": "While my friend, George, was reading in bed, two thieves climbed into his kitchen. After they had entered the house, they went into the dining-room. It was very dark, so they turned on a torch"
+    },
+    {
+     "en": "George heard the noise and came downstairs quickly. He turned on the light, but he couldn’t see anyone. The thieves had already gone. But George’s parrot, Henry, was still there."
+    },
+    {
+     "en": "“What’s up, George?” he called."
+    },
+    {
+     "en": "“Nothing, Henry,” George said and smiled."
+    },
+    {
+     "en": "“Go back to sleep.”"
+    }
+   ]
+  },
+  {
+   "lesson": 120,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "He dropped the vase after he had taken it into the living room."
+    },
+    {
+     "en": "He bought another car after he had sold his old one."
+    },
+    {
+     "en": "He swept the floor after he had dusted everything."
+    },
+    {
+     "en": "She drank the milk after she had boiled it."
+    },
+    {
+     "en": "He turned off the television after he had seen the programme"
+    },
+    {
+     "en": "He went to bed after he had done his homework."
+    },
+    {
+     "en": "B Yes, I have just seen it. I had never seen it before."
+    },
+    {
+     "en": "Yes, I have just read it. I had never read it before."
+    },
+    {
+     "en": "Yes, I have just tried it. I had never tried it before."
+    },
+    {
+     "en": "Yes, I have just been there. I had never been there before."
+    },
+    {
+     "en": "Yes, I have just written a letter in English. I had never written a letter in English before."
+    },
+    {
+     "en": "Yes, I have just watched this programme. I had never watched this programme before."
+    },
+    {
+     "en": "C It was too late. He had already painted it."
+    },
+    {
+     "en": "It was too late. She had already dusted it."
+    },
+    {
+     "en": "It was too late. You had already telephoned him."
+    },
+    {
+     "en": "It was too late. You had already corrected it."
+    },
+    {
+     "en": "It was too late. They had already shut it."
+    },
+    {
+     "en": "It was too late. She had already made it."
+    },
+    {
+     "en": "D I went to the doctor after I had made an appointment"
+    },
+    {
+     "en": "The boss left the office after he had finished work."
+    },
+    {
+     "en": "My wife went out after she had finished the housework."
+    },
+    {
+     "en": "My teacher gave me my exercise book after he had corrected it."
+    },
+    {
+     "en": "My sister went on holiday after she had taken the examination"
+    },
+    {
+     "en": "I bought a new car after I had sold my old one."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Who called out to the thieves in the dark?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "happen",
+   "pos": "v",
+   "zh": "发生"
+  },
+  {
+   "word": "thief",
+   "pos": "n",
+   "zh": "贼"
+  },
+  {
+   "word": "enter",
+   "pos": "v",
+   "zh": "进入"
+  },
+  {
+   "word": "dark",
+   "pos": "adj",
+   "zh": "黑暗的"
+  },
+  {
+   "word": "torch",
+   "pos": "n",
+   "zh": "手电筒"
+  },
+  {
+   "word": "voice",
+   "pos": "n",
+   "zh": "（说话的）声音"
+  },
+  {
+   "word": "parrot",
+   "pos": "n",
+   "zh": "鹦鹉"
+  }
+ ],
+ "translation": [
+  "你喜欢听故事吗？我要告诉你一个真实的故事。这是一年前发生在我的一个朋友身上的故事。",
+  "当我的朋友乔治在床上看书时，两个小偷爬进了他的厨房。",
+  "他们进到屋里后，走进了饭厅。饭厅很暗，于是他们打开了手电筒。",
+  "突然他们听到身后有声音。“什么事？什么事？”有人叫着。小偷扔下了手电筒，飞快地逃走了。",
+  "乔治听到了响声，迅速地下了楼。",
+  "他开了灯，但不见一个人。小偷逃走了。",
+  "但时乔治的鹦鹉亨利仍在那里。“什么事，乔治？”它叫着。“没事，亨利。”乔治笑着说，“接着睡觉吧。”"
+ ],
+ "notes": [
+  "1．happen to,发生在……身上。",
+  "What happened to you yesterday?",
+  "你昨天出什么事了？",
+  "2．a friend of mine,我的朋友之一。",
+  "相当于one of my friends，但前者比后者显得更为亲切。",
+  "3．After they had entered the house, they went into the dining room. 他们进到屋里后，走进了饭厅。",
+  "After they had entered the house 是时间状语从句，had entered 是过去完成时结构。在以after引导的时间状语从句中，用一般过去时或过去完成时没有多少差别。如果强调从句的谓语动作在主句的谓语动作之前完成，就用过去完成时。",
+  "4．turn on, 打开，拧开（电视、水源、煤气等）。",
+  "其反义词为 turn off（关上）。",
+  "过去完成时",
+  "构成： had +过去分词。",
+  "过去完成时主要用于表示两个事件中一个发生在前，或者说是表示较早的过去。常与现在完成时连用的副词，如 already（已经）， ever（曾经），for +表示时间段的词，just（刚刚）和never（从未）也常与过去完成时连用，以强调事件发生的先后次序。有时我们不一定非得用过去完成时表示先发生的事件，因为意思十分清楚，如：",
+  "After I finished ,I went home.",
+  "我做完后就回家了。",
+  "请看例句：",
+  "She went on holiday after she had taken the exam.",
+  "她考试后度假去了。",
+  "I ran to the",
+  "platform",
+  "quickly, but the train had already left.",
+  "我赶快跑到站台上，但是火车已经开走了。",
+  "We had had dinner before they arrived.",
+  "他们到达之前我们就已吃饭了。",
+  "The patient had died when the doctor arrived.",
+  "大夫到达时病人已经死了。",
+  "1．enter  v.",
+  "（1）进入；穿入：",
+  "After they had entered the house, they went into the dining room.",
+  "他们进入了房子后，就去了餐厅。",
+  "The",
+  "bullet",
+  "entered his heart.",
+  "子弹射入了他的心脏。",
+  "（2）参加；加入：",
+  "Four students from our university entered the final contest.",
+  "我们大学的4名学生进入了竞赛的决赛。",
+  "He entered",
+  "politics",
+  "when he was 27.",
+  "他在27岁时步入了政界。",
+  "2．happen  v.",
+  "（1）发生：",
+  "How did the accident happen?",
+  "事故是怎么发生的？",
+  "A strange thing happened to a friend of mine a year ago.",
+  "一年之前，一件奇怪的事发生在我的一位朋友身上。",
+  "（2）碰巧，恰好（to）：",
+  "I happened to meet her on my way home.",
+  "在回家的路上，我碰巧遇见了她。",
+  "I happen to know that",
+  "professor",
+  ".",
+  "我正好认识那位教授。"
+ ]
+}

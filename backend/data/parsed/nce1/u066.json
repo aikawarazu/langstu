@@ -1,0 +1,253 @@
+{
+ "unitId": "u066",
+ "unit": 66,
+ "lessons": [
+  {
+   "lesson": 131,
+   "title": "Don’t be so sure",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Roy",
+     "en": "Where are you going to spend your holidays this year, Harry",
+     "zh": "马丁：加里，今年你们打算去哪里度假？"
+    },
+    {
+     "speaker": "Harry",
+     "en": "We may go abroad. I’m not sure. My wife wants to go to Egypt.",
+     "zh": "加里：我们可能到国外去，但我不敢肯定。"
+    },
+    {
+     "en": "I’d like to go there, too. We can’t make up our minds.",
+     "zh": "我妻子想到埃及去，我也想去那儿。"
+    },
+    {
+     "speaker": "Roy",
+     "en": "Will you travel by sea or by air?",
+     "zh": "我们还拿不定主意。"
+    },
+    {
+     "speaker": "Harry",
+     "en": "We may travel by sea.",
+     "zh": "马丁：你们乘船去，还是乘飞机去？"
+    },
+    {
+     "speaker": "Roy",
+     "en": "It’s cheaper, isn’t it?",
+     "zh": "加里：我们可能乘船去。"
+    },
+    {
+     "speaker": "Harry",
+     "en": "It may be cheaper, but it takes a long time.",
+     "zh": "马丁：这更便宜些，是吗？"
+    },
+    {
+     "speaker": "Roy",
+     "en": "I’m sure you will enjoy yourselves.",
+     "zh": "加里：可能是便宜些，但花的时间长。"
+    },
+    {
+     "speaker": "Harry",
+     "en": "Don’t be so sure. We may not go anywhere. My wife always worries too much.",
+     "zh": "马丁：我肯定你们一定会玩得很痛快。"
+    },
+    {
+     "en": "Who’s going to look after the dog?",
+     "zh": "加里：别那么肯定。我们可能哪里也去不成。"
+    },
+    {
+     "en": "Who’s going to look after the house?",
+     "zh": "我妻子总是担心那的。谁来照看狗啦，"
+    },
+    {
+     "en": "Who’s going to look after the garden?",
+     "zh": "谁来看管房子啦，谁来照料花园啦，"
+    },
+    {
+     "en": "We have this problem every year.",
+     "zh": "我们每年都碰到这类问题。算了，"
+    },
+    {
+     "en": "In the end, we stay at home and look after everything!",
+     "zh": "我们呆在家里来照看一切。"
+    }
+   ]
+  },
+  {
+   "lesson": 132,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "Yes, Martin is talking to Gary."
+    },
+    {
+     "en": "They may go abroad."
+    },
+    {
+     "en": "Gary's wife wants to go to Egypt."
+    },
+    {
+     "en": "They will travel by sea."
+    },
+    {
+     "en": "Yes, it may be cheaper."
+    },
+    {
+     "en": "Yes, it takes a long time."
+    },
+    {
+     "en": "Because his wife worries too much."
+    },
+    {
+     "en": "B I'm not sure. They may be Australian."
+    },
+    {
+     "en": "I'm not sure. She may be Russian."
+    },
+    {
+     "en": "I'm not sure. They may be Chinese."
+    },
+    {
+     "en": "I'm not sure. They may have been bakers"
+    },
+    {
+     "en": "I'm not sure. She may have been a doctor."
+    },
+    {
+     "en": "I'm not sure. He may be the boss"
+    },
+    {
+     "en": "I'm not sure. She may be twenty-one."
+    },
+    {
+     "en": "I'm not sure. They may have been seven."
+    },
+    {
+     "en": "I'm not sure. He may have been over eighty."
+    },
+    {
+     "en": "I'm not sure. She may have been under fifty."
+    },
+    {
+     "en": "I'm not sure. It may be the 16th today."
+    },
+    {
+     "en": "I'm not sure. It may have been Wednesday yesterday."
+    },
+    {
+     "en": "I'm not sure. It may be the 20th today."
+    },
+    {
+     "en": "I'm not sure. It may be expensive."
+    },
+    {
+     "en": "I'm not sure. It may have been difficult."
+    },
+    {
+     "en": "I'm not sure. She may have been young."
+    },
+    {
+     "en": "I'm not sure. He may have been tired."
+    },
+    {
+     "en": "I'm not sure. They may be watching television."
+    },
+    {
+     "en": "I'm not sure. She may have been looking for a new job."
+    },
+    {
+     "en": "I'm not sure. They may be standing"
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What's the problem about deciding on a holiday?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "abroad",
+   "pos": "adv",
+   "zh": "国外"
+  },
+  {
+   "word": "worry",
+   "pos": "v",
+   "zh": "担忧"
+  }
+ ],
+ "translation": [
+  "马丁：加里，今年你们打算去哪里度假？",
+  "加里：我们可能到国外去，但我不敢肯定。",
+  "我妻子想到埃及去，我也想去那儿。",
+  "我们还拿不定主意。",
+  "马丁：你们乘船去，还是乘飞机去？",
+  "加里：我们可能乘船去。",
+  "马丁：这更便宜些，是吗？",
+  "加里：可能是便宜些，但花的时间长。",
+  "马丁：我肯定你们一定会玩得很痛快。",
+  "加里：别那么肯定。我们可能哪里也去不成。",
+  "我妻子总是担心那的。谁来照看狗啦，",
+  "谁来看管房子啦，谁来照料花园啦，",
+  "我们每年都碰到这类问题。算了，",
+  "我们呆在家里来照看一切。"
+ ],
+ "notes": [
+  "1．make up our minds,打定主意。",
+  "make up one's mind是表示下定决心的一种固定用法。",
+  "2．Will you travel by sea or by air?你们乘船去，还是乘飞机去？",
+  "这是一个选择疑问句。 by sea表示“乘船”。 by air表示“乘飞机”。",
+  "3． take a long time,花很长时间。",
+  "情态助动词may表示可能性",
+  "may或might都表示“可能”、“也许”。通常既可以用may，也可以用might，不过might所表示的可能性要比may小，且当情况是虚拟的时只能用might而不能用may。",
+  "（1）may 表示现在或将来的可能性：may+动词原形：",
+  "The bread may be fresh.",
+  "面包可能是新鲜的。",
+  "He may be",
+  "reading",
+  ".",
+  "他可能正在看书。",
+  "I may go abroad.",
+  "我可能出国。",
+  "They may offer me a job.",
+  "他们也许会给我提供一份工作。",
+  "（2）may 也可表示过去的可能性，过去式为：may have(done):",
+  "He was late. He may have been busy.",
+  "他迟到了。他可能一直很忙。",
+  "I went out last night, and she may have been reading.",
+  "我昨天晚上出去了，她可能一直在看书。",
+  "It may have been right.",
+  "也可能是对的。",
+  "Thry may have been in the garden.",
+  "他们可能那时一直在花园里。",
+  "1．worry  v.",
+  "（1）担忧；发愁：",
+  "Mum always worries too much and it makes her tired.",
+  "妈妈总是过度忧虑，而这使她疲惫。",
+  "She's worried that she might lose her job soon.",
+  "她担心也许很快她就会丢掉她现在的工作。",
+  "（2）困扰；使不安宁：",
+  "Doesn't it worry you that his health is becoming worse?",
+  "他的身体越来越差，你不担心吗？",
+  "She is alway worrying him for presents.",
+  "她总是缠着他要礼物。",
+  "2．look  after",
+  "（1）照料，照顾，照管：",
+  "Who's going to look after the garden when we are away?",
+  "我们离开时谁来照料花园呢？",
+  "Sally will help us to look after the children tomorrow.",
+  "萨莉明天会帮我们照看孩子们的。",
+  "（2）注意；关心：",
+  "Don't worry about me----I can look after myself.",
+  "别担心——我会照顾好自己的。",
+  "The doctor",
+  "advised",
+  "him to look after his health.",
+  "医生建议他要注意自己的健康。"
+ ]
+}

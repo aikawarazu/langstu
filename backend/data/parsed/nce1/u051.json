@@ -1,0 +1,230 @@
+{
+ "unitId": "u051",
+ "unit": 51,
+ "lessons": [
+  {
+   "lesson": 101,
+   "title": "A card from Jimmy",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "speaker": "Grandmother",
+     "en": "Read Jimmy’s card to me please, Mary."
+    },
+    {
+     "speaker": "Mary",
+     "en": "“I have just arrived in Scotland and I’m staying at a Youth Hostel"
+    },
+    {
+     "speaker": "Grandmother",
+     "en": "Eh?"
+    },
+    {
+     "speaker": "Mary",
+     "en": "He says he’s just arrived in Scotland.  He says he’s staying at a Youth Hostel."
+    },
+    {
+     "en": "You know he’s a member of the Y.H.A."
+    },
+    {
+     "speaker": "Grandmother",
+     "en": "The what?"
+    },
+    {
+     "speaker": "Mary",
+     "en": "The Y.H.A., mother. The Youth Hostel’s Association."
+    },
+    {
+     "speaker": "Grandmother",
+     "en": "What else does he say?"
+    },
+    {
+     "speaker": "Mary",
+     "en": "“I’ll write a letter soon. I hope you are all well.”"
+    },
+    {
+     "speaker": "Grandmother",
+     "en": "What? Speak up, Mary. I’m afraid I can’t hear you."
+    },
+    {
+     "speaker": "Mary",
+     "en": "He says he’ll write a letter soon. He hopes we are all well. “ Love, Jimmy.”"
+    },
+    {
+     "speaker": "Grandmother",
+     "en": "Is that all? He doesn’t say very much, does he?"
+    },
+    {
+     "speaker": "Mary",
+     "en": "He can’t write very much on a card, mother."
+    }
+   ]
+  },
+  {
+   "lesson": 102,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "She says she has shut the door."
+    },
+    {
+     "en": "He says he has put on his coat."
+    },
+    {
+     "en": "He says he has read this magazine."
+    },
+    {
+     "en": "They say they have spoken to the boss."
+    },
+    {
+     "en": "They say the sun has risen."
+    },
+    {
+     "en": "B (sample sentences)"
+    },
+    {
+     "en": "He says he has got a cold."
+    },
+    {
+     "en": "He says he feels cold."
+    },
+    {
+     "en": "He says he will sell  his house."
+    },
+    {
+     "en": "He says he needs an X-ray."
+    },
+    {
+     "en": "He says he must wait for a bus."
+    },
+    {
+     "en": "He says he has got an earache"
+    },
+    {
+     "en": "He says he feels thirsty."
+    },
+    {
+     "en": "He says he needs a haircut."
+    },
+    {
+     "en": "He says he feels ill."
+    },
+    {
+     "en": "[email protected]"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Does Grandmother seem pleased to get a card from Jimmy? Why/Why not?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "Scotland",
+   "pos": "n",
+   "zh": "苏格兰（英国）"
+  },
+  {
+   "word": "card",
+   "pos": "n",
+   "zh": "明信片"
+  },
+  {
+   "word": "youth",
+   "pos": "n",
+   "zh": "青年"
+  },
+  {
+   "word": "hostel",
+   "pos": "n",
+   "zh": "招待所，旅馆"
+  },
+  {
+   "word": "association",
+   "pos": "n",
+   "zh": "协会"
+  },
+  {
+   "word": "soon",
+   "pos": "adv",
+   "zh": "不久"
+  }
+ ],
+ "translation": [
+  "祖母：请把吉米的明信片念给我听听，彭妮。",
+  "彭妮：“我刚到苏格兰，我现住在一家青年",
+  "招待所。”",
+  "祖母：什么？",
+  "彭妮：他说他刚到苏格兰。他说他住在一家",
+  "青年招待所。你知道，他是“青招协”",
+  "的一个成员。",
+  "祖母：什么？",
+  "彭妮：“青招协”，妈妈。青年招待所协会。",
+  "祖母：他还说了些什么？",
+  "彭妮：“我很快会写信的。",
+  "祝你们大家身体都好。”",
+  "祖母：什么？彭妮，大声一点。",
+  "我可听不见你念的。",
+  "彭妮：他说他很快会写信的。他祝我们大家",
+  "身体好。“谨此问候，吉米。”",
+  "祖母：就这些吗？他没写许多，是吗？",
+  "彭妮：在明信片上他写不了很多，妈妈。"
+ ],
+ "notes": [
+  "1． speak up，大声地说，清楚地说。",
+  "up作副词用时可表示强度等的由弱到强、由低到高：",
+  "Can you get up to that note ?",
+  "你能唱得到那么高的音吗？",
+  "2．He doesn't say very much，does he？他没写许多，是吗？",
+  "附加疑问句中的前后两部分的谓语在时态、人称和数上都要一致。回答这种问句时要简略，要根据事实回答。如果答语本身是肯定的，就用 Yes；如果答语本身是否定的，就用 No。",
+  "直接引语和间接引语",
+  "直接引语就是直接引用说话人原来所说的话；间接引语就是原话的转述。直接引语放在引号里，间接引语是把说话人的原话变成宾语从句。",
+  "间接引语中，宾语从句中的动词与主句中的主要动词在时态上必须保持一致。一般来说，主要动词用现在时，间接引语中可用现在时（包括一般现在时、现在进行时、现在完成时）和将来时。如：",
+  "She says she's got a headache.",
+  "她说她头痛。",
+  "He says he's staying at a Youth Hostel.",
+  "你说他正住在一家青年招待所。",
+  "He says he has sold his house.",
+  "他说他已卖掉了房子。",
+  "把直接陈述改为间接引语时，谓语动词形式的变化体现在人称上。如：",
+  "He says: ‘I hope you are all well. ’",
+  "他说:\"我希望你们都身体健康。\"",
+  "He says he hopes we/they are all well.",
+  "他说他希望我们／他们都身体健康。",
+  "The girl says: ‘I have finished my homework.’",
+  "那个姑娘说:\"她已完成了家庭作业。\"",
+  "The girl says that she has finished her homework.",
+  "那个姑娘说她已完成了家庭作业。",
+  "1．write  v.",
+  "（1）写，书写：",
+  "They are learning to read and write.",
+  "他们在学习读书写字。",
+  "She writes legibly.",
+  "她笔迹清楚。",
+  "（2）写信：",
+  "I'll write to you soon.",
+  "我会尽快给你写信的。",
+  "Why didn't she write and tell him?",
+  "她为什么不写信告诉他？",
+  "（3）写作；作曲；当作家：",
+  "He started to write for the stage.",
+  "他开始成为一名剧作家。",
+  "He  soon finished writing a",
+  "symphony",
+  ".",
+  "他很快就谱写成一部交响曲。",
+  "2．soon  adv.",
+  "（1）不久：",
+  "It will soon be spring.",
+  "春天很快就要到了。",
+  "Soon she would have to resign.",
+  "她不久就得辞职了。",
+  "（2）早；快：",
+  "Why are you leaving so soon?",
+  "你为什么这么快就要走了？",
+  "He came sooner than we expected.",
+  "他来得比我们预料的快。"
+ ]
+}

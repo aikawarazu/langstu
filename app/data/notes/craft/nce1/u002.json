@@ -1,0 +1,271 @@
+{
+  "title": "Sorry, sir. / Is this your …?",
+  "subtitle": "对不起，先生。/ 这是你的……吗？",
+  "lead": {
+    "question": "你去剧场、澡堂或博物馆的存衣处取外套时，靠什么证明那件外套是你的？",
+    "warmup": "先别看课文，想一个真实的场景：\n你把大衣和伞寄存在衣帽间（cloakroom），服务员给了你一块牌子。取东西时你不会说「给我我的大衣」，而是先把牌子递过去——在英语里，这个动作怎么说？\n带着这个画面去听录音，你会听到一次「拿错了—道歉—再拿一次」的完整来回。",
+    "goals": [
+      "能用 Here is / Here's … 把东西递给别人、指出某物在这里",
+      "能用 This is not … 说明「这不是……」",
+      "能就物品归属提问并作简略回答（Yes, it is. / No, it isn't.）",
+      "分得清 sorry（道歉）与 excuse me（引起注意）"
+    ],
+    "summary": "第 3 课把第 1 课的 Is this your …? 放进一个真实场景：衣帽间取物。男士递上 5 号牌，服务员第一次拿错了伞，道歉后换了一把，男士确认「是的，就是这把」。整段对话只有 12 句，却把「肯定—否定—再确认」的来回走了一遍。第 4 课则把 suit / school / teacher / son / daughter 五个词填进同一个句型反复操练。",
+    "tips": "三个易错点：① Here's your umbrella 是倒装句，be 动词要放在主语前，别写成 Here your umbrella is；② 否定用 This is not / isn't，口语里几乎不用 is not 的全写；③ 中文说「这不是我的伞」时「伞」前可以不加修饰，英文必须说 This is not my umbrella，my 不能省。另外 Number five 是号码牌的编号，不是「五个」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Does the man get his umbrella back?",
+      "zh": "这位男士最后拿到他的伞了吗？",
+      "a": "Yes, he does.",
+      "aZh": "拿到了。",
+      "hint": "注意对话最后两句：Is this it? / Yes, it is."
+    },
+    {
+      "kind": "detail",
+      "q": "What does the man give to the attendant first?",
+      "zh": "男士最初把什么递给了服务员？",
+      "a": "His ticket.",
+      "aZh": "他的（寄存）牌子。",
+      "hint": "找 Here is … 开头的那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What number is his ticket?",
+      "zh": "他的牌子是几号？",
+      "a": "Number five.",
+      "aZh": "5 号。",
+      "hint": "Number 开头的那句只说了两个词。"
+    },
+    {
+      "kind": "detail",
+      "q": "How does the man say that the first umbrella is not his?",
+      "zh": "男士怎么说明第一把伞不是他的？",
+      "a": "This is not my umbrella.",
+      "aZh": "这不是我的伞。",
+      "hint": "否定句：be 动词后直接加 not。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does the attendant say \"Sorry, sir\"? Is it the same as \"Excuse me\" in Lesson 1?",
+      "zh": "服务员为什么说 Sorry, sir？和第 1 课的 Excuse me 是一回事吗？",
+      "a": "No. Here sorry is an apology — he gave the man the wrong umbrella. Excuse me in Lesson 1 was used to attract attention, not to apologise.",
+      "aZh": "不是一回事。这里的 sorry 是道歉（拿错了伞），第 1 课的 Excuse me 是引起陌生人注意，不表示道歉。",
+      "hint": "想一想在什么情况下你会说「对不起」却不是在道歉。"
+    },
+    {
+      "kind": "drill",
+      "q": "Is this your suit? / Is this your school? / Is this your teacher? / Is this your son? / Is this your daughter?",
+      "zh": "把第 4 课的五个词挨个填进 Is this your ___?，肯定、否定各答一遍。",
+      "a": "Yes, it is. / No, it isn't.",
+      "aZh": "是的。/ 不是。",
+      "hint": "回答一律用 it，不要重复名词。"
+    }
+  ],
+  "wordsExtra": [
+    {
+      "word": "suit",
+      "phonetic": "/suːt/",
+      "meanings": [{ "pos": "n.", "meaning": "一套衣服", "usage": "男女套装； Lesson 4 操练词" }],
+      "examples": [
+        { "en": "Is this your suit?", "zh": "这是你的衣服吗？" },
+        { "en": "a man's suit / a woman's suit", "zh": "一套男装 / 一套女装" }
+      ]
+    },
+    {
+      "word": "school",
+      "phonetic": "/skuːl/",
+      "meanings": [{ "pos": "n.", "meaning": "学校", "usage": "go to school 上学（不加 the）" }],
+      "examples": [{ "en": "Is this your school?", "zh": "这是你的学校吗？" }]
+    },
+    {
+      "word": "teacher",
+      "phonetic": "/ˈtiːtʃə/",
+      "meanings": [{ "pos": "n.", "meaning": "老师", "usage": "由 teach + er 构成" }],
+      "examples": [{ "en": "Mr. Black is my teacher.", "zh": "布莱克先生是我的老师。" }]
+    },
+    {
+      "word": "son",
+      "phonetic": "/sʌn/",
+      "meanings": [{ "pos": "n.", "meaning": "儿子", "usage": "与 sun /sʌn/ 同音，注意拼写" }],
+      "examples": [{ "en": "Is this your son?", "zh": "这是你的儿子吗？" }]
+    },
+    {
+      "word": "daughter",
+      "phonetic": "/ˈdɔːtə/",
+      "meanings": [{ "pos": "n.", "meaning": "女儿", "usage": "gh 不发音" }],
+      "examples": [{ "en": "Is this your daughter?", "zh": "这是你的女儿吗？" }]
+    },
+    {
+      "word": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "meanings": [
+        { "pos": "n.", "meaning": "票", "usage": "本课指衣帽间的号码牌" },
+        { "pos": "n.", "meaning": "入场券；罚单", "usage": "a bus ticket 车票" }
+      ],
+      "examples": [
+        { "en": "Here is my ticket.", "zh": "这是我的牌子。" },
+        { "en": "Number five.", "zh": "5 号。" }
+      ]
+    },
+    {
+      "word": "cloakroom",
+      "phonetic": "/ˈkləʊkruːm/",
+      "meanings": [{ "pos": "n.", "meaning": "衣帽间；寄物处", "usage": "cloak 斗篷 + room，本课场景词" }],
+      "examples": [{ "en": "My coat and my umbrella please.", "zh": "请把我的大衣和伞拿给我。（对衣帽间服务员说）" }]
+    },
+    {
+      "word": "here",
+      "phonetic": "/hɪə/",
+      "meanings": [{ "pos": "adv.", "meaning": "这里", "usage": "Here is / Here's 为倒装结构，be 动词在主语前" }],
+      "examples": [
+        { "en": "Here's your umbrella and your coat.", "zh": "这是您的伞和大衣。" },
+        { "en": "My ticket is here.", "zh": "我的票在这儿。（正常语序）" }
+      ]
+    },
+    {
+      "word": "sir",
+      "phonetic": "/sɜː/",
+      "meanings": [{ "pos": "n.", "meaning": "先生", "usage": "对男顾客的尊称，单独使用，不接姓氏；正式信函用 Dear Sir" }],
+      "examples": [{ "en": "Thank you, sir.", "zh": "谢谢您，先生。" }]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Here is / Here's 倒装句",
+      "structure": "Here is / Here's + 名词",
+      "definition": "here 开头的句子常用倒装，be 动词提到主语之前。Here's 是 Here is 的缩略式，口语里更常见。正常语序是 My ticket is here，倒装后强调「东西在这儿 / 给你」。",
+      "usage": "递东西给别人、指出某物位置时用。",
+      "examples": [
+        { "en": "Here is my ticket.", "zh": "这是我的牌子。" },
+        { "en": "Here's your umbrella and your coat.", "zh": "这是您的伞和大衣。" }
+      ]
+    },
+    {
+      "title": "否定句：be 动词后加 not",
+      "structure": "主语 + be (am/is/are) + not + …",
+      "definition": "含 be 动词的句子变否定，直接在 be 后面加 not，不需要助动词。口语一律用缩略式 isn't / aren't。",
+      "usage": "表示「不是……」。",
+      "examples": [
+        { "en": "This is not my umbrella.", "zh": "这不是我的伞。" },
+        { "en": "This isn't my ticket.", "zh": "这不是我的票。" }
+      ]
+    },
+    {
+      "title": "口语省略：My coat and my umbrella please.",
+      "structure": "名词（+ and + 名词）+ please",
+      "definition": "这是省略形式的祈使句，完整句为 Give me my coat and my umbrella, please. 语境清楚时常省去动词和间接宾语。",
+      "usage": "点单、取物时礼貌表达。",
+      "examples": [
+        { "en": "My coat and my umbrella please.", "zh": "请把我的大衣和伞拿给我。" },
+        { "en": "(Show me your) Ticket, please.", "zh": "请出示你的票。" }
+      ]
+    },
+    {
+      "title": "sorry 与 excuse me 的分工",
+      "structure": "Sorry. / Excuse me.",
+      "definition": "sorry 用于道歉（自己有过失）；excuse me 用于引起注意、借过、礼貌打断，不是道歉。第 1 课引起注意用 Excuse me，本课拿错东西道歉用 Sorry。",
+      "usage": "中文都译成「对不起」，但英文场合不同，不能互换。",
+      "examples": [
+        { "en": "Sorry, sir.", "zh": "对不起，先生。（拿错了东西）" },
+        { "en": "Excuse me! Is this your handbag?", "zh": "打扰一下！这是您的手提包吗？" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "q": "把 This is my umbrella. 改成否定句。",
+      "a": "This is not my umbrella. （口语：This isn't my umbrella.）",
+      "note": "含 be 动词的句子变否定，直接在 is 后加 not。"
+    },
+    {
+      "q": "把 This is my coat. 改成一般疑问句。",
+      "a": "Is this your coat?",
+      "note": "is 提到句首；问对方时 my 要换成 your。"
+    },
+    {
+      "q": "汉译英：这是您的伞和大衣。",
+      "a": "Here is your umbrella and your coat. （= Here's …）",
+      "note": "here 引导的倒装句，be 动词在主语前。"
+    },
+    {
+      "q": "回答：Is this your suit?（否定）",
+      "a": "No, it isn't.",
+      "note": "用 it 指代 this，不要写成 No, this isn't."
+    },
+    {
+      "q": "回答：Is this your ticket?（肯定）",
+      "a": "Yes, it is.",
+      "note": "简略回答不重复名词。"
+    },
+    {
+      "q": "改错：Here your umbrella is.",
+      "a": "Here is your umbrella.",
+      "note": "倒装句里 be 动词要提到主语前；here 是副词，前面不加介词。"
+    },
+    {
+      "q": "汉译英：请把我的大衣和伞拿给我。",
+      "a": "My coat and my umbrella please.",
+      "note": "省略式祈使句，please 放句末更自然。"
+    }
+  ],
+  "textExtra": [
+    {
+      "lesson": 4,
+      "title": "Is this your …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Is this your ___?",
+        "zh": "这是你的……吗？（把下面的词挨个填进横线，问一遍、答一遍，肯定否定各来一次）",
+        "slots": [
+          { "en": "suit", "zh": "一套衣服" },
+          { "en": "school", "zh": "学校" },
+          { "en": "teacher", "zh": "老师" },
+          { "en": "son", "zh": "儿子" },
+          { "en": "daughter", "zh": "女儿" }
+        ],
+        "answers": ["Yes, it is.", "No, it isn't."]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "— Is this your umbrella? — ____",
+      "zh": "「这是你的伞吗？」正确的简略回答是？",
+      "options": ["Yes, it is.", "Yes, this is.", "Yes, I am.", "No, I am not."],
+      "answer": 0,
+      "note": "回答时用 it 指代 this，不再重复 this；am 只跟 I 搭配。"
+    },
+    {
+      "q": "把伞递给别人时说「这是您的伞」，正确语序是：",
+      "options": ["Here is your umbrella.", "Here your umbrella is.", "Your umbrella here is.", "Here your is umbrella."],
+      "answer": 0,
+      "note": "here 开头的句子要倒装，be 动词提到主语前。"
+    },
+    {
+      "q": "This is my coat. 的否定句是：",
+      "options": ["This isn't my coat.", "This not is my coat.", "This doesn't my coat.", "This is not coat."],
+      "answer": 0,
+      "note": "含 be 动词的句子变否定，直接在 is 后加 not，不需要助动词 do/does；my 也不能省。"
+    },
+    {
+      "q": "\"My coat and my umbrella please.\" 属于什么句子？",
+      "options": ["省略形式的祈使句", "一般疑问句", "感叹句", "There be 句型"],
+      "answer": 0,
+      "note": "完整形式是 Give me my coat and my umbrella, please.，语境清楚时省去动词和间接宾语。"
+    },
+    {
+      "q": "服务员拿错伞后说 \"Sorry, sir.\"，这里的 sorry 表示：",
+      "options": ["道歉", "引起对方注意", "请人让路", "道谢"],
+      "answer": 0,
+      "note": "道歉用 sorry；引起注意、借过要说 Excuse me，两者中文都译作「对不起」但场合不同。"
+    },
+    {
+      "q": "— Number five. — 这句话在衣帽间的意思是：",
+      "options": ["（牌子）是 5 号", "五个", "第五个", "五点钟"],
+      "answer": 0,
+      "note": "Number + 数字表示编号，不是数量。"
+    }
+  ]
+}

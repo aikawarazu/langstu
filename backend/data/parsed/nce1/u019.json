@@ -1,0 +1,313 @@
+{
+ "unitId": "u019",
+ "unit": 19,
+ "lessons": [
+  {
+   "lesson": 37,
+   "title": "Making a bookcase",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "You’re working hard, George."
+    },
+    {
+     "en": "What are you doing?"
+    },
+    {
+     "en": "I’m making a bookcase."
+    },
+    {
+     "en": "Give me that hammer please, Dan."
+    },
+    {
+     "en": "Which hammer."
+    },
+    {
+     "en": "This one?"
+    },
+    {
+     "en": "No, not that one."
+    },
+    {
+     "en": "The big one."
+    },
+    {
+     "en": "Here you are."
+    },
+    {
+     "en": "Thanks, Dan."
+    },
+    {
+     "en": "What are you going to do now, George?"
+    },
+    {
+     "en": "I’m going to paint it."
+    },
+    {
+     "en": "What colour are you going to paint it?"
+    },
+    {
+     "en": "I’m going to paint it pink."
+    },
+    {
+     "en": "Pink!"
+    },
+    {
+     "en": "This bookcase isn’t for me."
+    },
+    {
+     "en": "It’s for my daughter, Susan."
+    },
+    {
+     "en": "Pink’s her favorite colour."
+    }
+   ]
+  },
+  {
+   "lesson": 38,
+   "title": "A",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "en": "What are you doing? We are reading."
+    },
+    {
+     "en": "What are they doing? They are doing their homework."
+    },
+    {
+     "en": "What is he doing? He is working hard."
+    },
+    {
+     "en": "What are you doing? I am washing the dishes."
+    },
+    {
+     "en": "B What are you going to do?"
+    },
+    {
+     "en": "I'm going to shave."
+    },
+    {
+     "en": "What are you doing now?"
+    },
+    {
+     "en": "I'm shaving."
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "I'm going to wait for a bus."
+    },
+    {
+     "en": "What are you doing now?"
+    },
+    {
+     "en": "I'm waiting for a bus."
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "I'm going to do my homework."
+    },
+    {
+     "en": "What are you doing now?"
+    },
+    {
+     "en": "I'm doing my homework."
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "I'm going to listen to the stereo"
+    },
+    {
+     "en": "What are you doing now?"
+    },
+    {
+     "en": "I'm listening to the stereo."
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "I'm going to wash the dishes."
+    },
+    {
+     "en": "What are you doing now?"
+    },
+    {
+     "en": "I'm washing the dishes."
+    },
+    {
+     "en": "employment"
+    },
+    {
+     "en": "This book is for you."
+    },
+    {
+     "en": "I'm going to make a bookcase."
+    },
+    {
+     "en": "I'm not going to make a bookcase."
+    },
+    {
+     "en": "Are you going to make a bookcase?"
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "What colour are you going to paint it?"
+    },
+    {
+     "en": "What are you going to do?"
+    },
+    {
+     "en": "I'm going to wait for a bus."
+    },
+    {
+     "en": "What are you doing?"
+    },
+    {
+     "en": "I'm waiting for a bus."
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What is Susan's favourite colour?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "work",
+   "pos": "v",
+   "zh": "工作"
+  },
+  {
+   "word": "hard",
+   "pos": "adv",
+   "zh": "努力地"
+  },
+  {
+   "word": "make",
+   "pos": "v",
+   "zh": "做"
+  },
+  {
+   "word": "bookcase",
+   "pos": "n",
+   "zh": "书橱，书架"
+  },
+  {
+   "word": "hammer",
+   "pos": "n",
+   "zh": "锤子"
+  },
+  {
+   "word": "paint",
+   "pos": "v",
+   "zh": "上漆，涂"
+  },
+  {
+   "word": "pink",
+   "pos": "n",
+   "zh": "& adj. 粉红色"
+  },
+  {
+   "word": "favourite",
+   "pos": "adj",
+   "zh": "最喜欢的"
+  }
+ ],
+ "translation": [
+  "丹 ：你干得真辛苦，乔治。你在干什么呢？",
+  "乔治：我正在做书架。",
+  "乔治：请把那把锤子拿给我。丹。",
+  "丹 ：哪一把？是这把吗？",
+  "乔治：不，不是那把。是那把大的。",
+  "丹 ：给你。",
+  "乔治：谢谢。丹。",
+  "丹 ：你现在打算干什么，乔治？",
+  "乔治：我打算把它漆一下。",
+  "丹 ：你打算把它漆成什么颜色？",
+  "乔治：我想漆成粉红色。",
+  "丹 ：粉红色！",
+  "乔治：这个书架不是为我做的，",
+  "是为我的女儿苏珊做的。",
+  "粉红色是她最喜欢的颜色。"
+ ],
+ "notes": [
+  "课文详注  Further notes on the text",
+  "1．What are you going to do now, George?你现在准备干什么，乔治？",
+  "be going to，是打算、准备、按计划在最近做某事，表示将来。请参见本课语法部分。",
+  "2．Pink's＝Pink is。",
+  "3．It's for my daughter, Susan.是为我的女儿苏珊做的。",
+  "Susan作my daughter的同位语。",
+  "将来时 be  going  to",
+  "（1）将来时be going to的形式由am/is/are going to +动词原形构成。",
+  "（2）将来时be going to的用法",
+  "A表示\"打算\"、\"准备\"在最近做某事。（在非正式语体中，一般多用be going to，而不用will。）",
+  "I am going to put it on the floor.",
+  "我打算把它放在地板上。",
+  "He is going to paint the bookcase tomorrow.",
+  "他准备明天给书架刷漆。",
+  "B表示按计划、安排要发生的事：",
+  "The meeting is going to begin at nine.",
+  "会议将在9点开始。",
+  "Where are you going to build the road?",
+  "你们将在什么地方筑路？",
+  "C表示预言一件事即将发生：",
+  "The meeting is going to begin at nine.",
+  "会议将在9点开始。",
+  "It's going to rain!",
+  "天要下雨了！",
+  "She's going to faint!",
+  "她要晕倒了！",
+  "（3）be going to的疑问式与否定式",
+  "将助动词be提至句首可将陈述句变为一般疑问句。如：",
+  "George is going to paint it pink.",
+  "乔治打算把它刷成粉红色。",
+  "Is George going to paint it pink?",
+  "乔治打算把它刷成粉红色吗？",
+  "在助动词后面加上not可以得到否定句。如上句可变为：",
+  "George is not going to point it pink.",
+  "乔治不打算把它刷成粉红色。",
+  "1．paint",
+  "（1）v.上漆，涂：",
+  "What colour is George going to paint it?",
+  "乔治准备把它漆成什么颜色的？",
+  "（2）v.（用颜料）画：",
+  "Who painted this picture?",
+  "这幅画是谁画的？",
+  "（3）v.描写；描绘：",
+  "His novel paints a peaceful picture of the country life in Europe.",
+  "他的小说描绘了有关欧洲乡村生活的宁静画面。",
+  "（4）n.油漆；涂料；颜料：",
+  "Wet Paint!",
+  "油漆未干！",
+  "I bought a box of paints.",
+  "我买了一盒颜料。",
+  "2．work",
+  "（1）v.工作；劳动：",
+  "He",
+  "works",
+  "45 hours per week.",
+  "他每周工作45个小时。",
+  "（2）v.从事职业：",
+  "He works as a bank clerk.",
+  "他是一名银行职员。",
+  "（3）v.学习；做作业：",
+  "If you work hard, you'll pass your exams.",
+  "如果你用功的话，你就会考试通过。",
+  "（4）n. 工作；劳动；作业；职业：",
+  "He wants to have a good sleep after a day's work.",
+  "在一天的工作之后，他想好好睡上一觉。",
+  "The students finished all their work in class.",
+  "学生们当堂把全部作业都完成了。",
+  "He is without work.",
+  "他失业了。"
+ ]
+}

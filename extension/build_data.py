@@ -53,10 +53,15 @@ def variant_keys(key):
 
 def copy_courses():
     dst_courses = os.path.join(DST, "courses")
-    if os.path.exists(dst_courses):
-        shutil.rmtree(dst_courses)
-    shutil.copytree(SRC, dst_courses)
-    n = sum(len(files) for _, _, files in os.walk(dst_courses))
+    # 增量覆盖：逐文件复制，不整目录删除（避免误删与批量删除保护）
+    n = 0
+    for root, _, files in os.walk(SRC):
+        rel = os.path.relpath(root, SRC)
+        target = os.path.join(dst_courses, rel) if rel != "." else dst_courses
+        os.makedirs(target, exist_ok=True)
+        for f in files:
+            shutil.copy2(os.path.join(root, f), os.path.join(target, f))
+            n += 1
     print("copied %d files into data/courses/" % n)
 
 
