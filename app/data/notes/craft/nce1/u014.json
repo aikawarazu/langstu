@@ -1,0 +1,165 @@
+{
+  "title": "Mrs. Smith's living room / Are there any …?",
+  "subtitle": "史密斯夫人的客厅 / 有一些……吗？",
+  "lead": {
+    "question": "描述客厅里「有一些杂志在电视机上」「有一些扶手椅在桌子旁」，英语的 some 和 any 分别用在什么句子里？",
+    "warmup": "第 27 课继续房间描述，但物品变多了、用复数：There is a television… There are some magazines… There are some armchairs… 注意 some 用于肯定句。第 28 课反转成疑问句和否定句：Are there any books? No, there aren't any. There are some magazines. 关键就是 some（肯定）vs any（疑问/否定）。先看图，试着用 Are there any…? 问客厅里有没有书。",
+    "goals": [
+      "能用 There are + 复数名词 描述存在多个物品",
+      "能区分 some（肯定句）与 any（疑问/否定句）",
+      "能用 Are there any …? 提问存在，并用 No, there aren't any. / There are some … 回答",
+      "能用 Where are they? 追问位置"
+    ],
+    "summary": "第 27 课描述史密斯夫人的客厅：There is a television, There are some magazines/armchairs/pictures，并用 near the window/table/door、on the wall 说明位置。第 28 课把 there are 变成疑问句与否定句，操练 some/any 的对比：Are there any books? No, there aren't any. There are some magazines. Where are they? They're on the television.",
+    "tips": "① There are 接复数名词；② some 用于肯定句（There are some magazines），any 用于疑问句和否定句（Are there any…? / There aren't any…）；③ near 表示「靠近」，on the wall 在墙上；④ 回答 Are there any…? 否定用 No, there aren't any + 名词，再补 There are some + 其他；⑤ Where are they? 追问位置，they 指代前文复数名词。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Where are the books?",
+      "zh": "书在哪里？",
+      "a": "They're on the stereo.",
+      "aZh": "在音响上。",
+      "hint": "听 There are some books on the stereo."
+    },
+    {
+      "kind": "detail",
+      "q": "What is near the window?",
+      "zh": "什么靠近窗户？",
+      "a": "The television.",
+      "aZh": "电视机。",
+      "hint": "The television is near the window."
+    },
+    {
+      "kind": "detail",
+      "q": "Where are the pictures?",
+      "zh": "画在哪里？",
+      "a": "On the wall.",
+      "aZh": "在墙上。",
+      "hint": "The pictures are on the wall."
+    },
+    {
+      "kind": "detail",
+      "q": "Are there any chairs in the room, or armchairs?",
+      "zh": "房间里有椅子还是扶手椅？",
+      "a": "There are some armchairs, not chairs.",
+      "aZh": "有一些扶手椅，没有椅子。",
+      "hint": "There are some armchairs in the room."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the text use 'some magazines' (some) but the exercise asks 'Are there any books' (any)?",
+      "zh": "为什么课文用 some magazines，而练习却问 Are there any books（any）？",
+      "a": "some is used in affirmative statements; any is used in questions and negatives. The text describes what exists (affirmative → some), while the drill asks about existence (question → any).",
+      "aZh": "some 用于肯定陈述，any 用于疑问/否定句。课文在描述存在（肯定→some），操练在询问存在（疑问→any）。",
+      "hint": "记住口诀：肯定 some，疑问/否定 any。"
+    },
+    {
+      "kind": "drill",
+      "q": "Are there any books in the room? No, there aren't any books. There are some magazines. Where are they? They're on the television. / Are there any ties on the floor? No, there aren't any ties. There are some shoes. Where are they? They're near the bed.",
+      "zh": "第 28 课操练：……里有一些……吗？（体会 any 与 some）",
+      "a": "Are there any glasses on the cupboard? No, there aren't any glasses. There are some bottles. Where are they? They're near those tins.",
+      "aZh": "橱柜上有些玻璃杯吗？没有。有些瓶子。它们在哪儿？在那些罐头旁。",
+      "hint": "疑问/否定用 any，肯定补述用 some。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "living room", "phonetic": "/ˈlɪvɪŋ ruːm/", "meanings": [{ "pos": "n.", "meaning": "客厅" }], "examples": [{ "en": "Mrs. Smith's living room is large.", "zh": "史密斯夫人的客厅很大。" }] },
+    { "word": "near", "phonetic": "/nɪə/", "meanings": [{ "pos": "prep.", "meaning": "靠近" }], "examples": [{ "en": "The television is near the window.", "zh": "电视机靠近窗子。" }] },
+    { "word": "window", "phonetic": "/ˈwɪndəʊ/", "meanings": [{ "pos": "n.", "meaning": "窗户" }], "examples": [{ "en": "The television is near the window.", "zh": "电视机靠近窗子。" }] },
+    { "word": "armchair", "phonetic": "/ˈɑːmtʃeə/", "meanings": [{ "pos": "n.", "meaning": "扶手椅" }], "examples": [{ "en": "There are some armchairs in the room.", "zh": "客厅里有几把扶手椅。" }] },
+    { "word": "door", "phonetic": "/dɔː/", "meanings": [{ "pos": "n.", "meaning": "门" }], "examples": [{ "en": "The stereo is near the door.", "zh": "音响靠近门。" }] },
+    { "word": "picture", "phonetic": "/ˈpɪktʃə/", "meanings": [{ "pos": "n.", "meaning": "图画" }], "examples": [{ "en": "The pictures are on the wall.", "zh": "画挂在墙上。" }] },
+    { "word": "wall", "phonetic": "/wɔːl/", "meanings": [{ "pos": "n.", "meaning": "墙" }], "examples": [{ "en": "The pictures are on the wall.", "zh": "画挂在墙上。" }] },
+    { "word": "television", "phonetic": "/ˈtelɪvɪʒən/", "meanings": [{ "pos": "n.", "meaning": "电视机" }], "examples": [{ "en": "There is a television in the room.", "zh": "客厅里有台电视机。" }] },
+    { "word": "stereo", "phonetic": "/ˈsteriəʊ/", "meanings": [{ "pos": "n.", "meaning": "立体声音响" }], "examples": [{ "en": "There are some books on the stereo.", "zh": "音响上面有几本书。" }] },
+    { "word": "magazine", "phonetic": "/ˈmæɡəziːn/", "meanings": [{ "pos": "n.", "meaning": "杂志" }], "examples": [{ "en": "There are some magazines on the television.", "zh": "电视机上放着几本杂志。" }] },
+    { "word": "newspaper", "phonetic": "/ˈnjuːzpeɪpə/", "meanings": [{ "pos": "n.", "meaning": "报纸" }], "examples": [{ "en": "There are some newspapers on the table.", "zh": "桌上放着几份报纸。" }] }
+  ],
+  "grammar": [
+    {
+      "title": "there is/are 的疑问句与否定句",
+      "structure": "疑问句：Be + there + 名词?  否定句：There + be + not (any)/no + 名词",
+      "definition": "there + be 变疑问句把 be 与 there 互换位置；变否定在 be 后加 not(any) 或 no。Is there a…? / Are there any…? / No, there aren't any…",
+      "usage": "询问或否定某处存在某物。",
+      "examples": [
+        { "en": "Are there any books in the room? No, there aren't any books in the room.", "zh": "房间里有一些书吗？不，房间里没有任何书。" },
+        { "en": "Is there a dirty fork on the plate? No, there isn't one.", "zh": "碟子上有个脏叉子吗？没有，一个也没有。" }
+      ]
+    },
+    {
+      "title": "some 与 any 的用法",
+      "structure": "肯定句用 some；疑问句/否定句用 any",
+      "definition": "some 表「某些」（不全部），用于肯定句；any 表不确定数量，用于含 not 的否定句或预期否定回答的疑问句。二者作用常像 a/an 的复数。",
+      "usage": "替代 a/an 的复数/不可数形式。",
+      "examples": [
+        { "en": "There are some magazines on the television.", "zh": "电视机上有些杂志。" },
+        { "en": "There aren't any spoons in the cupboard.", "zh": "橱柜里没有任何汤匙。" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：史密斯夫人的客厅很大。", "a": "Mrs. Smith's living room is large.", "note": "名词所有格 + 名词。" },
+    { "q": "用 there are 改写：Some magazines are on the television.", "a": "There are some magazines on the television.", "note": "there + be 表存在，magazines 复数用 are。" },
+    { "q": "填空：___ there ___ books in the room?（疑问，用 any）", "a": "Are / any", "note": "疑问句用 Are there any…?" },
+    { "q": "汉译英：没有任何汤匙在橱柜里。", "a": "There aren't any spoons in the cupboard.", "note": "否定句用 any，aren't = are not。" },
+    { "q": "完成回答：Are there any ties on the floor? — No, ___ aren't ___. There are some shoes.", "a": "there / any", "note": "否定答 No, there aren't any + 名词。" },
+    { "q": "汉译英：画挂在墙上。", "a": "The pictures are on the wall.", "note": "on the wall 在墙上；再次提到用 the。" },
+    { "q": "汉译英：音响靠近门。", "a": "The stereo is near the door.", "note": "near 介词「靠近」。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 27,
+      "title": "Mrs. Smith's living room",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "en": "Mrs. Smith's living room is large." },
+        { "en": "There is a television in the room." },
+        { "en": "The television is near the window." },
+        { "en": "There are some magazines on the television." },
+        { "en": "There is a table in the room." },
+        { "en": "There are some newspapers on the table." },
+        { "en": "There are some armchairs in the room." },
+        { "en": "The armchairs are near the table." },
+        { "en": "There is a stereo in the room." },
+        { "en": "The stereo is near the door." },
+        { "en": "There are some books on the stereo." },
+        { "en": "There are some pictures in the room." },
+        { "en": "The pictures are on the wall." }
+      ]
+    },
+    {
+      "lesson": 28,
+      "title": "Are there any …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Are there any ___ in the ___? — No, there aren't any ___. There are some ___. Where are they? They're on the ___.",
+        "zh": "……里有一些……吗？——没有。有一些……。它们在哪儿？在……上。（把下面 10 组挨个问一遍，体会 any 与 some 的对比）",
+        "slots": [
+          { "en": "books / room → magazines / television", "zh": "书 / 房间 → 杂志 / 电视机" },
+          { "en": "ties / floor → shoes / bed", "zh": "领带 / 地板 → 鞋 / 床" },
+          { "en": "glasses / cupboard → bottles / tins", "zh": "玻璃杯 / 橱柜 → 瓶子 / 罐头" },
+          { "en": "newspapers / shelf → tickets / handbag", "zh": "报纸 / 架子 → 票 / 手提包" },
+          { "en": "forks / table → knives / box", "zh": "叉子 / 桌子 → 刀 / 盒子" },
+          { "en": "cups / stereo → glasses / bottles", "zh": "杯子 / 音响 → 玻璃杯 / 瓶子" },
+          { "en": "cups / kitchen → plates / cooker", "zh": "杯子 / 厨房 → 盘子 / 灶台" },
+          { "en": "glasses / kitchen → bottles / refrigerator", "zh": "玻璃杯 / 厨房 → 瓶子 / 冰箱" },
+          { "en": "books / room → pictures / wall", "zh": "书 / 房间 → 画 / 墙" },
+          { "en": "chairs / room → armchairs / table", "zh": "椅子 / 房间 → 扶手椅 / 桌子" }
+        ],
+        "answers": [
+          "Are there any books in the room? No, there aren't any books in the room. There are some magazines. Where are they? They're on the television.",
+          "Are there any ties on the floor? No, there aren't any ties on the floor. There are some shoes. Where are they? They're near the bed."
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "\"There are some magazines on the television.\" 中 there are 因为：", "zh": "为什么用 there are？", "options": ["magazines 是复数", "television 是复数", "some 是复数", "on 是复数"], "answer": 0, "note": "there + be 中 be 随实际主语变化，magazines 复数用 are。" },
+    { "q": "some 用于：", "zh": "some 用在什么句子？", "options": ["肯定句", "疑问句", "否定句", "疑问句和否定句"], "answer": 0, "note": "some 表「某些」，用于肯定句；any 用于疑问/否定。" },
+    { "q": "\"Are there any books in the room?\" 否定回答是：", "zh": "否定怎么回答？", "options": ["No, there aren't any books.", "No, there aren't some books.", "Yes, there aren't.", "No, there are any."], "answer": 0, "note": "否定用 any，No, there aren't any + 名词。" },
+    { "q": "\"The pictures are on the wall.\" 中 wall 指：", "zh": "wall 是什么意思？", "options": ["墙", "窗户", "门", "地板"], "answer": 0, "note": "on the wall 在墙上；wall 名词「墙」。" },
+    { "q": "\"The television is near the window.\" 中 near 是：", "zh": "near 在这里是什么词？", "options": ["介词，靠近", "动词", "形容词", "副词"], "answer": 0, "note": "near 此处作介词「靠近」，后接 the window。" },
+    { "q": "肯定补述「有一些杂志」应说：", "zh": "肯定说「有一些杂志」怎么写？", "options": ["There are some magazines.", "There are any magazines.", "There is some magazine.", "Are there some magazines?"], "answer": 0, "note": "肯定句用 some；magazines 复数配 are。" }
+  ]
+}

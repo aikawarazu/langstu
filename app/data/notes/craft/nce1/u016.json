@@ -1,0 +1,178 @@
+{
+  "title": "Where's Sally? / What's he/she/it doing?",
+  "subtitle": "萨莉在哪儿？/ 他/她/它在做什么？",
+  "lead": {
+    "question": "你往花园里看，朋友问「萨莉在哪儿」「她在干嘛」，你用英语怎么一边指位置、一边描述正在发生的动作？",
+    "warmup": "第 31 课是一段「找人」的对话：Where's Sally? She's in the garden. What's she doing? She's sitting under the tree. 这里全是「现在进行时」——be + 动词 -ing，专门描述此刻正在发生的动作。注意 be 随人称变（is/are），代词也跟着变（she's/he's/it's）。先自己用 is sitting / is climbing / is running 描述一张照片里的人。",
+    "goals": [
+      "能用现在进行时 be + v-ing 描述此刻正在发生的动作",
+      "能用 Where's …? / What's … doing? 询问位置与正在做的事",
+      "能正确使用代词 + be（she's / he's / it's）",
+      "认识花园与动作词：garden, tree, climb, run, grass, cat"
+    ],
+    "summary": "第 31 课吉恩和杰克看花园里的人：萨莉坐在树下，蒂姆在爬树，狗在草地上追猫。全课用现在进行时描述「正在做」。第 32 课把 He is/They are + v-ing 铺开十组，巩固进行时的人称变化与动词 -ing 形式。",
+    "tips": "① 现在进行时 = am/is/are + 现在分词（-ing）；② 位置问 Where's Sally?（= Where is），答 She's in the garden；③ 动作问 What's she doing?（= What is），答 She's sitting…；④ 代词 + be 缩写：she's = she is, he's = he is, it's = it is；⑤ run after 追逐，climb the tree 爬树。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What is the dog doing in the garden?",
+      "zh": "狗在花园里做什么？",
+      "a": "It's running across the grass and running after a cat.",
+      "aZh": "它正跑过草地，追一只猫。",
+      "hint": "听 It's running across the grass. It's running after a cat."
+    },
+    {
+      "kind": "detail",
+      "q": "Where is Sally?",
+      "zh": "萨莉在哪儿？",
+      "a": "She's in the garden, sitting under the tree.",
+      "aZh": "她在花园里，坐在树下。",
+      "hint": "She's in the garden. / She's sitting under the tree."
+    },
+    {
+      "kind": "detail",
+      "q": "Is Tim in the garden? What is he doing?",
+      "zh": "蒂姆在花园里吗？他在做什么？",
+      "a": "Yes. He's climbing the tree.",
+      "aZh": "在。他正在爬树。",
+      "hint": "Yes, he is. He's climbing the tree."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Jean say when she doesn't hear Jack clearly?",
+      "zh": "吉恩没听清杰克说什么时怎么回应？",
+      "a": "I beg your pardon?",
+      "aZh": "请再说一遍？",
+      "hint": "I beg your pardon? 表示没听清，请求重复。"
+    },
+    {
+      "kind": "think",
+      "q": "Why is 'She's sitting' used instead of 'She sits'?",
+      "zh": "为什么用 She's sitting 而不用 She sits？",
+      "a": "She's sitting = She is sitting is present continuous, describing an action happening right now. She sits would be simple present, describing a habit. The scene is happening at this moment.",
+      "aZh": "She's sitting = 现在进行时，描述此刻正发生的动作；She sits 是一般现在时，表习惯。场景是当下正在进行。",
+      "hint": "进行时强调「此刻正在」，不是一贯习惯。"
+    },
+    {
+      "kind": "drill",
+      "q": "___ is/are ___ . (He is reading a magazine. / They are shutting the door.)",
+      "zh": "第 32 课操练：___ 正在 ___。（把下面 10 组主语与动作挨个说一遍）",
+      "a": "She is dusting the dressing table.",
+      "aZh": "她正在掸梳妆台。",
+      "hint": "be 随主语变（is/are），动词加 -ing。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "garden", "phonetic": "/ˈɡɑːdn/", "meanings": [{ "pos": "n.", "meaning": "花园" }], "examples": [{ "en": "She's in the garden.", "zh": "她在花园里。" }] },
+    { "word": "tree", "phonetic": "/triː/", "meanings": [{ "pos": "n.", "meaning": "树" }], "examples": [{ "en": "She's sitting under the tree.", "zh": "她坐在树下。" }] },
+    { "word": "run", "phonetic": "/rʌn/", "meanings": [{ "pos": "v.", "meaning": "跑" }], "examples": [{ "en": "It's running across the grass.", "zh": "它正跑过草地。" }] },
+    { "word": "grass", "phonetic": "/ɡrɑːs/", "meanings": [{ "pos": "n.", "meaning": "草，草地" }], "examples": [{ "en": "It's running across the grass.", "zh": "它正跑过草地。" }] },
+    { "word": "after", "phonetic": "/ˈɑːftə/", "meanings": [{ "pos": "prep.", "meaning": "在……之后", "usage": "run after 追逐" }], "examples": [{ "en": "It's running after a cat.", "zh": "它正在追一只猫。" }] },
+    { "word": "cat", "phonetic": "/kæt/", "meanings": [{ "pos": "n.", "meaning": "猫" }], "examples": [{ "en": "It's running after a cat.", "zh": "它正在追一只猫。" }] },
+    { "word": "climb", "phonetic": "/klaɪm/", "meanings": [{ "pos": "v.", "meaning": "爬" }], "examples": [{ "en": "He's climbing the tree.", "zh": "他正在爬树。" }] },
+    { "word": "who", "phonetic": "/huː/", "meanings": [{ "pos": "pron.", "meaning": "谁" }], "examples": [{ "en": "Who's climbing the tree?", "zh": "谁在爬树？" }] },
+    { "word": "pardon", "phonetic": "/ˈpɑːdn/", "meanings": [{ "pos": "n.", "meaning": "原谅", "usage": "I beg your pardon. 请再说一遍" }], "examples": [{ "en": "I beg your pardon?", "zh": "请（您）再说一遍？" }] },
+    { "word": "sleep", "phonetic": "/sliːp/", "meanings": [{ "pos": "v.", "meaning": "睡觉" }], "examples": [{ "en": "The cat is sleeping.", "zh": "猫在睡觉。" }] },
+    { "word": "shave", "phonetic": "/ʃeɪv/", "meanings": [{ "pos": "v.", "meaning": "刮脸" }], "examples": [{ "en": "He is shaving.", "zh": "他正在刮脸。" }] },
+    { "word": "sit", "phonetic": "/sɪt/", "meanings": [{ "pos": "v.", "meaning": "坐" }], "examples": [{ "en": "She's sitting under the tree.", "zh": "她坐在树下。" }] }
+  ],
+  "phrases": [
+    { "phrase": "in the garden", "usage": "在花园里", "examples": [{ "en": "She's in the garden.", "zh": "她在花园里。" }] },
+    { "phrase": "under the tree", "usage": "在树下", "examples": [{ "en": "She's sitting under the tree.", "zh": "她坐在树下。" }] },
+    { "phrase": "climb the tree", "usage": "爬树", "examples": [{ "en": "He's climbing the tree.", "zh": "他正在爬树。" }] },
+    { "phrase": "run after", "usage": "追逐", "examples": [{ "en": "It's running after a cat.", "zh": "它正在追一只猫。" }] },
+    { "phrase": "I beg your pardon", "usage": "请再说一遍（没听清时）", "examples": [{ "en": "I beg your pardon?", "zh": "请（您）再说一遍？" }] },
+    { "phrase": "what about", "usage": "……呢（询问）", "examples": [{ "en": "What about the dog?", "zh": "那狗呢？" }] }
+  ],
+  "grammar": [
+    {
+      "title": "现在进行时（构成）",
+      "structure": "am/is/are + 现在分词（动词 -ing）",
+      "definition": "现在进行时由 be 的适当形式加动词的现在分词构成，表示说话时正在进行的动作。be 随主语变化：I am, he/she/it is, we/you/they are。",
+      "usage": "描述此刻正在发生的动作。",
+      "examples": [
+        { "en": "She's sitting under the tree.", "zh": "她正坐在树下。" },
+        { "en": "He's climbing the tree.", "zh": "他正在爬树。" }
+      ]
+    },
+    {
+      "title": "现在分词的拼写规则",
+      "structure": "一般 +ing；以 e 结尾去 e + ing；重读闭音节双写尾字母 + ing",
+      "definition": "sit→sitting（双写 t），make→making（去 e），run→running（双写 n），read→reading。",
+      "usage": "构成进行时。",
+      "examples": [
+        { "en": "sit → sitting", "zh": "坐 → 坐着" },
+        { "en": "climb → climbing", "zh": "爬 → 爬着" }
+      ]
+    },
+    {
+      "title": "现在进行时 vs 一般现在时",
+      "structure": "进行时（此刻）→ am/is/are + ing；一般现在（习惯）→ 动词原形/三单",
+      "definition": "现在进行时强调说话瞬间正在做（She's sitting）；一般现在时表一贯习惯或真理（She sits there every day）。",
+      "usage": "根据是否「此刻正在」选择。",
+      "examples": [
+        { "en": "What's she doing? She's sitting.", "zh": "她在做什么？她正坐着。" },
+        { "en": "She sits there every morning.", "zh": "她每天早晨坐在那儿。" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：萨莉在花园里。", "a": "She's in the garden.", "note": "She's = She is；花园用 in the garden。" },
+    { "q": "把 She sits under the tree. 改成正在进行的动作。", "a": "She's sitting under the tree.", "note": "sit 双写 t 加 -ing；be 用 is。" },
+    { "q": "汉译英：蒂姆正在爬树。", "a": "Tim is climbing the tree.", "note": "climb 直接加 -ing；Tim 配 is。" },
+    { "q": "翻译：It's running after a cat.", "a": "它正在追一只猫。", "note": "run after 追逐；it's = it is。" },
+    { "q": "没听清请求重复，说：", "a": "I beg your pardon?", "note": "固定客套语，请求对方重复。" },
+    { "q": "汉译英：狗正在草地上跑。", "a": "The dog is running across the grass.", "note": "across the grass 跑过草地；dog 配 is。" },
+    { "q": "用进行时翻译：他们正在关门。", "a": "They are shutting the door.", "note": "shut 双写 t 加 -ing；they 配 are。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 31,
+      "title": "Where's Sally?",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "JEAN", "en": "Where's Sally, Jack?" },
+        { "speaker": "JACK", "en": "She's in the garden, Jean." },
+        { "speaker": "JEAN", "en": "What's she doing?" },
+        { "speaker": "JACK", "en": "She's sitting under the tree." },
+        { "speaker": "JEAN", "en": "Is Tim in the garden, too?" },
+        { "speaker": "JACK", "en": "Yes, he is. He's climbing the tree." },
+        { "speaker": "JEAN", "en": "I beg your pardon? Who's climbing the tree?" },
+        { "speaker": "JACK", "en": "Tim is." },
+        { "speaker": "JEAN", "en": "What about the dog?" },
+        { "speaker": "JACK", "en": "The dog's in the garden, too. It's running across the grass. It's running after a cat." }
+      ]
+    },
+    {
+      "lesson": 32,
+      "title": "What's he/she/it doing?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "___ is/are ___ .",
+        "zh": "___ 正在 ___。（把下面 10 组主语与动作挨个说一遍，注意 be 随主语变化、动词加 -ing）",
+        "slots": [
+          { "en": "he — read a magazine / and — shave", "zh": "他 — 读杂志 / 并 — 刮脸" },
+          { "en": "they — shut the door / and — clean the blackboard", "zh": "他们 — 关门 / 并 — 擦黑板" },
+          { "en": "she — dust the dressing table / and — empty the basket", "zh": "她 — 掸梳妆台 / 并 — 清空篮子" },
+          { "en": "they — eat bones / and — drink milk", "zh": "它们 — 啃骨头 / 并 — 喝牛奶" },
+          { "en": "he — turn on the light / and — turn off the radio", "zh": "他 — 开灯 / 并 — 关收音机" },
+          { "en": "they — wait for a bus / and — listen to the stereo", "zh": "他们 — 等公交 / 并 — 听音响" },
+          { "en": "we — do our homework / and — wash the dishes", "zh": "我们 — 做作业 / 并 — 洗碗" },
+          { "en": "he — make the bed / and — sweep the floor", "zh": "他 — 铺床 / 并 — 扫地" },
+          { "en": "they — wash the dishes / and — dry the plates", "zh": "他们 — 洗碗 / 并 — 擦干盘子" },
+          { "en": "she — type a letter / and — answer the telephone", "zh": "她 — 打一封信 / 并 — 接电话" }
+        ],
+        "answers": ["He's reading a magazine.", "They're shutting the door."]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "\"She's sitting under the tree.\" 中 She's 是：", "zh": "She's 是什么？", "options": ["She is 的缩写", "She has 的缩写", "She was 的缩写", "She does 的缩写"], "answer": 0, "note": "此处 She's = She is（现在进行时）。" },
+    { "q": "现在进行时的结构是：", "zh": "现在进行时结构？", "options": ["am/is/are + 动词 -ing", "do/does + 动词", "will + 动词", "动词原形"], "answer": 0, "note": "be + 现在分词构成进行时。" },
+    { "q": "sit 的现在分词是：", "zh": "sit 怎么变 -ing？", "options": ["sitting（双写 t）", "siting", "sitted", "sitingg"], "answer": 0, "note": "重读闭音节结尾，双写尾辅音 t 再加 -ing。" },
+    { "q": "\"What's she doing?\" 中 What's 是：", "zh": "What's 是什么？", "options": ["What is 的缩写", "What has 的缩写", "What does 的缩写", "What was 的缩写"], "answer": 0, "note": "What's = What is，问正在做什么。" },
+    { "q": "run after a cat 的意思是：", "zh": "这个短语什么意思？", "options": ["追一只猫", "跑过猫", "在猫后面", "和猫一起跑"], "answer": 0, "note": "run after 追逐。" },
+    { "q": "描述此刻正在发生的动作，用：", "zh": "描述此刻正在发生用哪个时态？", "options": ["现在进行时", "一般现在时", "一般过去时", "一般将来时"], "answer": 0, "note": "现在进行时专表此刻正在进行。" }
+  ]
+}

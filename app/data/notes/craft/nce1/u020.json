@@ -1,0 +1,170 @@
+{
+  "title": "Don't drop it! / Send ... to ...",
+  "subtitle": "别摔了！/ 把……带给……",
+  "lead": {
+    "question": "你手里捧着容易打碎的花瓶，朋友却想把它放在不稳的桌边——你会怎么用英语叮嘱「小心，别摔了」？",
+    "warmup": "先别看课文。想象你正把一件易碎品从一个人手里接过来，准备换个安全的地方放。你会说哪几句英文？①「别那么放，给我」②「小心，别掉」③「放这儿，这个架子上」。把这三类句子在脑子里过一遍，再听录音，看 Sam 和 Penny 是不是也这么来回。注意本课第一次集中出现祈使句——而且是否定祈使句 Don't ...。",
+    "goals": [
+      "能用祈使句（动词原形）发出指令：Put it here. / Give it to me.",
+      "能用否定祈使句 Don't + 动词原形 劝阻：Don't drop it. / Don't put it there.",
+      "理解 give/show/send/take 的「双宾语 + to」结构：Give it to me.",
+      "会用 in front of / on this shelf / here 等方位与地点词描述摆放位置"
+    ],
+    "summary": "第 39 课是 Sam 和 Penny 围绕一个花瓶的「摆放拉锯」：Penny 想放桌上，Sam 抢过来说 Don't do that. Give it to me. 最后听了 Penny 的指挥 Put it here, on this shelf. 全课密集出现祈使句，尤其是否定式 Don't drop it! / Don't put it there. 第 40 课把 give/send/take/show + 直接宾语 + to + 间接宾语，以及 put on / take off / turn on / turn off 这类短语动词铺开操练。",
+    "tips": "① 祈使句一律以动词原形开头，主语 you 省略；② 否定式直接在前面加 Don't（不说 You don't...），Don't drop it! 不是 Don't you drop it!；③ give 有两个宾语：物是直接宾语（it / a book），人是间接宾语（me），直接宾语在前时要加 to：Give it to me. 对比 Show her the magazine.（人前物后，不加 to）；④ in front of 是「在……前面（外部）」，区别于 in the front of（内部的前部）；⑤ There we are! 在这里表示「好了、放好了」，是满意语气，不是「我们到了」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Where does Sam put the vase in the end?",
+      "zh": "萨姆最后把花瓶放在哪儿？",
+      "a": "On this shelf.",
+      "aZh": "放在这个架子上。",
+      "hint": "听 Penny 说的那句 Put it here, on this shelf."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Sam say when Penny wants to put the vase on the table?",
+      "zh": "彭妮想把花瓶放桌上时，萨姆怎么回应？",
+      "a": "Don't do that. Give it to me.",
+      "aZh": "别那样放，把它给我。",
+      "hint": "Sam 抢过花瓶时说的两句祈使句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Why does Penny say 'Be careful. Don't drop it!'?",
+      "zh": "彭妮为什么说「小心，别摔了」？",
+      "a": "Because Sam is carrying the vase and might drop it.",
+      "aZh": "因为萨姆正捧着花瓶，可能摔碎。",
+      "hint": "花瓶是易碎品，Sam 在搬动它。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Penny say is lovely besides the vase?",
+      "zh": "除了花瓶，彭妮还说什么是漂亮的？",
+      "a": "Those flowers.",
+      "aZh": "那些花。",
+      "hint": "课文最后一句 Those flowers are lovely, too."
+    },
+    {
+      "kind": "think",
+      "q": "Why do we put 'Don't' at the FRONT of an imperative (Don't drop it!) instead of saying 'You don't drop it!'?",
+      "zh": "为什么否定祈使句要把 Don't 放在最前面（Don't drop it!），而不说 You don't drop it!？",
+      "a": "Imperatives have no subject; 'Don't + base verb' is the fixed negative form. Adding 'you' would make it a statement about a habit, not a command.",
+      "aZh": "祈使句没有主语；Don't + 动词原形是否定祈使句的固定形式。加 you 就变成陈述习惯，不再是命令。",
+      "hint": "祈使句省略了 you，否定直接 Don't 开头。"
+    },
+    {
+      "kind": "drill",
+      "q": "Send that letter to George. / Take those flowers to her. / Show that picture to me. / Give these books to Mrs. Jones. / Give these ice creams to the children.",
+      "zh": "第 40 课操练：把「动词 + 直接宾语 + to + 间接宾语」各说一遍（send / take / show / give）。",
+      "a": "Send that letter to George. / Take those flowers to her.",
+      "aZh": "把那封信寄给乔治。/ 把那些花拿给她。",
+      "hint": "直接宾语（物）在前、间接宾语（人）在后时加 to。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "vase", "phonetic": "/vɑːz/", "meanings": [{ "pos": "n.", "meaning": "花瓶；瓶", "usage": "第 39 课核心词" }], "examples": [{ "en": "It's a lovely vase.", "zh": "是一只漂亮的花瓶。" }] },
+    { "word": "drop", "phonetic": "/drɒp/", "meanings": [{ "pos": "v.", "meaning": "掉下；放下", "usage": "失手落下；Don't drop it! 别摔了" }], "examples": [{ "en": "Be careful! Don't drop it.", "zh": "小心！别摔了。" }] },
+    { "word": "flower", "phonetic": "/ˈflaʊə/", "meanings": [{ "pos": "n.", "meaning": "花", "usage": "Those flowers are lovely, too." }], "examples": [{ "en": "Those flowers are lovely, too.", "zh": "那些花也很漂亮。" }] },
+    { "word": "front", "phonetic": "/frʌnt/", "meanings": [{ "pos": "n.", "meaning": "前面", "usage": "in front of 在……前面（外部）" }], "examples": [{ "en": "I'm going to put it here, in front of the window.", "zh": "我打算把它放在这儿，窗前。" }] },
+    { "word": "careful", "phonetic": "/ˈkeəfəl/", "meanings": [{ "pos": "adj.", "meaning": "小心的，仔细的", "usage": "Be careful! 祈使句，提醒注意" }], "examples": [{ "en": "Be careful. Don't drop it!", "zh": "小心点。别摔了！" }] },
+    { "word": "shelf", "phonetic": "/ʃelf/", "meanings": [{ "pos": "n.", "meaning": "架子，搁板", "usage": "复数 shelves；Put it on this shelf." }], "examples": [{ "en": "Put it here, on this shelf.", "zh": "放在这儿，这个架子上。" }] },
+    { "word": "send", "phonetic": "/send/", "meanings": [{ "pos": "v.", "meaning": "送；寄；差遣", "usage": "send ... to 把……送给/派……去" }], "examples": [{ "en": "Send that letter to George.", "zh": "把那封信寄给乔治。" }] },
+    { "word": "take", "phonetic": "/teɪk/", "meanings": [{ "pos": "v.", "meaning": "拿；带", "usage": "take ... to 把……拿给" }], "examples": [{ "en": "Take those flowers to her.", "zh": "把那些花拿给她。" }] },
+    { "word": "show", "phonetic": "/ʃəʊ/", "meanings": [{ "pos": "v.", "meaning": "给……看；展示", "usage": "show ... to 把……给……看（也可 show sb. sth.）" }], "examples": [{ "en": "Show that picture to me.", "zh": "把那幅画给我看。" }] },
+    { "word": "turn", "phonetic": "/tɜːn/", "meanings": [{ "pos": "v.", "meaning": "转动；打开/关掉（电器）", "usage": "turn on / turn off 开/关" }], "examples": [{ "en": "I'm going to turn it off.", "zh": "我打算把它关掉。" }] },
+    { "word": "lovely", "phonetic": "/ˈlʌvli/", "meanings": [{ "pos": "adj.", "meaning": "可爱的，漂亮的", "usage": "口语常用，修饰物" }], "examples": [{ "en": "It's a lovely vase.", "zh": "是一只漂亮的花瓶。" }] }
+  ],
+  "textExtra": [
+    {
+      "lesson": 39,
+      "title": "Don't drop it!",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "SAM", "en": "What are you going to do with that vase, Penny?" },
+        { "speaker": "PENNY", "en": "I'm going to put it on this table, Sam." },
+        { "speaker": "SAM", "en": "Don't do that. Give it to me." },
+        { "speaker": "PENNY", "en": "What are you going to do with it?" },
+        { "speaker": "SAM", "en": "I'm going to put it here, in front of the window." },
+        { "speaker": "PENNY", "en": "Be careful. Don't drop it!" },
+        { "speaker": "PENNY", "en": "Don't put it there, Sam. Put it here, on this shelf." },
+        { "speaker": "SAM", "en": "There we are! It's a lovely vase." },
+        { "speaker": "PENNY", "en": "Those flowers are lovely, too." }
+      ]
+    },
+    {
+      "lesson": 40,
+      "title": "Send ... to ...",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "___ that ___ to ___ .",
+        "zh": "把那个……给……。（把动词 send/take/show/give 与物品、收件人组合，造一个祈使句，注意「物 + to + 人」）",
+        "slots": [
+          { "en": "Send — that letter — George", "zh": "寄 — 那封信 — 乔治" },
+          { "en": "Take — those flowers — her", "zh": "拿 — 那些花 — 她" },
+          { "en": "Show — that picture — me", "zh": "给看 — 那幅画 — 我" },
+          { "en": "Give — these books — Mrs. Jones", "zh": "给 — 这些书 — 琼斯太太" },
+          { "en": "Give — these ice creams — the children", "zh": "给 — 这些冰淇淋 — 孩子们" }
+        ],
+        "answers": ["Send that letter to George.", "Take those flowers to her."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "把「别放在那儿，萨姆」译成英文。", "a": "Don't put it there, Sam.", "note": "否定祈使句：Don't + 动词原形，there 是地点副词。" },
+    { "q": "把「把它给我」译成英文（give 双宾语）。", "a": "Give it to me.", "note": "直接宾语 it（物）在前，间接宾语 me（人）在后，加 to。" },
+    { "q": "改错：Don't you drop it!", "a": "Don't drop it!", "note": "否定祈使句没有主语 you，Don't 直接加动词原形。" },
+    { "q": "用 show 改写：Show her the magazine. → 物前加 to", "a": "Show it to her.", "note": "直接宾语用代词 it 时，必须放在动词后、间接宾语前，并加 to。" },
+    { "q": "汉译英：我打算把它放在窗前。", "a": "I'm going to put it in front of the window.", "note": "be going to 表打算；in front of 表外部前面。" },
+    { "q": "第 40 课 B 组：把「我打算把它关掉」译成英文。", "a": "I'm going to turn it off.", "note": "短语动词 turn off，代词宾语 it 放中间。" },
+    { "q": "汉译英：好了，放好了！（表示满意）", "a": "There we are!", "note": "There we are! 在此表「放好了、行了」，是满意语气。" }
+  ],
+  "quiz": [
+    { "q": "「别摔了！」正确说法是：", "options": ["Don't drop it!", "You don't drop it!", "Not drop it.", "Doesn't drop it!"], "answer": 0, "note": "否定祈使句用 Don't + 动词原形，无主语。" },
+    { "q": "「把它给我」用 give 应该怎么说？", "options": ["Give it to me.", "Give me it.", "Give to me it.", "Give me to it."], "answer": 0, "note": "直接宾语 it 在前、间接宾语 me 在后时要加 to；Give me it 口语亦可，但标准双宾语+to 是 Give it to me。" },
+    { "q": "Show her the magazine. 换成代词 it 应说：", "options": ["Show it to her.", "Show her it.", "Show to her it.", "Show it her."], "answer": 0, "note": "代词作直接宾语必须后置并加 to：Show it to her." },
+    { "q": "in front of the window 的意思是：", "options": ["在窗户外面的前方", "在窗户内部的前部", "在窗户上面", "在窗户后面"], "answer": 0, "note": "in front of 指「在……（外部）前面」；in the front of 才指内部前部。" },
+    { "q": "祈使句的主语通常是：", "options": ["省略（you）", "I", "we", "he"], "answer": 0, "note": "祈使句默认主语是 you，常省略，动词用原形。" },
+    { "q": "There we are! 在课文中表示：", "options": ["放好了，满意", "我们到了", "我们在这里", "那里有我们"], "answer": 0, "note": "此处 There we are! 表事情办妥、满意，不是「我们到了」。" }
+  ],
+  "grammar": [
+    {
+      "title": "祈使句的肯定式（Imperatives）",
+      "structure": "动词原形 (+ 宾语 / 状语)",
+      "definition": "祈使句用来发出命令、请求、建议或指示，以动词原形开头，主语 you 通常省略。",
+      "usage": "让对方做某事：Put it here. / Give it to me. / Be careful.",
+      "examples": [
+        { "en": "Put it here, on this shelf.", "zh": "放在这儿，这个架子上。" },
+        { "en": "Be careful.", "zh": "小心点。" }
+      ]
+    },
+    {
+      "title": "祈使句的否定式：Don't + 动词原形",
+      "structure": "Don't (Do not) + 动词原形 (+ 其他)",
+      "definition": "否定祈使句在动词原形前直接加 Don't（正式文告可用 Do not），不出现主语 you。",
+      "usage": "劝阻对方做某事：Don't drop it! / Don't put it there.",
+      "examples": [
+        { "en": "Don't drop it!", "zh": "别摔了！" },
+        { "en": "Don't do that.", "zh": "别那么做。" }
+      ]
+    },
+    {
+      "title": "give / show / send / take 的双宾语与 to",
+      "structure": "动词 + 直接宾语(物) + to + 间接宾语(人)",
+      "definition": "give, show, send, take 等可带两个宾语：物是直接宾语，人是间接宾语。当直接宾语置于动词之后、间接宾语之前时，间接宾语前加 to。也可写成 动词 + 人 + 物（不加 to）：Show her the magazine.",
+      "usage": "把某物给/给……看某人：Give it to me. / Send that letter to George.",
+      "examples": [
+        { "en": "Give it to me.", "zh": "把它给我。" },
+        { "en": "Show her the magazine.", "zh": "给她那本杂志。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "in front of", "usage": "在……（外部）前面，表方位", "examples": [{ "en": "I'm going to put it here, in front of the window.", "zh": "我打算把它放在这儿，窗前。" }] },
+    { "phrase": "give ... to me", "usage": "把……给我（双宾语 + to）", "examples": [{ "en": "Don't do that. Give it to me.", "zh": "别那样放，把它给我。" }] },
+    { "phrase": "there we are", "usage": "表示事情办妥、满意（好了/行了）", "examples": [{ "en": "There we are! It's a lovely vase.", "zh": "好了！是一只漂亮的花瓶。" }] },
+    { "phrase": "be careful", "usage": "小心，提醒注意（祈使句）", "examples": [{ "en": "Be careful. Don't drop it!", "zh": "小心点。别摔了！" }] },
+    { "phrase": "don't drop it", "usage": "别摔了/别掉了（否定祈使）", "examples": [{ "en": "Be careful. Don't drop it!", "zh": "小心点。别摔了！" }] }
+  ]
+}

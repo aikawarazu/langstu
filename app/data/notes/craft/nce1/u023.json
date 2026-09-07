@@ -1,0 +1,177 @@
+{
+  "title": "The boss's letter / Can you ...? What can you do?",
+  "subtitle": "老板的信 / 你会……吗？你会做什么？",
+  "lead": {
+    "question": "老板让你把一封信交给同事打字，同事接过信却说「我看不懂」——问题出在哪儿？你能用 can 问别人「能不能」做件事吗？",
+    "warmup": "先别看课文。想象办公室一幕：老板问「帕梅拉在哪儿？她能帮我打一封信吗？」秘书去传话，同事爽快答应，结果拆开信傻眼——字太潦草看不懂。本课把 can 从「能力」用到「请求/允许」：Can you type this letter for me? 先试着用 can 问同事「你能……吗」，再听 boss 和 Bob、Pamela 的三角对话。注意名词所有格 the boss's 怎么读、怎么用。",
+    "goals": [
+      "能用 Can you ...? 请求/询问对方能否做某事",
+      "能用 can 的一般疑问句作简略回答 Yes, I can. / No, I can't.",
+      "能用特殊疑问句 What can ... do? 问能力",
+      "掌握名词所有格 's（the boss's letter）与 next door / terrible 等词"
+    ],
+    "summary": "第 45 课是办公室场景：老板叫 Bob 来，问 Pamela 在哪儿、能否替他打一封信；Bob 转达，Pamela 答应，结果一看信大呼 The boss's handwriting is terrible! 她看不懂。全课围绕 can 表能力与请求。第 46 课把 Can you ...? — Yes, I can. What can you do? I can ... 铺开操练，并复习 can 后接各种动词。",
+    "tips": "① Can you ...? 可表请求也可表能力询问，看语境；② 简略回答用 can/can't，不与 do 混：Yes, I can. 不是 Yes, I do.；③ What can you do? 问「你会做什么」，回答 I can + 动词原形；④ 名词所有格 's 加在名词后：the boss's letter = 老板的信（boss 以 s 结尾，仍加 's，读 /ɪz/）；⑤ next door 作副词「在隔壁」；a minute 表「一会儿」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why can't Pamela type the letter?",
+      "zh": "帕梅拉为什么无法打这封信？",
+      "a": "Because the boss's handwriting is terrible — she can't read it.",
+      "aZh": "因为老板的字太潦草，她看不懂。",
+      "hint": "听结尾 I can't read it! The boss's handwriting is terrible!"
+    },
+    {
+      "kind": "detail",
+      "q": "Where is Pamela?",
+      "zh": "帕梅拉在哪儿？",
+      "a": "She's next door. She's in her office.",
+      "aZh": "在隔壁，在她的办公室里。",
+      "hint": "Bob 答 She's next door."
+    },
+    {
+      "kind": "detail",
+      "q": "What does the boss ask Bob to do?",
+      "zh": "老板让鲍勃做什么？",
+      "a": "Ask Pamela to type the letter for him.",
+      "aZh": "请帕梅拉替他打这封信。",
+      "hint": "Can she type this letter for me? Ask her please."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Pamela say when she sees the letter?",
+      "zh": "帕梅拉看到信时说了什么？",
+      "a": "Bob! ... I can't type this letter. I can't read it! The boss's handwriting is terrible!",
+      "aZh": "鲍勃！……我打不了这封信。我看不懂！老板的字太糟了！",
+      "hint": "Pamela 连喊三句。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does 'Can you type this letter for me?' work both as a request and as a question about ability?",
+      "zh": "为什么 Can you type this letter for me? 既能当请求，又能当能力询问？",
+      "a": "can expresses ability; asking 'are you able to' naturally functions as a polite request in context. The same form serves both because ability is what's being requested.",
+      "aZh": "can 表能力；问「你能否」在语境中自然就成了礼貌请求，形式相同是因为请求的就是对方的能力。",
+      "hint": "can 表能力，顺带就成为请求。"
+    },
+    {
+      "kind": "drill",
+      "q": "Can you type this letter? — Yes, I can. What can you do? — I can type this letter. / Can Penny wait for the bus? — Yes, she can. What can she do? — She can wait for the bus.",
+      "zh": "第 46 课操练：Can ___ ? — Yes, ___ can. What can ___ do? — ___ can ___.",
+      "a": "Can George take these flowers to her? Yes, he can. What can he do? He can take these flowers to her.",
+      "aZh": "乔治能把这些花带给她吗？能。他会做什么？他会把这些花带给她。",
+      "hint": "can 问能力，What can ... do? 追问具体会什么。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "can", "phonetic": "/kæn/", "meanings": [{ "pos": "modal verb", "meaning": "能够", "usage": "情态动词，后接动词原形，表能力/请求" }], "examples": [{ "en": "Can you type this letter for me?", "zh": "你能替我打这封信吗？" }] },
+    { "word": "boss", "phonetic": "/bɒs/", "meanings": [{ "pos": "n.", "meaning": "老板，上司", "usage": "the boss's letter 老板的信" }], "examples": [{ "en": "Can she type this letter for the boss?", "zh": "她能给老板打这封信吗？" }] },
+    { "word": "minute", "phonetic": "/ˈmɪnɪt/", "meanings": [{ "pos": "n.", "meaning": "分（钟）；一会儿", "usage": "a minute 作时间状语「片刻」" }], "examples": [{ "en": "Can you come here a minute please, Bob?", "zh": "请你来一下好吗，鲍勃？" }] },
+    { "word": "ask", "phonetic": "/ɑːsk/", "meanings": [{ "pos": "v.", "meaning": "请求，要求；问", "usage": "Ask her please. 请她（做）" }], "examples": [{ "en": "Ask her please.", "zh": "请问她。" }] },
+    { "word": "handwriting", "phonetic": "/ˈhændraɪtɪŋ/", "meanings": [{ "pos": "n.", "meaning": "书写，笔迹", "usage": "The boss's handwriting is terrible!" }], "examples": [{ "en": "The boss's handwriting is terrible!", "zh": "老板的字太潦草了！" }] },
+    { "word": "terrible", "phonetic": "/ˈterəbl/", "meanings": [{ "pos": "adj.", "meaning": "糟糕的，可怕的", "usage": "口语指「糟透的」" }], "examples": [{ "en": "The boss's handwriting is terrible!", "zh": "老板的字太潦草了！" }] },
+    { "word": "letter", "phonetic": "/ˈletə/", "meanings": [{ "pos": "n.", "meaning": "信；字母", "usage": "this letter 这封信" }], "examples": [{ "en": "Can she type this letter for me?", "zh": "她能替我打这封信吗？" }] },
+    { "word": "type", "phonetic": "/taɪp/", "meanings": [{ "pos": "v.", "meaning": "打字", "usage": "type this letter 打这封信" }], "examples": [{ "en": "Can you type this letter for the boss please, Pamela?", "zh": "请你把这封信给老板打一下可以吗，帕梅拉？" }] },
+    { "word": "read", "phonetic": "/riːd/", "meanings": [{ "pos": "v.", "meaning": "读；看懂", "usage": "I can't read it! 看不懂" }], "examples": [{ "en": "I can't read it!", "zh": "我看不懂它！" }] },
+    { "word": "office", "phonetic": "/ˈɒfɪs/", "meanings": [{ "pos": "n.", "meaning": "办公室", "usage": "in her office 在她的办公室里" }], "examples": [{ "en": "She's in her office, sir.", "zh": "她在她的办公室里，先生。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 45,
+      "title": "The boss's letter",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "THE BOSS", "en": "Can you come here a minute please, Bob?" },
+        { "speaker": "BOB", "en": "Yes, sir?" },
+        { "speaker": "THE BOSS", "en": "Where's Pamela?" },
+        { "speaker": "BOB", "en": "She's next door. She's in her office, sir." },
+        { "speaker": "THE BOSS", "en": "Can she type this letter for me? Ask her please." },
+        { "speaker": "BOB", "en": "Yes, sir." },
+        { "speaker": "BOB", "en": "Can you type this letter for the boss please, Pamela?" },
+        { "speaker": "PAMELA", "en": "Yes, of course I can." },
+        { "speaker": "BOB", "en": "Here you are." },
+        { "speaker": "PAMELA", "en": "Thank you, Bob." },
+        { "speaker": "PAMELA", "en": "Bob!" },
+        { "speaker": "BOB", "en": "Yes?" },
+        { "speaker": "BOB", "en": "What's the matter?" },
+        { "speaker": "PAMELA", "en": "I can't type this letter." },
+        { "speaker": "PAMELA", "en": "I can't read it!" },
+        { "speaker": "PAMELA", "en": "The boss's handwriting is terrible!" }
+      ]
+    },
+    {
+      "lesson": 46,
+      "title": "Can you ...? What can you do?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Can ___ ? — Yes, ___ can. What can ___ do? ___ can ___ .",
+        "zh": "你会……吗？——会。你会做什么？——我会……。（用 can 提问并回答能力，再追问 What can you do?）",
+        "slots": [
+          { "en": "you — type this letter", "zh": "你 — 打这封信" },
+          { "en": "Penny — wait for the bus", "zh": "彭妮 — 等公共汽车" },
+          { "en": "Penny and Jane — wash the dishes", "zh": "彭妮和简 — 洗盘子" },
+          { "en": "George — take these flowers to her", "zh": "乔治 — 把这些花带给她" },
+          { "en": "the cat — drink its milk", "zh": "猫 — 喝它的牛奶" },
+          { "en": "you and Tom — paint this bookcase", "zh": "你和汤姆 — 漆这个书架" },
+          { "en": "you — see that aeroplane", "zh": "你 — 看见那架飞机" },
+          { "en": "Jane — read this book", "zh": "简 — 读这本书" }
+        ],
+        "answers": ["Can you type this letter? Yes, I can. What can you do? I can type this letter.", "Can Penny wait for the bus? Yes, she can. What can she do? She can wait for the bus."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：请你来一下好吗，鲍勃？", "a": "Can you come here a minute please, Bob?", "note": "a minute 表「一会儿」，作时间状语。" },
+    { "q": "把 Can she type this letter? 作否定简略回答。", "a": "No, she can't.", "note": "can 否定简略回答用 can't，不与 do 混。" },
+    { "q": "汉译英：老板的字太潦草了。", "a": "The boss's handwriting is terrible.", "note": "名词所有格 boss's（虽以 s 结尾仍加 's）。" },
+    { "q": "用 What can ... do? 问 Pamela 会做什么（打这封信）。", "a": "What can Pamela do? She can type this letter.", "note": "What can + 主语 + do? 问能力。" },
+    { "q": "汉译英：她在隔壁，在她的办公室里。", "a": "She's next door. She's in her office.", "note": "next door 作副词表「在隔壁」。" },
+    { "q": "改错：Yes, I do. (回答 Can you type this letter?)", "a": "Yes, I can.", "note": "can 问 can 答，不用 do。" },
+    { "q": "汉译英：这封信是给老板打的。", "a": "Can you type this letter for the boss please?", "note": "for the boss 表「替老板」；type 打字。" }
+  ],
+  "quiz": [
+    { "q": "回答 Can you type this letter? 正确简略回答是：", "options": ["Yes, I can.", "Yes, I do.", "Yes, I am.", "Yes, I type."], "answer": 0, "note": "can 问 can 答。" },
+    { "q": "「老板的信」正确所有格是：", "options": ["the boss's letter", "the bosses' letter", "the boss letter", "boss's the letter"], "answer": 0, "note": "boss 以 s 结尾，所有格仍加 's：the boss's。" },
+    { "q": "What can Penny do? 是在问：", "options": ["彭妮会做什么", "彭妮在哪儿", "彭妮是谁", "彭妮想做什么"], "answer": 0, "note": "What can ... do? 问能力/会做什么。" },
+    { "q": "Can she type this letter for me? 中 for me 表示：", "options": ["替我", "给我（间接宾语）", "为我（目的）", "和我一起"], "answer": 0, "note": "for me 表「替我/为我」。" },
+    { "q": "「我打不了这封信」正确说法是：", "options": ["I can't type this letter.", "I don't can type this letter.", "I can not type this letter?（错）", "I no type this letter."], "answer": 0, "note": "can 否定用 can't + 原形。" },
+    { "q": "next door 在课文中作：", "options": ["副词，表「在隔壁」", "名词「门」", "形容词", "介词"], "answer": 0, "note": "She's next door. 中 next door 作表语副词。" }
+  ],
+  "grammar": [
+    {
+      "title": "can 表示能力（与请求）",
+      "structure": "can + 动词原形",
+      "definition": "can 是情态助动词，表示「能力」或客观可能；在语境中 Can you ...? 也可用作礼貌请求。本身无人称/数变化。",
+      "usage": "Can you make the tea? / Can she type this letter for me?",
+      "examples": [
+        { "en": "Yes, of course I can.", "zh": "当然，我会。" },
+        { "en": "Can she type this letter for me?", "zh": "她能替我打这封信吗？" }
+      ]
+    },
+    {
+      "title": "can 的一般疑问句与简略回答",
+      "structure": "Can + 主语 + 动词原形? — Yes/No, 主语 + can / can't.",
+      "definition": "疑问句把 can 提到句首；简略回答用 can / can't，不借助 do。",
+      "usage": "Can you type this letter? — Yes, I can. / No, I can't.",
+      "examples": [
+        { "en": "Can you type this letter for the boss please, Pamela?", "zh": "请你把这封信给老板打一下可以吗，帕梅拉？" },
+        { "en": "Yes, of course I can.", "zh": "当然可以。" }
+      ]
+    },
+    {
+      "title": "特殊疑问句 What can ... do?",
+      "structure": "What + can + 主语 + do?",
+      "definition": "can 与疑问词 what 连用构成特殊疑问句，询问「会做什么」，回答用主语 + can + 动词原形。",
+      "usage": "What can Penny and Jane do? — They can wash the dishes.",
+      "examples": [
+        { "en": "What can you do?", "zh": "你会做什么？" },
+        { "en": "I can type this letter.", "zh": "我会打这封信。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "come here a minute", "usage": "过来一下（a minute 表「一会儿」）", "examples": [{ "en": "Can you come here a minute please, Bob?", "zh": "请你来一下好吗，鲍勃？" }] },
+    { "phrase": "what's the matter", "usage": "怎么了，怎么回事", "examples": [{ "en": "What's the matter?", "zh": "怎么了？怎么回事？" }] },
+    { "phrase": "for me / for the boss", "usage": "替我/替老板（表对象）", "examples": [{ "en": "Can she type this letter for me?", "zh": "她能替我打这封信吗？" }] }
+  ]
+}

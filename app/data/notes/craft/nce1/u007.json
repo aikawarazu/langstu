@@ -1,0 +1,119 @@
+{
+  "title": "A new dress / What colour's …?",
+  "subtitle": "一件新连衣裙 / ……是什么颜色的？",
+  "lead": {
+    "question": "你能用英语一口气报出身边三件东西的颜色吗？同色、也怎样说？",
+    "warmup": "先别看课文，想一个真实场景：朋友穿了件新衣服来你家，你夸完之后想问「什么颜色」，又想看看实物。中文你会说「到楼上看」，英文里 upstairs 前面要不要加「到／to」？再想想朋友说「我的帽子也是新的、一样颜色」——「同色」「也」英语分别怎么说？带着这些问题去听录音。",
+    "goals": [
+      "能用 What colour's your …? / What colour is it? 询问颜色",
+      "能用 Come upstairs and see it. 这类祈使句 + and 结构发出邀请",
+      "能用 It's the same colour. / It's green, too. 表达同色与「也」",
+      "会用 That's a nice dress. / It's very smart. / That is a lovely hat! 称赞衣物"
+    ],
+    "summary": "第 13 课 Anna 让 Louise 上楼看新连衣裙（绿色），又炫耀同样绿色的新帽子，两人用 That's a nice dress. / It's very smart. / That is a lovely hat! 互夸。第 14 课把 This is X's Y. 与 What colour's X's Y? 铺开操练，覆盖 car/coat/dog/suit/dress 与一整组人物+物品+颜色。",
+    "tips": "① same 是固定搭配，前面必须加 the：It's the same colour. 不能说 It's same colour.；② 地点副词 upstairs / home / here 前面不加介词，说 Come upstairs 不说 Come to upstairs；③ 指远处用 That's（That's a nice dress.），指近处用 Here it is!；④ 颜色形容词作表语前不加 a：It's green. 不说 It's a green.；⑤ too 表「也」放句末：It's green, too."
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What colour is Anna's hat?",
+      "zh": "安娜的帽子是什么颜色的？",
+      "a": "It's green.",
+      "aZh": "绿色的。",
+      "hint": "听 Louise 问 What colour is it? 之后 Anna 回答的那两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What colour is Anna's new dress?",
+      "zh": "安娜的新连衣裙是什么颜色？",
+      "a": "It's green.",
+      "aZh": "绿色的。",
+      "hint": "对话第一句问的就是连衣裙的颜色。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Anna ask Louise to do after saying the dress is green?",
+      "zh": "安娜说完连衣裙是绿色的后，邀请 Louise 做什么？",
+      "a": "Come upstairs and see it.",
+      "aZh": "到楼上去看（那件连衣裙）。",
+      "hint": "地点副词 upstairs 前不加介词。"
+    },
+    {
+      "kind": "detail",
+      "q": "How does Louise praise the dress and the hat?",
+      "zh": "路易丝怎么夸连衣裙和帽子？",
+      "a": "That's a nice dress. / It's very smart. / That is a lovely hat!",
+      "aZh": "那件连衣裙真好。/ 它很时髦。/ 真是一顶可爱的帽子！",
+      "hint": "smart 与 lovely 都是称赞形容词。"
+    },
+    {
+      "kind": "think",
+      "q": "Why do we say 'the same colour' with 'the', not just 'same colour'?",
+      "zh": "为什么「同色」要说 the same colour，而不是 same colour？",
+      "a": "same is almost always used with the definite article the in English; it is a fixed collocation meaning 同一的/相同的。",
+      "aZh": "英语里 same 几乎总是和定冠词 the 连用，是固定搭配，表示「同一的、相同的」。",
+      "hint": "对比中文「一样的」——中文也不说「一样颜色」要加「的」，英文则硬性要求 the。"
+    },
+    {
+      "kind": "drill",
+      "q": "This is Steven's car. What colour's Steven's car? — His car's blue. / This is Tim's shirt. What colour's Tim's shirt? — His shirt's white.",
+      "zh": "第 14 课操练：先说 This is X's Y，再问 What colour's X's Y? 用 His/Her Y's 颜色 回答（把下面的人+物+颜色挨个说一遍）",
+      "a": "What colour's Sophie's coat? — Her coat's grey. / What colour's Dave's tie? — His tie's orange.",
+      "aZh": "索菲的外套是什么颜色？——她的外套是灰色的。/ 戴夫的领带是什么颜色？——他的领带是橙色的。",
+      "hint": "男性用 his，女性用 her；回答可省略重复的颜色词前面的名词。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "colour", "phonetic": "/ˈkʌlə/", "meanings": [{ "pos": "n.", "meaning": "颜色", "usage": "英式拼写，美式 colour→color；问颜色用 What colour …?" }], "examples": [{ "en": "What colour's your new dress?", "zh": "你的新连衣裙是什么颜色的？" }, { "en": "What colour is Anna's hat?", "zh": "安娜的帽子是什么颜色的？" }] },
+    { "word": "green", "phonetic": "/ɡriːn/", "meanings": [{ "pos": "adj.", "meaning": "绿色的", "usage": "颜色形容词作表语前不加 a" }], "examples": [{ "en": "It's green.", "zh": "它是绿色的。" }, { "en": "It's green, too.", "zh": "它也是绿色的。" }] },
+    { "word": "come", "phonetic": "/kʌm/", "meanings": [{ "pos": "v.", "meaning": "来", "usage": "Come and see 不用 Come to see" }], "examples": [{ "en": "Come upstairs and see it.", "zh": "到楼上去看它。" }] },
+    { "word": "upstairs", "phonetic": "/ˌʌpˈsteəz/", "meanings": [{ "pos": "adv.", "meaning": "楼上", "usage": "地点副词，前面不加介词" }], "examples": [{ "en": "Come upstairs and see it.", "zh": "到楼上去看它。" }] },
+    { "word": "smart", "phonetic": "/smɑːt/", "meanings": [{ "pos": "adj.", "meaning": "时髦的；巧妙的", "usage": "也可指聪明、精明" }], "examples": [{ "en": "It's very smart.", "zh": "它很时髦。" }] },
+    { "word": "hat", "phonetic": "/hæt/", "meanings": [{ "pos": "n.", "meaning": "帽子", "usage": "本课指 Anna 的新帽子" }], "examples": [{ "en": "My hat's new, too.", "zh": "我的帽子也是新的。" }, { "en": "That is a lovely hat!", "zh": "真是一顶可爱的帽子！" }] },
+    { "word": "same", "phonetic": "/seɪm/", "meanings": [{ "pos": "adj.", "meaning": "相同的", "usage": "固定与 the 连用：the same colour" }], "examples": [{ "en": "It's the same colour.", "zh": "是一样的颜色。" }] },
+    { "word": "lovely", "phonetic": "/ˈlʌvli/", "meanings": [{ "pos": "adj.", "meaning": "可爱的；秀丽的", "usage": "用于称赞" }], "examples": [{ "en": "That is a lovely hat!", "zh": "真是一顶可爱的帽子！" }] }
+  ],
+  "textExtra": [
+    {
+      "lesson": 14,
+      "title": "What colour's …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "This is ___. What colour's ___ ? — His / Her ___ 's ___.",
+        "zh": "这是……。……是什么颜色的？——他/她的……是……色的。（把下面的人+物+颜色挨个说一遍：先说 This is X's Y，再问颜色并用 His/Her Y's 颜色 回答）",
+        "slots": [
+          { "en": "Steven's car — blue", "zh": "史蒂文的小汽车 — 蓝色" },
+          { "en": "Tim's shirt — white", "zh": "蒂姆的衬衣 — 白色" },
+          { "en": "Sophie's coat — grey", "zh": "索菲的外套 — 灰色" },
+          { "en": "Mrs. White's carpet — red", "zh": "怀特太太的地毯 — 红色" },
+          { "en": "Dave's tie — orange", "zh": "戴夫的领带 — 橙色" },
+          { "en": "Steven's hat — grey and black", "zh": "史蒂文的帽子 — 灰黑" },
+          { "en": "Helen's dog — brown and white", "zh": "海伦的狗 — 棕白" },
+          { "en": "Hans' pen — green", "zh": "汉斯的钢笔 — 绿色" },
+          { "en": "Luming's suit — grey", "zh": "鲁明的西装 — 灰色" },
+          { "en": "Stella's pencil — blue", "zh": "斯特拉的铅笔 — 蓝色" },
+          { "en": "Xiaohui's handbag — brown", "zh": "晓慧的手提包 — 棕色" },
+          { "en": "Sophie's skirt — yellow", "zh": "索菲的裙子 — 黄色" }
+        ],
+        "answers": ["His car's blue.", "Her coat's grey."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：你的新连衣裙是什么颜色的？", "a": "What colour's your new dress?", "note": "What colour's = What colour is；问颜色用 What colour + be + 主语。" },
+    { "q": "汉译英：到楼上来看看吧。", "a": "Come upstairs and see it.", "note": "地点副词 upstairs 前不加介词；come and see 不用 come to see。" },
+    { "q": "填空：It's the ___ colour.（相同的）", "a": "same", "note": "same 前必须加 the，固定搭配 the same colour。" },
+    { "q": "汉译英：我的帽子也是新的。", "a": "My hat's new, too.", "note": "too 表「也」放句末；hat's = hat is。" },
+    { "q": "汉译英：真是一顶可爱的帽子！", "a": "That is a lovely hat!", "note": "That's 指代较远的东西；句末用感叹号表强烈感情。" },
+    { "q": "改错：It's a green.", "a": "It's green.", "note": "颜色形容词作表语前不加 a/an。" },
+    { "q": "汉译英：它也是绿色的。", "a": "It's green, too. （= It's the same colour.）", "note": "too 放句末表「也」；也可说 It's the same colour." }
+  ],
+  "quiz": [
+    { "q": "问「安娜的帽子是什么颜色的」，正确说法是：", "options": ["What colour is Anna's hat?", "What colour Anna's hat is?", "What is colour Anna's hat?", "What colour Anna hat is?"], "answer": 0, "note": "What colour + be + 主语，疑问语序，be 提前。" },
+    { "q": "「是一样的颜色」正确的是：", "options": ["It's the same colour.", "It's same colour.", "It's a same colour.", "It's the same."], "answer": 0, "note": "same 是固定搭配，前面必须加 the。" },
+    { "q": "Come upstairs 中 upstairs 前面：", "options": ["不加介词", "加 to", "加 in", "加 at"], "answer": 0, "note": "upstairs/home/here 是地点副词，前面不加介词。" },
+    { "q": "颜色形容词作表语时：", "options": ["It's green.", "It's a green.", "It's green a.", "Green it is."], "answer": 0, "note": "颜色形容词前不加冠词 a/an。" },
+    { "q": "「到楼上看」正确的是：", "options": ["Come upstairs and see it.", "Come to upstairs and see it.", "Come upstairs to see it.", "Go upstairs and see it."], "answer": 0, "note": "地点副词不加 to；come and see 不用 come to see。" },
+    { "q": "「我的帽子也是新的」中「也」应放在：", "options": ["My hat's new, too.", "My hat's too new.", "My hat's new also.", "Too my hat's new."], "answer": 0, "note": "too 表「也」放句末；also 一般放句中。" }
+  ]
+}

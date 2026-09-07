@@ -1,0 +1,176 @@
+{
+  "title": "Making a bookcase / What are you going to do?",
+  "subtitle": "做书架 / 你打算做什么？",
+  "lead": {
+    "question": "听录音前先想：乔治在作坊里敲敲打打，丹过来问「你在干什么」「你打算把它漆成什么颜色」。这两句里其实藏着两种时态——此刻正在做，和打算马上做。你能分清吗？",
+    "warmup": "先别看课文。想象乔治在干活，丹走过来问「你在干什么」「你打算把它漆成什么颜色」。这里有两层时态：此刻正在做（现在进行时 I'm making）和即将打算做（be going to I'm going to paint it）。be going to 表「打算、准备、按计划要做」。带着这个区别去听第 37 课。",
+    "goals": [
+      "能用 be going to + 动词原形 表打算/计划/即将发生",
+      "区分现在进行时（此刻）与 be going to（将来打算）",
+      "认识工具与动作词：work, hard, make, bookcase, hammer, paint, pink, favourite",
+      "会用 Which ...? 选择、Here you are. 递物"
+    ],
+    "summary": "第 37 课是丹和乔治在作坊里：乔治在做书架，丹递锤子，两人聊「你打算把它漆成什么颜色」——引出 be going to（打算）。第 38 课把 What are you going to do?（打算）与 What are you doing now?（此刻）对比操练，巩固将来打算与现在进行时的区别。",
+    "tips": "① be going to = am/is/are going to + 动词原形，表打算/计划/预言；② 否定在 be 后加 not（is not going to）；疑问把 be 提前（Is George going to ...?）；③ 区别：I'm making（此刻进行）vs I'm going to paint it（将来打算）；④ work hard 努力干；paint it pink 中 pink 是形容词作宾语补足语；⑤ favourite 英式拼写，美式 favorite。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What is Susan's favourite colour?",
+      "zh": "苏珊最喜欢哪种颜色？",
+      "a": "Pink.",
+      "aZh": "粉红色。",
+      "hint": "听 Pink's her favorite colour. 那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What is George doing when Dan arrives?",
+      "zh": "丹过来时乔治在干什么？",
+      "a": "He is making a bookcase.",
+      "aZh": "他正在做书架。",
+      "hint": "What are you doing? — I'm making a bookcase."
+    },
+    {
+      "kind": "detail",
+      "q": "What is George going to do with the bookcase?",
+      "zh": "乔治打算拿书架做什么？",
+      "a": "He is going to paint it pink.",
+      "aZh": "他打算把它漆成粉红色。",
+      "hint": "What colour are you going to paint it? — I'm going to paint it pink."
+    },
+    {
+      "kind": "detail",
+      "q": "Who is the bookcase for?",
+      "zh": "书架是给谁做的？",
+      "a": "It's for his daughter, Susan.",
+      "aZh": "是给他女儿苏珊的。",
+      "hint": "This bookcase isn't for me. It's for my daughter, Susan."
+    },
+    {
+      "kind": "think",
+      "q": "What's the difference between \"I'm making a bookcase\" and \"I'm going to paint it\"?",
+      "zh": "I'm making a bookcase 和 I'm going to paint it 有什么区别？",
+      "a": "Am/is/are + v-ing describes an action happening right now; am/is/are going to + verb describes an intention or plan for the near future. George is making it now, but he plans to paint it later.",
+      "aZh": "现在进行时描述此刻正在做；be going to 描述近期打算/计划。乔治此刻在做书架，但打算稍后漆它。",
+      "hint": "一个在「进行」，一个在「打算」。"
+    },
+    {
+      "kind": "drill",
+      "q": "What are you going to do? — I'm going to shave. / What are you doing now? — I'm shaving. / What are you going to do? — I'm going to wait for a bus. / What are you doing now? — I'm waiting for a bus.",
+      "zh": "第 38 课操练：What are you going to do?（打算）与 What are you doing now?（此刻）对比，各问一遍。",
+      "a": "What are you going to do? — I'm going to do my homework. / What are you doing now? — I'm doing my homework.",
+      "aZh": "你打算做什么？——我打算做作业。/ 你此刻在做什么？——我在做作业。",
+      "hint": "be going to + 原形表打算；be + v-ing 表现在进行。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "work", "phonetic": "/wɜːk/", "meanings": [{ "pos": "v.", "meaning": "工作，劳动", "usage": "work hard 努力干" }, { "pos": "n.", "meaning": "工作，劳动" }], "examples": [{ "en": "You're working hard, George.", "zh": "你干得真辛苦，乔治。" }] },
+    { "word": "hard", "phonetic": "/hɑːd/", "meanings": [{ "pos": "adv.", "meaning": "努力地", "usage": "work hard 努力工作" }], "examples": [{ "en": "You're working hard, George.", "zh": "你干得真辛苦，乔治。" }] },
+    { "word": "make", "phonetic": "/meɪk/", "meanings": [{ "pos": "v.", "meaning": "做，制作", "usage": "make a bookcase 做书架" }], "examples": [{ "en": "I'm making a bookcase.", "zh": "我正在做书架。" }] },
+    { "word": "bookcase", "phonetic": "/ˈbʊkkeɪs/", "meanings": [{ "pos": "n.", "meaning": "书橱，书架", "usage": "book + case" }], "examples": [{ "en": "I'm making a bookcase.", "zh": "我正在做书架。" }] },
+    { "word": "hammer", "phonetic": "/ˈhæmə/", "meanings": [{ "pos": "n.", "meaning": "锤子", "usage": "递锤子 Give me that hammer" }], "examples": [{ "en": "Give me that hammer please, Dan.", "zh": "请把那把锤子拿给我，丹。" }] },
+    { "word": "paint", "phonetic": "/peɪnt/", "meanings": [{ "pos": "v.", "meaning": "上漆，涂", "usage": "paint it pink 漆成粉红" }, { "pos": "n.", "meaning": "油漆，颜料" }], "examples": [{ "en": "I'm going to paint it pink.", "zh": "我打算把它漆成粉红色。" }] },
+    { "word": "pink", "phonetic": "/pɪŋk/", "meanings": [{ "pos": "n./adj.", "meaning": "粉红色（的）", "usage": "作形容词作宾补：paint it pink" }], "examples": [{ "en": "I'm going to paint it pink.", "zh": "我打算把它漆成粉红色。" }] },
+    { "word": "favourite", "phonetic": "/ˈfeɪvərɪt/", "meanings": [{ "pos": "adj.", "meaning": "最喜欢的", "usage": "英式拼写；美式 favorite" }], "examples": [{ "en": "Pink's her favorite colour.", "zh": "粉红色是她最喜欢的颜色。" }] },
+    { "word": "colour", "phonetic": "/ˈkʌlə/", "meanings": [{ "pos": "n.", "meaning": "颜色", "usage": "英式 colour；美式 color" }], "examples": [{ "en": "What colour are you going to paint it?", "zh": "你打算把它漆成什么颜色？" }] }
+  ],
+  "phrases": [
+    { "phrase": "work hard", "usage": "努力工作/干活", "examples": [{ "en": "You're working hard, George.", "zh": "你干得真辛苦，乔治。" }] },
+    { "phrase": "here you are", "usage": "给你（递东西）", "examples": [{ "en": "Here you are.", "zh": "给你。" }] },
+    { "phrase": "paint it pink", "usage": "把它漆成粉红色（形容词作宾补）", "examples": [{ "en": "I'm going to paint it pink.", "zh": "我打算把它漆成粉红色。" }] },
+    { "phrase": "be going to", "usage": "打算/计划/即将（将来时）", "examples": [{ "en": "What are you going to do now?", "zh": "你现在打算干什么？" }] }
+  ],
+  "grammar": [
+    {
+      "title": "将来时 be going to（构成）",
+      "structure": "am / is / are + going to + 动词原形",
+      "definition": "be going to 由 be 的现在时形式加 going to 再加动词原形构成，表示「打算、准备」在最近做某事。",
+      "usage": "表主观打算或近期计划。",
+      "examples": [
+        { "en": "I'm going to paint it.", "zh": "我打算把它漆一下。" },
+        { "en": "He is going to paint the bookcase tomorrow.", "zh": "他准备明天给书架刷漆。" }
+      ]
+    },
+    {
+      "title": "be going to 的用法（打算 / 计划 / 预言）",
+      "structure": "表意图：be going to + 原形；表预言：It's going to rain!",
+      "definition": "A 表示「打算、准备」做某事；B 表示按计划/安排要发生；C 表示预言某事即将发生（It's going to rain!）。非正式语体多用 be going to 而非 will。",
+      "usage": "表达意图、安排或即将发生的事。",
+      "examples": [
+        { "en": "What are you going to do now?", "zh": "你现在打算干什么？" },
+        { "en": "It's going to rain!", "zh": "天要下雨了！" }
+      ]
+    },
+    {
+      "title": "be going to 的疑问与否定",
+      "structure": "疑问：Be + 主语 + going to + 原形?；否定：主语 + be + not + going to + 原形",
+      "definition": "把 be 提前构成一般疑问句；在 be 后加 not 构成否定。",
+      "usage": "问/否定「打算做某事」。",
+      "examples": [
+        { "en": "Is George going to paint it pink?", "zh": "乔治打算把它刷成粉红色吗？" },
+        { "en": "George is not going to paint it pink.", "zh": "乔治不打算把它刷成粉红色。" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：我打算把它漆成粉红色。", "a": "I'm going to paint it pink.", "note": "be going to + 原形；pink 形容词作宾补。" },
+    { "q": "把 I'm making a bookcase. 与「我打算漆它」对比，写出将来句。", "a": "I'm going to paint it.", "note": "此刻进行用进行时；将来打算用 be going to。" },
+    { "q": "用 be going to 提问：你打算做什么？", "a": "What are you going to do?", "note": "be 提前：What are you going to do?" },
+    { "q": "汉译英：你干得真辛苦，乔治。", "a": "You're working hard, George.", "note": "work hard 努力干；hard 副词。" },
+    { "q": "请把那把锤子拿给我。（祈使）", "a": "Give me that hammer please, Dan.", "note": "祈使句动词 give 开头。" },
+    { "q": "汉译英：书架是给我女儿苏珊的。", "a": "This bookcase is for my daughter, Susan.", "note": "be for sb. 为某人（做）。" },
+    { "q": "把 George is going to paint it pink. 变否定。", "a": "George is not going to paint it pink.", "note": "be 后加 not。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 37,
+      "title": "Making a bookcase",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "DAN", "en": "You're working hard, George." },
+        { "speaker": "GEORGE", "en": "What are you doing?" },
+        { "speaker": "GEORGE", "en": "I'm making a bookcase." },
+        { "speaker": "GEORGE", "en": "Give me that hammer please, Dan." },
+        { "speaker": "DAN", "en": "Which hammer." },
+        { "speaker": "DAN", "en": "This one?" },
+        { "speaker": "GEORGE", "en": "No, not that one." },
+        { "speaker": "GEORGE", "en": "The big one." },
+        { "speaker": "DAN", "en": "Here you are." },
+        { "speaker": "GEORGE", "en": "Thanks, Dan." },
+        { "speaker": "DAN", "en": "What are you going to do now, George?" },
+        { "speaker": "GEORGE", "en": "I'm going to paint it." },
+        { "speaker": "DAN", "en": "What colour are you going to paint it?" },
+        { "speaker": "GEORGE", "en": "I'm going to paint it pink." },
+        { "speaker": "DAN", "en": "Pink!" },
+        { "speaker": "GEORGE", "en": "This bookcase isn't for me." },
+        { "speaker": "GEORGE", "en": "It's for my daughter, Susan." },
+        { "speaker": "GEORGE", "en": "Pink's her favorite colour." }
+      ]
+    },
+    {
+      "lesson": 38,
+      "title": "What are you going to do?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "What are you going to do? — I'm going to ___. / What are you doing now? — I'm ___ -ing.",
+        "zh": "对比「打算做」（be going to + 原形）与「此刻做」（be + v-ing），各问一遍。",
+        "slots": [
+          { "en": "shave → shaving", "zh": "刮胡子 → 刮着" },
+          { "en": "wait for a bus → waiting for a bus", "zh": "等公交 → 等着公交" },
+          { "en": "do my homework → doing my homework", "zh": "做作业 → 做着作业" },
+          { "en": "listen to the stereo → listening to the stereo", "zh": "听音响 → 听着音响" },
+          { "en": "wash the dishes → washing the dishes", "zh": "洗碗 → 洗着碗" }
+        ],
+        "answers": ["I'm going to shave.", "I'm shaving."]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "「我打算把它漆成粉红色」正确说法是：", "options": ["I'm going to paint it pink.", "I'm painting it pink.", "I'm going to painting it pink.", "I'm going paint it pink."], "answer": 0, "note": "be going to + 动词原形 paint；pink 作宾补。" },
+    { "q": "「你打算做什么？」正确说法是：", "options": ["What are you going to do?", "What do you go to do?", "What you are going to do?", "What are you going to doing?"], "answer": 0, "note": "be going to 疑问把 be 提前，后接动词原形。" },
+    { "q": "「他正在做书架」与「他打算漆它」的时态区别是：", "options": ["前者现在进行时（此刻），后者 be going to（打算）", "两者都是现在进行时", "两者都是 be going to", "前者是过去时"], "answer": 0, "note": "I'm making 此刻进行；I'm going to paint 将来打算。" },
+    { "q": "把 George is going to paint it. 变否定：", "options": ["George is not going to paint it.", "George not is going to paint it.", "George isn't going paint it.", "George don't going to paint it."], "answer": 0, "note": "在 be 后加 not；going to 后接原形。" },
+    { "q": "「你干得真辛苦」中 hard 的词性是：", "options": ["副词（努力地）", "形容词（硬的）", "名词", "动词"], "answer": 0, "note": "work hard 中 hard 是副词修饰 work。" },
+    { "q": "「粉红色是她最喜欢的颜色」正确说法是：", "options": ["Pink is her favourite colour.", "Pink is her favourite colours.", "Pink are her favourite colour.", "Pink's she favourite colour."], "answer": 0, "note": "Pink 单数用 is；favourite 形容词「最喜欢的」。" }
+  ]
+}

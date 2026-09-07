@@ -1,0 +1,161 @@
+{
+  "title": "Mrs. Smith's kitchen / Is there a …?",
+  "subtitle": "史密斯夫人的厨房 / 有一个……吗？",
+  "lead": {
+    "question": "描述一个房间里的摆设，英语怎么把「有一个冰箱」「它在右边」「冰箱是白的」三句话自然串起来？",
+    "warmup": "第 25 课是一段房间描述，没有对话：Mrs. Smith's kitchen is small. There is a refrigerator… The refrigerator is white. 注意同一个词 refrigerator 第一次用 a（不定指），第二次用 the（特指）。这就是冠词的区别。再看 There is 怎么用「存在句」描述物品位置。先自己试着描述一下你的房间。",
+    "goals": [
+      "能用 There is / There are 描述某处存在某物",
+      "能区分不定冠词 a 与定冠词 the（首次泛指 vs 再次特指）",
+      "能用 on the right / on the left / in the middle of 表示位置",
+      "能用 Is there a …? 提问存在（第 26 课操练）"
+    ],
+    "summary": "第 25 课描述史密斯夫人的厨房：用 There is 引出冰箱、电灶、桌子、瓶子、杯子，第二次提到用 the 特指，并用 on the right/left、in the middle of 说明位置。第 26 课操练 a/the 的对比与 Is there a …? Yes, there is. 的存在疑问句，以及 There's a … on the …. The … is … 的描述句。",
+    "tips": "① 首次提到用 a（an），再次提到同一物用 the；② There is a refrigerator（存在）→ The refrigerator is white（特指）；③ on the right/left 在右/左侧，in the middle of the room 在房间中央；④ electric cooker 电灶，refrigerator 冰箱；⑤ Is there a book on the table? Yes, there is. 存在疑问句，肯定用 there is 回答。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What colour is the electric cooker?",
+      "zh": "电灶是什么颜色的？",
+      "a": "It's blue.",
+      "aZh": "是蓝色的。",
+      "hint": "听 The cooker is blue."
+    },
+    {
+      "kind": "detail",
+      "q": "How big is Mrs. Smith's kitchen?",
+      "zh": "史密斯夫人的厨房有多大？",
+      "a": "It's small.",
+      "aZh": "很小。",
+      "hint": "Mrs. Smith's kitchen is small."
+    },
+    {
+      "kind": "detail",
+      "q": "Where is the refrigerator?",
+      "zh": "冰箱在哪里？",
+      "a": "On the right.",
+      "aZh": "在右边。",
+      "hint": "It is on the right."
+    },
+    {
+      "kind": "detail",
+      "q": "What is on the table besides the bottle?",
+      "zh": "桌子上除了瓶子还有什么？",
+      "a": "A cup. / There is a cup on the table, too.",
+      "aZh": "还有一只杯子。",
+      "hint": "There is a cup on the table, too."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the text use 'a refrigerator' first but 'the refrigerator' the second time?",
+      "zh": "为什么课文第一次用 a refrigerator，第二次用 the refrigerator？",
+      "a": "The first mention uses a to introduce a new, unspecified item; the second uses the because both speaker and listener now know which refrigerator is meant (the one just mentioned).",
+      "aZh": "首次用 a 泛指引入新事物；再次用 the 特指双方都知道的那一个。",
+      "hint": "冠词的核心区别就是「首次泛指 vs 再次特指」。"
+    },
+    {
+      "kind": "drill",
+      "q": "There's a cup on the table. The cup is clean. / There's a box on the floor. The box is large.",
+      "zh": "第 26 课操练：……上有一个……。这个……是……的。（体会 a 与 the）",
+      "a": "There's a glass in the cupboard. The glass is empty.",
+      "aZh": "橱柜里有一只玻璃杯。这只玻璃杯是空的。",
+      "hint": "首次用 a，再次用 the 特指同一物。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "Mrs.", "phonetic": "/ˈmɪsɪz/", "meanings": [{ "pos": "n.", "meaning": "夫人", "usage": "用于已婚女性姓氏前" }], "examples": [{ "en": "Mrs. Smith's kitchen is small.", "zh": "史密斯夫人的厨房很小。" }] },
+    { "word": "kitchen", "phonetic": "/ˈkɪtʃɪn/", "meanings": [{ "pos": "n.", "meaning": "厨房" }], "examples": [{ "en": "Mrs. Smith's kitchen is small.", "zh": "史密斯夫人的厨房很小。" }] },
+    { "word": "refrigerator", "phonetic": "/rɪˈfrɪdʒəreɪtə/", "meanings": [{ "pos": "n.", "meaning": "电冰箱" }], "examples": [{ "en": "There is a refrigerator in the kitchen.", "zh": "厨房里有个电冰箱。" }] },
+    { "word": "right", "phonetic": "/raɪt/", "meanings": [{ "pos": "n.", "meaning": "右边" }], "examples": [{ "en": "It is on the right.", "zh": "它位于右侧。" }] },
+    { "word": "electric", "phonetic": "/ɪˈlektrɪk/", "meanings": [{ "pos": "adj.", "meaning": "带电的，可通电的" }], "examples": [{ "en": "There is an electric cooker in the kitchen.", "zh": "厨房里有个电灶。" }] },
+    { "word": "left", "phonetic": "/left/", "meanings": [{ "pos": "n.", "meaning": "左边" }], "examples": [{ "en": "It is on the left.", "zh": "它位于左侧。" }] },
+    { "word": "cooker", "phonetic": "/ˈkʊkə/", "meanings": [{ "pos": "n.", "meaning": "炉子，炊具" }], "examples": [{ "en": "The cooker is blue.", "zh": "电灶是蓝的。" }] },
+    { "word": "middle", "phonetic": "/ˈmɪdl/", "meanings": [{ "pos": "n.", "meaning": "中间" }], "examples": [{ "en": "There is a table in the middle of the room.", "zh": "房间中央有张桌子。" }] },
+    { "word": "of", "phonetic": "/ɒv/", "meanings": [{ "pos": "prep.", "meaning": "（属于）……的" }], "examples": [{ "en": "in the middle of the room", "zh": "在房间中央" }] },
+    { "word": "room", "phonetic": "/ruːm/", "meanings": [{ "pos": "n.", "meaning": "房间" }], "examples": [{ "en": "There is a table in the middle of the room.", "zh": "房间中央有张桌子。" }] },
+    { "word": "cup", "phonetic": "/kʌp/", "meanings": [{ "pos": "n.", "meaning": "杯子（一般带柄）" }], "examples": [{ "en": "There is a cup on the table, too.", "zh": "桌子上还有一只杯子。" }] }
+  ],
+  "grammar": [
+    {
+      "title": "定冠词 the 与不定冠词 a 的对比",
+      "structure": "a/an（首次泛指） vs the（再次特指）",
+      "definition": "首次提到某物用不定冠词 a/an 泛指任何一个；再次提到同一物时用定冠词 the 特指。the 单复数、人不分都不变形。",
+      "usage": "避免重复、明确所指。",
+      "examples": [
+        { "en": "There is a refrigerator in the kitchen. The refrigerator is white.", "zh": "厨房里有个电冰箱。冰箱是白色的。" },
+        { "en": "There is an electric cooker. The cooker is blue.", "zh": "有个电灶。电灶是蓝的。" }
+      ]
+    },
+    {
+      "title": "there is / there are 存在句",
+      "structure": "There is + 单数名词 / There are + 复数名词 (+ 地点)",
+      "definition": "there + be 表示某处存在某物。单数 is，复数 are。There's = There is。实际主语是 be 后面的名词。",
+      "usage": "描述房间、场景里有什么及位置。",
+      "examples": [
+        { "en": "There is a table in the middle of the room.", "zh": "房间中央有张桌子。" },
+        { "en": "There is a bottle on the table.", "zh": "桌子上有一个瓶子。" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：史密斯夫人的厨房很小。", "a": "Mrs. Smith's kitchen is small.", "note": "名词所有格 Mrs. Smith's + 名词。" },
+    { "q": "用 there is 改写：A refrigerator is in the kitchen.", "a": "There is a refrigerator in the kitchen.", "note": "there + be 把存在物放句末更自然。" },
+    { "q": "填空：There is ___ electric cooker in the kitchen. The ___ is blue.", "a": "a / cooker", "note": "首次泛指用 a，再次特指用 the。" },
+    { "q": "汉译英：它位于房间左侧。", "a": "It is on the left.", "note": "on the left 在左侧。" },
+    { "q": "汉译英：房间的中央有张桌子。", "a": "There is a table in the middle of the room.", "note": "in the middle of 在……中央。" },
+    { "q": "提问并回答：桌子上有书吗？有。", "a": "Is there a book on the table? Yes, there is.", "note": "存在疑问句用 Is there…? 肯定答 Yes, there is." },
+    { "q": "汉译英：桌子上还有一只杯子。杯子很干净。", "a": "There is a cup on the table, too. The cup is clean.", "note": "too 表「也」；再次提到用 the。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 25,
+      "title": "Mrs. Smith's kitchen",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "en": "Mrs. Smith's kitchen is small." },
+        { "en": "There is a refrigerator in the kitchen." },
+        { "en": "The refrigerator is white." },
+        { "en": "It is on the right." },
+        { "en": "There is an electric cooker in the kitchen." },
+        { "en": "The cooker is blue." },
+        { "en": "It is on the left." },
+        { "en": "There is a table in the middle of the room." },
+        { "en": "There is a bottle on the table." },
+        { "en": "The bottle is empty." },
+        { "en": "There is a cup on the table, too." },
+        { "en": "The cup is clean." }
+      ]
+    },
+    {
+      "lesson": 26,
+      "title": "Is there a …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "There's a ___ on the ___. The ___ is ___.",
+        "zh": "……上有一个……。这个……是……的。（把下面 7 组物品、位置、特征挨个说一遍，体会 a 与 the 的对比）",
+        "slots": [
+          { "en": "cup — table — clean", "zh": "杯子 — 桌子 — 干净的" },
+          { "en": "box — floor — large", "zh": "盒子 — 地板 — 大的" },
+          { "en": "glass — cupboard — empty", "zh": "玻璃杯 — 橱柜 — 空的" },
+          { "en": "knife — plate — sharp", "zh": "刀 — 盘子 — 锋利的" },
+          { "en": "fork — tin — dirty", "zh": "叉子 — 罐头 — 脏的" },
+          { "en": "bottle — refrigerator — full", "zh": "瓶子 — 冰箱 — 满的" },
+          { "en": "pencil — desk — blunt", "zh": "铅笔 — 书桌 — 钝的" }
+        ],
+        "answers": [
+          "There's a cup on the table. The cup is clean.",
+          "There's a box on the floor. The box is large."
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "\"There is a refrigerator in the kitchen.\" 中 there is 表示：", "zh": "there is 在这里是什么意思？", "options": ["存在/有", "它是", "去", "在……里"], "answer": 0, "note": "there + be 表存在，实际主语是 a refrigerator。" },
+    { "q": "第二次提到冰箱用 the 是因为：", "zh": "为什么第二次用 the？", "options": ["特指双方都知道的那一个", "泛指任意一个", "表示复数", "表示否定"], "answer": 0, "note": "首次 a 泛指，再次 the 特指刚提到的同一物。" },
+    { "q": "\"It is on the right.\" 中 right 指：", "zh": "right 在这里指什么？", "options": ["右边", "正确的", "权利", "剩下"], "answer": 0, "note": "on the right 在右侧；此处 right 是名词「右边」。" },
+    { "q": "\"The cooker is blue.\" 中 cooker 指：", "zh": "cooker 是什么意思？", "options": ["炉子/炊具", "厨师", "饼干", "书"], "answer": 0, "note": "cooker 名词「炉子，炊具」，非 cook（厨师）。" },
+    { "q": "存在疑问句 \"Is there a book on the table?\" 肯定回答是：", "zh": "肯定怎么回答？", "options": ["Yes, there is.", "Yes, it is.", "Yes, there are.", "There is book."], "answer": 0, "note": "存在句疑问用 there is 提问，肯定答 Yes, there is." },
+    { "q": "\"in the middle of the room\" 意思是：", "zh": "这个短语是什么意思？", "options": ["在房间中央", "在房间右边", "在房间左边", "在房间外面"], "answer": 0, "note": "in the middle of 在……中央。" }
+  ]
+}

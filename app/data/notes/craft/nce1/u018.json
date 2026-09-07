@@ -1,0 +1,184 @@
+{
+  "title": "Our village / Where are they going?",
+  "subtitle": "我们的村庄 / 他们要去哪儿？",
+  "lead": {
+    "question": "你翻看村庄的照片，向朋友介绍「村庄在山谷里、河边上，孩子们正从校舍出来往公园走」——英语怎么把位置介词和「正在去/来」的进行时结合起来？",
+    "warmup": "第 35 课是一段看图介绍：Our village is in a valley. It is between two hills. The village is on a river. 用 in/between/on 描述位置。然后用现在进行时讲人物动向：Some children are coming out of the building. Some of them are going into the park. 第 36 课把 Where are they going? 铺开十组。先试着用 between two hills / on a river 描述你的家或学校的位置。",
+    "goals": [
+      "能用 in a valley / between two hills / on a river 描述地理位置",
+      "能用现在进行时表示位置移动的动向（coming out of / going into）",
+      "能用 Where are they going? 询问去向",
+      "认识场景词：valley, hill, bank, water, swim, building, photograph, park, beside"
+    ],
+    "summary": "第 35 课介绍村庄与两张照片：村庄在山谷、两山之间、河边；作者与妻子沿河岸走；一个男孩在河里游泳；校舍在公园旁，孩子们正从楼里出来、部分走进公园。第 36 课把 Where are ___ going? 铺开十组（children/into the park, boy/across the river…），巩固「进行时表位移方向」。",
+    "tips": "① 位置介词：in a valley（在山谷里），between two hills（在两山之间），on a river（在河边），beside a park（在公园旁）；② 进行时表动向：are coming out of（正从……出来），are going into（正走进）；③ another = an + other，另一（张照片）；④ along the bank 沿河岸；⑤ out of 从……里出来，into 进入。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What are the children doing near the school building?",
+      "zh": "孩子们在校舍附近在做什么？",
+      "a": "Some are coming out of the building; some are going into the park.",
+      "aZh": "一些正从楼里出来，一些正走进公园。",
+      "hint": "听 Some children are coming out of the building. Some of them are going into the park."
+    },
+    {
+      "kind": "detail",
+      "q": "Where is the village located?",
+      "zh": "村庄位于哪里？",
+      "a": "In a valley, between two hills, on a river.",
+      "aZh": "在山谷里，两山之间，河边。",
+      "hint": "Our village is in a valley. It is between two hills. The village is on a river."
+    },
+    {
+      "kind": "detail",
+      "q": "What is the boy doing in the water?",
+      "zh": "水里的男孩在做什么？",
+      "a": "He is swimming across the river.",
+      "aZh": "他正游过这条河。",
+      "hint": "There is a boy in the water. He is swimming across the river."
+    },
+    {
+      "kind": "detail",
+      "q": "Where is the school building in relation to the park?",
+      "zh": "校舍相对于公园在哪里？",
+      "a": "Beside a park; the park is on the right.",
+      "aZh": "在公园旁边；公园在右边。",
+      "hint": "This is the school building. It is beside a park. The park is on the right."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the text use 'are coming' / 'are going' (present continuous) for movement?",
+      "zh": "为什么描述移动用 are coming / are going（进行时）？",
+      "a": "The present continuous of verbs of motion (come, go, leave) describes an action in progress — here, people moving from one place to another right now, not a fixed state.",
+      "aZh": "位移动词（come/go/leave）的进行时描述正在进行的移动——此处人正从一处移向另一处，而非静止状态。",
+      "hint": "进行时强调「正在移动中」。"
+    },
+    {
+      "kind": "drill",
+      "q": "Where are ___ going? — ___ are going ___ .",
+      "zh": "……要去哪儿？——……正去 ___。（把下面 10 组主语与方向挨个问一遍）",
+      "a": "Where are the children going? They are going into the park.",
+      "aZh": "孩子们要去哪儿？他们正走进公园。",
+      "hint": "进行时表位移；注意介词 into/out of/across/along。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "valley", "phonetic": "/ˈvæli/", "meanings": [{ "pos": "n.", "meaning": "山谷" }], "examples": [{ "en": "Our village is in a valley.", "zh": "我们的村庄在山谷里。" }] },
+    { "word": "hill", "phonetic": "/hɪl/", "meanings": [{ "pos": "n.", "meaning": "小山" }], "examples": [{ "en": "It is between two hills.", "zh": "它在两座小山之间。" }] },
+    { "word": "bank", "phonetic": "/bæŋk/", "meanings": [{ "pos": "n.", "meaning": "河岸" }], "examples": [{ "en": "walking along the banks of the river", "zh": "沿着河岸走" }] },
+    { "word": "water", "phonetic": "/ˈwɔːtə/", "meanings": [{ "pos": "n.", "meaning": "水" }], "examples": [{ "en": "There is a boy in the water.", "zh": "水里有个男孩。" }] },
+    { "word": "swim", "phonetic": "/swɪm/", "meanings": [{ "pos": "v.", "meaning": "游泳" }], "examples": [{ "en": "He is swimming across the river.", "zh": "他正游过这条河。" }] },
+    { "word": "building", "phonetic": "/ˈbɪldɪŋ/", "meanings": [{ "pos": "n.", "meaning": "建筑物" }], "examples": [{ "en": "This is the school building.", "zh": "这是校舍。" }] },
+    { "word": "photograph", "phonetic": "/ˈfəʊtəɡrɑːf/", "meanings": [{ "pos": "n.", "meaning": "照片" }], "examples": [{ "en": "Here is another photograph of the village.", "zh": "这是村庄的另一张照片。" }] },
+    { "word": "another", "phonetic": "/əˈnʌðə/", "meanings": [{ "pos": "adj./pron.", "meaning": "另一个" }], "examples": [{ "en": "Here is another photograph.", "zh": "这是另一张照片。" }] },
+    { "word": "park", "phonetic": "/pɑːk/", "meanings": [{ "pos": "n.", "meaning": "公园" }], "examples": [{ "en": "It is beside a park.", "zh": "它在公园旁。" }] },
+    { "word": "beside", "phonetic": "/bɪˈsaɪd/", "meanings": [{ "pos": "prep.", "meaning": "在……旁边" }], "examples": [{ "en": "It is beside a park.", "zh": "它在公园旁边。" }] },
+    { "word": "into", "phonetic": "/ˈɪntuː/", "meanings": [{ "pos": "prep.", "meaning": "进入……里" }], "examples": [{ "en": "Some of them are going into the park.", "zh": "他们中的一些正走进公园。" }] },
+    { "word": "out of", "phonetic": "/aʊt əv/", "meanings": [{ "pos": "prep.", "meaning": "从……里出来" }], "examples": [{ "en": "Some children are coming out of the building.", "zh": "一些孩子正从楼里出来。" }] },
+    { "word": "along", "phonetic": "/əˈlɒŋ/", "meanings": [{ "pos": "prep.", "meaning": "沿着" }], "examples": [{ "en": "walking along the banks of the river", "zh": "沿着河岸走" }] },
+    { "word": "between", "phonetic": "/bɪˈtwiːn/", "meanings": [{ "pos": "prep.", "meaning": "在（两者）之间" }], "examples": [{ "en": "It is between two hills.", "zh": "它在两座小山之间。" }] }
+  ],
+  "phrases": [
+    { "phrase": "in a valley", "usage": "在山谷里", "examples": [{ "en": "Our village is in a valley.", "zh": "我们的村庄在山谷里。" }] },
+    { "phrase": "between two hills", "usage": "在两座小山之间", "examples": [{ "en": "It is between two hills.", "zh": "它在两座小山之间。" }] },
+    { "phrase": "on a river", "usage": "在河边", "examples": [{ "en": "The village is on a river.", "zh": "村庄在河边。" }] },
+    { "phrase": "along the bank", "usage": "沿着河岸", "examples": [{ "en": "walking along the banks of the river", "zh": "沿着河岸走" }] },
+    { "phrase": "out of", "usage": "从……里出来", "examples": [{ "en": "coming out of the building", "zh": "从楼里出来" }] },
+    { "phrase": "into the park", "usage": "走进公园", "examples": [{ "en": "going into the park", "zh": "走进公园" }] }
+  ],
+  "grammar": [
+    {
+      "title": "位置介词 in / between / on / beside",
+      "structure": "in + 范围；between + 两者；on + 河边/表面；beside + 旁",
+      "definition": "描述地理位置：in a valley（在山谷里），between two hills（两山之间），on a river（在河边，临河），beside a park（在公园旁）。",
+      "usage": "介绍地点。",
+      "examples": [
+        { "en": "Our village is in a valley.", "zh": "村庄在山谷里。" },
+        { "en": "It is between two hills.", "zh": "它在两山之间。" }
+      ]
+    },
+    {
+      "title": "现在进行时表位移方向",
+      "structure": "be + coming / going / leaving + 方向介词短语",
+      "definition": "come/go/leave 等位移动词的进行时表示「正在从一处移向另一处」，常配合 out of / into / across / along 等方向介词。",
+      "usage": "描述正在进行的移动。",
+      "examples": [
+        { "en": "Some children are coming out of the building.", "zh": "一些孩子正从楼里出来。" },
+        { "en": "Some of them are going into the park.", "zh": "他们中的一些正走进公园。" }
+      ]
+    },
+    {
+      "title": "another 的用法",
+      "structure": "another = an + other（又一个/另一个）",
+      "definition": "another 后接单数可数名词，表示「又一个/另一（张、个）」，相当于 an other。Here is another photograph. 另一张照片。",
+      "usage": "指代同类的另一个。",
+      "examples": [
+        { "en": "Here is another photograph of the village.", "zh": "这是村庄的另一张照片。" },
+        { "en": "I want another cup.", "zh": "我想再来一杯。" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：我们的村庄在山谷里。", "a": "Our village is in a valley.", "note": "in a valley 在山谷里。" },
+    { "q": "完成：It is ___ two hills.（在两山之间）", "a": "between", "note": "between 两者之间。" },
+    { "q": "汉译英：他正游过这条河。", "a": "He is swimming across the river.", "note": "swim 直接加 -ing；across 游过。" },
+    { "q": "汉译英：一些孩子正从楼里出来。", "a": "Some children are coming out of the building.", "note": "out of 从……里出来；children 配 are。" },
+    { "q": "把 another 造一句：这是另一张照片。", "a": "Here is another photograph.", "note": "another = an + other。" },
+    { "q": "汉译英：校舍在公园旁边。", "a": "The school building is beside a park.", "note": "beside 在……旁边。" },
+    { "q": "汉译英：他们中的一些正走进公园。", "a": "Some of them are going into the park.", "note": "some of them 他们中的一些；into 进入。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 35,
+      "title": "Our village",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "en": "Our village is in a valley." },
+        { "en": "It is between two hills." },
+        { "en": "The village is on a river." },
+        { "en": "Here is another photograph of the village." },
+        { "en": "My wife and I are walking along the banks of the river." },
+        { "en": "We are on the left." },
+        { "en": "There is a boy in the water." },
+        { "en": "He is swimming across the river." },
+        { "en": "Here is another photograph." },
+        { "en": "This is the school building." },
+        { "en": "It is beside a park." },
+        { "en": "The park is on the right." },
+        { "en": "Some children are coming out of the building." },
+        { "en": "Some of them are going into the park." }
+      ]
+    },
+    {
+      "lesson": 36,
+      "title": "Where are they going?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Where are ___ going? — ___ are going ___ .",
+        "zh": "……要去哪儿？——……正去 ___。（把下面 10 组主语与方向挨个问一遍，进行时表位移）",
+        "slots": [
+          { "en": "the children — into the park", "zh": "孩子们 — 进公园" },
+          { "en": "the boy — across the river", "zh": "男孩 — 游过河" },
+          { "en": "the dog — along the street", "zh": "狗 — 沿街" },
+          { "en": "the cat — up the tree", "zh": "猫 — 上树" },
+          { "en": "the birds — over the bridge", "zh": "鸟 — 过桥" },
+          { "en": "the woman — into the shop", "zh": "女人 — 进店" },
+          { "en": "the man — out of the building", "zh": "男人 — 出楼" },
+          { "en": "the students — into the classroom", "zh": "学生 — 进教室" },
+          { "en": "the teacher — to the blackboard", "zh": "老师 — 走向黑板" },
+          { "en": "the farmers — into the fields", "zh": "农民 — 进田地" }
+        ],
+        "answers": ["Where are the children going? They are going into the park.", "Where is the boy going? He is swimming across the river."]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "\"Our village is in a valley.\" 中 in a valley 表示：", "zh": "in a valley 是什么意思？", "options": ["在山谷里", "在山谷上", "去山谷", "从山谷"], "answer": 0, "note": "in 表在范围里，in a valley 在山谷里。" },
+    { "q": "between 用于：", "zh": "between 用于什么情况？", "options": ["两者（之间）", "三者及以上", "一个", "全部"], "answer": 0, "note": "between 表两者之间（two hills）。" },
+    { "q": "\"Some children are coming out of the building.\" 中 out of 表示：", "zh": "out of 是什么意思？", "options": ["从……里出来", "进入", "在……里", "在……上"], "answer": 0, "note": "out of 从……里面出来。" },
+    { "q": "\"are going into the park\" 的时态是：", "zh": "这句是什么时态？", "options": ["现在进行时（表位移）", "一般现在时", "一般过去时", "一般将来时"], "answer": 0, "note": "are + going 是进行时，此处表正走进公园。" },
+    { "q": "another 等于：", "zh": "another 是什么的缩写？", "options": ["an + other", "a + other", "and + other", "one + other"], "answer": 0, "note": "another = an other，另一个。" },
+    { "q": "\"on a river\" 描述村庄位于：", "zh": "on a river 描述村庄？", "options": ["河边/临河", "河里", "河上（表面）", "过河"], "answer": 0, "note": "on a river 表示村庄位于河边、临河。" }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "How do you do? / Are they … or …?",
+  "subtitle": "您好！/ 他们是……还是……？",
+  "lead": {
+    "question": "第一次见客户，除了 Hello，英语里更正式的那句「您好」怎么说？怎么问别人的职业？",
+    "warmup": "先别看课文，想象你带朋友参观公司：你要把同事一一介绍给对方，问「他们是做什么工作的」，还要在两者中二选一——中文说「他们是打字员还是空姐」，英文会用 or 把两个选项连起来。先自己试一句「他们是护士还是家庭主妇」，再听录音核对。",
+    "goals": [
+      "能用 How do you do? 初次见面正式问候并同样回答",
+      "能用 What are their jobs? / They're … 询问与说明职业",
+      "能用 Are they A or B? 选择疑问句，并用 They aren't A. They're B. 回答",
+      "认识一系列职业词（policeman, nurse, sales rep, hairdresser …）"
+    ],
+    "summary": "第 17 课是公司参观：Jackson 向 Richards 介绍雇员 Nicola、Claire（键盘录入员）、Michael、Jeremy（推销员）和 office assistant Jim，双方用 How do you do? 正式问候。第 18 课把职业词铺开，用选择疑问句 Are they … or …? 操练十组职业。",
+    "tips": "① How do you do? 只用于第一次见面，用同样的话回答，不是问身体状况（别答 I'm fine）；② What are their jobs? 问职业用 what + 复数 are，回答用 They're + 职业；③ 选择疑问句 Are they A or B? 不用 yes/no 回答，直接说 They aren't A. They're B.；④ 职业前口语省略 a：They're sales reps.；⑤ man/woman 构成复合职业（policeman/policewoman, milkman），复数变 men/women。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What are Michael Baker and Jeremy Short's jobs?",
+      "zh": "迈克尔·贝克和杰里米·肖特是做什么工作的？",
+      "a": "They're sales reps.",
+      "aZh": "他们是推销员。",
+      "hint": "听 Richards 问 What are their jobs? 之后 Jackson 的回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "What do Nicola Grey and Claire Taylor do?",
+      "zh": "尼古拉·格雷和克莱尔·泰勒是做什么工作的？",
+      "a": "They're keyboard operators.",
+      "aZh": "她们是键盘录入员。",
+      "hint": "Jackson 介绍完两人后回答 What are their jobs?"
+    },
+    {
+      "kind": "detail",
+      "q": "Who is Jim?",
+      "zh": "吉姆是谁？",
+      "a": "He is our office assistant.",
+      "aZh": "他是我们办公室的助手。",
+      "hint": "Richards 问 Who is this young man? 后 Jackson 回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Mr. Richards say when he first meets Nicola and Claire?",
+      "zh": "理查兹先生初次见到尼古拉和克莱尔时说了什么？",
+      "a": "How do you do?",
+      "aZh": "您好！",
+      "hint": "这是初次见面的正式问候语。"
+    },
+    {
+      "kind": "detail",
+      "q": "Are Michael and Jeremy very busy?",
+      "zh": "迈克尔和杰里米很忙吗？",
+      "a": "No, they aren't. They are very lazy.",
+      "aZh": "不，他们不忙。他们很懒。",
+      "hint": "课文说 They aren't very busy! 与 They are very lazy."
+    },
+    {
+      "kind": "think",
+      "q": "Why is 'How do you do?' answered with the same 'How do you do?' rather than 'I'm fine'?",
+      "zh": "为什么 How do you do? 要用同样的 How do you do? 回答，而不是答 I'm fine？",
+      "a": "How do you do? is a fixed formal greeting for first meetings; it is answered with the same phrase, not a statement about health.",
+      "aZh": "How do you do? 是初次见面的固定正式问候语，用原句回答，并非询问身体状况，所以不能答 I'm fine。",
+      "hint": "对比 How are you? 才问身体，答 I'm fine, thanks."
+    },
+    {
+      "kind": "drill",
+      "q": "Are they keyboard operators or air hostesses? — They aren't keyboard operators. They're air hostesses. / Are they postmen or policemen? — They aren't postmen. They're policemen.",
+      "zh": "第 18 课操练：Are they ___ or ___ ? — They aren't ___. They're ___.（把下面 10 组职业挨个问一遍，二选一明确回答）",
+      "a": "Are they nurses or housewives? — They aren't nurses. They're housewives.",
+      "aZh": "他们是护士还是家庭主妇？——他们不是护士，他们是家庭主妇。",
+      "hint": "选择疑问句不用 yes/no，直接否定前者、肯定后者。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "employee", "phonetic": "/ɪmˈplɔɪiː/", "meanings": [{ "pos": "n.", "meaning": "雇员", "usage": "由 employ + -ee 构成，被雇用的人" }], "examples": [{ "en": "Come and meet our employees.", "zh": "来见见我们的雇员。" }] },
+    { "word": "hard-working", "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/", "meanings": [{ "pos": "adj.", "meaning": "勤奋的", "usage": "带连字符的复合形容词" }], "examples": [{ "en": "Those women are very hard-working.", "zh": "那些姑娘很勤奋。" }] },
+    { "word": "sales rep", "phonetic": "/seɪlz rep/", "meanings": [{ "pos": "n.", "meaning": "推销员", "usage": "sales representative 的缩写；复数 sales reps" }], "examples": [{ "en": "They're sales reps.", "zh": "他们是推销员。" }] },
+    { "word": "man", "phonetic": "/mæn/", "meanings": [{ "pos": "n.", "meaning": "男人", "usage": "复数 men；可构成复合职业 policeman/milkman" }], "examples": [{ "en": "Who is this young man?", "zh": "这个年轻人是谁？" }] },
+    { "word": "office", "phonetic": "/ˈɒfɪs/", "meanings": [{ "pos": "n.", "meaning": "办公室", "usage": "office assistant 办公室助手" }], "examples": [{ "en": "Look at our office assistant.", "zh": "看我们的办公室助手。" }] },
+    { "word": "assistant", "phonetic": "/əˈsɪstənt/", "meanings": [{ "pos": "n.", "meaning": "助手", "usage": "由 assist 派生" }], "examples": [{ "en": "He is our office assistant.", "zh": "他是我们办公室的助手。" }] },
+    { "word": "job", "phonetic": "/dʒɒb/", "meanings": [{ "pos": "n.", "meaning": "工作，职业", "usage": "问职业 What are their jobs?" }], "examples": [{ "en": "What are their jobs?", "zh": "他们是做什么工作的？" }] },
+    { "word": "policeman", "phonetic": "/pəˈliːsmən/", "meanings": [{ "pos": "n.", "meaning": "警察", "usage": "复数 policemen" }], "examples": [{ "en": "He is a policeman.", "zh": "他是一名警察。" }] },
+    { "word": "policewoman", "phonetic": "/pəˈliːswʊmən/", "meanings": [{ "pos": "n.", "meaning": "女警察", "usage": "复数 policewomen" }], "examples": [{ "en": "Are they policewomen or nurses?", "zh": "她们是女警察还是护士？" }] },
+    { "word": "keyboard operator", "phonetic": "/ˈkiːbɔːd ˈɒpəreɪtə/", "meanings": [{ "pos": "n.", "meaning": "键盘录入员", "usage": "复数 keyboard operators" }], "examples": [{ "en": "They're keyboard operators.", "zh": "他们是键盘录入员。" }] },
+    { "word": "air hostess", "phonetic": "/eə ˈhəʊstəs/", "meanings": [{ "pos": "n.", "meaning": "空姐，女乘务员", "usage": "复数 air hostesses" }], "examples": [{ "en": "They're air hostesses.", "zh": "她们是空姐。" }] },
+    { "word": "postman", "phonetic": "/ˈpəʊstmən/", "meanings": [{ "pos": "n.", "meaning": "邮递员", "usage": "复数 postmen" }], "examples": [{ "en": "Are they postmen or policemen?", "zh": "他们是邮递员还是警察？" }] },
+    { "word": "nurse", "phonetic": "/nɜːs/", "meanings": [{ "pos": "n.", "meaning": "护士", "usage": "职业词" }], "examples": [{ "en": "They're nurses.", "zh": "她们是护士。" }] },
+    { "word": "hairdresser", "phonetic": "/ˈheədresə/", "meanings": [{ "pos": "n.", "meaning": "理发师", "usage": "职业词" }], "examples": [{ "en": "They're hairdressers.", "zh": "他们是理发师。" }] },
+    { "word": "engineer", "phonetic": "/ˌendʒɪˈnɪə/", "meanings": [{ "pos": "n.", "meaning": "工程师", "usage": "职业词" }], "examples": [{ "en": "They're engineers.", "zh": "他们是工程师。" }] },
+    { "word": "taxi driver", "phonetic": "/ˈtæksi ˈdraɪvə/", "meanings": [{ "pos": "n.", "meaning": "出租车司机", "usage": "复数 taxi drivers" }], "examples": [{ "en": "They're taxi drivers.", "zh": "他们是出租车司机。" }] },
+    { "word": "milkman", "phonetic": "/ˈmɪlkmən/", "meanings": [{ "pos": "n.", "meaning": "送奶工", "usage": "复数 milkmen" }], "examples": [{ "en": "They're milkmen.", "zh": "他们是送奶工。" }] },
+    { "word": "housewife", "phonetic": "/ˈhaʊswaɪf/", "meanings": [{ "pos": "n.", "meaning": "家庭主妇", "usage": "复数 housewives" }], "examples": [{ "en": "They're housewives.", "zh": "她们是家庭主妇。" }] }
+  ],
+  "textExtra": [
+    {
+      "lesson": 17,
+      "title": "How do you do?",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MR. JACKSON", "en": "Come and meet our employees, Mr. Richards." },
+        { "speaker": "MR. RICHARDS", "en": "Thank you, Mr. Jackson." },
+        { "speaker": "MR. JACKSON", "en": "This is Nicola Grey, and this is Claire Taylor." },
+        { "speaker": "MR. RICHARDS", "en": "How do you do?" },
+        { "speaker": "MR. RICHARDS", "en": "Those women are very hard-working." },
+        { "speaker": "MR. RICHARDS", "en": "What are their jobs?" },
+        { "speaker": "MR. JACKSON", "en": "They're keyboard operators." },
+        { "speaker": "MR. JACKSON", "en": "This is Michael Baker, and this is Jeremy Short." },
+        { "speaker": "MR. RICHARDS", "en": "How do you do?" },
+        { "speaker": "MR. RICHARDS", "en": "They aren't very busy!" },
+        { "speaker": "MR. RICHARDS", "en": "What are their jobs?" },
+        { "speaker": "MR. JACKSON", "en": "They're sales reps." },
+        { "speaker": "MR. JACKSON", "en": "They are very lazy." },
+        { "speaker": "MR. RICHARDS", "en": "Who is this young man?" },
+        { "speaker": "MR. JACKSON", "en": "This is Jim." },
+        { "speaker": "MR. JACKSON", "en": "He is our office assistant." }
+      ]
+    },
+    {
+      "lesson": 18,
+      "title": "Are they … or …?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Are they ___ or ___ ? — They aren't ___. They're ___.",
+        "zh": "他们是……还是……？——他们不是……，他们是……。（把下面 10 组职业挨个问一遍，用选择疑问句二选一回答，不用 yes/no）",
+        "slots": [
+          { "en": "keyboard operators — air hostesses", "zh": "键盘录入员 — 空姐" },
+          { "en": "postmen — policemen", "zh": "邮递员 — 警察" },
+          { "en": "policewomen — nurses", "zh": "女警察 — 护士" },
+          { "en": "customs officers — hairdressers", "zh": "海关官员 — 理发师" },
+          { "en": "hairdressers — teachers", "zh": "理发师 — 老师" },
+          { "en": "engineers — taxi drivers", "zh": "工程师 — 出租车司机" },
+          { "en": "policewomen — keyboard operators", "zh": "女警察 — 键盘录入员" },
+          { "en": "milkmen — engineers", "zh": "送奶工 — 工程师" },
+          { "en": "policemen — milkmen", "zh": "警察 — 送奶工" },
+          { "en": "nurses — housewives", "zh": "护士 — 家庭主妇" }
+        ],
+        "answers": ["They aren't keyboard operators. They're air hostesses.", "They aren't postmen. They're policemen."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：迈克尔·贝克和杰里米·肖特是做什么工作的？", "a": "What are Michael Baker and Jeremy Short's jobs?", "note": "问职业用 What are + 复数 jobs；they 配 are。" },
+    { "q": "回答：What are their jobs?（键盘录入员）", "a": "They're keyboard operators.", "note": "职业前口语省略 a，直接用 They're + 职业复数。" },
+    { "q": "汉译英：您好！（初次见面，正式）", "a": "How do you do?", "note": "初次见面正式问候，用同样的 How do you do? 回答，不答 I'm fine。" },
+    { "q": "汉译英：他是我们办公室的助手。", "a": "He is our office assistant.", "note": "our 是所有格形容词，后接名词；单数为 is。" },
+    { "q": "完成选择疑问句的回答：Are they postmen or policemen?", "a": "They aren't postmen. They're policemen.", "note": "选择疑问句不用 yes/no，要二选一：否定前者、肯定后者。" },
+    { "q": "汉译英：那些姑娘很勤奋。", "a": "Those women are very hard-working.", "note": "those + 复数 women 配 are；hard-working 带连字符。" },
+    { "q": "汉译英：这个年轻人是谁？", "a": "Who is this young man?", "note": "问人用 who；this young man 单数用 is。" }
+  ],
+  "quiz": [
+    { "q": "初次见面正式问候，应该说：", "options": ["How do you do?", "How are you?", "I'm fine, thank you.", "Nice to meet you."], "answer": 0, "note": "How do you do? 初次见面正式用语，用同样的话回答；How are you? 问身体状况。" },
+    { "q": "问职业「他们是做什么工作的」，正确说法是：", "options": ["What are their jobs?", "What is their job?", "What are they?", "What their jobs are?"], "answer": 0, "note": "问职业用 What are + 复数 jobs；they 配 are，疑问语序 be 提前。" },
+    { "q": "选择疑问句「Are they nurses or housewives?」该怎么答？", "options": ["They aren't nurses. They're housewives.", "Yes, they are.", "No, they aren't.", "They are nurses."], "answer": 0, "note": "选择疑问句不用 yes/no，要二选一明确回答。" },
+    { "q": "「他是一名警察」正确说法是：", "options": ["He is a policeman.", "He is policeman.", "He are a policeman.", "He is policemans."], "answer": 0, "note": "职业单数要加 a；policeman 复数为 policemen。" },
+    { "q": "「我们是瑞典人」正确说法是：", "options": ["We are Swedish.", "We are a Swedish.", "We are Swedishes.", "We is Swedish."], "answer": 0, "note": "国籍形容词 Swedish 前不加 a，不变复数；we 配 are。" },
+    { "q": "「那些姑娘很勤奋」正确说法是：", "options": ["Those women are very hard-working.", "That woman is very hard-working.", "Those woman are very hard-working.", "Those women is very hard-working."], "answer": 0, "note": "those + 复数 women 配 are；hard-working 带连字符。" }
+  ]
+}

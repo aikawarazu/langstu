@@ -1,0 +1,175 @@
+{
+  "title": "Penny's bag / Is there any ...?",
+  "subtitle": "彭妮的提包 / 那儿有……吗？",
+  "lead": {
+    "question": "你去超市买回一袋沉甸甸的东西，朋友问「里面是什么」——你会怎么用英语一样一样报出来，并加上「一块/一瓶/一磅」这样的量词？",
+    "warmup": "先别看课文。想象你提着一袋东西，朋友问「重吗」「里面是什么」。中文说「一块奶酪、一瓶牛奶、一磅糖」，英文里 cheese/milk/sugar 这些词前面不能加 a/an，也没有复数——它们叫不可数名词。要表示「一些」用 some/any，要表示「一块/一瓶」就得借用 a piece of / a bottle of 这样的量词短语。先试着把「一块肥皂、一听烟丝」翻译成英语，再听 Penny 一口气报出提包里的九样东西。",
+    "goals": [
+      "认识常见不可数名词：cheese, bread, soap, chocolate, sugar, coffee, tea, tobacco",
+      "能用 a piece of / a loaf of / a bar of / a bottle of / a pound of / a tin of 表示数量",
+      "能用 there is / there are + some / any 说明某处有什么",
+      "理解 Not very. 是 It is not very heavy. 的省略"
+    ],
+    "summary": "第 41 课 Sam 问 Penny 提包重不重，Penny 把里面的九样东西逐一报出：一块乳酪、一块面包、一条肥皂、一块巧克力、一瓶牛奶、一磅糖、半磅咖啡、四分之一磅茶叶、一听烟丝。全课集中呈现不可数名词与量词短语。第 42 课用 there is/are + some/any 操练「某处有什么」，并引入用 one 代替单数可数名词（There's one on the plate.）。",
+    "tips": "① cheese/bread/soap/chocolate/milk/sugar/coffee/tea/tobacco 都是不可数名词，不能加 a/an，也没有复数；② 要表示「一些」用 some（肯定）/any（否定、疑问）；③ 要表示「一块/一瓶」必须用 a piece of / a bottle of 等量词短语，量词本身可数（a piece, two pieces）；④ Not very. = It is not very heavy. 口语省略；⑤ a tin of tobacco 的 for me 问「是给我的吗」，well 表「噢/嗯」的语气词。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Who is the tin of tobacco for?",
+      "zh": "那听烟丝是给谁买的？",
+      "a": "It's for Sam (not for Penny).",
+      "aZh": "是给萨姆的（不是给彭妮）。",
+      "hint": "听 Is that tin of tobacco for me? / it's certainly not for me!"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Penny say is in the bag?",
+      "zh": "彭妮说提包里有什么？",
+      "a": "A piece of cheese, a loaf of bread, a bar of soap, a bar of chocolate, a bottle of milk, a pound of sugar, half a pound of coffee, a quarter of a pound of tea, and a tin of tobacco.",
+      "aZh": "一块乳酪、一块面包……和一听烟丝。",
+      "hint": "Penny 一口气报出的九样东西。"
+    },
+    {
+      "kind": "detail",
+      "q": "Is the bag heavy?",
+      "zh": "提包重吗？",
+      "a": "Not very.",
+      "aZh": "不太重。",
+      "hint": "Penny 答 Not very."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Sam say when he puts the bag on the chair?",
+      "zh": "萨姆把提包放椅子上时说了什么？",
+      "a": "Here! Put it on this chair.",
+      "aZh": "放在这儿！把它放在这把椅子上。",
+      "hint": "Sam 说的两句。"
+    },
+    {
+      "kind": "think",
+      "q": "Why can't we say 'a cheese' or 'two sugars' like countable nouns?",
+      "zh": "为什么不能说 a cheese、two sugars 这种像可数名词一样的说法？",
+      "a": "These words are uncountable in English; they have no plural and take no a/an. To count them you must use measure phrases like a piece of cheese / two pounds of sugar.",
+      "aZh": "这些词在英语里不可数，无复数、不加 a/an；要计数必须用 a piece of cheese / two pounds of sugar 等量词。",
+      "hint": "不可数名词靠量词短语来计数。"
+    },
+    {
+      "kind": "drill",
+      "q": "Is there a spoon here? Yes, there is. There's one on the plate. / Is there any milk here? Yes, there is. There's some on the table.",
+      "zh": "第 42 课操练：Is there a/any ___? — Yes, there is. There's one/some ___.",
+      "a": "Is there a tie here? Yes, there is. There's one on the chair.",
+      "aZh": "这儿有领带吗？有，椅子上有一条。",
+      "hint": "单数可数用 one 代替，不可数用 some。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "cheese", "phonetic": "/tʃiːz/", "meanings": [{ "pos": "n.", "meaning": "乳酪，干酪", "usage": "不可数名词" }], "examples": [{ "en": "A piece of cheese.", "zh": "一块乳酪。" }] },
+    { "word": "bread", "phonetic": "/bred/", "meanings": [{ "pos": "n.", "meaning": "面包", "usage": "不可数；a loaf of bread 一个面包" }], "examples": [{ "en": "A loaf of bread.", "zh": "一块面包。" }] },
+    { "word": "soap", "phonetic": "/səʊp/", "meanings": [{ "pos": "n.", "meaning": "肥皂", "usage": "不可数；a bar of soap 一条肥皂" }], "examples": [{ "en": "A bar of soap.", "zh": "一条肥皂。" }] },
+    { "word": "chocolate", "phonetic": "/ˈtʃɒklət/", "meanings": [{ "pos": "n.", "meaning": "巧克力", "usage": "不可数；a bar of chocolate 一块巧克力" }], "examples": [{ "en": "A bar of chocolate.", "zh": "一块巧克力。" }] },
+    { "word": "sugar", "phonetic": "/ˈʃʊɡə/", "meanings": [{ "pos": "n.", "meaning": "糖", "usage": "不可数；a pound of sugar 一磅糖" }], "examples": [{ "en": "A pound of sugar.", "zh": "一磅糖。" }] },
+    { "word": "coffee", "phonetic": "/ˈkɒfi/", "meanings": [{ "pos": "n.", "meaning": "咖啡", "usage": "不可数；black coffee 清咖啡" }], "examples": [{ "en": "Half a pound of coffee.", "zh": "半磅咖啡。" }] },
+    { "word": "tea", "phonetic": "/tiː/", "meanings": [{ "pos": "n.", "meaning": "茶", "usage": "不可数" }], "examples": [{ "en": "A quarter of a pound of tea.", "zh": "四分之一磅茶叶。" }] },
+    { "word": "tobacco", "phonetic": "/təˈbækəʊ/", "meanings": [{ "pos": "n.", "meaning": "烟草，烟丝", "usage": "不可数；a tin of tobacco 一听烟丝" }], "examples": [{ "en": "And a tin of tobacco.", "zh": "还有一听烟丝。" }] },
+    { "word": "heavy", "phonetic": "/ˈhevi/", "meanings": [{ "pos": "adj.", "meaning": "重的", "usage": "Not very. = It is not very heavy." }], "examples": [{ "en": "Is that bag heavy, Penny?", "zh": "那个提包重吗，彭妮？" }] },
+    { "word": "bag", "phonetic": "/bæɡ/", "meanings": [{ "pos": "n.", "meaning": "提包，袋子", "usage": "Penny's bag 彭妮的提包" }], "examples": [{ "en": "Is that bag heavy, Penny?", "zh": "那个提包重吗，彭妮？" }] },
+    { "word": "pound", "phonetic": "/paʊnd/", "meanings": [{ "pos": "n.", "meaning": "磅；英镑", "usage": "a pound of 一磅（重量）" }], "examples": [{ "en": "A pound of sugar.", "zh": "一磅糖。" }] },
+    { "word": "loaf", "phonetic": "/ləʊf/", "meanings": [{ "pos": "n.", "meaning": "一条（面包）", "usage": "复数 loaves；a loaf of bread" }], "examples": [{ "en": "A loaf of bread.", "zh": "一块（整个）面包。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 41,
+      "title": "Penny's bag",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "SAM", "en": "Is that bag heavy, Penny?" },
+        { "speaker": "PENNY", "en": "Not very." },
+        { "speaker": "SAM", "en": "Here! Put it on this chair." },
+        { "speaker": "SAM", "en": "What's in it?" },
+        { "speaker": "PENNY", "en": "A piece of cheese. A loaf of bread. A bar of soap. A bar of chocolate. A bottle of milk. A pound of sugar. Half a pound of coffee. A quarter of a pound of tea. And a tin of tobacco." },
+        { "speaker": "SAM", "en": "Is that tin of tobacco for me?" },
+        { "speaker": "PENNY", "en": "Well, it's certainly not for me!" }
+      ]
+    },
+    {
+      "lesson": 42,
+      "title": "Is there any ...?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Is there a / any ___ here? — Yes, there is. There's one / some ___ .",
+        "zh": "这儿有……吗？——有，……上有一个/一些。（用 some/any 配合 one 操练 there is）",
+        "slots": [
+          { "en": "a spoon — on the plate", "zh": "一把勺子 — 在盘子上" },
+          { "en": "a tie — on the chair", "zh": "一条领带 — 在椅子上" },
+          { "en": "any milk — on the table", "zh": "一些牛奶 — 在桌子上" },
+          { "en": "a hammer — on the bookcase", "zh": "一把锤子 — 在书架/书箱上" },
+          { "en": "any tea — on the table", "zh": "一些茶 — 在桌子上" },
+          { "en": "a vase — on the radio", "zh": "一个花瓶 — 在收音机上" },
+          { "en": "a suit — in the wardrobe", "zh": "一套衣服 — 在衣橱里" },
+          { "en": "any tobacco — in the tin", "zh": "一些烟草 — 在烟罐里" },
+          { "en": "any chocolate — on the desk", "zh": "一些巧克力 — 在书桌上" },
+          { "en": "any cheese — on the plate", "zh": "一些干酪 — 在盘子上" }
+        ],
+        "answers": ["Is there a spoon here? Yes, there is. There's one on the plate.", "Is there any milk here? Yes, there is. There's some on the table."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：杯子里有些茶。", "a": "There is some tea in the cup.", "note": "tea 不可数，some 用于肯定，there is + 不可数名词。" },
+    { "q": "汉译英：一块乳酪", "a": "A piece of cheese.", "note": "不可数名词靠 a piece of 表「一块」。" },
+    { "q": "汉译英：一听烟丝", "a": "A tin of tobacco.", "note": "a tin of 一听（罐头状）。" },
+    { "q": "改错：There are some coffee on the table.", "a": "There is some coffee on the table.", "note": "coffee 不可数，be 用 is。" },
+    { "q": "汉译英：不太重。", "a": "Not very. ( = It is not very heavy.)", "note": "口语省略，Not very 后省去 heavy。" },
+    { "q": "第 42 课：Is there any bread in the kitchen? 的肯定回答（桌上有个面包）", "a": "There's a loaf on the table.", "note": "loaf 指整个面包，单数用 a loaf。" },
+    { "q": "汉译英：半磅咖啡", "a": "Half a pound of coffee.", "note": "half a pound of + 不可数名词。" }
+  ],
+  "quiz": [
+    { "q": "「一块肥皂」正确说法是：", "options": ["A bar of soap.", "A soap.", "A soaps.", "Soap."], "answer": 0, "note": "soap 不可数，要借 a bar of 表「一块」。" },
+    { "q": "「杯子里有些茶」正确说法是：", "options": ["There is some tea in the cup.", "There are some tea in the cup.", "There is a tea in the cup.", "There are tea in the cup."], "answer": 0, "note": "tea 不可数，there is + some。" },
+    { "q": "不可数名词前面：", "options": ["不能加 a/an，也没有复数", "可加 a", "必有复数", "必加 the"], "answer": 0, "note": "不可数名词无 a/an、无复数。" },
+    { "q": "「半磅咖啡」正确说法是：", "options": ["Half a pound of coffee.", "Half pound coffee.", "A half coffee.", "Half coffees."], "answer": 0, "note": "half a pound of + 不可数名词。" },
+    { "q": "Not very. 在课文中是下列哪句的省略？", "options": ["It is not very heavy.", "It is very heavy.", "Not a very bag.", "Very not."], "answer": 0, "note": "Not very = It is not very heavy，口语省略。" },
+    { "q": "Is there any bread in the kitchen? 的回答「桌上有个面包」应说：", "options": ["There's a loaf on the table.", "There's some loaf on the table.", "There are a loaf on the table.", "There is loaf."], "answer": 0, "note": "loaf 可数单数，用 a loaf；some 不接单数可数。" }
+  ],
+  "grammar": [
+    {
+      "title": "不可数名词（Uncountable nouns）",
+      "structure": "名词（无 a/an，无复数形式）",
+      "definition": "表示无法逐个计数的物质或抽象概念，前面不能加 a/an，也没有复数形式；要表「一些」用 some/any，要表数量用度量短语。",
+      "usage": "cheese, bread, soap, chocolate, milk, sugar, coffee, tea, tobacco 均不可数。",
+      "examples": [
+        { "en": "There is some tea in the cup.", "zh": "杯子里有些茶水。" },
+        { "en": "I want some sugar.", "zh": "我想要些糖。" }
+      ]
+    },
+    {
+      "title": "some 与 any 的用法",
+      "structure": "some（肯定句）/ any（否定句、疑问句）",
+      "definition": "some 用于肯定句表示「一些」；any 用于否定句和疑问句表示「任何/一些」。",
+      "usage": "Is there any water? / There's some coffee on the table.",
+      "examples": [
+        { "en": "Is there any water in this kettle?", "zh": "这水壶里有水吗？" },
+        { "en": "There's some coffee on the table, too.", "zh": "桌上也有些咖啡。" }
+      ]
+    },
+    {
+      "title": "表示数量的短语（量词）",
+      "structure": "a piece of / a loaf of / a bar of / a bottle of / a pound of / a tin of / a quarter of / half a pound of + 不可数名词",
+      "definition": "不可数名词本身不能加数词，要表示「一块/一条/一瓶/一磅/一听」等，须借助可数的量词短语；量词本身可数（a piece, two pieces）。",
+      "usage": "a piece of cheese, a bottle of milk, a pound of sugar, a tin of tobacco",
+      "examples": [
+        { "en": "A bottle of milk.", "zh": "一瓶牛奶。" },
+        { "en": "A quarter of a pound of tea.", "zh": "四分之一磅茶叶。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "a piece of", "usage": "一块/一张（量词，后接不可数名词）", "examples": [{ "en": "A piece of cheese.", "zh": "一块乳酪。" }] },
+    { "phrase": "a loaf of", "usage": "一个（整个面包）", "examples": [{ "en": "A loaf of bread.", "zh": "一块面包。" }] },
+    { "phrase": "a bar of", "usage": "一条/一块（长条状，如肥皂、巧克力）", "examples": [{ "en": "A bar of soap.", "zh": "一条肥皂。" }] },
+    { "phrase": "a bottle of", "usage": "一瓶", "examples": [{ "en": "A bottle of milk.", "zh": "一瓶牛奶。" }] },
+    { "phrase": "a pound of", "usage": "一磅", "examples": [{ "en": "A pound of sugar.", "zh": "一磅糖。" }] },
+    { "phrase": "a tin of", "usage": "一听（罐头状，如烟丝）", "examples": [{ "en": "And a tin of tobacco.", "zh": "还有一听烟丝。" }] }
+  ]
+}

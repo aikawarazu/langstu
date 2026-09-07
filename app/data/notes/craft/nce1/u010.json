@@ -1,0 +1,167 @@
+{
+  "title": "Tired and thirsty / Look at them.",
+  "subtitle": "又累又渴。/ 瞧他们。",
+  "lead": {
+    "question": "孩子们玩累了、渴了，妈妈会怎么安置他们，又用什么办法让他们高兴起来？",
+    "warmup": "先别看课文。想象一个夏日午后，孩子又累又渴地缠着你，你会先让他们坐下，还是直接给东西吃？新概念这一课把「询问状况—坐下—指给对方看某物—递上冰淇淋」串成一段自然对话。重点不在单词量，而在 There's an ice cream man. 这种「存在句」怎么用。",
+    "goals": [
+      "能用 What's the matter? 询问「怎么啦 / 出了什么事」",
+      "能用 There is / There's … 表示「有 / 存在」（there + be 结构）",
+      "能用 Are you all right now? 询问对方是否安好，并用 Yes/No + we are 回答",
+      "能用选择疑问句 Are they A or B? 二选一（第 20 课操练）"
+    ],
+    "summary": "第 19 课是母子/母女间的日常对话：孩子喊累喊渴，妈妈让坐下、问好些没，指着卖冰淇淋的小贩说 There's an ice cream man，买两份递给孩子，最后确认「现在好了吗」。核心语法是 there + be 存在句（There's = There is）和人称代词与 be 的搭配。第 20 课把 Are they A or B? 选择疑问句铺开，用 tired/thirsty、cold/hot 等成对的形容词操练十组。",
+    "tips": "① There's = There is，表示「有/存在」，实际主语是 be 后面的名词，所以 There's an ice cream man 比 An ice cream man is there 更自然；② ice cream 是物质名词，前面加 a/基数词表示「一份/一客」：Two ice creams please；③ What's the matter? 相当于 What's wrong?，特指某人可加 with：What's the matter with you?；④ 选择疑问句 Are they tired or thirsty? 不答 yes/no，要二选一：They're not tired. They're thirsty."
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why do the children thank their mother?",
+      "zh": "孩子们为什么向母亲致谢？",
+      "a": "Because she buys them ice creams.",
+      "aZh": "因为她给他们买了冰淇淋。",
+      "hint": "听对话最后：Two ice creams please. / Thanks, Mum."
+    },
+    {
+      "kind": "detail",
+      "q": "What do the children say when the mother first asks what's the matter?",
+      "zh": "妈妈问「怎么啦」时孩子们怎么说？",
+      "a": "We are tired and thirsty, Mum.",
+      "aZh": "我们累了，也渴，妈妈。",
+      "hint": "对话第一句回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does the mother point out to the children?",
+      "zh": "妈妈指给孩子们看的是什么？",
+      "a": "An ice cream man.",
+      "aZh": "一个卖冰淇淋的小贩。",
+      "hint": "听 There's an ice cream man."
+    },
+    {
+      "kind": "detail",
+      "q": "Are the children all right after they sit down?",
+      "zh": "孩子们坐下后就好些了吗？",
+      "a": "No, they aren't. / Yes, they are after the ice creams.",
+      "aZh": "坐下时还没有；吃完冰淇淋后才好。",
+      "hint": "第一次 Are you all right now? 答 No, we aren't.；最后答 Yes, we are."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the book use 'There's an ice cream man' instead of 'An ice cream man is there'?",
+      "zh": "为什么用 There's an ice cream man 而不用 An ice cream man is there？",
+      "a": "There + be puts the new information (an ice cream man) at the end for emphasis; it is the more natural word order in English.",
+      "aZh": "there + be 把新信息放在句末强调，是英语更自然的语序。",
+      "hint": "想一想中文「有个卖冰淇淋的」也是把「卖冰淇淋的」放最后。"
+    },
+    {
+      "kind": "drill",
+      "q": "Are the children tired or thirsty? — They aren't tired. They're thirsty. / Are the postmen cold or hot? — They aren't cold. They're hot.",
+      "zh": "第 20 课操练：他们是……还是……？（把成对形容词挨个问一遍，二选一）",
+      "a": "Are the shoes small or big? — They aren't small. They're big.",
+      "aZh": "鞋子是小还是大？——它们不小，是大的。",
+      "hint": "选择疑问句不答 yes/no，要否定前者、肯定后者。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "matter", "phonetic": "/ˈmætə/", "meanings": [{ "pos": "n.", "meaning": "事情；麻烦事", "usage": "What's the matter? 怎么啦？" }], "examples": [{ "en": "What's the matter, children?", "zh": "怎么啦，孩子们？" }, { "en": "What's the matter with you?", "zh": "你怎么啦？" }] },
+    { "word": "children", "phonetic": "/ˈtʃɪldrən/", "meanings": [{ "pos": "n.", "meaning": "孩子们（child 的复数）" }], "examples": [{ "en": "Those children are tired.", "zh": "那些孩子累了。" }] },
+    { "word": "tired", "phonetic": "/ˈtaɪəd/", "meanings": [{ "pos": "adj.", "meaning": "累的，疲乏的" }], "examples": [{ "en": "We are tired and thirsty.", "zh": "我们又累又渴。" }] },
+    { "word": "boy", "phonetic": "/bɔɪ/", "meanings": [{ "pos": "n.", "meaning": "男孩" }], "examples": [{ "en": "The boy is tired.", "zh": "男孩累了。" }] },
+    { "word": "thirsty", "phonetic": "/ˈθɜːsti/", "meanings": [{ "pos": "adj.", "meaning": "渴的", "usage": "也可指（土地）干旱的、渴望的（for）" }], "examples": [{ "en": "We are tired and thirsty, Mum.", "zh": "我们累了，也渴，妈妈。" }] },
+    { "word": "Mum", "phonetic": "/mʌm/", "meanings": [{ "pos": "n.", "meaning": "妈妈（儿语）", "usage": "对应 dad 爸爸" }], "examples": [{ "en": "Thanks, Mum.", "zh": "谢谢，妈妈。" }] },
+    { "word": "right", "phonetic": "/raɪt/", "meanings": [{ "pos": "adj.", "meaning": "好，可以", "usage": "Are you all right? 你没事吧 / 好些了吗？" }], "examples": [{ "en": "Are you all right now?", "zh": "你们现在好些了吗？" }, { "en": "That's all right.", "zh": "没关系。" }] },
+    { "word": "look", "phonetic": "/lʊk/", "meanings": [{ "pos": "v.", "meaning": "看，瞧", "usage": "引起注意时用 Look!" }], "examples": [{ "en": "Look! There's an ice cream man.", "zh": "瞧！有个卖冰淇淋的。" }] },
+    { "word": "nice", "phonetic": "/naɪs/", "meanings": [{ "pos": "adj.", "meaning": "美好的，好吃的" }], "examples": [{ "en": "These ice creams are nice.", "zh": "这些冰淇淋真好吃。" }] }
+  ],
+  "phrases": [
+    { "phrase": "sit down", "usage": "坐下", "examples": [{ "en": "Sit down here.", "zh": "坐在这儿吧。" }] },
+    { "phrase": "ice cream", "usage": "冰淇淋（物质名词，加 a/基数词表一份/一客）", "examples": [{ "en": "Two ice creams please.", "zh": "请拿两份冰淇淋。" }] }
+  ],
+  "grammar": [
+    {
+      "title": "there + be 结构（存在句）",
+      "structure": "There is / There are + 名词（+ 地点）",
+      "definition": "there + be 表示「有/存在」，实际主语是 be 后面的名词。单数用 is，复数用 are。There's 是 There is 的缩略。说 There's an ice cream man 比 An ice cream man is there 更自然，因为把新信息置于句末强调。",
+      "usage": "说明或询问人、物等的存在，常把新信息放句末。",
+      "examples": [
+        { "en": "There's an ice cream man.", "zh": "有个卖冰淇淋的。" },
+        { "en": "There is a refrigerator in the kitchen.", "zh": "厨房里有个电冰箱。" }
+      ]
+    },
+    {
+      "title": "人称代词与 be",
+      "structure": "主语（人称代词）+ be (am/is/are) + …",
+      "definition": "系动词 be 随人称变化：I am, you/we/they are, he/she/it is。缩略：we are not = we aren't = we're not，they are not = they aren't = they're not。",
+      "usage": "描述状态或身份。",
+      "examples": [
+        { "en": "We are tired and thirsty.", "zh": "我们又累又渴。" },
+        { "en": "Are you all right now?", "zh": "你们现在好些了吗？" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：怎么啦，孩子们？", "a": "What's the matter, children?", "note": "What's the matter? = What's wrong? 询问发生什么事；matter 前不加 the。" },
+    { "q": "用 there is 改写：An ice cream man is there.", "a": "There's an ice cream man.", "note": "there + be 把存在物放句末更自然。" },
+    { "q": "汉译英：我们累了，也渴。", "a": "We are tired and thirsty.", "note": "并列形容词用 and 连接；tired/thirsty 后接 Mum 称呼。" },
+    { "q": "回答 Are you all right now?（否定，孩子们说）", "a": "No, we aren't.", "note": "用 we 指代听话的孩子们，aren't = are not。" },
+    { "q": "汉译英：请拿两份冰淇淋。", "a": "Two ice creams please.", "note": "ice cream 物质名词，加基数词表示「一份/一客」。" },
+    { "q": "完成选择疑问句回答：Are the hairdressers thin or fat?", "a": "They aren't thin. They're fat.", "note": "二选一，否定前者肯定后者，不用 yes/no。" },
+    { "q": "汉译英：这些冰淇淋真好吃。", "a": "These ice creams are nice.", "note": "these 接复数，nice 形容词「好吃的」。" }
+  ],
+  "textExtra": [
+    {
+      "lesson": 19,
+      "title": "Tired and thirsty",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MOTHER", "en": "What's the matter, children?" },
+        { "speaker": "CHILDREN", "en": "We are tired and thirsty, Mum." },
+        { "speaker": "MOTHER", "en": "Sit down here." },
+        { "speaker": "MOTHER", "en": "Are you all right now?" },
+        { "speaker": "CHILDREN", "en": "No, we aren't." },
+        { "speaker": "MOTHER", "en": "Look!" },
+        { "speaker": "MOTHER", "en": "There's an ice cream man." },
+        { "speaker": "MOTHER", "en": "Two ice creams please." },
+        { "speaker": "MOTHER", "en": "Here you are, children." },
+        { "speaker": "CHILDREN", "en": "Thanks, Mum." },
+        { "speaker": "GIRL", "en": "These ice creams are nice." },
+        { "speaker": "MOTHER", "en": "Are you all right now?" },
+        { "speaker": "CHILDREN", "en": "Yes, we are, thank you." }
+      ]
+    },
+    {
+      "lesson": 20,
+      "title": "Look at them.",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Are they ___ or ___? — They aren't ___. They're ___.",
+        "zh": "他们是……还是……？——他们不是……，他们是……。（把下面 10 组成对形容词挨个问一遍，二选一，不答 yes/no）",
+        "slots": [
+          { "en": "children — tired / thirsty", "zh": "孩子们 — 累 / 渴" },
+          { "en": "postmen — cold / hot", "zh": "邮递员 — 冷 / 热" },
+          { "en": "hairdressers — thin / fat", "zh": "理发师 — 瘦 / 胖" },
+          { "en": "shoes — small / big", "zh": "鞋子 — 小 / 大" },
+          { "en": "shops — shut / open", "zh": "店铺 — 关着 / 开着" },
+          { "en": "cases — heavy / light", "zh": "箱子 — 重 / 轻" },
+          { "en": "grandmother and grandfather — young / old", "zh": "爷爷奶奶 — 年轻 / 老" },
+          { "en": "hats — old / new", "zh": "帽子 — 旧 / 新" },
+          { "en": "policemen — short / tall", "zh": "警察 — 矮 / 高" },
+          { "en": "trousers — short / long", "zh": "裤子 — 短 / 长" }
+        ],
+        "answers": [
+          "They aren't tired. They're thirsty.",
+          "They aren't cold. They're hot."
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    { "q": "\"There's an ice cream man.\" 中 There's 是：", "zh": "There's 是什么的缩写？", "options": ["There is 的缩写", "There are 的缩写", "They are 的缩写", "The is 的缩写"], "answer": 0, "note": "There's = There is，表示「有/存在」，主语 an ice cream man 单数。" },
+    { "q": "表示「怎么啦？」应说：", "zh": "询问出了什么事怎么说？", "options": ["What's the matter?", "What's the wrong?", "Where's the matter?", "How is the matter?"], "answer": 0, "note": "What's the matter? = What's wrong? 询问发生什么事；matter 前不加 the。" },
+    { "q": "\"We are tired and thirsty.\" 的主语 we 配 be 动词：", "zh": "we 应该配哪个 be 动词？", "options": ["are", "is", "am", "be"], "answer": 0, "note": "we/you/they 配 are；I 配 am；he/she/it 配 is。" },
+    { "q": "选择疑问句 \"Are the children tired or thirsty?\" 该怎么答？", "zh": "选择疑问句怎么回答？", "options": ["They aren't tired. They're thirsty.", "Yes, they are.", "No, they aren't.", "They are tired."], "answer": 0, "note": "选择疑问句二选一，不答 yes/no。" },
+    { "q": "\"Two ice creams please.\" 中 ice cream 前用 two 表示：", "zh": "two ice creams 是什么意思？", "options": ["两份/两客", "两个冰淇淋店", "两种冰淇淋", "两次"], "answer": 0, "note": "物质名词 ice cream 前加基数词表示「一份/一客」。" },
+    { "q": "回答 \"Are you all right now?\"（肯定，孩子们说）：", "zh": "孩子们怎么肯定回答？", "options": ["Yes, we are.", "Yes, we are all right.", "Yes, you are.", "No, we are."], "answer": 0, "note": "用 we 指代听话的孩子们，句末简略回答写全 Yes, we are." }
+  ]
+}
