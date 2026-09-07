@@ -354,6 +354,8 @@ function openUnit(u,autoplay){
   var units=bk.units;
   if(u<1)u=units.length;else if(u>units.length)u=1;
   S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;
+  /* 立即落盘：不等轮询，关页面也不丢进度 */
+  try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
   var req=++S.req; /* 防快速切换：旧请求返回时丢弃 */
   var unit=units[u-1];
   renderDir();renderHead(bk,unit);renderInfo(bk,unit);renderVideoChips(bk,unit);
@@ -1662,6 +1664,11 @@ function boot(){
       renderDir();syncCtl();setView('study');
       try{openUnit(S.ui);}catch(e){console.log('boot/openUnit fail:',e.message,'| course=',S.book,'| ui=',S.ui);throw e;}
       setInterval(function(){window.AppStore.setPref('last.'+S.book,S.ui);},1200);
+      /* 兜底：页面隐藏/关闭前把当前课立即写盘（扩展/移动端常在后台时被杀） */
+      var flushLast=function(){try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}};
+      document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')flushLast();});
+      window.addEventListener('pagehide',flushLast);
+      window.addEventListener('beforeunload',flushLast);
     });
   }).catch(function(e){
     toast('课程加载失败：'+e.message);console.error(e);
