@@ -1,0 +1,173 @@
+{
+  "title": "The Sawyer family / What does she do in the morning?",
+  "subtitle": "索耶一家人 / 她上午做什么？",
+  "lead": {
+    "question": "你能用英语把一家人的日常作息讲清楚吗——谁去上班、谁上学、谁在家做家务、晚上谁看报？",
+    "warmup": "先别看课文。想象你向朋友介绍「索耶一家」：早上爸爸上班、孩子上学，妈妈在家做家务、正午吃午饭；下午她见朋友、一起喝茶；傍晚孩子放学回家，爸爸下班回家；晚上孩子做作业、爸爸看报。全课用一般现在时讲有规律的习惯动作，动词大多是第三人称单数（goes / stays / does / arrives）。注意几个不带冠词的固定搭配：go to work / go to school / go to bed / stay at home / at noon / at night。第 56 课把 What does she do …? 配各种日常活动反复操练。",
+    "goals": [
+      "能用一般现在时描述家庭日常作息（习惯动作）",
+      "掌握第三人称单数动词变位（goes / stays / does / arrives 等）",
+      "记住不带冠词的短语：go to work / go to school / go to bed / stay at home / at noon / at night",
+      "能用 What does he/she/they do (at time)? 询问并描述日常活动"
+    ],
+    "summary": "第 55 课以第三人称叙述索耶一家的日常：索耶先生早上上班、孩子上学（父亲每天送他们）；索耶夫人每天在家做家务、正午吃午饭；下午见朋友、一起喝茶；傍晚孩子早睡、先生晚归；夜里孩子做作业后睡觉，先生通常看报、有时和妻子看电视。全课用一般现在时表习惯。第 56 课用 What does she do in the morning? 等问句把整理床铺、刮胡子、听立体声、擦黑板、洗碗、打字、看电视等活动逐一操练。",
+    "tips": "① 一般现在时表习惯/规律动作，常配频度副词 usually/always/often/sometimes；② 第三人称单数变位：直接加 -s（comes/arrives）、-sh/-ch/-o/-s 加 -es（washes/goes/watches/does）、辅音+y 变 -ies（carries）；③ go to work/school/bed 与 stay at home 中 work/school/bed/home 前不加冠词；④ at noon/night 用 at，in the morning/afternoon/evening 用 in；⑤ housework 不可数。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "When do the children do their homework?",
+      "zh": "孩子们什么时候做功课？",
+      "a": "At night.",
+      "aZh": "在夜里。",
+      "hint": "听 At night, the children always do their homework."
+    },
+    {
+      "kind": "detail",
+      "q": "Where do the Sawyers live?",
+      "zh": "索耶一家住在哪里？",
+      "a": "At 87 King Street.",
+      "aZh": "在国王街87号。",
+      "hint": "The Sawyers live at 87 King Street."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Mrs Sawyer do every day?",
+      "zh": "索耶夫人每天做什么？",
+      "a": "She stays at home, does the housework, and always eats her lunch at noon.",
+      "aZh": "她呆在家里、做家务，总是在正午吃午饭。",
+      "hint": "stays at home / does the housework / eats her lunch at noon"
+    },
+    {
+      "kind": "detail",
+      "q": "When does Mr Sawyer arrive home, and what does he usually do at night?",
+      "zh": "索耶先生什么时候到家？夜里通常做什么？",
+      "a": "He arrives home late (in the evening). At night he usually reads his newspaper, but sometimes watches television.",
+      "aZh": "他傍晚很晚到家；夜里通常看报，有时看电视。",
+      "hint": "arrives home late / reads his newspaper"
+    },
+    {
+      "kind": "think",
+      "q": "Why is the simple present tense used throughout this lesson instead of past or future?",
+      "zh": "为什么全课用一般现在时，而不是过去时或将来时？",
+      "a": "The text describes habitual, regular daily routines of the Sawyer family, which is exactly what the simple present is for. Verbs take the third-person singular form (goes, stays, does, arrives) because the subjects are he/she/it/they-the-family.",
+      "aZh": "课文描述索耶一家有规律的习惯动作，正是一般现在时的用途；主语为单三，动词加 -s/-es（goes/stays/does/arrives）。",
+      "hint": "习惯动作 + 频度副词用一般现在时。"
+    },
+    {
+      "kind": "drill",
+      "q": "What does she do in the morning? She always makes the bed in the morning. / What do they do in the evening? They sometimes listen to the stereo.",
+      "zh": "第 56 课操练：What does/do … do (at time)? 配日常活动与频度副词。",
+      "a": "What does he do every day? He always cleans the blackboard every day.",
+      "aZh": "他每天做什么？他每天总是擦黑板。",
+      "hint": "单三用 does/does；配 always/often/sometimes。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "live", "phonetic": "/lɪv/", "meanings": [{ "pos": "v.", "meaning": "住，生活", "usage": "live at 87 King Street" }], "examples": [{ "en": "The Sawyers live at 87 King Street.", "zh": "索耶一家住在国王街87号。" }] },
+    { "word": "stay", "phonetic": "/steɪ/", "meanings": [{ "pos": "v.", "meaning": "呆在，停留", "usage": "stay at home 呆在家里（home 为名词）" }], "examples": [{ "en": "Mrs Sawyer stays at home every day.", "zh": "索耶夫人每天呆在家里。" }] },
+    { "word": "home", "phonetic": "/həʊm/", "meanings": [{ "pos": "n.", "meaning": "家" }, { "pos": "adv.", "meaning": "到家（arrive home）" }], "examples": [{ "en": "They arrive home early.", "zh": "他们到家很早。" }] },
+    { "word": "housework", "phonetic": "/ˈhaʊswɜːk/", "meanings": [{ "pos": "n.", "meaning": "家务", "usage": "不可数名词；do the housework" }], "examples": [{ "en": "She does the housework.", "zh": "她料理家务。" }] },
+    { "word": "lunch", "phonetic": "/lʌntʃ/", "meanings": [{ "pos": "n.", "meaning": "午饭", "usage": "eat one's lunch at noon" }], "examples": [{ "en": "She always eats her lunch at noon.", "zh": "她总是在正午吃午饭。" }] },
+    { "word": "afternoon", "phonetic": "/ˌɑːftəˈnuːn/", "meanings": [{ "pos": "n.", "meaning": "下午", "usage": "in the afternoon" }], "examples": [{ "en": "In the afternoon, she usually sees her friends.", "zh": "下午，她总是会见她的朋友。" }] },
+    { "word": "usually", "phonetic": "/ˈjuːʒuəli/", "meanings": [{ "pos": "adv.", "meaning": "通常", "usage": "频度副词，be 后/实义动词前" }], "examples": [{ "en": "She usually sees her friends.", "zh": "她通常会见她的朋友。" }] },
+    { "word": "together", "phonetic": "/təˈɡeðə/", "meanings": [{ "pos": "adv.", "meaning": "一起", "usage": "drink tea together" }], "examples": [{ "en": "They often drink tea together.", "zh": "她们经常在一起喝茶。" }] },
+    { "word": "evening", "phonetic": "/ˈiːvnɪŋ/", "meanings": [{ "pos": "n.", "meaning": "晚上", "usage": "in the evening" }], "examples": [{ "en": "In the evening, the children come home from school.", "zh": "傍晚，孩子们放学回家。" }] },
+    { "word": "arrive", "phonetic": "/əˈraɪv/", "meanings": [{ "pos": "v.", "meaning": "到达", "usage": "arrive home 到家（home 副词前不加 at）" }], "examples": [{ "en": "He arrives home late.", "zh": "他到家很晚。" }] },
+    { "word": "night", "phonetic": "/naɪt/", "meanings": [{ "pos": "n.", "meaning": "夜间", "usage": "at night 在夜里" }], "examples": [{ "en": "At night, the children always do their homework.", "zh": "晚上，孩子们总是做作业。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 55,
+      "title": "The Sawyer family",
+      "kind": "课文 · 叙事",
+      "lines": [
+        { "en": "The Sawyers live at 87 King Street.", "zh": "索耶一家住在国王街87号。" },
+        { "en": "In the morning, Mr Sawyer goes to work and the children go to school. Their father takes them to school every day.", "zh": "早上，索耶先生去上班，孩子们去上学。父亲每天送孩子们去上学。" },
+        { "en": "Mrs Sawyer stays at home every day. She does the housework. She always eats her lunch at noon.", "zh": "索耶夫人每天呆在家里。她料理家务。她总是在正午吃午饭。" },
+        { "en": "In the afternoon, she usually sees her friends. They often drink tea together.", "zh": "下午，她总是会见她的朋友。她们经常在一起喝茶。" },
+        { "en": "In the evening, the children come home from school. They arrive home early.", "zh": "傍晚，孩子们放学回家。他们到家很早。" },
+        { "en": "Mr Sawyer comes home from work. He arrives home late.", "zh": "索耶先生下班回家。他到家很晚。" },
+        { "en": "At night, the children always do their homework. Then they go to bed. Mr Sawyer usually reads his newspaper, but sometimes he and his wife watch television.", "zh": "晚上，孩子们总是做作业，然后去睡觉。索耶先生通常读报纸，但有时和他的妻子一起看电视。" }
+      ]
+    },
+    {
+      "lesson": 56,
+      "title": "What does she do in the morning?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "What does / do ___ do (in the morning / in the afternoon / in the evening / at night / every day)?",
+        "zh": "……（在上午/下午/晚上/夜里/每天）做什么？（把主语与时间填进横线，配频度副词与活动作答）",
+        "slots": [
+          { "en": "she — in the morning — makes the bed", "zh": "她 — 上午 — 整理床铺" },
+          { "en": "he — in the morning — shaves", "zh": "他 — 上午 — 刮胡子" },
+          { "en": "they — in the evening — listen to the stereo", "zh": "他们 — 晚上 — 听立体声" },
+          { "en": "he — every day — cleans the blackboard", "zh": "他 — 每天 — 擦黑板" },
+          { "en": "they — at night — go to bed early", "zh": "他们 — 夜里 — 早早上床" },
+          { "en": "she — every day — washes the dishes", "zh": "她 — 每天 — 洗碗" },
+          { "en": "they — in the afternoon — type some letters", "zh": "他们 — 下午 — 打一些信" },
+          { "en": "it — every day — drinks some milk", "zh": "它 — 每天 — 喝些牛奶" },
+          { "en": "they — in the evening — watch television", "zh": "他们 — 晚上 — 看电视" },
+          { "en": "she — at noon — eats her lunch", "zh": "她 — 正午 — 吃午饭" }
+        ],
+        "answers": ["What does she do in the morning? She always makes the bed in the morning.", "What do they do in the evening? They sometimes listen to the stereo in the evening."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：索耶一家住在国王街87号。", "a": "The Sawyers live at 87 King Street.", "note": "姓氏复数 the Sawyers 表全家；live at + 地址。" },
+    { "q": "汉译英：她料理家务。", "a": "She does the housework.", "note": "housework 不可数；单三 does。" },
+    { "q": "填空：He ___ (arrive) home late.", "a": "arrives", "note": "单三 arrive → arrives（直接加 -s）。" },
+    { "q": "第 56 课：What does she do in the morning? — ___ always makes the bed in the morning.", "a": "She", "note": "问 she 答 she；makes 单三。" },
+    { "q": "汉译英：他们经常在一起喝茶。", "a": "They often drink tea together.", "note": "often 频度副词；together 一起。" },
+    { "q": "第 56 课：What do they do at night? — They always ___ (go) to bed early at night.", "a": "go", "note": "主语 they 非单三，用原形 go；go to bed 不加冠词。" },
+    { "q": "改错：Mrs Sawyer stays at the home every day.", "a": "Mrs Sawyer stays at home every day.", "note": "stay at home 中 home 前不加 the。" }
+  ],
+  "quiz": [
+    { "q": "The Sawyers live at 87 King Street. 中的 live 是：", "options": ["动词「居住」", "形容词", "名词", "副词"], "answer": 0, "note": "live 作动词，the Sawyers 复数用原形。" },
+    { "q": "go to work / go to school 中 work, school 前：", "options": ["不加冠词", "加 the", "加 a", "加 an"], "answer": 0, "note": "work/school/bed 前不带冠词。" },
+    { "q": "第三人称单数：He ___ (watch) television.", "options": ["watches", "watch", "watching", "watchs"], "answer": 0, "note": "-ch 结尾加 -es：watch → watches。" },
+    { "q": "at night 表示：", "options": ["在夜里", "在傍晚", "在白天", "在正午"], "answer": 0, "note": "at night 在夜里；傍晚用 in the evening。" },
+    { "q": "She does the housework. 的否定句是：", "options": ["She doesn't do the housework.", "She don't do the housework.", "She doesn't the housework.", "She isn't do the housework."], "answer": 0, "note": "实义动词否定借助 doesn't，后接原形 do。" },
+    { "q": "stay at home 中的 home 是：", "options": ["名词「家」", "副词", "形容词", "代词"], "answer": 0, "note": "在 stay at home 中 home 是名词，at 为介词；若说 stay home 则 home 为副词。" }
+  ],
+  "grammar": [
+    {
+      "title": "一般现在时（2）：习惯动作",
+      "structure": "主语 + 动词原形 / 单三形式（+ 频度副词/时间短语）",
+      "definition": "一般现在时表示习惯动作、有规律的行为以及永恒现象，常与频度副词（always/often/sometimes/usually）和时间短语（every day, in the morning, at noon/night）连用。",
+      "usage": "The Sawyers live at 87 King Street. / She always eats her lunch at noon.",
+      "examples": [
+        { "en": "Mr Sawyer goes to work in the morning.", "zh": "索耶先生早上去上班。" },
+        { "en": "They often drink tea together.", "zh": "她们经常在一起喝茶。" }
+      ]
+    },
+    {
+      "title": "第三人称单数动词变位",
+      "structure": "单三：+s / +es / 辅音+y→ies",
+      "definition": "当主语是 he/she/it 时，谓语动词变位：① 直接加 -s（come→comes, arrive→arrives）；② 以 -sh/-ch/-o/-s 结尾加 -es（wash→washes, go→goes, watch→watches, do→does）；③ 辅音+y 结尾变 y 为 i 再加 -es（carry→carries），元音+y 只加 -s（play→plays）。",
+      "usage": "goes to work / does the housework / arrives home late",
+      "examples": [
+        { "en": "Mrs Sawyer stays at home every day.", "zh": "索耶夫人每天呆在家里。" },
+        { "en": "He arrives home late.", "zh": "他到家很晚。" }
+      ]
+    },
+    {
+      "title": "不带冠词的固定搭配（go to … / at …）",
+      "structure": "go to work / go to school / go to bed；stay at home；at noon / at night；in the morning/afternoon/evening",
+      "definition": "由 go 引导的短语 work/school/bed 前不带冠词；home 在 stay at home 中作名词也不加 the；具体时刻/正午/夜里用 at（at noon/at night），上/下/晚用 in（in the morning/afternoon/evening）。",
+      "usage": "go to work / go to bed / stay at home / eat lunch at noon",
+      "examples": [
+        { "en": "Mr Sawyer goes to work and the children go to school.", "zh": "索耶先生去上班，孩子们去上学。" },
+        { "en": "She always eats her lunch at noon.", "zh": "她总是在正午吃午饭。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "go to work / go to school / go to bed", "usage": "上班 / 上学 / 上床睡觉（不加冠词）", "examples": [{ "en": "Mr Sawyer goes to work and the children go to school.", "zh": "索耶先生去上班，孩子们去上学。" }] },
+    { "phrase": "stay at home", "usage": "呆在家里（home 前不加 the）", "examples": [{ "en": "Mrs Sawyer stays at home every day.", "zh": "索耶夫人每天呆在家里。" }] },
+    { "phrase": "do the housework", "usage": "料理家务（housework 不可数）", "examples": [{ "en": "She does the housework.", "zh": "她料理家务。" }] },
+    { "phrase": "arrive home", "usage": "到家（home 副词前不加 at）", "examples": [{ "en": "They arrive home early.", "zh": "他们到家很早。" }] },
+    { "phrase": "at noon / at night", "usage": "在正午 / 在夜里", "examples": [{ "en": "She always eats her lunch at noon.", "zh": "她总是在正午吃午饭。" }] }
+  ]
+}

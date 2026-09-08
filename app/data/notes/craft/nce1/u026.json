@@ -1,0 +1,191 @@
+{
+  "title": "A pleasant climate / What nationality are they?",
+  "subtitle": "宜人的气候 / 他们是什么国籍？",
+  "lead": {
+    "question": "你遇到一个外国人，想问「你是哪国人？你们那儿的气候怎么样？」——你会用 Where do you come from? 和 What's the climate like …? 吗？",
+    "warmup": "先别看课文。想象你在新朋友的聚会上，问对方「你从哪儿来？你们国家的气候如何？」英文里 come from 表籍贯来源，What's … like? 是用来询问天气、气候、甚至人物外貌的万能句型——这里的 like 是介词「像」，不是动词「喜欢」。对方回答时常用 often / always / sometimes 这类频度副词（3月常刮风，4、5月总是暖和，但有时下雨）。第 52 课把 Where do you come from? / What nationality are you? 配上一串国家与国籍反复操练。",
+    "goals": [
+      "能用 Where do you come from? 询问籍贯来源",
+      "能用 What's the climate / weather like …? 询问气候、天气状况（like 作介词）",
+      "掌握频度副词 often / always / sometimes 的位置与含义",
+      "能用 What nationality are you? 询问国籍，并给出 X comes from … / He's … 的回答"
+    ],
+    "summary": "第 51 课汉斯问迪米特里来自哪国、气候如何；迪米特里说希腊气候宜人，春天常刮风、4/5月总暖和但有时下雨，夏天总是炎热、每天出太阳，秋天暖和偶尔冷且下雨，冬天常冷有时下雪。全课用 What's … like? 与频度副词描述气候。第 52 课用 Where do you come from? / What nationality are you? 把德国、英国、法国、希腊、意大利、挪威、西班牙、巴西等国籍逐一操练，巩固第三人称单数 comes。",
+    "tips": "① Where do you come from? = Where are you from? 问籍贯；② What's the climate like …? 中 like 是介词「像」，宾语是 what，不能当动词；③ 表示在某月用 in（in March / in April）；④ 频度副词 often 经常、always 总是、sometimes 有时，放在 be 后、实义动词前；⑤ 国籍回答用 He's German. / She's Spanish. 等，国家名前加 the 与否视习惯（the U.S. / England）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Does it ever snow in Greece?",
+      "zh": "希腊下过雪吗？",
+      "a": "Yes, it snows sometimes (in December, January and February).",
+      "aZh": "下，有时下雪（在12月、1月和2月）。",
+      "hint": "听 It's often cold in December, January and February. It snows sometimes."
+    },
+    {
+      "kind": "detail",
+      "q": "What's the climate like in Greece?",
+      "zh": "希腊的气候怎么样？",
+      "a": "It's very pleasant.",
+      "aZh": "非常宜人。",
+      "hint": "Dimitri 的回答：It's very pleasant."
+    },
+    {
+      "kind": "detail",
+      "q": "What's the weather like in spring in Greece?",
+      "zh": "希腊春天的天气怎么样？",
+      "a": "It's often windy in March. It's always warm in April and May, but it rains sometimes.",
+      "aZh": "3月常刮风；4月和5月总是暖和，但有时下雨。",
+      "hint": "windy / warm / rains sometimes"
+    },
+    {
+      "kind": "detail",
+      "q": "When is it always hot and the sun shines every day?",
+      "zh": "什么时候总是炎热、每天出太阳？",
+      "a": "In June, July and August (summer).",
+      "aZh": "6月、7月和8月（夏天）。",
+      "hint": "What's it like in summer?"
+    },
+    {
+      "kind": "think",
+      "q": "What's the difference between 'climate' and 'weather'?",
+      "zh": "climate（气候）和 weather（天气）有什么不同？",
+      "a": "Climate is the general weather condition of a region over a long period (e.g. pleasant); weather is the specific condition at a particular time (windy, rainy, hot). Both are asked with What's … like?",
+      "aZh": "climate 指一地区长期的天气状况（宜人）；weather 指特定时间的晴雨风雪（刮风、下雨、炎热）。两者都用 What's … like? 问。",
+      "hint": "一个长期、一个短期。"
+    },
+    {
+      "kind": "drill",
+      "q": "Where do you come from? / What nationality are you? — I come from the U.S. I'm American.",
+      "zh": "第 52 课操练：Where do you come from? / What nationality are you? 配国家与国籍。",
+      "a": "Where does she come from? She comes from England. She's English.",
+      "aZh": "她来自哪儿？她来自英国，她是英国人。",
+      "hint": "第三人称单数用 comes / is。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "Greece", "phonetic": "/ɡriːs/", "meanings": [{ "pos": "n.", "meaning": "希腊", "usage": "国家名；I come from Greece." }], "examples": [{ "en": "I come from Greece.", "zh": "我是希腊人。" }] },
+    { "word": "climate", "phonetic": "/ˈklaɪmət/", "meanings": [{ "pos": "n.", "meaning": "气候", "usage": "长期天气状况；What's the climate like?" }], "examples": [{ "en": "What's the climate like in your country?", "zh": "你们国家的气候怎么样？" }] },
+    { "word": "country", "phonetic": "/ˈkʌntri/", "meanings": [{ "pos": "n.", "meaning": "国家；乡下", "usage": "in your country 在你们国家" }], "examples": [{ "en": "What's the climate like in your country?", "zh": "你们国家的气候怎么样？" }] },
+    { "word": "pleasant", "phonetic": "/ˈpleznt/", "meanings": [{ "pos": "adj.", "meaning": "宜人的，令人愉快的", "usage": "The climate is very pleasant." }], "examples": [{ "en": "It's very pleasant.", "zh": "气候非常宜人。" }] },
+    { "word": "weather", "phonetic": "/ˈweðə/", "meanings": [{ "pos": "n.", "meaning": "天气", "usage": "特定时间的晴雨风雪；What's the weather like?" }], "examples": [{ "en": "What's the weather like in spring?", "zh": "春季的天气怎么样？" }] },
+    { "word": "spring", "phonetic": "/sprɪŋ/", "meanings": [{ "pos": "n.", "meaning": "春季", "usage": "in spring 在春天" }], "examples": [{ "en": "It's often windy in March.", "zh": "三月里常常刮风。" }] },
+    { "word": "windy", "phonetic": "/ˈwɪndi/", "meanings": [{ "pos": "adj.", "meaning": "有风的", "usage": "It's often windy in March." }], "examples": [{ "en": "It's often windy in March.", "zh": "三月里常常刮风。" }] },
+    { "word": "warm", "phonetic": "/wɔːm/", "meanings": [{ "pos": "adj.", "meaning": "温暖的", "usage": "It's always warm in April and May." }], "examples": [{ "en": "It's always warm in April and May.", "zh": "4月和5月总是温暖的。" }] },
+    { "word": "rain", "phonetic": "/reɪn/", "meanings": [{ "pos": "v.", "meaning": "下雨", "usage": "it rains sometimes 有时下雨" }, { "pos": "n.", "meaning": "雨" }], "examples": [{ "en": "It rains sometimes.", "zh": "有时下雨。" }] },
+    { "word": "sometimes", "phonetic": "/ˈsʌmtaɪmz/", "meanings": [{ "pos": "adv.", "meaning": "有时", "usage": "频度副词，放在 be 后/实义动词前" }], "examples": [{ "en": "It rains sometimes.", "zh": "有时下雨。" }] },
+    { "word": "summer", "phonetic": "/ˈsʌmə/", "meanings": [{ "pos": "n.", "meaning": "夏天", "usage": "in June, July and August" }], "examples": [{ "en": "It's always hot in summer.", "zh": "夏天总是炎热。" }] },
+    { "word": "autumn", "phonetic": "/ˈɔːtəm/", "meanings": [{ "pos": "n.", "meaning": "秋天", "usage": "美语常用 fall" }], "examples": [{ "en": "Is it cold or warm in autumn?", "zh": "秋季是冷还是暖？" }] },
+    { "word": "winter", "phonetic": "/ˈwɪntə/", "meanings": [{ "pos": "n.", "meaning": "冬天", "usage": "in winter 在冬天" }], "examples": [{ "en": "Is it very cold in winter?", "zh": "冬季很冷吗？" }] },
+    { "word": "snow", "phonetic": "/snəʊ/", "meanings": [{ "pos": "v.", "meaning": "下雪", "usage": "it snows sometimes 有时下雪" }], "examples": [{ "en": "It snows sometimes.", "zh": "有时下雪。" }] },
+    { "word": "January", "phonetic": "/ˈdʒænjuəri/", "meanings": [{ "pos": "n.", "meaning": "1月", "usage": "in January" }], "examples": [{ "en": "It's often cold in January.", "zh": "一月常常很冷。" }] },
+    { "word": "February", "phonetic": "/ˈfebruəri/", "meanings": [{ "pos": "n.", "meaning": "2月", "usage": "in February" }], "examples": [{ "en": "It's often cold in February.", "zh": "二月常常很冷。" }] },
+    { "word": "March", "phonetic": "/mɑːtʃ/", "meanings": [{ "pos": "n.", "meaning": "3月", "usage": "in March" }], "examples": [{ "en": "It's often windy in March.", "zh": "三月里常常刮风。" }] },
+    { "word": "April", "phonetic": "/ˈeɪprəl/", "meanings": [{ "pos": "n.", "meaning": "4月", "usage": "in April" }], "examples": [{ "en": "It's always warm in April.", "zh": "四月总是温暖。" }] },
+    { "word": "May", "phonetic": "/meɪ/", "meanings": [{ "pos": "n.", "meaning": "5月", "usage": "in May" }], "examples": [{ "en": "It's always warm in May.", "zh": "五月总是温暖。" }] },
+    { "word": "June", "phonetic": "/dʒuːn/", "meanings": [{ "pos": "n.", "meaning": "6月", "usage": "in June" }], "examples": [{ "en": "It's always hot in June.", "zh": "六月总是炎热。" }] },
+    { "word": "July", "phonetic": "/dʒuˈlaɪ/", "meanings": [{ "pos": "n.", "meaning": "7月", "usage": "in July" }], "examples": [{ "en": "It's always hot in July.", "zh": "七月总是炎热。" }] },
+    { "word": "August", "phonetic": "/ˈɔːɡəst/", "meanings": [{ "pos": "n.", "meaning": "8月", "usage": "in August" }], "examples": [{ "en": "It's always hot in August.", "zh": "八月总是炎热。" }] },
+    { "word": "September", "phonetic": "/sepˈtembə/", "meanings": [{ "pos": "n.", "meaning": "9月", "usage": "in September" }], "examples": [{ "en": "It's always warm in September.", "zh": "九月总是很暖和。" }] },
+    { "word": "October", "phonetic": "/ɒkˈtəʊbə/", "meanings": [{ "pos": "n.", "meaning": "10月", "usage": "in October" }], "examples": [{ "en": "It's always warm in October.", "zh": "十月总是很暖和。" }] },
+    { "word": "November", "phonetic": "/nəʊˈvembə/", "meanings": [{ "pos": "n.", "meaning": "11月", "usage": "in November" }], "examples": [{ "en": "It's often cold in November.", "zh": "十一月常常很冷。" }] },
+    { "word": "December", "phonetic": "/dɪˈsembə/", "meanings": [{ "pos": "n.", "meaning": "12月", "usage": "in December" }], "examples": [{ "en": "It's often cold in December.", "zh": "十二月常常很冷。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 51,
+      "title": "A pleasant climate",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "HANS", "en": "Where do you come from?" },
+        { "speaker": "DIMITRI", "en": "I come from Greece." },
+        { "speaker": "HANS", "en": "What's the climate like in your country?" },
+        { "speaker": "DIMITRI", "en": "It's very pleasant." },
+        { "speaker": "HANS", "en": "What's the weather like in spring?" },
+        { "speaker": "DIMITRI", "en": "It's often windy in March. It's always warm in April and May, but it rains sometimes." },
+        { "speaker": "HANS", "en": "What's it like in summer?" },
+        { "speaker": "DIMITRI", "en": "It's always hot in June, July and August. The sun shines every day." },
+        { "speaker": "HANS", "en": "Is it cold or warm in autumn?" },
+        { "speaker": "DIMITRI", "en": "It's always warm in September and October. It's often cold in November and it rains sometimes." },
+        { "speaker": "HANS", "en": "Is it very cold in winter?" },
+        { "speaker": "DIMITRI", "en": "It's often cold in December, January and February. It snows sometimes." }
+      ]
+    },
+    {
+      "lesson": 52,
+      "title": "What nationality are they?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Where do you come from? / What nationality are you? — I come from ___ . I'm ___ .",
+        "zh": "你来自哪儿？/ 你是什么国籍？——我来自……。我是……人。（把下列国家与国籍配对填进横线）",
+        "slots": [
+          { "en": "the U.S. — American", "zh": "美国 — 美国人" },
+          { "en": "England — English", "zh": "英国 — 英国人" },
+          { "en": "France — French", "zh": "法国 — 法国人" },
+          { "en": "Germany — German", "zh": "德国 — 德国人" },
+          { "en": "Greece — Greek", "zh": "希腊 — 希腊人" },
+          { "en": "Italy — Italian", "zh": "意大利 — 意大利人" },
+          { "en": "Norway — Norwegian", "zh": "挪威 — 挪威人" },
+          { "en": "Spain — Spanish", "zh": "西班牙 — 西班牙人" },
+          { "en": "Brazil — Brazilian", "zh": "巴西 — 巴西人" }
+        ],
+        "answers": ["Where does she come from? She comes from England. She's English.", "Where do they come from? They come from Italy. They're Italian."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：你是哪国人？", "a": "Where do you come from? (或 Where are you from?)", "note": "come from 表籍贯/来源。" },
+    { "q": "汉译英：你们国家的气候怎么样？", "a": "What's the climate like in your country?", "note": "like 是介词「像」，宾语是 what。" },
+    { "q": "第 52 课：We come from Germany, but Dimitri ___ from Greece.（第三人称单数）", "a": "comes", "note": "单三动词加 -s：come → comes。" },
+    { "q": "填空：It's often windy ___ March.（月份前用介词）", "a": "in", "note": "表示在某个月份用 in（in March / in April）。" },
+    { "q": "汉译英：每天阳光灿烂。", "a": "The sun shines every day.", "note": "shine 单三 shines；every day 每天。" },
+    { "q": "第 52 课：Where does she come from? She ___ from the U.S.", "a": "comes", "note": "单三 comes from。" },
+    { "q": "汉译英：有时下雪。", "a": "It snows sometimes.", "note": "snow 单三 snows；sometimes 频度副词放动词前。" }
+  ],
+  "quiz": [
+    { "q": "Where do you come from? 问的是：", "options": ["国籍/籍贯", "你从哪里走", "你现在在哪", "你要去哪"], "answer": 0, "note": "come from 表来自哪里、籍贯。" },
+    { "q": "What's the climate like in your country? 中的 like 是：", "options": ["介词「像」", "动词「喜欢」", "形容词", "副词"], "answer": 0, "note": "此处 like 是介词，宾语是 what，意为「……是什么样的」。" },
+    { "q": "表示在某个月份用：", "options": ["in", "on", "at", "for"], "answer": 0, "note": "in March / in April，月份前用 in。" },
+    { "q": "It snows sometimes. 中的 sometimes 是：", "options": ["频度副词「有时」", "某个时候", "一些次数", "一些时间"], "answer": 0, "note": "sometimes 频度副词「有时」；sometime 某时、some times 一些次数、some time 一段时间。" },
+    { "q": "频度副词中「总是」是：", "options": ["always", "often", "sometimes", "never"], "answer": 0, "note": "always 总是；often 经常；sometimes 有时；never 从不。" },
+    { "q": "I come from Greece. 的第三人称单数形式是：", "options": ["He comes from Greece.", "He come from Greece.", "He coming from Greece.", "He is come from Greece."], "answer": 0, "note": "单三动词 come → comes。" }
+  ],
+  "grammar": [
+    {
+      "title": "What's … like? 句型（询问状况/特征）",
+      "structure": "What + be + 主语 + like?",
+      "definition": "用 What's … like? 询问事物的状况或人物的外貌/特征，如天气、气候、性格等。此处的 like 是介词「像……样子」，宾语是 what，不要误当成动词「喜欢」。",
+      "usage": "What's the weather like today? / What's your brother like?",
+      "examples": [
+        { "en": "What's the climate like in your country?", "zh": "你们国家的气候怎么样？" },
+        { "en": "What's the weather like in spring?", "zh": "春季的天气怎么样？" }
+      ]
+    },
+    {
+      "title": "频度副词 often / always / sometimes",
+      "structure": "be + 频度副词 + … / 主语 + 频度副词 + 实义动词",
+      "definition": "often（经常）、always（总是）、sometimes（有时）等表示非确定频度，常回答 how often 的提问。位置在 be 动词之后、实义动词之前。",
+      "usage": "It's always warm in April. / It rains sometimes.",
+      "examples": [
+        { "en": "It's often windy in March.", "zh": "三月里常常刮风。" },
+        { "en": "The sun shines every day.", "zh": "每天阳光灿烂。" }
+      ]
+    },
+    {
+      "title": "come from 与国籍表达",
+      "structure": "主语 + come(s) from + 国家；What nationality + be + 主语?",
+      "definition": "come from 表示来源/籍贯，等于 be from。问国籍可用 Where do you come from? 或 What nationality are you?，回答用 He/She comes from … / He's German. 等。",
+      "usage": "I come from Greece. / She's Greek.",
+      "examples": [
+        { "en": "Where do you come from?", "zh": "你是哪国人？" },
+        { "en": "What nationality are they? They're Italian.", "zh": "他们是什么国籍？他们是意大利人。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "What's the climate / weather like …?", "usage": "询问气候/天气状况（like 为介词）", "examples": [{ "en": "What's the climate like in your country?", "zh": "你们国家的气候怎么样？" }] },
+    { "phrase": "come from", "usage": "来自（籍贯/来源），等于 be from", "examples": [{ "en": "I come from Greece.", "zh": "我是希腊人。" }] },
+    { "phrase": "in + 月份", "usage": "表示在某个月份", "examples": [{ "en": "It's often windy in March.", "zh": "三月里常常刮风。" }] },
+    { "phrase": "the sun shines", "usage": "出太阳", "examples": [{ "en": "The sun shines every day.", "zh": "每天阳光灿烂。" }] }
+  ]
+}

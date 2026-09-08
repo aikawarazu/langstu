@@ -1,0 +1,186 @@
+{
+  "title": "Is that all? / I don't have any ..., but I have some ...",
+  "subtitle": "就这些吗？/ 我没有……，可我有……",
+  "lead": {
+    "question": "你在文具店要买信封、信纸、墨水、胶水、一大盒粉笔，最后说「就这些吗」——怎样用 some/any 一样一样报出要买的东西，又怎样用 one 指代「一盒/一本」？",
+    "warmup": "先别看课文。想象你在文具店：要大号还是小号信封？要信纸（注意 writing paper 不可数，不能说 a writing paper）、要墨水、要胶水、要一大盒粉笔。售货员说只有小盒的粉笔，问「你要一盒吗」——这里的 one 代替 one small box of chalk。听录音时留意 some/any 在肯定、疑问、否定里的分工，以及 one 怎么代替刚提过的单数可数名词。",
+    "goals": [
+      "能用 Do you want the large size or the small size? 选择尺码",
+      "理解 writing paper, glue, chalk, ink 是不可数，需借量词 a pad / a bottle of / a box of",
+      "能用 Do you have any ...? / I don't have any ... 表示有无",
+      "理解 one 代替前文单数可数名词（one small box of chalk）",
+      "会用 Is that all? / What else do you want? 收尾购物对话"
+    ],
+    "summary": "第 59 课女士在文具店买信封、信纸簿、墨水、胶水和粉笔，售货员只有小盒粉笔，问 Do you want one?；女士说「就这些」并要找零。全课集中操练 some/any 与 one 的用法。第 60 课用 I don't have any X, but I have some Y. 反复替换水果、蔬菜、食品，巩固 any（否定/疑问）与 some（肯定）的对立。",
+    "tips": "① writing paper / glue / chalk / ink 不可数，不能说 a writing paper，要 a piece of paper / a bottle of ink / a box of chalk；② some 用于肯定，any 用于否定和疑问；③ Do you want one? 中 one 代替 one small box of chalk，避免重复；④ I only have small boxes 后省了 of chalk；⑤ Is that all? 是店员收尾问句，That's all. 是顾客答「就这些」；⑥ change 指零钱。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Does the lady buy any chalk?",
+      "zh": "这位女士有没有买粉笔？",
+      "a": "No, she doesn't. The shop assistant only has small boxes and she doesn't want one.",
+      "aZh": "没有。售货员只有小盒的，她不要。",
+      "hint": "听 And I want a large box of chalk... I only have small boxes. Do you want one? / No, thank you."
+    },
+    {
+      "kind": "detail",
+      "q": "What size envelopes does the lady want?",
+      "zh": "女士要大号的还是小号的信封？",
+      "a": "The large size.",
+      "aZh": "大号的。",
+      "hint": "Do you want the large size, or the small size? — The large size please."
+    },
+    {
+      "kind": "detail",
+      "q": "What does the lady want besides envelopes and writing paper?",
+      "zh": "除了信封和信纸，女士还想要什么？",
+      "a": "Some black ink, some glue, and a large box of chalk.",
+      "aZh": "黑色墨水、胶水和一大盒粉笔。",
+      "hint": "And I want some black ink and some glue. / And I want a large box of chalk, too."
+    },
+    {
+      "kind": "detail",
+      "q": "What does 'Do you want one?' refer to?",
+      "zh": "「Do you want one?」里的 one 指什么？",
+      "a": "One small box of chalk.",
+      "aZh": "一小盒粉笔。",
+      "hint": "前文 I only have small boxes. boxes 后是 of chalk 的省略。"
+    },
+    {
+      "kind": "think",
+      "q": "Why can't we say 'a writing paper' or 'a chalk'?",
+      "zh": "为什么不能说 a writing paper、a chalk 这种带 a 的说法？",
+      "a": "paper, glue, chalk, ink are uncountable nouns in English; they take no a/an and no plural. To count them you use measure phrases: a piece of paper, a bottle of ink, a box of chalk.",
+      "aZh": "paper/glue/chalk/ink 在英语里不可数，不加 a/an、无复数；要计数得用量词短语。",
+      "hint": "不可数名词靠量词短语来计数。"
+    },
+    {
+      "kind": "drill",
+      "q": "I don't have any grapes, but I have some peaches. / I don't have any mince, but I have some steak.",
+      "zh": "第 60 课操练：把瓜果食品成对填进 I don't have any ___ , but I have some ___.",
+      "a": "I don't have any tomatoes, but I have some potatoes.",
+      "aZh": "我没有西红柿，可我有土豆。",
+      "hint": "否定用 any，肯定用 some。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "envelope", "phonetic": "/ɪnˈveləʊp/", "meanings": [{ "pos": "n.", "meaning": "信封", "usage": "I want some envelopes, please." }], "examples": [{ "en": "I want some envelopes, please.", "zh": "请给我拿一些信封。" }] },
+    { "word": "size", "phonetic": "/saɪz/", "meanings": [{ "pos": "n.", "meaning": "尺寸，尺码，大小", "usage": "the large size / the small size" }], "examples": [{ "en": "Do you want the large size, or the small size?", "zh": "您要大号的还是小号的？" }] },
+    { "word": "large", "phonetic": "/lɑːdʒ/", "meanings": [{ "pos": "adj.", "meaning": "大的", "usage": "与 small 相对" }], "examples": [{ "en": "The large size, please.", "zh": "请拿大号的。" }] },
+    { "word": "small", "phonetic": "/smɔːl/", "meanings": [{ "pos": "adj.", "meaning": "小的", "usage": "与 large 相对" }], "examples": [{ "en": "I only have small boxes.", "zh": "我只有小盒的。" }] },
+    { "word": "pad", "phonetic": "/pæd/", "meanings": [{ "pos": "n.", "meaning": "信纸簿，便笺本", "usage": "可数；a pad 一本" }], "examples": [{ "en": "Do you want a pad?", "zh": "您要一本吗？" }] },
+    { "word": "writing paper", "phonetic": "/ˈraɪtɪŋ ˈpeɪpə/", "meanings": [{ "pos": "n.", "meaning": "信纸", "usage": "不可数，不能说 a writing paper" }], "examples": [{ "en": "Do you have any writing paper?", "zh": "您有信纸吗？" }] },
+    { "word": "glue", "phonetic": "/ɡluː/", "meanings": [{ "pos": "n.", "meaning": "胶水", "usage": "不可数；a bottle of glue" }], "examples": [{ "en": "And I want some black ink and some glue.", "zh": "我还想要黑色墨水和胶水。" }] },
+    { "word": "bottle", "phonetic": "/ˈbɒtl/", "meanings": [{ "pos": "n.", "meaning": "瓶子", "usage": "量词，a bottle of + 不可数" }], "examples": [{ "en": "A bottle of ink and a bottle of glue.", "zh": "一瓶墨水和一瓶胶水。" }] },
+    { "word": "ink", "phonetic": "/ɪŋk/", "meanings": [{ "pos": "n.", "meaning": "墨水", "usage": "不可数；a bottle of ink" }], "examples": [{ "en": "some black ink", "zh": "一些黑色墨水" }] },
+    { "word": "chalk", "phonetic": "/tʃɔːk/", "meanings": [{ "pos": "n.", "meaning": "粉笔", "usage": "不可数；a box of chalk / a piece of chalk" }], "examples": [{ "en": "I want a large box of chalk, too.", "zh": "我还要一大盒粉笔。" }] },
+    { "word": "box", "phonetic": "/bɒks/", "meanings": [{ "pos": "n.", "meaning": "盒子，箱子", "usage": "可数；a box of chalk" }], "examples": [{ "en": "I only have small boxes.", "zh": "我只有小盒的。" }] },
+    { "word": "change", "phonetic": "/tʃeɪndʒ/", "meanings": [{ "pos": "n.", "meaning": "零钱，找给的钱", "usage": "I want my change." }], "examples": [{ "en": "I want my change.", "zh": "我要找的零钱。" }] },
+    { "word": "shop assistant", "phonetic": "/ʃɒp əˈsɪstənt/", "meanings": [{ "pos": "n.", "meaning": "售货员", "usage": "本课场景词" }], "examples": [{ "en": "Is that all?", "zh": "就要这些吗？（售货员收尾问）" }] },
+    { "word": "else", "phonetic": "/els/", "meanings": [{ "pos": "adv.", "meaning": "其他的，别的", "usage": "接在疑问/不定代词后" }], "examples": [{ "en": "What else do you want?", "zh": "您还要什么吗？" }] }
+  ],
+  "text": [
+    {
+      "lesson": 59,
+      "title": "Is that all?",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "LADY", "en": "I want some envelopes, please.", "zh": "请给我拿一些信封。" },
+        { "speaker": "STATIONER", "en": "Do you want the large size, or the small size?", "zh": "您要大号的还是小号的？" },
+        { "speaker": "LADY", "en": "The large size, please.", "zh": "请拿大号的。", "note": "选择疑问句，不用 yes/no 回答" },
+        { "speaker": "LADY", "en": "Do you have any writing paper?", "zh": "您有信纸吗？", "note": "writing paper 不可数，疑问用 any" },
+        { "speaker": "STATIONER", "en": "Yes, we do. I don't have any small pads. I only have large ones. Do you want a pad?", "zh": "有。我没有小本的信纸，只有大本的。您要一本吗？", "note": "ones 代替 large pads；a pad 一本" },
+        { "speaker": "LADY", "en": "Yes, please.", "zh": "好，请拿一本。" },
+        { "speaker": "LADY", "en": "And I want some black ink and some glue.", "zh": "我还想要黑色墨水和胶水。" },
+        { "speaker": "STATIONER", "en": "A bottle of ink and a bottle of glue.", "zh": "一瓶墨水和一瓶胶水。", "note": "ink/glue 不可数，借 a bottle of" },
+        { "speaker": "LADY", "en": "And I want a large box of chalk, too.", "zh": "我还要一大盒粉笔。" },
+        { "speaker": "STATIONER", "en": "I only have small boxes. Do you want one?", "zh": "我只有小盒的。您要一盒吗？", "note": "one = one small box of chalk" },
+        { "speaker": "LADY", "en": "No, thank you.", "zh": "不了，谢谢。" },
+        { "speaker": "STATIONER", "en": "Is that all?", "zh": "就要这些吗？" },
+        { "speaker": "LADY", "en": "That's all, thank you.", "zh": "就这些，谢谢。", "note": "That's all. 收尾答语" },
+        { "speaker": "STATIONER", "en": "What else do you want?", "zh": "您还要什么吗？", "note": "else 接在 what 后" },
+        { "speaker": "LADY", "en": "I want my change.", "zh": "我要找的零钱。", "note": "change 零钱" }
+      ]
+    },
+    {
+      "lesson": 60,
+      "title": "I don't have any ..., but I have some ...",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "I don't have any ___ , but I have some ___ .",
+        "zh": "我没有……，可我有……。（把瓜果食品成对填进横线：否定用 any，肯定用 some）",
+        "slots": [
+          { "en": "grapes — peaches", "zh": "葡萄 — 桃子" },
+          { "en": "tomatoes — potatoes", "zh": "西红柿 — 土豆" },
+          { "en": "mince — steak", "zh": "肉馅 — 牛排" },
+          { "en": "glue — ink", "zh": "胶水 — 墨水" },
+          { "en": "envelopes — writing paper", "zh": "信封 — 信纸" },
+          { "en": "honey — jam", "zh": "蜂蜜 — 果酱" },
+          { "en": "wine — beer", "zh": "葡萄酒 — 啤酒" },
+          { "en": "bread — biscuits", "zh": "面包 — 饼干" },
+          { "en": "butter — eggs", "zh": "黄油 — 鸡蛋" },
+          { "en": "lettuces — cabbages", "zh": "生菜 — 卷心菜" }
+        ],
+        "answers": ["I don't have any grapes, but I have some peaches.", "I don't have any mince, but I have some steak."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：请给我拿一些信封。", "a": "I want some envelopes, please.", "note": "some 用于肯定请求。" },
+    { "q": "把 Do you have any small pads? 变成否定句。", "a": "I don't have any small pads.", "note": "have 变 don't have，some 换 any。" },
+    { "q": "汉译英：一瓶墨水。", "a": "A bottle of ink.", "note": "ink 不可数，借 a bottle of。" },
+    { "q": "填空：I only have small ___ (box). Do you want ___ (one)?", "a": "boxes; one", "note": "box 可数用复数 boxes；one 代替 one small box of chalk。" },
+    { "q": "汉译英：就这些，谢谢。", "a": "That's all, thank you.", "note": "Is that all? 是店员收尾问句。" },
+    { "q": "改错：I want a writing paper.", "a": "I want some writing paper. (或 a piece of writing paper)", "note": "writing paper 不可数。" },
+    { "q": "汉译英：我要找的零钱。", "a": "I want my change.", "note": "change 指零钱。" }
+  ],
+  "quiz": [
+    { "q": "「请给我拿一些信封」正确说法是：", "options": ["I want some envelopes, please.", "I want any envelopes, please.", "I want a envelope, please.", "I want some envelope."], "answer": 0, "note": "some 用于肯定；envelope 用复数。" },
+    { "q": "「一瓶胶水」正确说法是：", "options": ["A bottle of glue.", "A glue.", "A glues.", "Glue."], "answer": 0, "note": "glue 不可数，借 a bottle of。" },
+    { "q": "Do you have any small pads? 的否定形式是：", "options": ["I don't have any small pads.", "I don't have some small pads.", "I haven't small pads.", "I don't have a small pad."], "answer": 0, "note": "否定用 any。" },
+    { "q": "Do you want one? 中的 one 指：", "options": ["one small box of chalk", "chalk（不可数）", "the large size", "writing paper"], "answer": 0, "note": "one 代替 one small box of chalk。" },
+    { "q": "店员收尾问「就这些吗」说：", "options": ["Is that all?", "That's all.", "What else?", "I want my change."], "answer": 0, "note": "Is that all? 收尾；That's all 是顾客答。" },
+    { "q": "要表示「一块肥皂/一盒粉笔」用：", "options": ["a piece of soap / a box of chalk", "a soap / a chalk", "soaps / chalks", "some soap box"], "answer": 0, "note": "不可数名词借量词短语。" }
+  ],
+  "grammar": [
+    {
+      "title": "some 与 any 的用法",
+      "structure": "some（肯定句）/ any（否定句、疑问句）",
+      "definition": "some 和 any 都表示「一些」，后接可数复数或不可数名词。some 用于肯定句；any 用于否定句和疑问句。",
+      "usage": "I want some envelopes. / I don't have any small pads. / Do you have any writing paper?",
+      "examples": [
+        { "en": "I want some black ink and some glue.", "zh": "我想要一些黑色墨水和胶水。" },
+        { "en": "I don't have any small pads.", "zh": "我没有小本的信纸。" }
+      ]
+    },
+    {
+      "title": "代词 one 代替单数可数名词",
+      "structure": "one（单数可数）/ ones（复数可数）代替前文名词",
+      "definition": "one 是代词，代替刚提过的单数可数名词，避免重复。前文有 a pad / a box of chalk，售货员问 Do you want one? 中 one = one small box of chalk。复数用 ones。",
+      "usage": "I only have large ones. / Do you want one?",
+      "examples": [
+        { "en": "Do you want a pad? — Yes, please.", "zh": "您要一本吗？——好，请拿一本。" },
+        { "en": "I only have small boxes. Do you want one?", "zh": "我只有小盒的。您要一盒吗？" }
+      ]
+    },
+    {
+      "title": "不可数名词与量词短语",
+      "structure": "a piece of / a bottle of / a box of / a pad of + 不可数名词",
+      "definition": "writing paper, glue, chalk, ink 等不可数，不能加 a/an、无复数。要表示数量须借助可数量词短语；量词本身可数。",
+      "usage": "a piece of paper, a bottle of ink, a box of chalk, a pad of writing paper",
+      "examples": [
+        { "en": "A bottle of ink and a bottle of glue.", "zh": "一瓶墨水和一瓶胶水。" },
+        { "en": "I want a large box of chalk, too.", "zh": "我还要一大盒粉笔。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "Is that all?", "usage": "购物结束时店员收尾问「就这些吗」", "examples": [{ "en": "Is that all? That's all, thank you.", "zh": "就这些吗？是的，就这些，谢谢。" }] },
+    { "phrase": "What else do you want?", "usage": "询问对方还想要什么其他东西", "examples": [{ "en": "What else do you want? I want my change.", "zh": "您还要什么吗？我要找我的零钱。" }] },
+    { "phrase": "Do you have any ...?", "usage": "询问是否有某物（疑问用 any）", "examples": [{ "en": "Do you have any writing paper?", "zh": "您有信纸吗？" }] },
+    { "phrase": "I don't have any ...", "usage": "表示没有某物（否定用 any）", "examples": [{ "en": "I don't have any small pads. I only have large ones.", "zh": "我没有小本的信纸，只有大本的。" }] },
+    { "phrase": "the large size or the small size", "usage": "询问或选择尺码大小", "examples": [{ "en": "Do you want the large size, or the small size?", "zh": "您要大号的还是小号的？" }] },
+    { "phrase": "a bottle of / a box of", "usage": "量词短语，后接不可数名词", "examples": [{ "en": "A bottle of ink and a box of chalk.", "zh": "一瓶墨水、一盒粉笔。" }] }
+  ]
+}

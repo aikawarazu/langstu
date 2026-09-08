@@ -1,0 +1,178 @@
+{
+  "title": "An interesting climate / Where do they come from?",
+  "subtitle": "有趣的气候 / 他们来自哪儿？",
+  "lead": {
+    "question": "英国人见面最爱聊什么？——如果你猜「天气」，那就对了。你会用 mild / windy / wet 描述英国各地天气，并用 Which … do you like best? 说清自己最爱哪个季节吗？",
+    "warmup": "先别看课文。想象你问一个英国人「你们国家气候怎样？」他多半会说「温和，但不总宜人」，然后细数：北部常冷、东部常刮风、西部常下雨、南部偶尔暖和。最妙的是——天气是英国人最爱聊的话题。本课用 in the North / in the East / in the West / in the South 描述方位（这些词大写，特指英国的一部分），并用 The sun rises early and sets late. 讲昼夜长短。第 54 课把 Where does he come from? / What nationality is he? 配上澳大利亚、奥地利、加拿大、中国、芬兰等国籍操练。",
+    "goals": [
+      "能用 mild / windy / wet / warm 等形容词描述天气与方位",
+      "能用 Which seasons do you like best? 表达最爱的季节",
+      "掌握 like 作动词（喜欢）与作介词（像）的区别",
+      "能用 Where does he come from? / What nationality is he? 询问第三人称国籍"
+    ],
+    "summary": "第 53 课汉斯问吉姆来自哪国、气候怎样；吉姆说英国气候温和但不总宜人，北部常冷、东部常刮风、西部常湿、南部有时暖和，他最爱春秋（昼长夜短、日出早落晚），不爱秋冬（昼短夜长、日出晚落早），并说天气是英国人最爱聊的话题。第 54 课用 Where does he come from? / Is he …? / What nationality is he? 把澳大利亚、奥地利、加拿大、中国、芬兰、印度、日本、尼日利亚、土耳其、韩国等国籍逐一操练，巩固单三 comes / is。",
+    "tips": "① in the North 中 North 大写，特指英国北部；仅表方位（a north wind）不大写；② Which … do you like best? 中 best 是副词 well 的最高级；③ The sun 中定冠词 the 表世界上独一无二的事物；④ rise（升起）与 set（落下）是不及物动词；⑤ like 作介词「像」：His car is like mine. 不同于动词「喜欢」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What is the favourite subject of conversation in England?",
+      "zh": "在英国最受欢迎的谈话话题是什么？",
+      "a": "The weather.",
+      "aZh": "天气。",
+      "hint": "听 It's our favourite subject of conversation."
+    },
+    {
+      "kind": "detail",
+      "q": "What's the climate like in England?",
+      "zh": "英国的气候怎么样？",
+      "a": "It's mild, but it's not always pleasant.",
+      "aZh": "温和，但不总是宜人的。",
+      "hint": "Jim 的第一句回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "Where is it often cold, windy, wet and warm in England?",
+      "zh": "在英国，哪里常冷、常刮风、常潮湿、偶尔暖和？",
+      "a": "Cold in the North, windy in the East, wet in the West, sometimes warm in the South.",
+      "aZh": "北部常冷、东部常刮风、西部常潮湿、南部有时暖和。",
+      "hint": "in the North / East / West / South（大写特指英国各地区）。"
+    },
+    {
+      "kind": "detail",
+      "q": "Which seasons does Jim like best, and why?",
+      "zh": "吉姆最喜欢哪些季节，为什么？",
+      "a": "Spring and summer, because the days are long, the nights short, and the sun rises early and sets late.",
+      "aZh": "春季和夏季，因为昼长夜短、日出早落晚。",
+      "hint": "Which seasons do you like best?"
+    },
+    {
+      "kind": "think",
+      "q": "Why is the weather a favourite subject of conversation in England?",
+      "zh": "为什么天气是英国人最爱聊的话题？",
+      "a": "Britain's climate is mild but changeable and unpredictable, so talking about the weather is a safe, universally acceptable opener that avoids awkward or private topics. Also note like can be a verb (like = 喜欢) or a preposition (like = 像).",
+      "aZh": "英国气候温和却多变难测，聊天气是安全、人人能接的话头，可避免尴尬或私密话题。另外注意 like 可作动词「喜欢」也可作介词「像」。",
+      "hint": "天气多变 + 安全开场。"
+    },
+    {
+      "kind": "drill",
+      "q": "Where does he come from? Is he Australian? Yes. He's Australian. He comes from Australia.",
+      "zh": "第 54 课操练：Where does he come from? / What nationality is he? 配国家与国籍。",
+      "a": "Where does she come from? Is she Chinese? Yes. She's Chinese. She comes from China.",
+      "aZh": "她来自哪儿？她是中国人吗？是的，她是中国人，来自中国。",
+      "hint": "单三用 does/comes/is。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "mild", "phonetic": "/maɪld/", "meanings": [{ "pos": "adj.", "meaning": "温和的，温暖的", "usage": "形容天气或性情" }], "examples": [{ "en": "It's mild, but it's not always pleasant.", "zh": "气候温和，但不总是宜人的。" }] },
+    { "word": "always", "phonetic": "/ˈɔːlweɪz/", "meanings": [{ "pos": "adv.", "meaning": "总是，一直", "usage": "频度副词，be 后/实义动词前" }], "examples": [{ "en": "It's always warm in April and May.", "zh": "4月和5月总是温暖的。" }] },
+    { "word": "north", "phonetic": "/nɔːθ/", "meanings": [{ "pos": "n.", "meaning": "北方", "usage": "in the North 特指英国北部（大写）" }], "examples": [{ "en": "The weather's often cold in the North.", "zh": "北部的天气常常寒冷。" }] },
+    { "word": "east", "phonetic": "/iːst/", "meanings": [{ "pos": "n.", "meaning": "东方", "usage": "in the East 特指英国东部" }], "examples": [{ "en": "The weather's often windy in the East.", "zh": "东部常常刮风。" }] },
+    { "word": "wet", "phonetic": "/wet/", "meanings": [{ "pos": "adj.", "meaning": "潮湿的", "usage": "It's often wet in the West." }], "examples": [{ "en": "It's often wet in the West.", "zh": "西部常下雨（潮湿）。" }] },
+    { "word": "west", "phonetic": "/west/", "meanings": [{ "pos": "n.", "meaning": "西方", "usage": "in the West 特指英国西部" }], "examples": [{ "en": "It's often wet in the West.", "zh": "西部常潮湿。" }] },
+    { "word": "south", "phonetic": "/saʊθ/", "meanings": [{ "pos": "n.", "meaning": "南方", "usage": "in the South 特指英国南部" }], "examples": [{ "en": "It's sometimes warm in the South.", "zh": "南部有时则很暖和。" }] },
+    { "word": "season", "phonetic": "/ˈsiːzn/", "meanings": [{ "pos": "n.", "meaning": "季节", "usage": "Which seasons do you like best?" }], "examples": [{ "en": "Which seasons do you like best?", "zh": "你最喜欢哪些季节？" }] },
+    { "word": "best", "phonetic": "/best/", "meanings": [{ "pos": "adv.", "meaning": "最（well 的最高级）", "usage": "修饰 like，作状语" }], "examples": [{ "en": "Which seasons do you like best?", "zh": "你最喜欢哪些季节？" }] },
+    { "word": "night", "phonetic": "/naɪt/", "meanings": [{ "pos": "n.", "meaning": "夜晚", "usage": "at night 在夜里" }], "examples": [{ "en": "The nights are long.", "zh": "夜晚很长。" }] },
+    { "word": "rise", "phonetic": "/raɪz/", "meanings": [{ "pos": "v.", "meaning": "升起", "usage": "日、月升起；单三 rises" }], "examples": [{ "en": "The sun rises early.", "zh": "太阳升得早。" }] },
+    { "word": "early", "phonetic": "/ˈɜːli/", "meanings": [{ "pos": "adv.", "meaning": "早", "usage": "修饰 rises/sets" }], "examples": [{ "en": "The sun rises early and sets late.", "zh": "太阳升得早而落得晚。" }] },
+    { "word": "set", "phonetic": "/set/", "meanings": [{ "pos": "v.", "meaning": "（日、月）落下", "usage": "单三 sets" }], "examples": [{ "en": "The sun sets late.", "zh": "太阳落得晚。" }] },
+    { "word": "late", "phonetic": "/leɪt/", "meanings": [{ "pos": "adv.", "meaning": "晚，迟", "usage": "反义 early" }], "examples": [{ "en": "The sun rises late and sets early.", "zh": "太阳升得晚而落得早。" }] },
+    { "word": "interesting", "phonetic": "/ˈɪntrəstɪŋ/", "meanings": [{ "pos": "adj.", "meaning": "有趣的，有意思的", "usage": "Our climate is certainly interesting." }], "examples": [{ "en": "It's certainly interesting.", "zh": "又确实很有意思。" }] },
+    { "word": "subject", "phonetic": "/ˈsʌbdʒɪkt/", "meanings": [{ "pos": "n.", "meaning": "话题；科目", "usage": "favourite subject of conversation 最爱聊的话题" }], "examples": [{ "en": "It's our favourite subject of conversation.", "zh": "天气是我们最喜欢谈论的话题。" }] },
+    { "word": "conversation", "phonetic": "/ˌkɒnvəˈseɪʃn/", "meanings": [{ "pos": "n.", "meaning": "谈话，交谈", "usage": "subject of conversation 话题" }], "examples": [{ "en": "It's our favourite subject of conversation.", "zh": "天气是我们最喜欢谈论的话题。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 53,
+      "title": "An interesting climate",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "HANS", "en": "Where do you come from?" },
+        { "speaker": "JIM", "en": "I come from England." },
+        { "speaker": "HANS", "en": "What's the climate like in your country?" },
+        { "speaker": "JIM", "en": "It's mild, but it's not always pleasant." },
+        { "en": "The weather's often cold in the North and windy in the East. It's often wet in the West and sometimes warm in the South.", "zh": "北部常常寒冷、东部常常刮风，西部常常潮湿、南部有时则很暖和。" },
+        { "speaker": "HANS", "en": "Which seasons do you like best?" },
+        { "speaker": "JIM", "en": "I like spring and summer. The days are long and the nights are short. The sun rises early and sets late. I don't like autumn and winter. The days are short and the nights are long. The sun rises late and sets early. Our climate is not very good, but it's certainly interesting. It's our favourite subject of conversation." }
+      ]
+    },
+    {
+      "lesson": 54,
+      "title": "Where do they come from?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Where does he / she come from? Is he / she ___ ? Yes. He's / She's ___ . He / She comes from ___ .",
+        "zh": "他/她来自哪儿？他是……人吗？是的，他是……人，来自……。（把下列国家与国籍配对填进横线）",
+        "slots": [
+          { "en": "Australia — Australian", "zh": "澳大利亚 — 澳大利亚人" },
+          { "en": "Austria — Austrian", "zh": "奥地利 — 奥地利人" },
+          { "en": "Canada — Canadian", "zh": "加拿大 — 加拿大人" },
+          { "en": "China — Chinese", "zh": "中国 — 中国人" },
+          { "en": "Finland — Finnish", "zh": "芬兰 — 芬兰人" },
+          { "en": "India — Indian", "zh": "印度 — 印度人" },
+          { "en": "Japan — Japanese", "zh": "日本 — 日本人" },
+          { "en": "Nigeria — Nigerian", "zh": "尼日利亚 — 尼日利亚人" },
+          { "en": "Turkey — Turkish", "zh": "土耳其 — 土耳其人" },
+          { "en": "Korea — Korean", "zh": "朝鲜/韩国 — 朝鲜/韩国人" }
+        ],
+        "answers": ["Where does he come from? Is he Australian? Yes. He's Australian. He comes from Australia.", "Where does she come from? Is she Chinese? Yes. She's Chinese. She comes from China."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：气候温和，但不总是宜人。", "a": "It's mild, but it's not always pleasant.", "note": "mild 温和；but 连接对照。" },
+    { "q": "汉译英：太阳升得早而落得晚。", "a": "The sun rises early and sets late.", "note": "rise/sets 单三；early/late 副词修饰。" },
+    { "q": "第 54 课：Does the sun set late?（变否定）", "a": "The sun doesn't set late.", "note": "含实义动词的否定借助 doesn't，后接原形 set。" },
+    { "q": "第 54 课：Does Jim come from England?（变否定）", "a": "He doesn't come from England.", "note": "单三否定用 doesn't come。" },
+    { "q": "汉译英：你最喜欢哪些季节？", "a": "Which seasons do you like best?", "note": "best 是副词 well 的最高级，修饰 like。" },
+    { "q": "汉译英：西部常下雨。", "a": "It's often wet in the West.", "note": "wet 潮湿；in the West 大写特指英国西部。" },
+    { "q": "第 54 课：Where does he come from? Is he Australian? — Yes. ___ Australian. He ___ from Australia.", "a": "He's; comes", "note": "国籍用 He's Australian；来自用 comes from。" }
+  ],
+  "quiz": [
+    { "q": "It's mild, but it's not always pleasant. 中的 mild 意思是：", "options": ["温和的", "寒冷的", "炎热的", "潮湿的"], "answer": 0, "note": "mild 指天气温暖、温和。" },
+    { "q": "The sun rises early. 中的 rises 是：", "options": ["第三人称单数", "过去式", "现在分词", "动词原形"], "answer": 0, "note": "主语 the sun 单三，rise → rises。" },
+    { "q": "His car is like mine. 中的 like 是：", "options": ["介词「像」", "动词「喜欢」", "形容词", "副词"], "answer": 0, "note": "此处 like 是介词，意为「像……一样」，区别于动词 like（喜欢）。" },
+    { "q": "in the North 中 North 大写是因为：", "options": ["特指英国北部", "句首", "专有名词", "复数"], "answer": 0, "note": "North 单独大写特指英国的一部分；仅表方位（a north wind）不大写。" },
+    { "q": "Which seasons do you like best? 中的 best 是：", "options": ["well 的最高级", "good 的最高级", "比较级", "原级"], "answer": 0, "note": "best 是副词 well 的最高级，修饰 like。" },
+    { "q": "He comes from Australia. 对应的国籍表达是：", "options": ["He's Australian.", "He's Australia.", "He comes from Australian.", "He is Australia."], "answer": 0, "note": "国籍形容词 Australian，国家名 Australia。" }
+  ],
+  "grammar": [
+    {
+      "title": "like (v.) 与 like (prep.) 的区别",
+      "structure": "like (v.) + 名词/代词（喜欢）；be + like（介词，像）",
+      "definition": "like 作动词表示「喜欢、想要」（I like coffee.）；作介词表示「像……一样」（His car is like mine. / She is very like her sister.）。What's … like? 中的 like 是介词。",
+      "usage": "I like spring and summer. / The new building looks like a big bird.",
+      "examples": [
+        { "en": "I like spring and summer.", "zh": "我喜欢春季和夏季。" },
+        { "en": "His car is like mine.", "zh": "他的汽车跟我的那辆一样。" }
+      ]
+    },
+    {
+      "title": "方位词大写（特指国家的一部分）",
+      "structure": "in the North / East / West / South（大写）",
+      "definition": "当 north/east/west/south 单独使用、特指某一国家/地区的一部分时首字母大写（in the North = in the north of England）；仅表方位意义时不大写（a north wind 北风）。",
+      "usage": "in the East 在东部 / in the West 在西方 / in the South 在南方",
+      "examples": [
+        { "en": "The weather's often cold in the North.", "zh": "北部的天气常常寒冷。" },
+        { "en": "It's often wet in the West.", "zh": "西部常潮湿。" }
+      ]
+    },
+    {
+      "title": "第三人称单数与一般疑问句（国籍）",
+      "structure": "Does + 单三主语 + come from …? / What nationality + is + 单三主语?",
+      "definition": "询问第三人称国籍用 Where does he come from? / What nationality is he?，回答用 He comes from … / He's German. 等。助动词 does/is 决定单三形式。",
+      "usage": "Does he come from France? / What nationality is he? He's German.",
+      "examples": [
+        { "en": "Where does he come from? He comes from Greece.", "zh": "他来自哪儿？他来自希腊。" },
+        { "en": "What nationality is he? He's Greek.", "zh": "他是什么国籍？他是希腊人。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "in the North / East / West / South", "usage": "在北部/东部/西部/南部（大写特指英国各地区）", "examples": [{ "en": "It's often wet in the West.", "zh": "西部常潮湿。" }] },
+    { "phrase": "Which … do you like best?", "usage": "你最喜欢哪个/哪些……？（best 为副词最高级）", "examples": [{ "en": "Which seasons do you like best?", "zh": "你最喜欢哪些季节？" }] },
+    { "phrase": "favourite subject of conversation", "usage": "最喜欢谈论的话题", "examples": [{ "en": "It's our favourite subject of conversation.", "zh": "天气是我们最喜欢谈论的话题。" }] },
+    { "phrase": "rise early and set late", "usage": "（太阳）升得早、落得晚", "examples": [{ "en": "The sun rises early and sets late.", "zh": "太阳升得早而落得晚。" }] }
+  ]
+}
