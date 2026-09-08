@@ -1,0 +1,179 @@
+{
+  "title": "Poor West / When will ...?",
+  "subtitle": "可怜的伊恩 / 什么时候将……？",
+  "lead": {
+    "question": "好邻居要搬走了，你会怎样送别？怎么用英语打听「他什么时候搬」「新房客什么时候搬进来」？",
+    "warmup": "先别看课文。想象三位太太在门口聊天：韦斯特先生上星期把房子卖了，明天下午就要搬走，新房客后天搬进来。聊天里自然会冒出大量将来时：He's going to move tomorrow.（他打算明天搬家）、They will move in the day after tomorrow.（他们后天搬进来）、I'll miss him.（我会想念他的）。再留意结尾那个小反转——他本不想搬，可他妻子想搬！",
+    "goals": [
+      "掌握一般将来时 will/shall + 动词原形及其缩写 'll / won't / shan't",
+      "能用 be going to 表示打算与即将发生的事",
+      "熟记将来时常用时间状语：tomorrow (morning/afternoon), the day after tomorrow, next week, in two days' time 等",
+      "会用 not yet（还没有）和 give one's regards to sb.（代为问候）"
+    ],
+    "summary": "第 91 课三位太太闲谈邻居：韦斯特先生上星期卖掉了房子，明天下午搬家，新房客后天搬进来。大家都舍不得这位好邻居，还要布朗太太代为问候；结尾揭晓：他本不想离开，是他妻子要离开。第 92 课操练一般将来时：把句子缩写成 He'll arrive tomorrow morning，并用「It snowed last night. — Yes, and it will snow tomorrow, too.」练 will 句型。",
+    "tips": "① will 可用于所有人称，shall 只用于第一人称 I/we 表单纯将来，缩写 shan't = shall not，won't = will not；② 口语里 be going to 更常用，表意图打算（I'm going to move）或有迹象即将发生（It's going to rain.）；③ all 指三个或以上「都」（We shall all miss him.），两个人用 both；④ ...but his wife did! 中的 did 代替前文的 wanted to leave，避免重复；⑤ not yet 还没有，回应 Has he moved yet? 这类现在完成时问句。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Who wanted to sell the house?",
+      "zh": "谁想卖房？",
+      "a": "Mr West's wife (did). He didn't want to leave, but his wife did!",
+      "aZh": "韦斯特先生的妻子想卖。他本不想离开，可他妻子要离开！",
+      "hint": "听对话最后两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "When did Mr West sell his house, and when is he going to move?",
+      "zh": "韦斯特先生什么时候卖掉房子的？他打算什么时候搬？",
+      "a": "He sold it last week. He's going to move tomorrow afternoon.",
+      "aZh": "他上星期卖掉的，打算明天下午搬。",
+      "hint": "一个过去时，一个将来时。"
+    },
+    {
+      "kind": "detail",
+      "q": "When will the new people move into the house?",
+      "zh": "新房客什么时候搬进这所房子？",
+      "a": "Mrs Brown thinks they will move in the day after tomorrow.",
+      "aZh": "布朗太太想他们后天搬进来。",
+      "hint": "move in 后面跟的时间。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Mrs Green ask Mrs Brown to do?",
+      "zh": "格林太太请布朗太太做什么？",
+      "a": "She asks her to give Mr West her regards.",
+      "aZh": "请她代自己向韦斯特先生问候。",
+      "hint": "Please give him my regards."
+    },
+    {
+      "kind": "think",
+      "q": "Why do the neighbours say 'Poor Mr West'? What does poor mean here?",
+      "zh": "邻居们为什么说 Poor Mr West？这里的 poor 是什么意思？",
+      "a": "Poor here means 'unfortunate, to be pitied' — he didn't want to leave the house he had lived in, but his wife wanted to. It does not mean 'not rich'. 参考答案：poor 这里是「可怜的」，不是「贫穷的」——他不想离开却不得不搬。",
+      "aZh": "poor 这里是「可怜的」，表示同情；他不想离开这幢房子，可他妻子想离开。",
+      "hint": "想想 Poor man! 在中文里常怎么说。"
+    },
+    {
+      "kind": "drill",
+      "q": "It snowed last night. — Yes, and it will snow tomorrow, too.",
+      "zh": "第 92 课操练：昨晚下了雪。——是的，明天还会下。（用「一般过去时 + will ... tomorrow, too」操练将来时）",
+      "a": "He got up late this morning. — Yes, and he will get up late tomorrow, too.",
+      "aZh": "他今天早上起晚了。——是的，明天他还会起晚。",
+      "hint": "前句过去时，后句 will + 动词原形 + tomorrow, too。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "still", "phonetic": "/stɪl/", "meanings": [{ "pos": "adv.", "meaning": "还，仍旧", "usage": "He's still here. 他还在这儿；也可表「还要、甚至更」" }], "examples": [{ "en": "No, not yet. He's still here.", "zh": "不，还没有。他仍在这里。" }] },
+    { "word": "move", "phonetic": "/muːv/", "meanings": [{ "pos": "v.", "meaning": "搬家；移动", "usage": "move to a new house 搬进新居；move in 迁入" }], "examples": [{ "en": "Has he moved to his new house yet?", "zh": "他已经迁进新居了吗？" }] },
+    { "word": "miss", "phonetic": "/mɪs/", "meanings": [{ "pos": "v.", "meaning": "想念，思念", "usage": "另义「错过」：miss the train 错过火车（见第 95 课）" }], "examples": [{ "en": "I'll miss him.", "zh": "我会想念他的。" }] },
+    { "word": "neighbour", "phonetic": "/ˈneɪbə/", "meanings": [{ "pos": "n.", "meaning": "邻居", "usage": "美式拼法 neighbor；next-door neighbour 隔壁邻居" }], "examples": [{ "en": "He has always been a good neighbour.", "zh": "他一直是个好邻居。" }] },
+    { "word": "person", "phonetic": "/ˈpɜːsn/", "meanings": [{ "pos": "n.", "meaning": "人", "usage": "a very nice person 一个非常好的人；复数 persons/people" }], "examples": [{ "en": "He's a very nice person.", "zh": "他是个非常好的人。" }] },
+    { "word": "people", "phonetic": "/ˈpiːpl/", "meanings": [{ "pos": "n.", "meaning": "人们", "usage": "集合名词，无复数；the new people 新住户" }], "examples": [{ "en": "When will the new people move into this house?", "zh": "新住户什么时候搬进这所房子？" }] },
+    { "word": "poor", "phonetic": "/pʊə/", "meanings": [{ "pos": "adj.", "meaning": "可怜的", "usage": "表同情，置于名词前：Poor Mr West!；另义「贫穷的」" }], "examples": [{ "en": "Poor Mr West! He didn't want to leave this house.", "zh": "可怜的韦斯特先生！他本不想离开这幢房子。" }] },
+    { "word": "leave", "phonetic": "/liːv/", "meanings": [{ "pos": "v.", "meaning": "离开", "usage": "过去式 left；leave a place 离开某地" }], "examples": [{ "en": "He didn't want to leave this house.", "zh": "他本不想离开这幢房子。" }] },
+    { "word": "wife", "phonetic": "/waɪf/", "meanings": [{ "pos": "n.", "meaning": "妻子", "usage": "复数 wives /waɪvz/" }], "examples": [{ "en": "No, he didn't want to leave, but his wife did!", "zh": "是啊，他是不想离开，可是他妻子要离开！" }] },
+    { "word": "shall", "phonetic": "/ʃæl/", "meanings": [{ "pos": "modal v.", "meaning": "将（用于第一人称）", "usage": "shall I/we 表单纯将来；缩写 shan't = shall not" }], "examples": [{ "en": "We shall all miss him.", "zh": "我们大家都会想念他的。" }] },
+    { "word": "regards", "phonetic": "/rɪˈɡɑːdz/", "meanings": [{ "pos": "n.", "meaning": "问候，致意", "usage": "give one's regards to sb. 向某人问候，常用复数" }], "examples": [{ "en": "Please give him my regards.", "zh": "请代我问候他。" }] },
+    { "word": "nice", "phonetic": "/naɪs/", "meanings": [{ "pos": "adj.", "meaning": "好的，令人愉快的", "usage": "a nice person 好人；夸人常用词" }], "examples": [{ "en": "He's a very nice person.", "zh": "他是个非常好的人。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 91,
+      "title": "Poor West",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MRS SMITH", "en": "Has Mr West sold his house yet?", "zh": "韦斯特先生已把他的房子卖掉了吗？", "note": "凯瑟琳；现在完成时 + yet" },
+        { "speaker": "MRS BROWN", "en": "Yes, he has. He sold it last week.", "zh": "是的，卖掉了。他上星期卖掉的。", "note": "詹尼；过去时 + last week" },
+        { "speaker": "MRS SMITH", "en": "Has he moved to his new house yet?", "zh": "他已经迁进新居了吗？" },
+        { "speaker": "MRS BROWN", "en": "No, not yet. He's still here. He's going to move tomorrow.", "zh": "不，还没有。他仍在这里。他打算明天搬家。", "note": "not yet 还没有；be going to 表打算" },
+        { "speaker": "MRS SMITH", "en": "When? Tomorrow morning?", "zh": "什么时候？明天上午吗？" },
+        { "speaker": "MRS BROWN", "en": "No. Tomorrow afternoon. I'll miss him. He has always been a good neighbour.", "zh": "不，明天下午。我会想念他的。他一直是个好邻居。" },
+        { "speaker": "MRS GREEN", "en": "He's a very nice person. We shall all miss him.", "zh": "他是个非常好的人，我们大家都会想念他的。", "note": "琳达；all 作 we 的同位语" },
+        { "speaker": "MRS SMITH", "en": "When will the new people move into this house?", "zh": "新住户什么时候搬进这所房子？" },
+        { "speaker": "MRS BROWN", "en": "I think that they will move in the day after tomorrow.", "zh": "我想他们将会在后天搬进来吧。", "note": "move in 迁入" },
+        { "speaker": "MRS GREEN", "en": "Will you see Mr West today, Mrs Brown?", "zh": "詹尼，您今天会见到韦斯特先生吗？" },
+        { "speaker": "MRS BROWN", "en": "Yes, I will.", "zh": "是的，我会见到他。" },
+        { "speaker": "MRS GREEN", "en": "Please give him my regards.", "zh": "请代我问候他。", "note": "give one's regards to sb." },
+        { "speaker": "MRS SMITH", "en": "Poor Mr West! He didn't want to leave this house.", "zh": "可怜的韦斯特先生！他本不想离开这幢房子。" },
+        { "speaker": "MRS BROWN", "en": "No, he didn't want to leave, but his wife did!", "zh": "是啊，他是不想离开，可是他妻子要离开！", "note": "did 代替 wanted to leave" }
+      ]
+    },
+    {
+      "lesson": 92,
+      "title": "When will ...?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "He/She/It ___ yesterday / this morning. — Yes, and he/she/it will ___ tomorrow, too.",
+        "zh": "他（她/它）昨天……了。——是的，明天还会……。（前句一般过去时，后句 will + 动词原形 + tomorrow, too）",
+        "slots": [
+          { "en": "snow — last night", "zh": "下雪 — 昨夜" },
+          { "en": "get up late — this morning (he)", "zh": "起晚 — 今天早上（他）" },
+          { "en": "arrive late — yesterday (he)", "zh": "迟到 — 昨天（他）" },
+          { "en": "finish work late — yesterday (he)", "zh": "下班晚 — 昨天（他）" },
+          { "en": "drive to London — yesterday (she)", "zh": "开车去伦敦 — 昨天（她）" },
+          { "en": "telephone him — yesterday (she)", "zh": "给他打电话 — 昨天（她）" },
+          { "en": "have a shave — this morning (he)", "zh": "刮脸 — 今天早上（他）" },
+          { "en": "sweep the floor — yesterday (she)", "zh": "扫地 — 昨天（她）" }
+        ],
+        "answers": ["It snowed last night. Yes, and it will snow tomorrow, too.", "He got up late this morning. Yes, and he will get up late tomorrow, too."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "把 He will arrive tomorrow morning. 缩写成口语形式。", "a": "He'll arrive tomorrow morning.", "note": "will 缩写为 'll，口语最常用。" },
+    { "q": "把 It will snow tonight. 改成否定句（缩写）。", "a": "It won't snow tonight.", "note": "won't = will not。" },
+    { "q": "汉译英：我会想念他的。", "a": "I'll miss him.", "note": "will + 动词原形表将来。" },
+    { "q": "汉译英：新住户后天搬进来。", "a": "The new people will move in the day after tomorrow.", "note": "the day after tomorrow 后天，配将来时。" },
+    { "q": "It snowed last night. 补一句：明天还会下。", "a": "Yes, and it will snow tomorrow, too.", "note": "will 问 will 答，too 放句末。" },
+    { "q": "汉译英：请代我向他问候。", "a": "Please give him my regards.", "note": "give one's regards to sb. 向某人问候。" },
+    { "q": "He didn't want to leave, but his wife ____. （用一句话补全）", "a": "did（= his wife wanted to leave）", "note": "did 代替上文的 wanted to leave，避免重复。" }
+  ],
+  "quiz": [
+    { "q": "一般将来时的基本形式是：", "options": ["will/shall + 动词原形", "will + 过去式", "am/is/are + 过去分词", "did + 动词原形"], "answer": 0, "note": "will/shall 后接动词原形；will 可用于所有人称。" },
+    { "q": "We shall all miss him. 中 shall 用于：", "options": ["第一人称 I/we", "第二人称 you", "第三人称 he/she/they", "任何人称"], "answer": 0, "note": "shall 表单纯将来时只用于第一人称。" },
+    { "q": "It's going to rain. 这句话表示：", "options": ["有迹象表明快要下雨了", "过去下过雨", "希望下雨", "下雨的能力"], "answer": 0, "note": "be going to 也可表示有迹象某事即将发生。" },
+    { "q": "「还没有」的正确简短回答是：", "options": ["No, not yet.", "No, not already.", "No, not still.", "No, yet not."], "answer": 0, "note": "not yet 还没有；already 一般用于肯定句。" },
+    { "q": "Poor Mr West! 中 poor 的意思是：", "options": ["可怜的", "贫穷的", "可怜的→此处表同情，不是穷", "瘦弱的"], "answer": 0, "note": "poor 置于称呼前表同情「可怜的」；与「贫穷」无关。" },
+    { "q": "No, he didn't want to leave, but his wife did! 中 did 代替：", "options": ["wanted to leave", "didn't want to leave", "left the house", "sold the house"], "answer": 0, "note": "did 代替上文的 wanted to leave，避免重复动词。" }
+  ],
+  "grammar": [
+    {
+      "title": "一般将来时（will / shall）",
+      "structure": "will/shall + 动词原形；缩写 'll；否定 won't / shan't",
+      "definition": "表示将来某一时刻的动作、状态与打算，一般与表示将来的时间状语连用。will 可用于所有人称；shall 只用于第一人称 I/we 表单纯将来。",
+      "usage": "常配 tomorrow, this month, the day after tomorrow, next week, in two days' time, from now on 等。",
+      "examples": [
+        { "en": "I shan't leave tonight. I'll leave tomorrow.", "zh": "今天夜里我不走，我明天走。" },
+        { "en": "When will the new people move into this house?", "zh": "新住户什么时候搬进这所房子？" }
+      ]
+    },
+    {
+      "title": "be going to 表打算与即将发生",
+      "structure": "am/is/are going to + 动词原形",
+      "definition": "口语中表示将来，比 will/shall 更普通：一是表示说话人的意图或打算，二是表示有迹象某事即将发生。",
+      "usage": "She is going to travel by air. / It's going to rain.",
+      "examples": [
+        { "en": "He's going to move tomorrow.", "zh": "他打算明天搬家。" },
+        { "en": "It's going to rain.", "zh": "将要下雨了。" }
+      ]
+    },
+    {
+      "title": "all 的位置与 did 代替动词短语",
+      "structure": "We shall all miss him. / ..., but his wife did.",
+      "definition": "all（指三个或以上「都」；两者用 both）作主语同位语，放在 be 后、实义动词前或 shall/will 之后。答句中的 did 可代替上文的动词短语，避免重复。",
+      "usage": "He didn't want to leave, but his wife did (= wanted to leave).",
+      "examples": [
+        { "en": "We shall all miss him.", "zh": "我们大家都会想念他的。" },
+        { "en": "No, he didn't want to leave, but his wife did!", "zh": "是啊，他是不想离开，可是他妻子要离开！" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "not yet", "usage": "还没有（回应完成时问句）", "examples": [{ "en": "Has he moved to his new house yet? — No, not yet.", "zh": "他迁进新居了吗？——还没有。" }] },
+    { "phrase": "move in", "usage": "迁入，搬进（新居）", "examples": [{ "en": "They will move in the day after tomorrow.", "zh": "他们将在后天搬进来。" }] },
+    { "phrase": "the day after tomorrow", "usage": "后天（配将来时）", "examples": [{ "en": "I think that they will move in the day after tomorrow.", "zh": "我想他们将会在后天搬进来吧。" }] },
+    { "phrase": "give one's regards to sb.", "usage": "代某人向……问候", "examples": [{ "en": "Please give him my regards.", "zh": "请代我问候他。" }] },
+    { "phrase": "miss sb.", "usage": "想念某人", "examples": [{ "en": "I'll miss him.", "zh": "我会想念他的。" }] }
+  ]
+}

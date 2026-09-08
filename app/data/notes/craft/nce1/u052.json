@@ -1,0 +1,183 @@
+{
+  "title": "The French test / too & enough",
+  "subtitle": "法语考试 / 太……与足够……",
+  "lead": {
+    "question": "考试出了考场，你问同学「考得怎样」——怎么问？怎么答「不太坏/恐怕不及格」？「题目太难了」用 too 还是 too much？",
+    "warmup": "先别看课文。考试后最常聊的就是难不难：Not too bad.（不算太坏）/ I hope I haven't failed.（希望别不及格）。表达「太难」「不够容易」要用固定搭配：形容词 + enough（easy enough 够容易），too + 形容词（too difficult 太难），后面还可以接 for sb（对某人来说）甚至 to do sth（以至于不能……）。先试着把「这题对我来说太难了」「这题够简单」说出来，再听 Harry 和 Dick 对答案。",
+    "goals": [
+      "能围绕考试展开问答：How was the examination? / Not too bad. / pass / fail",
+      "掌握 enough 的位置：形容词之后、名词之前（easy enough / enough money）",
+      "掌握 too + 形容词（+ for sb）(+ to do sth) 表示「太……以至于不能……」",
+      "会读会写 I.Q./Intelligence Test 等话题词汇，理解 cheer up 等口语"
+    ],
+    "summary": "第 103 课 Harry 问 Dick 考得怎样。Dick 觉得英语和数学不难、应该及格了；Harry 却嫌试卷不够容易，生怕不及格。Dick 说自己法语考砸了——16 道题都会，其余太难；Harry 安慰他：坐他旁边的那人三个小时只写了个名字、一个字都没写！第 104 课集中操练 too ... to 与 (not) ... enough (for sb) to do。",
+    "tips": "① enough 修饰形容词时放后面（easy enough），修饰名词时放前面（enough money）；② too + adj. + for sb (+ to do) 表示「对某人来说太……（而不能……）」，too 后不接 that 从句；③ pass in + 科目「（某科）及格」，fail (the paper)「不及格」；④ the rest「其余的」要带定冠词；⑤ at the top of「在……顶端」，反义 at the bottom of；⑥ cheer up「振作点、别灰心」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "How long did the exam last?",
+      "zh": "考试持续了多长时间？",
+      "a": "Three hours.",
+      "aZh": "三个小时。",
+      "hint": "听 ...he sat there and looked at it for three hours!"
+    },
+    {
+      "kind": "detail",
+      "q": "What does Dick think about his English and Maths papers?",
+      "zh": "迪克觉得自己的英语和数学考得怎么样？",
+      "a": "Not too bad — he thinks he passed in English and Mathematics because the questions were very easy.",
+      "aZh": "不算太坏——他觉得自己英语和数学及格了，因为题目很容易。",
+      "hint": "听 Dick 的第一句长回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "How many questions could Dick answer? What about the rest?",
+      "zh": "迪克能答出多少道题？其余的呢？",
+      "a": "He could answer sixteen of the questions. He couldn't answer the rest — they were too difficult for him.",
+      "aZh": "他能答出十六道题。其余的答不出来——那些题对他来说太难了。",
+      "hint": "sixteen ... But I couldn't answer the rest."
+    },
+    {
+      "kind": "detail",
+      "q": "What did the guy next to Harry do during the exam?",
+      "zh": "坐在哈里旁边的那个人考试时做了什么？",
+      "a": "He wrote his name at the top of the paper, then sat there and looked at it for three hours. He didn't write a word!",
+      "aZh": "他只在试卷顶端写了自己的名字，然后就坐在那儿对着考卷看了三个小时，一个字也没写！",
+      "hint": "Harry 讲的笑话：The guy next to me ..."
+    },
+    {
+      "kind": "think",
+      "q": "Why do we say 'weren't easy enough' but 'too difficult' — why not 'enough easy' or 'too much difficult'?",
+      "zh": "为什么说 weren't easy enough、too difficult，而不能说 enough easy 或 too much difficult？",
+      "a": "enough as an adverb always follows the adjective (easy enough); when it modifies a noun it goes before the noun (enough money). too goes directly before an adjective (too difficult); too much is used with uncountable nouns, not with adjectives.",
+      "aZh": "enough 修饰形容词时必须后置（easy enough），修饰名词时前置（enough money）；too 直接放在形容词前（too difficult），too much 只能修饰不可数名词，不能修饰形容词。",
+      "hint": "记位置：enough 形后名前，too 形前。"
+    },
+    {
+      "kind": "drill",
+      "q": "It was too expensive for him to buy. / It was cheap enough for him to buy.",
+      "zh": "第 104 课操练：用 too ... (for sb) to do 与 (not) ... enough (for sb) to do 描述「能不能做到」。",
+      "a": "The suitcase was too heavy for me to carry. / It was light enough for me to carry.",
+      "aZh": "这箱子太沉了，我扛不动。/ 它很轻，我扛得动。",
+      "hint": "too 表否定结果（不能），enough 表肯定结果（能）。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "exam", "phonetic": "/ɪɡˈzæm/", "meanings": [{ "pos": "n.", "meaning": "考试", "usage": "examination 的缩写；How was the exam?" }], "examples": [{ "en": "How was the examination, Dick?", "zh": "考试考得怎样，迪克？" }] },
+    { "word": "pass", "phonetic": "/pɑːs/", "meanings": [{ "pos": "v.", "meaning": "及格，通过", "usage": "pass in + 科目（某科）及格" }], "examples": [{ "en": "I think I passed in English and Mathematics.", "zh": "我想我的英语和数学及格了。" }] },
+    { "word": "mathematics", "phonetic": "/ˌmæθəˈmætɪks/", "meanings": [{ "pos": "n.", "meaning": "数学", "usage": "缩写 maths；口语常用 Maths paper 数学试卷" }], "examples": [{ "en": "I passed in English and Mathematics.", "zh": "我英语和数学及格了。" }] },
+    { "word": "easy", "phonetic": "/ˈiːzi/", "meanings": [{ "pos": "adj.", "meaning": "容易的", "usage": "easy enough 够容易（enough 后置）" }], "examples": [{ "en": "The questions were very easy.", "zh": "题目很容易。" }] },
+    { "word": "enough", "phonetic": "/ɪˈnʌf/", "meanings": [{ "pos": "adv.", "meaning": "足够地（放形容词之后）", "usage": "easy enough / big enough for her" }, { "pos": "adj.", "meaning": "足够的（放名词之前）", "usage": "enough money / enough time" }], "examples": [{ "en": "The English and Maths papers weren't easy enough for me.", "zh": "英语和数学试题对我来说不很容易。" }] },
+    { "word": "paper", "phonetic": "/ˈpeɪpə/", "meanings": [{ "pos": "n.", "meaning": "考卷；试卷", "usage": "the English paper 英语试卷；at the top of the paper 在试卷顶端" }], "examples": [{ "en": "The English and Maths papers weren't easy enough for me.", "zh": "英语和数学试卷对我来说不很容易。" }] },
+    { "word": "fail", "phonetic": "/feɪl/", "meanings": [{ "pos": "v.", "meaning": "未及格，失败", "usage": "fail the paper / fail in French；fail to do sth 未能做某事" }], "examples": [{ "en": "I hope I haven't failed.", "zh": "我希望别不及格。" }] },
+    { "word": "answer", "phonetic": "/ˈɑːnsə/", "meanings": [{ "pos": "v.", "meaning": "回答，答出", "usage": "answer the questions 答题" }], "examples": [{ "en": "I could answer sixteen of the questions.", "zh": "我能回答其中的16道题。" }] },
+    { "word": "difficult", "phonetic": "/ˈdɪfɪkəlt/", "meanings": [{ "pos": "adj.", "meaning": "困难的", "usage": "too difficult for sb 对某人来说太难" }], "examples": [{ "en": "They were too difficult for me.", "zh": "那些题对我来说太难了。" }] },
+    { "word": "mark", "phonetic": "/mɑːk/", "meanings": [{ "pos": "n.", "meaning": "分数", "usage": "get a low mark 分数很低" }], "examples": [{ "en": "I'm sure I've got a low mark.", "zh": "我的分数肯定很低。" }] },
+    { "word": "hate", "phonetic": "/heɪt/", "meanings": [{ "pos": "v.", "meaning": "讨厌，不喜欢", "usage": "hate them / hate exams" }], "examples": [{ "en": "I hate them.", "zh": "我讨厌它们。" }] },
+    { "word": "cheer", "phonetic": "/tʃɪə/", "meanings": [{ "pos": "v.", "meaning": "振作，振奋", "usage": "cheer up! 振作点！别灰心！" }], "examples": [{ "en": "Oh, cheer up! Perhaps we didn't do too badly.", "zh": "啊，别灰心！或许我们考得还不太糟。" }] },
+    { "word": "guy", "phonetic": "/ɡaɪ/", "meanings": [{ "pos": "n.", "meaning": "家伙，人（口语）", "usage": "the guy next to me 我旁边那个人" }], "examples": [{ "en": "The guy next to me wrote his name at the top of the paper.", "zh": "坐在我旁边的那个人在试卷顶端写了自己的名字。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 103,
+      "title": "The French test",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "HARRY", "en": "How was the examination, Dick?", "zh": "考试考得怎样，迪克？" },
+        { "speaker": "DICK", "en": "Not too bad. I think I passed in English and Mathematics. The questions were very easy. How about you, Harry?", "zh": "不算太坏，我想我的英语和数学及格了。题目很容易。加里，你怎么样？" },
+        { "speaker": "HARRY", "en": "The English and Maths papers weren't easy enough for me. I hope I haven't failed.", "zh": "英语和数学试题对我来说不很容易。我希望别不及格。" },
+        { "speaker": "DICK", "en": "I think I failed the French paper. I could answer sixteen of the questions. They were very easy. But I couldn't answer the rest. They were too difficult for me.", "zh": "我想我的法语没及格。我能回答其中的16道题，这些题很容易。但我回答不出其余的题，那些题对我来说太难了。" },
+        { "speaker": "HARRY", "en": "French tests are awful, aren't they?", "zh": "法语考试太可怕了，你说呢？" },
+        { "speaker": "DICK", "en": "I hate them. I'm sure I've got a low mark.", "zh": "我讨厌法语考试。我的分数肯定很低。" },
+        { "speaker": "HARRY", "en": "Oh, cheer up! Perhaps we didn't do too badly. The guy next to me wrote his name at the top of the paper.", "zh": "啊，别灰心！或许我们考得还不太糟。坐在我旁边的那个人只在试卷顶端写了自己的名字。" },
+        { "speaker": "DICK", "en": "Yes?", "zh": "是吗？" },
+        { "speaker": "HARRY", "en": "Then he sat there and looked at it for three hours! He didn't write a word!", "zh": "然后他就坐在那里，对着考卷看了3个小时，一个字也没写！" }
+      ]
+    },
+    {
+      "lesson": 104,
+      "title": "too & enough",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "It/They was (were) too ___ for him/her/them to ___ . / It/They was (were) ___ enough for him/her/them to ___ .",
+        "zh": "太……（以至于不能做）/ 足够……（能够做）——用 too 与 enough 操练 possible/impossible。",
+        "slots": [
+          { "en": "cheap — he could buy it", "zh": "便宜 — 他买得起" },
+          { "en": "expensive — he couldn't buy it", "zh": "贵 — 他买不起" },
+          { "en": "fresh — they could eat them", "zh": "新鲜 — 他们能吃" },
+          { "en": "stale — they couldn't eat them", "zh": "陈腐 — 他们不能吃" },
+          { "en": "loud — they could hear it", "zh": "响亮 — 他们听得见" },
+          { "en": "low — they couldn't hear it", "zh": "低沉 — 他们听不见" },
+          { "en": "low — he could climb it", "zh": "矮 — 他爬得上去" },
+          { "en": "high — he couldn't climb it", "zh": "高 — 他爬不上去" },
+          { "en": "soft — she could eat it", "zh": "软 — 她咬得动" },
+          { "en": "hard — she couldn't eat it", "zh": "硬 — 她咬不动" },
+          { "en": "sweet — she could eat it", "zh": "甜 — 她吃得下" },
+          { "en": "sour — she couldn't eat it", "zh": "酸 — 她吃不惯" }
+        ],
+        "answers": [
+          "Yes, he could. It was cheap enough for him to buy.",
+          "No, he couldn't. It was too expensive for him to buy."
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "补全（enough 位置）：The paper wasn't easy ____ for me.", "a": "enough", "note": "enough 修饰形容词时后置：easy enough。" },
+    { "q": "补全（enough 位置）：He didn't buy the car because he didn't have ____ money.", "a": "enough", "note": "enough 修饰名词时前置：enough money。" },
+    { "q": "汉译英：这箱子太沉了，你没法扛。", "a": "The box is too heavy for you to carry.", "note": "too + adj. + for sb + to do 表否定结果。" },
+    { "q": "汉译英：她未到独自生活的年纪。", "a": "She's not old enough to live alone.", "note": "not + adj. + enough + to do 表「不够……而不能」。" },
+    { "q": "汉译英：考试考得怎样？", "a": "How was the examination?", "note": "询问过去的事用一般过去时 was。" },
+    { "q": "改错：I think I failed in the French paper.", "a": "I think I failed the French paper.（fail 可直接接宾语）", "note": "fail sth 直接跟宾语；pass 则常用 pass in + 科目。" },
+    { "q": "汉译英：别灰心！", "a": "Cheer up!", "note": "cheer up 振作起来，常单独用作祈使句。" }
+  ],
+  "quiz": [
+    { "q": "下列哪句正确？", "options": ["This dress isn't big enough for her.", "This dress isn't enough big for her.", "This dress isn't big enough as for her.", "This dress is too much big for her."], "answer": 0, "note": "enough 修饰形容词必须后置：big enough；too much 不能修饰形容词。" },
+    { "q": "She hasn't got enough money for a holiday. 中 enough 的位置：", "options": ["名词之前", "名词之后", "动词之前", "句末"], "answer": 0, "note": "enough 修饰名词时放在名词前面。" },
+    { "q": "The exam was too difficult for him ____. 正确补全是：", "options": ["to pass", "passing", "passed", "for pass"], "answer": 0, "note": "too + adj. + for sb + to do sth，用不定式。" },
+    { "q": "「我想我的法语没及格」正确的是：", "options": ["I think I failed the French paper.", "I think I passed the French paper.", "I think I fail French.", "I think I failed in French paper the."], "answer": 0, "note": "fail + 宾语表「（某科）没及格」。" },
+    { "q": "The questions were very easy. But I couldn't answer the rest. 中 the rest 指：", "options": ["其余的题", "答卷纸", "考试时间", "分数"], "answer": 0, "note": "the rest 剩余部分，须与定冠词连用，这里指其余的题。" },
+    { "q": "French tests are awful, aren't they? 的肯定回答（同意）是：", "options": ["Yes, they are.", "Yes, they aren't.", "No, they are.", "Yes, it is."], "answer": 0, "note": "are 问 are 答；they 指复数的 tests。" }
+  ],
+  "grammar": [
+    {
+      "title": "enough 的用法",
+      "structure": "形容词 + enough / enough + 名词（+ for sb / to do sth）",
+      "definition": "enough 作副词修饰形容词或副词时必须后置（easy enough）；作形容词修饰名词时前置（enough money）。常接 enough ... for sb/sth 或 enough ... to do sth。",
+      "usage": "He failed the exam because it wasn't easy enough. / She's not old enough to live alone.",
+      "examples": [
+        { "en": "This dress isn't big enough for her.", "zh": "这件衣服对她来说不够大。" },
+        { "en": "He didn't buy the car because he didn't have enough money.", "zh": "他没买那部车，因为他没有足够的钱。" }
+      ]
+    },
+    {
+      "title": "too ... (for sb) (to do sth)",
+      "structure": "too + 形容词/副词 (+ for sb/sth) (+ to do sth)",
+      "definition": "too 表示「过于」，常构成 too ... for sb「对某人来说太……」和 too ... to do sth「太……以至于不能做某事」（含否定结果）。",
+      "usage": "It's too hot. / She couldn't answer the questions because they were too difficult for her.",
+      "examples": [
+        { "en": "The box is too heavy for you to carry.", "zh": "这个盒子太沉了，你没法扛起。" },
+        { "en": "The wall is too high for them to climb over.", "zh": "这堵墙太高了，他们无法攀越过去。" }
+      ]
+    },
+    {
+      "title": "too 与 enough 对比",
+      "structure": "too + adj. + to do（不能……）↔ adj. + enough + to do（能够……）",
+      "definition": "too 后接不定式表示否定结果（做不到）；enough 后接不定式表示肯定结果（做得到）。",
+      "usage": "比较：The wall is too high for them to climb over. / The wall is low enough for them to climb over.",
+      "examples": [
+        { "en": "It was too expensive for him to buy.", "zh": "它太贵了，他买不起。" },
+        { "en": "It was cheap enough for him to buy.", "zh": "它够便宜，他买得起。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "Not too bad.", "usage": "不算太坏（回答 How was ...?）", "examples": [{ "en": "How was the examination, Dick? — Not too bad.", "zh": "考试考得怎样，理查德？——不算太坏。" }] },
+    { "phrase": "pass in ...", "usage": "（某科目）及格", "examples": [{ "en": "I think I passed in English and Mathematics.", "zh": "我想我的英语和数学及格了。" }] },
+    { "phrase": "the rest", "usage": "其余的（部分），与定冠词连用", "examples": [{ "en": "But I couldn't answer the rest.", "zh": "但我回答不出其余的题。" }] },
+    { "phrase": "cheer up", "usage": "振作点，别灰心", "examples": [{ "en": "Oh, cheer up! Perhaps we didn't do too badly.", "zh": "啊，别灰心！或许我们考得还不太糟。" }] },
+    { "phrase": "next to", "usage": "邻近，紧挨着", "examples": [{ "en": "The guy next to me wrote his name at the top of the paper.", "zh": "坐在我旁边的那个人在试卷顶端写了自己的名字。" }] },
+    { "phrase": "at the top of", "usage": "在……顶端（反义：at the bottom of）", "examples": [{ "en": "He wrote his name at the top of the paper.", "zh": "他在试卷顶端写了自己的名字。" }] }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "title": "Paris in the Spring / Have you just been to ...?",
+  "subtitle": "巴黎之春 / 你刚去过……吗？",
+  "lead": {
+    "question": "朋友刚从电影院回来，你想聊两句：看了什么片？我早看过了——这时两个时态要接力上场，你分得清谁在哪一棒吗？",
+    "warmup": "先别看课文。想象你刚看完电影《巴黎之春》，朋友说他去年在电视上看过了。注意他说的两句话：I've already seen it.（我已看过了——现在完成时，谈「看没看」这件事的影响）→ I saw it on television last year.（我是去年在电视上看的——一给出 last year 这个具体过去时间，立刻换成一般过去时）。再留意 been to（去过某地，人已回来）和 never/ever（从未/曾经）。最后想想：Ken 说巴黎是美丽城市，可他四月份去的时候天气如何？",
+    "goals": [
+      "掌握现在完成时的疑问式：Have you just been to the cinema?",
+      "掌握现在完成时的否定式：I've never been there.",
+      "会用 ever / never 谈经历：Have you ever been there? — Yes, I have.",
+      "分清现在完成时与一般过去时：有 last year / in April 等具体过去时间就用一般过去时",
+      "记住 What's on?（上映什么片子？）、Just like ...!（就像……一样！）"
+    ],
+    "summary": "第 85 课 George 问 Ken 是不是刚从电影院回来，看的是《巴黎之春》。George 说自己早已在电视上看过这部老片子。谈起巴黎，George 从未去过，反问 Ken——Ken 四月去过，还特意点题「巴黎之春」：季节确实是春天，可天气糟透了，雨下个不停。George 一句「就像伦敦一样！」收尾，令人莞尔。第 86 课把本课句型铺开操练：Have you just been to the cinema? — Yes, I have. 以及「现在完成时谈结果 + 一般过去时给具体时间」的时态接力：I've already seen it. I saw it on television last year.",
+    "tips": "① 现在完成时疑问式把 have/has 提到主语前：Have you just been to the cinema?；否定式在 have/has 后加 not：I've never been there；② been to 表示「去过（已回来）」，gone to 表示「去了（还没回来）」；③ ever（曾经）用于疑问句，never（从未）用于否定句，都放在 have/has 之后、过去分词之前；④ 一旦出现 last year、in April、two weeks ago 这类具体过去时间，必须改用一般过去时：I saw it last year. 而不是 I have seen it last year.；⑤ see 的过去式 saw、过去分词 seen；⑥ What's on? 问「上映什么片子？」；It rained all the time. 一直在下雨。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "At what time of year did Ken visit Paris?",
+      "zh": "肯是在什么季节访问巴黎的？",
+      "a": "In April — in the spring.",
+      "aZh": "四月——春天。",
+      "hint": "听 I was there in April."
+    },
+    {
+      "kind": "detail",
+      "q": "What has Ken just done?",
+      "zh": "肯刚做了什么？",
+      "a": "He's just been to the cinema.",
+      "aZh": "他刚去过电影院。",
+      "hint": "听 George 的第一句问话和 Ken 的回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "How and when did George see the film?",
+      "zh": "乔治是怎么、什么时候看的这部电影？",
+      "a": "He saw it on television last year.",
+      "aZh": "他是去年在电视上看的。",
+      "hint": "听 I've already seen it 之后的那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What was the weather like when Ken was in Paris?",
+      "zh": "肯在巴黎时天气怎么样？",
+      "a": "It was awful — it rained all the time.",
+      "aZh": "糟透了——一直在下雨。",
+      "hint": "听 It was spring, but ... 那句。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does George switch from 'I've already seen it' to 'I saw it last year'?",
+      "zh": "乔治为什么先说 I've already seen it，接着又说 I saw it last year？",
+      "a": "The present perfect states the present-relevant fact (he has seen it, so no need to see it again now). Once a definite past time (last year) is mentioned, English requires the simple past.",
+      "aZh": "现在完成时交代与现在相关的事实（看过了）；一旦说出 last year 这个具体过去时间，就必须换成一般过去时。",
+      "hint": "一个谈「有没有」，一个谈「什么时候」。"
+    },
+    {
+      "kind": "drill",
+      "q": "I've already seen it. I saw it on television last year.",
+      "zh": "第 86 课操练：现在完成时谈结果 + 一般过去时给具体时间的「接力」句。",
+      "a": "I've already had lunch. I had it at half past twelve.",
+      "aZh": "我已经吃过午饭了。我是 12 点半吃的。",
+      "hint": "前半句 have/has + 过去分词，后半句过去式 + last year / in April / two weeks ago。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "Paris", "phonetic": "/ˈpærɪs/", "meanings": [{ "pos": "n.", "meaning": "巴黎（法国首都）", "usage": "专有名词；Paris in the Spring《巴黎之春》" }], "examples": [{ "en": "Paris is a beautiful city.", "zh": "巴黎是座美丽的城市。" }] },
+    { "word": "cinema", "phonetic": "/ˈsɪnəmə/", "meanings": [{ "pos": "n.", "meaning": "电影院", "usage": "go to the cinema 去看电影（英式）" }], "examples": [{ "en": "Have you just been to the cinema?", "zh": "你刚去过电影院吗？" }] },
+    { "word": "film", "phonetic": "/fɪlm/", "meanings": [{ "pos": "n.", "meaning": "电影", "usage": "= movie（美式）；an old film 一部老片子" }], "examples": [{ "en": "It's an old film, but it's very good.", "zh": "这是部老片子，但很好。" }] },
+    { "word": "beautiful", "phonetic": "/ˈbjuːtɪfl/", "meanings": [{ "pos": "adj.", "meaning": "漂亮的，美丽的", "usage": "a beautiful city 一座美丽的城市" }], "examples": [{ "en": "Paris is a beautiful city.", "zh": "巴黎是座美丽的城市。" }] },
+    { "word": "city", "phonetic": "/ˈsɪti/", "meanings": [{ "pos": "n.", "meaning": "城市", "usage": "复数 cities（辅音字母 + y 变 ies）" }], "examples": [{ "en": "Paris is a beautiful city.", "zh": "巴黎是座美丽的城市。" }] },
+    { "word": "never", "phonetic": "/ˈnevə/", "meanings": [{ "pos": "adv.", "meaning": "从来没有，从不", "usage": "用于否定经历；= not ... ever" }], "examples": [{ "en": "I've never been there.", "zh": "我从未去过那儿。" }] },
+    { "word": "ever", "phonetic": "/ˈevə/", "meanings": [{ "pos": "adv.", "meaning": "曾经，在任何时候", "usage": "多用于疑问句：Have you ever been there?" }], "examples": [{ "en": "Have you ever been there, Ken?", "zh": "肯，你去过吗？" }] },
+    { "word": "awful", "phonetic": "/ˈɔːfl/", "meanings": [{ "pos": "adj.", "meaning": "极坏的，糟糕的", "usage": "The weather is awful. 天气糟透了" }], "examples": [{ "en": "The weather was awful.", "zh": "天气太糟了。" }] },
+    { "word": "spring", "phonetic": "/sprɪŋ/", "meanings": [{ "pos": "n.", "meaning": "春天", "usage": "in (the) spring 在春天；Paris in the spring 春天的巴黎" }], "examples": [{ "en": "It was spring, but the weather was awful.", "zh": "是春天，但天气太糟了。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 85,
+      "title": "Paris in the Spring",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "GEORGE", "en": "Hello, Ken.", "zh": "你好，肯。" },
+        { "speaker": "KEN", "en": "Hello, George.", "zh": "你好，乔治。" },
+        { "speaker": "GEORGE", "en": "Have you just been to the cinema?", "zh": "你刚去过电影院吗？", "note": "现在完成时疑问式：Have + 主语 + been" },
+        { "speaker": "KEN", "en": "Yes, I have.", "zh": "是的，我刚去过。" },
+        { "speaker": "GEORGE", "en": "What's on?", "zh": "上映什么片子？" },
+        { "speaker": "KEN", "en": "\"Paris in the Spring\".", "zh": "《巴黎之春》。" },
+        { "speaker": "GEORGE", "en": "Oh, I've already seen it. I saw it on television last year. It's an old film, but it's very good.", "zh": "噢，我已看过了。我是去年在电视上看的。这是部老片子，但很好。", "note": "现在完成时 → 一般过去时的接力" },
+        { "speaker": "KEN", "en": "Paris is a beautiful city.", "zh": "巴黎是座美丽的城市。" },
+        { "speaker": "GEORGE", "en": "I've never been there. Have you ever been there, Ken?", "zh": "我从未去过。肯，你去过吗？", "note": "never 否定经历；ever 疑问经历" },
+        { "speaker": "KEN", "en": "Yes, I have. I was there in April.", "zh": "是的，我去过。4 月份我在那儿。", "note": "in April 具体过去时间 → 一般过去时" },
+        { "speaker": "GEORGE", "en": "Paris in the spring, eh?", "zh": "那是巴黎之春，是吗？", "note": "eh 表求同的语气词" },
+        { "speaker": "KEN", "en": "It was spring, but the weather was awful. It rained all the time.", "zh": "是春天，但天气太糟了。一直在下雨。" },
+        { "speaker": "GEORGE", "en": "Just like London!", "zh": "就像伦敦一样！" }
+      ]
+    },
+    {
+      "lesson": 86,
+      "title": "Have you just been to ...?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "I've already + 过去分词 ... . I + 过去式 ... + 具体过去时间 .（现在完成时谈结果 → 一般过去时给时间）",
+        "zh": "我已经……了。我是……时候做的。（两种时态成对接力操练）",
+        "slots": [
+          { "en": "see the film — last year", "zh": "看这部电影 — 去年" },
+          { "en": "have lunch — at half past twelve", "zh": "吃午饭 — 12 点半" },
+          { "en": "be to Paris — in April", "zh": "去过巴黎 — 四月" },
+          { "en": "hear the news — yesterday", "zh": "听到消息 — 昨天" },
+          { "en": "meet Mrs Jones — two weeks ago", "zh": "见到琼斯太太 — 两周前" },
+          { "en": "find her pen — an hour ago", "zh": "找到她的钢笔 — 一小时前" }
+        ],
+        "answers": ["I've already seen the film. I saw it last year.", "I've already had lunch. I had it at half past twelve.", "I've been to Paris. I was there in April."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：你刚去过电影院吗？", "a": "Have you just been to the cinema?", "note": "have 提前构成疑问式；been to 表「去过」。" },
+    { "q": "填空：I've already ___ (see) it.", "a": "seen", "note": "see-saw-seen，过去分词是 seen。" },
+    { "q": "把 He has met Mrs Jones. 改成否定句（用 yet）。", "a": "He hasn't met Mrs Jones yet.", "note": "否定式 has + not；yet 用于否定句句末。" },
+    { "q": "汉译英：我从未去过巴黎。", "a": "I've never been to Paris.", "note": "never 表否定经历，放 have 之后。" },
+    { "q": "汉译英：一直在下雨。", "a": "It rained all the time.", "note": "rain 过去式 rained；all the time 一直。" },
+    { "q": "填空：She found her pen an hour ago. → She has already ___ her pen.", "a": "found", "note": "find-found-found；an hour ago 是过去时间，前句须用过去式。" },
+    { "q": "汉译英：就像伦敦一样！", "a": "Just like London!", "note": "like 此处是介词「像」。" }
+  ],
+  "quiz": [
+    { "q": "「你刚去过电影院吗？」应说：", "options": ["Have you just been to the cinema?", "Do you just been to the cinema?", "Did you have just been to the cinema?", "Have you just gone to the cinema?"], "answer": 0, "note": "现在完成时疑问式把 have 提前；been to 表「去过（已回来）」。" },
+    { "q": "I've never been there. 中 never 表示：", "options": ["从来没有", "曾经", "刚刚", "已经"], "answer": 0, "note": "never 表否定经历；ever 才是「曾经」。" },
+    { "q": "「上映什么片子？」应说：", "options": ["What's on?", "What's the matter?", "What film do you on?", "What's play?"], "answer": 0, "note": "What's on? 固定说法，问正在上映/上演的节目。" },
+    { "q": "「我四月份在那儿」应说：", "options": ["I was there in April.", "I have been there in April.", "I was there on April.", "I am there in April."], "answer": 0, "note": "in April 是具体过去时间，用一般过去时 was。" },
+    { "q": "see 的过去分词是：", "options": ["seen", "saw", "seed", "see"], "answer": 0, "note": "see-saw-seen；saw 是过去式。" },
+    { "q": "Just like London! 的意思是：", "options": ["就像伦敦一样！（雨下个不停）", "正好在伦敦！", "喜欢伦敦！", "伦敦就在附近！"], "answer": 0, "note": "like 此处是介词「像」，呼应前面「一直在下雨」。" }
+  ],
+  "grammar": [
+    {
+      "title": "现在完成时的疑问式与否定式",
+      "structure": "疑问式：Have/Has + 主语 + 过去分词 ...?　否定式：主语 + have/has + not + 过去分词",
+      "definition": "现在完成时由 have/has + 过去分词构成。疑问式把 have/has 提到主语之前；否定式在 have/has 后加 not（常缩写为 haven't / hasn't）。",
+      "usage": "Have you just been to the cinema? — Yes, I have. / I haven't seen it.",
+      "examples": [
+        { "en": "Have you ever been there, Ken?", "zh": "肯，你去过吗？" },
+        { "en": "No, I haven't.", "zh": "不，我没去过。" }
+      ]
+    },
+    {
+      "title": "have been to 与 ever / never（谈经历）",
+      "structure": "have/has been to + 地点；ever（疑问）/ never（否定）+ 过去分词",
+      "definition": "have been to 表示「去过某地」（人已回来），谈到目前为止的经历。疑问句用 ever（曾经），否定句用 never（从未），两者都置于 have/has 之后、过去分词之前。",
+      "usage": "Have you ever been there? — I've never been there.",
+      "examples": [
+        { "en": "I've never been there.", "zh": "我从未去过那儿。" },
+        { "en": "Have you ever been there, Ken?", "zh": "肯，你去过吗？" }
+      ]
+    },
+    {
+      "title": "现在完成时与一般过去时的分界",
+      "structure": "现在完成时：不加具体过去时间；一般过去时：+ last year / in April / two weeks ago / yesterday 等",
+      "definition": "现在完成时谈过去发生、与现在有关的事（I've already seen it.）；一旦句子给出确定的过去时间状语，就必须用一般过去时（I saw it last year.），不能说 I have seen it last year.。两句话常像接力一样前后出现。",
+      "usage": "I've already seen it. I saw it on television last year.",
+      "examples": [
+        { "en": "Yes, I have. I was there in April.", "zh": "是的，我去过。4 月份我在那儿。" },
+        { "en": "I've already had lunch. I had lunch at half past twelve.", "zh": "我已经吃过午饭了。我 12 点半吃的。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "have been to", "usage": "去过某地（人已回来，谈经历）", "examples": [{ "en": "Have you just been to the cinema?", "zh": "你刚去过电影院吗？" }] },
+    { "phrase": "What's on?", "usage": "上映/上演什么？（问节目）", "examples": [{ "en": "What's on? — \"Paris in the Spring\".", "zh": "上映什么片子？——《巴黎之春》。" }] },
+    { "phrase": "go to the cinema", "usage": "去看电影（英式说法）", "examples": [{ "en": "Have you just been to the cinema?", "zh": "你刚去过电影院吗？" }] },
+    { "phrase": "all the time", "usage": "一直，始终", "examples": [{ "en": "It rained all the time.", "zh": "一直在下雨。" }] },
+    { "phrase": "Just like ...!", "usage": "就像……一样！（like 作介词）", "examples": [{ "en": "Just like London!", "zh": "就像伦敦一样！" }] },
+    { "phrase": "on television", "usage": "通过电视（媒体前用 on）", "examples": [{ "en": "I saw it on television last year.", "zh": "我是去年在电视上看的。" }] }
+  ]
+}

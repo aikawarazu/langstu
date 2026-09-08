@@ -1,0 +1,180 @@
+{
+  "title": "Full of mistakes / I want you to ...",
+  "subtitle": "错误百出 / 我要你……",
+  "lead": {
+    "question": "老板叫你重打一封满是错误的信，又送你一本词典当「小礼物」——英语里怎么「叫某人做某事」？",
+    "warmup": "先别看课文。中文说「我要她来办公室」「叫她马上来」「我要你重打一遍」——英文全靠一个 to：I want her to come to my office. / Tell her to come at once. / I want you to type it again. 注意两点：① want 后接「人 + to do」；② 否定是 not to do（告诉她别摔了：Tell him not to slip）。先自己造三句「我要你……」，再看老板如何一边批评桑德拉、一边送词典。",
+    "goals": [
+      "掌握动词 + to do（want to do / hope to do）不定式作宾语",
+      "掌握动词 + 宾语 + to do（want/tell sb to do sth）",
+      "掌握不定式否定 not to do：Tell him not to move it.",
+      "会用 How do you spell ...? 询问拼写，会用 full of mistakes、at once 等表达"
+    ],
+    "summary": "第 105 课老板找桑德拉，问她 intelligent 怎么拼——原来她打信时只打了一个 L，信里错误百出，老板要她重打一遍；桑德拉道歉后，老板却送上一个小礼物：一本词典，希望对她有帮助。第 106 课集中操练 want/tell sb (not) to do sth：What do you want me to do? — I want you to carry it. 以及 She is telling him not to hurt himself.",
+    "tips": "① 动词紧跟动词时中间必须加 to，to 后只能用动词原形（want to leave）；② want/tell + 人（宾格）+ to do 是「叫某人做某事」的核心句型；③ 否定把 not 放在 to 前：Tell him not to close the window.；④ Did you want to see me? 用过去式问显得客气；⑤ And here's a little present for you. 是 here 引导的倒装句。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What was Sandra's present?",
+      "zh": "给桑德拉的礼物是什么？",
+      "a": "A dictionary — the boss hopes it will help her.",
+      "aZh": "一本词典——老板希望它对桑德拉有所帮助。",
+      "hint": "听 And here's a little present for you. ... It's a dictionary."
+    },
+    {
+      "kind": "detail",
+      "q": "What did Sandra do wrong in the letter?",
+      "zh": "桑德拉在信里打错了什么？",
+      "a": "She typed 'intelligent' with only one 'L', and the letter was full of mistakes.",
+      "aZh": "她打 intelligent 时只打了一个 L，信里错误百出。",
+      "hint": "You've typed it with only one 'L'."
+    },
+    {
+      "kind": "detail",
+      "q": "Why does the boss want Sandra to come to his office?",
+      "zh": "老板为什么叫桑德拉到办公室来？",
+      "a": "He wants to ask her how to spell 'intelligent' and to tell her to type the letter again.",
+      "aZh": "他想问 intelligent 怎么拼写，并要她把信重打一遍。",
+      "hint": "老板的第一件事就是问拼写。"
+    },
+    {
+      "kind": "detail",
+      "q": "How does Sandra spell 'intelligent'?",
+      "zh": "桑德拉是怎样拼写 intelligent 的？",
+      "a": "I-N-T-E-L-L-I-G-E-N-T.",
+      "aZh": "I-N-T-E-L-L-I-G-E-N-T（有两个 L）。",
+      "hint": "注意里面有两个 L。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does the boss give Sandra a dictionary instead of just scolding her?",
+      "zh": "老板为什么送词典，而不是只批评桑德拉？",
+      "a": "He points out her problem tactfully and gives her a tool to fix it — a dictionary will help her stop misspelling, which teaches better than a scolding. The humour lies in the contrast between criticism and present.",
+      "aZh": "他委婉地指出问题、又给出解决问题的工具——词典能帮她以后不再拼错，比单纯责备更让人记住。幽默就在批评与礼物的反差。",
+      "hint": "想想 I hope it'll help you 这句的用意。"
+    },
+    {
+      "kind": "drill",
+      "q": "What do you want me to do? — I want you to carry it.",
+      "zh": "第 106 课操练：用 I want you to ... 回答「你要我做什么」，并用 She is telling him not to ... 练否定。",
+      "a": "I want you to correct it. / She is telling him not to hurt himself.",
+      "aZh": "我要你把它改一下。/ 她在告诉他别伤着自己。",
+      "hint": "肯定 I want you to do it；否定 tell sb not to do it。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "spell", "phonetic": "/spel/", "meanings": [{ "pos": "v.", "meaning": "拼写", "usage": "How do you spell ...? 不规则：spell—spelt（或 spelled）" }], "examples": [{ "en": "How do you spell 'intelligent'?", "zh": "intelligent 怎样拼写？" }] },
+    { "word": "intelligent", "phonetic": "/ɪnˈtelɪdʒənt/", "meanings": [{ "pos": "adj.", "meaning": "聪明的，有智慧的", "usage": "拼写时有两个 L：i-n-t-e-l-l-i-g-e-n-t" }], "examples": [{ "en": "You've typed 'intelligent' with only one 'L'.", "zh": "你打 intelligent 时只打了一个 L。" }] },
+    { "word": "mistake", "phonetic": "/mɪˈsteɪk/", "meanings": [{ "pos": "n.", "meaning": "错误", "usage": "full of mistakes 错误百出；make a mistake 犯错误" }], "examples": [{ "en": "This letter's full of mistakes.", "zh": "这封信里错误百出。" }] },
+    { "word": "present", "phonetic": "/ˈpreznt/", "meanings": [{ "pos": "n.", "meaning": "礼物", "usage": "a little present for you 送你的小礼物" }], "examples": [{ "en": "And here's a little present for you.", "zh": "这里有一件小礼物送你。" }] },
+    { "word": "dictionary", "phonetic": "/ˈdɪkʃənri/", "meanings": [{ "pos": "n.", "meaning": "词典", "usage": "复数 dictionaries" }], "examples": [{ "en": "It's a dictionary. I hope it'll help you.", "zh": "是本词典。我希望它能对你有所帮助。" }] },
+    { "word": "type", "phonetic": "/taɪp/", "meanings": [{ "pos": "v.", "meaning": "打字", "usage": "type it again 把它重打一遍" }], "examples": [{ "en": "I want you to type it again.", "zh": "我要你把它重打一遍。" }] },
+    { "word": "correct", "phonetic": "/kəˈrekt/", "meanings": [{ "pos": "v.", "meaning": "改正，纠正", "usage": "correct it 改正它；correct one's mistakes 改错" }], "examples": [{ "en": "Please correct me if I'm wrong.", "zh": "如果我错了，请你纠正。" }] },
+    { "word": "break", "phonetic": "/breɪk/", "meanings": [{ "pos": "v.", "meaning": "打破，弄坏", "usage": "不规则：break—broke—broken；Tell him not to break it." }], "examples": [{ "en": "She told him not to break the vase.", "zh": "她告诉他别把花瓶打碎了。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 105,
+      "title": "Full of mistakes",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "THE BOSS", "en": "Where's Sandra, Bob? I want her.", "zh": "鲍勃，桑德拉在哪儿？我要找她。" },
+        { "speaker": "BOB", "en": "Do you want to speak to her?", "zh": "您要同她谈话吗？" },
+        { "speaker": "THE BOSS", "en": "Yes, I do. I want her to come to my office. Tell her to come at once.", "zh": "是的。我要她到我的办公室来。叫她马上就来。" },
+        { "speaker": "SANDRA", "en": "Did you want to see me?", "zh": "您找我吗？" },
+        { "speaker": "THE BOSS", "en": "Ah, yes, Sandra. How do you spell 'intelligent'? Can you tell me?", "zh": "啊，是的，桑德拉。intelligent 怎样拼写？你能告诉我吗？" },
+        { "speaker": "SANDRA", "en": "I-N-T-E-L-L-I-G-E-N-T.", "zh": "I-N-T-E-L-L-I-G-E-N-T。" },
+        { "speaker": "THE BOSS", "en": "That's right. You've typed it with only one 'L'. This letter's full of mistakes. I want you to type it again.", "zh": "对的。但你只打了1个 L。这封信里错误百出。我要你重打一遍。" },
+        { "speaker": "SANDRA", "en": "Yes, I'll do that. I'm sorry about that.", "zh": "是，我重打。对此我感到很抱歉。" },
+        { "speaker": "THE BOSS", "en": "And here's a little present for you.", "zh": "这里有一件小礼物送你。" },
+        { "speaker": "SANDRA", "en": "What is it?", "zh": "是什么？" },
+        { "speaker": "THE BOSS", "en": "It's a dictionary. I hope it'll help you.", "zh": "是本词典。我希望它能对你有所帮助。" }
+      ]
+    },
+    {
+      "lesson": 106,
+      "title": "I want you to ...",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "What do you want me to do? — I want you to ___ it. / What is she telling him? — She is telling him not to ___ .",
+        "zh": "你要我做什么？——我要你……（肯定）／她在告诉他别……（否定 not to）",
+        "slots": [
+          { "en": "carry", "zh": "搬（它）" },
+          { "en": "correct", "zh": "改正（它）" },
+          { "en": "listen to", "zh": "听（它）" },
+          { "en": "describe", "zh": "描述（它）" },
+          { "en": "move", "zh": "搬动（它）" },
+          { "en": "try", "zh": "试一试（它）" },
+          { "en": "finish", "zh": "完成（它）" },
+          { "en": "keep", "zh": "保存（它）" },
+          { "en": "not to hurt himself", "zh": "别伤着自己" },
+          { "en": "not to slip", "zh": "别滑倒" },
+          { "en": "not to fall", "zh": "别摔倒" },
+          { "en": "not to break it", "zh": "别把它打碎" }
+        ],
+        "answers": [
+          "What do you want me to do? I want you to carry it.",
+          "She is telling him not to hurt himself. She doesn't want him to hurt himself."
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：我要她到我的办公室来。", "a": "I want her to come to my office.", "note": "want + 宾语 + to do，宾语用宾格 her。" },
+    { "q": "汉译英：叫她马上就来。", "a": "Tell her to come at once.", "note": "tell + 宾语 + to do；at once 马上。" },
+    { "q": "汉译英：我要你把它重打一遍。", "a": "I want you to type it again.", "note": "want you to do，you 主宾格同形。" },
+    { "q": "改为否定：Tell him to close the window.", "a": "Tell him not to close the window.", "note": "不定式否定在 to 前加 not。" },
+    { "q": "汉译英：他想买辆车。", "a": "He wants to buy a car.", "note": "want to do，to 后用动词原形。" },
+    { "q": "改错：I want you go with me.", "a": "I want you to go with me.", "note": "want + 宾语后必须加 to 再接动词原形。" },
+    { "q": "用所给词造句：she / tell / him / not to / hurt himself", "a": "She is telling him not to hurt himself.", "note": "tell sb not to do sth；进行时 telling 表「正在告诉」。" }
+  ],
+  "quiz": [
+    { "q": "下列哪句正确？", "options": ["I want her to come to my office.", "I want that she comes to my office.", "I want her coming to my office.", "I want to her come to my office."], "answer": 0, "note": "want + 宾语 + to do；不说 want that sb do。" },
+    { "q": "「告诉他不要搬动它」正确的是：", "options": ["Tell him not to move it.", "Tell him to not move it.", "Tell him don't move it.", "Tell him not moving it."], "answer": 0, "note": "不定式否定是 not to do，not 放在 to 之前。" },
+    { "q": "How do you spell 'intelligent'? 用来：", "options": ["询问单词怎样拼写", "问单词意思", "问发音", "问词性"], "answer": 0, "note": "How do you spell ...? 是问拼写的常用句型。" },
+    { "q": "This letter's full of mistakes. 意思是：", "options": ["这封信错误百出", "这封信写满了地址", "这封信是错的", "这封信需要词典"], "answer": 0, "note": "be full of = 充满了；mistake 错误。" },
+    { "q": "Did you want to see me? 用过去式 Did you want 是为了：", "options": ["显得客气、委婉", "表示很久以前的事", "表虚拟语气", "表将来"], "answer": 0, "note": "Did you want to ...? 比现在式更委婉，常用于求见场合。" },
+    { "q": "She doesn't want him to hurt himself. 的意思是：", "options": ["她不想让他伤着自己", "她想让他伤着自己", "她不想伤害自己", "他不想伤害她"], "answer": 0, "note": "want sb to do 的否定是 don't want sb to do。" }
+  ],
+  "grammar": [
+    {
+      "title": "动词 + to do（不定式作宾语）",
+      "structure": "主语 + want / hope / decide / ... + to + 动词原形",
+      "definition": "当一个动词被另一个动词紧跟时，中间必须加不定式符号 to，to 后只能用动词原形。",
+      "usage": "want to do / hope to do / decide not to do",
+      "examples": [
+        { "en": "He wants to buy a car.", "zh": "他想买辆车。" },
+        { "en": "He hopes to pass the French exam.", "zh": "他希望自己能通过法语考试。" }
+      ]
+    },
+    {
+      "title": "动词 + 宾语 + to do（want/tell sb to do sth）",
+      "structure": "want / tell + 名词或宾格代词 + to + 动词原形",
+      "definition": "许多动词可以先带名词或宾格代词宾语，后面再跟不定式，表示「要/叫某人做某事」。",
+      "usage": "I want her to come to my office. / Tell her to come at once.",
+      "examples": [
+        { "en": "I want you to carry it.", "zh": "我想让你扛着它。" },
+        { "en": "He wants them to listen to it.", "zh": "他想让他们听那个。" }
+      ]
+    },
+    {
+      "title": "不定式的否定形式 not to do",
+      "structure": "to 前加 not：want/tell sb not to do sth",
+      "definition": "不定式的否定形式是在 to 之前加 not，用于「叫某人不要做某事」。",
+      "usage": "Tell him not to move it. / She told him not to break the vase.",
+      "examples": [
+        { "en": "He told me not to close the window.", "zh": "他让我不要把窗户关了。" },
+        { "en": "She is telling him not to slip.", "zh": "她在告诉他别滑倒。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "How do you spell ...?", "usage": "……怎样拼写？（问拼写常用句型）", "examples": [{ "en": "How do you spell 'intelligent'?", "zh": "intelligent 怎样拼写？" }] },
+    { "phrase": "full of", "usage": "充满……的", "examples": [{ "en": "This letter's full of mistakes.", "zh": "这封信里错误百出。" }] },
+    { "phrase": "come at once", "usage": "马上就来", "examples": [{ "en": "Tell her to come at once.", "zh": "叫她马上就来。" }] },
+    { "phrase": "a little present for you", "usage": "送你的小礼物", "examples": [{ "en": "And here's a little present for you.", "zh": "这里有一件小礼物送你。" }] },
+    { "phrase": "I'm sorry about that.", "usage": "对此我很抱歉。", "examples": [{ "en": "Yes, I'll do that. I'm sorry about that.", "zh": "是，我重打。对此我感到很抱歉。" }] },
+    { "phrase": "type it again", "usage": "把它重打一遍", "examples": [{ "en": "I want you to type it again.", "zh": "我要你把它重打一遍。" }] }
+  ]
+}

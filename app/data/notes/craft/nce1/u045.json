@@ -1,0 +1,180 @@
+{
+  "title": "For sale / Have you ... yet?",
+  "subtitle": "待售 / 你已经……了吗？",
+  "lead": {
+    "question": "看房是件大事：如果你去看一套待售的房子，你会先问房主哪几个问题——住了多久？为什么卖？卖多少钱？",
+    "warmup": "先别看课文。想象你走进一栋门口挂着 FOR SALE（待售）牌子的房子，房主是位住了二十年的老人。你会怎么开口？英文里先客套一句 I believe this house is for sale（我想这房子是要出售的吧），再问 How long have you lived here?（您住了多久？）。注意房主的回答要用现在完成时：for twenty years（住了二十年，强调时间长度）、since 1976（从 1976 年起，强调起点）。带着 for 和 since 的区别去听录音，再留意最后一句俏皮话：Women always have the last word.",
+    "goals": [
+      "能用 for sale 询问房屋出售信息，用 May I have a look at it? 请求参观",
+      "能用 How long have you lived here? 询问居住时长，并用 for + 时间段 / since + 时间点回答",
+      "掌握现在完成时与 for / since 的搭配，理解 yet 在否定句中的「还没」",
+      "分清 cost（要价）与 worth（本身价值），会用 How much does it cost?"
+    ],
+    "summary": "第 89 课奈杰尔（Hill 先生）看房：房主伊恩（West 先生）在这里住了二十年，因为刚退休、想在乡下买幢小房子才卖房，开价 6850 英镑。奈杰尔说「我妻子必须先来看一看」还不能决定。全课核心是现在完成时 + for/since。第 90 课操练：把 Did he ... yesterday? 变成否定，并用「一般过去时 + 现在完成时 hasn't ... yet」一前一后作答。",
+    "tips": "① for + 一段时间（for twenty years）表示动作持续多久；since + 时间点（since 1976）表示动作从何时开始，两者都配现在完成时；② cost 指「要价、花费」，worth 指「本身价值」，It's worth every penny of it.（它确确实实值这么多钱）；③ yet 常用于否定句，I can't decide yet. 表示「迄今仍不能决定」；④ have the last word 意为「最后说了算」，指争论中作最终决定；⑤ in the country 指「在乡下」，不是「在国家里」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why couldn't Nigel decide?",
+      "zh": "为什么奈杰尔作不了决定？",
+      "a": "Because his wife must see the house first.",
+      "aZh": "因为他妻子必须先来看一看这房子。",
+      "hint": "听 I like the house, but I can't decide yet 后面的那半句。"
+    },
+    {
+      "kind": "detail",
+      "q": "How long has Mr West lived in the house?",
+      "zh": "韦斯特先生在这房子里住了多久？",
+      "a": "He has lived there for twenty years. He has been there since 1976.",
+      "aZh": "他住了二十年了，从 1976 年起就住在那里。",
+      "hint": "一个用 for 回答，一个用 since 回答。"
+    },
+    {
+      "kind": "detail",
+      "q": "How much does the house cost, and what does Mr West say about its worth?",
+      "zh": "这房子卖多少钱？韦斯特先生怎么评价它的价值？",
+      "a": "It costs £6850. He says it's worth every penny of it.",
+      "aZh": "卖 6850 英镑。他说它确确实实值这么多钱。",
+      "hint": "先听价钱，再听 worth 那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Why does Mr West want to sell the house?",
+      "zh": "韦斯特先生为什么想卖房？",
+      "a": "Because he has just retired. He wants to buy a small house in the country.",
+      "aZh": "因为他刚退休，想在乡下买幢小房子。",
+      "hint": "Because 开头的那句，用了现在完成时。"
+    },
+    {
+      "kind": "think",
+      "q": "What does 'Women always have the last word' mean? Do you agree?",
+      "zh": "「Women always have the last word（女人总是最后说了算）」是什么意思？你同意吗？",
+      "a": "It means that in the end it is usually the woman who makes the final decision. It's Mr West's humorous comment on Nigel's 'my wife must see it first'. 参考答案：意思是家里大事最后往往是女主人拍板，这是房主对「我得先问妻子」的打趣。",
+      "aZh": "意思是最后拍板的往往是女人；这是房主听到「我妻子必须先看」后的一句幽默话。",
+      "hint": "last word 不是「最后一个词」，想想家里谁拍板。"
+    },
+    {
+      "kind": "drill",
+      "q": "Did you do your homework last night? — Yes, I did it last night. He hasn't done his homework yet.",
+      "zh": "第 90 课操练：用一般过去时说昨天做过的事，再用 hasn't/haven't ... yet 说「还没做」。",
+      "a": "Did Tim take off his shoes a minute ago? Yes, he did. But Frank hasn't taken off his shoes yet.",
+      "aZh": "蒂姆一分钟前脱鞋了吗？脱了。可弗兰克还没脱鞋呢。",
+      "hint": "过去时说「已做」，现在完成时 + yet 说「还没做」。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "believe", "phonetic": "/bɪˈliːv/", "meanings": [{ "pos": "v.", "meaning": "相信，认为", "usage": "后可接名词或 that 从句：I believe that ..." }], "examples": [{ "en": "I believe that this house is for sale.", "zh": "我想这房子是要出售的吧。" }] },
+    { "word": "may", "phonetic": "/meɪ/", "meanings": [{ "pos": "modal v.", "meaning": "（用于请求许可）可以", "usage": "May I ...? 比 Can I ...? 更礼貌" }], "examples": [{ "en": "May I have a look at it, please?", "zh": "我可以看一看吗？" }] },
+    { "word": "since", "phonetic": "/sɪns/", "meanings": [{ "pos": "prep.", "meaning": "自从（某时间点）", "usage": "since + 时间点，句中谓语用现在完成时" }], "examples": [{ "en": "I have been here since 1976.", "zh": "从 1976 年起我就住在这里。" }] },
+    { "word": "sell", "phonetic": "/sel/", "meanings": [{ "pos": "v.", "meaning": "卖，出售", "usage": "过去式/过去分词 sold；for sale 待售" }], "examples": [{ "en": "Then why do you want to sell it?", "zh": "那么您为什么要卖掉它呢？" }] },
+    { "word": "retire", "phonetic": "/rɪˈtaɪə/", "meanings": [{ "pos": "v.", "meaning": "退休；离职", "usage": "retired adj. 退休的；he has just retired 他刚退休" }], "examples": [{ "en": "Because I have just retired.", "zh": "因为我刚退休。" }] },
+    { "word": "cost", "phonetic": "/kɒst/", "meanings": [{ "pos": "v.", "meaning": "花费；价钱为", "usage": "过去式/过去分词同形 cost；指商店标价或货主索价" }], "examples": [{ "en": "How much does this house cost?", "zh": "这座房子卖多少钱？" }] },
+    { "word": "worth", "phonetic": "/wɜːθ/", "meanings": [{ "pos": "prep.", "meaning": "值……钱；值得", "usage": "be worth + 钱数/doing；指物品本身价值" }], "examples": [{ "en": "It's worth every penny of it.", "zh": "它确确实实值这么多钱。" }] },
+    { "word": "penny", "phonetic": "/ˈpeni/", "meanings": [{ "pos": "n.", "meaning": "便士（英国辅币单位）", "usage": "复数 pence 表币值；every penny 一分一厘" }], "examples": [{ "en": "It's worth every penny of it.", "zh": "它确确实实值这么多钱。" }] },
+    { "word": "pound", "phonetic": "/paʊnd/", "meanings": [{ "pos": "n.", "meaning": "英镑", "usage": "£ 符号；£6850 读作 six thousand eight hundred and fifty pounds" }], "examples": [{ "en": "£6850. That's a lot of money!", "zh": "6850 英镑。这可真是一大笔钱！" }] },
+    { "word": "decide", "phonetic": "/dɪˈsaɪd/", "meanings": [{ "pos": "v.", "meaning": "决定，下决心", "usage": "can't decide yet 还不能决定；yet 用于否定句表「迄今仍未」" }], "examples": [{ "en": "I like the house, but I can't decide yet.", "zh": "我喜欢这房子，但我还不能决定。" }] },
+    { "word": "country", "phonetic": "/ˈkʌntri/", "meanings": [{ "pos": "n.", "meaning": "乡下，农村；国家", "usage": "in the country 在乡下（本课义）；加 the" }], "examples": [{ "en": "I want to buy a small house in the country.", "zh": "我想在乡下买幢小房子。" }] },
+    { "word": "yet", "phonetic": "/jet/", "meanings": [{ "pos": "adv.", "meaning": "还（没），迄今仍", "usage": "多用于否定句和疑问句，句末" }], "examples": [{ "en": "I can't decide yet.", "zh": "我还不能决定。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 89,
+      "title": "For sale",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "NIGEL", "en": "Good afternoon. I believe that this house is for sale.", "zh": "下午好。我想这房子是要出售的吧！", "note": "奈杰尔·希尔先生；for sale 待售" },
+        { "speaker": "IAN", "en": "That's right.", "zh": "是的。", "note": "伊恩·韦斯特先生，房主" },
+        { "speaker": "NIGEL", "en": "May I have a look at it, please?", "zh": "我可以看一看吗？" },
+        { "speaker": "IAN", "en": "Yes, of course. Come in.", "zh": "可以，当然可以。请进。" },
+        { "speaker": "NIGEL", "en": "How long have you lived here?", "zh": "您在这里住了多长时间？" },
+        { "speaker": "IAN", "en": "I've lived here for twenty years.", "zh": "我在这里住了二十年了。", "note": "for + 时间段" },
+        { "speaker": "NIGEL", "en": "Twenty years! That's a long time.", "zh": "二十年！这个时间可不短。" },
+        { "speaker": "IAN", "en": "Yes, I've been here since 1976.", "zh": "是啊，从 1976 年起我就住在这里。", "note": "since + 时间点" },
+        { "speaker": "NIGEL", "en": "Then why do you want to sell it?", "zh": "那么，您为什么要卖掉它呢？" },
+        { "speaker": "IAN", "en": "Because I've just retired. I want to buy a small house in the country.", "zh": "因为我刚退休。我想在乡下买幢小房子。" },
+        { "speaker": "NIGEL", "en": "How much does this house cost?", "zh": "这座房子卖多少钱？" },
+        { "speaker": "IAN", "en": "£6850.", "zh": "6850 英镑。", "note": "读作 six thousand eight hundred and fifty pounds" },
+        { "speaker": "NIGEL", "en": "That's a lot of money!", "zh": "这可真是一大笔钱呢！" },
+        { "speaker": "IAN", "en": "It's worth every penny of it.", "zh": "它确确实实值这么多钱。" },
+        { "speaker": "NIGEL", "en": "Well, I like the house, but I can't decide yet. My wife must see it first.", "zh": "啊，我喜欢这房子，但我还不能决定。我妻子必须先来看一看。" },
+        { "speaker": "IAN", "en": "Women always have the last word.", "zh": "女人总是最后说了算的。" }
+      ]
+    },
+    {
+      "lesson": 90,
+      "title": "Have you ... yet?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Did you/he/she ___ last night? — Yes, ... did it yesterday. But he/she hasn't ___ yet.",
+        "zh": "昨天……了吗？——做了/他做了。可他还没……呢。（一般过去时说「已做」，现在完成时 + yet 说「还没做」）",
+        "slots": [
+          { "en": "do one's homework — last night (I / he)", "zh": "做作业 — 昨晚（我 / 他）" },
+          { "en": "go to the butcher's — this morning (Mrs Jones / Mrs Williams)", "zh": "去肉店 — 今天早上（琼斯太太 / 威廉斯太太）" },
+          { "en": "speak to him — yesterday (I / she)", "zh": "跟他说话 — 昨天（我 / 她）" },
+          { "en": "swim across the river — an hour ago (George / Sam)", "zh": "游过河 — 一小时前（乔治 / 萨姆）" },
+          { "en": "see that film — yesterday (I / Sam and Penny)", "zh": "看那部电影 — 昨天（我 / 萨姆和彭妮）" },
+          { "en": "take off his shoes — a minute ago (Tim / Frank)", "zh": "脱鞋 — 一分钟前（蒂姆 / 弗兰克）" }
+        ],
+        "answers": ["Did you do your homework last night? Yes, I did my homework last night. He hasn't done his homework yet.", "Did Tim take off his shoes a minute ago? Yes, he took off his shoes a minute ago. Frank hasn't taken off his shoes yet."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "把 Did the sun set at twenty past seven? 改成否定句。", "a": "The sun didn't set at twenty past seven.", "note": "一般过去时否定借助 didn't + 动词原形。" },
+    { "q": "把 Did he come by car this morning? 改成否定句。", "a": "He didn't come by car this morning.", "note": "came 还原为 come。" },
+    { "q": "用括号里的词作两组回答（我昨晚做了 / 他还没做）：do one's homework — last night", "a": "Yes, I did my homework last night. He hasn't done his homework yet.", "note": "过去时说「已做」，现在完成时 + yet 说「还没」。" },
+    { "q": "仿写：我昨天跟他说话了；她还没跟他说呢。（speak to him）", "a": "Yes, I spoke to him yesterday. She hasn't spoken to him yet.", "note": "speak 的过去分词是 spoken。" },
+    { "q": "汉译英：我在这里住了二十年了。", "a": "I've lived here for twenty years.", "note": "for + 时间段配现在完成时。" },
+    { "q": "汉译英：从 1976 年起我就住在这里。", "a": "I've been here since 1976.", "note": "since + 时间点配现在完成时。" },
+    { "q": "汉译英：它确确实实值这么多钱。", "a": "It's worth every penny of it.", "note": "be worth + 钱数，指本身价值。" }
+  ],
+  "quiz": [
+    { "q": "I've lived here ___ twenty years. 横线上应填：", "options": ["for", "since", "at", "from"], "answer": 0, "note": "for + 一段时间（twenty years）；since + 时间点。" },
+    { "q": "I've been here ___ 1976. 横线上应填：", "options": ["since", "for", "in twenty years", "during"], "answer": 0, "note": "since + 时间点（1976），表示起点。" },
+    { "q": "「这座房子卖多少钱？」正确说法是：", "options": ["How much does this house cost?", "How much is this house cost?", "How many does this house cost?", "What much is this house?"], "answer": 0, "note": "询问价钱用 How much does ... cost?" },
+    { "q": "It's worth every penny of it. 中 worth 表示：", "options": ["值……钱（本身价值）", "花费（商店要价）", "贵了", "便宜"], "answer": 0, "note": "worth 指物品本身的价值；cost 指索价。" },
+    { "q": "I can't decide yet. 中 yet 的意思是：", "options": ["迄今仍（没）", "已经", "但是", "因此"], "answer": 0, "note": "yet 多用于否定句，表示「到目前为止还（没）」。" },
+    { "q": "门口挂着 For sale 的牌子，意思是：", "options": ["待售，供出售", "已售出", "出租", "免费参观"], "answer": 0, "note": "for sale 待售；出租是 for rent。" }
+  ],
+  "grammar": [
+    {
+      "title": "现在完成时 + for / since",
+      "structure": "have/has + 过去分词 + for + 时间段 / since + 时间点",
+      "definition": "现在完成时可描述发生在过去且一直延续到现在的动作。for + 一段时间表示动作持续多久；since + 某一时间点表示动作何时开始。",
+      "usage": "询问延续时长用 How long have you ...?",
+      "examples": [
+        { "en": "How long have you lived here?", "zh": "您在这里住了多长时间？" },
+        { "en": "I've been here since 1976.", "zh": "从 1976 年起我就住在这里。" }
+      ]
+    },
+    {
+      "title": "yet 的用法",
+      "structure": "否定句 / 疑问句 + 动词 + yet（句末）",
+      "definition": "yet 意为「还（没）、迄今仍」，常见于否定句（can't decide yet / hasn't done it yet）和疑问句（Has he sold it yet?），一般放在句末。",
+      "usage": "与现在完成时连用，表示「到现在为止还没……」。",
+      "examples": [
+        { "en": "I can't decide yet.", "zh": "我还不能决定。" },
+        { "en": "He hasn't done his homework yet.", "zh": "他还没做作业呢。" }
+      ]
+    },
+    {
+      "title": "cost 与 worth 的区别",
+      "structure": "How much does ... cost? / ... be worth + 钱数",
+      "definition": "cost 指得到一件东西所花费的钱，多指商店标价或货主索价；worth 指物品本身的价值，be worth + 钱数（值多少钱）或 be worth doing（值得做）。",
+      "usage": "谈价钱用 cost，谈价值用 worth。",
+      "examples": [
+        { "en": "How much does this house cost?", "zh": "这座房子卖多少钱？" },
+        { "en": "It's worth every penny of it.", "zh": "它确确实实值这么多钱。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "for sale", "usage": "待售，供出售（门口挂牌）", "examples": [{ "en": "I believe that this house is for sale.", "zh": "我想这房子是要出售的吧。" }] },
+    { "phrase": "have a look at", "usage": "看一看，看一眼", "examples": [{ "en": "May I have a look at it, please?", "zh": "我可以看一看吗？" }] },
+    { "phrase": "how long", "usage": "多长时间（问时间长度）；多长（问物体长度）", "examples": [{ "en": "How long have you lived here?", "zh": "您在这里住了多长时间？" }] },
+    { "phrase": "every penny of it", "usage": "它的每一分钱（强调完全值这个价）", "examples": [{ "en": "It's worth every penny of it.", "zh": "它确确实实值这么多钱。" }] },
+    { "phrase": "have the last word", "usage": "最后说了算，作最终决定", "examples": [{ "en": "Women always have the last word.", "zh": "女人总是最后说了算的。" }] },
+    { "phrase": "in the country", "usage": "在乡下，在农村", "examples": [{ "en": "I want to buy a small house in the country.", "zh": "我想在乡下买幢小房子。" }] }
+  ]
+}

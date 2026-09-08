@@ -1,0 +1,188 @@
+{
+  "title": "Roast beef and potatoes / He's having a bath.",
+  "subtitle": "烤牛肉和土豆 / 他正在洗澡。",
+  "lead": {
+    "question": "朋友上门做客，你先递烟、又倒酒，问他「饭好了吗」，他偏偏说今天中午刚在饭店吃过烤牛肉和土豆——而你今晚做的正是烤牛肉和土豆！这一连串待客、吃喝的英语你会说吗？",
+    "warmup": "先别看课文。中文里「抽根烟」「喝杯酒」「洗个澡」「吃顿饭」动词各不相同，英文却全能交给一个词——have：have a cigarette / have a glass of whisky / have a bath / have dinner。这时的 have 不再表示「拥有」，而是实实在在的动作动词，可以用于各种时态，疑问和否定还得请 do/does/did 帮忙。先试着把「他在洗澡」「我们吃了午饭」说成英语，再听汤姆和萨姆这对难兄难弟把卡罗尔的晚饭「吃重了」。",
+    "goals": [
+      "能用 have + 名词表达吃喝与日常动作：have a cigarette / a glass of whisky / a bath / dinner",
+      "理解完全动词 have 在疑问、否定中要借 do/does/did（Do you have…? / I don't have…）",
+      "能用 be going to 表示「将要」：You're going to have roast beef again tonight!",
+      "掌握 bath, nearly, ready, dinner, roast, whisky 等生词与 What's the matter? 等交际用语"
+    ],
+    "summary": "第 81 课：萨姆来访，卡罗尔说汤姆在楼上洗澡、马上就好。汤姆出来后请萨姆抽烟、喝威士忌，又问饭好了没有；卡罗尔说 7 点可以开饭。汤姆说今天和萨姆在饭店吃了烤牛肉和土豆，卡罗尔一听「噢」了一声——原来今晚家里做的又是烤牛肉和土豆！第 82 课无课文，专练 have + 名词（代替 eat/drink/enjoy/take 等动词），如 have a bath / have lunch / have a good time。",
+    "tips": "① 待客递东西：给就答 O.K. Thanks / Thank you，不给就说 No, thanks；② have 表「吃、喝、做（某事）」时是行为动词，疑问、否定用 do/does/did，这和 have 表「拥有」不同；③ Yes? 用升调是「什么事？」；④ What's the matter? 怎么了/出什么事了；⑤ Well, you're going to… 里的 well 是感叹词表惊讶，be going to 表将来；⑥ nearly 几乎、将近：It's nearly ready. 马上就好。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why is Carol disappointed?",
+      "zh": "为什么卡罗尔感到失望？",
+      "a": "Because Tom and Sam had roast beef and potatoes at a restaurant for lunch, and they are going to have roast beef and potatoes again for dinner tonight.",
+      "aZh": "因为汤姆和萨姆中午刚在饭店吃过烤牛肉和土豆，而今晚的晚饭又是烤牛肉和土豆。",
+      "hint": "听 We had roast beef and potatoes. 和 again tonight 这两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Where is Tom when Sam arrives? What is he doing?",
+      "zh": "萨姆来时汤姆在哪儿？他在做什么？",
+      "a": "He is upstairs. He is having a bath.",
+      "aZh": "他在楼上，正在洗澡。",
+      "hint": "听 He's upstairs. He's having a bath."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Tom offer Sam? What does Sam say?",
+      "zh": "汤姆请萨姆享用什么？萨姆怎么回答？",
+      "a": "Tom offers a cigarette first, then a glass of whisky. Sam says 'No, thanks' to the cigarette, but 'O.K. Thanks' to the whisky.",
+      "aZh": "汤姆先请萨姆抽烟，又请他喝杯威士忌。烟萨姆谢绝了，威士忌他接受了。",
+      "hint": "一个婉拒用 No, thanks，一个接受用 O.K. Thanks。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did Tom and Sam have for lunch today?",
+      "zh": "汤姆和萨姆今天午饭吃了什么？",
+      "a": "They had roast beef and potatoes at a restaurant.",
+      "aZh": "他们在一家饭店吃了烤牛肉和土豆。",
+      "hint": "听 We went to a restaurant. We had roast beef and potatoes."
+    },
+    {
+      "kind": "think",
+      "q": "In this lesson, why do we say 'Have a cigarette' and 'He's having a bath' instead of using verbs like smoke or wash?",
+      "zh": "为什么课文里说 Have a cigarette、He's having a bath，而不用 smoke、wash 这类动词？",
+      "a": "Here have is a complete (action) verb meaning eat / drink / enjoy / experience. English often prefers have + noun (have a cigarette, have a bath, have lunch) for these everyday activities — just like Chinese「抽根烟、洗个澡、吃顿饭」.",
+      "aZh": "这时的 have 是完全动词（行为动词），表示「吃、喝、享受、进行」。英语习惯用 have + 名词来谈这些日常动作——正如中文爱说「抽根烟、洗个澡、吃顿饭」。",
+      "hint": "have 在这里不表示「拥有」，而是动作，可与各种时态连用。"
+    },
+    {
+      "kind": "drill",
+      "q": "What are they doing? — They are having lunch. / What did he do? — He had a haircut. （用 have + 名词代替动作动词）",
+      "zh": "第 82 课操练：用 have + 名词表达吃喝与日常动作（吃午饭、洗澡、理发、度假……）。",
+      "a": "He is having a bath. He had a haircut yesterday. They are going to have a holiday.",
+      "aZh": "他正在洗澡。他昨天理了发。他们要去度假。",
+      "hint": "have a bath / have lunch / have a haircut / have a holiday — have 不变，名词可换。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "bath", "phonetic": "/bɑːθ/", "meanings": [{ "pos": "n.", "meaning": "洗澡", "usage": "have a bath 洗澡；复数 baths /bɑːðz/" }], "examples": [{ "en": "He's having a bath.", "zh": "他正在洗澡。" }] },
+    { "word": "nearly", "phonetic": "/ˈnɪəli/", "meanings": [{ "pos": "adv.", "meaning": "几乎，将近", "usage": "It's nearly ready. 马上就好；I nearly missed the train. 我险些没赶上火车。" }], "examples": [{ "en": "It's nearly ready.", "zh": "马上就好。" }] },
+    { "word": "ready", "phonetic": "/ˈredi/", "meanings": [{ "pos": "adj.", "meaning": "准备好的，完好的", "usage": "Is dinner ready? 饭好了吗？be ready to do sth. 准备好做某事" }], "examples": [{ "en": "Is dinner ready, Carol?", "zh": "卡罗尔，饭好了吗？" }] },
+    { "word": "dinner", "phonetic": "/ˈdɪnə/", "meanings": [{ "pos": "n.", "meaning": "正餐，晚餐", "usage": "have dinner 吃正餐（一日间主要的一餐）" }], "examples": [{ "en": "We can have dinner at seven o'clock.", "zh": "7 点钟我们可以吃饭。" }] },
+    { "word": "roast", "phonetic": "/rəʊst/", "meanings": [{ "pos": "adj.", "meaning": "烤的", "usage": "roast beef 烤牛肉；作动词表「烤」" }], "examples": [{ "en": "We had roast beef and potatoes.", "zh": "我们吃的是烤牛肉和土豆。" }] },
+    { "word": "whisky", "phonetic": "/ˈwɪski/", "meanings": [{ "pos": "n.", "meaning": "威士忌酒", "usage": "a glass of whisky 一杯威士忌；不可数，表「一杯」借 a glass of" }], "examples": [{ "en": "Have a glass of whisky then.", "zh": "那么，来杯威士忌吧。" }] },
+    { "word": "restaurant", "phonetic": "/ˈrestrɒnt/", "meanings": [{ "pos": "n.", "meaning": "饭店，餐馆", "usage": "go to a restaurant 去餐馆吃饭" }], "examples": [{ "en": "We went to a restaurant.", "zh": "我们去了一家饭店。" }] },
+    { "word": "cigarette", "phonetic": "/ˌsɪɡəˈret/", "meanings": [{ "pos": "n.", "meaning": "香烟", "usage": "have a cigarette 抽支烟" }], "examples": [{ "en": "Hello, Sam. Have a cigarette.", "zh": "你好，萨姆。请抽烟。" }] },
+    { "word": "upstairs", "phonetic": "/ˌʌpˈsteəz/", "meanings": [{ "pos": "adv.", "meaning": "在楼上，往楼上", "usage": "go / be upstairs 在楼上（反义 downstairs）" }], "examples": [{ "en": "He's upstairs.", "zh": "他在楼上。" }] },
+    { "word": "matter", "phonetic": "/ˈmætə/", "meanings": [{ "pos": "n.", "meaning": "事情；麻烦事", "usage": "What's the matter (with you)? 怎么了？/ 出什么事了？" }], "examples": [{ "en": "What's the matter, Carol?", "zh": "怎么了，卡罗尔？" }] }
+  ],
+  "text": [
+    {
+      "lesson": 81,
+      "title": "Roast beef and potatoes",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "SAM", "en": "Hello, Carol! Where's Tom?", "zh": "你好，卡罗尔！汤姆在哪儿？" },
+        { "speaker": "CAROL", "en": "He's upstairs. He's having a bath.", "zh": "他在楼上，他正在洗澡。", "note": "have a bath 洗澡，have 是行为动词，现在进行时为 having。" },
+        { "speaker": "CAROL", "en": "Tom!", "zh": "汤姆！" },
+        { "speaker": "TOM", "en": "Yes?", "zh": "什么事？", "note": "Yes? 用升调，表「什么事？/干嘛？」。" },
+        { "speaker": "CAROL", "en": "Sam's here.", "zh": "萨姆来了。", "note": "Sam's = Sam is。" },
+        { "speaker": "TOM", "en": "I'm nearly ready.", "zh": "我马上就好。", "note": "nearly 几乎，将近；ready 准备好的。" },
+        { "speaker": "TOM", "en": "Hello, Sam. Have a cigarette.", "zh": "你好，萨姆。请抽烟。", "note": "have a cigarette 抽支烟：have 表动作，不表「拥有」。" },
+        { "speaker": "SAM", "en": "No thanks, Tom.", "zh": "不，谢谢，汤姆。", "note": "婉拒别人递来的东西用 No, thanks。" },
+        { "speaker": "TOM", "en": "Have a glass of whisky then.", "zh": "那么，来杯威士忌吧。", "note": "then 这时表「那么/那就」；a glass of 一杯。" },
+        { "speaker": "SAM", "en": "O.K. Thanks.", "zh": "好的，谢谢。", "note": "接受邀请说 O.K. Thanks / Oh, thank you。" },
+        { "speaker": "TOM", "en": "Is dinner ready, Carol?", "zh": "卡罗尔，饭好了吗？" },
+        { "speaker": "CAROL", "en": "It's nearly ready. We can have dinner at seven o'clock.", "zh": "马上就好。7 点钟我们可以吃饭。", "note": "have dinner 吃正餐；at + 时刻。" },
+        { "speaker": "TOM", "en": "Sam and I had lunch together today. We went to a restaurant.", "zh": "我和萨姆今天一起吃的午饭。我们去了一家饭店。", "note": "had lunch / went 都是过去式，叙述今天已发生的事。" },
+        { "speaker": "CAROL", "en": "What did you have?", "zh": "你们吃了什么？", "note": "have 表「吃」，疑问要借 did。" },
+        { "speaker": "TOM", "en": "We had roast beef and potatoes.", "zh": "我们吃的是烤牛肉和土豆。" },
+        { "speaker": "CAROL", "en": "Oh!", "zh": "噢！", "note": "感叹词，表惊讶。" },
+        { "speaker": "TOM", "en": "What's the matter, Carol?", "zh": "怎么了，卡罗尔？", "note": "What's the matter? 怎么了/出什么事了。" },
+        { "speaker": "CAROL", "en": "Well, you're going to have roast beef and potatoes again tonight!", "zh": "唉，今晚你们又要吃烤牛肉和土豆了！", "note": "well 是感叹词表惊讶；be going to 表将要发生；again 又、再。" }
+      ]
+    },
+    {
+      "lesson": 82,
+      "title": "He's having a bath.",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "have + 名词：用 have 代替 eat / drink / enjoy / take 等动词",
+        "zh": "吃（饭）、喝（酒）、做（某事）……：have a bath 洗澡 / have lunch 吃午饭 / have a haircut 理发……（have 是行为动词，可入各种时态）",
+        "slots": [
+          { "en": "have a bath", "zh": "洗澡" },
+          { "en": "have breakfast / lunch / dinner", "zh": "吃早/午/晚餐" },
+          { "en": "have a meal", "zh": "吃一顿饭" },
+          { "en": "have a glass of milk", "zh": "喝一杯牛奶" },
+          { "en": "have tea", "zh": "喝茶" },
+          { "en": "have a cigarette", "zh": "抽支烟" },
+          { "en": "have a swim", "zh": "游一次泳" },
+          { "en": "have a haircut", "zh": "理发" },
+          { "en": "have a lesson", "zh": "上课" },
+          { "en": "have a party", "zh": "开聚会" },
+          { "en": "have a holiday", "zh": "度假" },
+          { "en": "have a good time", "zh": "玩得开心" }
+        ],
+        "answers": ["They are having their lunch. ( = They are eating their lunch.)", "He is having a bath.", "I had a glass of milk. ( = I drank a glass of milk.)", "They are going to have a holiday. ( = They are going to go for a holiday.)"]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "用 have 代替斜体动词：They are eating their lunch.", "a": "They are having their lunch.", "note": "eat → have a meal / have lunch；进行时 having。" },
+    { "q": "用 have 代替斜体动词：I drank a glass of milk.", "a": "I had a glass of milk.", "note": "drink → have a glass of …；drink 过去式 drank，have 过去式 had。" },
+    { "q": "用 have 代替斜体动词：Eat a biscuit.", "a": "Have a biscuit.", "note": "祈使句同样可换用 have。" },
+    { "q": "用 have 代替斜体动词：They ate a meal at a restaurant.", "a": "They had a meal at a restaurant.", "note": "have a meal 在饭店吃的一顿饭；ate 过去式 → had。" },
+    { "q": "汉译英：他正在洗澡。", "a": "He is having a bath.", "note": "have a bath 洗澡；进行时 having a bath。" },
+    { "q": "汉译英：饭马上就好。", "a": "It's nearly ready. / Dinner will be ready in a minute.", "note": "nearly 几乎、将近；ready 准备好的。" },
+    { "q": "汉译英：今晚你们又要吃烤牛肉和土豆了！", "a": "You're going to have roast beef and potatoes again tonight!", "note": "be going to 表将来；again 又、再。" }
+  ],
+  "quiz": [
+    { "q": "「他正在洗澡」正确说法是：", "options": ["He is having a bath.", "He is having bath.", "He is making a bath.", "He is doing a bath."], "answer": 0, "note": "have a bath 是固定搭配，a 不能省；不用 make/do。" },
+    { "q": "别人请你抽烟，你想谢绝，应说：", "options": ["No, thanks.", "Yes, please.", "O.K. Thanks.", "Not at all."], "answer": 0, "note": "婉拒用 No, thanks；接受才说 O.K. Thanks。" },
+    { "q": "have 表示「吃/喝」时，疑问句应说：", "options": ["What did you have for lunch?", "What had you for lunch?", "What you had for lunch?", "What do you had for lunch?"], "answer": 0, "note": "have 不表「拥有」时是行为动词，疑问、否定必须借 do/does/did。" },
+    { "q": "What's the matter? 的意思是：", "options": ["怎么了？出什么事了？", "这是什么？", "事情办完了吗？", "没关系。"], "answer": 0, "note": "matter 指麻烦事；What's the matter? 询问出了什么问题。" },
+    { "q": "You're going to have roast beef again tonight. 中 be going to 表示：", "options": ["将要发生的事", "正在发生的事", "过去发生的事", "经常的习惯"], "answer": 0, "note": "be going to + 动词原形表打算或即将发生的事，此处指今晚的晚饭。" },
+    { "q": "It's nearly ready. 的意思是：", "options": ["马上就好了。", "早就准备好了。", "还没开始做。", "已经吃完了。"], "answer": 0, "note": "nearly 几乎、将近；nearly ready = 快准备好了。" }
+  ],
+  "grammar": [
+    {
+      "title": "完全动词 have（3）——表示吃喝与进行某项活动",
+      "structure": "have + 名词（have a bath / have lunch / have a cigarette / have a good time）",
+      "definition": "have 可以代替 eat、drink、enjoy、experience、take 等动词，表示「吃、喝、享受、进行」。这时的 have 是行为动词，与动作有关，而不像表示「拥有」的 have 那样表示状态，因此可以用于各种时态。",
+      "usage": "表「拥有」时疑问/否定可不用 do（英式）；但 have 表「吃、喝、做某事」时与普通动词完全一样，疑问和否定必须用 do/does/did。",
+      "examples": [
+        { "en": "Have a cigarette!", "zh": "抽根烟吧！" },
+        { "en": "He's having a bath.", "zh": "他正在洗澡。" },
+        { "en": "We had lunch together today.", "zh": "我们今天一起吃了午饭。" }
+      ]
+    },
+    {
+      "title": "have（行为动词）的疑问与否定：用 do/does/did",
+      "structure": "疑问：Do/Does/Did + 主语 + have + 名词? 否定：主语 + don't/doesn't/didn't + have + 名词",
+      "definition": "当 have 不表示「有」而表示其他动作意义时，其用法和英语中的其他动词相同：一般现在时和一般过去时的疑问、否定结构必须借助 do、does 和 did。",
+      "usage": "What did you have for lunch? 你们午饭吃了什么？I didn't have breakfast. 我没吃早饭。",
+      "examples": [
+        { "en": "What did you have?", "zh": "你们吃了什么？" },
+        { "en": "Did you have a good time?", "zh": "你们玩得开心吗？" }
+      ]
+    },
+    {
+      "title": "be going to 表示将来",
+      "structure": "主语 + am/is/are + going to + 动词原形",
+      "definition": "be going to 表示打算、计划或即将发生的事，常与 tonight、tomorrow 等将来时间连用。",
+      "usage": "Well, you're going to have roast beef and potatoes again tonight! 这里的 well 是感叹词，表示惊讶。",
+      "examples": [
+        { "en": "You're going to have roast beef and potatoes again tonight!", "zh": "今晚你们又要吃烤牛肉和土豆了！" },
+        { "en": "They are going to have a holiday.", "zh": "他们打算去度假。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "have a bath", "usage": "洗澡（have 表进行某项活动）", "examples": [{ "en": "He's upstairs. He's having a bath.", "zh": "他在楼上，正在洗澡。" }] },
+    { "phrase": "have a cigarette", "usage": "抽支烟（递烟的客套）", "examples": [{ "en": "Hello, Sam. Have a cigarette.", "zh": "你好，萨姆。请抽烟。" }] },
+    { "phrase": "have a glass of whisky", "usage": "喝杯威士忌（a glass of 表「一杯」）", "examples": [{ "en": "Have a glass of whisky then.", "zh": "那么，来杯威士忌吧。" }] },
+    { "phrase": "have dinner / have lunch", "usage": "吃正餐 / 吃午饭（have 表「吃」）", "examples": [{ "en": "We can have dinner at seven o'clock.", "zh": "7 点钟我们可以吃饭。" }] },
+    { "phrase": "No, thanks", "usage": "婉拒别人递来的东西时的客套话", "examples": [{ "en": "No, thanks, Tom.", "zh": "不，谢谢，汤姆。" }] },
+    { "phrase": "What's the matter?", "usage": "怎么了？出什么事了？", "examples": [{ "en": "What's the matter, Carol?", "zh": "怎么了，卡罗尔？" }] },
+    { "phrase": "go to a restaurant", "usage": "去餐馆（饭店）吃饭", "examples": [{ "en": "We went to a restaurant.", "zh": "我们去了一家饭店。" }] }
+  ]
+}

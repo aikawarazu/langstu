@@ -702,14 +702,14 @@ function meaningsText(w){
 /* 生词卡：{word, phonetic?, meanings:[{pos?,meaning,usage?}], examples?:[{en,zh}]}（可点下钻） */
 function tbWordCard(w){
   return '<div class="tb-word" data-w="'+esc(w.word)+'" title="点击查看详情">'+
-    '<b>'+esc(w.word)+'</b>'+
-    (w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')+
+    '<div class="tb-whead"><b>'+esc(w.word)+'</b>'+
+    (w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')+'</div>'+
     '<span>'+esc(meaningsText(w))+'</span>'+
     exLines(w.examples,S.dict)+'</div>';
 }
 /* 短语卡：{phrase, usage?, examples:[{en,zh}]} */
 function tbPhraseCard(p){
-  return '<div class="tb-word phrase"><b>'+esc(p.phrase)+'</b>'+
+  return '<div class="tb-word phrase"><div class="tb-whead"><b>'+esc(p.phrase)+'</b></div>'+
     (p.usage?'<span>'+esc(p.usage)+'</span>':'')+
     exLines(p.examples,S.dict)+'</div>';
 }
@@ -895,8 +895,9 @@ function wordCard(w){
     return '<div class="wc-ex"><span class="en">'+esc(e.en)+'</span>'+
       (e.zh?'<span class="zh">'+esc(e.zh)+'</span>':'')+'</div>';
   }).join('');
-  var head=w.word?'<b>'+esc(w.word)+'</b>'+(w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')
-           :'<b>'+esc(w.phrase)+'</b>';
+  var head='<div class="tb-whead">'+(w.word
+    ? '<b>'+esc(w.word)+'</b>'+(w.phonetic?'<i class="ph">'+esc(w.phonetic)+'</i>':'')
+    : '<b>'+esc(w.phrase)+'</b>')+'</div>';
   return '<button class="nt-word">'+head+
     '<span>'+esc(w.word?meaningsText(w):(w.usage||''))+'</span>'+
     (ex?'<div class="wc-exs">'+ex+'</div>':'')+'</button>';

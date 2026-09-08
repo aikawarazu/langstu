@@ -1,0 +1,185 @@
+{
+  "title": "A car crash / yet & already",
+  "subtitle": "一场车祸 / 还没与已经（现在完成时与一般过去时对比）",
+  "lead": {
+    "question": "你去修车行取车，怎么用英语问「我的车修好了吗？」「你们修好了没有？」——再被反问「您没出过车祸吗？」时，能听出那句否定疑问里的惊讶吗？",
+    "warmup": "先别看课文。上一课学了现在完成时的疑问与否定，这一课把它放进真实场景：Have your mechanics finished yet?（你们的机械师完工了吗？）——yet 是完成时疑问句和否定句的老搭档，意思是「还（没）」。而交代「三天前送来的」「撞到了电线杆上」这些过去细节时，要退回一般过去时：I brought it here three days ago. / I drove it into a lamp-post. 再留意两处神来之笔：Isn't that your car?（否定疑问表惊讶）和 Well, it was my car.（重读 was：曾经是我的车！）",
+    "goals": [
+      "掌握 yet 在现在完成时疑问句/否定句中的用法：Have ... finished yet? / They haven't finished yet.",
+      "掌握 already 在肯定句中的用法：has already met / left / found",
+      "能对比完成时（问结果）与一般过去时（给时间）：Has she found her pen yet? — She found it an hour ago.",
+      "掌握否定疑问句表惊讶、期待肯定回答：Isn't that your car? / Didn't you have a crash?",
+      "记住不规则动词：bring→brought, drive→drove, send→sent, tell→told, sweep→swept"
+    ],
+    "summary": "第 87 课伍德先生到修车行取车：车是三天前送来的，可机械师还没修好——他们还在修呢。到车库一看，服务台问：这难道不是您的车吗？伍德先生苦笑：唔，这曾是我的车——他把车撞到电线杆上了。机械师正设法修，但说实在的，您需要一辆新车了。第 88 课系统操练：过去时疑问句改否定句，以及 Has ... yet? / has already ... / When did ...? 的三连问。",
+    "tips": "① yet（还、已经）用于疑问句和否定句；already（已经）用于肯定句；② yet 问「完成了吗」，否定回答 Haven't finished yet. 还没完成；③ ago（……以前）短语是一般过去时的标志，动词必须用过去式；④ work on it 的 on 表示「从事于、修理」；⑤ to tell you the truth 说实在的；⑥ 否定疑问句 Isn't that your car? 表示惊讶并期待肯定回答。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Can the mechanics repair Mr Wood's car?",
+      "zh": "修理工能修复伍德先生的汽车吗？",
+      "a": "They're trying to repair it, but to tell you the truth, he needs a new car.",
+      "aZh": "他们正设法修，不过说实在的，他需要一辆新车了。",
+      "hint": "听对话最后两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "When did Mr Wood bring his car to the garage?",
+      "zh": "伍德先生什么时候把车送来的？",
+      "a": "He brought it here three days ago.",
+      "aZh": "他是三天前送来的。",
+      "hint": "I brought it here ... 一句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What's the licence number of Mr Wood's car?",
+      "zh": "伍德先生汽车的牌照号码是多少？",
+      "a": "It's LFZ 312 G.",
+      "aZh": "是 LFZ 312 G。",
+      "hint": "对话开头部分。"
+    },
+    {
+      "kind": "detail",
+      "q": "Why is the car so badly damaged?",
+      "zh": "车为什么损毁得这么厉害？",
+      "a": "Because Mr Wood had a crash — he drove it into a lamp-post.",
+      "aZh": "因为伍德先生出了车祸——他把车撞到了电线杆上。",
+      "hint": "Didn't you have a crash? 之后的回答。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does the attendant ask 'Isn't that your car?' instead of 'Is that your car?'",
+      "zh": "服务台为什么问 Isn't that your car? 而不是 Is that your car?？",
+      "a": "A negative yes/no question expresses surprise or expectation of a positive answer — the attendant can hardly believe the sight. 'Well, it was my car.' (stressed was) means it used to be his car before the crash.",
+      "aZh": "否定疑问句表示惊讶、期待得到肯定回答——服务台几乎不敢相信眼前的景象。Well, it was my car.（重读 was）意为「这曾经是我的车（撞坏之后就不像了）」。",
+      "hint": "想想中文「这难道不是您的车吗？」的语气。"
+    },
+    {
+      "kind": "drill",
+      "q": "Has he met Mrs. Jones yet? — Yes, he has already met Mrs. Jones. When did he meet Mrs. Jones? — He met her two weeks ago.",
+      "zh": "第 88 课 B 组操练：Has ... yet? — Yes, ... has already .... When did ...? — ... ago/昨天等。",
+      "a": "Has she told him the truth yet? — Yes, she has already told him the truth. She told him the truth last night.",
+      "aZh": "她把真相告诉他了吗？——已经告诉他了。什么时候说的？——昨晚说的。",
+      "hint": "yet 问 → already 答 → 过去时补时间，三步走。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "attendant", "phonetic": "/əˈtendənt/", "meanings": [{ "pos": "n.", "meaning": "接待员，服务员", "usage": "修车行、加油站、停车场的服务人员" }], "examples": [{ "en": "I don't know, sir.", "zh": "我不知道，先生。（服务台回答）" }] },
+    { "word": "bring", "phonetic": "/brɪŋ/", "meanings": [{ "pos": "v.", "meaning": "带来，送来", "usage": "过去式/过去分词 brought；方向朝说话人而来" }], "examples": [{ "en": "When did you bring it to us?", "zh": "您什么时候送来的？" }] },
+    { "word": "garage", "phonetic": "/ˈɡærɑːʒ/", "meanings": [{ "pos": "n.", "meaning": "车库；汽车修理厂", "usage": "英式也指加油站" }], "examples": [{ "en": "Let's go into the garage.", "zh": "我们到车库去吧。" }] },
+    { "word": "crash", "phonetic": "/kræʃ/", "meanings": [{ "pos": "n.", "meaning": "碰撞，车祸", "usage": "have a crash 出车祸" }], "examples": [{ "en": "Didn't you have a crash?", "zh": "难道您没有出车祸吗？" }] },
+    { "word": "lamp-post", "phonetic": "/ˈlæmp pəʊst/", "meanings": [{ "pos": "n.", "meaning": "灯杆，路灯柱", "usage": "drive into a lamp-post 撞上灯柱" }], "examples": [{ "en": "I drove it into a lamp-post.", "zh": "我把汽车撞在电线杆上了。" }] },
+    { "word": "repair", "phonetic": "/rɪˈpeə/", "meanings": [{ "pos": "v.", "meaning": "修理", "usage": "repair a car / the mistake 修理；弥补" }], "examples": [{ "en": "Can your mechanics repair it?", "zh": "你们的机械师能修好吗？" }] },
+    { "word": "try", "phonetic": "/traɪ/", "meanings": [{ "pos": "v.", "meaning": "努力，设法，试图", "usage": "try to do 设法做；try doing 尝试做" }], "examples": [{ "en": "They're trying to repair it, sir.", "zh": "他们正设法修呢，先生。" }] },
+    { "word": "licence", "phonetic": "/ˈlaɪsəns/", "meanings": [{ "pos": "n.", "meaning": "执照，许可证", "usage": "licence number 牌照号码" }], "examples": [{ "en": "What's the licence number of your car?", "zh": "您的汽车牌号是多少？" }] },
+    { "word": "mechanic", "phonetic": "/məˈkænɪk/", "meanings": [{ "pos": "n.", "meaning": "机械师，修理工", "usage": "复数 mechanics" }], "examples": [{ "en": "Have your mechanics finished yet?", "zh": "你们的机械师修好了吗？" }] },
+    { "word": "drive", "phonetic": "/draɪv/", "meanings": [{ "pos": "v.", "meaning": "驾驶；驱赶", "usage": "过去式 drove；drive into 撞到……上" }], "examples": [{ "en": "I drove it into a lamp-post.", "zh": "我把汽车撞在电线杆上了。" }] },
+    { "word": "still", "phonetic": "/stɪl/", "meanings": [{ "pos": "adv.", "meaning": "仍然，还在", "usage": "still + 进行时，强调动作持续" }], "examples": [{ "en": "They're still working on it.", "zh": "他们还在修呢。" }] },
+    { "word": "truth", "phonetic": "/truːθ/", "meanings": [{ "pos": "n.", "meaning": "真相，实话", "usage": "to tell you the truth 说实话；tell the truth 讲真话" }], "examples": [{ "en": "To tell you the truth, you need a new car.", "zh": "说实在的，您需要一辆新车了。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 87,
+      "title": "A car crash",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MR WOOD", "en": "Is my car ready yet?", "zh": "我的汽车修好了吗？", "note": "yet 用于疑问句，意为「已经」" },
+        { "speaker": "ATTENDANT", "en": "I don't know, sir. What's the licence number of your car?", "zh": "我不知道，先生。您的汽车牌号是多少？" },
+        { "speaker": "MR WOOD", "en": "It's LFZ 312 G.", "zh": "是 LFZ 312 G。" },
+        { "speaker": "ATTENDANT", "en": "When did you bring it to us?", "zh": "您什么时候送来的？", "note": "bring 指朝说话人方向「送来」" },
+        { "speaker": "MR WOOD", "en": "I brought it here three days ago.", "zh": "3 天前送来的。", "note": "ago 短语 → 一般过去时 brought" },
+        { "speaker": "ATTENDANT", "en": "Ah yes, I remember now.", "zh": "啊，是的，我现在记起来了。" },
+        { "speaker": "MR WOOD", "en": "Have your mechanics finished yet?", "zh": "你们的机械师修好了吗？", "note": "完成时疑问 + yet 问结果" },
+        { "speaker": "ATTENDANT", "en": "No, they're still working on it. Let's go into the garage and have a look at it.", "zh": "没有，他们还在修呢。我们到车库去看一下吧。", "note": "work on 从事于（修理）；have a look at 看一下" },
+        { "speaker": "ATTENDANT", "en": "Isn't that your car?", "zh": "这难道不是您的车吗？", "note": "否定疑问句表惊讶，期待肯定回答" },
+        { "speaker": "MR WOOD", "en": "Well, it was my car.", "zh": "唔，这曾是我的车。", "note": "was 重读：撞坏之前「曾经是」" },
+        { "speaker": "ATTENDANT", "en": "Didn't you have a crash?", "zh": "难道您没有出车祸吗？" },
+        { "speaker": "MR WOOD", "en": "That's right. I drove it into a lamp-post. Can your mechanics repair it?", "zh": "是啊。我把汽车撞在电线杆上了。你们的机械师能修好吗？", "note": "drive→drove；drive into 撞到" },
+        { "speaker": "ATTENDANT", "en": "Well, they're trying to repair it, sir. But to tell you the truth, you need a new car!", "zh": "他们正设法修呢，先生。不过说实在的，您需要一辆新车了！", "note": "try to do 设法做；to tell you the truth 说实话" }
+      ]
+    },
+    {
+      "lesson": 88,
+      "title": "yet & already（完成时与过去时操练）",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "A 组：Did he/she/you ___ ...? → He/She/We didn't ___ ....；B 组：Has he/she ___ yet? — Yes, he/she has already ___. When did he/she ___? — He/She ___ ... ago / last night.",
+        "zh": "第 88 课操练：A 组把过去时疑问句改为否定句；B 组用 yet 问、already 答、再用一般过去时补上具体时间。",
+        "slots": [
+          { "en": "find his pen — a minute ago", "zh": "找到钢笔 — 一分钟前" },
+          { "en": "get a new television — last week", "zh": "买新电视机 — 上星期" },
+          { "en": "hear the news — on the radio", "zh": "听到消息 — 通过收音机" },
+          { "en": "leave — this morning", "zh": "离开 — 今天早晨" },
+          { "en": "lose his umbrella — yesterday", "zh": "丢伞 — 昨天" },
+          { "en": "sweep the floor — this morning", "zh": "扫地 — 今天早晨" },
+          { "en": "meet Mrs. Jones — two weeks ago", "zh": "见到琼斯太太 — 两周前" },
+          { "en": "the boss leave — ten minutes ago", "zh": "老板离开 — 十分钟前" },
+          { "en": "have breakfast — half past seven", "zh": "吃早饭 — 七点半" },
+          { "en": "find her pen — an hour ago", "zh": "找到钢笔 — 一小时前" },
+          { "en": "make the bed — this morning", "zh": "整理床铺 — 今天早晨" },
+          { "en": "send the letter — the day before yesterday", "zh": "寄信 — 前天" },
+          { "en": "tell him the truth — last night", "zh": "告诉他真相 — 昨晚" }
+        ],
+        "answers": ["Did he find his pen a minute ago? He didn't find his pen a minute ago.", "Did you sweep the floor this morning? I didn't sweep the floor this morning.", "Has he met Mrs. Jones yet? Yes, he has already met Mrs. Jones. When did he meet Mrs. Jones? He met her two weeks ago.", "Has the boss left yet? Yes, the boss has already left. He left ten minutes ago.", "Has she told him the truth yet? Yes, she has already told him the truth. She told him the truth last night."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "改否定句：He found his pen a minute ago.", "a": "He didn't find his pen a minute ago.", "note": "一般过去时否定借助 didn't + 动词原形。" },
+    { "q": "汉译英：我的汽车修好了吗？", "a": "Is my car ready yet?", "note": "yet 用于疑问句，问「（到现在）已经……了吗」。" },
+    { "q": "汉译英：他们还在修呢。", "a": "They're still working on it.", "note": "work on 从事于（修理）；still 仍然。" },
+    { "q": "Has she told him the truth yet? 的回答（昨晚已告诉）。", "a": "Yes, she has already told him the truth. She told him the truth last night.", "note": "already 答完成时；last night 点明时间换过去时 told。" },
+    { "q": "汉译英：我把汽车撞在电线杆上了。", "a": "I drove it into a lamp-post.", "note": "drive 的过去式 drove；into 表「撞到……上」。" },
+    { "q": "汉译英：不过说实在的，您需要一辆新车了。", "a": "But to tell you the truth, you need a new car.", "note": "to tell you the truth 是口语插入语。" },
+    { "q": "改一般疑问句：We heard the news on the radio.", "a": "Did you hear the news on the radio?", "note": "过去时疑问借助 did + 动词原形。" }
+  ],
+  "quiz": [
+    { "q": "yet 的用法是：", "options": ["用于疑问句和否定句，意为「还（没）」", "只用于肯定句", "意为「已经」，只用于肯定句", "意为「仍然」"], "answer": 0, "note": "yet 与完成时疑问句、否定句连用；肯定句中的「已经」用 already。" },
+    { "q": "— Have your mechanics finished yet? — 还没修好：", "options": ["No, they haven't finished yet.", "No, they didn't finish already.", "No, they haven't finished already.", "No, they aren't finishing."], "answer": 0, "note": "否定句配 yet：haven't finished yet；already 不用于否定。" },
+    { "q": "I brought it here three days ago. 中为什么用 brought？", "options": ["ago 短语是明确过去时间，用一般过去时", "brought 是现在分词", "强调对现在的影响", "习惯用法"], "answer": 0, "note": "three days ago 指明过去时间，动词用过去式。" },
+    { "q": "Isn't that your car? 的语气是：", "options": ["表示惊讶，期待对方肯定回答", "生气责问", "真的不知道是不是", "邀请对方"], "answer": 0, "note": "否定疑问句常用来表示惊讶或期待肯定答复。" },
+    { "q": "Didn't you have a crash? 的回答「是啊」应说：", "options": ["That's right.", "Yes, I didn't.", "No, I did.", "That's wrong."], "answer": 0, "note": "对否定疑问句的肯定回答回答事实本身：That's right.（确实出过）。" },
+    { "q": "Well, it was my car. 中重读 was 强调：", "options": ["车曾经是我的（现在撞坏了）", "过去将来", "虚拟语气", "一般现在"], "answer": 0, "note": "was 斜体/重读表示对过去的强调：以前是我的车。" }
+  ],
+  "grammar": [
+    {
+      "title": "现在完成时的疑问式及否定式（+ yet）",
+      "structure": "疑问：Have/Has + 主语 + 过去分词 ... yet?；否定：主语 + haven't/hasn't + 过去分词 ... yet",
+      "definition": "现在完成时由 have/has + 过去分词构成；疑问式把 have/has 提到主语前，否定式在其后加 not。yet（还、已经）是完成时疑问句和否定句的常用副词。",
+      "usage": "问结果是否完成：Have your mechanics finished yet? — No, they haven't finished yet.",
+      "examples": [
+        { "en": "Have your mechanics finished yet?", "zh": "你们的机械师修好了吗？" },
+        { "en": "Is my car ready yet?", "zh": "我的汽车修好了吗？" }
+      ]
+    },
+    {
+      "title": "一般过去时与现在完成时的对比",
+      "structure": "过去时：动词过去式 + ago/last ... 等明确时间；完成时：have/has + 过去分词 + yet/already",
+      "definition": "问「做完了吗」用完成时；回答「什么时候做的」这类具体过去时间，必须改用一般过去时。already（已经）用于肯定句，yet 用于疑问句和否定句。",
+      "usage": "Has she found her pen yet? — Yes, she has already found it. She found it an hour ago.",
+      "examples": [
+        { "en": "When did you bring it to us? — I brought it here three days ago.", "zh": "您什么时候送来的？——3 天前送来的。" },
+        { "en": "Yes, she has already told him the truth.", "zh": "是的，她已经把真相告诉他了。" }
+      ]
+    },
+    {
+      "title": "否定疑问句表示惊讶",
+      "structure": "Isn't that ...? / Didn't you ...?（一般疑问句的否定形式）",
+      "definition": "一般疑问句的否定形式用来表示惊异、责难或期待、请求得到肯定回答，相当于汉语的「难道不……吗？」。回答时按事实回答：肯定事实用 Yes, ... did/have。",
+      "usage": "Isn't that your car? / Didn't you have a crash? — That's right.",
+      "examples": [
+        { "en": "Isn't that your car?", "zh": "这难道不是您的车吗？" },
+        { "en": "Didn't you have a crash?", "zh": "难道您没有出车祸吗？" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "be ready yet", "usage": "（到现在）已经准备好了吗", "examples": [{ "en": "Is my car ready yet?", "zh": "我的汽车修好了吗？" }] },
+    { "phrase": "work on", "usage": "从事于，干（某活儿）；修理中", "examples": [{ "en": "No, they're still working on it.", "zh": "没有，他们还在修呢。" }] },
+    { "phrase": "have a look at", "usage": "看一下（= look at，look 为名词）", "examples": [{ "en": "Let's go into the garage and have a look at it.", "zh": "我们到车库去看一下吧。" }] },
+    { "phrase": "to tell you the truth", "usage": "说实话，说实在的", "examples": [{ "en": "But to tell you the truth, you need a new car!", "zh": "不过说实在的，您需要一辆新车了！" }] },
+    { "phrase": "have a crash", "usage": "出车祸，撞车", "examples": [{ "en": "Didn't you have a crash?", "zh": "难道您没有出车祸吗？" }] },
+    { "phrase": "drive into", "usage": "（开车）撞到……上", "examples": [{ "en": "I drove it into a lamp-post.", "zh": "我把汽车撞在电线杆上了。" }] }
+  ]
+}

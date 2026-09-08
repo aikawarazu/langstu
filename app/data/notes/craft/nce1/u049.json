@@ -1,0 +1,182 @@
+{
+  "title": "A small blue case / Whose is it?",
+  "subtitle": "一只蓝色的小箱子 / 它是谁的？",
+  "lead": {
+    "question": "在火车站丢了行李去认领，你必须能「描述」它：什么颜色、多大、有什么记号——这些用英语怎么说？",
+    "warmup": "先别看课文。想象失物招领处：霍尔先生说几天前把一只手提箱忘在开往伦敦的火车上了（I left a suitcase on the train the other day.）。服务员问 Can you describe it, sir?（您能描述一下吗？）——这就是本课的第一个考点。注意霍尔先生的描述：一只蓝色小箱子、有拉链、箱把上有个标签写着姓名住址。再来回读一读服务员那三句妙问：Is this case yours?（这箱子是您的吗？）、What about this one?（这只是不是？）、What's your name and address? 全课围绕「所有」展开：mine / yours / belong to。",
+    "goals": [
+      "能用 Can you describe it? 请求描述，用 It's got a zip / There's a label on the handle 描述物品特征",
+      "掌握名词性物主代词 mine / yours / his / hers / ours / theirs",
+      "掌握 belong to（属于）的用法：This case doesn't belong to me.",
+      "记住 leave（遗留）的过去式 left 与短语 the other day（几天前）"
+    ],
+    "summary": "第 97 课失物招领：霍尔先生说几天前把一只带拉链的蓝色小箱子忘在了开往伦敦的火车上，箱把标签上写着姓名住址（David Hall, 83, Bridge Street）。服务员先拿错一只，再找到贴着标签的那只，核对无误后收 3 英镑 50 便士——结果霍尔先生打开一看：这箱子根本不是他的！第 98 课操练名词性物主代词：Whose is it? — It's mine. It belongs to me.",
+    "tips": "① leave 表「遗忘/丢下」东西时必须带地点：I left my glasses in the library.（不能只说 I left my glasses）；② the other day 意为「几天前」，只与过去时连用，同类还有 the other morning/week/month；③ 名词性物主代词后面不能再加名词：Is this case yours?（= your case）；④ belong to 后面接宾格代词或名词：It belongs to me / to Jane，不说 belong to I；⑤ pence 是 penny 表币值时的复数：three pounds and fifty pence；⑥ it's got = it has got 口语表「有」。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Does Mr Hall get his case back?",
+      "zh": "霍尔先生有没有要回他的提箱？",
+      "a": "No, he doesn't. The attendant has given him the wrong case.",
+      "aZh": "没有。服务员给了他一只错的箱子。",
+      "hint": "听最后两句：This case doesn't belong to me!"
+    },
+    {
+      "kind": "detail",
+      "q": "What does his case look like?",
+      "zh": "他的箱子是什么样子的？",
+      "a": "It's a small blue case and it's got a zip. There's a label on the handle with his name and address on it.",
+      "aZh": "是只蓝色的小箱子，上面有拉链；箱把上有一张写着姓名和住址的标签。",
+      "hint": "回答 Can you describe it? 的那几句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What's Mr Hall's name and address?",
+      "zh": "霍尔先生的姓名和住址是什么？",
+      "a": "David Hall, 83, Bridge Street.",
+      "aZh": "大卫·霍尔，大桥街 83 号。",
+      "hint": "标签上也写着同样的信息。"
+    },
+    {
+      "kind": "detail",
+      "q": "How much does the attendant ask Mr Hall to pay?",
+      "zh": "服务员要霍尔先生付多少钱？",
+      "a": "Three pounds and fifty pence.",
+      "aZh": "3 英镑 50 便士。",
+      "hint": "That's right 之后的那句。"
+    },
+    {
+      "kind": "think",
+      "q": "The attendant checked the label before handing over the case. Why did Mr Hall still get the wrong case?",
+      "zh": "服务员交箱前明明核对过标签，为什么霍尔先生还是拿错了箱子？",
+      "a": "Open answer. The label matched the description David Hall, 83, Bridge Street — but many cases look alike, and the attendant only checked the name, not whether the case itself (small, blue, with a zip) was the one Mr Hall had described. 参考答案：标签上的姓名地址确实对，但服务员只核对了标签，没核对箱子本身的样子（蓝色小箱子、有拉链），所以拿错了。",
+      "aZh": "服务员只核对标签姓名，没核对箱子本身特征（颜色、大小、拉链），所以交错了箱子。",
+      "hint": "回看霍尔先生最初的描述和标签内容的差别。"
+    },
+    {
+      "kind": "drill",
+      "q": "Whose is this case? — It's mine. It belongs to me.",
+      "zh": "第 98 课操练：这（些）东西是谁的？——是我的。它属于我。（名词性物主代词 + belong to）",
+      "a": "Whose are these pens? — They're theirs. They belong to them.",
+      "aZh": "这些钢笔是谁的？——是他们的。它们属于他们。",
+      "hint": "mine/yours/his/hers/ours/theirs 与 me/you/him/her/us/them 一一对应。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "leave", "phonetic": "/liːv/", "meanings": [{ "pos": "v.", "meaning": "遗留，忘带（某物在某地）", "usage": "过去式/过去分词 left；必须带地点：I left my glasses in the library." }], "examples": [{ "en": "I left a suitcase on the train to London the other day.", "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。" }] },
+    { "word": "describe", "phonetic": "/dɪˈskraɪb/", "meanings": [{ "pos": "v.", "meaning": "描述，形容", "usage": "describe sth. to sb. 向某人描述；名词 description" }], "examples": [{ "en": "Can you describe it, sir?", "zh": "先生，您能描述一下它吗？" }] },
+    { "word": "suitcase", "phonetic": "/ˈsuːtkeɪs/", "meanings": [{ "pos": "n.", "meaning": "手提箱，行李箱", "usage": "suit（套装）+ case（箱子）" }], "examples": [{ "en": "I left a suitcase on the train to London.", "zh": "我把一只手提箱忘在开往伦敦的火车上了。" }] },
+    { "word": "zip", "phonetic": "/zɪp/", "meanings": [{ "pos": "n.", "meaning": "拉链", "usage": "it's got a zip 它有个拉链；作动词表「拉上拉链」" }], "examples": [{ "en": "It's a small blue case and it's got a zip.", "zh": "是只蓝色的小箱子，上面有拉链。" }] },
+    { "word": "label", "phonetic": "/ˈleɪbl/", "meanings": [{ "pos": "n.", "meaning": "标签", "usage": "a label on the handle 箱把上的标签；作动词表「贴标签」" }], "examples": [{ "en": "There's a label on the handle with my name and address on it.", "zh": "箱把上有一张标签，上面写着我的姓名和住址。" }] },
+    { "word": "handle", "phonetic": "/ˈhændl/", "meanings": [{ "pos": "n.", "meaning": "提手，把手", "usage": "on the handle 在把手上；作动词表「处理」" }], "examples": [{ "en": "There's a label on the handle.", "zh": "箱把上有一张标签。" }] },
+    { "word": "address", "phonetic": "/əˈdres/", "meanings": [{ "pos": "n.", "meaning": "地址", "usage": "name and address 姓名和住址" }], "examples": [{ "en": "What's your name and address?", "zh": "您的姓名和住址？" }] },
+    { "word": "pence", "phonetic": "/pens/", "meanings": [{ "pos": "n.", "meaning": "便士（penny 的复数，表币值）", "usage": "fifty pence 50 便士；fifty pennies 指 50 枚一便士硬币" }], "examples": [{ "en": "Three pounds and fifty pence, please.", "zh": "请付 3 英镑 50 便士。" }] },
+    { "word": "belong", "phonetic": "/bɪˈlɒŋ/", "meanings": [{ "pos": "v.", "meaning": "属于", "usage": "belong to + 宾格/名词：belong to me / to Jane；不用被动语态" }], "examples": [{ "en": "This case doesn't belong to me!", "zh": "这箱子不是我的！" }] },
+    { "word": "wrong", "phonetic": "/rɒŋ/", "meanings": [{ "pos": "adj.", "meaning": "错误的，不对的", "usage": "the wrong case 拿错的箱子；反义 right" }], "examples": [{ "en": "You've given me the wrong case!", "zh": "您给错了箱子！" }] },
+    { "word": "matter", "phonetic": "/ˈmætə/", "meanings": [{ "pos": "n.", "meaning": "事情；麻烦", "usage": "What's the matter? 怎么了？（习惯用 the）" }], "examples": [{ "en": "What's the matter?", "zh": "怎么回事？" }] },
+    { "word": "yours", "phonetic": "/jɔːz/", "meanings": [{ "pos": "pron.", "meaning": "你的（东西）；你们的（东西）", "usage": "名词性物主代词，后面不再加名词：Is this case yours?" }], "examples": [{ "en": "Is this case yours?", "zh": "这箱子是您的吗？" }] }
+  ],
+  "text": [
+    {
+      "lesson": 97,
+      "title": "A small blue case",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MR HALL", "en": "I left a suitcase on the train to London the other day.", "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。", "note": "left 是 leave 的过去式；the other day 几天前" },
+        { "speaker": "ATTENDANT", "en": "Can you describe it, sir?", "zh": "先生，您能描述一下它是什么样子的吗？" },
+        { "speaker": "MR HALL", "en": "It's a small blue case and it's got a zip.", "zh": "是只蓝色的小箱子，上面有拉链。", "note": "it's got = it has got 口语表「有」" },
+        { "speaker": "MR HALL", "en": "There's a label on the handle with my name and address on it.", "zh": "箱把上有一张标签，上面写着我的姓名和住址。", "note": "with 表「带有」" },
+        { "speaker": "ATTENDANT", "en": "Is this case yours?", "zh": "这箱子是您的吗？", "note": "yours = your case 名词性物主代词" },
+        { "speaker": "MR HALL", "en": "No, that's not mine.", "zh": "不，那不是我的。" },
+        { "speaker": "ATTENDANT", "en": "What about this one? This one's got a label.", "zh": "这只是不是？这只箱子有张标签。" },
+        { "speaker": "MR HALL", "en": "Let me see it.", "zh": "让我看看。" },
+        { "speaker": "ATTENDANT", "en": "What's your name and address?", "zh": "您的姓名和住址？" },
+        { "speaker": "MR HALL", "en": "David Hall, 83, Bridge Street.", "zh": "大卫·霍尔，大桥街 83 号。" },
+        { "speaker": "ATTENDANT", "en": "That's right. D.N. Hall, 83, Bridge Street.", "zh": "那就对了。D.N.霍尔，大桥街 83 号。" },
+        { "speaker": "ATTENDANT", "en": "Three pounds and fifty pence, please.", "zh": "请付 3 英镑 50 便士。", "note": "pence 是 penny 表币值的复数" },
+        { "speaker": "MR HALL", "en": "Here you are.", "zh": "给您。" },
+        { "speaker": "ATTENDANT", "en": "Thank you.", "zh": "谢谢您。" },
+        { "speaker": "MR HALL", "en": "Hey!", "zh": "嗨！" },
+        { "speaker": "ATTENDANT", "en": "What's the matter?", "zh": "怎么回事？" },
+        { "speaker": "MR HALL", "en": "This case doesn't belong to me! You've given me the wrong case!", "zh": "这箱子不是我的！您给错了箱子！", "note": "belong to 属于" }
+      ]
+    },
+    {
+      "lesson": 98,
+      "title": "Whose is it?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Whose is this / are these ___? — It's / They're ___. It / They belong(s) to ___.",
+        "zh": "这（些）……是谁的？——是我的（她的/他们的……）。它（们）属于……。（名词性物主代词 + belong to）",
+        "slots": [
+          { "en": "pen — hers (Jane)", "zh": "钢笔 — 她的（简）" },
+          { "en": "shoes — theirs (them)", "zh": "鞋子 — 他们的（他们）" },
+          { "en": "case — mine (me)", "zh": "箱子 — 我的（我）" },
+          { "en": "tickets — hers (her)", "zh": "票 — 她的（她）" },
+          { "en": "handbag — yours (you)", "zh": "手提包 — 你的（你）" },
+          { "en": "car — his (him)", "zh": "汽车 — 他的（他）" },
+          { "en": "books — theirs (them)", "zh": "书 — 他们的（他们）" },
+          { "en": "house — ours (us)", "zh": "房子 — 我们的（我们）" }
+        ],
+        "answers": ["Whose is this pen? It's hers. It belongs to Jane.", "Whose is this case? It's mine. It belongs to me."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "回答：Whose are these pens?（是简的）", "a": "They're hers. They belong to Jane.", "note": "复数用 they're + 名词性物主代词；belong to + 名词。" },
+    { "q": "回答：Is this case yours?（肯定）", "a": "Yes, it's mine. It belongs to me.", "note": "mine 后不能再加名词。" },
+    { "q": "填空：The pens are ___ (they).", "a": "theirs", "note": "their（形容词性）→ theirs（名词性）。" },
+    { "q": "汉译英：几天前我把眼镜忘在图书馆里了。", "a": "I left my glasses in the library the other day.", "note": "leave 表「遗忘」必须带地点。" },
+    { "q": "汉译英：这箱子不是我的！", "a": "This case doesn't belong to me!", "note": "belong to 后接宾格 me；否定借助 doesn't。" },
+    { "q": "汉译英：箱把上有一张标签，上面写着我的姓名和住址。", "a": "There's a label on the handle with my name and address on it.", "note": "with 表「带有」。" },
+    { "q": "汉译英：请付 3 英镑 50 便士。", "a": "Three pounds and fifty pence, please.", "note": "pence 是 penny 表币值的复数。" }
+  ],
+  "quiz": [
+    { "q": "Is this case yours? 中 yours 的意思是：", "options": ["你的箱子（= your case）", "你", "你的（后接名词）", "你们"], "answer": 0, "note": "yours 是名词性物主代词，独立作表语，后面不能再加名词。" },
+    { "q": "「这箱子属于我」正确说法是：", "options": ["This case belongs to me.", "This case belongs to I.", "This case is belong to me.", "This case belongs me."], "answer": 0, "note": "belong to + 宾格代词/名词；belong 前不加 be。" },
+    { "q": "I left a suitcase on the train. 中 left 的意思是：", "options": ["遗留，忘带", "离开", "左边", "借给"], "answer": 0, "note": "leave 表「把某物忘在某地」，必须带地点状语。" },
+    { "q": "「50 便士」（表币值）正确说法是：", "options": ["fifty pence", "fifty pennies", "fifties penny", "fifty penny"], "answer": 0, "note": "pence 是 penny 表币值/金额时的复数；fifty pennies 指 50 枚硬币。" },
+    { "q": "「几天前」正确说法是：", "options": ["the other day", "other day", "the another day", "one other day"], "answer": 0, "note": "the other day 只与过去时连用。" },
+    { "q": "服务员拿错了箱子，霍尔先生会说：", "options": ["You've given me the wrong case!", "You've given me the false case!", "You've given me the mistaken case!", "You've given me the wrong one case!"], "answer": 0, "note": "「拿错的」用 wrong，不用 false/mistaken。" }
+  ],
+  "grammar": [
+    {
+      "title": "名词性物主代词",
+      "structure": "mine / yours / his / hers / ours / theirs",
+      "definition": "所有格形容词（my, your, his, her, our, their）是限定词，必须放在名词前作定语；名词性物主代词后面不能再加名词，在句中作主语、宾语或表语：Is this case yours?（= your case）",
+      "usage": "询问归属用 Whose is this ...?",
+      "examples": [
+        { "en": "Is this case yours?", "zh": "这箱子是您的吗？" },
+        { "en": "No, that's not mine.", "zh": "不，那不是我的。" }
+      ]
+    },
+    {
+      "title": "belong to（属于）",
+      "structure": "主语 + belong(s) to + 宾格代词 / 名词",
+      "definition": "belong to 表示所有权上的「属于」，to 后接宾格代词（me, you, him, her, us, them）或名词。belong 不用于进行时，也通常不用被动语态。",
+      "usage": "This case doesn't belong to me! / That pen belongs to him.",
+      "examples": [
+        { "en": "This case doesn't belong to me!", "zh": "这箱子不是我的！" },
+        { "en": "It's hers. It belongs to Jane.", "zh": "这是她的，属于简。" }
+      ]
+    },
+    {
+      "title": "leave 表「遗忘」与 the other day",
+      "structure": "leave + 物 + 地点；the other day + 过去时",
+      "definition": "leave 表示「遗忘、丢下」某物时，通常必须与表示地点的短语连用（I left my glasses in the library.）。the other day 意为「几天前」，只与过去时态连用；同类短语有 the other morning/week/month/year。",
+      "usage": "讲述过去丢东西的经历。",
+      "examples": [
+        { "en": "I left a suitcase on the train to London the other day.", "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "the other day", "usage": "几天前（只与过去时连用）", "examples": [{ "en": "I left a suitcase on the train to London the other day.", "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。" }] },
+    { "phrase": "Can you describe it?", "usage": "你能描述一下它吗？（失物招领常用）", "examples": [{ "en": "Can you describe it, sir?", "zh": "先生，您能描述一下它吗？" }] },
+    { "phrase": "What about this one?", "usage": "这只是不是？/ 这个怎么样？", "examples": [{ "en": "What about this one? This one's got a label.", "zh": "这只是不是？这只箱子有张标签。" }] },
+    { "phrase": "belong to", "usage": "属于", "examples": [{ "en": "This case doesn't belong to me!", "zh": "这箱子不是我的！" }] },
+    { "phrase": "Here you are.", "usage": "给你，给您（递东西时）", "examples": [{ "en": "Three pounds and fifty pence, please. — Here you are.", "zh": "请付 3 英镑 50 便士。——给您。" }] },
+    { "phrase": "What's the matter?", "usage": "怎么了？出什么事了？", "examples": [{ "en": "Hey! — What's the matter?", "zh": "嗨！——怎么回事？" }] }
+  ]
+}

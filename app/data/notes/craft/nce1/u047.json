@@ -1,0 +1,178 @@
+{
+  "title": "Our new neighbour / What will he do?",
+  "subtitle": "我们的新邻居 / 他将做什么？",
+  "lead": {
+    "question": "如果你的新邻居是位飞行员，一年飞遍大半个地球——你会怎么用英语描述他「过去在哪里、现在在哪里、将来去哪里」？",
+    "warmup": "先别看课文。这一课是一篇短小的记叙文，三种时态在几句话里轮番登场：He was in the R.A.F.（他曾在皇家空军任职——过去时）；At the moment, he's in Madrid.（现在他在马德里——一般现在时）；He will fly to New York next month.（下个月他将飞往纽约——将来时）。注意时间状语是时态的路标：a week ago 配过去，next month / the month after next / the week after next 配将来。读完后想想：为什么说他幸运，他妻子却「不很幸运」？",
+    "goals": [
+      "熟记与一般将来时连用的时间短语：next month, the month after next, the week after next, in a year's time 等",
+      "会用 He will fly to / return to + 地点 描述行程",
+      "理解 has already been to（已经去过）与一般过去时 flew to 的区别",
+      "会用 next-door neighbour, at the moment, stay at home 等短语描述生活"
+    ],
+    "summary": "第 93 课介绍新邻居希尔先生（奈杰尔）：他是飞行员，曾在皇家空军任职；下个月飞纽约，再下个月飞东京；现在人在马德里，是一星期前飞去西班牙的，下下个星期返回伦敦。他只有 41 岁，却已去过世界上几乎每一个国家——可惜妻子运气没那么好，通常只能待在家里。第 94 课操练将来时问答与否定更正：He will go to New York next week. / No, Helen won't return to Geneva next year. She'll return to Bombay.",
+    "tips": "① after next 表示「下下个」：the month after next 下下个月、the week after next 下下个星期；② 一般过去时用 last（last week），将来时用 next（next month），别混；③ has been to 表示「去过（已回来）」，has gone to 表示「去了（还没回来）」；④ already「已经」多用于肯定句，常放在 have/has 之后；⑤ R.A.F. = the Royal Air Force 皇家空军，读字母名。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why is Nigel a lucky man?",
+      "zh": "为什么说奈杰尔很幸运？",
+      "a": "Because he has already been to nearly every country in the world.",
+      "aZh": "因为他已经去过世界上几乎每一个国家。",
+      "hint": "听 forty-one years old 后面那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What is Mr Hill's job? Where was he before?",
+      "zh": "希尔先生是做什么工作的？他以前在哪里任职？",
+      "a": "He's a pilot. He was in the R.A.F. (the Royal Air Force).",
+      "aZh": "他是飞行员，曾在皇家空军任职。",
+      "hint": "第二、三句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Where is he at the moment, and when did he fly to Spain?",
+      "zh": "他现在在哪里？他什么时候飞去西班牙的？",
+      "a": "He's in Madrid at the moment. He flew to Spain a week ago.",
+      "aZh": "他现在在马德里，是一星期以前飞到西班牙的。",
+      "hint": "一个现在时，一个过去时。"
+    },
+    {
+      "kind": "detail",
+      "q": "When will he fly to New York and Tokyo, and when will he return to London?",
+      "zh": "他什么时候飞纽约和东京？什么时候返回伦敦？",
+      "a": "New York next month, Tokyo the month after next; he will return to London the week after next.",
+      "aZh": "下个月飞纽约，再下个月飞东京；下下个星期返回伦敦。",
+      "hint": "注意 next month / the month after next / the week after next。"
+    },
+    {
+      "kind": "think",
+      "q": "Why isn't his wife very lucky? What does this tell us about his job?",
+      "zh": "为什么他的妻子「不很幸运」？这说明了飞行员这份工作的什么特点？",
+      "a": "Because she usually stays at home while her husband flies around the world. A pilot is away most of the time, so the family can't travel together. 参考答案：因为丈夫常年在外飞行，她通常只能待在家里；飞行员的职业决定了聚少离多。",
+      "aZh": "因为她通常只能待在家里，而丈夫满世界飞；这正说明飞行员常年在外、聚少离多。",
+      "hint": "看课文最后一句 She usually stays at home!"
+    },
+    {
+      "kind": "drill",
+      "q": "Where will he go next week? — He will go to New York next week.",
+      "zh": "第 94 课操练：用 will + 地点 + 时间短语回答「他将去哪儿」。",
+      "a": "Where will they go the week after next? They will go to Geneva the week after next.",
+      "aZh": "他们下下个星期去哪儿？他们下下个星期去日内瓦。",
+      "hint": "next week / next month / the year after next / the week after next 轮换。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "pilot", "phonetic": "/ˈpaɪlət/", "meanings": [{ "pos": "n.", "meaning": "飞行员", "usage": "He's a pilot. 另义「领航员」" }], "examples": [{ "en": "He's a pilot.", "zh": "他是个飞行员。" }] },
+    { "word": "return", "phonetic": "/rɪˈtɜːn/", "meanings": [{ "pos": "v.", "meaning": "返回，回来", "usage": "return to + 地点；另义「归还」return books to the library" }], "examples": [{ "en": "He will return to London the week after next.", "zh": "下下个星期他将返回伦敦。" }] },
+    { "word": "fly", "phonetic": "/flaɪ/", "meanings": [{ "pos": "v.", "meaning": "飞；乘飞机前往", "usage": "fly to + 地点；过去式 flew /fluː/，过去分词 flown /fləʊn/" }], "examples": [{ "en": "He flew to Spain a week ago.", "zh": "他一星期以前飞到西班牙。" }] },
+    { "word": "lucky", "phonetic": "/ˈlʌki/", "meanings": [{ "pos": "adj.", "meaning": "幸运的，运气好的", "usage": "a lucky man 幸运的人；名词 luck" }], "examples": [{ "en": "Mr Hill is a very lucky man.", "zh": "希尔先生是个很幸运的人。" }] },
+    { "word": "neighbour", "phonetic": "/ˈneɪbə/", "meanings": [{ "pos": "n.", "meaning": "邻居", "usage": "美式拼 neighbor；next-door neighbour 隔壁邻居" }], "examples": [{ "en": "Mr Hill is our new next-door neighbour.", "zh": "希尔先生是我们新搬来的隔壁邻居。" }] },
+    { "word": "Madrid", "phonetic": "/məˈdrɪd/", "meanings": [{ "pos": "n.", "meaning": "马德里（西班牙首都）", "usage": "课文中他此刻所在的城市" }], "examples": [{ "en": "At the moment, he's in Madrid.", "zh": "现在他在马德里。" }] },
+    { "word": "Tokyo", "phonetic": "/ˈtəʊkiəʊ/", "meanings": [{ "pos": "n.", "meaning": "东京（日本首都）", "usage": "the month after next he'll fly to Tokyo" }], "examples": [{ "en": "The month after next he'll fly to Tokyo.", "zh": "再下个月他将飞往东京。" }] },
+    { "word": "already", "phonetic": "/ɔːlˈredi/", "meanings": [{ "pos": "adv.", "meaning": "已经", "usage": "多用于肯定句，常在 have/has 与分词之间" }], "examples": [{ "en": "He has already been to nearly every country in the world.", "zh": "他已经去过世界上几乎每一个国家。" }] },
+    { "word": "nearly", "phonetic": "/ˈnɪəli/", "meanings": [{ "pos": "adv.", "meaning": "将近，几乎，差不多", "usage": "nearly every country 几乎每一个国家" }], "examples": [{ "en": "He has been to nearly every country in the world.", "zh": "他去过世界上几乎每一个国家。" }] },
+    { "word": "wife", "phonetic": "/waɪf/", "meanings": [{ "pos": "n.", "meaning": "妻子", "usage": "复数 wives；本课结尾点睛之词" }], "examples": [{ "en": "But his wife isn't very lucky.", "zh": "但他的妻子运气不很好。" }] },
+    { "word": "world", "phonetic": "/wɜːld/", "meanings": [{ "pos": "n.", "meaning": "世界", "usage": "in the world 在世界上，习惯加 the" }], "examples": [{ "en": "He has been to nearly every country in the world.", "zh": "他去过世界上几乎每一个国家。" }] },
+    { "word": "stay", "phonetic": "/steɪ/", "meanings": [{ "pos": "v.", "meaning": "待在，停留", "usage": "stay at home 待在家里（home 前不加 to）" }], "examples": [{ "en": "She usually stays at home!", "zh": "她通常总是待在家里！" }] }
+  ],
+  "text": [
+    {
+      "lesson": 93,
+      "title": "Our new neighbour",
+      "kind": "课文 · 叙事",
+      "lines": [
+        { "en": "Mr Hill is our new next-door neighbour.", "zh": "希尔先生是我们新搬来的隔壁邻居。", "note": "next-door 隔壁的" },
+        { "en": "He's a pilot.", "zh": "他是个飞行员。" },
+        { "en": "He was in the R.A.F.", "zh": "他曾在皇家空军任职。", "note": "R.A.F. = the Royal Air Force 皇家空军；一般过去时" },
+        { "en": "He will fly to New York next month.", "zh": "下个月他将飞往纽约。", "note": "next month 配将来时" },
+        { "en": "The month after next he'll fly to Tokyo.", "zh": "再下个月他将飞往东京。", "note": "the month after next 下下个月" },
+        { "en": "At the moment, he's in Madrid.", "zh": "现在他在马德里。", "note": "at the moment 此刻" },
+        { "en": "He flew to Spain a week ago.", "zh": "他是一星期以前飞到西班牙的。", "note": "a week ago 配过去时，flew 是 fly 的过去式" },
+        { "en": "He'll return to London the week after next.", "zh": "下下个星期他将返回伦敦。", "note": "the week after next 下下个星期" },
+        { "en": "He's only forty-one years old, and he has already been to nearly every country in the world.", "zh": "他只有 41 岁，但他却已去过世界上几乎每一个国家。", "note": "has been to 去过（已回来）" },
+        { "en": "Mr Hill is a very lucky man.", "zh": "希尔先生是个很幸运的人。" },
+        { "en": "But his wife isn't very lucky.", "zh": "但他的妻子运气不很好。" },
+        { "en": "She usually stays at home!", "zh": "她通常总是待在家里！" }
+      ]
+    },
+    {
+      "lesson": 94,
+      "title": "What will he do?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Where will he/she/they/I go ___? — He/She/They/I will go to ___ ___. / No, ... won't ... She'll ...",
+        "zh": "他（她/他们/我）……（时间）将去哪儿？——将去……。（将来时问答；否定更正用 won't ... She'll ...）",
+        "slots": [
+          { "en": "New York — next week", "zh": "纽约 — 下周" },
+          { "en": "Sydney — next month (she)", "zh": "悉尼 — 下个月（她）" },
+          { "en": "Paris — the year after next (I)", "zh": "巴黎 — 后年（我）" },
+          { "en": "Stockholm — next year (we)", "zh": "斯德哥尔摩 — 明年（我们）" },
+          { "en": "Geneva — the week after next (they)", "zh": "日内瓦 — 下下周（他们）" },
+          { "en": "Bombay, not Geneva — next year (Helen)", "zh": "孟买（不是日内瓦）— 明年（海伦）" },
+          { "en": "Geneva, not London — tomorrow (I)", "zh": "日内瓦（不是伦敦）— 明天（我）" },
+          { "en": "London, not Madrid — next year (Tom and I)", "zh": "伦敦（不是马德里）— 明年（汤姆和我）" }
+        ],
+        "answers": ["He will go to New York next week.", "No, Helen won't return to Geneva next year. She'll return to Bombay."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：下个月他将飞往纽约。", "a": "He will fly to New York next month.", "note": "fly to + 地点；next month 配将来时。" },
+    { "q": "汉译英：再下个月他将飞往东京。", "a": "The month after next he'll fly to Tokyo.", "note": "after next 表「下下个」。" },
+    { "q": "汉译英：他是一星期以前飞到西班牙的。", "a": "He flew to Spain a week ago.", "note": "a week ago 配一般过去时，fly → flew。" },
+    { "q": "汉译英：下下个星期他将返回伦敦。", "a": "He'll return to London the week after next.", "note": "return to + 地点。" },
+    { "q": "汉译英：他已经去过世界上几乎每一个国家。", "a": "He has already been to nearly every country in the world.", "note": "has been to 去过；already 在 have 之后。" },
+    { "q": "更正：Helen will return to Geneva next year.（其实去孟买）", "a": "No, Helen won't return to Geneva next year. She'll return to Bombay.", "note": "won't 否定 + She'll 更正。" },
+    { "q": "汉译英：她通常总是待在家里。", "a": "She usually stays at home.", "note": "usually 配一般现在时；stay at home 中间不加 to。" }
+  ],
+  "quiz": [
+    { "q": "「下下个月」的正确说法是：", "options": ["the month after next", "the next month after", "next next month", "after the next month"], "answer": 0, "note": "after next 表示「下下个」。" },
+    { "q": "与一般将来时连用的时间状语是：", "options": ["next month", "last month", "a month ago", "yesterday"], "answer": 0, "note": "next 系列配将来时；last / ago 系列配过去时。" },
+    { "q": "He flew to Spain a week ago. 中 flew 是哪个动词的过去式？", "options": ["fly", "flow", "flee", "fly 的过去分词"], "answer": 0, "note": "fly—flew—flown；flow 的过去式是 flowed。" },
+    { "q": "He has already been to nearly every country. 中 has been to 表示：", "options": ["去过（人已回来）", "去了（还没回来）", "正要去", "从未去过"], "answer": 0, "note": "has been to 去过；has gone to 去了还没回来。" },
+    { "q": "At the moment, he's in Madrid. 中 at the moment 的意思是：", "options": ["此刻，现在", "那时候", "一会儿之后", "每时每刻"], "answer": 0, "note": "at the moment 此刻，配一般现在时。" },
+    { "q": "「他将在下下个星期返回伦敦」正确说法是：", "options": ["He'll return to London the week after next.", "He'll return to London the next week after.", "He'll return London the week after next.", "He returns to London next next week."], "answer": 0, "note": "return 是不及物动词，须带 to：return to London。" }
+  ],
+  "grammar": [
+    {
+      "title": "与一般将来时连用的时间短语",
+      "structure": "next + 时间；the + 时间 + after next；in + 一段时间 + 's time",
+      "definition": "this week / next week / the week after next、this month / next month / the month after next、this year / next year / the year after next 等常与将来时连用；也可用 in a day's time、in a year's time、in two weeks' time 等。注意过去时中通常用 last 而不是 next。",
+      "usage": "He will fly to New York next month.",
+      "examples": [
+        { "en": "The month after next he'll fly to Tokyo.", "zh": "再下个月他将飞往东京。" },
+        { "en": "He'll return to London the week after next.", "zh": "下下个星期他将返回伦敦。" }
+      ]
+    },
+    {
+      "title": "has been to「去过」",
+      "structure": "have/has + been to + 地点",
+      "definition": "has been to 表示「曾经去过某地（人已回来）」，常与 already 连用；对比 has gone to 表示「去了某地（人还没回来）」。",
+      "usage": "He has already been to nearly every country in the world.",
+      "examples": [
+        { "en": "He has already been to nearly every country in the world.", "zh": "他已经去过世界上几乎每一个国家。" },
+        { "en": "I have been to Paris twice.", "zh": "我去过巴黎两次。" }
+      ]
+    },
+    {
+      "title": "一篇短文里的三种时态",
+      "structure": "was / flew（过去）— is（现在）— will fly / will return（将来）",
+      "definition": "描述一个人的经历时，三种时态各司其职：过去时讲过去的经历（was in the R.A.F. / flew to Spain a week ago），一般现在时讲现在的状态（he's in Madrid at the moment），将来时讲计划（will fly to New York next month）。时间状语是判断时态的路标。",
+      "usage": "按「过去—现在—将来」的时间线读课文，圈出每个时间状语。",
+      "examples": [
+        { "en": "He was in the R.A.F.", "zh": "他曾在皇家空军任职。（过去）" },
+        { "en": "He will fly to New York next month.", "zh": "下个月他将飞往纽约。（将来）" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "next-door neighbour", "usage": "隔壁邻居", "examples": [{ "en": "Mr Hill is our new next-door neighbour.", "zh": "希尔先生是我们新搬来的隔壁邻居。" }] },
+    { "phrase": "at the moment", "usage": "此刻，现在", "examples": [{ "en": "At the moment, he's in Madrid.", "zh": "现在他在马德里。" }] },
+    { "phrase": "the month after next", "usage": "下下个月", "examples": [{ "en": "The month after next he'll fly to Tokyo.", "zh": "再下个月他将飞往东京。" }] },
+    { "phrase": "the week after next", "usage": "下下个星期", "examples": [{ "en": "He'll return to London the week after next.", "zh": "下下个星期他将返回伦敦。" }] },
+    { "phrase": "fly to", "usage": "飞往；乘飞机去", "examples": [{ "en": "He flew to Spain a week ago.", "zh": "他一星期以前飞到西班牙。" }] },
+    { "phrase": "stay at home", "usage": "待在家里", "examples": [{ "en": "She usually stays at home!", "zh": "她通常总是待在家里！" }] }
+  ]
+}

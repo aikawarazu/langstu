@@ -12,13 +12,13 @@ window.Tb = (function () {
     return h ? ('<div class="tb-exs-mini">' + (label ? '<div class="t">' + esc(label) + '</div>' : '') + h + '</div>') : '';
   }
   function tbWordCard(w) {
-    return '<div class="tb-word"><b>' + esc(w.word) + '</b>' +
-      (w.phonetic ? '<i class="ph">' + esc(w.phonetic) + '</i>' : '') +
+    return '<div class="tb-word"><div class="tb-whead"><b>' + esc(w.word) + '</b>' +
+      (w.phonetic ? '<i class="ph">' + esc(w.phonetic) + '</i>' : '') + '</div>' +
       '<span>' + esc(meaningsText(w)) + '</span>' +
       exLines(w.examples, null) + '</div>';
   }
   function tbPhraseCard(p, dict) {
-    return '<div class="tb-word phrase"><b>' + esc(p.phrase) + '</b>' +
+    return '<div class="tb-word phrase"><div class="tb-whead"><b>' + esc(p.phrase) + '</b></div>' +
       (p.usage ? '<span>' + esc(p.usage) + '</span>' : '') +
       exLines(p.examples, dict) + '</div>';
   }
