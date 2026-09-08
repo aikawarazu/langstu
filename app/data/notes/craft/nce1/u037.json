@@ -1,0 +1,166 @@
+{
+  "title": "The way to King Street / He read the phrase slowly.",
+  "subtitle": "去国王街的路 / 他慢慢地读着短语。",
+  "lead": {
+    "question": "在异国他乡迷了路，又碰到不懂当地语言的人，你会怎么问路？又会怎么描述「他友好地笑了笑、慢慢读着短语」这种动作？",
+    "warmup": "先别看课文。想象米尔斯夫人上周去伦敦，人生地不熟，在车站旁问路；对方却是个不懂英语的德国游客，只好掏出常用语手册慢慢念。这里有两个重点：① 一般过去时继续（went, lost, saw, spoke, took, read）；② 副词修饰动词——pleasant→pleasantly, slow→slowly，告诉别人「怎样」做动作。第 74 课把各种副词套进句子反复操练。",
+    "goals": [
+      "能用 Can you tell me the way to …? 问路",
+      "理解 lose one's way（迷路）与 say to oneself（心里想）",
+      "掌握形容词变副词的规则（-ly；以 -y 结尾变 -ily）",
+      "认识部分不规则动词过去式（go→went, understand→understood, speak→spoke, take→took, read→read）"
+    ],
+    "summary": "第 73 课：米尔斯夫人上周去伦敦迷了路，向车站旁一男子问路，对方却不懂英语、讲德语，是个游客；他掏出短语手册慢慢念出「我不会讲英语」。全课用一般过去时并密集出现副词（suddenly, pleasantly, slowly）。第 74 课用 He read the phrase slowly. 等句子操练副词修饰动词。",
+    "tips": "① 形容词 + -ly 变副词：pleasant→pleasantly, slow→slowly；以 -y 结尾：happy→happily；② lose one's way 迷路；③ say to oneself 心里想（talk to oneself 自言自语）；④ Can you tell me the way to …? 问路；⑤ 不规则过去式：go→went, understand→understood, speak→spoke, take→took, read→read /red/。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why did the man need a phrasebook?",
+      "zh": "为什么这位男士需要一本常用语手册？",
+      "a": "Because he did not understand English and spoke German — he was a tourist, so he used a phrasebook to communicate.",
+      "aZh": "因为他不懂英语、讲德语，是个游客，只能靠常用语手册来交流。",
+      "hint": "听 He did not understand English! He spoke German. He was a tourist."
+    },
+    {
+      "kind": "detail",
+      "q": "What happened to Mrs Mills in London?",
+      "zh": "米尔斯夫人在伦敦遇到了什么事？",
+      "a": "She did not know London very well and she lost her way.",
+      "aZh": "她对伦敦不很熟悉，结果迷了路。",
+      "hint": "She does not know London very well, and she lost her way."
+    },
+    {
+      "kind": "detail",
+      "q": "What did Mrs Mills say to the man?",
+      "zh": "米尔斯夫人对那人说了一句什么？",
+      "a": "Excuse me. Can you tell me the way to King Street please?",
+      "aZh": "打扰一下。您能告诉我到国王街怎么走吗？",
+      "hint": "问路的那两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did the man do with the phrasebook?",
+      "zh": "那人拿着常用语手册做了什么？",
+      "a": "He opened the book, found a phrase and read it slowly.",
+      "aZh": "他翻开书，找到一条短语，慢慢地读出来。",
+      "hint": "He opened the book and found a phrase. He read the phrase slowly."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the writer use adverbs like 'pleasantly' and 'slowly' here?",
+      "zh": "作者为什么要用 pleasantly、slowly 这类副词？",
+      "a": "Adverbs modify the verb and tell us HOW the action was done — he smiled in a pleasant way, and read in a slow way. They add detail to the scene.",
+      "aZh": "副词修饰动词，说明动作「怎样」发生——他是友好地笑、慢慢地读，让场面更生动。",
+      "hint": "副词回答 how（怎样）。"
+    },
+    {
+      "kind": "drill",
+      "q": "___ [verb] ___ (adverb).",
+      "zh": "……（动词）……（副词）。（用副词修饰动词，操练 -ly 副词）",
+      "a": "He read the phrase slowly. / She smiled pleasantly.",
+      "aZh": "他慢慢地读着短语。/ 她愉快地笑了笑。",
+      "hint": "副词多由形容词加 -ly 构成，放在动词后。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "week", "phonetic": "/wiːk/", "meanings": [{ "pos": "n.", "meaning": "周，星期", "usage": "last week 上周" }], "examples": [{ "en": "Last week Mrs Mills went to London.", "zh": "上星期米尔斯夫人去了伦敦。" }] },
+    { "word": "London", "phonetic": "/ˈlʌndən/", "meanings": [{ "pos": "n.", "meaning": "伦敦", "usage": "the capital of the UK" }], "examples": [{ "en": "Last week Mrs Mills went to London.", "zh": "上星期米尔斯夫人去了伦敦。" }] },
+    { "word": "suddenly", "phonetic": "/ˈsʌdənli/", "meanings": [{ "pos": "adv.", "meaning": "突然地", "usage": "Suddenly, she saw a man …" }], "examples": [{ "en": "Suddenly, she saw a man near a bus-stop.", "zh": "突然，她在公共汽车站附近看到一个男人。" }] },
+    { "word": "bus stop", "phonetic": "/ˈbʌs stɒp/", "meanings": [{ "pos": "n.", "meaning": "公共汽车站", "usage": "near a bus-stop 在车站旁" }], "examples": [{ "en": "She saw a man near a bus-stop.", "zh": "她在公共汽车站附近看到一个男人。" }] },
+    { "word": "smile", "phonetic": "/smaɪl/", "meanings": [{ "pos": "v.", "meaning": "微笑", "usage": "The man smiled pleasantly." }], "examples": [{ "en": "The man smiled pleasantly.", "zh": "这人友好地笑了笑。" }] },
+    { "word": "pleasantly", "phonetic": "/ˈplezəntli/", "meanings": [{ "pos": "adv.", "meaning": "愉快地，友好地", "usage": "形容词 pleasant + -ly" }], "examples": [{ "en": "The man smiled pleasantly.", "zh": "这人友好地笑了笑。" }] },
+    { "word": "understand", "phonetic": "/ˌʌndəˈstænd/", "meanings": [{ "pos": "v.", "meaning": "懂，明白", "usage": "过去式 understood；He did not understand English." }], "examples": [{ "en": "He did not understand English!", "zh": "他不懂英语！" }] },
+    { "word": "speak", "phonetic": "/spiːk/", "meanings": [{ "pos": "v.", "meaning": "讲，说", "usage": "过去式 spoke；He spoke German." }], "examples": [{ "en": "He spoke German.", "zh": "他讲德语。" }] },
+    { "word": "hand", "phonetic": "/hænd/", "meanings": [{ "pos": "n.", "meaning": "手", "usage": "put his hand into his pocket 把手伸进衣袋" }], "examples": [{ "en": "He put his hand into his pocket.", "zh": "他把手伸进衣袋。" }] },
+    { "word": "pocket", "phonetic": "/ˈpɒkɪt/", "meanings": [{ "pos": "n.", "meaning": "衣袋，口袋", "usage": "into his pocket 进衣袋" }], "examples": [{ "en": "He put his hand into his pocket.", "zh": "他把手伸进衣袋。" }] },
+    { "word": "phrasebook", "phonetic": "/ˈfreɪzbʊk/", "meanings": [{ "pos": "n.", "meaning": "短语手册，常用语手册", "usage": "a book of useful phrases for travellers" }], "examples": [{ "en": "He took out a phrase-book.", "zh": "他掏出了一本常用语手册。" }] },
+    { "word": "phrase", "phonetic": "/freɪz/", "meanings": [{ "pos": "n.", "meaning": "短语，词组", "usage": "found a phrase 找到一条短语" }], "examples": [{ "en": "He found a phrase and read it slowly.", "zh": "他找到一条短语，慢慢地读出来。" }] },
+    { "word": "slowly", "phonetic": "/ˈsləʊli/", "meanings": [{ "pos": "adv.", "meaning": "缓慢地", "usage": "形容词 slow + -ly" }], "examples": [{ "en": "He read the phrase slowly.", "zh": "他缓慢地读着短语。" }] },
+    { "word": "tourist", "phonetic": "/ˈtʊərɪst/", "meanings": [{ "pos": "n.", "meaning": "游客，旅游者", "usage": "He was a tourist." }], "examples": [{ "en": "He was a tourist.", "zh": "他是个游客。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 73,
+      "title": "The way to King Street",
+      "kind": "课文 · 叙事",
+      "lines": [
+        { "en": "Last week Mrs Mills went to London. She does not know London very well, and she lost her way.", "zh": "上星期米尔斯夫人去了伦敦。她对伦敦不很熟悉，因此迷了路。", "note": "lose one's way 迷路；went 是 go 的过去式。" },
+        { "en": "Suddenly, she saw a man near a bus-stop. \"I can ask him the way.\" She said to herself.", "zh": "突然，她在公共汽车站附近看到一个男人。「我可以向他问路。」她想。", "note": "say to oneself 心里想；suddenly 副词。" },
+        { "speaker": "MRS MILLS", "en": "Excuse me. Can you tell me the way to King Street please?", "zh": "打扰一下。您能告诉我到国王街怎么走吗？", "note": "Can you tell me the way to …? 问路常用句式。" },
+        { "en": "The man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.", "zh": "这人友好地笑了笑。他不懂英语！他讲德语。他是个旅游者。", "note": "pleasantly 副词修饰 smiled；spoke 是 speak 的过去式。" },
+        { "en": "Then he put his hand into his pocket, and took out a phrase-book. He opened the book and found a phrase. He read the phrase slowly.", "zh": "然后他把手伸进了衣袋，掏出了一本常用语手册。他翻开书找到了一条短语。他缓慢地读着短语。", "note": "took 是 take 的过去式；read 此处读 /red/。" },
+        { "speaker": "THE MAN", "en": "I am sorry. I do not speak English.", "zh": "很抱歉。我不会讲英语。", "note": "I am sorry 此处表歉意，区别于 Excuse me。" }
+      ]
+    },
+    {
+      "lesson": 74,
+      "title": "He read the phrase slowly.",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "___ [verb] ___ (adverb).",
+        "zh": "……（动词）……（副词）。（用副词修饰动词，操练 -ly 副词与不规则过去式）",
+        "slots": [
+          { "en": "He read the phrase — slowly", "zh": "他读短语 — 慢慢地" },
+          { "en": "He worked — lazily", "zh": "他工作 — 懒散地" },
+          { "en": "He cut himself — badly", "zh": "他割伤了自己 — 严重地" },
+          { "en": "He worked — carefully", "zh": "他工作 — 小心地" },
+          { "en": "The door opened — suddenly", "zh": "门打开 — 突然地" },
+          { "en": "She worked — very hard", "zh": "她工作 — 非常努力地" },
+          { "en": "She smiled — pleasantly", "zh": "她微笑 — 愉快地" },
+          { "en": "The bus went — hurriedly", "zh": "公交车行驶 — 匆忙地" },
+          { "en": "He shaved — slowly", "zh": "他刮胡子 — 慢慢地" },
+          { "en": "She drank a glass of water — thirstily", "zh": "她喝一杯水 — 口渴地" },
+          { "en": "He greeted me — warmly", "zh": "他向我打招呼 — 热情地" },
+          { "en": "We enjoyed ourselves — very much", "zh": "我们玩得 — 非常开心" }
+        ],
+        "answers": ["He read the phrase slowly.", "She smiled pleasantly."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：上星期米尔斯夫人去了伦敦。", "a": "Last week Mrs Mills went to London.", "note": "go 过去式 went。" },
+    { "q": "把 The man smiled. 加上「友好地」修饰。", "a": "The man smiled pleasantly.", "note": "pleasant 形容词加 -ly 变 pleasantly，修饰动词 smiled。" },
+    { "q": "汉译英：她对伦敦不很熟悉，结果迷了路。", "a": "She does not know London very well, and she lost her way.", "note": "lose one's way 迷路；lost 是 lose 的过去式。" },
+    { "q": "写出 understand 的过去式，并造句：他不懂英语。", "a": "understood；He did not understand English.", "note": "understand 不规则，过去式 understood。" },
+    { "q": "第 74 课：He cut himself ___ (bad). 填副词。", "a": "badly", "note": "bad 形容词变副词 badly，修饰 cut。" },
+    { "q": "汉译英：他缓慢地读着那条短语。", "a": "He read the phrase slowly.", "note": "read 过去式仍拼作 read，读作 /red/；slowly 副词。" },
+    { "q": "改错：She worked very hardly.", "a": "She worked very hard.", "note": "hard 既是形容词也是副词，表「努力地」直接用 hard，hardly 意为「几乎不」。" }
+  ],
+  "quiz": [
+    { "q": "Can you tell me the way to King Street? 是：", "options": ["问路的句子", "道歉的句子", "介绍自己的句子", "打电话的句子"], "answer": 0, "note": "tell sb. the way to … 告诉某人去……的路。" },
+    { "q": "pleasant 变成副词是：", "options": ["pleasantly", "pleasantful", "pleased", "pleasing"], "answer": 0, "note": "形容词 + -ly 变副词 pleasant→pleasantly。" },
+    { "q": "slow 的副词形式是：", "options": ["slowly", "slow", "slowed", "slowful"], "answer": 0, "note": "slow→slowly。" },
+    { "q": "He spoke German. 中 spoke 是 ___ 的过去式。", "options": ["speak", "spark", "spoke", "spend"], "answer": 0, "note": "speak 不规则，过去式 spoke。" },
+    { "q": "She lost her way. 中 lost 是 ___ 的过去式。", "options": ["lose", "loss", "losted", "lass"], "answer": 0, "note": "lose 不规则，过去式 lost；lose one's way 迷路。" },
+    { "q": "He read the phrase slowly. 中 read 读作：", "options": ["/red/（过去式）", "/riːd/（现在式）", "/rɪd/", "/reɪd/"], "answer": 0, "note": "此处 read 为过去式，拼写不变、读音变 /red/。" }
+  ],
+  "grammar": [
+    {
+      "title": "副词（Adverbs）与形容词变副词",
+      "structure": "形容词 + -ly → 副词（修饰动词，回答 how）",
+      "definition": "副词用来修饰动词、形容词或其他副词，常表示动作的方式、时间、地点。许多副词由形容词加 -ly 构成；以 -y 结尾的形容词先把 -y 改成 -i 再加 -ly（happy→happily）。少数词形不变（hard→hard, fast→fast）。",
+      "usage": "放在动词后说明「怎样做」：smile pleasantly, read slowly, work carefully。",
+      "examples": [
+        { "en": "The man smiled pleasantly.", "zh": "这人友好地笑了笑。" },
+        { "en": "He read the phrase slowly.", "zh": "他缓慢地读着短语。" }
+      ]
+    },
+    {
+      "title": "部分不规则动词的过去式",
+      "structure": "go→went, see→saw, understand→understood, take→took, speak→spoke, read→read(/red/), lose→lost, say→said",
+      "definition": "这些动词的过去式拼写不规则，需逐个记忆；它们在本课与问路场景一起出现。",
+      "usage": "讲述过去动作时使用。",
+      "examples": [
+        { "en": "Mrs Mills went to London.", "zh": "米尔斯夫人去了伦敦。" },
+        { "en": "He spoke German and took out a phrase-book.", "zh": "他讲德语，并掏出了一本常用语手册。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "lose one's way", "usage": "迷路", "examples": [{ "en": "She lost her way.", "zh": "她迷了路。" }] },
+    { "phrase": "Can you tell me the way to …?", "usage": "您能告诉我到……怎么走吗？（问路）", "examples": [{ "en": "Can you tell me the way to King Street please?", "zh": "您能告诉我到国王街怎么走吗？" }] },
+    { "phrase": "say to oneself", "usage": "心里想（暗自说）", "examples": [{ "en": "\"I can ask him the way.\" She said to herself.", "zh": "「我可以向他问路。」她想。" }] },
+    { "phrase": "take out", "usage": "掏出，拿出", "examples": [{ "en": "He took out a phrase-book.", "zh": "他掏出了一本常用语手册。" }] }
+  ]
+}

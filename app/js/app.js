@@ -647,7 +647,9 @@ function tbLesson(L,dict){
   if(L.lines&&L.lines.length){
     h+='<div class="tbk-text">'+L.lines.map(function(l){
       var sp=l.speaker||'',cls=(sp==='B'||sp==='2')?'b':'';
-      return '<div class="tb-line"><span class="tb-sp '+cls+'">'+esc(sp||'·')+'</span>'+
+      /* 圆点只放得下 1-2 字符：长名字取首字母，全名放悬停提示 */
+      var ini=sp.length>2?sp.slice(0,1):sp;
+      return '<div class="tb-line"><span class="tb-sp '+cls+'"'+(sp&&sp.length>2?(' title="'+esc(sp)+'"'):'')+'>'+esc(ini||'·')+'</span>'+
         '<div class="tb-l"><div class="tb-en">'+markWords(l.en,dict)+'</div>'+
         (l.zh?'<div class="tb-zh">'+esc(l.zh)+'</div>':'')+
         (l.note?'<div class="tb-note">'+esc(l.note)+'</div>':'')+'</div></div>';

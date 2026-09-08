@@ -1,0 +1,186 @@
+{
+  "title": "A bad cold / What's the matter with ...?",
+  "subtitle": "重感冒 / ……怎么了？",
+  "lead": {
+    "question": "孩子躺在床上说不舒服，你打电话请医生、报出电话号码——怎样用 feel/look 描述症状，用 must 表达「必须卧床」，用 have a bad cold 说病情？",
+    "warmup": "先别看课文。想象吉米病了：他自我感觉不舒服（feel ill），旁人看他气色差（look ill）。父母得请医生，还得报出医生电话。诊断后医生说「重感冒，必须卧床一周」——对孩子来说这反而是好消息，因为他不爱上学。听录音时留意 feel/look 这两个系动词后接形容词，以及 must 表「必须」、have a bad cold 表疾病。",
+    "goals": [
+      "能用 What's the matter with ...? 询问病情",
+      "理解 feel ill（自我感觉）与 look ill（外表）的区别，二者都是系动词 + 形容词",
+      "能用 have a bad cold 等 have (got) + 疾病 表示患病",
+      "能用 must + 动词原形 表达必要性（mustn't 表禁止）",
+      "理解 news 是不可数名词（以 -s 结尾却是单数）"
+    ],
+    "summary": "第 61 课威廉斯夫妇发现吉米病了，请医生来，医生检查后说他得了重感冒，必须卧床一周；威廉斯夫人说这对吉米是好消息，因为他不喜欢上学。全课用 feel/look 描述症状、用 must 表医嘱、用 have a bad cold 说病情。第 62 课用 What's the matter with ...? / Does he/she have a ...? 轮换各种病痛与对策。",
+    "tips": "① feel/look 是系动词，后接形容词（ill），像 be 一样；② have a bad cold 中 a 不可省（疾病前常用不定冠词）；③ must 表必须，无时态人称变化，mustn't 表禁止；④ for a week 中 for 引出一段时间；⑤ news 以 -s 结尾但不可数，不能说 a news；⑥ because 与 so 不并用。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What is good news for Jimmy?",
+      "zh": "吉米有什么好消息？",
+      "a": "That he must stay in bed for a week, because he doesn't like school.",
+      "aZh": "他得卧床一周，因为他不喜欢上学。",
+      "hint": "听 That's good news for Jimmy. / Because he doesn't like school!"
+    },
+    {
+      "kind": "detail",
+      "q": "Where is Jimmy?",
+      "zh": "吉米在哪儿？",
+      "a": "He's in bed.",
+      "aZh": "他躺在床上。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does the doctor tell Jimmy to do?",
+      "zh": "医生让吉米怎么做？",
+      "a": "He must stay in bed for a week.",
+      "aZh": "必须卧床休息一周。",
+      "hint": "He has a bad cold, so he must stay in bed for a week."
+    },
+    {
+      "kind": "detail",
+      "q": "What is the doctor's telephone number?",
+      "zh": "医生的电话号码是多少？",
+      "a": "09754.",
+      "aZh": "09754。"
+    },
+    {
+      "kind": "think",
+      "q": "Why are both 'feel ill' and 'look ill' used? Are they the same?",
+      "zh": "为什么同时用了 feel ill 和 look ill？两者一样吗？",
+      "a": "No. feel ill is how Jimmy feels inside (subjective); look ill is how he appears to others (objective). Both feel and look are link verbs followed by an adjective.",
+      "aZh": "不一样。feel ill 是吉米的自我感觉（主观），look ill 是旁人看他的样子（客观）。两者都是系动词，后接形容词。",
+      "hint": "feel/look 都是系动词，像 be 一样后接形容词。"
+    },
+    {
+      "kind": "drill",
+      "q": "What's the matter with Elizabeth? Does she have an earache? No, she doesn't have an earache. She has a headache. So she must take an aspirin.",
+      "zh": "第 62 课操练：用 What's the matter with ...? / Does he/she have a ...? 轮换病痛与对策。",
+      "a": "What's the matter with George? Does he have a headache? No, he doesn't have a headache. He has an earache. So he must see a doctor.",
+      "aZh": "乔治怎么了？他头疼吗？不，他耳朵疼。所以他得看医生。",
+      "hint": "用 have (got) a + 病痛，must 接对策。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "feel", "phonetic": "/fiːl/", "meanings": [{ "pos": "v.", "meaning": "感觉，觉得", "usage": "系动词，后接形容词（feel ill）" }], "examples": [{ "en": "He feels ill.", "zh": "他感觉不舒服。" }] },
+    { "word": "look", "phonetic": "/lʊk/", "meanings": [{ "pos": "v.", "meaning": "看起来", "usage": "系动词，后接形容词（look ill）" }], "examples": [{ "en": "He looks ill.", "zh": "他看起来病了。" }] },
+    { "word": "must", "phonetic": "/mʌst/", "meanings": [{ "pos": "modal v.", "meaning": "必须", "usage": "表必要性；mustn't 表禁止" }], "examples": [{ "en": "We must call the doctor.", "zh": "我们必须请医生。" }] },
+    { "word": "call", "phonetic": "/kɔːl/", "meanings": [{ "pos": "v.", "meaning": "叫，请", "usage": "call the doctor 请医生" }], "examples": [{ "en": "We must call the doctor.", "zh": "我们必须请医生。" }] },
+    { "word": "doctor", "phonetic": "/ˈdɒktə/", "meanings": [{ "pos": "n.", "meaning": "医生", "usage": "简称 Dr." }], "examples": [{ "en": "Open your mouth, Jimmy.", "zh": "张嘴，吉米。（医生对病人说）" }] },
+    { "word": "telephone", "phonetic": "/ˈtelɪfəʊn/", "meanings": [{ "pos": "n.", "meaning": "电话", "usage": "the doctor's telephone number 医生电话" }], "examples": [{ "en": "Can you remember the doctor's telephone number?", "zh": "你记得医生的电话号码吗？" }] },
+    { "word": "remember", "phonetic": "/rɪˈmembə/", "meanings": [{ "pos": "v.", "meaning": "记得，记住", "usage": "remember + 名词/代词" }], "examples": [{ "en": "Can you remember the doctor's telephone number?", "zh": "你记得医生的电话号码吗？" }] },
+    { "word": "mouth", "phonetic": "/maʊθ/", "meanings": [{ "pos": "n.", "meaning": "嘴", "usage": "Open your mouth." }], "examples": [{ "en": "Open your mouth, Jimmy.", "zh": "张嘴，吉米。" }] },
+    { "word": "tongue", "phonetic": "/tʌŋ/", "meanings": [{ "pos": "n.", "meaning": "舌头", "usage": "Show me your tongue." }], "examples": [{ "en": "Show me your tongue.", "zh": "让我看看你的舌头。" }] },
+    { "word": "bad", "phonetic": "/bæd/", "meanings": [{ "pos": "adj.", "meaning": "坏的，严重的", "usage": "a bad cold 重感冒" }], "examples": [{ "en": "He has a bad cold.", "zh": "他得了重感冒。" }] },
+    { "word": "cold", "phonetic": "/kəʊld/", "meanings": [{ "pos": "n.", "meaning": "感冒", "usage": "have a cold 患感冒" }], "examples": [{ "en": "He has a bad cold.", "zh": "他得了重感冒。" }] },
+    { "word": "news", "phonetic": "/njuːz/", "meanings": [{ "pos": "n.", "meaning": "消息", "usage": "不可数，以 -s 结尾却是单数" }], "examples": [{ "en": "That's good news for Jimmy.", "zh": "对吉米来说是个好消息。" }] },
+    { "word": "matter", "phonetic": "/ˈmætə/", "meanings": [{ "pos": "n.", "meaning": "事情，问题", "usage": "What's the matter with ...? 怎么了" }], "examples": [{ "en": "What's the matter with him?", "zh": "他怎么了？" }] },
+    { "word": "week", "phonetic": "/wiːk/", "meanings": [{ "pos": "n.", "meaning": "星期，周", "usage": "for a week 持续一周" }], "examples": [{ "en": "He must stay in bed for a week.", "zh": "他必须卧床一周。" }] },
+    { "word": "bed", "phonetic": "/bed/", "meanings": [{ "pos": "n.", "meaning": "床", "usage": "stay in bed 卧床" }], "examples": [{ "en": "He's in bed.", "zh": "他躺在床上。" }] },
+    { "word": "school", "phonetic": "/skuːl/", "meanings": [{ "pos": "n.", "meaning": "学校", "usage": "go to school 上学" }], "examples": [{ "en": "Because he doesn't like school!", "zh": "因为他不喜欢上学！" }] },
+    { "word": "because", "phonetic": "/bɪˈkɒz/", "meanings": [{ "pos": "conj.", "meaning": "因为", "usage": "说明原因；不与 so 并用" }], "examples": [{ "en": "Because he doesn't like school!", "zh": "因为他不喜欢上学！" }] },
+    { "word": "stay", "phonetic": "/steɪ/", "meanings": [{ "pos": "v.", "meaning": "停留，待", "usage": "stay in bed 卧床" }], "examples": [{ "en": "He must stay in bed for a week.", "zh": "他必须卧床一周。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 61,
+      "title": "A bad cold",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "MR WILLIAMS", "en": "Where's Jimmy?", "zh": "吉米在哪儿？" },
+        { "speaker": "MRS WILLIAMS", "en": "He's in bed.", "zh": "他躺在床上。", "note": "in bed 卧床" },
+        { "speaker": "MR WILLIAMS", "en": "What's the matter with him?", "zh": "他怎么啦？", "note": "What's the matter with ...? 问病情" },
+        { "speaker": "MRS WILLIAMS", "en": "He feels ill.", "zh": "他觉得不舒服。", "note": "feel 系动词 + 形容词，主观感觉" },
+        { "speaker": "MR WILLIAMS", "en": "He looks ill.", "zh": "他看上去是病了。", "note": "look 系动词 + 形容词，客观外表" },
+        { "speaker": "MRS WILLIAMS", "en": "We must call the doctor.", "zh": "我们得去请医生。", "note": "must 表必要性" },
+        { "speaker": "MR WILLIAMS", "en": "Yes, we must.", "zh": "是的，一定得请。" },
+        { "speaker": "MR WILLIAMS", "en": "Can you remember the doctor's telephone number?", "zh": "你记得医生的电话号码吗？" },
+        { "speaker": "MRS WILLIAMS", "en": "Yes. It's 09754.", "zh": "记得。是 09754。" },
+        { "speaker": "DOCTOR", "en": "Open your mouth, Jimmy. Show me your tongue. Say, 'Ah'.", "zh": "把嘴张开，吉米。让我看看你的舌头。说「啊——」。", "note": "医生检查用语" },
+        { "speaker": "MR WILLIAMS", "en": "What's the matter with him, doctor?", "zh": "他得了什么病，医生？" },
+        { "speaker": "DOCTOR", "en": "He has a bad cold, Mr Williams, so he must stay in bed for a week.", "zh": "他得了重感冒，威廉斯先生，因此他必须卧床一周。", "note": "have a bad cold；so 因此；for a week 一段时间" },
+        { "speaker": "MRS WILLIAMS", "en": "That's good news for Jimmy.", "zh": "对吉米来说，这可是个好消息。", "note": "news 不可数" },
+        { "speaker": "DOCTOR", "en": "Good news? Why?", "zh": "好消息？为什么？" },
+        { "speaker": "MR WILLIAMS", "en": "Because he doesn't like school!", "zh": "因为他不喜欢上学。" }
+      ]
+    },
+    {
+      "lesson": 62,
+      "title": "What's the matter with ...?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "What's the matter with ___? Does he/she have a ___? No, ... doesn't have a ___. He/She has a ___. So he/she must ___ .",
+        "zh": "……怎么了？他/她……疼吗？不，他/她不……疼。他/她……疼。所以他/她必须……。（轮换病痛与对策）",
+        "slots": [
+          { "en": "Elizabeth — earache — headache — take an aspirin", "zh": "伊丽莎白 — 耳朵疼 — 头疼 — 服一片阿司匹林" },
+          { "en": "George — headache — earache — see a doctor", "zh": "乔治 — 头疼 — 耳朵疼 — 看医生" },
+          { "en": "Jim — stomach ache — toothache — see a dentist", "zh": "吉姆 — 胃疼 — 牙疼 — 看牙医" },
+          { "en": "Jane — toothache — stomach ache — take some medicine", "zh": "简 — 牙疼 — 胃疼 — 吃点药" },
+          { "en": "Sam — stomach ache — a temperature — go to bed", "zh": "萨姆 — 胃疼 — 发烧 — 上床休息" },
+          { "en": "Dave — headache — flu — stay in bed", "zh": "戴夫 — 头疼 — 流感 — 卧床" },
+          { "en": "Jimmy — headache — measles — call the doctor", "zh": "吉米 — 头疼 — 麻疹 — 请医生" },
+          { "en": "Susan — earache — mumps — call the doctor", "zh": "苏珊 — 耳朵疼 — 腮腺炎 — 请医生" }
+        ],
+        "answers": ["What's the matter with Elizabeth? Does she have an earache? No, she doesn't have an earache. She has a headache. So she must take an aspirin."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：他怎么了？", "a": "What's the matter with him?", "note": "matter 用 What's the matter with ...?" },
+    { "q": "用 must 改写：We have to call the doctor.", "a": "We must call the doctor.", "note": "must 表必要性。" },
+    { "q": "汉译英：他得了重感冒。", "a": "He has a bad cold.", "note": "have a cold，bad 表严重；a 不省。" },
+    { "q": "填空：He must stay in bed ___ a week.", "a": "for", "note": "for + 一段时间。" },
+    { "q": "把 We must call the doctor. 变成一般疑问句。", "a": "Must we call the doctor?", "note": "must 提到句首。" },
+    { "q": "汉译英：请把嘴张开。", "a": "Open your mouth.", "note": "祈使句。" },
+    { "q": "改错：Because he doesn't like school, so he is happy.", "a": "He doesn't like school, so he is happy. (或 Because he doesn't like school, he is happy.)", "note": "because 与 so 不连用。" }
+  ],
+  "quiz": [
+    { "q": "吉米怎么了？", "options": ["He has a bad cold.", "He has a good cold.", "He is a bad cold.", "He has bad cold."], "answer": 0, "note": "have a bad cold 重感冒。" },
+    { "q": "Must we call the doctor? 的肯定回答是：", "options": ["Yes, we must.", "Yes, we mustn't.", "Yes, we do.", "No, we must."], "answer": 0, "note": "must 问 must 答。" },
+    { "q": "stay in bed for a week 中 for 表示：", "options": ["一段时间", "地点", "原因", "目的"], "answer": 0, "note": "for + 时间段。" },
+    { "q": "feel ill 与 look ill 的区别是：", "options": ["自我感觉 vs 外表看起来", "都是外表", "都是感觉", "毫无区别"], "answer": 0, "note": "feel 主观，look 客观。" },
+    { "q": "news 的数：", "options": ["不可数", "复数", "可数单数", "比较级"], "answer": 0, "note": "news 以 -s 结尾但不可数。" },
+    { "q": "Because he doesn't like school. 后面不能加：", "options": ["so", "and", "but", "too"], "answer": 0, "note": "because 与 so 不并用。" }
+  ],
+  "grammar": [
+    {
+      "title": "have (got) 表示疾病",
+      "structure": "主语 + have/has (got) + a + 疾病名词",
+      "definition": "英语中表示患病常用 have (got) + 疾病名词。a cold, a headache 等疾病前常用不定冠词 a/an；measles, mumps 等复数形式疾病名前不用冠词；flu 等不可数疾病名前也不用冠词。",
+      "usage": "He has a bad cold. / She has a headache. / Most children are in bed with mumps.",
+      "examples": [
+        { "en": "He has a bad cold, Mr Williams.", "zh": "他得了重感冒，威廉斯先生。" },
+        { "en": "She has a headache.", "zh": "她头疼。" }
+      ]
+    },
+    {
+      "title": "must 表示必要性与义务",
+      "structure": "主语 + must/mustn't + 动词原形",
+      "definition": "must 表示「必须、一定」，是情态助动词，无人称、时态变化，后接动词原形。mustn't（must not）表示「禁止、不允许」。用于医嘱、规矩等。",
+      "usage": "We must call the doctor. / He mustn't go to school yet.",
+      "examples": [
+        { "en": "We must call the doctor.", "zh": "我们必须请医生。" },
+        { "en": "He must stay in bed for a week.", "zh": "他必须卧床休息一周。" }
+      ]
+    },
+    {
+      "title": "系动词 feel / look + 形容词；询问病情",
+      "structure": "主语 + feel/look + adj. ； What's the matter with ...?",
+      "definition": "feel（感觉）和 look（看起来）是系动词，后接形容词作表语，不接副词。What's the matter with ...? 用来询问某人/某物出了什么问题。",
+      "usage": "He feels ill. / He looks ill. / What's the matter with him?",
+      "examples": [
+        { "en": "He feels ill.", "zh": "他觉得不舒服。" },
+        { "en": "He looks ill.", "zh": "他看起来病了。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "What's the matter with ...?", "usage": "询问某人怎么了、出了什么问题", "examples": [{ "en": "What's the matter with him?", "zh": "他怎么了？" }] },
+    { "phrase": "feel ill / look ill", "usage": "feel ill 自我感觉不舒服；look ill 外表看起来有病", "examples": [{ "en": "He feels ill. He looks ill.", "zh": "他觉得不舒服，看起来也病了。" }] },
+    { "phrase": "have a bad cold", "usage": "得了重感冒", "examples": [{ "en": "He has a bad cold.", "zh": "他得了重感冒。" }] },
+    { "phrase": "call the doctor", "usage": "请医生、叫医生来看病", "examples": [{ "en": "We must call the doctor.", "zh": "我们必须请医生。" }] },
+    { "phrase": "stay in bed for a week", "usage": "卧床休息一周（for + 一段时间）", "examples": [{ "en": "He must stay in bed for a week.", "zh": "他必须卧床一周。" }] },
+    { "phrase": "open your mouth / show me your tongue", "usage": "医生检查时的常用语", "examples": [{ "en": "Open your mouth, Jimmy. Show me your tongue.", "zh": "张嘴，吉米。让我看看你的舌头。" }] }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Thank you, doctor / Don't ...! You mustn't ...!",
+  "subtitle": "谢谢你，医生。/ 别……！你不可以……！",
+  "lead": {
+    "question": "复诊时医生怎么说「好些了，但还不可以起床」「再卧床两天」「一天两次服药」「不可以吃油腻、不可以上学」——must 与 mustn't 怎么分工？",
+    "warmup": "先别看课文。吉米感冒初愈去复诊：父亲问「今天好些了吗」，医生说「好些了，但还不可以起床，必须再卧床两天」。接着交代服药（一天两次）、饮食（不可以吃油腻，要吃清淡）、作息（不可以上学，你（母亲）必须保持房间温暖）。听录音时抓住 must（必须）与 mustn't（禁止）的对比，以及 for another two days、twice a day 这类时间表达。",
+    "goals": [
+      "能用 better（well 的比较级）描述病情好转",
+      "能用 must + 动词原形 表医嘱，用 mustn't 表禁止",
+      "理解 Must ...? 的回答：必须用 Yes, ... must；不必用 No, ... needn't（不是 mustn't）",
+      "能用 for another + 时间段 与 twice a day 表达持续时间与频率",
+      "掌握 keep + 宾语 + 形容词（keep the room warm）"
+    ],
+    "summary": "第 63 课吉米复诊，医生说他好些了但还不可以起床，须再卧床两天、每天可起约两小时、一天两次服药、不可以吃油腻食物、不可以上学，母亲须保持房间温暖。全课集中操练 must/mustn't 的医嘱语气。第 64 课用 Don't ___! 变成 You mustn't ___! 强化「禁止」的表达。",
+    "tips": "① better 是 well/good 的比较级，此处指身体好转；② yet 用于否定句「还（没）」；③ mustn't 是「禁止」，不等于「不必」——「不必」用 needn't / don't have to；④ for another two days 再两天；⑤ twice a day 一天两次；⑥ keep the room warm 中 keep + 宾 + 形。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Is Jimmy better now?",
+      "zh": "吉米现在好些了吗？",
+      "a": "Yes, he is better now.",
+      "aZh": "是的，他好些了。",
+      "hint": "听 How's Jimmy today? / He's better now, doctor."
+    },
+    {
+      "kind": "detail",
+      "q": "How long must Jimmy stay in bed?",
+      "zh": "吉米还得卧床多久？",
+      "a": "For another two days.",
+      "aZh": "再过两天。"
+    },
+    {
+      "kind": "detail",
+      "q": "What must Jimmy take, and how often?",
+      "zh": "吉米必须吃什么，多久一次？",
+      "a": "The medicine, twice a day.",
+      "aZh": "药，一天两次。"
+    },
+    {
+      "kind": "detail",
+      "q": "What mustn't Jimmy do?",
+      "zh": "吉米不可以做什么？",
+      "a": "He mustn't eat rich food and he mustn't go to school.",
+      "aZh": "不可以吃油腻食物，也不可以去上学。"
+    },
+    {
+      "kind": "think",
+      "q": "If the answer to 'Must he stay in bed?' is 'not necessary', should we say 'No, he mustn't'?",
+      "zh": "如果回答「不，不必」，应该用 mustn't 吗？",
+      "a": "No. To say 'not necessary' we use needn't (or don't have to), NOT mustn't. mustn't means prohibition (禁止), not lack of necessity.",
+      "aZh": "不该用 mustn't。表示「不必」用 needn't / don't have to；mustn't 是「禁止」。",
+      "hint": "mustn't 表禁止，不等于「不必」。"
+    },
+    {
+      "kind": "drill",
+      "q": "Don't take any aspirins! You mustn't take any aspirins! / Don't play with matches! You mustn't play with matches!",
+      "zh": "第 64 课操练：把 Don't ___! 变成 You mustn't ___!",
+      "a": "Don't make a noise! You mustn't make a noise!",
+      "aZh": "别吵！你不可以吵闹。",
+      "hint": "祈使句否定 Don't + 动词原形；mustn't 表禁止。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "better", "phonetic": "/ˈbetə/", "meanings": [{ "pos": "adj.", "meaning": "更好的，好转的", "usage": "well/good 的比较级，指健康改善" }], "examples": [{ "en": "He's better now, doctor.", "zh": "他好些了，医生。" }] },
+    { "word": "certainly", "phonetic": "/ˈsɜːtənli/", "meanings": [{ "pos": "adv.", "meaning": "当然，肯定", "usage": "相当于 of course" }], "examples": [{ "en": "Certainly, doctor.", "zh": "当然，医生。" }] },
+    { "word": "get up", "phonetic": "/ɡet ʌp/", "meanings": [{ "pos": "phr. v.", "meaning": "起床，起身", "usage": "He mustn't get up yet." }], "examples": [{ "en": "He mustn't get up yet.", "zh": "他还不可以起床。" }] },
+    { "word": "yet", "phonetic": "/jet/", "meanings": [{ "pos": "adv.", "meaning": "还，仍", "usage": "多用于否定句" }], "examples": [{ "en": "He mustn't get up yet.", "zh": "他还不可以起床。" }] },
+    { "word": "rich", "phonetic": "/rɪtʃ/", "meanings": [{ "pos": "adj.", "meaning": "油腻的；富有的", "usage": "rich food 油腻的食物" }], "examples": [{ "en": "He mustn't eat rich food.", "zh": "他不可以吃油腻的食物。" }] },
+    { "word": "food", "phonetic": "/fuːd/", "meanings": [{ "pos": "n.", "meaning": "食物", "usage": "rich food 油腻食物" }], "examples": [{ "en": "He must eat simple food.", "zh": "他必须吃清淡的食物。" }] },
+    { "word": "remain", "phonetic": "/rɪˈmeɪn/", "meanings": [{ "pos": "v.", "meaning": "保持，继续", "usage": "remain in bed 继续卧床" }], "examples": [{ "en": "Must he remain in bed?", "zh": "他还必须卧床吗？" }] },
+    { "word": "temperature", "phonetic": "/ˈtemprətʃə/", "meanings": [{ "pos": "n.", "meaning": "体温，温度", "usage": "have a temperature 发烧" }], "examples": [{ "en": "Does he have a temperature?", "zh": "他发烧吗？" }] },
+    { "word": "warm", "phonetic": "/wɔːm/", "meanings": [{ "pos": "adj.", "meaning": "温暖的", "usage": "keep the room warm" }], "examples": [{ "en": "You must keep the room warm.", "zh": "你必须保持房间温暖。" }] },
+    { "word": "keep", "phonetic": "/kiːp/", "meanings": [{ "pos": "v.", "meaning": "保持", "usage": "keep + 宾语 + 形容词" }], "examples": [{ "en": "You must keep the room warm.", "zh": "你必须保持房间温暖。" }] },
+    { "word": "well", "phonetic": "/wel/", "meanings": [{ "pos": "adj.", "meaning": "健康的", "usage": "指身体状况好" }], "examples": [{ "en": "He's very well, thank you.", "zh": "他很好，谢谢。" }] },
+    { "word": "mustn't", "phonetic": "/ˈmʌsnt/", "meanings": [{ "pos": "modal v.", "meaning": "不可以，禁止", "usage": "must not 的缩写" }], "examples": [{ "en": "He mustn't eat rich food.", "zh": "他不可以吃油腻的食物。" }] },
+    { "word": "cough", "phonetic": "/kɒf/", "meanings": [{ "pos": "n./v.", "meaning": "咳嗽", "usage": "have a cough 咳嗽" }], "examples": [{ "en": "He coughs all day and night.", "zh": "他白天黑夜都咳嗽。" }] },
+    { "word": "medicine", "phonetic": "/ˈmedsn/", "meanings": [{ "pos": "n.", "meaning": "药，药物", "usage": "take the medicine 服药" }], "examples": [{ "en": "He must take the medicine twice a day.", "zh": "他必须一天两次服药。" }] },
+    { "word": "aspirin", "phonetic": "/ˈæspərɪn/", "meanings": [{ "pos": "n.", "meaning": "阿司匹林", "usage": "take an aspirin 服一片阿司匹林" }], "examples": [{ "en": "So she must take an aspirin.", "zh": "所以她必须服一片阿司匹林。" }] },
+    { "word": "simple", "phonetic": "/ˈsɪmpl/", "meanings": [{ "pos": "adj.", "meaning": "简单的，清淡的", "usage": "simple food 清淡食物" }], "examples": [{ "en": "He must eat simple food.", "zh": "他必须吃清淡的食物。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 63,
+      "title": "Thank you, doctor",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "DOCTOR", "en": "How's Jimmy today?", "zh": "今天吉米怎么样？", "note": "How's ... today? 问近况" },
+        { "speaker": "MRS WILLIAMS", "en": "He's better now, doctor. But he mustn't get up yet. He must stay in bed for another two days.", "zh": "他好些了，医生。但他还不可以起床。他必须再卧床两天。", "note": "better 好转；yet 还；for another two days 再两天" },
+        { "speaker": "DOCTOR", "en": "Does he have a temperature, Mrs Williams?", "zh": "威廉斯太太，他发烧吗？", "note": "have a temperature 发烧" },
+        { "speaker": "MRS WILLIAMS", "en": "No, he doesn't.", "zh": "不，不烧。" },
+        { "speaker": "DOCTOR", "en": "Does he still have a cough?", "zh": "他还咳嗽吗？" },
+        { "speaker": "MRS WILLIAMS", "en": "Yes, he does. He coughs all day and night.", "zh": "是的，还咳。他白天黑夜都咳嗽。" },
+        { "speaker": "DOCTOR", "en": "Open his mouth, Mrs Williams. Show me his tongue. ... He has a bad cold, Mrs Williams, so he must stay in bed for another two days. He can get up for about two hours each day and he can watch television, but he mustn't go to school.", "zh": "威廉斯太太，把他的嘴张开。让我看看他的舌头。……威廉斯太太，他得了重感冒，因此必须再卧床两天。他每天可以起床约两小时，也可以看电视，但不可以去上学。", "note": "can 表允许；mustn't 禁止" },
+        { "speaker": "MRS WILLIAMS", "en": "Must he take the medicine?", "zh": "他必须吃药吗？", "note": "Must 疑问句" },
+        { "speaker": "DOCTOR", "en": "Yes, he must take the medicine twice a day.", "zh": "是的，他必须一天两次服药。", "note": "twice a day 一天两次" },
+        { "speaker": "MRS WILLIAMS", "en": "Can he eat rich food?", "zh": "他可以吃油腻的东西吗？" },
+        { "speaker": "DOCTOR", "en": "No, he mustn't eat rich food. He must eat simple food.", "zh": "不，他不可以吃油腻的。他必须吃清淡的。", "note": "rich food 油腻；simple food 清淡" },
+        { "speaker": "MRS WILLIAMS", "en": "Must he remain in bed?", "zh": "他还必须卧床吗？" },
+        { "speaker": "DOCTOR", "en": "Yes. He must remain in bed for another two days. He can get up for about two hours each day but you must keep the room warm.", "zh": "是的。他必须再卧床两天。他每天可以起床约两小时，但你必须保持房间温暖。", "note": "keep the room warm 保持房间温暖" }
+      ]
+    },
+    {
+      "lesson": 64,
+      "title": "Don't ...! You mustn't ...!",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Don't ___! You mustn't ___!",
+        "zh": "别……！你不可以……！（祈使句否定 → mustn't 禁止）",
+        "slots": [
+          { "en": "take any aspirins", "zh": "服任何阿司匹林" },
+          { "en": "take this medicine", "zh": "吃这药" },
+          { "en": "call the doctor", "zh": "叫医生" },
+          { "en": "play with matches", "zh": "玩火柴" },
+          { "en": "talk in the library", "zh": "在图书馆说话" },
+          { "en": "make a noise", "zh": "吵闹" },
+          { "en": "drive so quickly", "zh": "开得这么快" },
+          { "en": "lean out of the window", "zh": "把身子探出窗外" },
+          { "en": "break that vase", "zh": "打碎那个花瓶" }
+        ],
+        "answers": ["Don't take any aspirins! You mustn't take any aspirins!", "Don't play with matches! You mustn't play with matches!"]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：他好些了，但还不可以起床。", "a": "He's better now, but he mustn't get up yet.", "note": "better 是 well 比较级；yet 用于否定。" },
+    { "q": "汉译英：你必须再卧床两天。", "a": "You must stay in bed for another two days.", "note": "for another + 时间段。" },
+    { "q": "把 Don't open the window! 变成 mustn't 句。", "a": "You mustn't open the window!", "note": "祈使否定 → mustn't 禁止。" },
+    { "q": "汉译英：一天两次。", "a": "Twice a day.", "note": "twice 两次。" },
+    { "q": "填空：He mustn't eat ___ (rich) food.", "a": "rich", "note": "rich food 油腻食物。" },
+    { "q": "汉译英：你必须保持房间温暖。", "a": "You must keep the room warm.", "note": "keep + 宾语 + 形容词。" },
+    { "q": "改错：Must he stay in bed? — No, he mustn't.（表示「不必」）", "a": "No, he needn't. (或 No, he doesn't have to.)", "note": "「不必」用 needn't；mustn't 是禁止。" }
+  ],
+  "quiz": [
+    { "q": "better 是哪一个词的比较级？", "options": ["well", "good", "bad", "best"], "answer": 0, "note": "better 是 well/good 比较级；此处指身体好转。" },
+    { "q": "You mustn't eat rich food. 中 mustn't 表示：", "options": ["禁止", "不必", "必须", "能够"], "answer": 0, "note": "mustn't 禁止。" },
+    { "q": "否定回答「他不必卧床」应说：", "options": ["No, he needn't.", "No, he mustn't.", "No, he doesn't.", "No, he isn't."], "answer": 0, "note": "「不必」用 needn't。" },
+    { "q": "for another two days 中 for 表示：", "options": ["持续时间", "地点", "原因", "目的"], "answer": 0, "note": "for + 时间段。" },
+    { "q": "keep the room warm 的结构是：", "options": ["keep + 宾语 + 形容词", "keep + 形容词", "keep + 副词", "keep + 不定式"], "answer": 0, "note": "keep 带宾语补足语形容词。" },
+    { "q": "Don't play with matches! 的 mustn't 版是：", "options": ["You mustn't play with matches!", "You don't play with matches!", "You mustn't to play with matches!", "Not play with matches!"], "answer": 0, "note": "mustn't + 动词原形。" }
+  ],
+  "grammar": [
+    {
+      "title": "must / mustn't 表示义务与禁止",
+      "structure": "主语 + must + 动词原形（必须）；主语 + mustn't + 动词原形（禁止）",
+      "definition": "must 表示说话者认为必要的事（医嘱、规矩）；mustn't（must not）表示「不允许、禁止」。两者都后接动词原形，无人称变化。",
+      "usage": "You must stay in bed for another two days. / He mustn't eat rich food.",
+      "examples": [
+        { "en": "He must stay in bed for another two days.", "zh": "他必须再卧床两天。" },
+        { "en": "He mustn't go to school yet.", "zh": "他还不可以去上学。" }
+      ]
+    },
+    {
+      "title": "Must 引导的一般疑问句及回答",
+      "structure": "Must + 主语 + 动词原形? → Yes, ... must. / No, ... needn't.",
+      "definition": "must 开头的一般疑问句询问是否必须做某事。必须时答 Yes, ... must；「不必」答 No, ... needn't（或 don't have to）。注意：不可用 mustn't 表示「不必」，mustn't 是禁止。",
+      "usage": "Must he take the medicine? — Yes, he must. / Must he remain in bed? — No, he needn't.",
+      "examples": [
+        { "en": "Must he take the medicine?", "zh": "他必须吃药吗？" },
+        { "en": "No, he needn't.", "zh": "不，他不必。" }
+      ]
+    },
+    {
+      "title": "时间表达：for another + 时间段 / twice a day；keep + 宾 + 形",
+      "structure": "for another + 时间段；频率副词（twice a day）；keep + 宾语 + 形容词",
+      "definition": "for another two days 表示「再（持续）……」；twice a day 表示频率「一天两次」；keep + 宾语 + 形容词 表示「使……保持某种状态」。",
+      "usage": "He must stay in bed for another two days. / He must take the medicine twice a day. / You must keep the room warm.",
+      "examples": [
+        { "en": "He can get up for about two hours each day.", "zh": "他每天可以起床约两小时。" },
+        { "en": "You must keep the room warm.", "zh": "你必须保持房间温暖。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "How's Jimmy today?", "usage": "询问他人今天身体状况", "examples": [{ "en": "How's Jimmy today? He's better now.", "zh": "今天吉米怎么样？他好些了。" }] },
+    { "phrase": "stay in bed for another two days", "usage": "再卧床两天", "examples": [{ "en": "He must stay in bed for another two days.", "zh": "他必须再卧床两天。" }] },
+    { "phrase": "get up", "usage": "起床；起身", "examples": [{ "en": "He mustn't get up yet.", "zh": "他还不可以起床。" }] },
+    { "phrase": "have a temperature", "usage": "发烧", "examples": [{ "en": "Does he have a temperature?", "zh": "他发烧吗？" }] },
+    { "phrase": "eat rich food", "usage": "吃油腻的食物", "examples": [{ "en": "He mustn't eat rich food.", "zh": "他不可以吃油腻的食物。" }] },
+    { "phrase": "keep the room warm", "usage": "保持房间温暖", "examples": [{ "en": "You must keep the room warm.", "zh": "你必须保持房间温暖。" }] },
+    { "phrase": "take the medicine twice a day", "usage": "一天两次服药", "examples": [{ "en": "He must take the medicine twice a day.", "zh": "他必须一天两次服药。" }] }
+  ]
+}

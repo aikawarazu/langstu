@@ -1,0 +1,158 @@
+{
+  "title": "Terrible toothache / She bought a new car last year.",
+  "subtitle": "可怕的牙痛 / 她去年买了一辆新车。",
+  "lead": {
+    "question": "你牙疼得要命冲进诊所，护士问「约好了吗、急吗、能下午来吗」，你却说「我的牙痛可等不了」——这番对话你会用英语怎么讲？又会怎么用否定疑问句表达「您就不能等等吗」？",
+    "warmup": "先别看课文。想象克罗夫特先生一大早就捂着腮帮冲进诊所：想见牙医、没预约、非常急。护士两次改时间，最后用否定疑问句 Can't you wait till this afternoon? 劝他等。这里有两个重点：① 否定疑问句（Can't you …?）表请求/责怪；② 一般现在时 vs 一般过去时对照（buys every year / bought last year）。第 78 课把这种「经常做 / 过去做一次」的对照套进问答。",
+    "goals": [
+      "能用 I want to see the dentist / have an appointment 表达看诊与预约",
+      "理解并会使用否定疑问句 Can't you …?（请求/责怪）",
+      "区分一般现在时与一般过去时（every year vs last year）",
+      "掌握 urgent、toothache、till、at the moment 等词"
+    ],
+    "summary": "第 77 课：克罗夫特先生牙疼难忍去诊所，没预约、说很急，护士先约周一上午 10 点、又改下午 2 点，先生嫌晚，护士用否定疑问句 Can't you wait till this afternoon? 劝他等，先生答「我倒能等，可牙痛等不了」。第 78 课用 She buys a new car every year. / She bought a new car last year. 对照一般现在时与过去时。",
+    "tips": "① 否定疑问句 Can't you wait? 表请求/惊讶，回答仍按事实用 Yes/No；② I want to see … 比 I must see … 语气弱，must 更强；③ at the moment 此时/这会儿；④ till 直到；⑤ a.m./p.m. 上/下午；⑥ 一般现在时表习惯（every year），过去时表过去一次（last year）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What time of day is it, do you think? How do you know?",
+      "zh": "你认为现在是几点钟？你怎么知道的？",
+      "a": "It is morning. We know because Nurse and Mr Croft say 'Good morning' and the nurse offers a Monday '10 a.m.' appointment.",
+      "aZh": "是早上。因为护士和克罗夫特先生互道「早上好」，护士还约了上午 10 点的时间。",
+      "hint": "听 Good morning 与 10 a.m."
+    },
+    {
+      "kind": "detail",
+      "q": "Does Mr Croft have an appointment with the dentist?",
+      "zh": "克罗夫特先生和牙医约好了吗？",
+      "a": "No, he doesn't.",
+      "aZh": "没有。",
+      "hint": "Nurse: Do you have an appointment? Mr Croft: No, I don't."
+    },
+    {
+      "kind": "detail",
+      "q": "Why does Mr Croft say it is urgent?",
+      "zh": "克罗夫特先生为什么说很急？",
+      "a": "Because he has a terrible toothache and feels awful — he must see the dentist now.",
+      "aZh": "因为他牙痛得要命、难受极了，必须现在就看牙医。",
+      "hint": "It's very urgent. I feel awful. I have a terrible toothache."
+    },
+    {
+      "kind": "detail",
+      "q": "What time does the nurse finally suggest?",
+      "zh": "护士最后建议什么时间来？",
+      "a": "At 2:00 p.m. (in the afternoon).",
+      "aZh": "下午 2 点。",
+      "hint": "Can you come at 2:00 PM?"
+    },
+    {
+      "kind": "think",
+      "q": "Why does the nurse say 'Can't you wait till this afternoon?' as a negative question?",
+      "zh": "护士为什么用否定疑问句「您就不能等到今天下午吗」？",
+      "a": "A negative question like Can't you wait? softens a request or expresses mild reproach — she is politely urging him to wait, not really asking whether he is unable to.",
+      "aZh": "否定疑问句（Can't you wait?）能委婉地提出请求或带点嗔怪——她是客气地劝他等，并非真问他「能不能」。",
+      "hint": "否定疑问句常表请求/惊讶，回答按事实来。"
+    },
+    {
+      "kind": "drill",
+      "q": "___ [present simple] every ___. — ___ [past simple] ___.",
+      "zh": "……（一般现在时）每……。——……（一般过去时）……。（对照经常做与过去做一次）",
+      "a": "She buys a new car every year. She bought a new car last year.",
+      "aZh": "她每年买一辆新车。她去年买了一辆新车。",
+      "hint": "前句表习惯用现在时，后句表过去用过去式。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "appointment", "phonetic": "/əˈpɔɪntmənt/", "meanings": [{ "pos": "n.", "meaning": "约会，预约", "usage": "have an appointment (with sb.) 与（某人）有约" }], "examples": [{ "en": "Do you have an appointment?", "zh": "您约好了吗？" }] },
+    { "word": "urgent", "phonetic": "/ˈɜːdʒənt/", "meanings": [{ "pos": "adj.", "meaning": "紧急的，急迫的", "usage": "Is it urgent? 急吗？" }], "examples": [{ "en": "It's very urgent. I have a terrible toothache.", "zh": "很急。我牙痛得要命。" }] },
+    { "word": "till", "phonetic": "/tɪl/", "meanings": [{ "pos": "prep.", "meaning": "直到……为止", "usage": "till this afternoon 直到今天下午；同 until" }], "examples": [{ "en": "Can't you wait till this afternoon?", "zh": "您就不能等到今天下午吗？" }] },
+    { "word": "dentist", "phonetic": "/ˈdentɪst/", "meanings": [{ "pos": "n.", "meaning": "牙科医生", "usage": "see the dentist 看牙医" }], "examples": [{ "en": "I want to see the dentist, please.", "zh": "我想见牙科医生。" }] },
+    { "word": "toothache", "phonetic": "/ˈtuːθeɪk/", "meanings": [{ "pos": "n.", "meaning": "牙痛", "usage": "have a terrible toothache 牙痛得要命" }], "examples": [{ "en": "I have a terrible toothache.", "zh": "我牙痛得要命。" }] },
+    { "word": "feel", "phonetic": "/fiːl/", "meanings": [{ "pos": "v.", "meaning": "感觉，觉得", "usage": "I feel awful. 我难受极了。" }], "examples": [{ "en": "I feel awful.", "zh": "我难受极了。" }] },
+    { "word": "wait", "phonetic": "/weɪt/", "meanings": [{ "pos": "v.", "meaning": "等，等待", "usage": "Can't you wait till this afternoon? 您就不能等到下午吗？" }], "examples": [{ "en": "I can wait, but my toothache can't!", "zh": "我倒可以等，可我的牙痛等不了！" }] }
+  ],
+  "text": [
+    {
+      "lesson": 77,
+      "title": "Terrible toothache",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "NURSE", "en": "Good morning, Mr Croft.", "zh": "早上好，克罗夫特先生。" },
+        { "speaker": "MR CROFT", "en": "Good morning, nurse. I want to see the dentist, please.", "zh": "早上好，护士。我想见牙科医生，麻烦您。", "note": "I want to see sb. 想见某人。" },
+        { "speaker": "NURSE", "en": "Do you have an appointment?", "zh": "您约好了吗？", "note": "have an appointment 有预约。" },
+        { "speaker": "MR CROFT", "en": "No, I don't.", "zh": "没有。" },
+        { "speaker": "NURSE", "en": "Is it urgent?", "zh": "急吗？", "note": "it 指「见牙医」这件事。" },
+        { "speaker": "MR CROFT", "en": "Yes, it is. It's very urgent. I feel awful. I have a terrible toothache.", "zh": "是的，很急。我难受极了。我牙痛得要命。", "note": "terrible toothache 可怕的牙痛；feel awful 难受极了。" },
+        { "speaker": "NURSE", "en": "Can you come at 10 a.m. on Monday, April 24th?", "zh": "您在 4 月 24 日星期一上午 10 点钟来行吗？", "note": "英语时间由小到大：10 a.m. on Monday, April 24th。" },
+        { "speaker": "MR CROFT", "en": "I must see the dentist now, nurse.", "zh": "我必须现在就见牙科医生，护士。", "note": "must 比 want 语气更强。" },
+        { "speaker": "NURSE", "en": "The dentist is very busy at the moment. Can you come at 2:00 p.m.?", "zh": "牙科医生这会儿很忙。您下午 2 点钟来行吗？", "note": "at the moment 此时/这会儿；p.m. 下午。" },
+        { "speaker": "MR CROFT", "en": "That's very late. Can't the dentist see me now?", "zh": "那就太晚了。牙科医生现在就不能给我看一下吗？", "note": "Can't …? 否定疑问句，表惊讶/请求。" },
+        { "speaker": "NURSE", "en": "I'm afraid that he can't, Mr Croft. Can't you wait till this afternoon?", "zh": "恐怕不能，克罗夫特先生。您就不能等到今天下午吗？", "note": "否定疑问句表委婉请求/嗔怪；till 直到。" },
+        { "speaker": "MR CROFT", "en": "I can wait, but my toothache can't!", "zh": "我倒是可以等。可是我的牙痛等不了啊！" }
+      ]
+    },
+    {
+      "lesson": 78,
+      "title": "She bought a new car last year.",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "___ [present simple] every ___. — ___ [past simple] ___.",
+        "zh": "……（一般现在时）每……。——……（一般过去时）……。（对照「经常做」与「过去做一次」）",
+        "slots": [
+          { "en": "She buys a new car — every year — bought a new car last year", "zh": "她买一辆新车 — 每年 — 去年买了一辆" },
+          { "en": "She airs the room — every day — aired it this morning", "zh": "她给房间通风 — 每天 — 今天早上通了风" },
+          { "en": "He often loses his pen — (often) — lost his pen this morning", "zh": "他常丢钢笔 — （常常）— 今天早上丢了" },
+          { "en": "She always listens to the news — (always) — listened to the news yesterday", "zh": "她总听新闻 — （总是）— 昨天听了" },
+          { "en": "She empties this basket — every day — emptied it yesterday", "zh": "她倒空这个篮子 — 每天 — 昨天倒了" }
+        ],
+        "answers": ["She buys a new car every year. She bought a new car last year.", "She airs the room every day. She aired it this morning."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：我想见牙科医生，麻烦您。", "a": "I want to see the dentist, please.", "note": "I want to see sb. 想见某人。" },
+    { "q": "把 Can you wait? 改成否定疑问句（责怪语气）。", "a": "Can't you wait?", "note": "否定疑问句 Can't you …? 表请求/嗔怪。" },
+    { "q": "汉译英：您约好了吗？——没有。", "a": "Do you have an appointment? — No, I don't.", "note": "have an appointment 有预约。" },
+    { "q": "汉译英：牙科医生这会儿很忙。", "a": "The dentist is very busy at the moment.", "note": "at the moment 此时/这会儿。" },
+    { "q": "第 78 课：She buys a new car every year. 的过去对照（去年）。", "a": "She bought a new car last year.", "note": "buy 过去式 bought；last year 去年。" },
+    { "q": "汉译英：我倒可以等，可我的牙痛等不了！", "a": "I can wait, but my toothache can't!", "note": "can't 否定；toothache 牙痛。" },
+    { "q": "填空：Can you come at 10 a.m. ___ Monday, April 24th? （填介词）", "a": "on", "note": "具体某天前用 on；英语时间由小到大。" }
+  ],
+  "quiz": [
+    { "q": "「您就不能等到今天下午吗？」是：", "options": ["否定疑问句（表请求/嗔怪）", "一般疑问句", "祈使句", "感叹句"], "answer": 0, "note": "Can't you wait? 否定疑问句，语气委婉或带嗔怪。" },
+    { "q": "Do you have an appointment? — ___", "options": ["No, I don't.", "No, I haven't.", "No, I'm not.", "No, I didn't."], "answer": 0, "note": "用 do 问用 do 答。" },
+    { "q": "英语说「4 月 24 日星期一上午 10 点」顺序为：", "options": ["10 a.m. on Monday, April 24th", "April 24th Monday 10 a.m.", "Monday April 24th 10 a.m.", "10 a.m. April 24th Monday"], "answer": 0, "note": "英语时间由小到大排列。" },
+    { "q": "I want to see… 与 I must see… 相比：", "options": ["must 语气更强，表强烈需求", "want 语气更强", "两者一样强", "must 是过去式"], "answer": 0, "note": "must 比 want 语气更强，表强烈愿望/需求。" },
+    { "q": "She buys a new car every year. 的过去对照是：", "options": ["She bought a new car last year.", "She buying a new car last year.", "She buyed a new car last year.", "She has bought a new car last year."], "answer": 0, "note": "buy 过去式 bought；every year（习惯）对 last year（过去一次）。" },
+    { "q": "at the moment 意思是：", "options": ["此时，这会儿", "明天", "上周", "下午"], "answer": 0, "note": "at the moment 正在说话的这会儿。" }
+  ],
+  "grammar": [
+    {
+      "title": "否定疑问句（Negative questions）",
+      "structure": "否定助动词/be + 主语 + 动词?（如 Can't you …? / Aren't you …? / Didn't you …?）",
+      "definition": "把 not 缩在助动词/be 前构成简略否定疑问句，可表示惊异、责怪、请求、邀请或建议。回答仍按事实用 Yes/No，译法较特殊。",
+      "usage": "Can't you wait a moment? 你不能等一会儿吗？Isn't it hot here? 这里难道不热吗？",
+      "examples": [
+        { "en": "Can't you wait till this afternoon?", "zh": "您就不能等到今天下午吗？" },
+        { "en": "Can't the dentist see me now?", "zh": "牙科医生现在就不能给我看一下吗？" }
+      ]
+    },
+    {
+      "title": "一般现在时 vs 一般过去时（习惯 vs 过去一次）",
+      "structure": "一般现在时：主语 + 动词原形/三单（every …）；一般过去时：主语 + 动词过去式（last … / … ago）",
+      "definition": "一般现在时表经常性、习惯性动作（常与 every year/day 连用）；一般过去时表过去某时发生的一次性动作（常与 last year, yesterday, … ago 连用）。",
+      "usage": "对比「经常做」与「过去做一次」。",
+      "examples": [
+        { "en": "She buys a new car every year.", "zh": "她每年买一辆新车。" },
+        { "en": "She bought a new car last year.", "zh": "她去年买了一辆新车。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "I want to see the dentist", "usage": "我想见牙科医生", "examples": [{ "en": "I want to see the dentist, please.", "zh": "我想见牙科医生，麻烦您。" }] },
+    { "phrase": "have an appointment", "usage": "有预约，约好了", "examples": [{ "en": "Do you have an appointment?", "zh": "您约好了吗？" }] },
+    { "phrase": "at the moment", "usage": "此时，这会儿", "examples": [{ "en": "The dentist is very busy at the moment.", "zh": "牙科医生这会儿很忙。" }] },
+    { "phrase": "I'm afraid (that) …", "usage": "恐怕……（委婉拒绝）", "examples": [{ "en": "I'm afraid that he can't, Mr Croft.", "zh": "恐怕不能，克罗夫特先生。" }] }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "title": "He's awful / What did they do?",
+  "subtitle": "他讨厌透了 / 他们做了什么？",
+  "lead": {
+    "question": "如果有个讨厌的人反复给你打电话，你会对朋友怎么形容他？又会怎么用英语讲「他昨天打了四次电话」这种过去的事？",
+    "warmup": "先别看课文。想象一个烦人的追求者：昨天打了 4 次、前天 3 次、连你老板都接了他的电话。简问波琳「罗恩·马斯顿是怎样一个人」，波琳答「他讨厌透了」，然后用一般过去时把一连串扰民行为讲了出来。注意规则动词加 -ed（telephoned, answered），不规则动词变过去式（say→said, do→did）。第 72 课用 What did … do? 把各种动词的过去式套进问答。",
+    "goals": [
+      "理解 What's … like? 询问品行/外貌",
+      "能用一般过去时陈述过去的事（规则与不规则动词）",
+      "能用 Did …? 提问并用 Yes, he did. / No, he didn't. 简略回答",
+      "掌握 four times、the day before yesterday、answer the phone 等表达"
+    ],
+    "summary": "第 71 课是简和波琳的对话：波琳抱怨罗恩·马斯顿「他讨厌透了」，昨天打 4 次、前天 3 次电话，连老板都替她挡过；波琳最后假扮母亲让他别再打。全课集中操练一般过去时（telephoned, answered, said, arrived, didn't answer）。第 72 课用 What did … do …? 把 cleaned/opened/sharpened/listened 等过去式套进问答。",
+    "tips": "① 规则动词加 -ed（telephoned, answered, arrived）；② 不规则：say→said, do→did, go→went；③ four times 四次（time 表「次数」可数）；④ the day before yesterday 前天；⑤ answer the phone / answer the telephone 接电话；⑥ Did he telephone again? 简略回答 Yes, he did. / No, he didn't.（did 问 did 答）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "How did Pauline answer the telephone at nine o'clock?",
+      "zh": "波琳在 9 点钟接电话时是怎么说的？",
+      "a": "She said, \"This is Pauline's mother. Please don't telephone my daughter again!\"",
+      "aZh": "她说：「我是波琳的母亲。请不要再给我女儿打电话了！」",
+      "hint": "听最后一段：What did you say to him? / I said …"
+    },
+    {
+      "kind": "detail",
+      "q": "How many times did Ron telephone Pauline yesterday and the day before yesterday?",
+      "zh": "罗恩昨天和前天分别给波琳打了几次电话？",
+      "a": "Four times yesterday and three times the day before yesterday.",
+      "aZh": "昨天 4 次，前天 3 次。",
+      "hint": "He telephoned me four times yesterday, and three times the day before yesterday."
+    },
+    {
+      "kind": "detail",
+      "q": "Who answered the telephone at the office?",
+      "zh": "办公室里是谁接的电话？",
+      "a": "Pauline's boss.",
+      "aZh": "波琳的老板。",
+      "hint": "My boss answered the telephone."
+    },
+    {
+      "kind": "detail",
+      "q": "What did the boss say to Ron?",
+      "zh": "老板对罗恩说了什么？",
+      "a": "He said, \"Pauline is typing letters. She can't speak to you now!\"",
+      "aZh": "他说：「波琳正在打信，她现在不能同你讲话！」",
+      "hint": "What did your boss say to him?"
+    },
+    {
+      "kind": "think",
+      "q": "Why does Pauline pretend to be her own mother on the phone?",
+      "zh": "波琳为什么在电话里假扮自己的母亲？",
+      "a": "She is fed up with Ron's calls and wants to frighten him off by sounding like a strict parent telling him to stop calling her daughter.",
+      "aZh": "她受够了罗恩的骚扰电话，想用「母亲」的口吻吓退他，让他别再打给她女儿。",
+      "hint": "想一想「不要再给我女儿打电话」这句话的用意。"
+    },
+    {
+      "kind": "drill",
+      "q": "What did ___ do ___? — ___ [past verb phrase].",
+      "zh": "……在……做了什么？——……（过去式动作）。（用一般过去时操练 What did … do? 问答）",
+      "a": "What did they do yesterday? They cleaned their shoes yesterday.",
+      "aZh": "他们昨天做了什么？他们昨天擦了鞋。",
+      "hint": "疑问句用 did + 动词原形；回答用过去式。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "awful", "phonetic": "/ˈɔːfəl/", "meanings": [{ "pos": "adj.", "meaning": "糟糕的，令人讨厌的", "usage": "He's awful! 他讨厌透了！" }], "examples": [{ "en": "He's awful!", "zh": "他讨厌透了！" }] },
+    { "word": "telephone", "phonetic": "/ˈtelɪfəʊn/", "meanings": [{ "pos": "v. & n.", "meaning": "打电话；电话", "usage": "He telephoned me four times. / answer the telephone 接电话" }], "examples": [{ "en": "He telephoned me four times yesterday.", "zh": "他昨天给我打了 4 次电话。" }] },
+    { "word": "time", "phonetic": "/taɪm/", "meanings": [{ "pos": "n.", "meaning": "次（数）", "usage": "four times 四次；表次数时可数" }], "examples": [{ "en": "He telephoned me four times yesterday.", "zh": "他昨天给我打了 4 次电话。" }] },
+    { "word": "answer", "phonetic": "/ˈɑːnsə/", "meanings": [{ "pos": "v.", "meaning": "接（电话）；回答", "usage": "answer the telephone / answer the phone 接电话" }], "examples": [{ "en": "My boss answered the telephone.", "zh": "我的老板接了电话。" }] },
+    { "word": "last", "phonetic": "/lɑːst/", "meanings": [{ "pos": "adj.", "meaning": "最后的；前一次的", "usage": "last night 昨夜；last year 去年" }], "examples": [{ "en": "Did he telephone again last night?", "zh": "他昨夜又打电话了吗？" }] },
+    { "word": "phone", "phonetic": "/fəʊn/", "meanings": [{ "pos": "n.", "meaning": "电话（= telephone）", "usage": "answer the phone 接电话" }], "examples": [{ "en": "But I didn't answer the phone!", "zh": "但我没接电话！" }] },
+    { "word": "again", "phonetic": "/əˈɡen/", "meanings": [{ "pos": "adv.", "meaning": "又，再", "usage": "telephone again 又打电话" }], "examples": [{ "en": "He telephoned again.", "zh": "他又打来电话。" }] },
+    { "word": "say", "phonetic": "/seɪ/", "meanings": [{ "pos": "v.", "meaning": "说", "usage": "过去式 said /sed/；What did you say?" }], "examples": [{ "en": "I said, \"This is Pauline's mother.\"", "zh": "我说：「我是波琳的母亲。」" }] },
+    { "word": "boss", "phonetic": "/bɒs/", "meanings": [{ "pos": "n.", "meaning": "老板，上司", "usage": "My boss answered the telephone." }], "examples": [{ "en": "My boss answered the telephone.", "zh": "我的老板接了电话。" }] },
+    { "word": "daughter", "phonetic": "/ˈdɔːtə/", "meanings": [{ "pos": "n.", "meaning": "女儿", "usage": "Pauline's daughter 波琳的女儿" }], "examples": [{ "en": "Please don't telephone my daughter again!", "zh": "请不要再给我女儿打电话了！" }] }
+  ],
+  "text": [
+    {
+      "lesson": 71,
+      "title": "He's awful",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "JANE", "en": "What's Ron Marston like, Pauline?", "zh": "罗恩·马斯顿是怎样一个人，波琳？", "note": "What's … like? 询问品行/外貌。" },
+        { "speaker": "PAULINE", "en": "He's awful! He telephoned me four times yesterday, and three times the day before yesterday.", "zh": "他讨厌透了！他昨天给我打了 4 次电话，前天打了 3 次。", "note": "telephoned 规则动词过去式；the day before yesterday 前天。" },
+        { "speaker": "PAULINE", "en": "He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone.", "zh": "他昨天上午和下午把电话打到了我的办公室。是我的老板接的。", "note": "answer the telephone 接电话。" },
+        { "speaker": "JANE", "en": "What did your boss say to him?", "zh": "你老板是怎么对他说的？" },
+        { "speaker": "PAULINE", "en": "He said, \"Pauline is typing letters. She can't speak to you now!\"", "zh": "他说：「波琳正在打信，她现在不能同你讲话！」" },
+        { "speaker": "PAULINE", "en": "Then I arrived home at six o'clock yesterday evening. He telephoned again. But I didn't answer the phone!", "zh": "后来，我昨晚 6 点钟回到家里。他又打来电话，但我没接！", "note": "arrived 规则动词过去式；didn't answer 过去否定。" },
+        { "speaker": "JANE", "en": "Did he telephone again last night?", "zh": "他昨夜里又打电话了吗？" },
+        { "speaker": "PAULINE", "en": "Yes, he did. He telephoned at nine o'clock.", "zh": "是的，打了。他在 9 点钟又打电话。", "note": "Did 问 did 答：Yes, he did." },
+        { "speaker": "JANE", "en": "What did you say to him?", "zh": "你对他怎么说的？" },
+        { "speaker": "PAULINE", "en": "I said, \"This is Pauline's mother. Please don't telephone my daughter again!\"", "zh": "我说：「我是波琳的母亲。请不要再给我女儿打电话了！」" },
+        { "speaker": "JANE", "en": "Did he telephone again?", "zh": "他又打了没有？" },
+        { "speaker": "PAULINE", "en": "No, he didn't!", "zh": "没有！", "note": "简略否定：No, he didn't." }
+      ]
+    },
+    {
+      "lesson": 72,
+      "title": "What did they do?",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "What did ___ do ___? — ___ [past verb phrase].",
+        "zh": "……在……做了什么？——……（过去式动作）。（用一般过去时操练 What did … do? 问答）",
+        "slots": [
+          { "en": "they — yesterday — cleaned their shoes", "zh": "他们 — 昨天 — 擦了鞋" },
+          { "en": "he — last night — opened the box", "zh": "他 — 昨夜 — 打开了盒子" },
+          { "en": "they — this morning — sharpened their pencils", "zh": "他们 — 今天早上 — 削了铅笔" },
+          { "en": "she — this evening — turned on the television", "zh": "她 — 今天晚上 — 打开了电视" },
+          { "en": "she — last night — listened to the radio", "zh": "她 — 昨夜 — 听了收音机" },
+          { "en": "she — yesterday morning — boiled an egg", "zh": "她 — 昨天早上 — 煮了一个蛋" },
+          { "en": "they — yesterday afternoon — played a game", "zh": "他们 — 昨天下午 — 玩了个游戏" },
+          { "en": "he — in the morning the day before yesterday — stayed in bed", "zh": "他 — 前天早上 — 呆在床上" },
+          { "en": "she — yesterday evening — telephoned her husband", "zh": "她 — 昨天晚上 — 给丈夫打了电话" },
+          { "en": "she — the night before last — called the doctor", "zh": "她 — 前天夜里 — 叫了医生" }
+        ],
+        "answers": ["What did they do yesterday? They cleaned their shoes yesterday.", "What did he do last night? He opened the box last night."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "把 He telephones me every day. 改成过去式（昨天）。", "a": "He telephoned me yesterday.", "note": "规则动词 telephone 的过去式加 -d 成 telephoned。" },
+    { "q": "写出 say 的过去式，并造句：老板说「她正在打字」。", "a": "said；My boss said, \"She is typing letters.\"", "note": "say 是不规则动词，过去式 said /sed/。" },
+    { "q": "汉译英：他前天给我打了 3 次电话。", "a": "He telephoned me three times the day before yesterday.", "note": "the day before yesterday 前天；times 次数可数。" },
+    { "q": "对 Did he telephone again? 作否定简略回答。", "a": "No, he didn't.", "note": "did 问 did 答。" },
+    { "q": "第 72 课：What did she do last night? 的回答（听收音机）。", "a": "She listened to the radio last night.", "note": "listen 过去式 listened。" },
+    { "q": "改错：He telephoned to me four time yesterday.", "a": "He telephoned me four times yesterday.", "note": "telephone 是及物动词，直接接宾语，不用 to；time 表次数用复数 times。" },
+    { "q": "汉译英：请别再给我女儿打电话了。", "a": "Please don't telephone my daughter again!", "note": "祈使句否定用 don't + 动词原形。" }
+  ],
+  "quiz": [
+    { "q": "What's Ron Marston like? 是在问：", "options": ["他的品行/为人怎样", "他长什么样（只指外貌）", "他喜欢什么", "他在哪儿"], "answer": 0, "note": "What's … like? 可问品行也可问外貌，本课偏品行。" },
+    { "q": "He telephoned me four ___ yesterday.", "options": ["times", "time", "timely", "timing"], "answer": 0, "note": "表「次数」time 可数，4 次用 times。" },
+    { "q": "Did he telephone again? — ___", "options": ["Yes, he did.", "Yes, he telephoned.", "Yes, he does.", "Yes, he was."], "answer": 0, "note": "did 问 did 答，简略回答用 did。" },
+    { "q": "say 的过去式是：", "options": ["said", "sayed", "says", "saying"], "answer": 0, "note": "say 是不规则动词，过去式 said /sed/。" },
+    { "q": "「前天」的英语是：", "options": ["the day before yesterday", "yesterday", "last day", "two days"], "answer": 0, "note": "the day before yesterday 前天。" },
+    { "q": "My boss ___ the telephone.", "options": ["answered", "answer", "answers", "answering"], "answer": 0, "note": "全课为过去时，answer 过去式 answered；answer the telephone 接电话。" }
+  ],
+  "grammar": [
+    {
+      "title": "一般过去时（2）——规则与不规则动词",
+      "structure": "规则动词：动词 + -ed / -d；不规则动词：特殊过去式（say→said, do→did, go→went）",
+      "definition": "叙述过去发生的动作或状态，动词用过去式。规则动词一般在词尾加 -ed（以 -e 结尾加 -d，如 telephoned, arrived）；不规则动词需单独记忆。",
+      "usage": "常与 yesterday, the day before yesterday, last night 等过去时间状语连用。",
+      "examples": [
+        { "en": "He telephoned me four times yesterday.", "zh": "他昨天给我打了 4 次电话。" },
+        { "en": "My boss answered the telephone.", "zh": "我的老板接了电话。" }
+      ]
+    },
+    {
+      "title": "Did …? 一般过去时疑问句与简略回答",
+      "structure": "Did + 主语 + 动词原形? — Yes, 主语 did. / No, 主语 didn't.",
+      "definition": "实义动词的过去时疑问句借助助动词 did，后面的动词还原成原形；简略回答用 did 回答。",
+      "usage": "询问过去是否发生某事。",
+      "examples": [
+        { "en": "Did he telephone again last night? — Yes, he did.", "zh": "他昨夜又打电话了吗？——打了。" },
+        { "en": "Did he telephone again? — No, he didn't.", "zh": "他又打了没有？——没有。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "What's … like?", "usage": "……是怎样一个人/物？（问品行或外貌）", "examples": [{ "en": "What's Ron Marston like, Pauline?", "zh": "罗恩·马斯顿是怎样一个人，波琳？" }] },
+    { "phrase": "answer the telephone / answer the phone", "usage": "接电话", "examples": [{ "en": "My boss answered the telephone.", "zh": "我的老板接了电话。" }] },
+    { "phrase": "the day before yesterday", "usage": "前天", "examples": [{ "en": "He telephoned me three times the day before yesterday.", "zh": "他前天给我打了 3 次电话。" }] },
+    { "phrase": "speak to sb.", "usage": "与某人说话", "examples": [{ "en": "She can't speak to you now!", "zh": "她现在不能同你讲话！" }] }
+  ]
+}
