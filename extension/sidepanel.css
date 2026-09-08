@@ -12,10 +12,12 @@ html, body { margin: 0; height: 100%; }
 body {
   font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   color: var(--ink); background: var(--bg); font-size: 14px; line-height: 1.6;
+  /* 整页 flex：头部固定，内容区自己滚动（body height:100% 时 sticky 会失效） */
+  display: flex; flex-direction: column; overflow: hidden;
 }
 
 /* ===== 头部 ===== */
-.sp-head { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); }
+.sp-head { flex: none; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); }
 .sp-title { font-weight: 700; padding: 10px 12px 4px; color: var(--teal-d); }
 .sp-books { display: flex; gap: 6px; padding: 0 10px 6px; flex-wrap: wrap; }
 .sp-book {
@@ -37,7 +39,7 @@ body {
 .sp-tab { flex: 1; border: 0; background: #fff; padding: 8px 4px; cursor: pointer; font-size: 13px; color: var(--mut); border-bottom: 2px solid transparent; }
 .sp-tab.on { color: var(--teal-d); border-bottom-color: var(--teal); font-weight: 600; }
 
-.sp-main { padding: 10px; }
+.sp-main { flex: 1; min-height: 0; overflow-y: auto; padding: 10px; }
 .sp-pane { display: none; }
 .sp-pane.on { display: block; }
 
