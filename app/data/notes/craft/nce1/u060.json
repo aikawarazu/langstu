@@ -1,0 +1,172 @@
+{
+  "title": "A true story / 过去完成时操练",
+  "subtitle": "一个真实的故事 / 过去完成时",
+  "lead": {
+    "question": "深夜家里进了贼，却只听见一声鸟叫——你猜最后是谁把小偷吓跑的？听故事之前，先想想：英文里要讲「先发生了 A、然后才发生 B」，动词该用什么形式？",
+    "warmup": "先别看课文。想象你朋友半夜在家看书，两个小偷爬进厨房，打开手电筒，忽然身后传来一句「什么事？什么事？」——小偷扔下手电筒夺路而逃。这节课讲一个真实的故事，重点是过去完成时 had + 过去分词：After they had entered the house（他们进屋之后）。先试着说「我到家时，火车已经开走了」，再听乔治和鹦鹉亨利的这段趣事。",
+    "goals": [
+      "理解并初步使用过去完成时 had + 过去分词，表示「较早的过去」",
+      "掌握 after 引导的时间状语从句中两个动作的先后表达",
+      "认识 thief/enter/torch/parrot 等故事常用词",
+      "会用 as quickly as they could、What's up? 等口语表达"
+    ],
+    "summary": "第 119 课是一段叙事：一年前乔治的朋友在床上看书时，两个小偷爬进他的厨房，进屋后打开手电筒，突然听见身后有人喊「What's up?」，吓得扔下手电筒逃走。乔治下楼开灯一看，原来是他的鹦鹉亨利。全课核心语法是过去完成时（After they had entered the house）。第 120 课用 after + had done、already、never ... before 三组句型反复操练过去完成时。",
+    "tips": "① 过去完成时构成：had + 过去分词，表示「过去的过去」，即比过去某时更早的动作；② already / just / never / for + 时间段 常与过去完成时连用，强调先后；③ after 从句里用过去完成时或一般过去时意思差别不大，强调「先完成」就用过去完成时；④ a friend of mine = one of my friends，但更亲切；⑤ What's up? 是「什么事/出什么事了」，鹦鹉学舌全靠这一句；⑥ turn on（打开）↔ turn off（关上）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Who called out to the thieves in the dark?",
+      "zh": "谁在暗处对窃贼喊了一声？",
+      "a": "George's parrot, Henry.",
+      "aZh": "是乔治的鹦鹉亨利。",
+      "hint": "听 George's parrot, Henry, was still there. 之后它叫的那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What was George doing when the thieves climbed into his kitchen?",
+      "zh": "小偷爬进厨房时，乔治正在做什么？",
+      "a": "He was reading in bed.",
+      "aZh": "他正在床上看书。",
+      "hint": "听 While my friend, George, was reading in bed ... 这句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did the thieves do when they heard the voice behind them?",
+      "zh": "听见身后有声音时，小偷做了什么？",
+      "a": "They dropped the torch and ran away as quickly as they could.",
+      "aZh": "他们扔下手电筒，飞快地逃走了。",
+      "hint": "注意 drop 和 run away 两个动作。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did George see when he turned on the light?",
+      "zh": "乔治开灯后看到了什么？",
+      "a": "He couldn't see anyone — the thieves had already gone, but his parrot Henry was still there.",
+      "aZh": "他一个人也没看见——小偷已经跑了，但他的鹦鹉亨利还在那儿。",
+      "hint": "听 The thieves had already gone. But George's parrot ... was still there."
+    },
+    {
+      "kind": "think",
+      "q": "Why does the story say 'After they had entered the house' instead of 'After they entered the house'?",
+      "zh": "为什么说 After they had entered the house 而不用一般过去时？",
+      "a": "Both are possible after 'after', but the past perfect (had entered) makes it clear that entering happened before going into the dining-room — it stresses the earlier of two past events.",
+      "aZh": "after 引导的从句两种时态都可以，但用过去完成时强调了「先进屋」发生在「进饭厅」之前，把两件事的先后次序点得更清楚。",
+      "hint": "过去完成时表示两个过去事件中较早发生的那一个。"
+    },
+    {
+      "kind": "drill",
+      "q": "After he had done ..., he did ... / It was too late. He had already ...",
+      "zh": "第 120 课操练：after + 过去完成时，以及 had already / had never ... before。",
+      "a": "He bought another car after he had sold his old one. / It was too late. He had already painted it.",
+      "aZh": "他卖了旧车以后又买了一辆。/ 太晚了，他已经把它漆好了。",
+      "hint": "从句用 had + 过去分词，主句用一般过去时。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "story", "phonetic": "/ˈstɔːri/", "meanings": [{ "pos": "n.", "meaning": "故事", "usage": "tell a story 讲故事；a true story 真实的故事" }], "examples": [{ "en": "I want to tell you a true story.", "zh": "我要告诉你一个真实的故事。" }] },
+    { "word": "happen", "phonetic": "/ˈhæpən/", "meanings": [{ "pos": "v.", "meaning": "发生；碰巧", "usage": "happen to sb. 发生在某人身上；happen to do 碰巧" }], "examples": [{ "en": "It happened to a friend of mine a year ago.", "zh": "这是一年前发生在我的一个朋友身上的事。" }] },
+    { "word": "thief", "phonetic": "/θiːf/", "meanings": [{ "pos": "n.", "meaning": "贼，小偷", "usage": "复数 thieves /θiːvz/" }], "examples": [{ "en": "Two thieves climbed into his kitchen.", "zh": "两个小偷爬进了他的厨房。" }] },
+    { "word": "enter", "phonetic": "/ˈentə/", "meanings": [{ "pos": "v.", "meaning": "进入；参加", "usage": "enter the house 进入房子（及物，不加 into）" }], "examples": [{ "en": "After they had entered the house, they went into the dining-room.", "zh": "他们进到屋里后，走进了饭厅。" }] },
+    { "word": "dark", "phonetic": "/dɑːk/", "meanings": [{ "pos": "adj.", "meaning": "黑暗的", "usage": "in the dark 在暗处" }], "examples": [{ "en": "It was very dark, so they turned on a torch.", "zh": "饭厅很暗，于是他们打开了手电筒。" }] },
+    { "word": "torch", "phonetic": "/tɔːtʃ/", "meanings": [{ "pos": "n.", "meaning": "手电筒；火炬", "usage": "英式英语，美式常说 flashlight" }], "examples": [{ "en": "The thieves dropped the torch and ran away.", "zh": "小偷扔下了手电筒逃走了。" }] },
+    { "word": "voice", "phonetic": "/vɔɪs/", "meanings": [{ "pos": "n.", "meaning": "（说话的）声音", "usage": "hear a voice 听见一个声音" }], "examples": [{ "en": "Suddenly, they heard a voice behind them.", "zh": "突然他们听到身后有声音。" }] },
+    { "word": "parrot", "phonetic": "/ˈpærət/", "meanings": [{ "pos": "n.", "meaning": "鹦鹉", "usage": "鹦鹉会学人说话（本课笑点所在）" }], "examples": [{ "en": "But George's parrot, Henry, was still there.", "zh": "但乔治的鹦鹉亨利仍在那里。" }] },
+    { "word": "noise", "phonetic": "/nɔɪz/", "meanings": [{ "pos": "n.", "meaning": "响声，噪音", "usage": "hear a noise 听到响声" }], "examples": [{ "en": "George heard the noise and came downstairs quickly.", "zh": "乔治听到了响声，迅速下了楼。" }] },
+    { "word": "smile", "phonetic": "/smaɪl/", "meanings": [{ "pos": "v.", "meaning": "微笑", "usage": "said and smiled 一边说一边笑" }], "examples": [{ "en": "'Nothing, Henry,' George said and smiled.", "zh": "「没事，亨利。」乔治笑着说。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 119,
+      "title": "A true story",
+      "kind": "课文 · 叙事",
+      "lines": [
+        { "en": "Do you like stories? I want to tell you a true story. It happened to a friend of mine a year ago.", "zh": "你喜欢听故事吗？我要告诉你一个真实的故事。这是一年前发生在我的一个朋友身上的故事。" },
+        { "en": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.", "zh": "当我的朋友乔治在床上看书时，两个小偷爬进了他的厨房。", "note": "while + 过去进行时，交代背景" },
+        { "en": "After they had entered the house, they went into the dining-room.", "zh": "他们进到屋里后，走进了饭厅。", "note": "本课核心句：after + 过去完成时" },
+        { "en": "It was very dark, so they turned on a torch.", "zh": "饭厅很暗，于是他们打开了手电筒。" },
+        { "en": "Suddenly, they heard a voice behind them. 'What's up? What's up?' someone called.", "zh": "突然他们听到身后有声音。「什么事？什么事？」有人叫着。" },
+        { "en": "The thieves dropped the torch and ran away as quickly as they could.", "zh": "小偷扔下了手电筒，飞快地逃走了。", "note": "as quickly as they could = 尽可能快" },
+        { "en": "George heard the noise and came downstairs quickly.", "zh": "乔治听到了响声，迅速地下了楼。" },
+        { "en": "He turned on the light, but he couldn't see anyone. The thieves had already gone.", "zh": "他开了灯，但不见一个人。小偷已经逃走了。", "note": "had already gone：过去完成时 + already" },
+        { "en": "But George's parrot, Henry, was still there. 'What's up, George?' he called.", "zh": "但乔治的鹦鹉亨利仍在那里。「什么事，乔治？」它叫着。" },
+        { "en": "'Nothing, Henry,' George said and smiled. 'Go back to sleep.'", "zh": "「没事，亨利。」乔治笑着说，「接着睡觉吧。」" }
+      ]
+    },
+    {
+      "lesson": 120,
+      "title": "过去完成时操练",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "He ___ after he had ___. / It was too late. He had already ___. / Yes, I have just ___. I had never ___ before.",
+        "zh": "他……之后才……。/ 太晚了，他已经……了。/ 是的，我刚……，以前从未……过。（过去完成时三组句型）",
+        "slots": [
+          { "en": "drop the vase — take it into the living room", "zh": "摔碎花瓶 — 把它拿到客厅之后" },
+          { "en": "buy another car — sell his old one", "zh": "再买一辆车 — 卖掉旧车之后" },
+          { "en": "sweep the floor — dust everything", "zh": "扫地 — 掸完灰尘之后" },
+          { "en": "drink the milk — boil it", "zh": "喝牛奶 — 煮开之后" },
+          { "en": "go to bed — do his homework", "zh": "上床睡觉 — 做完作业之后" },
+          { "en": "paint it — (too late)", "zh": "漆它 — 已经漆过了（太晚了）" },
+          { "en": "see it — (just / never before)", "zh": "看它 — 刚看过 / 以前从未看过" }
+        ],
+        "answers": ["He dropped the vase after he had taken it into the living room.", "He bought another car after he had sold his old one.", "It was too late. He had already painted it.", "Yes, I have just seen it. I had never seen it before."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：他们进到屋里后，走进了饭厅。", "a": "After they had entered the house, they went into the dining-room.", "note": "after + 过去完成时，强调先进屋。" },
+    { "q": "汉译英：太晚了，他已经把它漆好了。", "a": "It was too late. He had already painted it.", "note": "过去完成时 + already 表示「已经」。" },
+    { "q": "汉译英：是的，我刚看过它，以前从未看过。", "a": "Yes, I have just seen it. I had never seen it before.", "note": "现在完成时 just 对比过去完成时 never ... before。" },
+    { "q": "汉译英：小偷飞快地逃走了。", "a": "The thieves ran away as quickly as they could.", "note": "as ... as one can/could 表示「尽可能地」。" },
+    { "q": "汉译英：打开手电筒。", "a": "Turn on the torch.", "note": "turn on 打开（电器、水源），反义 turn off。" },
+    { "q": "写出 thief 的复数形式。", "a": "thieves", "note": "f/fe 结尾变 v 加 es：thief → thieves。" },
+    { "q": "汉译英：接着睡觉吧。", "a": "Go back to sleep.", "note": "go back to + 名词，回到……状态。" }
+  ],
+  "quiz": [
+    { "q": "过去完成时的构成是：", "options": ["had + 过去分词", "have + 过去分词", "was + 过去分词", "did + 过去分词"], "answer": 0, "note": "过去完成时 = had + 过去分词，表示较早的过去。" },
+    { "q": "「两个小偷」正确说法是：", "options": ["two thieves", "two thiefs", "two thiefes", "two thief"], "answer": 0, "note": "thief 以 f 结尾，复数变 thieves。" },
+    { "q": "The thieves had already gone. 中 had already gone 表示：", "options": ["在小偷逃走之前乔治就到了", "在乔治开灯之前小偷已经逃走了", "小偷正在逃走", "小偷将要逃走"], "answer": 1, "note": "过去完成时表示比「开灯」这个过去时刻更早的动作。" },
+    { "q": "「什么事？出什么事了？」口语中常说：", "options": ["What's up?", "What are you up?", "What up?", "How's up?"], "answer": 0, "note": "What's up? = What is up? 固定口语。" },
+    { "q": "turn on 的反义短语是：", "options": ["turn off", "turn up", "turn into", "turn out"], "answer": 0, "note": "turn on 打开 ↔ turn off 关上。" },
+    { "q": "He went to bed after he ___ his homework.", "options": ["had done", "has done", "does", "is doing"], "answer": 0, "note": "after 从句中「先做作业」用过去完成时 had done，主句用一般过去时。" }
+  ],
+  "grammar": [
+    {
+      "title": "过去完成时 (The Past Perfect)",
+      "structure": "had + 过去分词",
+      "definition": "表示两个过去事件中较早发生的一个，即「过去的过去」。already（已经）、just（刚刚）、never（从未）、for + 时间段、ever（曾经）等副词也常与过去完成时连用，强调先后次序。",
+      "usage": "after / before / when 引导的时间状语从句中，若要强调从句动作在主句动作之前完成，从句用过去完成时；意思清楚时也可用一般过去时（After I finished, I went home.）。",
+      "examples": [
+        { "en": "After they had entered the house, they went into the dining-room.", "zh": "他们进到屋里后，走进了饭厅。" },
+        { "en": "The thieves had already gone when George turned on the light.", "zh": "乔治开灯时，小偷已经逃走了。" }
+      ]
+    },
+    {
+      "title": "as ... as one can / could",
+      "structure": "as + 副词/形容词原级 + as + 主语 + can/could",
+      "definition": "表示「尽可能地……」。叙述过去的事时用 could。",
+      "usage": "ran away as quickly as they could 飞快地逃走",
+      "examples": [
+        { "en": "The thieves ran away as quickly as they could.", "zh": "小偷们飞快地逃走了。" },
+        { "en": "Please come as soon as you can.", "zh": "请尽快来。" }
+      ]
+    },
+    {
+      "title": "happen to 与 a friend of mine",
+      "structure": "sth. happen(s) to sb. / a friend of mine",
+      "definition": "happen to sb. 表示「发生在某人身上」；a friend of mine 是双重所有格，相当于 one of my friends，语气更亲切。",
+      "usage": "It happened to a friend of mine a year ago.",
+      "examples": [
+        { "en": "What happened to you yesterday?", "zh": "你昨天出什么事了？" },
+        { "en": "A friend of mine lives in Australia.", "zh": "我的一个朋友住在澳大利亚。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "happen to", "usage": "发生在……身上；碰巧", "examples": [{ "en": "It happened to a friend of mine a year ago.", "zh": "这是一年前发生在我一个朋友身上的事。" }] },
+    { "phrase": "a friend of mine", "usage": "我的一个朋友（双重所有格，比 one of my friends 更亲切）", "examples": [{ "en": "A friend of mine told me the story.", "zh": "我的一个朋友给我讲了这个故事。" }] },
+    { "phrase": "turn on / turn off", "usage": "打开／关上（电器、水、煤气等）", "examples": [{ "en": "It was very dark, so they turned on a torch.", "zh": "很暗，于是他们打开了手电筒。" }] },
+    { "phrase": "What's up?", "usage": "什么事？出什么事了？（口语）", "examples": [{ "en": "'What's up? What's up?' someone called.", "zh": "「什么事？什么事？」有人叫着。" }] },
+    { "phrase": "go back to sleep", "usage": "继续睡觉，接着睡", "examples": [{ "en": "'Go back to sleep,' George said.", "zh": "「接着睡觉吧。」乔治说。" }] }
+  ]
+}

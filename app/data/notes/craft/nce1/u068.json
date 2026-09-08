@@ -1,0 +1,172 @@
+{
+  "title": "The latest report / She said she would have to ask her future husband ...",
+  "subtitle": "最新消息 / 她说她得问问她的未婚夫……",
+  "lead": {
+    "question": "「他不会让我再拍电影了」转述给别人听，will 变成什么？let 后面的动词要不要加 to？",
+    "warmup": "先别看课文。上一课女明星说要退休，这一课她改口了：I may.（可能退）I can't make up my mind.（拿不定主意）——因为得先问未婚夫！他还 Won't let me make another film（不让我再拍片）。注意两点：① let 是使役动词，后面接「宾语 + 动词原形」，不加 to；② 转述时 will→would，can→could，may→might：she would have to ask her future husband, she might retire。先猜猜 Liz 读完报道为什么说「真是轰动的消息」，再听课文。",
+    "goals": [
+      "掌握 let + 宾语 + 动词原形（He won't let me make another film.）",
+      "掌握间接引语中 would / could / might 的转化",
+      "掌握 introduce A to B、get married、the latest 等短语",
+      "会用反义疑问句 That's sensational news, isn't it?"
+    ],
+    "summary": "第 135 课记者追问 Marsh 小姐是否真要退休：她说可能退、拿不定主意，得问未婚夫 Carlos——他不让她再拍片，他们下星期结婚。Kate 又读到一篇「最新消息」报道，报道里她的话变成了间接引语：she might retire, she couldn't make up her mind, she would have to ask her future husband... Liz 惊呼真是轰动的消息——他将是她的第6任丈夫！第 136 课操练 would / could / might 在间接引语中的用法。",
+    "tips": "① let sb do sth 让某人做某事，动词用原形不加 to（比较：allow sb to do）；② I shall have to ask... 中 have to 表「不得不」，转述后变 would have to；③ introduce A to B 把 A 介绍给 B；get married 结婚（be going to get married 快结婚了）；④ the latest 最新消息（latest 是 late 的最高级）；⑤ 反义疑问句 That's sensational news, isn't it? — It certainly is.；⑥ might retire / couldn't make up her mind 都是转述后的过去形式。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Is Karen Marsh going to retire, do you think?",
+      "zh": "你认为卡伦·马什会退休吗？",
+      "a": "She may — she can't make up her mind and has to ask her future husband. As her future husband won't let her make another film, perhaps she will retire.",
+      "aZh": "可能会——她拿不定主意，得问未婚夫。既然她未婚夫不让她再拍电影，她也许真会退休。",
+      "hint": "听 I may. I can't make up my mind. 之后的解释。"
+    },
+    {
+      "kind": "detail",
+      "q": "Who is Carlos?",
+      "zh": "卡洛斯是谁？",
+      "a": "He is Miss Marsh's future husband. They are going to get married next week.",
+      "aZh": "他是马什小姐的未婚夫。他们下星期就要结婚了。",
+      "hint": "Let me introduce him to you. 之后的介绍。"
+    },
+    {
+      "kind": "detail",
+      "q": "Why can't Miss Marsh make another film?",
+      "zh": "马什小姐为什么不能再拍电影了？",
+      "a": "Because her future husband won't let her make another film.",
+      "aZh": "因为她的未婚夫不会再让她拍电影了。",
+      "hint": "I shall have to ask my future husband. 后面那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Where did Miss Marsh tell reporters the news?",
+      "zh": "马什小姐是在哪里告诉记者这个消息的？",
+      "a": "At her London Hotel.",
+      "aZh": "在伦敦的旅馆里。",
+      "hint": "报纸报道的第一句。"
+    },
+    {
+      "kind": "think",
+      "q": "Why does the report say 'she would have to ask her future husband' instead of 'she will have to ask ...'?",
+      "zh": "报道里为什么说 she would have to ask（过去将来时），而不是 she will have to ask？",
+      "a": "Because the reporter is reporting what she said in the past. With a past reporting verb (said/told), 'will' shifts back to 'would' — this is the future-in-the-past.",
+      "aZh": "因为记者在转述她过去说的话。引述动词是过去时，will 要后移为 would，这就是「过去将来时」。",
+      "hint": "想想引述动词 said/told 是什么时态。"
+    },
+    {
+      "kind": "drill",
+      "q": "He said Penny would open the window. / He told me he could understand English. / They said they might arrive tomorrow.",
+      "zh": "第 136 课操练：间接引语中 will→would，can→could，may→might。",
+      "a": "She said she would change some money. / She told me she could recognize him.",
+      "aZh": "她说她会换些零钱。/ 她告诉我她能认出他。",
+      "hint": "will→would，can→could，may→might。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "future", "phonetic": "/ˈfjuːtʃə(r)/", "meanings": [{ "pos": "n./adj.", "meaning": "未来；将来的", "usage": "future husband 未婚夫（将来的丈夫）；in the future 将来" }], "examples": [{ "en": "I shall have to ask my future husband.", "zh": "我得问一下我的未婚夫。" }] },
+    { "word": "hotel", "phonetic": "/həʊˈtel/", "meanings": [{ "pos": "n.", "meaning": "旅馆，饭店", "usage": "at her London Hotel 在她下榻的伦敦旅馆" }], "examples": [{ "en": "At her London Hotel today, Miss Marsh told reporters she might retire.", "zh": "今天在伦敦旅馆，马什小姐告诉记者她可能要退休。" }] },
+    { "word": "latest", "phonetic": "/ˈleɪtɪst/", "meanings": [{ "pos": "adj.", "meaning": "最新的", "usage": "the latest 最新消息；the latest report 最新报道" }], "examples": [{ "en": "Here's another report about Karen Marsh. Karen Marsh: The Latest.", "zh": "这又有一篇关于卡伦·马什的报道：卡伦·马什——最新消息。" }] },
+    { "word": "introduce", "phonetic": "/ˌɪntrəˈdjuːs/", "meanings": [{ "pos": "v.", "meaning": "介绍", "usage": "introduce A to B 把A介绍给B" }], "examples": [{ "en": "Let me introduce him to you.", "zh": "让我把他给你们介绍一下。" }] },
+    { "word": "husband", "phonetic": "/ˈhʌzbənd/", "meanings": [{ "pos": "n.", "meaning": "丈夫", "usage": "future husband 未婚夫；ex-husband 前夫" }], "examples": [{ "en": "He'll be her sixth husband!", "zh": "他将是她的第6个丈夫！" }] },
+    { "word": "really", "phonetic": "/ˈrɪəli/", "meanings": [{ "pos": "adv.", "meaning": "真正地，确实地", "usage": "加强语气：Are you really going to retire?" }], "examples": [{ "en": "Are you really going to retire, Miss Marsh?", "zh": "马什小姐，您真的准备退休吗？" }] },
+    { "word": "certainly", "phonetic": "/ˈsɜːtnli/", "meanings": [{ "pos": "adv.", "meaning": "当然，肯定", "usage": "It certainly is. 当然是的。" }], "examples": [{ "en": "It certainly is. He'll be her sixth husband!", "zh": "当然啦。他将是她的第6个丈夫！" }] },
+    { "word": "marry", "phonetic": "/ˈmæri/", "meanings": [{ "pos": "v.", "meaning": "结婚，娶，嫁", "usage": "get married 结婚；be married to sb 与某人结婚" }], "examples": [{ "en": "We are going to get married next week.", "zh": "下星期我们就要结婚了。" }] },
+    { "word": "mind", "phonetic": "/maɪnd/", "meanings": [{ "pos": "n.", "meaning": "主意，心思", "usage": "can't make up my mind 拿不定主意" }], "examples": [{ "en": "I can't make up my mind.", "zh": "我还拿不定主意。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 135,
+      "title": "The latest report",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "REPORTER", "en": "Are you really going to retire, Miss Marsh?", "zh": "马什小姐，您真的准备退休吗？" },
+        { "speaker": "MISS MARSH", "en": "I may. I can't make up my mind. I shall have to ask my future husband. He won't let me make another film.", "zh": "有可能退。我还拿不定主意。我得问一下我的未婚夫。他不会再让我拍电影了。", "note": "let + 宾语 + 动词原形，不加 to" },
+        { "speaker": "REPORTER", "en": "Your future husband, Miss Marsh?", "zh": "您的未婚夫，马什小姐？" },
+        { "speaker": "MISS MARSH", "en": "Yes. Let me introduce him to you. His name is Carlos. We are going to get married next week.", "zh": "是的。让我把他给你们介绍一下。他叫卡洛斯。下星期我们就要结婚了。", "note": "introduce A to B；get married 结婚" },
+        { "speaker": "KATE", "en": "Look, Liz! Here's another report about Karen Marsh. Listen: \"Karen Marsh: The Latest. At her London Hotel today, Miss Marsh told reporters she might retire. She said she couldn't make up her mind. She said she would have to ask her future husband. She said her future husband would not let her make another film. Then she introduced us to Carlos and told us they would get married next week.\"", "zh": "看啊，莉兹！这又有一篇关于卡伦·马什的报道。你听：“卡伦·马什：最新消息。今天在伦敦旅馆，马什小姐告诉记者她可能要退休。她说她还拿不定主意。她说她得问问她的未婚夫。她说她的未婚夫不会再让她拍电影。然后她把我们介绍给卡洛斯，并告诉我们说他们下星期结婚。”", "note": "间接引语：might / couldn't / would have to / would not let" },
+        { "speaker": "LIZ", "en": "That's sensational news, isn't it, Kate?", "zh": "凯特，这真是条轰动的消息，是不是？", "note": "反义疑问句" },
+        { "speaker": "KATE", "en": "It certainly is. He'll be her sixth husband!", "zh": "当然啦。他将是她的第6个丈夫！" }
+      ]
+    },
+    {
+      "lesson": 136,
+      "title": "He said he would ... / He told me he could ... / He said he might ...",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "'I will/can/may ...' → He/She said (that) he/she would/could/might ... / He/She told me (that) he/she would/could/might ...",
+        "zh": "把直接引语变成间接引语：will→would，can→could，may→might；tell 后跟人。",
+        "slots": [
+          { "en": "'Penny will open the window.' — he said", "zh": "「彭妮会开窗户。」— 他说" },
+          { "en": "'I will change some money.' — she said", "zh": "「我要换些零钱。」— 她说" },
+          { "en": "'It will rain tomorrow.' — he said", "zh": "「明天会下雨。」— 他说" },
+          { "en": "'They will arrive later.' — he said", "zh": "「他们晚点到。」— 他说" },
+          { "en": "'He will repair it.' — she said", "zh": "「他会修好它。」— 她说" },
+          { "en": "'I will write to him.' — he said", "zh": "「我会给他写信。」— 他说" },
+          { "en": "'I can understand English.' — he told me", "zh": "「我懂英语。」— 他告诉我" },
+          { "en": "'I can recognize him.' — she told me", "zh": "「我能认出他。」— 她告诉我" },
+          { "en": "'I can't afford it.' — they told me", "zh": "「我们买不起。」— 他们告诉我" },
+          { "en": "'I may retire.' — he told me", "zh": "「我可能退休。」— 他告诉我" }
+        ],
+        "answers": ["He said Penny would open the window.", "He told me he could understand English.", "They said they might arrive tomorrow."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "用 let 造句：她让她的儿子在花园里玩。", "a": "She lets her son play in the garden.", "note": "let + 宾语 + 动词原形，play 不加 to。" },
+    { "q": "汉译英：他不会再让我拍电影了。", "a": "He won't let me make another film.", "note": "won't let sb do sth；make 后不加 to。" },
+    { "q": "汉译英：让我把他介绍给你们。", "a": "Let me introduce him to you.", "note": "introduce A to B 把A介绍给B。" },
+    { "q": "把 'I can't afford a new car,' she said. 变成间接引语。", "a": "She told me she couldn't afford a new car.", "note": "can't 后移为 couldn't；tell 后跟人。" },
+    { "q": "汉译英：下星期我们就要结婚了。", "a": "We are going to get married next week.", "note": "get married 结婚。" },
+    { "q": "汉译英：最新消息", "a": "The latest.", "note": "the latest = the latest news，latest 是 late 的最高级。" },
+    { "q": "改错：He won't let me to make another film.", "a": "He won't let me make another film.", "note": "let 后的动词不定式不带 to。" }
+  ],
+  "quiz": [
+    { "q": "'I may go to the cinema this evening,' he said. 变间接引语是：", "options": ["He said he might go to the cinema that evening.", "He said he may go to the cinema this evening.", "He said he can go to the cinema this evening.", "He said he might went to the cinema."], "answer": 0, "note": "may 后移为 might。" },
+    { "q": "let 后面的动词形式是：", "options": ["动词原形（不带 to）", "带 to 的不定式", "动名词", "过去式"], "answer": 0, "note": "let sb do sth；比较 allow sb to do sth。" },
+    { "q": "She said she would have to ask her future husband. 中 would have to 是：", "options": ["过去将来时", "过去完成时", "一般将来时", "现在完成时"], "answer": 0, "note": "will/shall have to 转述后变为 would have to。" },
+    { "q": "introduce A to B 的意思是：", "options": ["把A介绍给B", "把B介绍给A", "替A感谢B", "把A借给B"], "answer": 0, "note": "introduce him to you 把他介绍给你们。" },
+    { "q": "get married 的意思是：", "options": ["结婚", "离婚", "订婚", "搬家"], "answer": 0, "note": "get married 结婚；be married to sb 与某人结了婚。" },
+    { "q": "That's sensational news, isn't it? 的肯定回答是：", "options": ["It certainly is.", "Yes, that's.", "Yes, it isn't.", "Certainly it does."], "answer": 0, "note": "反义疑问句答语要按事实：确实是 → It certainly is." }
+  ],
+  "grammar": [
+    {
+      "title": "let 的用法",
+      "structure": "let + 宾语（名词/代词）+ 动词原形",
+      "definition": "let 与一般动词不同，后面接「宾语 + 不带 to 的动词不定式」，意思是「允许」「让」。",
+      "usage": "He won't let me make another film.（won't 后 let 用原形，make 也不带 to）",
+      "examples": [
+        { "en": "She lets her son play in the garden.", "zh": "她让她的儿子在花园里玩。" },
+        { "en": "Her parents wouldn't let her go out with that boy.", "zh": "她的父母不允许她与那个男孩子一起出去。" }
+      ]
+    },
+    {
+      "title": "间接引语中情态助动词由现在时变为过去时",
+      "structure": "can → could；will → would；may → might；shall → would",
+      "definition": "转述时情态助动词由现在时变成过去时（或条件时态）；本身已是过去式的情态助动词（could, would, might）在转述时不变。have to 变 would have to（过去将来）。",
+      "usage": "She said she couldn't make up her mind. / She said she would have to ask her future husband.",
+      "examples": [
+        { "en": "'It will rain tomorrow.' → She told me it would rain tomorrow.", "zh": "她告诉我说明天会下雨。" },
+        { "en": "'I may not retire.' → He said he might not retire.", "zh": "他说他可能不退休。" }
+      ]
+    },
+    {
+      "title": "反义疑问句（附加疑问句）",
+      "structure": "陈述句 + 简短问句（前肯后否，前否后肯）",
+      "definition": "对所说的话征求对方同意或确认；陈述部分肯定，附加部分用否定。回答按事实回答：确实是用 It certainly is.",
+      "usage": "That's sensational news, isn't it, Kate?",
+      "examples": [
+        { "en": "It's cheaper, isn't it?", "zh": "这更便宜些，是吗？" },
+        { "en": "That's sensational news, isn't it?", "zh": "这真是条轰动的消息，是不是？" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "get married", "usage": "结婚", "examples": [{ "en": "We are going to get married next week.", "zh": "下星期我们就要结婚了。" }] },
+    { "phrase": "future husband", "usage": "未婚夫（将来的丈夫）", "examples": [{ "en": "I shall have to ask my future husband.", "zh": "我得问一下我的未婚夫。" }] },
+    { "phrase": "the latest", "usage": "最新消息", "examples": [{ "en": "Karen Marsh: The Latest.", "zh": "卡伦·马什：最新消息。" }] },
+    { "phrase": "introduce A to B", "usage": "把A介绍给B", "examples": [{ "en": "Then she introduced us to Carlos.", "zh": "然后她把我们介绍给卡洛斯。" }] },
+    { "phrase": "let sb do sth", "usage": "让/允许某人做某事（动词原形）", "examples": [{ "en": "He won't let me make another film.", "zh": "他不会再让我拍电影了。" }] },
+    { "phrase": "make up one's mind", "usage": "拿定主意，下定决心", "examples": [{ "en": "I can't make up my mind.", "zh": "我还拿不定主意。" }] }
+  ]
+}

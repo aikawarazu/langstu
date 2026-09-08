@@ -1,0 +1,184 @@
+{
+  "title": "Small change / So have I. Neither have I.",
+  "subtitle": "零钱 / 我也一样，我也不",
+  "lead": {
+    "question": "坐公交车买票，掏出一张大钞，售票员说「找不开」——「请买票」「找不开钞票」「您有零钱吗」「我也没有」用英语怎么一连串说下来？",
+    "warmup": "先别看课文。想象老式公交车：售票员喊 Fares, please!（请买票），一位先生只有一张 10 镑钞票，售票员找不开，只好问遍全车乘客。乘客们一个接一个说「我没有」「我也没带」「我也换不开」——这正好操练英语的「附和」句型：前一句肯定用 So + 助动词 + 主语（So have I. 我也有），前一句否定用 Neither + 助动词 + 主语（Neither can I. 我也不能）。先想想中文的「我也是/我也不是」对应英文哪种，再听这个车上小剧场的结尾反转。",
+    "goals": [
+      "能用 Fares, please! / Can you change ...? 处理买票场景",
+      "掌握 no + 名词（I've got no small change）与 none 的用法",
+      "掌握 So/Neither + 助动词 + 主语的倒装简短回答",
+      "区分 too（肯定句尾「也」）与 either（否定句尾「也」）"
+    ],
+    "summary": "第 113 课发生在公交车上：一位先生想到特拉法加广场，可售票员找不开他的 10 镑钞票，问他有没有零钱——没有。问遍四位乘客，全都没有。售票员无奈请他下车：「我们的乘客个个都是百万富翁！」结尾两个流浪汉开口：除了我们俩——我们有零钱！我也有！第 114 课操练 no/none 与 So/Neither 倒装附和句。",
+    "tips": "① change 作动词「兑换」，作名词「零钱」；small change 零钱；② no + 名词表示「全然没有」，比 not ... any 更强调；none 通常单独使用，也可 none of + 名词；③ So/Neither 开头的简短回答必须倒装：So/Neither + 助动词 + 主语，前句肯定用 So，否定用 Neither/Nor，时态保持一致；④ 肯定句尾的「也」用 too，否定句尾用 either；⑤ I've got no small change 比例：I haven't got any small change 更强调一分钱都没有。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Who has got some change?",
+      "zh": "谁有零钱？",
+      "a": "The two tramps. They are the only ones on the bus who have small change.",
+      "aZh": "那两个流浪汉。他们是车上唯一有零钱的人。",
+      "hint": "听课文最后两句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Why can't the conductor give the man a ticket at first?",
+      "zh": "售票员起初为什么没法给那位先生卖票？",
+      "a": "Because he can't change the man's ten-pound note, and the man has no small change.",
+      "aZh": "因为他找不开那张 10 英镑的钞票，而那位先生又没有零钱。",
+      "hint": "听 I'm sorry, sir. I can't change ... 那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What do the four passengers answer?",
+      "zh": "四位乘客分别是怎么回答的？",
+      "a": "The 1st: I've got none. The 2nd: I haven't got any either. The 3rd: I'm afraid I can't. The 4th: Neither can I.",
+      "aZh": "乘客 1：我没有。乘客 2：我也没有。乘客 3：恐怕我不能。乘客 4：我也不能。",
+      "hint": "前两位被问「有没有零钱」，后两位被问「能不能换开」。"
+    },
+    {
+      "kind": "detail",
+      "q": "What does the conductor say the passengers are, and why must the man get off?",
+      "zh": "售票员说乘客们都是什么人？为什么那位先生必须下车？",
+      "a": "He jokes that they're all millionaires — none of them can change the note, so the man must get off the bus.",
+      "aZh": "他开玩笑说乘客们都是百万富翁——没人能换开这张钞票，所以那位先生必须下车。",
+      "hint": "听 You must get off the bus 之前的那句。"
+    },
+    {
+      "kind": "think",
+      "q": "Why is 'They're all millionaires!' funny here?",
+      "zh": "为什么「他们都是百万富翁！」这句很好笑？",
+      "a": "Millionaires wouldn't bother with small change, so having none is jokingly explained as being rich — while the only people with coins are the two tramps.",
+      "aZh": "百万富翁才不会带零钱呢——用「他们太有钱」来揶揄全车人换不开 10 镑；而偏偏只有流浪汉口袋里有硬币，讽刺味十足。",
+      "hint": "想想有零钱的是谁。"
+    },
+    {
+      "kind": "drill",
+      "q": "I've got no ___. I've got none. / I'm not hungry. — Neither am I. / I'm hungry. — So am I.",
+      "zh": "第 114 课操练：no + 名词 / none；So（前句肯定）/ Neither（前句否定）+ 助动词 + 主语。",
+      "a": "No, I haven't got any milk. I've got no milk. I've got none. / Neither can I. I can't swim, either. / So can I. I can swim, too.",
+      "aZh": "我没有牛奶，一点儿也没有。/ 我也不能，我也不会游泳。/ 我也能，我也会游泳。",
+      "hint": "助动词与前一句保持一致，主语放最后。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "conductor", "phonetic": "/kənˈdʌktə/", "meanings": [{ "pos": "n.", "meaning": "售票员；（乐队）指挥；导体", "usage": "本课指公交车售票员" }], "examples": [{ "en": "Fares, please!", "zh": "请买票！（售票员喊）" }] },
+    { "word": "fare", "phonetic": "/feə/", "meanings": [{ "pos": "n.", "meaning": "车费，车票钱", "usage": "Fares, please! 中的 fares 指各位的车费" }], "examples": [{ "en": "Fares, please!", "zh": "请买票！" }] },
+    { "word": "change", "phonetic": "/tʃeɪndʒ/", "meanings": [{ "pos": "v.", "meaning": "兑换（钱）；改变；换乘", "usage": "Can you change this note? 兑换零钱；change one's mind 改变主意" }, { "pos": "n.", "meaning": "零钱；变化", "usage": "small change 零钱" }], "examples": [{ "en": "I can't change a ten-pound note.", "zh": "我找不开 10 英镑的钞票。" }] },
+    { "word": "note", "phonetic": "/nəʊt/", "meanings": [{ "pos": "n.", "meaning": "纸币；便条", "usage": "a ten-pound note 一张 10 英镑纸币" }], "examples": [{ "en": "Can you change this ten-pound note, madam?", "zh": "夫人，您能把这张 10 英镑的钞票换开吗？" }] },
+    { "word": "passenger", "phonetic": "/ˈpæsɪndʒə/", "meanings": [{ "pos": "n.", "meaning": "乘客", "usage": "None of our passengers can change this note." }], "examples": [{ "en": "I'll ask some of the passengers.", "zh": "我来问问其他乘客。" }] },
+    { "word": "none", "phonetic": "/nʌn/", "meanings": [{ "pos": "pron.", "meaning": "没有任何东西/人", "usage": "通常单独使用：I've got none.；也可 none of + 名词" }], "examples": [{ "en": "I'm sorry. I've got none.", "zh": "对不起，我没有。" }] },
+    { "word": "neither", "phonetic": "/ˈnaɪðə/", "meanings": [{ "pos": "adv.", "meaning": "也不", "usage": "Neither + 助动词 + 主语，倒装附和否定句" }], "examples": [{ "en": "Neither can I.", "zh": "我也不能。" }] },
+    { "word": "tramp", "phonetic": "/træmp/", "meanings": [{ "pos": "n.", "meaning": "流浪汉；流浪者", "usage": "复数 tramps" }], "examples": [{ "en": "Except us, conductor.", "zh": "（流浪汉说）我们俩除外，售票员。" }] },
+    { "word": "except", "phonetic": "/ɪkˈsept/", "meanings": [{ "pos": "prep.", "meaning": "除……外", "usage": "everyone except Jane 除简之外的所有人" }], "examples": [{ "en": "They're open every day except Sunday.", "zh": "除星期天之外，他们每天都开门。" }] },
+    { "word": "get off", "phonetic": "/ɡet ɒf/", "meanings": [{ "pos": "phr.", "meaning": "下车", "usage": "反义 get on 上车" }], "examples": [{ "en": "You must get off the bus.", "zh": "您必须下车。" }] },
+    { "word": "millionaire", "phonetic": "/ˌmɪljəˈneə/", "meanings": [{ "pos": "n.", "meaning": "百万富翁", "usage": "They're all millionaires!（玩笑）" }], "examples": [{ "en": "They're all millionaires!", "zh": "他们都是百万富翁！" }] },
+    { "word": "square", "phonetic": "/skweə/", "meanings": [{ "pos": "n.", "meaning": "广场", "usage": "Trafalgar Square 特拉法加广场" }], "examples": [{ "en": "Trafalgar Square, please.", "zh": "请买一张到特拉法加广场的票。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 113,
+      "title": "Small change",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "CONDUCTOR", "en": "Fares, please!", "zh": "请买票！", "note": "fare 车费，复数招呼全车" },
+        { "speaker": "MAN", "en": "Trafalgar Square, please.", "zh": "请买一张到特拉法加广场的票。" },
+        { "speaker": "CONDUCTOR", "en": "I'm sorry, sir. I can't change a ten-pound note. Haven't you got any small change?", "zh": "对不起，先生，我找不开 10 英镑的钞票。您没有零钱吗？" },
+        { "speaker": "MAN", "en": "I've got no small change, I'm afraid.", "zh": "恐怕我没有零钱。", "note": "no + 名词，比 not ... any 更强调" },
+        { "speaker": "CONDUCTOR", "en": "I'll ask some of the passengers.", "zh": "我来问问其他乘客。" },
+        { "speaker": "CONDUCTOR", "en": "Have you any small change, sir?", "zh": "先生，您有零钱吗？" },
+        { "speaker": "1ST PASSENGER", "en": "I'm sorry. I've got none.", "zh": "对不起，我没有。", "note": "none 单独使用" },
+        { "speaker": "2ND PASSENGER", "en": "I haven't got any either.", "zh": "我也没有。", "note": "否定句尾用 either" },
+        { "speaker": "CONDUCTOR", "en": "Can you change this ten-pound note, madam?", "zh": "夫人，您能把这张 10 英镑的钞票换开吗？" },
+        { "speaker": "3RD PASSENGER", "en": "I'm afraid I can't.", "zh": "恐怕我不能。" },
+        { "speaker": "4TH PASSENGER", "en": "Neither can I.", "zh": "我也不能。", "note": "Neither + 助动词 + 主语" },
+        { "speaker": "CONDUCTOR", "en": "I'm very sorry, sir. You must get off the bus. None of our passengers can change this note. They're all millionaires!", "zh": "非常抱歉，先生。您必须下车。我们的乘客中没有一个能换开这张钞票。他们都是百万富翁！" },
+        { "speaker": "2ND TRAMP", "en": "Except us, conductor.", "zh": "我们俩除外，售票员。" },
+        { "speaker": "1ST TRAMP", "en": "I've got some small change.", "zh": "我有零钱。" },
+        { "speaker": "2ND TRAMP", "en": "So have I.", "zh": "我也有。", "note": "So + 助动词 + 主语" }
+      ]
+    },
+    {
+      "lesson": 114,
+      "title": "no / none · So / Neither",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Have you got any ___? — No, I haven't got any ___. I've got no ___. I've got none. / I'm not ___. — Neither am I. / I'm ___. — So am I.",
+        "zh": "你有……吗？——没有，一点儿也没有。/ 我也不……。/ 我也……。（no + 名词、none 与 So/Neither 倒装附和）",
+        "slots": [
+          { "en": "milk (不可数)", "zh": "牛奶" },
+          { "en": "envelopes (可数)", "zh": "信封" },
+          { "en": "magazines (可数)", "zh": "杂志" },
+          { "en": "bread (不可数)", "zh": "面包" },
+          { "en": "There are no books on that shelf.", "zh": "那个书架上没有书。（no + 名词）" },
+          { "en": "I'm not hungry. — Neither am I. / I can't swim. — Neither can I.", "zh": "我不饿——我也不饿。/ 我不会游泳——我也不会。" },
+          { "en": "I'm hungry. — So am I. / I can swim. — So can I.", "zh": "我饿——我也饿。/ 我会游泳——我也会。" },
+          { "en": "I met him. — So did I. / I wasn't at church yesterday. — Neither was I.", "zh": "我见到他了——我也是。/ 我昨天没去教堂——我也没去。" }
+        ],
+        "answers": [
+          "No, I haven't got any milk. I've got no milk. I've got none.",
+          "Neither am I. I'm not hungry, either.",
+          "So can I. I can swim, too."
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：我找不开这张 10 英镑的钞票。", "a": "I can't change this ten-pound note.", "note": "change 作动词「兑换」；复合形容词 ten-pound 中 pound 用单数。" },
+    { "q": "改写（用 no）：I haven't got any small change.", "a": "I've got no small change.", "note": "no + 名词语气更强，表示全然没有。" },
+    { "q": "用 none 回答：Have you got any envelopes?", "a": "No, I've got none.", "note": "none 单独使用，代替 not ... any。" },
+    { "q": "接句：I'm not hungry.（我也不饿）", "a": "Neither am I. (= I'm not hungry, either.)", "note": "前句否定用 Neither + be + 主语。" },
+    { "q": "接句：I met him yesterday.（我昨天也见到了他）", "a": "So did I. (= I met him, too.)", "note": "前句肯定用 So + 助动词过去式 did + 主语。" },
+    { "q": "改错：I haven't got any too.（否定句尾）", "a": "I haven't got any, either.", "note": "否定句尾的「也」用 either，不用 too。" },
+    { "q": "汉译英：除我们俩之外，他们都是百万富翁。", "a": "They're all millionaires except us.", "note": "except 除……外。" }
+  ],
+  "quiz": [
+    { "q": "I've got no small change 与下列哪句意思最接近？", "options": ["I haven't got any small change（但语气更强）", "I've got some small change.", "I've got none of the change.", "I've got a small change."], "answer": 0, "note": "no + 名词 = not ... any，但语气更强，强调全然没有。" },
+    { "q": "接句 I haven't got any either. 用 So/Neither 应说：", "options": ["Neither have I.", "So have I.", "Neither do I.", "So do I."], "answer": 0, "note": "前句否定（have got）用 Neither + have + 主语。" },
+    { "q": "2nd Tramp 说 So have I. 是因为前一句：", "options": ["是肯定句（I've got some small change.）", "是否定句", "是疑问句", "用了 can"], "answer": 0, "note": "前句肯定用 So；have got 的助动词是 have。" },
+    { "q": "「也」在否定句句尾应用：", "options": ["either", "too", "also", "so"], "answer": 0, "note": "too/also 用于肯定句；either 用于否定句尾。" },
+    { "q": "Can you change this note? 中 change 的意思是：", "options": ["兑换（钱）", "改变", "换乘", "更换衣服"], "answer": 0, "note": "change 兑换零钱；change one's mind 才是「改变主意」。" },
+    { "q": "「我们乘客中没有一个能换开这张钞票」应说：", "options": ["None of our passengers can change this note.", "No one of our passengers can change this note.", "Our passengers no can change this note.", "None our passengers can change this note."], "answer": 0, "note": "none of + 名词；注意 of 不能省。" }
+  ],
+  "grammar": [
+    {
+      "title": "so 与 neither 引导的倒装简短回答",
+      "structure": "So + 助动词/be/情态动词 + 主语（前句肯定）；Neither/Nor + 助动词 + 主语（前句否定）",
+      "definition": "表示「我也一样」的简短回答必须用倒装：前一句是肯定的，用 So 开头；前一句是否定的，用 Neither/Nor 开头；前后两句时态（助动词）要一致。",
+      "usage": "I've got some change. — So have I. / I can't swim. — Neither can I.",
+      "examples": [
+        { "en": "So have I.", "zh": "我也有。" },
+        { "en": "Neither can I.", "zh": "我也不能。" }
+      ]
+    },
+    {
+      "title": "no 与 none 的用法",
+      "structure": "no + 名词；none（单独使用）；none of + 名词/代词",
+      "definition": "no + 名词表示所指的东西全然没有（I've got no small change.），比 not ... any 更强调；none 通常单独使用（I've got none.），也可用于 none of + 名词（None of our passengers ...）。",
+      "usage": "none 既可指不可数（本课指零钱），也可与可数名词连用。",
+      "examples": [
+        { "en": "I've got no small change, I'm afraid.", "zh": "恐怕我一点儿零钱也没有。" },
+        { "en": "None of our passengers can change this note.", "zh": "我们的乘客中没有一个能换开这张钞票。" }
+      ]
+    },
+    {
+      "title": "too 与 either",
+      "structure": "肯定句 + too / 否定句 + either",
+      "definition": "表示「也」时，too 用于肯定句句尾；either 用于否定句句尾。",
+      "usage": "I can swim, too. / I can't swim, either.",
+      "examples": [
+        { "en": "I haven't got any either.", "zh": "我也没有。" },
+        { "en": "I can swim, too.", "zh": "我也会游泳。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "Fares, please!", "usage": "请买票！（售票员招呼用语）", "examples": [{ "en": "Fares, please!", "zh": "请买票！" }] },
+    { "phrase": "small change", "usage": "零钱", "examples": [{ "en": "Haven't you got any small change?", "zh": "您没有零钱吗？" }] },
+    { "phrase": "change a note", "usage": "把钞票换开（找零）", "examples": [{ "en": "I can't change a ten-pound note.", "zh": "我找不开 10 英镑的钞票。" }] },
+    { "phrase": "get off the bus", "usage": "下（公共汽）车", "examples": [{ "en": "You must get off the bus.", "zh": "您必须下车。" }] },
+    { "phrase": "except us", "usage": "除我们之外", "examples": [{ "en": "Except us, conductor.", "zh": "我们俩除外，售票员。" }] }
+  ]
+}

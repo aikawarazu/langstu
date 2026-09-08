@@ -1,0 +1,173 @@
+{
+  "title": "A famous actress / must be 与 can't be",
+  "subtitle": "著名的女演员 / 推测：一定是与不可能是",
+  "lead": {
+    "question": "远远看见一个明星，怎么用英语表达「那一定是她」「不可能是他」？先猜猜：报上说 29 岁、看起来至少 40 岁的女演员，到底多少岁？",
+    "warmup": "先别看课文。想象你和朋友在街上认明星：「那一定是女演员卡伦·马什！」「不可能是她旁边的男演员！让我再看看。」英文里最有力的推测用 must be（一定是）和 can't be（不可能是），注意否定推断不用 mustn't。另外本课还有一大串反意疑问句：Isn't he her third husband? Doesn't Karen Marsh look old! 先试着说「她一定至少 40 岁」，再听凯特和米莉的八卦闲聊。",
+    "goals": [
+      "掌握 must be 表示最有力的肯定推测",
+      "掌握 can't be 表示否定推测（不可能是），不与 mustn't 混淆",
+      "掌握反意疑问句：Isn't he ...? / She does, doesn't she! / ... , wasn't it?",
+      "认识 famous / actress / actor / at least / not more than 等表达"
+    ],
+    "summary": "第 127 课：凯特问米莉能否认出那个女人——一定是女演员卡伦·马什；她旁边的一定是演员康拉德·里弗斯。凯特惊叹卡伦显老：报上说 29 岁，但肯定至少 40 了。米莉调侃道：自己读书时她就是名演员了，可那也没多久——我自己还不到 29 岁呢。全课核心是 must be / can't be 表推测。第 128 课用 She can't be Italian. She must be Greek. 等几十组句型反复操练。",
+    "tips": "① 肯定推断用 must be，否定推断用 can't be，绝不用 mustn't；② must/can't 表推测时常与 be 连用：He must be a dentist. / She can't be Danish.；③ 推测进行中的动作用 must be doing：He must be having a bath.；④ 反意疑问句：前否后肯（Isn't he her third husband?），回答按事实；She does, doesn't she! 是感叹式的反意；⑤ at least 至少；not more than 不超过、不到；⑥ I thought so. 我也这样想（so 作代词）；have another look 再看一眼。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Who is only twenty-nine, and why is it so unclear?",
+      "zh": "谁只有 29 岁？为什么这件事如此含糊不清？",
+      "a": "Karen Marsh — Millie read she's twenty-nine, but she must be at least forty; and Millie jokes that she herself is not more than twenty-nine, too.",
+      "aZh": "卡伦·马什——米莉从报上看到她 29 岁，但她肯定至少 40 了；米莉还打趣说自己也「不到 29 岁」呢。",
+      "hint": "听 I read she's twenty-nine, but she must be at least forty. 和最后一句。"
+    },
+    {
+      "kind": "detail",
+      "q": "Who must be standing beside Karen Marsh?",
+      "zh": "站在卡伦·马什旁边的一定是谁？",
+      "a": "Conrad Reeves, the actor.",
+      "aZh": "男演员康拉德·里弗斯。",
+      "hint": "听 That must be Conrad Reeves."
+    },
+    {
+      "kind": "detail",
+      "q": "What does Kate say about Karen Marsh's husband?",
+      "zh": "关于卡伦·马什的丈夫，凯特说了什么？",
+      "a": "She asks whether he isn't her third husband; Millie answers he must be her fourth or fifth.",
+      "aZh": "凯特问他是不是她的第三任丈夫；米莉说他一定是第四或第五任。",
+      "hint": "听 Isn't he her third husband? — No, he must be her fourth or fifth."
+    },
+    {
+      "kind": "detail",
+      "q": "When was Karen Marsh already a famous actress?",
+      "zh": "卡伦·马什是什么时候就已经是著名演员了？",
+      "a": "When Millie was still a schoolgirl.",
+      "aZh": "米莉还是学生的时候。",
+      "hint": "听 She was a famous actress when I was still a schoolgirl."
+    },
+    {
+      "kind": "think",
+      "q": "Why do we say 'She can't be Italian' instead of 'She mustn't be Italian'?",
+      "zh": "为什么说 She can't be Italian 而不说 She mustn't be Italian？",
+      "a": "can't be expresses a strong negative deduction ('impossible'), while mustn't expresses prohibition ('must not / be not allowed'). For negative guesses we use can't be.",
+      "aZh": "can't be 表示强有力的否定推断「不可能是」，mustn't 表示「禁止、不许」；否定推测只能用 can't be。",
+      "hint": "推测的否定形式是 can't，不是 mustn't。"
+    },
+    {
+      "kind": "drill",
+      "q": "I don't think so. She can't be Italian. She must be Greek. / He can't be a mechanic. He must be an engineer.",
+      "zh": "第 128 课操练：can't be（不可能是）+ must be（一定是）的对照推断。",
+      "a": "I don't think so. They can't be Canadian. They must be Australian. / I don't think so. It can't be cheap. It must be expensive.",
+      "aZh": "我不这么认为。他们不可能是加拿大人，一定是澳大利亚人。/ 不可能便宜，一定贵。",
+      "hint": "先否定 can't be，再肯定 must be，一正一反成对出现。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "famous", "phonetic": "/ˈfeɪməs/", "meanings": [{ "pos": "adj.", "meaning": "著名的", "usage": "be famous for 以……闻名" }], "examples": [{ "en": "She was a famous actress when I was still a schoolgirl.", "zh": "当我还是学生时，她就是位著名的演员了。" }] },
+    { "word": "actress", "phonetic": "/ˈæktrəs/", "meanings": [{ "pos": "n.", "meaning": "女演员", "usage": "actress = 女演员，actor = 男演员" }], "examples": [{ "en": "It must be Karen Marsh, the actress.", "zh": "那一定是女演员卡伦·马什。" }] },
+    { "word": "actor", "phonetic": "/ˈæktə/", "meanings": [{ "pos": "n.", "meaning": "男演员；演员", "usage": "Conrad Reeves, the actor" }], "examples": [{ "en": "Conrad Reeves, the actor? It can't be.", "zh": "康拉德·里弗斯，那个男演员吗？不可能是。" }] },
+    { "word": "read", "phonetic": "/riːd/", "meanings": [{ "pos": "v.", "meaning": "通过阅读得知；读", "usage": "过去式、过去分词读 /red/；I read (that) ... 我从报上看到" }], "examples": [{ "en": "I read she's twenty-nine, but she must be at least forty.", "zh": "我从报上看到她是 29 岁，但她一定至少有 40 岁了。" }] },
+    { "word": "beside", "phonetic": "/bɪˈsaɪd/", "meanings": [{ "pos": "prep.", "meaning": "在……旁边", "usage": "注意与 besides（除……之外）区分" }], "examples": [{ "en": "Who's that beside her?", "zh": "她旁边的那个人是谁？" }] },
+    { "word": "schoolgirl", "phonetic": "/ˈskuːlɡɜːl/", "meanings": [{ "pos": "n.", "meaning": "女学生，女生", "usage": "when I was still a schoolgirl 当我还是学生时" }], "examples": [{ "en": "She was a famous actress when I was still a schoolgirl.", "zh": "当我还是女学生时，她已是著名演员了。" }] }
+  ],
+  "text": [
+    {
+      "lesson": 127,
+      "title": "A famous actress",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "KATE", "en": "Can you recognize that woman, Millie?", "zh": "米莉，你能认出那个女人吗？" },
+        { "speaker": "MILLIE", "en": "I think I can, Kate. It must be Karen Marsh, the actress.", "zh": "我想我认得出来，凯特。那一定是女演员卡伦·马什。", "note": "must be：最有力的肯定推测" },
+        { "speaker": "KATE", "en": "I thought so. Who's that beside her?", "zh": "我也这样想。她旁边的那个人是谁？", "note": "so 作代词「这样」" },
+        { "speaker": "MILLIE", "en": "That must be Conrad Reeves.", "zh": "一定是康拉德·里弗斯。" },
+        { "speaker": "KATE", "en": "Conrad Reeves, the actor? It can't be. Let me have another look. I think you're right! Isn't he her third husband?", "zh": "康拉德·里弗斯，那个男演员吗？不可能是。让我再看一看。我想你是对的！他不是她的第三个丈夫吗？", "note": "can't be：否定推测" },
+        { "speaker": "MILLIE", "en": "No, he must be her fourth or fifth.", "zh": "不，他一定是她的第四个或第五个丈夫。" },
+        { "speaker": "KATE", "en": "Doesn't Karen Marsh look old!", "zh": "卡伦·马什看上去不显老嘛！", "note": "否定疑问式感叹" },
+        { "speaker": "MILLIE", "en": "She does, doesn't she! I read she's twenty-nine, but she must be at least forty.", "zh": "是啊，谁说不是呢！我从报上看到她是 29 岁，但她一定至少有 40 岁了。", "note": "at least 至少" },
+        { "speaker": "KATE", "en": "I'm sure she is.", "zh": "我肯定她有 40 岁了。", "note": "省略 at least forty" },
+        { "speaker": "MILLIE", "en": "She was a famous actress when I was still a schoolgirl.", "zh": "当我还是学生时，她就是个著名的演员了。" },
+        { "speaker": "KATE", "en": "That was a long time ago, wasn't it?", "zh": "那是好久以前的事了，是吗？" },
+        { "speaker": "MILLIE", "en": "Not that long ago! I'm not more than twenty-nine myself.", "zh": "不，没有那么久！我自己现在还没 29 岁呢。", "note": "not more than 不超过；myself 作同位语加强语气" }
+      ]
+    },
+    {
+      "lesson": 128,
+      "title": "must be / can't be 操练",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "I don't think so. He/She/They can't be ___. He/She/They must be ___. / I think he is probably ___.",
+        "zh": "我不这么认为。他/她/他们不可能是……，一定是……。/ 我想他可能是……。（否定推测 + 肯定推测成对操练）",
+        "slots": [
+          { "en": "Italian — Greek", "zh": "意大利人 — 希腊人" },
+          { "en": "English — American", "zh": "英国人 — 美国人" },
+          { "en": "Canadian — Australian", "zh": "加拿大人 — 澳大利亚人" },
+          { "en": "a mechanic — an engineer", "zh": "机修工 — 工程师" },
+          { "en": "a bus conductor — a bus driver", "zh": "公共汽车售票员 — 司机" },
+          { "en": "twenty-four — thirty", "zh": "24 岁 — 30 岁" },
+          { "en": "cheap — expensive", "zh": "便宜 — 昂贵" },
+          { "en": "reading — sleeping", "zh": "在看书 — 在睡觉" },
+          { "en": "early — late", "zh": "早到 — 迟到" }
+        ],
+        "answers": ["I don't think so. She can't be Italian. She must be Greek.", "I don't think so. He can't be a mechanic. He must be an engineer.", "I don't think so. It can't be cheap. It must be expensive."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "汉译英：那一定是女演员卡伦·马什。", "a": "It must be Karen Marsh, the actress.", "note": "must be 表最有力的肯定推测。" },
+    { "q": "汉译英：不可能是他。", "a": "It can't be him.", "note": "否定推测用 can't be，不用 mustn't be。" },
+    { "q": "汉译英：她一定至少有 40 岁了。", "a": "She must be at least forty.", "note": "at least 至少。" },
+    { "q": "改错：He mustn't be a doctor. He must be a dentist.（前半句）", "a": "He can't be a doctor.", "note": "否定推断用 can't be；mustn't 表禁止。" },
+    { "q": "汉译英：我自己还不到 29 岁呢。", "a": "I'm not more than twenty-nine myself.", "note": "not more than 不超过；myself 同位语加强语气。" },
+    { "q": "写出反意疑问句：That was a long time ago, ___?", "a": "wasn't it", "note": "前肯后否：That was ... → wasn't it?" },
+    { "q": "汉译英：我想他可能很忙。", "a": "I think he is probably busy.", "note": "probably 表可能性，语气弱于 must。" }
+  ],
+  "quiz": [
+    { "q": "「那一定是她」正确说法是：", "options": ["It must be her.", "It can be her.", "It mustn't be her.", "It has to being her."], "answer": 0, "note": "must be 表最有力的肯定推测。" },
+    { "q": "「不可能是他」正确说法是：", "options": ["It can't be him.", "It mustn't be him.", "It doesn't be him.", "It can be him."], "answer": 0, "note": "否定推测用 can't be；mustn't 表禁止。" },
+    { "q": "at least forty 的意思是：", "options": ["至少 40 岁", "至多 40 岁", "正好 40 岁", "不到 40 岁"], "answer": 0, "note": "at least 至少；not more than 才是「不超过」。" },
+    { "q": "She does, doesn't she! 这种结构表示：", "options": ["感叹式的反意疑问（谁说不是呢！）", "真正的疑问", "否定回答", "道歉"], "answer": 0, "note": "前肯后否的附加问句在此表强烈同感的感叹。" },
+    { "q": "I thought so. 中 so 的词性与意思是：", "options": ["代词，「这样」", "连词，「所以」", "副词，「如此地」修饰 thought", "名词「原因」"], "answer": 0, "note": "so 作代词=这样；否定式为 I don't think so." },
+    { "q": "read 的过去式和过去分词：", "options": ["拼写不变，但读作 /red/", "readed", "reading", "拼写不变，读音也不变"], "answer": 0, "note": "read-read-read，拼写同原形，过去式读 /red/。" }
+  ],
+  "grammar": [
+    {
+      "title": "表示推测的情态助动词 must be 与 can't be",
+      "structure": "must be + 表语（肯定推测）/ can't be + 表语（否定推测）",
+      "definition": "must be 表示最有力的肯定推断「一定是」；否定推断用 can't be「不可能是」，不用 mustn't（mustn't 表禁止）。推测正在进行的动作用 must be doing。",
+      "usage": "It must be Karen Marsh, the actress. / It can't be. / She must be at least forty.",
+      "examples": [
+        { "en": "He can't be a doctor. He must be a dentist.", "zh": "他不会是医生。他一定是牙医。" },
+        { "en": "He can't be shaving. He must be having a bath.", "zh": "他不可能在剃胡子，他一定是在洗澡。" }
+      ]
+    },
+    {
+      "title": "反意疑问句与否定疑问感叹",
+      "structure": "肯定陈述 + 否定附加问（... , wasn't it?）/ 否定疑问句表感叹（Doesn't he look old!）",
+      "definition": "附加疑问句遵循「前肯后否、前否后肯」；用否定疑问句式可表达惊讶或感叹（Doesn't Karen Marsh look old!）。回答按事实决定肯定或否定，不受问句形式影响。",
+      "usage": "Isn't he her third husband? / She does, doesn't she! / That was a long time ago, wasn't it?",
+      "examples": [
+        { "en": "Doesn't Karen Marsh look old!", "zh": "卡伦·马什看上去多显老啊！" },
+        { "en": "That was a long time ago, wasn't it?", "zh": "那是好久以前的事了，是吗？" }
+      ]
+    },
+    {
+      "title": "so 作代词与 not more than",
+      "structure": "think / hope / expect + so / not more than + 数词",
+      "definition": "so 作代词意为「这样」，I think so 的否定式是 I don't think so；not more than 意为「不超过、不到」，反身代词 myself 可作同位语加强语气。",
+      "usage": "I thought so. / I'm not more than twenty-nine myself.",
+      "examples": [
+        { "en": "I thought so.", "zh": "我也这样想。" },
+        { "en": "I'm not more than twenty-nine myself.", "zh": "我自己还没到 29 岁呢。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "must be", "usage": "一定是（最有力的肯定推测）", "examples": [{ "en": "It must be Karen Marsh, the actress.", "zh": "那一定是女演员卡伦·马什。" }] },
+    { "phrase": "can't be", "usage": "不可能是（否定推测）", "examples": [{ "en": "Conrad Reeves, the actor? It can't be.", "zh": "男演员康拉德·里弗斯？不可能是。" }] },
+    { "phrase": "at least", "usage": "至少", "examples": [{ "en": "She must be at least forty.", "zh": "她一定至少有 40 岁了。" }] },
+    { "phrase": "I thought so.", "usage": "我也这样想（so = 这样）", "examples": [{ "en": "I thought so. Who's that beside her?", "zh": "我也这样想。她旁边的那个人是谁？" }] },
+    { "phrase": "have another look", "usage": "再看一眼", "examples": [{ "en": "Let me have another look.", "zh": "让我再看一看。" }] },
+    { "phrase": "not more than", "usage": "不超过，不到", "examples": [{ "en": "I'm not more than twenty-nine myself.", "zh": "我自己还不到 29 岁呢。" }] }
+  ]
+}

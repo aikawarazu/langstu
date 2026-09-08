@@ -1,0 +1,175 @@
+{
+  "title": "A walk through the woods / It has already been aired.",
+  "subtitle": "林中散步 / 它已经被通风了",
+  "lead": {
+    "question": "树上挂着废物筐，牌子写着「扔垃圾者依法处置」——可满地还是垃圾。用英语描述这哭笑不得的一幕，需要现在完成时和一般将来时的被动语态。",
+    "warmup": "先别看课文。想象你住在一个被美丽树林环绕的小镇：It is surrounded by beautiful woods. 每逢星期天几百人进城来散步，可人们仍然到处扔垃圾。这里的主角还是被动语态，只是升级了两个时态：① 现在完成时被动 has/have been + 过去分词——Visitors have been asked to keep the woods clean and tidy.（游客已被要求……）Litter baskets have been placed under the trees.；② 一般将来时被动 will be + 过去分词——Anyone who leaves litter will be prosecuted!（将被依法处置）。先试着把「地板不久就会扫的」译成英语，再去数一数树林里的旧汽车和旧冰箱。",
+    "goals": [
+      "掌握被动语态（2）：现在完成时 has/have been + 过去分词",
+      "掌握被动语态（2）：一般将来时 will be + 过去分词",
+      "掌握短语 be surrounded by / hundreds of / go for a walk / be covered with / throw rubbish",
+      "认识 environment 类词汇：litter, rubbish, tyre, rusty, prosecute"
+    ],
+    "summary": "第 143 课：作者住在一个被美丽树林环绕的古镇——著名的风景胜地。星期天数百游客进城来，穿过树林散步。游客已被要求保持树林整洁，树下也已设置了废物筐，可人们仍然到处扔垃圾。上星期三作者去林中散步，所见令人伤心：七辆旧汽车、三个旧冰箱，满地纸片、烟头、旧轮胎、空瓶和生锈的空罐头盒。垃圾堆里还有一块牌子：「凡在此树林丢弃垃圾者，将依法处置！」第 144 课操练完成时与将来时被动：Someone has aired it. → It has already been aired. / It hasn't been aired yet. It will be aired tomorrow.。",
+    "tips": "① 现在完成时被动：has/have been + 过去分词，常与 already/yet 连用；② 一般将来时被动：will be + 过去分词；③ be surrounded by 被……环绕；be covered with 被……覆盖；④ hundreds of 数以百计（泛指），确切数字时 hundred 不加 s：seven hundred people；⑤ litter（乱扔的杂物）/ rubbish（垃圾）；prosecute v. 依法处置、起诉——Anyone who leaves litter will be prosecuted. 是英语告示牌的经典句式；⑥ go for a walk 去散步；through the woods 穿过树林（从内部穿过用 through）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What was so funny about the words on the sign?",
+      "zh": "牌子上的字有什么可笑的地方？",
+      "a": "The sign said 'Anyone who leaves litter in these woods will be prosecuted!' — but the writer found it among the rubbish. Nobody had obeyed it at all.",
+      "aZh": "牌子上写着「凡在此树林丢弃垃圾者，将依法处置！」——可这块牌子恰恰是在垃圾堆里被发现的，根本没人把它当回事。",
+      "hint": "注意牌子的位置：Among the rubbish, I found a sign..."
+    },
+    {
+      "kind": "detail",
+      "q": "What did the writer count in the woods?",
+      "zh": "作者在树林里数了些什么？",
+      "a": "He counted seven old cars and three old refrigerators.",
+      "aZh": "他数了数，有七辆旧汽车和三个旧冰箱。",
+      "hint": "听 What I saw made me very sad. 之后那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What was the ground covered with?",
+      "zh": "满地都是什么？",
+      "a": "Pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+      "aZh": "纸片、烟头、旧轮胎、空瓶子和生锈的空罐头盒。",
+      "hint": "the ground was covered with 后面的一串名词。"
+    },
+    {
+      "kind": "detail",
+      "q": "What have visitors been asked to do?",
+      "zh": "游客们已被要求做什么？",
+      "a": "They have been asked to keep the woods clean and tidy.",
+      "aZh": "他们已被要求保持树林的整洁。",
+      "hint": "现在完成时被动：have been asked to..."
+    },
+    {
+      "kind": "think",
+      "q": "The sign warns people not to leave litter, yet the sign itself was found among rubbish. What does this tell us?",
+      "zh": "牌子警告人们不要扔垃圾，牌子本身却在垃圾堆里被发现。这说明什么？",
+      "a": "Rules and signs alone don't work; what matters is whether people keep them. The passive warnings ('have been asked', 'have been placed', 'will be prosecuted') were all done for the woods — but only action, not signs, keeps a place clean.",
+      "aZh": "光立牌子、发告示没有用，关键在于人们是否遵守。课文里一连串被动（已被要求、已设置、将被依法处置）都是「做了安排」，可树林还是脏的——保护环境靠的是行动，不是标语。",
+      "hint": "想想告示完成了、清洁完成了吗。"
+    },
+    {
+      "kind": "drill",
+      "q": "Someone has aired it. → It has already been aired. / It hasn't been aired yet. It will be aired tomorrow.",
+      "zh": "第 144 课操练：完成时被动 has/have been + 过去分词；将来时被动 will be + 过去分词",
+      "a": "Someone has cleaned them. They have already been cleaned. / It hasn't been repaired yet. It will be repaired tomorrow.",
+      "aZh": "有人把它们打扫过了。它们已经被打扫过了。/ 它还没有被修理，明天会修。",
+      "hint": "has/have been + 过去分词（已经）；hasn't been + 过去分词 yet（尚未）。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "surround", "phonetic": "/səˈraʊnd/", "meanings": [{ "pos": "v.", "meaning": "包围，围绕", "usage": "be surrounded by 被……环绕" }], "examples": [{ "en": "I live in a very old town which is surrounded by beautiful woods.", "zh": "我住在一个由美丽树林环绕的古老小镇上。" }] },
+    { "word": "wood", "phonetic": "/wʊd/", "meanings": [{ "pos": "n.", "meaning": "树林（常用复数 woods）；木头", "usage": "walk through the woods 穿过树林散步" }], "examples": [{ "en": "Hundreds of people come to walk through the woods.", "zh": "数以百计的人来树林中散步。" }] },
+    { "word": "beauty spot", "phonetic": "/ˈbjuːti spɒt/", "meanings": [{ "pos": "n.", "meaning": "风景点，名胜", "usage": "a famous beauty spot 著名风景胜地" }], "examples": [{ "en": "It is a famous beauty spot.", "zh": "这是一个著名的风景胜地。" }] },
+    { "word": "through", "phonetic": "/θruː/", "meanings": [{ "pos": "prep.", "meaning": "穿过（从内部穿过）", "usage": "walk through the woods / through the city" }], "examples": [{ "en": "People come from the city to walk through the woods.", "zh": "人们从城里来穿过树林散步。" }] },
+    { "word": "visitor", "phonetic": "/ˈvɪzɪtə/", "meanings": [{ "pos": "n.", "meaning": "参观者，游客，来访者", "usage": "Visitors have been asked to..." }], "examples": [{ "en": "Visitors have been asked to keep the woods clean and tidy.", "zh": "游客已被告知要保持树林的整洁。" }] },
+    { "word": "tidy", "phonetic": "/ˈtaɪdi/", "meanings": [{ "pos": "adj.", "meaning": "整齐的，整洁的", "usage": "clean and tidy 干净整洁" }], "examples": [{ "en": "Visitors have been asked to keep the woods clean and tidy.", "zh": "游客已被告知要保持树林的整洁。" }] },
+    { "word": "litter", "phonetic": "/ˈlɪtə/", "meanings": [{ "pos": "n.", "meaning": "杂乱的东西，垃圾（乱扔的）", "usage": "litter basket 废物筐；leave litter 丢弃垃圾" }], "examples": [{ "en": "Anyone who leaves litter in these woods will be prosecuted!", "zh": "凡在此树林里丢弃垃圾者，将依法处置！" }] },
+    { "word": "rubbish", "phonetic": "/ˈrʌbɪʃ/", "meanings": [{ "pos": "n.", "meaning": "垃圾，废物（不可数）", "usage": "throw rubbish everywhere 到处扔垃圾" }], "examples": [{ "en": "People still throw their rubbish everywhere.", "zh": "人们仍到处扔垃圾。" }] },
+    { "word": "count", "phonetic": "/kaʊnt/", "meanings": [{ "pos": "v.", "meaning": "数，点（数目）", "usage": "count seven old cars 数了七辆旧汽车" }], "examples": [{ "en": "I counted seven old cars and three old refrigerators.", "zh": "我数了一下，有七辆旧汽车和三个旧冰箱。" }] },
+    { "word": "cover", "phonetic": "/ˈkʌvə/", "meanings": [{ "pos": "v.", "meaning": "覆盖", "usage": "be covered with 被……覆盖" }], "examples": [{ "en": "The ground was covered with pieces of paper and cigarette ends.", "zh": "满地都是纸片和烟头。" }] },
+    { "word": "tyre", "phonetic": "/ˈtaɪə/", "meanings": [{ "pos": "n.", "meaning": "轮胎", "usage": "复数 tyres；old tyres 旧轮胎" }], "examples": [{ "en": "The ground was covered with old tyres and empty bottles.", "zh": "满地都是旧轮胎和空瓶子。" }] },
+    { "word": "rusty", "phonetic": "/ˈrʌsti/", "meanings": [{ "pos": "adj.", "meaning": "生锈的", "usage": "rusty tins 生锈的空罐头盒" }], "examples": [{ "en": "The ground was covered with rusty tins.", "zh": "满地都是生锈的空罐头盒。" }] },
+    { "word": "prosecute", "phonetic": "/ˈprɒsɪkjuːt/", "meanings": [{ "pos": "v.", "meaning": "依法处置，起诉，检举", "usage": "告示牌经典句：Trespassers will be prosecuted. 闲人莫入，违者法办" }], "examples": [{ "en": "Anyone who leaves litter in these woods will be prosecuted!", "zh": "凡在此树林里丢弃垃圾者，将依法处置！" }] }
+  ],
+  "text": [
+    {
+      "lesson": 143,
+      "title": "A walk through the woods",
+      "kind": "课文 · 叙事",
+      "lines": [
+        { "en": "I live in a very old town which is surrounded by beautiful woods.", "zh": "我住在一个由美丽的树林环绕的古老小镇上。", "note": "which 引导定语从句；is surrounded by 被动语态" },
+        { "en": "It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods.", "zh": "这是一个著名的风景胜地。每逢星期天，有许许多多人从城里来观赏我们的小镇，并在树林中散步。", "note": "hundreds of 数以百计（泛指）" },
+        { "en": "Visitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere.", "zh": "游客已被告知要保持树林的整洁。树下都已设置了废物筐，但是人们仍到处扔垃圾。", "note": "have been asked / have been placed：现在完成时被动 has/have been + 过去分词" },
+        { "en": "Last Wednesday, I went for a walk in the woods. What I saw made me very sad.", "zh": "上星期三我到树林里去散步。我所见到的一切使我非常难过。", "note": "What I saw 是 what 引导的名词性从句作主语" },
+        { "en": "I counted seven old cars and three old refrigerators.", "zh": "我数了一下，有七辆旧汽车和三个旧冰箱。" },
+        { "en": "The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.", "zh": "废物筐是空的，而满地都是纸片、烟头、旧轮胎、空瓶子和生锈的空罐头盒。", "note": "be covered with 被……覆盖" },
+        { "en": "Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'", "zh": "在垃圾堆中我发现了一块牌子，上面写着：「凡在此树林里丢弃垃圾者，将依法处置！」", "note": "will be prosecuted：一般将来时被动 will be + 过去分词" }
+      ]
+    },
+    {
+      "lesson": 144,
+      "title": "It has already been aired.",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Someone has + 过去分词 + it/them. → It has / They have already been + 过去分词. / It hasn't been + 过去分词 yet. It will be + 过去分词 tomorrow.",
+        "zh": "有人已经做了某事 → 某物已经被做好（完成时被动）；尚未做好、明天会做（将来时被动）",
+        "slots": [
+          { "en": "air it — already（完成）", "zh": "通风 — 已经" },
+          { "en": "clean them — already（完成）", "zh": "打扫 — 已经" },
+          { "en": "empty it — already（完成）", "zh": "倒空 — 已经" },
+          { "en": "sharpen it — already（完成）", "zh": "磨快 — 已经" },
+          { "en": "invite them — already（完成）", "zh": "邀请 — 已经" },
+          { "en": "air it — not yet, tomorrow（将来）", "zh": "通风 — 尚未，明天" },
+          { "en": "empty it — not yet, tomorrow（将来）", "zh": "倒空 — 尚未，明天" },
+          { "en": "repair it — not yet, tomorrow（将来）", "zh": "修理 — 尚未，明天" },
+          { "en": "turn them on — not yet, tomorrow（将来）", "zh": "打开 — 尚未，明天" },
+          { "en": "shut it — not yet, tomorrow（将来）", "zh": "关上 — 尚未，明天" }
+        ],
+        "answers": ["Someone has aired it. It has already been aired.", "It hasn't been repaired yet. It will be repaired tomorrow."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "改为被动语态：Someone has emptied the basket.", "a": "The basket has already been emptied.", "note": "现在完成时被动：has/have been + 过去分词。" },
+    { "q": "改为被动语态：Someone will sweep the floor soon.", "a": "The floor will be swept soon.", "note": "一般将来时被动：will be + 过去分词。" },
+    { "q": "汉译英：这个小镇被美丽的树林环绕。", "a": "The town is surrounded by beautiful woods.", "note": "be surrounded by 被……环绕。" },
+    { "q": "汉译英：满地都是纸片。", "a": "The ground was covered with pieces of paper.", "note": "be covered with 被……覆盖。" },
+    { "q": "改错：Litter baskets have placed under the trees.", "a": "Litter baskets have been placed under the trees.", "note": "完成时被动不能漏掉 been：have been + 过去分词。" },
+    { "q": "汉译英：上星期三我去树林里散了步。", "a": "Last Wednesday, I went for a walk in the woods.", "note": "go for a walk 去散步。" },
+    { "q": "汉译英：凡在此树林丢弃垃圾者，将依法处置。", "a": "Anyone who leaves litter in these woods will be prosecuted.", "note": "who 引导定语从句修饰 anyone；will be + 过去分词表将来被动。" }
+  ],
+  "quiz": [
+    { "q": "Visitors have been asked to keep the woods clean and tidy. 的谓语结构是：", "options": ["have been asked（现在完成时被动）", "have asked（现在完成时主动）", "are asked（一般现在时被动）", "had asked（过去完成时）"], "answer": 0, "note": "现在完成时被动 = has/have been + 过去分词。" },
+    { "q": "The floor will be swept soon. 表示：", "options": ["地不久就会（被）扫的", "地已经扫过了", "地正在被扫", "有人常扫地"], "answer": 0, "note": "will be + 过去分词是一般将来时被动。" },
+    { "q": "「凡丢弃垃圾者将被依法处置」中的 will be prosecuted 是：", "options": ["一般将来时被动", "一般将来时主动", "现在完成时被动", "情态动词被动"], "answer": 0, "note": "prosecute 的被动式 will be prosecuted：将被起诉/依法处置。" },
+    { "q": "The ground was covered with rubbish. 中 be covered with 意思是：", "options": ["被……覆盖", "用……遮住别人", "覆盖了别人", "与……有关"], "answer": 0, "note": "be covered with 被……盖满。" },
+    { "q": "hundreds of people 的正确理解是：", "options": ["数以百计的人（泛指，hundred 加 s）", "整整一百人", "第几百人", "七百人（hundred 加 s）"], "answer": 0, "note": "泛指「数百」用 hundreds of；确切数字 seven hundred 中 hundred 用单数。" },
+    { "q": "It hasn't been sharpened yet. 的意思是：", "options": ["它还没有被磨快", "它已经被磨快了", "它明天磨", "它不用磨"], "answer": 0, "note": "否定完成时被动 hasn't been + 过去分词，yet「还（没有）」。" }
+  ],
+  "grammar": [
+    {
+      "title": "被动语态（2）：现在完成时与一般将来时",
+      "structure": "has/have been + 过去分词（完成）；will/shall be + 过去分词（将来）",
+      "definition": "被动语态的现在完成时形式为 has/have been + 过去分词，常与 already/yet 连用；一般将来时形式为 will be + 过去分词。",
+      "usage": "强调动作已完成或将要完成，而不强调谁做的。",
+      "examples": [
+        { "en": "Visitors have been asked to keep the woods clean and tidy.", "zh": "游客已被告知要保持树林的整洁。" },
+        { "en": "Anyone who leaves litter will be prosecuted!", "zh": "凡丢弃垃圾者，将依法处置！" }
+      ]
+    },
+    {
+      "title": "who / which 引导的定语从句",
+      "structure": "名词 + which/who + 谓语…",
+      "definition": "which 指物、who 指人，引导定语从句修饰前面的名词。Anyone who leaves litter 意为「任何丢弃垃圾的人」。",
+      "usage": "本课两处：which is surrounded by...（修饰 town）；Anyone who leaves litter（修饰 anyone）。",
+      "examples": [
+        { "en": "I live in a very old town which is surrounded by beautiful woods.", "zh": "我住在一个被美丽树林环绕的古老小镇上。" },
+        { "en": "Anyone who leaves litter in these woods will be prosecuted.", "zh": "凡在此树林里丢弃垃圾者将依法处置。" }
+      ]
+    },
+    {
+      "title": "What 引导的名词性从句作主语",
+      "structure": "What + 主语 + 谓语 + 谓语…",
+      "definition": "What I saw 这类 what 从句相当于 the thing(s) that...，整体作句子的主语。",
+      "usage": "What I saw made me very sad. = The things I saw made me very sad.",
+      "examples": [
+        { "en": "What I saw made me very sad.", "zh": "我所见到的一切使我非常难过。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "be surrounded by", "usage": "被……环绕/包围", "examples": [{ "en": "I live in a very old town which is surrounded by beautiful woods.", "zh": "我住在一个由美丽树林环绕的古老小镇上。" }] },
+    { "phrase": "hundreds of", "usage": "数以百计的（泛指）", "examples": [{ "en": "Hundreds of people come from the city.", "zh": "许许多多人从城里来。" }] },
+    { "phrase": "go for a walk", "usage": "去散步", "examples": [{ "en": "Last Wednesday, I went for a walk in the woods.", "zh": "上星期三我到树林里去散步。" }] },
+    { "phrase": "be covered with", "usage": "被……覆盖，满是……", "examples": [{ "en": "The ground was covered with pieces of paper and cigarette ends.", "zh": "满地都是纸片和烟头。" }] },
+    { "phrase": "throw rubbish", "usage": "扔垃圾", "examples": [{ "en": "People still throw their rubbish everywhere.", "zh": "人们仍到处扔垃圾。" }] },
+    { "phrase": "will be prosecuted", "usage": "将被依法处置（告示牌套语）", "examples": [{ "en": "Anyone who leaves litter in these woods will be prosecuted!", "zh": "凡在此树林里丢弃垃圾者，将依法处置！" }] }
+  ]
+}

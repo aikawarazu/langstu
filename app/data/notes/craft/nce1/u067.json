@@ -1,0 +1,171 @@
+{
+  "title": "Sensational news / He said he was busy ...",
+  "subtitle": "轰动新闻 / 他说他很忙……",
+  "lead": {
+    "question": "朋友告诉你「我刚拍完一部新电影」，你转述给别人时说「她说她刚拍完一部新电影」——英文里时态要怎么「往回拨」？",
+    "warmup": "先别看课文。把别人的原话转述给第三者叫间接引语：She said (that) she was thirsty. 原话 I'm thirsty 里的 am 变成了 was。规律是「时态后移」：一般现在→一般过去，现在进行→过去进行，现在完成→过去完成，will→would，can→could，may→might。还要分清 say 和 tell：tell 后面必须跟人（told me / told reporters），say 不跟人。先试着把 'I'm tired.' 转述成 She said she was tired.，再听记者怎么把女明星的话写进报纸。",
+    "goals": [
+      "掌握直接引语变间接引语的时态后移规则（现在→过去，现在完成→过去完成）",
+      "分清 say (said) 与 tell (told sb) 的用法",
+      "掌握 retire / reporter / mink coat 等新闻常用词",
+      "会用 She said (that) ... / She told me (that) ... 转述别人的话"
+    ],
+    "summary": "第 133 课记者在机场采访影星 Karen Marsh：刚拍完新片吗？还拍吗？——不拍了，她要退休，觉得很累。随后 Kate 和 Liz 买报纸，读到记者 Alan Jones 的报道：报道里女明星的话全变成了间接引语——she had just made a new film, she was going to retire... 第 134 课操练把 'I'm busy.' 变成 He said he was busy.，并练习 said / told 与过去完成时。",
+    "tips": "① 转述通常发生在过去，所以引述动词用过去时 said/told，从句时态随之「往回移」；② said 不直接跟人，跟人要说 said to me；tell 后必须跟人：told me / told reporters；③ 现在完成 'I've just made a film' → she had just made a film；④ going to → was going to；will → would；can → could；may → might；⑤ make another = make another film，another 后省略了名词；⑥ Well, fancy that! 哎呀，真想不到！（表惊讶）。"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "What reason did Karen Marsh give for wanting to retire?",
+      "zh": "卡伦·马什说她为什么想要退休？",
+      "a": "She said she felt very tired and didn't want to make another film for a long time.",
+      "aZh": "她说她感到很疲劳，早就不想再拍电影了。",
+      "hint": "听 I feel very tired. I don't want to make another film for a long time."
+    },
+    {
+      "kind": "detail",
+      "q": "Has Miss Marsh just made a new film?",
+      "zh": "马什小姐刚拍完一部新电影吗？",
+      "a": "Yes, she has.",
+      "aZh": "是的，她刚拍完。",
+      "hint": "记者的第一个问题。"
+    },
+    {
+      "kind": "detail",
+      "q": "What was Miss Marsh wearing at London Airport?",
+      "zh": "马什小姐在伦敦机场穿着什么？",
+      "a": "She was wearing a blue dress and a mink coat.",
+      "aZh": "她穿着一身蓝色的套装和一件貂皮大衣。",
+      "hint": "报纸报道里描写她服饰的那句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did Kate and Liz buy, and what did they read?",
+      "zh": "凯特和莉兹买了什么？读到了什么？",
+      "a": "They bought a newspaper and read the report about Karen Marsh.",
+      "aZh": "她们买了一份报纸，读到了关于卡伦·马什的报道。",
+      "hint": "Kate 说 Let's buy a newspaper, Liz. Listen to this!"
+    },
+    {
+      "kind": "think",
+      "q": "Why do tenses 'move back' in reported speech?",
+      "zh": "转述别人原话时，为什么从句的时态要「往回移」？",
+      "a": "Because the original words were spoken some time before they are reported, and the reporting verb (said/told) is in the past — so the reported clause shifts back one step (present → past, present perfect → past perfect).",
+      "aZh": "因为原话是在转述之前说的，而引述动词 said/told 是过去时，所以从句时态要整体后退一步：现在时→过去时，现在完成时→过去完成时。",
+      "hint": "想想「说话的时间点」和「转述的时间点」谁先谁后。"
+    },
+    {
+      "kind": "drill",
+      "q": "He said he was busy. / He told me he was working. / He told me he had met him.",
+      "zh": "第 134 课操练：把直接引语变成间接引语（said / told + 时态后移）。",
+      "a": "She told me the book was interesting.",
+      "aZh": "她告诉我那本书很有趣。",
+      "hint": "tell 后跟人；am/is → was，have done → had done。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "reporter", "phonetic": "/rɪˈpɔːtə(r)/", "meanings": [{ "pos": "n.", "meaning": "记者", "usage": "by our reporter 由本报记者撰写" }], "examples": [{ "en": "Have you just made a new film, Miss Marsh?", "zh": "您刚拍完一部新电影吗，马什小姐？" }] },
+    { "word": "sensational", "phonetic": "/senˈseɪʃənl/", "meanings": [{ "pos": "adj.", "meaning": "爆炸性的，耸人听闻的；轰动的", "usage": "sensational news 轰动新闻；口语中也可指「极好的」" }], "examples": [{ "en": "Karen Marsh: Sensational News!", "zh": "卡伦·马什：爆炸性新闻！" }] },
+    { "word": "mink", "phonetic": "/mɪŋk/", "meanings": [{ "pos": "n.", "meaning": "貂，貂皮", "usage": "a mink coat 貂皮大衣" }], "examples": [{ "en": "She was wearing a blue dress and a mink coat.", "zh": "她穿着一身蓝色的套装和一件貂皮大衣。" }] },
+    { "word": "retire", "phonetic": "/rɪˈtaɪə(r)/", "meanings": [{ "pos": "v.", "meaning": "退休", "usage": "be going to retire 打算退休" }], "examples": [{ "en": "She said she was going to retire.", "zh": "她说她准备退休。" }] },
+    { "word": "film", "phonetic": "/fɪlm/", "meanings": [{ "pos": "n.", "meaning": "电影", "usage": "make a film 拍电影；make another 再拍一部（= another film）" }], "examples": [{ "en": "Are you going to make another?", "zh": "您准备再拍一部吗？" }] },
+    { "word": "airport", "phonetic": "/ˈeəpɔːt/", "meanings": [{ "pos": "n.", "meaning": "机场", "usage": "London Airport 伦敦机场" }], "examples": [{ "en": "Miss Karen Marsh arrived at London Airport today.", "zh": "卡伦·马什小姐今天到达伦敦机场。" }] },
+    { "word": "wear", "phonetic": "/weə(r)/", "meanings": [{ "pos": "v.", "meaning": "穿着，戴着", "usage": "过去进行时 was/were wearing 表当时穿着" }], "examples": [{ "en": "She was wearing a blue dress and a mink coat.", "zh": "她穿着一身蓝色的套装和一件貂皮大衣。" }] },
+    { "word": "tired", "phonetic": "/ˈtaɪəd/", "meanings": [{ "pos": "adj.", "meaning": "疲劳的，累的", "usage": "feel very tired 感觉很累" }], "examples": [{ "en": "She told reporters she felt very tired.", "zh": "她告诉记者她感到很疲劳。" }] },
+    { "word": "wonder", "phonetic": "/ˈwʌndə(r)/", "meanings": [{ "pos": "v.", "meaning": "想知道；感到惊讶", "usage": "I wonder why ... 我很想知道为什么" }], "examples": [{ "en": "I wonder why he hasn't come.", "zh": "我很想知道他为什么没来。" }] },
+    { "word": "fancy", "phonetic": "/ˈfænsi/", "meanings": [{ "pos": "v.", "meaning": "想象；想不到", "usage": "Fancy that! 真想不到！（表惊讶的感叹）" }], "examples": [{ "en": "Well, fancy that, Kate!", "zh": "哎呀，真想不到，凯特！" }] }
+  ],
+  "text": [
+    {
+      "lesson": 133,
+      "title": "Sensational news",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "REPORTER", "en": "Have you just made a new film, Miss Marsh?", "zh": "您刚拍完一部新电影吗，马什小姐？", "note": "现在完成时 just 刚刚" },
+        { "speaker": "MISS MARSH", "en": "Yes, I have.", "zh": "是的，我刚拍完。" },
+        { "speaker": "REPORTER", "en": "Are you going to make another?", "zh": "您准备再拍一部吗？", "note": "another 后省略了 film" },
+        { "speaker": "MISS MARSH", "en": "No, I'm not. I'm going to retire. I feel very tired. I don't want to make another film for a long time.", "zh": "不，我不准备拍了。我准备退休了。我感觉累得很。我早就不想再拍片子了。" },
+        { "speaker": "KATE", "en": "Let's buy a newspaper, Liz. Listen to this! \"Karen Marsh: Sensational News! By our reporter, Alan Jones. Miss Karen Marsh arrived at London Airport today. She was wearing a blue dress and a mink coat. She told me she had just made a new film. She said she was not going to make another. She said she was going to retire. She told reporters she felt very tired and didn't want to make another film for a long time.\"", "zh": "我们买份报纸吧，莉兹。你听这段：“卡伦·马什：爆炸性新闻！由本报记者艾伦·琼斯报导。卡伦·马什今天到达伦敦机场。她穿着一身蓝色的套装和一件貂皮大衣。她告诉我她刚拍完一部新片子。她不准备再拍电影了。她说她准备退休。她告诉记者她感到很疲劳，早就不想再拍电影了。”", "note": "报道里全是间接引语：had just made / was going to retire" },
+        { "speaker": "LIZ", "en": "Well, fancy that, Kate!", "zh": "哎呀，真想不到，凯特！", "note": "fancy that 表惊讶" }
+      ]
+    },
+    {
+      "lesson": 134,
+      "title": "He said he was busy ... / She told me she had arrived ...",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "'...' he/she said. → He/She said (that) ... / He/She told me (that) ...",
+        "zh": "把直接引语变成间接引语：一般现在时→过去时，现在进行→过去进行，现在完成→过去完成；tell 后必须跟人。",
+        "slots": [
+          { "en": "'I'm busy.' — he said", "zh": "「我很忙。」— 他说" },
+          { "en": "'She is cold.' — he said", "zh": "「她冷。」— 他说" },
+          { "en": "'The book is interesting.' — she said", "zh": "「这本书有趣。」— 她说" },
+          { "en": "'They are hungry.' — he said", "zh": "「他们饿了。」— 他说" },
+          { "en": "'I am working.' — he told me", "zh": "「我在工作。」— 他告诉我" },
+          { "en": "'She is leaving.' — they told me", "zh": "「她要走。」— 他们告诉我" },
+          { "en": "'They are joking.' — she told me", "zh": "「他们在开玩笑。」— 她告诉我" },
+          { "en": "'I have met him.' — he told me", "zh": "「我见过他。」— 他告诉我" },
+          { "en": "'I have lost it.' — he told me", "zh": "「我把它丢了。」— 他告诉我" },
+          { "en": "'It had stopped.' — she told me", "zh": "「它已经停了。」— 她告诉我" }
+        ],
+        "answers": ["He said he was busy.", "He told me he had met him."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "把 'I'm thirsty,' she said. 变成间接引语。", "a": "She said (that) she was thirsty.", "note": "一般现在时 am 后移为过去时 was。" },
+    { "q": "把 She told them she was having a rest. 还原成直接引语。", "a": "'I'm having a rest.'", "note": "过去进行时还原为现在进行时。" },
+    { "q": "汉译英：她告诉我说她刚拍完一部新影片。", "a": "She told me (that) she had just made a new film.", "note": "现在完成时后移为过去完成时 had just made。" },
+    { "q": "填空（用 said 或 told）：He ___ me he was busy.", "a": "told", "note": "tell 后必须跟人；said 不直接跟人（要说 said to me）。" },
+    { "q": "汉译英：她说她准备退休。", "a": "She said (that) she was going to retire.", "note": "be going to 后移为 was going to。" },
+    { "q": "汉译英：貂皮大衣", "a": "A mink coat.", "note": "mink 貂皮；a mink coat 一件貂皮大衣。" },
+    { "q": "Well, fancy that! 是什么意思？", "a": "哎呀，真想不到！（表示惊讶）", "note": "fancy that 想象一下/真没想到，表惊讶的感叹语。" }
+  ],
+  "quiz": [
+    { "q": "She said she was thirsty. 的原话是：", "options": ["'I'm thirsty,' she said.", "'I was thirsty,' she said.", "'She is thirsty,' she said.", "'I have been thirsty,' she said."], "answer": 0, "note": "间接引语 was 还原为直接引语 am。" },
+    { "q": "「他告诉我说他很忙」的正确说法是：", "options": ["He told me he was busy.", "He said me he was busy.", "He told to me he was busy.", "He told I was busy."], "answer": 0, "note": "tell 后必须跟宾语 me；say 不直接跟人。" },
+    { "q": "'I've just made a new film.' 变间接引语是：", "options": ["She told me she had just made a new film.", "She told me she has just made a new film.", "She told me she just made a new film.", "She told me she was making a new film."], "answer": 0, "note": "现在完成时后移为过去完成时。" },
+    { "q": "sensational news 的意思是：", "options": ["爆炸性（耸人听闻的）新闻", "体育新闻", "假新闻", "晚间新闻"], "answer": 0, "note": "sensational 轰动性的、耸人听闻的。" },
+    { "q": "'I'll help you,' she said. 变间接引语是：", "options": ["She said she would help me.", "She said she will help me.", "She said she helped me.", "She said she would help you."], "answer": 0, "note": "will 后移为 would。" },
+    { "q": "make another 中的 another 代替：", "options": ["another film（后省略了 film）", "another reporter", "another newspaper", "another coat"], "answer": 0, "note": "another 后省略了前文提到的名词 film。" }
+  ],
+  "grammar": [
+    {
+      "title": "需改变时态的间接陈述句（时态后移）",
+      "structure": "主句（过去时 said/told）+ (that) + 从句（时态往回移一步）",
+      "definition": "转述通常发生在过去，引述动词是过去时，因此从句时态通常要「往回移」（back shift）：一般现在→一般过去，现在进行→过去进行，现在完成→过去完成，一般将来→过去将来（would）。",
+      "usage": "She said (that) she was thirsty. / She told me (that) she had just made a new film.",
+      "examples": [
+        { "en": "'I'm having a rest,' she told them. → She told them (that) she was having a rest.", "zh": "她告诉他们说她当时正在休息。" },
+        { "en": "'I'll have to ask my husband,' she said. → She said (that) she would have to ask her husband.", "zh": "她说她将得去问问她丈夫。" }
+      ]
+    },
+    {
+      "title": "say 与 tell 的区别",
+      "structure": "say (said) + 话；tell (told) + 人 + 话",
+      "definition": "say 的宾语是「说的话」，不直接跟人（跟人要说 said to me）；tell 后面必须先跟「人」：told me / told reporters / told us。",
+      "usage": "He said he was busy. = He told me (that) he was busy.",
+      "examples": [
+        { "en": "She said (that) she was going to retire.", "zh": "她说她准备退休。" },
+        { "en": "She told reporters she felt very tired.", "zh": "她告诉记者她感到很疲劳。" }
+      ]
+    },
+    {
+      "title": "间接引语中情态动词的转化",
+      "structure": "can → could；will → would；may → might；shall → should/would",
+      "definition": "转述时情态动词由现在式改成过去式；已经是过去式的情态助动词（could, would, might, must）在转述时不再变化。",
+      "usage": "'I can see you tomorrow.' → She said she could see me the next day.",
+      "examples": [
+        { "en": "'I'll help you,' she said. → She said she would help me.", "zh": "她说她会帮助我。" },
+        { "en": "'I may return at six o'clock,' she told me. → She told me she might return at six o'clock.", "zh": "她告诉我她可能6点钟回来。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "make a film", "usage": "拍电影", "examples": [{ "en": "Have you just made a new film?", "zh": "您刚拍完一部新电影吗？" }] },
+    { "phrase": "a mink coat", "usage": "一件貂皮大衣", "examples": [{ "en": "She was wearing a blue dress and a mink coat.", "zh": "她穿着一身蓝色的套装和一件貂皮大衣。" }] },
+    { "phrase": "sensational news", "usage": "爆炸性新闻，轰动新闻", "examples": [{ "en": "Karen Marsh: Sensational News!", "zh": "卡伦·马什：爆炸性新闻！" }] },
+    { "phrase": "Fancy that!", "usage": "真想不到！（表惊讶）", "examples": [{ "en": "Well, fancy that, Kate!", "zh": "哎呀，真想不到，凯特！" }] },
+    { "phrase": "Listen to this!", "usage": "你听听这段！（引起注意）", "examples": [{ "en": "Listen to this!", "zh": "你听这段！" }] }
+  ]
+}

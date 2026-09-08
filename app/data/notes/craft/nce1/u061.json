@@ -1,0 +1,176 @@
+{
+  "title": "The man in the hat / 定语从句操练",
+  "subtitle": "戴帽子的男士 / 定语从句（who / whom / which / that）",
+  "lead": {
+    "question": "半小时前卖给他两本辞典，现在他回来取，可店员记不清了——怎么用一句话描述「我接待过的那个人」「柜台上的那些书」？这就是定语从句的用武之地。",
+    "warmup": "先别看课文。想象书店里的场景：顾客说「我半小时前买了两本贵辞典，忘拿了」，经理问店员「你接待过这位先生吗」。要说「我接待的那个人戴着帽子」，英文用 The man whom I served was wearing a hat——whom 把两个句子粘在一起。先试着把「他就是那个买书的人」翻译成英语，再听这场「靠一顶帽子对上号」的小闹剧。",
+    "goals": [
+      "掌握关系代词 who / whom / that 修饰人、which / that 修饰东西",
+      "能区分关系代词作从句主语（who/which/that）与作从句宾语（whom/which/that）",
+      "掌握 put on 的宾语位置：名词可放中间或后面，代词必须放中间（put it on）",
+      "记住 forget to do sth.（忘了做某事）的用法"
+    ],
+    "summary": "第 121 课：一位顾客半小时前在书店买了两本贵重的辞典却忘拿了。经理问是谁接待的，店员罗伯茨小姐记不清，只记得「我接待的那个人戴着帽子」。顾客一戴上帽子，店员立刻认出了他。全课核心语法是定语从句。第 122 课用 who（作主语）、whom（作宾语）、which/that 三组句型反复操练定语从句。",
+    "tips": "① 定语从句像形容词一样修饰名词，但放在被修饰名词之后；② who/whom/that 修饰人，which/that 修饰物；③ 关系代词作从句主语用 who/which/that（the man who bought these books），作宾语用 whom/which/that（the man whom I served）；④ put on 接名词时可说 Put on your coat. 或 Put your coat on.，接代词只能说 Put it on.；⑤ forget to do sth. 忘了做某事；⑥ serve 作「接待（顾客）」讲，商店服务台常问 Are you being served?（有人接待您吗？）"
+  },
+  "questions": [
+    {
+      "kind": "listen",
+      "q": "Why didn't Caroline recognize the customer straight away?",
+      "zh": "为什么卡罗琳没有马上认出那位顾客？",
+      "a": "Because the man whom she served was wearing a hat — she only recognized him when he put it on.",
+      "aZh": "因为她接待的那个人当时戴着帽子，直到他戴上帽子她才认出来。",
+      "hint": "听 The man whom I served was wearing a hat. 这一句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did the customer forget to do?",
+      "zh": "那位顾客忘了做什么？",
+      "a": "He forgot to take the two expensive dictionaries with him.",
+      "aZh": "他忘了把那两本贵重的辞典带走。",
+      "hint": "听第一句 but 后面的部分。"
+    },
+    {
+      "kind": "detail",
+      "q": "Who served the customer half an hour ago?",
+      "zh": "半小时前是谁接待了那位顾客？",
+      "a": "The lady who is standing behind the counter — Miss Roberts.",
+      "aZh": "站在柜台后面的那位女士——罗伯茨小姐。",
+      "hint": "注意「站在柜台后面的」就是第一个定语从句。"
+    },
+    {
+      "kind": "detail",
+      "q": "What did the manager ask the customer to do with his hat?",
+      "zh": "经理让顾客用帽子做什么？",
+      "a": "He asked him to put it on.",
+      "aZh": "他请顾客把帽子戴上。",
+      "hint": "Would you put it on, please?"
+    },
+    {
+      "kind": "think",
+      "q": "In 'The man whom I served was wearing a hat', can we drop 'whom'?",
+      "zh": "在 The man whom I served was wearing a hat 中，whom 可以省略吗？",
+      "a": "Yes. When the relative pronoun is the object of the clause, it can often be left out: The man I served was wearing a hat.",
+      "aZh": "可以。关系代词在从句中作宾语时往往可以省略：The man I served was wearing a hat.",
+      "hint": "作宾语可省，作主语不行。"
+    },
+    {
+      "kind": "drill",
+      "q": "Who met him? That woman? — Yes, she's the woman who met him. / Whom did you see? That man? — Yes, he's the man whom I saw.",
+      "zh": "第 122 课操练：who（作主语）/ whom（作宾语）引导的定语从句。",
+      "a": "Who made it? That woman? — Yes, she's the woman who made it. / Whom did you invite? That man? — Yes, he's the man whom I invited.",
+      "aZh": "谁做的？那位女士吗？——对，她就是做这个的人。/ 你邀请了谁？那位男士吗？——对，他就是我邀请的人。",
+      "hint": "问句里的主语用 who 从句，问句里的宾语用 whom 从句。"
+    }
+  ],
+  "wordsExtra": [
+    { "word": "customer", "phonetic": "/ˈkʌstəmə/", "meanings": [{ "pos": "n.", "meaning": "顾客", "usage": "serve a customer 接待顾客" }], "examples": [{ "en": "Did you serve this gentleman half an hour ago?", "zh": "半小时前你接待过这位先生吗？" }] },
+    { "word": "forget", "phonetic": "/fəˈɡet/", "meanings": [{ "pos": "v.", "meaning": "忘记", "usage": "过去式 forgot，过去分词 forgotten；forget to do sth. 忘了做某事" }], "examples": [{ "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.", "zh": "半小时前我在这里买了两本很贵的辞典，但是我忘了拿走。" }] },
+    { "word": "manager", "phonetic": "/ˈmænɪdʒə/", "meanings": [{ "pos": "n.", "meaning": "经理", "usage": "shop manager 商店经理" }], "examples": [{ "en": "Who served you, sir?", "zh": "是谁接待您的，先生？（经理问）" }] },
+    { "word": "serve", "phonetic": "/sɜːv/", "meanings": [{ "pos": "v.", "meaning": "接待（顾客）；服务；供应", "usage": "Are you being served? 有人接待您吗？" }], "examples": [{ "en": "The man whom I served was wearing a hat.", "zh": "我接待的那个人戴着一顶帽子。" }] },
+    { "word": "counter", "phonetic": "/ˈkaʊntə/", "meanings": [{ "pos": "n.", "meaning": "柜台", "usage": "behind the counter 在柜台后面" }], "examples": [{ "en": "The lady who is standing behind the counter.", "zh": "站在柜台后面的那位女士。" }] },
+    { "word": "recognize", "phonetic": "/ˈrekəɡnaɪz/", "meanings": [{ "pos": "v.", "meaning": "认出；承认", "usage": "recognize sb. 认出某人（原来认识的人）" }], "examples": [{ "en": "Yes, sir. I recognize him now.", "zh": "是他，先生。我现在认出他来了。" }] },
+    { "word": "dictionary", "phonetic": "/ˈdɪkʃənri/", "meanings": [{ "pos": "n.", "meaning": "词典，辞典", "usage": "复数 dictionaries" }], "examples": [{ "en": "I bought two expensive dictionaries here.", "zh": "我在这里买了两本很贵的辞典。" }] },
+    { "word": "gentleman", "phonetic": "/ˈdʒentlmən/", "meanings": [{ "pos": "n.", "meaning": "先生，绅士", "usage": "复数 gentlemen；对 male 顾客的尊称" }], "examples": [{ "en": "Did you serve this gentleman half an hour ago?", "zh": "半小时前你接待过这位先生吗？" }] }
+  ],
+  "text": [
+    {
+      "lesson": 121,
+      "title": "The man in the hat",
+      "kind": "课文 · 对话",
+      "lines": [
+        { "speaker": "CUSTOMER", "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.", "zh": "半小时以前我在这里买了两本很贵的辞典，但是我忘了拿走。", "note": "forget to do sth. 忘了做某事" },
+        { "speaker": "MANAGER", "en": "Who served you, sir?", "zh": "是谁接待您的，先生？" },
+        { "speaker": "CUSTOMER", "en": "The lady who is standing behind the counter.", "zh": "站在柜台后面的那位女士。", "note": "who 作从句主语" },
+        { "speaker": "MANAGER", "en": "Which books did you buy?", "zh": "您买的是两本什么书？" },
+        { "speaker": "CUSTOMER", "en": "The books which are on the counter.", "zh": "就是柜台上的那两本。", "note": "which 作从句主语，修饰物" },
+        { "speaker": "MANAGER", "en": "Did you serve this gentleman half an hour ago, Miss Roberts? He says he's the man who bought these books.", "zh": "罗伯茨小姐，半小时前你接待过这位先生吗？他说他就是买这两本书的人。" },
+        { "speaker": "MISS ROBERTS", "en": "I can't remember, sir. The man whom I served was wearing a hat.", "zh": "我记不起来了，先生。我接待的那个人戴着一顶帽子。", "note": "whom 作从句宾语" },
+        { "speaker": "MANAGER", "en": "Have you got a hat, sir?", "zh": "先生，您有帽子吗？" },
+        { "speaker": "CUSTOMER", "en": "Yes, I have.", "zh": "有的，我有帽子。" },
+        { "speaker": "MANAGER", "en": "Would you put it on, please?", "zh": "请您把帽子戴上好吗？", "note": "代词宾语必须放 put 和 on 之间" },
+        { "speaker": "CUSTOMER", "en": "All right.", "zh": "好吧。" },
+        { "speaker": "MANAGER", "en": "Is this the man that you served, Miss Roberts?", "zh": "罗伯茨小姐，这就是你接待过的那个人吗？", "note": "that 作从句宾语" },
+        { "speaker": "MISS ROBERTS", "en": "Yes, sir. I recognize him now.", "zh": "是他，先生。我现在认出他来了。" }
+      ]
+    },
+    {
+      "lesson": 122,
+      "title": "定语从句操练（who / whom / which）",
+      "kind": "句型操练 · 无课文",
+      "drill": {
+        "q": "Who ___ him? That woman? — Yes, she's the woman who ___. / Whom did you ___? That man? — Yes, he's the man whom I ___.",
+        "zh": "谁……了？那位女士吗？——对，她就是……的人。/ 你……了谁？那位男士吗？——对，他就是我……的人。（who 作主语 / whom 作宾语）",
+        "slots": [
+          { "en": "who — met him — that woman", "zh": "谁见到了他 — 那位女士" },
+          { "en": "who — sat there — that man", "zh": "谁坐在那儿 — 那位男士" },
+          { "en": "who — made it — that woman", "zh": "谁做的 — 那位女士" },
+          { "en": "who — caught the thieves — that policeman", "zh": "谁抓住了小偷 — 那个警察" },
+          { "en": "whom — you saw — that man", "zh": "你见到了谁 — 那位男士" },
+          { "en": "whom — you telephoned — that woman", "zh": "你给谁打了电话 — 那位女士" },
+          { "en": "whom — you invited — that man", "zh": "你邀请了谁 — 那位男士" },
+          { "en": "whom — you drove to London — that woman", "zh": "你开车送谁去伦敦 — 那位女士" },
+          { "en": "which — repaired the car — the mechanic", "zh": "which 修车 — 那位机修工" }
+        ],
+        "answers": ["Who met him? That woman? Yes, she's the woman who met him.", "Whom did you see? That man? Yes, he's the man whom I saw.", "He is the man who came here last week.", "This is the car which the mechanic repaired yesterday."]
+      }
+    }
+  ],
+  "exercises": [
+    { "q": "合并为定语从句：He is the man. He bought these books.", "a": "He is the man who bought these books.", "note": "关系代词作从句主语，修饰人用 who/that。" },
+    { "q": "合并为定语从句：He is the man. I invited him to the party.", "a": "He is the man whom I invited to the party.", "note": "关系代词作从句宾语，用 whom/that，也可省略。" },
+    { "q": "合并为定语从句：This is the car. The mechanic repaired it yesterday.", "a": "This is the car which the mechanic repaired yesterday.", "note": "修饰物用 which/that。" },
+    { "q": "汉译英：请把帽子戴上。", "a": "Please put it on.", "note": "put on 接代词时必须放中间：put it on。" },
+    { "q": "汉译英：我忘了拿走它们。", "a": "I forgot to take them with me.", "note": "forget to do sth. 忘了做某事。" },
+    { "q": "改错：The man who I served was wearing a hat.（指出可改进之处）", "a": "The man whom I served was wearing a hat.（口语中也可直接省略）", "note": "作宾语更规范用 whom，口语/书面均可省略。" },
+    { "q": "汉译英：站在柜台后面的那位女士。", "a": "The lady who is standing behind the counter.", "note": "who 引导定语从句作后置定语。" }
+  ],
+  "quiz": [
+    { "q": "修饰人的关系代词是：", "options": ["who / whom / that", "which / that", "what / who", "whose / which"], "answer": 0, "note": "who/whom/that 修饰人；which/that 修饰物。" },
+    { "q": "The books ___ are on the counter. 横线处应填：", "options": ["which", "who", "whom", "whose"], "answer": 0, "note": "books 是物，关系代词作主语用 which/that。" },
+    { "q": "put it on 为什么不能说成 put on it？", "options": ["代词宾语必须放在 put 和 on 之间", "on 后不能接代词", "it 必须放句首", "put on 后只能接名词"], "answer": 0, "note": "put on 接名词可放中间或后面，接代词必须放中间。" },
+    { "q": "forget to do sth. 的意思是：", "options": ["忘了做某事", "忘记做过某事", "故意不做", "记得要做"], "answer": 0, "note": "forget to do 忘了做（没做）；forget doing 忘了做过。" },
+    { "q": "「我接待的那个人」正确说法是：", "options": ["the man whom I served", "the man who served I", "the man whom served me", "the man I served him"], "answer": 0, "note": "whom 作 served 的宾语，也可省略：the man I served。" },
+    { "q": "Have you got a hat, sir? 的肯定回答是：", "options": ["Yes, I have.", "Yes, I have got.", "Yes, I got.", "Yes, I do."], "answer": 0, "note": "Have you got ...? 用 have 问 have 答。" }
+  ],
+  "grammar": [
+    {
+      "title": "定语从句：关系代词作从句主语 (who / which / that)",
+      "structure": "先行词 + who/which/that + 谓语动词……",
+      "definition": "定语从句像形容词一样起修饰作用，但位于所修饰名词之后。关系代词指人用 who/that，指物用 which/that，在从句中作主语时后面直接跟谓语动词，同时充当连接词。",
+      "usage": "the man who bought these books 买这些书的那个人；the dog which/that is carrying the basket 叼着篮子的那只狗",
+      "examples": [
+        { "en": "The lady who is standing behind the counter.", "zh": "站在柜台后面的那位女士。" },
+        { "en": "The dog which/that is carrying the basket is mine.", "zh": "叼着篮子的那只狗是我的。" }
+      ]
+    },
+    {
+      "title": "定语从句：关系代词作从句宾语 (whom / which / that)",
+      "structure": "先行词 + whom/which/that + 主语 + 谓语……",
+      "definition": "关系代词在从句中作宾语时，指人用 whom/that，指物用 which/that；口语和书面语中往往可以省略。",
+      "usage": "the man whom I served 我接待过的那个人；the windows which the children broke 孩子们打碎的窗户",
+      "examples": [
+        { "en": "The man whom I served was wearing a hat.", "zh": "我接待的那个人戴着一顶帽子。" },
+        { "en": "She's the lady whom I served yesterday.", "zh": "她就是我昨天服务过的那位女士。" }
+      ]
+    },
+    {
+      "title": "put on 的宾语位置",
+      "structure": "put on + 名词 / put + 名词 + on / put + 代词 + on",
+      "definition": "put on 表示「穿上、戴上」。宾语是名词时可放副词之后也可放中间；宾语是代词时必须放中间。",
+      "usage": "Put on your coat. = Put your coat on. 但只能说 Put it on.",
+      "examples": [
+        { "en": "Would you put it on, please?", "zh": "请您把它戴上好吗？" },
+        { "en": "Put on your hat.", "zh": "戴上你的帽子。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "phrase": "forget to do sth.", "usage": "忘了做某事", "examples": [{ "en": "I forgot to take them with me.", "zh": "我忘了把它们带走。" }] },
+    { "phrase": "serve a customer", "usage": "接待顾客", "examples": [{ "en": "Who served you, sir?", "zh": "是谁接待您的，先生？" }] },
+    { "phrase": "put ... on", "usage": "穿上，戴上（代词宾语放中间）", "examples": [{ "en": "Would you put it on, please?", "zh": "请您把它戴上好吗？" }] },
+    { "phrase": "half an hour ago", "usage": "半小时以前", "examples": [{ "en": "I bought two expensive dictionaries here half an hour ago.", "zh": "半小时前我在这里买了两本很贵的辞典。" }] },
+    { "phrase": "behind the counter", "usage": "在柜台后面", "examples": [{ "en": "The lady who is standing behind the counter.", "zh": "站在柜台后面的那位女士。" }] },
+    { "phrase": "have got", "usage": "有（= have，英式口语）", "examples": [{ "en": "Have you got a hat, sir?", "zh": "先生，您有帽子吗？" }] }
+  ]
+}
