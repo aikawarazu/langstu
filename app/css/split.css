@@ -75,7 +75,14 @@
 .col::-webkit-scrollbar{width:8px}
 .col::-webkit-scrollbar-thumb{background:#dbe1ee;border-radius:99px}
 .col::-webkit-scrollbar-thumb:hover{background:#c6cee0}
-.navless{flex:none;display:flex;gap:10px;margin:0;padding:12px 0 16px;border-top:1px solid var(--line)}
+/* 桌面双栏：切课按钮已移到课程头部右上，底部栏不再显示 */
+.navless{display:none}
+
+/* 课程头部右上：上一课 / 下一课 */
+.unit-nav{display:flex;gap:8px;flex:none}
+.unbtn{display:inline-flex;align-items:center;gap:4px;padding:8px 14px;border-radius:10px;
+  background:#fff;border:1px solid var(--line);font-weight:800;font-size:12.5px;color:#5b6380;white-space:nowrap}
+.unbtn:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-soft)}
 
 /* 字幕高度让位给双栏 */
 .sub{height:min(40vh,380px)}
@@ -97,7 +104,7 @@
 .tb-exs-mini{margin-top:7px;border-top:1px dashed #eee3c8;padding-top:6px}
 .tb-exs-mini .t{font-size:10.5px;font-weight:900;color:#a89a7c;letter-spacing:.06em;margin-bottom:3px}
 .tb-ex-line{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;padding:2px 0;font-size:12.5px}
-.tb-ex-line .en{font-weight:700;color:#3f3a2e;line-height:1.6;flex:1;min-width:0}
+.tb-ex-line .en{font-weight:700;color:#3f3a2e;line-height:1.6;flex:1 1 auto;min-width:0}
 .tb-ex-line .zh{flex:none;max-width:100%;color:#8d8878;font-size:11.5px;overflow-wrap:anywhere}
 /* 生词/短语小卡较窄：例句改为行内流式排版，尽量少占行 */
 .tb-word .tb-ex-line{display:block;padding:1px 0}
@@ -224,7 +231,9 @@
   .col+.col{margin-top:16px}
   .col-b .tabs{position:static}
   .sub{height:min(46vh,400px)}
-  .navless{margin-top:16px}
+  /* 窄屏上下堆叠、整页滚动：恢复底部切课栏，滚到底即可换课 */
+  .navless{display:flex;flex:none;gap:10px;margin:16px 0 0;padding:12px 0 16px;border-top:1px solid var(--line)}
+  .unit-nav{display:none}
 }
 @media (max-width:560px){
   .topbar{padding:9px 12px;gap:7px}

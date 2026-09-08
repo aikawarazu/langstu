@@ -398,6 +398,8 @@ function openUnit(u,autoplay){
 }
 function renderHead(bk,u){
   var id=doneId(bk.id,u.index);
+  var units=bk.units,len=units.length;
+  var prevU=units[(u.index-2+len)%len],nextU=units[u.index%len]; /* 与 openUnit 相同的首尾环绕 */
   var pair=u.lessonLabel||'';
   var nums=window.AppData.lessonNums(u);
   var hasOld=window.AppData.hasVariant(u,'1985');
@@ -410,9 +412,16 @@ function renderHead(bk,u){
     (hasOld?'<button class="tag" id="tgVer" style="cursor:pointer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
     (done.has(id)?'':'<button class="tag new" id="tgDone" style="cursor:pointer">标为已学</button>')+
     '</div></div>'+
-    '<div class="study-meta" id="info"></div>';
+    '<div class="study-meta" id="info"></div>'+
+    '<div class="unit-nav">'+
+      '<button class="unbtn" id="hPrev" title="'+esc(prevU.title)+'">‹ 上一课</button>'+
+      '<button class="unbtn" id="hNext" title="'+esc(nextU.title)+'">下一课 ›</button>'+
+    '</div>';
   var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
   var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
+  var p=$('#hPrev'),n=$('#hNext');
+  if(p)p.onclick=()=>openUnit(u.index-1,true);
+  if(n)n.onclick=()=>openUnit(u.index+1,true);
 }
 function renderSubs(){
   var box=$('#subBox');
