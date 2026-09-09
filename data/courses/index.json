@@ -1,0 +1,93 @@
+{
+ "schemaVersion": 1,
+ "specVersion": "1.0",
+ "type": "source-site",
+ "id": "langstu-official",
+ "name": "Langstu 教材数据",
+ "homepage": "https://github.com/aikawarazu/langstu",
+ "license": "教材内容版权归原作者，仅作个人学习用途",
+ "version": "1.0.0",
+ "updatedAt": "2026-09-09",
+ "albums": [
+  {
+   "id": "nce1",
+   "title": "新概念英语 第一册",
+   "subtitle": "FIRST THINGS FIRST",
+   "kind": "series",
+   "level": "A1",
+   "tags": [
+    "英语",
+    "教材",
+    "新概念"
+   ],
+   "unitCount": 72,
+   "version": "1.0.0",
+   "url": "nce1.json",
+   "bytes": {
+    "pkg": 46336,
+    "content": 1432667,
+    "audio": 47453951
+   }
+  },
+  {
+   "id": "nce2",
+   "title": "新概念英语 第二册",
+   "subtitle": "PRACTICE AND PROGRESS",
+   "kind": "series",
+   "level": "A2-B1",
+   "tags": [
+    "英语",
+    "教材",
+    "新概念"
+   ],
+   "unitCount": 96,
+   "version": "1.0.0",
+   "url": "nce2.json",
+   "bytes": {
+    "pkg": 72406,
+    "content": 709243,
+    "audio": 54006299
+   }
+  },
+  {
+   "id": "nce3",
+   "title": "新概念英语 第三册",
+   "subtitle": "DEVELOPING SKILLS",
+   "kind": "series",
+   "level": "B2",
+   "tags": [
+    "英语",
+    "教材",
+    "新概念"
+   ],
+   "unitCount": 60,
+   "version": "1.0.0",
+   "url": "nce3.json",
+   "bytes": {
+    "pkg": 43820,
+    "content": 554566,
+    "audio": 67094444
+   }
+  },
+  {
+   "id": "nce4",
+   "title": "新概念英语 第四册",
+   "subtitle": "FLUENCY IN ENGLISH",
+   "kind": "series",
+   "level": "C1",
+   "tags": [
+    "英语",
+    "教材",
+    "新概念"
+   ],
+   "unitCount": 48,
+   "version": "1.0.0",
+   "url": "nce4.json",
+   "bytes": {
+    "pkg": 19855,
+    "content": 543041,
+    "audio": 57529641
+   }
+  }
+ ]
+}

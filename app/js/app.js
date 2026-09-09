@@ -62,15 +62,24 @@ function parseLrc(text){
   });
   return {by:by,rowsAll:rowsAll,noMarker:noMarker};
 }
+/* 字幕地址：优先取「已按包 base 解析过」的地址，兼容相对路径包 */
+function lrcUrlOf(pkg,u){
+  var variant=S.ver==='old'?'1985':'new';
+  var m=window.AppData.mediaList(pkg,u).filter(function(x){return x.kind==='lrc'&&x.variant===variant;})[0];
+  if(m)return m.url;
+  var tr=window.AppData.audioOf(u,variant);
+  return tr?(tr.lrc||''):'';
+}
 function loadLrc(pkg,u){
-  var tr=window.AppData.audioOf(u,S.ver==='old'?'1985':'new');
-  var lrc=tr?(tr.lrc||''):'';
+  var lrc=lrcUrlOf(pkg,u);
   if(!lrc)return Promise.resolve(null);
   if(lrcCache[lrc])return Promise.resolve(lrcCache[lrc]);
-  if(typeof fetch!=='function')return Promise.resolve(null); /* 老环境兜底 */
-  return fetch(lrc).then(r=>{if(!r.ok)throw 0;return r.text()})
-    .then(t=>{lrcCache[lrc]=parseLrc(t);return lrcCache[lrc];})
-    .catch(()=>null);
+  if(!window.AppCache||typeof fetch!=='function')return Promise.resolve(null); /* 老环境兜底 */
+  /* 走缓存层：已缓存直接读本机，没缓存则下载并存进 IndexedDB */
+  return window.AppCache.text(lrc,'字幕 '+u.index,pkg.id).then(function(t){
+    if(!t)return null;
+    lrcCache[lrc]=parseLrc(t);return lrcCache[lrc];
+  }).catch(()=>null);
 }
 /* 把单元内各课句子合并成连续字幕；S.seg=句子，S.divs=课分隔位置 */
 function buildSeg(u,parsed){
@@ -363,21 +372,33 @@ function openUnit(u,autoplay){
   var a=$('#audio');
   a.dataset.tok=String(req); /* 打标记：迟到的旧音频事件据此丢弃 */
   var tr=window.AppData.audioOf(unit,S.ver==='old'?'1985':'new');
-  var src=tr?tr.url:'';
-  if(S.lastFile!==src){
-    S.lastFile=src;
+  var raw=tr?window.AppData.resolveUrl(tr.url,bk.__base||''):'';
+  var needLoad=(S.lastFile!==raw);
+  if(needLoad){
+    S.lastFile=raw;
     resetSeekUI(); /* 先归零播放器（进度条/时间/播放键/A-B），再换源 */
-    a.src=src;
-    a.playbackRate=S.rate;
+    a.removeAttribute('src');
     $('#subBox').innerHTML='<div class="loading">加载课文…</div>';
   }
   renderTime(); /* 先显示本课标题，不依赖音频加载 */
   syncCtl();
-  if(autoplay)tryPlay();
+  /* 每次都解析一次：本地缓存命中返回 blob:（缓存池有上限，旧的可能已被回收，需重新生成）；
+     没缓存就先播远端，同时后台补下并存进本机 */
+  window.AppCache.resolve(raw,{warm:true,pkgId:bk.id,label:'音频 '+unit.index}).then(function(playUrl){
+    if(req!==S.req)return; /* 已被更新的切换取代 */
+    var target=playUrl||raw;
+    if(target&&a.src!==target){a.src=target;a.playbackRate=S.rate;}
+    if(needLoad&&autoplay)tryPlay();
+  });
+  if(!needLoad&&autoplay)tryPlay();
+  /* 后台预热：课文 + 当前音轨字幕（音频按需，见上面的 resolve） */
+  if(window.AppCache)window.AppCache.warmUnit(bk,unit,S.ver==='old'?'1985':'new');
   loadLrc(bk,unit).then(function(parsed){
     if(req!==S.req)return; /* 已被更新的切换取代 */
     if(!parsed){
-      $('#subBox').innerHTML='<div style="padding:20px;text-align:center;color:var(--mut);font-size:13px">课文加载失败：请联网后重试。</div>';
+      var hasAudio=(unit.audio||[]).length>0;
+      $('#subBox').innerHTML='<div style="padding:20px;text-align:center;color:var(--mut);font-size:13px">'+
+        (hasAudio?'字幕加载失败：请联网后重试。':'本课没有音频与字幕，可直接看右侧教材。')+'</div>';
       var w=$('#sec-text-wrap');
       if(w)w.innerHTML=tbSecId('sec-text','课文','TEXT','<div class="tbk-empty">课文加载失败：请联网后重试。</div>');
       return;
@@ -508,8 +529,9 @@ function renderInfo(bk,u){
   var nums=window.AppData.lessonNums(u);
   var has=noteExists(bk,u);
   var hasOld=window.AppData.hasVariant(u,'1985');
+  var hasAudio=(u.audio||[]).length>0;
   var chips=
-    '<span class="mi">🎧 '+(hasOld?'新版 + 1985 老版':'新版英音')+'</span>'+
+    '<span class="mi">🎧 '+(hasAudio?(hasOld?'新版 + 1985 老版':'新版英音'):'无音频')+'</span>'+
     '<span class="mi">📚 '+(u.lessonLabel||('Lesson '+nums.join(' · ')))+(nums.length>1?'（同一段录音）':'')+'</span>'+
     '<span class="mi'+(has?' ok':'')+'">📖 教材：'+(has?'已生成（右侧可按块跳转）':'本课尚未生成')+'</span>'+
     '<span class="mi">💾 进度存于本机</span>';
@@ -1171,30 +1193,18 @@ function bindVocabModal(){
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden)closeVocabModal();});
 }
 
-/* ===== 课程包导入（用户上传 JSON）=====
-   格式见 docs/course-package-spec.md；单课 / 系列课程同一个通道。 */
+/* ===== 导入 =====
+   统一入口改为「课程管理」面板（js/library.js）：URL / JSON 文件 / 压缩包三条通道都收在那里。 */
 function bindImport(){
-  var btn=$('#impBtn'),file=$('#impFile');
-  if(!btn||!file)return;
-  btn.onclick=function(){file.value='';file.click();};
-  file.onchange=function(){
+  var btn=$('#libBtn')||$('#impBtn');
+  if(btn)btn.onclick=function(){if(window.Library)window.Library.open('courses');};
+  var file=$('#impFile');
+  if(file)file.onchange=function(){
     var f=file.files&&file.files[0];
-    if(!f)return;
-    var rd=new FileReader();
-    rd.onload=function(){
-      var p;
-      try{p=JSON.parse(rd.result);}catch(e){toast('导入失败：不是合法 JSON');return;}
-      var v=window.AppData.validate(p);
-      if(!v.ok){toast('校验失败：'+v.errors.join('；'));console.warn('[import]',v.errors);return;}
-      window.AppData.importPkg(p).then(function(){
-        COURSES=window.AppData.list();
-        renderBookSel();
-        toast('已导入课程包「'+p.title+'」');
-        if(v.warnings.length)console.warn('[import] warnings:',v.warnings);
-      }).catch(function(e){toast('导入失败：'+e.message);console.error(e);});
-    };
-    rd.onerror=function(){toast('读取文件失败');};
-    rd.readAsText(f);
+    if(!f||!window.Library)return;
+    /* 按扩展名分派：zip 走压缩包通道，其余按 JSON 处理 */
+    if(/\.zip$/i.test(f.name)){if(window.Library.importZipFile)window.Library.importZipFile(f);}
+    else if(window.Library.importJsonFile)window.Library.importJsonFile(f);
   };
 }
 
@@ -1661,26 +1671,94 @@ function renderBookSel(){
       (c.unitCount?'（'+c.unitCount+' 课）':'')+'</option>';
   }).join('');
 }
+/* 空态：本站不内置教材，引导用户自己添加 */
+function renderEmptyState(){
+  var el=$('#study');if(!el)return;
+  el.innerHTML='<div class="es">'+
+    '<div class="es-t">还没有教材</div>'+
+    '<div class="es-s">本站不内置任何教材内容。数据由你从「资源网站」添加，全部存在你自己的浏览器里。</div>'+
+    '<div class="es-a"><button class="nm-btn ok" id="esLib">📚 打开课程管理</button>'+
+    '<button class="nm-btn" id="esOfficial">⬇ 添加官方教材（4 册）</button></div>'+
+    '<div class="es-s">也可以分享导入链接：本站地址 + <code>#import=课程包URL</code></div></div>';
+  var a=$('#esLib');if(a)a.onclick=function(){if(window.Library)window.Library.open('sources');};
+  var b=$('#esOfficial');if(b)b.onclick=addOfficialAlbums;
+}
+/* 一键添加内置资源网站里的全部专辑（只下文本，音频按课按需） */
+function addOfficialAlbums(){
+  var s=window.AppData.sources().filter(function(x){return x.builtin||x.autoInstall;})[0];
+  if(!s){toast('没有内置资源网站，请在课程管理里手动添加');return;}
+  toast('正在获取官方教材…');
+  window.AppData.refreshSource(s.id).catch(function(){}).then(function(){
+    var albums=window.AppData.albumsOf(s.id);
+    if(!albums.length){
+      toast('官方数据源暂时不可用：本地预览请从仓库根起服务（访问 /app/），或在课程管理里手动添加来源');
+      return;
+    }
+    var chain=Promise.resolve();
+    albums.forEach(function(a){
+      chain=chain.then(function(){return window.AppData.installAlbum(s.id,a.id).catch(function(){return null;});});
+    });
+    return chain.then(function(){
+      COURSES=window.AppData.list();renderBookSel();
+      toast('已添加 '+COURSES.length+' 册，课文中…');
+      /* 首册安装时 _onChange 已自动打开；这里兜底处理「骨架被空态覆盖」的情况 */
+      if(!$('#head')&&COURSES.length)return startCourse(COURSES[0].id);
+    });
+  });
+}
+/* 载入并打开某课程（空态 / 切换课程共用）：空态破坏了骨架时需要重建 */
+function startCourse(id){
+  return window.AppData.get(id).then(function(p){
+    DATA[id]=p;COURSES=window.AppData.list();S.book=id;
+    S.ui=Math.min(p.units.length,+(window.AppStore.pref('last.'+id,1)||1)||1);
+    if(!$('#head')){skeleton();bindStatic();applyMode();}   /* 空态把 #study 覆盖过 → 重建骨架并重绑事件 */
+    renderBookSel();renderDir();syncCtl();setView('study');
+    try{openUnit(S.ui);}catch(e){console.log('startCourse/openUnit fail:',e.message,'| course=',id,'| ui=',S.ui);throw e;}
+    if(window.AppCache){window.AppCache.prefetch(id,{audio:false});  /* 文本后台全量，音频按需 */
+      window.AppCache.requestPersist();}                             /* 申请持久化存储，防被浏览器回收 */
+    return p;
+  });
+}
+/* 分享链接：#import=<url> 打开即导入 */
+function handleHashImport(){
+  var m=(location.hash||'').match(/import=([^&]+)/);
+  if(!m)return;
+  var url=decodeURIComponent(m[1]);
+  try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}
+  if(window.Library&&window.Library.importFromUrl)setTimeout(function(){window.Library.importFromUrl(url);},400);
+}
 function boot(){
   skeleton();bindStatic();
   applyMode();
+  window.AppData._onChange=function(){
+    var had=COURSES.length;
+    COURSES=window.AppData.list();renderBookSel();
+    /* 从「没有课程」到「有课程」：直接把第一门课打开 */
+    if(!had&&COURSES.length)startCourse(COURSES[0].id).catch(function(e){console.error(e);});
+  };
   window.AppData.init().then(function(){
     COURSES=window.AppData.list();
-    if(!COURSES.length){renderBookSel();toast('未找到任何课程包：请检查 data/courses/ 或导入课程包');return;}
+    renderBookSel();
+    /* 站点升级后自动刷新内置资源网站：官方数据跟着站点版本走 */
+    window.AppData.autoRefreshBuiltin().catch(function(){});
+    handleHashImport();
+    if(!COURSES.length){renderEmptyState();return;}
     /* 恢复上次课程；不再存在的 id 回退到第一个 */
     if(!COURSES.some(function(c){return c.id===S.book;}))S.book=COURSES[0].id;
     renderBookSel();
-    return window.AppData.get(S.book).then(function(p){
-      DATA[S.book]=p;
-      S.ui=Math.min(p.units.length,+(window.AppStore.pref('last.'+S.book,1)||1)||1);
-      renderDir();syncCtl();setView('study');
-      try{openUnit(S.ui);}catch(e){console.log('boot/openUnit fail:',e.message,'| course=',S.book,'| ui=',S.ui);throw e;}
+    return startCourse(S.book).then(function(){
       setInterval(function(){window.AppStore.setPref('last.'+S.book,S.ui);},1200);
       /* 兜底：页面隐藏/关闭前把当前课立即写盘（扩展/移动端常在后台时被杀） */
       var flushLast=function(){try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}};
       document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')flushLast();});
       window.addEventListener('pagehide',flushLast);
       window.addEventListener('beforeunload',flushLast);
+      /* 文本（课文 + 字幕）后台全量预载；音频默认按课按需下载 */
+      if(window.AppCache)window.AppCache.prefetch(S.book,{audio:false});
+      /* 有新版时提示（不自动改数据） */
+      window.AppData.checkUpdates().then(function(rows){
+        if(rows&&rows.length)toast('有 '+rows.length+' 个课程可更新：课程管理 → 资源网站 → 刷新');
+      }).catch(function(){});
     });
   }).catch(function(e){
     toast('课程加载失败：'+e.message);console.error(e);

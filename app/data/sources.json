@@ -1,0 +1,20 @@
+{
+  "specVersion": "1.0",
+  "note": "站点本身不含教材数据，只登记「资源网站」的地址。数据一律经这些 URL 从第三方 CDN 加载。",
+  "sources": [
+    {
+      "id": "langstu-official",
+      "name": "Langstu 教材数据",
+      "homepage": "https://github.com/aikawarazu/langstu",
+      "license": "教材内容版权归原作者，仅作个人学习用途",
+      "manifest": "https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.0.0/data/courses/index.json",
+      "manifestMirrors": ["../data/courses/index.json"],
+      "baseMirrors": [
+        "https://cdn.statically.io/gh/aikawarazu/langstu/data-v1.0.0/data/courses/",
+        "https://raw.githubusercontent.com/aikawarazu/langstu/data-v1.0.0/data/courses/"
+      ],
+      "enabled": true,
+      "autoInstall": true
+    }
+  ]
+}

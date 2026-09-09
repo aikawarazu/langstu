@@ -1,41 +1,48 @@
 # 数据使用与补齐指引
 
-> 课程数据统一走「课程包」格式，结构标准见 [course-package-spec.md](./course-package-spec.md)。
+> 课程数据统一走「课程包」格式，结构标准见 [course-package-spec.md](./course-package-spec.md)；
+> URL / 清单 / 压缩包的规范见 [data-url-spec.md](./data-url-spec.md)；版本与 tag 见 [versioning.md](./versioning.md)。
 > 本文回答：**数据在哪 / 怎么补缺 / 怎么把外部资料提取成标准 JSON（含针对你手头两类资料的提示词）**。
+>
+> 提示：站点「课程管理 → 📥 导入说明」页签里内置了同一套提示词（含完整示例），可直接复制使用，源码在 `app/js/data/prompt.js`。
 
 ---
 
 ## 1. 数据现在在哪
 
 ```
-app/data/
-  courses/                      ← 运行时唯一的数据源（前端只认这里）
-    index.json                  ← 预设课程清单
-    nce1.json ~ nce4.json       ← 4 个预设课程包（meta + units + groups + media）
-    content/<pkg>/<unit>.json   ← 教材内容（276 份，按课懒加载）
-  NCE1.js ~ NCE4.js             ← 旧格式「源数据」，仅供生成脚本读取
-  notes.js                      ← 手写精修笔记（源数据，优先级最高）
-  notes/                        ← 参考仓库导入的笔记（中间产物）
+data/courses/                        ← 数据包（仓库根；不在 app/ 下，所以不会被 Pages 发布）
+  index.json                         ← source manifest：专辑清单 + 版本 + 体积预估
+  nce1.json ~ nce4.json              ← 4 个课程包（meta + units + groups + media）
+  content/<pkg>/<unit>.json          ← 教材内容（276 份，按课懒加载）
+data/VERSION                         ← 数据内容版本（发 data tag 时手动 +1）
+backend/data/                        ← 源数据（仅供生成脚本读取）
+  NCE1.js ~ NCE4.js / notes.js / notes/ / raw / parsed
+app/data/sources.json                ← 站点内的资源网站清单（只有 URL，零教材内容）
+app/data/demo/package.json           ← 自创示例教材（零版权，用于「试一试」）
 ```
 
 **数据管线**：
 
 ```
-外部源                          脚本                             运行时
-nce.mleo.site          → gen_books_data.py  → NCE*.js ─┐
-aikawarazu/NCE notes   → import_nce_notes.py → notes/ ─┤→ build_course_packages.py → data/courses/*
-手写精修               → (手写) notes.js ───────────────┘
-用户上传课程包 JSON ───────────────────────────────────→ IndexedDB（运行时）
+外部源                          脚本                              产出
+nce.mleo.site      → gen_books_data.py    → NCE*.js ─┐
+aikawarazu/NCE     → import_nce_notes.py  → notes/  ─┤→ build_course_packages.py → data/courses/*
+手写精修           → (手写) notes.js ────────────────┘        ↓ 打 data tag
+                                                        CDN（jsDelivr 等）
+                                                              ↓
+用户浏览器：sources.json → 清单 URL → 专辑 URL → 课程包 + content + 音频/LRC → IndexedDB
+用户导入的课程包 JSON / .langstu.zip ────────────────────────────────────→ IndexedDB
 ```
 
 ---
 
 ## 2. 补齐 / 更新数据的四条路径
 
-- **A 直接改**：编辑 `data/courses/content/<pkg>/<unit>.json`（最终数据），改完 `index.html` 的 `?v=N` +1。
-- **B 改源重生成**：改 `NCE*.js` / `notes.js` / `notes/` 后跑 `python3 backend/scripts/build_course_packages.py`。
-- **C 上传课程包**：顶栏「＋ 导入课程」上传符合 spec 的 JSON（不碰代码）。
-- **D 自定义预设**：包文件放 `data/courses/<id>.json` 并注册到 `index.json`，或运行时 `AppData.register()`。
+- **A 直接改**：编辑 `data/courses/content/<pkg>/<unit>.json`（最终数据），改完升 `data/VERSION`、重新构建并打新的 `data` tag。
+- **B 改源重生成**：改 `backend/data/` 下的 `NCE*.js` / `notes.js` / `notes/` 后跑 `python3 backend/scripts/build_course_packages.py`。
+- **C 导入到本机**：课程管理 →「我的课程」→ 从 URL / JSON 文件 / 压缩包导入（不碰代码，立刻生效）。
+- **D 自建数据站**：把数据包放自己的仓库 + 打 tag，在「资源网站」里填清单 URL（见 [data-url-spec.md §8](./data-url-spec.md#8-自建数据站)）。
 
 ---
 
@@ -237,13 +244,16 @@ New words and expressions 生词和短语                  ← 词 + 词性 + �
   "title": "Lesson 103-104 The French test", "content": { <上面输出的 JSON> } }
 ```
 
-然后顶栏「＋ 导入课程」上传；或按路径 B 把 `content` 覆盖到 `data/courses/content/<pkg>/<unit>.json`。
+然后在「课程管理 → 我的课程 → 📄 从 JSON 文件导入」上传；或按路径 B 把 `content` 覆盖到 `data/courses/content/<pkg>/<unit>.json` 后重新构建数据。
 
 ---
 
 ## 7. 常见问题
 
-- **改了数据页面没变** → `index.html` 的 `?v=N` +1 刷缓存。
-- **上传校验不过** → 看控制台 `[import]`：`id` 非法、缺 `title`、`kind` 不是 series/single。
-- **内容没显示但锚点有计数** → 内容懒加载失败，查 `unit.contentRef` 路径。
-- **进度/笔记会丢吗** → 不会。进度 key=`包id:单元序号`、笔记 key=`包id:单元id`，删课程包不影响已存记录。
+- **改了数据页面没变** → 数据走 CDN：升 `data/VERSION` → 重新构建 → 打新 `data` tag → 用户端「资源网站 → 🔄 刷新」；只改界面才需要 `index.html` 的 `?v=N` +1。
+- **导入被拒绝「数据规范 vX 不受支持」** → `specVersion` 主版本与站点不一致，升级站点或换兼容版本的数据（见 [versioning.md](./versioning.md)）。
+- **示例 URL 取不到数据** → 先试 `data/demo/package.json`（站点自带，一定能取到）；CDN 地址需要 tag 已推送（`@data-v1.0.0`）。
+- **上传校验不过** → 看控制台：`id` 非法、缺 `title`、`kind` 不是 series/single。
+- **内容没显示但锚点有计数** → 内容懒加载失败，查 `unit.contentRef`（相对包文件解析，如 `content/nce1/u001.json`）。
+- **缓存 / 音频** → 课文与字幕后台自动全量预载；音频按课按需下载，或在课程管理里「⬇ 缓存全部音频」。
+- **进度/笔记会丢吗** → 不会。进度 key=`包id:单元序号`、笔记 key=`包id:单元id`，删课程包不影响已存记录；换设备用「我的知识 → 导出」。

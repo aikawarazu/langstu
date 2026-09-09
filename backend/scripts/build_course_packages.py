@@ -1,24 +1,51 @@
-"""把现有「旧格式」数据（data/NCE*.js + data/notes*.js + data/notes/**）转换为标准课程包。
+"""把现有「旧格式」数据（backend/data/NCE*.js + notes.js + notes/**）转换为标准课程包。
 
-产出（前端 AppData 只认这套）：
-  app/data/courses/index.json                    预设清单
-  app/data/courses/<pkg>.json                     课程包（meta + units 索引）
-  app/data/courses/content/<pkg>/<unitId>.json    教材内容（按课懒加载）
+产出（前端只经 URL 加载，不随站点发布）：
+  data/courses/index.json                        source manifest（资源网站清单，含专辑索引）
+  data/courses/<pkg>.json                        课程包（meta + units 索引）
+  data/courses/content/<pkg>/<unitId>.json       教材内容（按课懒加载）
 
+数据内容版本取 data/VERSION（发数据 tag 时手动 +1，见 docs/versioning.md）。
 用法：python3 backend/scripts/build_course_packages.py
-可重复运行（先清空 app/data/courses）。
+可重复运行（幂等：覆盖写）。
 """
 import json
 import os
 import re
 import shutil
+from datetime import date
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "app", "data"))
-OUT = os.path.join(ROOT, "courses")
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))          # backend/data（源数据）
+REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+OUT = os.path.join(REPO, "data", "courses")                                            # 仓库根 data/courses（不进站点）
 OLD_NOTES = os.path.join(ROOT, "notes")
 CRAFT = os.path.join(OLD_NOTES, "craft")          # 逐课精编稿（人工/AI 编写，优先级最高）
-BACKEND_PARSED = os.path.abspath(os.path.join(
-    os.path.dirname(__file__), "..", "data", "parsed"))   # 原文底稿（raw txt 解析产物）
+BACKEND_PARSED = os.path.join(ROOT, "parsed")     # 原文底稿（raw txt 解析产物）
+
+SPEC_VERSION = "1.0"                              # URL/清单规范版本（docs/data-url-spec.md）
+SITE_ID = "langstu-official"
+SITE_NAME = "Langstu 教材数据"
+SITE_HOME = "https://github.com/aikawarazu/langstu"
+SITE_LICENSE = "教材内容版权归原作者，仅作个人学习用途"
+
+
+def data_version():
+    """数据内容版本：data/VERSION，缺失时回落 0.0.0"""
+    p = os.path.join(REPO, "data", "VERSION")
+    if os.path.exists(p):
+        return open(p, encoding="utf-8").read().strip() or "0.0.0"
+    return "0.0.0"
+
+
+def media_sizes():
+    """{url: bytes}，来自 backend/scripts/measure_media_sizes.py 的实测结果（可选）"""
+    p = os.path.join(REPO, "data", "media-sizes.json")
+    if os.path.exists(p):
+        try:
+            return json.load(open(p, encoding="utf-8"))
+        except Exception:
+            return {}
+    return {}
 
 BOOKS = [
     # key,   包 id,  标题,              副标题,                     level
@@ -330,12 +357,21 @@ def bvid_of(url):
     return m.group(1) if m else ""
 
 
+def dir_size(path):
+    """目录总字节数；不存在返回 0"""
+    if not os.path.isdir(path):
+        return 0
+    return sum(os.path.getsize(os.path.join(path, f)) for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)))
+
+
 def build():
     # 不清空目录：直接覆盖写全部产物（幂等）；若源数据减少了单元，残留旧文件需手工清理
     os.makedirs(os.path.join(OUT, "content"), exist_ok=True)
 
     hand = load_js_global(os.path.join(ROOT, "notes.js")) if os.path.exists(os.path.join(ROOT, "notes.js")) else {}
-    index = []
+    sizes = media_sizes()
+    ver = data_version()
+    albums = []
 
     for key, pid, title, subtitle, level in BOOKS:
         src_path = os.path.join(ROOT, key + ".js")
@@ -370,7 +406,7 @@ def build():
                     "provider": "bilibili", "bvid": bvid_of(u["ve"]),
                     "embed": u["ve"], "watch": u.get("vw", ""),
                 }
-            unit["contentRef"] = f"data/courses/content/{pid}/{uid}.json"
+            unit["contentRef"] = f"content/{pid}/{uid}.json"   # 相对「包文件」解析
             units_out.append(unit)
 
             # 内容：精编稿 > 手写精修 > 生成笔记 > 原文底稿
@@ -434,7 +470,8 @@ def build():
             media["lessonVideoMap"] = {str(k): v for k, v in src["v"].items()}
 
         pkg = {
-            "schemaVersion": 1, "id": pid, "kind": "series", "title": title, "subtitle": subtitle,
+            "schemaVersion": 1, "specVersion": SPEC_VERSION, "version": ver,
+            "id": pid, "kind": "series", "title": title, "subtitle": subtitle,
             "lang": {"from": "en", "to": "zh"}, "level": level, "tags": ["英语", "教材", "新概念"],
             "source": {
                 "text": "nce.mleo.site", "audio": "nce.mleo.site（外链，不自托管）",
@@ -443,15 +480,32 @@ def build():
             },
             "media": media, "groups": groups, "units": units_out,
         }
-        with open(os.path.join(OUT, pid + ".json"), "w", encoding="utf-8") as f:
+        pkg_path = os.path.join(OUT, pid + ".json")
+        with open(pkg_path, "w", encoding="utf-8") as f:
             json.dump(pkg, f, ensure_ascii=False, separators=(",", ":"))
-        index.append({"id": pid, "title": title, "subtitle": subtitle, "kind": "series",
-                      "unitCount": len(units_out), "level": level, "tags": ["英语", "教材"]})
+
+        media_urls = [x for u in units_out for a in (u.get("audio") or [])
+                      for x in (a.get("url"), a.get("lrc")) if x]
+        albums.append({
+            "id": pid, "title": title, "subtitle": subtitle, "kind": "series", "level": level,
+            "tags": ["英语", "教材", "新概念"], "unitCount": len(units_out), "version": ver,
+            "url": pid + ".json",                       # 相对本 manifest 解析
+            "bytes": {
+                "pkg": os.path.getsize(pkg_path),
+                "content": dir_size(os.path.join(OUT, "content", pid)),
+                "audio": sum(sizes.get(u, 0) for u in media_urls),
+            },
+        })
         print(f"[{pid}] units={len(units_out)} content={count}")
 
+    manifest = {
+        "schemaVersion": 1, "specVersion": SPEC_VERSION, "type": "source-site",
+        "id": SITE_ID, "name": SITE_NAME, "homepage": SITE_HOME, "license": SITE_LICENSE,
+        "version": ver, "updatedAt": date.today().isoformat(), "albums": albums,
+    }
     with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"schemaVersion": 1, "packages": index}, f, ensure_ascii=False, indent=1)
-    print(f"\nDONE -> {OUT}")
+        json.dump(manifest, f, ensure_ascii=False, indent=1)
+    print(f"\nDONE -> {OUT}  (data version {ver}, albums {len(albums)})")
 
 
 def note_file(book, i):

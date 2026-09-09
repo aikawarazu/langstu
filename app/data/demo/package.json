@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "specVersion": "1.0",
+  "version": "1.0.0",
+  "id": "demo-cafe",
+  "kind": "series",
+  "title": "示例 · 咖啡馆英语三课",
+  "subtitle": "本站自创示例数据（可放心复制/公开）",
+  "lang": { "from": "en", "to": "zh" },
+  "level": "A1",
+  "tags": ["示例", "自创"],
+  "source": { "text": "本站自创", "audio": "无", "license": "CC0（可自由使用，常用于验证导入链路）" },
+  "groups": [{ "id": "g1", "title": "三课连学", "range": [1, 3] }],
+  "units": [
+    {
+      "id": "u001", "index": 1, "title": "A Cup of Coffee", "lessons": [1], "lessonLabel": "Lesson 1",
+      "audio": [],
+      "content": {
+        "schemaVersion": 1, "unitId": "u001", "title": "A Cup of Coffee", "subtitle": "一杯咖啡",
+        "lead": {
+          "question": "走进咖啡馆，第一句话你会说什么？",
+          "warmup": "先别看课文：想象你在柜台前，店员抬头看你。",
+          "goals": ["能用 I'd like … 点单", "能听懂 How much is it?"],
+          "summary": "点单最常用的一句：I'd like a …, please.",
+          "tips": "把 drinks 里的词挨个填进句型，各说一遍。"
+        },
+        "questions": [
+          { "kind": "listen", "q": "What does the customer order?", "zh": "顾客点了什么？", "a": "A large coffee.", "aZh": "一大杯咖啡。", "hint": "注意 I'd like 后面紧跟的那个词。" },
+          { "kind": "detail", "q": "How much is the coffee?", "zh": "咖啡多少钱？", "a": "Three dollars.", "aZh": "三美元。", "hint": "听店员说的第二个数字。" },
+          { "kind": "think", "q": "为什么用 I'd like 而不用 I want？", "zh": "", "a": "I'd like 更礼貌，点单场景更自然。", "aZh": "", "hint": "" }
+        ],
+        "text": [
+          {
+            "lesson": 1, "title": "A Cup of Coffee", "kind": "课文 · 对话",
+            "lines": [
+              { "speaker": "A", "en": "Good morning! What can I get you?", "zh": "早上好！需要点什么？", "note": "店员招呼顾客的常用语" },
+              { "speaker": "B", "en": "I'd like a large coffee, please.", "zh": "我要一大杯咖啡，谢谢。", "note": "I'd like = I would like，比 I want 礼貌" },
+              { "speaker": "A", "en": "Sure. That's three dollars.", "zh": "好的，三美元。", "note": "That's 用来报价" },
+              { "speaker": "B", "en": "Here you are.", "zh": "给你。", "note": "递东西时的固定说法" },
+              { "speaker": "A", "en": "Thank you! Have a nice day.", "zh": "谢谢，祝你愉快！", "note": "" }
+            ]
+          }
+        ],
+        "words": [
+          { "word": "coffee", "phonetic": "/ˈkɒfi/", "meanings": [{ "pos": "noun", "meaning": "咖啡" }], "examples": [{ "en": "I'd like a large coffee.", "zh": "我要一大杯咖啡。" }] },
+          { "word": "large", "phonetic": "/lɑːdʒ/", "meanings": [{ "pos": "adj.", "meaning": "大的；大号的" }], "examples": [{ "en": "A large coffee, please.", "zh": "请来一大杯咖啡。" }] },
+          { "word": "dollar", "phonetic": "/ˈdɒlə/", "meanings": [{ "pos": "noun", "meaning": "美元" }], "examples": [{ "en": "That's three dollars.", "zh": "那是三美元。" }] }
+        ],
+        "phrases": [
+          { "phrase": "I'd like …", "usage": "礼貌地点单或表达想要某物", "examples": [{ "en": "I'd like a coffee, please.", "zh": "我想要一杯咖啡，谢谢。" }] },
+          { "phrase": "Here you are.", "usage": "把东西递给别人时说", "examples": [{ "en": "Here you are. Three dollars.", "zh": "给你，三美元。" }] }
+        ],
+        "grammar": [
+          { "title": "would like 表示礼貌请求", "definition": "用 would like 代替 want，语气更客气", "structure": "主语 + would like + 名词", "usage": "点单、请求、邀请", "examples": [{ "en": "I'd like a coffee.", "zh": "我想要一杯咖啡。" }] }
+        ],
+        "patterns": [{ "pattern": "I'd like + 名词", "original": { "en": "I'd like a large coffee.", "zh": "我要一大杯咖啡。" }, "imitations": [{ "en": "I'd like a tea.", "zh": "我要一杯茶。" }] }],
+        "exercises": [
+          { "q": "把 I want a coffee. 改成更礼貌的说法。", "a": "I'd like a coffee, please.", "note": "点单场景用 would like 更自然" },
+          { "q": "翻译：我要一大杯咖啡，谢谢。", "a": "I'd like a large coffee, please.", "note": "" }
+        ],
+        "quiz": [
+          { "q": "点单时最礼貌的说法是 ____", "options": ["I want coffee.", "I'd like a coffee, please.", "Give me coffee."], "answer": 1, "note": "would like + please 最礼貌；Give me 显得生硬" },
+          { "q": "店员说 That's three dollars. 意思是 ____", "options": ["给你三美元。", "一共三美元。", "找你三美元。"], "answer": 1, "note": "That's + 金额 = 一共多少钱" }
+        ]
+      }
+    },
+    {
+      "id": "u002", "index": 2, "title": "How Much Is It?", "lessons": [2], "lessonLabel": "Lesson 2",
+      "audio": [],
+      "content": {
+        "schemaVersion": 1, "unitId": "u002", "title": "How Much Is It?", "subtitle": "多少钱？",
+        "lead": {
+          "question": "问价格，英文怎么开口？",
+          "warmup": "先想一想：中文我们会说「多少钱」，英文的语序有什么不同？",
+          "goals": ["能用 How much is/are …? 问价", "能说出常见食品名称"],
+          "summary": "问价万能句：How much is the …?",
+          "tips": "单数用 is，复数用 are，别混。"
+        },
+        "questions": [
+          { "kind": "listen", "q": "What does the woman want to buy?", "zh": "这位女士想买什么？", "a": "A sandwich and a tea.", "aZh": "一个三明治和一杯茶。", "hint": "听两样东西，一样吃的、一样喝的。" },
+          { "kind": "detail", "q": "How much are they together?", "zh": "一共多少钱？", "a": "Five dollars.", "aZh": "五美元。", "hint": "把两个价格加起来。" },
+          { "kind": "think", "q": "什么时候用 How much are 而不是 is？", "zh": "", "a": "问复数/多件东西的价格时用 are。", "aZh": "", "hint": "" }
+        ],
+        "text": [
+          {
+            "lesson": 2, "title": "How Much Is It?", "kind": "课文 · 对话",
+            "lines": [
+              { "speaker": "B", "en": "How much is the sandwich?", "zh": "三明治多少钱？", "note": "单数用 is" },
+              { "speaker": "A", "en": "It's four dollars.", "zh": "四美元。", "note": "用 it 指代单数物品" },
+              { "speaker": "B", "en": "And how much are the cookies?", "zh": "那饼干呢？", "note": "复数用 are" },
+              { "speaker": "A", "en": "They're two dollars each.", "zh": "每个两美元。", "note": "each = 每个" },
+              { "speaker": "B", "en": "OK, I'd like one sandwich and a tea.", "zh": "好，我要一个三明治和一杯茶。", "note": "one 强调数量" }
+            ]
+          }
+        ],
+        "words": [
+          { "word": "sandwich", "phonetic": "/ˈsænwɪdʒ/", "meanings": [{ "pos": "noun", "meaning": "三明治" }], "examples": [{ "en": "The sandwich is four dollars.", "zh": "三明治四美元。" }] },
+          { "word": "cookie", "phonetic": "/ˈkʊki/", "meanings": [{ "pos": "noun", "meaning": "曲奇饼干" }], "examples": [{ "en": "The cookies are two dollars each.", "zh": "饼干每个两美元。" }] },
+          { "word": "each", "phonetic": "/iːtʃ/", "meanings": [{ "pos": "adv.", "meaning": "每个" }], "examples": [{ "en": "Two dollars each.", "zh": "每个两美元。" }] }
+        ],
+        "phrases": [{ "phrase": "How much is/are …?", "usage": "询问价格", "examples": [{ "en": "How much is the sandwich?", "zh": "三明治多少钱？" }] }],
+        "grammar": [
+          { "title": "How much 问价格", "definition": "How much + be 动词 + 物品", "structure": "How much is + 单数/不可数？ / How much are + 复数？", "usage": "购物、点单", "examples": [{ "en": "How much are the cookies?", "zh": "饼干多少钱？" }] }
+        ],
+        "exercises": [
+          { "q": "用 How much 提问：the tea（茶）", "a": "How much is the tea?", "note": "不可数名词用 is" },
+          { "q": "把 It's four dollars. 改成复数回答。", "a": "They're four dollars.", "note": "" }
+        ],
+        "quiz": [
+          { "q": "问「饼干多少钱」应该说 ____", "options": ["How much is the cookies?", "How much are the cookies?", "How many are the cookies?"], "answer": 1, "note": "cookies 是复数，用 are" },
+          { "q": "Two dollars each. 中 each 的意思是 ____", "options": ["一共", "每个", "免费"], "answer": 1, "note": "each 指单价" }
+        ]
+      }
+    },
+    {
+      "id": "u003", "index": 3, "title": "To Go, Please", "lessons": [3], "lessonLabel": "Lesson 3",
+      "audio": [],
+      "content": {
+        "schemaVersion": 1, "unitId": "u003", "title": "To Go, Please", "subtitle": "打包带走",
+        "lead": {
+          "question": "堂食和带走，英文只差两个词，是哪两个？",
+          "warmup": "先看标题 To go, please 猜猜意思。",
+          "goals": ["能区分 for here 与 to go", "能说出自己的取餐方式"],
+          "summary": "for here（堂食）/ to go（外带）。",
+          "tips": "点完单再说这句，跟在 please 前面。"
+        },
+        "questions": [
+          { "kind": "listen", "q": "Does the man stay in the café?", "zh": "这位男士在店里吃吗？", "a": "No, he takes it to go.", "aZh": "不，他带走。", "hint": "听有没有 for here。" },
+          { "kind": "detail", "q": "What does he order?", "zh": "他点了什么？", "a": "A black coffee.", "aZh": "一杯黑咖啡。", "hint": "black 表示不加奶。" },
+          { "kind": "think", "q": "为什么这里用 for here 而不是 here？", "zh": "", "a": "for 表示「为了（在店里吃）」，是固定说法。", "aZh": "", "hint": "" }
+        ],
+        "text": [
+          {
+            "lesson": 3, "title": "To Go, Please", "kind": "课文 · 对话",
+            "lines": [
+              { "speaker": "A", "en": "For here or to go?", "zh": "堂食还是外带？", "note": "店员高频问句" },
+              { "speaker": "B", "en": "To go, please.", "zh": "外带，谢谢。", "note": "也可以说 takeaway（英式）" },
+              { "speaker": "A", "en": "Anything else?", "zh": "还要别的吗？", "note": "追加销售的常用语" },
+              { "speaker": "B", "en": "No, that's all. Thank you.", "zh": "不用了，就这些，谢谢。", "note": "that's all = 就这些" },
+              { "speaker": "A", "en": "Your coffee will be ready in a minute.", "zh": "您的咖啡马上就好。", "note": "in a minute = 马上" }
+            ]
+          }
+        ],
+        "words": [
+          { "word": "ready", "phonetic": "/ˈredi/", "meanings": [{ "pos": "adj.", "meaning": "准备好的" }], "examples": [{ "en": "Your coffee is ready.", "zh": "您的咖啡好了。" }] },
+          { "word": "else", "phonetic": "/els/", "meanings": [{ "pos": "adv.", "meaning": "别的；其他" }], "examples": [{ "en": "Anything else?", "zh": "还要别的吗？" }] }
+        ],
+        "phrases": [
+          { "phrase": "For here or to go?", "usage": "询问堂食还是外带", "examples": [{ "en": "For here or to go? — To go, please.", "zh": "堂食还是外带？——外带。" }] },
+          { "phrase": "That's all.", "usage": "表示「就这些、没有了」", "examples": [{ "en": "No, that's all. Thank you.", "zh": "不用了，就这些，谢谢。" }] }
+        ],
+        "grammar": [
+          { "title": "一般将来时 will", "definition": "表示将要发生的事", "structure": "主语 + will + 动词原形", "usage": "说明稍后会发生的动作", "examples": [{ "en": "Your coffee will be ready in a minute.", "zh": "您的咖啡马上就好。" }] }
+        ],
+        "exercises": [
+          { "q": "回答店员：我要堂食。", "a": "For here, please.", "note": "for here 是固定搭配" },
+          { "q": "翻译：还要别的吗？", "a": "Anything else?", "note": "" }
+        ],
+        "quiz": [
+          { "q": "「外带」英文是 ____", "options": ["for here", "to go", "in a minute"], "answer": 1, "note": "for here 是堂食，to go 是外带" },
+          { "q": "Anything else? 的合适回答是 ____", "options": ["To go, please.", "No, that's all.", "For here."], "answer": 1, "note": "问「还要别的吗」，答「就这些」" }
+        ]
+      }
+    }
+  ]
+}

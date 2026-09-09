@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="css/app.css?v=30">
 <link rel="stylesheet" href="css/v12.css?v=30">
 <link rel="stylesheet" href="css/textbook.css?v=30">
-<link rel="stylesheet" href="css/split.css?v=30">
+<link rel="stylesheet" href="css/split.css?v=37">
+<link rel="stylesheet" href="css/library.css?v=37">
 </head>
 <body>
 <div class="wrap">
@@ -41,7 +42,7 @@
       <button class="vwbtn on" id="vwStudy">📖 学习</button>
       <button class="vwbtn" id="vwNotes">🗂 笔记总览</button>
     </div>
-    <button class="dir-btn imp" id="impBtn" title="导入课程包（JSON）">＋ 导入课程</button>
+    <button class="dir-btn imp" id="libBtn" title="课程管理：导入 / 导出 / 资源网站 / 我的知识">📚 课程管理</button>
     <input type="file" id="impFile" accept=".json,application/json" hidden>
     <span class="pill" id="topTag"></span>
   </div>
@@ -113,8 +114,12 @@
 
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
-<script src="js/data/store.js?v=30"></script>
-<script src="js/data/registry.js?v=30"></script>
-<script src="js/app.js?v=30"></script>
+<script src="js/data/store.js?v=37"></script>
+<script src="js/data/registry.js?v=37"></script>
+<script src="js/data/cache.js?v=37"></script>
+<script src="js/zip.js?v=37"></script>
+<script src="js/data/prompt.js?v=37"></script>
+<script src="js/app.js?v=37"></script>
+<script src="js/library.js?v=37"></script>
 </body>
 </html>
