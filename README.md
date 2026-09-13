@@ -8,6 +8,12 @@
 
 ## 功能总览
 
+### PWA · 可安装、可离线
+
+- **安装到桌面**：浏览器（Chrome / Edge / Android）访问后会出现「安装」提示，或用地址栏的「安装应用」；iOS Safari 用「添加到主屏幕」。
+- **离线可用**：站点壳层（HTML / CSS / JS / 图标）由 Service Worker（`sw.js`）预缓存；课程文本与字幕后台静默更新（stale-while-revalidate）。断网后已装课程、笔记、进度照常可用；音频走 IndexedDB 缓存（「课程管理 → 缓存全部音频」后可完全离线精听）。
+- **自动更新**：发现新版本会在底部浮条提示「点击更新」，确认后自动接管并刷新；每 60 分钟也主动检查一次。相关逻辑集中在 `js/pwa.js`。
+
 ### 学习台（左右分栏）
 
 - **左栏 · 🎧 音频精听 / 🎬 视频讲解**
@@ -67,10 +73,14 @@ python3 backend/scripts/measure_media_sizes.py        # 可选：实测音频体
 ```
 app/                      # 站点根目录（GitHub Pages 只发布这里：只有代码）
   index.html              # 入口页（学习台 / 笔记总览 / 目录气泡 / 记笔记 / 课程管理）
+  manifest.json           # PWA 清单（名称 / 图标 / 独立窗口 / 主题色）
+  sw.js                   # Service Worker：壳层预缓存 + 文本运行时缓存 + 离线回退
+  icons/                  # PWA 图标（backend/scripts/make_pwa_icons.py 生成）
   css/                    # app / v12 / textbook / split / library(管理面板)
   js/
     app.js                # 主逻辑（渲染 / 播放 / 交互）
     library.js            # 课程管理面板（导入导出 / 资源网站 / 说明 / 知识）
+    pwa.js                # PWA：注册 SW / 更新提示 / 安装引导 / 断网提示
     zip.js                # 最小 ZIP 读写（导出导入压缩包，无依赖）
     data/store.js         # 存储：偏好·进度·笔记(localStorage) + 包/媒体/资源站(IndexedDB)
     data/registry.js      # 数据层：远程加载 · 相对解析 · 版本校验 · 资源站管理
@@ -109,6 +119,7 @@ python3 -m http.server 8080     # 在仓库根执行
 ## 技术说明
 
 - 纯静态 HTML + CSS + JavaScript，无框架、无构建步骤、无后端
+- **PWA**：`manifest.json` + `sw.js`（壳层 cache-first 预缓存、文本数据 stale-while-revalidate、导航离线回退）；音频不进 Cache Storage（全量约 216 MB，由 `js/data/cache.js` 存 IndexedDB）；改静态资源后把 `index.html` 的 `?v=N` 与 `sw.js` 顶部 `VERSION` / `PRECACHE` 一起 +1；图标由 `python3 backend/scripts/make_pwa_icons.py` 重新生成（纯标准库，无需装依赖）
 - 音频播放：`<audio>` + LRC 解析，逐句时间轴驱动字幕与 A-B 复读
 - 视频防跳转：B 站移动版嵌入地址（`html5mobileplayer`）+ `sandbox`（不给 `allow-popups` / `allow-top-navigation`），做法参照 [PerryKum 的 iframe 嵌入 B 站笔记](https://perrykum.github.io/rtcls/study/bliframe/bliframe.html)
 - 单词即点即译：本地生词表匹配 + 简单词形还原（复数 / 过去式 / -ing），离线可用

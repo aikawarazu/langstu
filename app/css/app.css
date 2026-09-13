@@ -107,6 +107,17 @@ body.md-blur .sline:hover .zh{filter:none}
 /* 提示 */
 #toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#222a3f;color:#fff;
  padding:11px 18px;border-radius:99px;font-size:13px;font-weight:800;z-index:99;opacity:0;transition:.25s;pointer-events:none}
+
+/* PWA：底部浮动条（新版本更新 / 安装到桌面） */
+.pwabar{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:98;
+ display:flex;align-items:center;gap:10px;max-width:min(92vw,460px);
+ background:#fff;border:1px solid var(--line);border-radius:99px;padding:9px 9px 9px 18px;
+ box-shadow:0 12px 32px -12px rgba(34,42,63,.35);font-size:13px;font-weight:700;color:var(--ink)}
+.pwabar-msg{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pwabar-btn{flex:none;font:inherit;font-size:12.5px;font-weight:900;color:#fff;background:var(--pri);
+ border-radius:99px;padding:7px 15px;cursor:pointer}
+.pwabar-btn:hover{filter:brightness(1.07)}
+.pwabar-x{flex:none;color:var(--mut);cursor:pointer;font-size:12px;padding:4px 8px}
 .loading{text-align:center;color:var(--mut);padding:30px 0;font-size:13px}
 
 /* 移动 */

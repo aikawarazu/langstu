@@ -2,6 +2,16 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。版本与 tag 规范见 [docs/versioning.md](./docs/versioning.md)。
 
+## [Unreleased] - 2026-09-13
+
+### 新增
+- **PWA 支持**：站点可安装到桌面 / 主屏（Android Chrome / Edge 桌面端安装提示，iOS「添加到主屏幕」），独立窗口运行。
+  - `app/manifest.json`：PWA 清单（名称 / 图标 192·512·maskable / standalone / 主题色 `#4353ff`）。
+  - `app/sw.js`：Service Worker——壳层（HTML/CSS/JS/图标）预缓存 cache-first；课程包 JSON / 课文 / LRC 字幕运行时 stale-while-revalidate（上限 400 条 LRU）；页面导航网络优先、离线回退缓存的 `index.html`；音频不进 Cache Storage（仍由 `js/data/cache.js` 走 IndexedDB，避免 216 MB 体积撑爆配额）。
+  - `app/js/pwa.js`：注册 SW、发现新版本底部浮条「点击更新」（skipWaiting → 自动刷新）、`beforeinstallprompt` 安装引导、断网 / 联网 toast。
+  - `app/icons/*`：新增图标（`backend/scripts/make_pwa_icons.py` 纯标准库生成）。
+- `index.html` 资源版本号统一升至 `v=38`（与 `sw.js` 的 `VERSION` / `PRECACHE` 同步）。
+
 ## [data-v1.0.0] - 2026-09-09
 
 ### 变更
