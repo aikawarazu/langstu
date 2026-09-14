@@ -161,6 +161,9 @@ function bindStatic(){
   $('#tbVideo').onclick=()=>setTab('video');
   $('#bPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#bNext').onclick=()=>openUnit(S.ui+1,true);
+  /* 顶栏切课：夹住课程下拉的上一课 / 下一课 */
+  $('#tPrev').onclick=()=>openUnit(S.ui-1,true);
+  $('#tNext').onclick=()=>openUnit(S.ui+1,true);
   bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();bindImport();bindVocabModal();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
@@ -266,15 +269,12 @@ function renderDir(){
     var pair=u.lessonLabel||(nums.length>1?('Lesson '+nums.join('&')):'');
     return {u:u.index,i:i+1,title:u.title,pair:pair?String(pair):'',done:done.has(id),active:(i+1)===S.ui};
   });
-  $('#topTag').textContent='已学 '+dirRows.filter(r=>r.done).length+' / '+units.length;
   var sub=$('#dirSub');if(sub)sub.textContent=bk.title+' · 共 '+units.length+' 单元';
-  /* 顶栏目录按钮直接显示当前课名，切课/换单元时跟着变 */
+  /* 顶栏目录按钮：只显示当前课名（课号在列表行与信息条里已有），切课/换单元时跟着变 */
   var dirBtn=$('#dirBtn');
   if(dirBtn){
     var cu=units[S.ui-1]||units[0]||{};
-    var cnums=window.AppData.lessonNums(cu);
-    var curLabel=((cu.lessonLabel||(cnums.length?('Lesson '+cnums.join(' & ')):'教材目录'))+' · '+(cu.title||''));
-    dirBtn.innerHTML='📚 <span class="dir-cur">'+esc(curLabel)+'</span> <i class="caret">▾</i>';
+    dirBtn.innerHTML='📚 <span class="dir-cur">'+esc(cu.title||'教材目录')+'</span> <i class="caret">▾</i>';
     dirBtn.title='当前：'+(cu.title||'')+'（'+bk.title+'，共 '+units.length+' 单元）';
   }
   var cur=COURSES.filter(function(c){return c.id===S.book;})[0];
@@ -364,6 +364,8 @@ function openUnit(u,autoplay){
   var bk=dataOf(S.book);if(!bk)return;
   var units=bk.units;
   if(u<1)u=units.length;else if(u>units.length)u=1;
+  /* 当前在「视频讲解」页签时切课不自动起播音频：避免正在看视频却被课文音频抢声 */
+  if(S.tab==='video')autoplay=false;
   S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;
   /* 立即落盘：不等轮询，关页面也不丢进度 */
   try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
@@ -420,33 +422,13 @@ function openUnit(u,autoplay){
   });
 }
 function renderHead(bk,u){
-  var id=doneId(bk.id,u.index);
   var units=bk.units,len=units.length;
   var prevU=units[(u.index-2+len)%len],nextU=units[u.index%len]; /* 与 openUnit 相同的首尾环绕 */
-  var pair=u.lessonLabel||'';
-  var nums=window.AppData.lessonNums(u);
-  var hasOld=window.AppData.hasVariant(u,'1985');
-  $('#head').innerHTML=
-    '<div class="study-num">'+u.index+'</div>'+
-    '<div class="study-t"><h1>'+esc(u.title)+'</h1>'+
-    '<div class="study-tags"><span class="tag'+(done.has(id)?' ok':'')+'">'+(done.has(id)?'已学 ✓':'未学')+'</span>'+
-    '<span class="tag">'+(S.ver==='old'&&hasOld?'1985 老版':'新版英音')+'</span>'+
-    (hasOld?'<button class="tag" id="tgVer" style="cursor:pointer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
-    (done.has(id)?'':'<button class="tag new" id="tgDone" style="cursor:pointer">标为已学</button>')+
-    '</div></div>'+
-    '<div class="study-meta" id="info"></div>'+
-    /* 切课：上一课 /「Lesson x」/ 下一课 同一行，按钮贴左右两端 */
-    '<div class="unit-nav">'+
-      '<button class="unbtn" id="hPrev" title="'+esc(prevU.title)+'">‹ 上一课</button>'+
-      '<span class="zh">'+esc(pair||('Lesson '+nums[0]))+(nums.length>1?'（两课同一段录音）':'')+'</span>'+
-      '<button class="unbtn" id="hNext" title="'+esc(nextU.title)+'">下一课 ›</button>'+
-    '</div>';
-  var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
-  var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
-  var p=$('#hPrev'),n=$('#hNext');
-  if(p)p.onclick=()=>openUnit(u.index-1,true);
-  if(n)n.onclick=()=>openUnit(u.index+1,true);
-  renderInfo(bk,u); /* #info 随 #head 一起被重建，信息条必须在最后补绘，否则重置/标记后整块会消失 */
+  var tp=$('#tPrev'),tn=$('#tNext');
+  if(tp)tp.title='上一课：'+prevU.title;
+  if(tn)tn.title='下一课：'+nextU.title;
+  /* 页面内不再有信息条（已并入顶栏状态区），#head 只作为「骨架是否已建」的占位存在 */
+  renderInfo(bk,u);
 }
 function renderSubs(){
   var box=$('#subBox');
@@ -527,19 +509,36 @@ function playVideoChip(p){
   syncVideoChips(p);
   setTab('video');
 }
-/* 本单元信息：放在顶部 bar 右侧，做成一排紧凑信息片 */
+/* ===== 顶栏状态区：本单元信息 + 单元操作 =====
+   原先它是页面里独立的一行信息条，现整体并入顶栏，成为全站唯一的「状态区域」。
+   左→右：本课状态 · 课号 · 音频版本 · 教材 · 全册已学进度，右侧放单元操作。 */
 function renderInfo(bk,u){
-  var box=$('#info');if(!box)return;
+  var bar=$('#statusbar');if(!bar)return;
+  var id=doneId(bk.id,u.index);
+  var dn=done.has(id);
   var nums=window.AppData.lessonNums(u);
   var has=noteExists(bk,u);
   var hasOld=window.AppData.hasVariant(u,'1985');
   var hasAudio=(u.audio||[]).length>0;
-  var chips=
-    '<span class="mi">🎧 '+(hasAudio?(hasOld?'新版 + 1985 老版':'新版英音'):'无音频')+'</span>'+
-    '<span class="mi">📚 '+(u.lessonLabel||('Lesson '+nums.join(' · ')))+(nums.length>1?'（同一段录音）':'')+'</span>'+
-    '<span class="mi'+(has?' ok':'')+'">📖 教材：'+(has?'已生成（右侧可按块跳转）':'本课尚未生成')+'</span>'+
-    '<span class="mi">💾 进度存于本机</span>';
-  box.innerHTML=chips+'<button class="mi act" id="btnReset" title="清除本单元的「已学」标记">重置标记</button>';
+  var dot=$('#stDot');if(dot)dot.classList.toggle('ok',dn);
+  var le=$('#stLesson');if(le)le.textContent=dn?'已学':'未学';
+  var nu=$('#stNums');if(nu)nu.textContent=u.lessonLabel||('Lesson '+nums.join(' · '));
+  var ve=$('#stVer');if(ve)ve.textContent=hasAudio?((S.ver==='old'&&hasOld)?'1985 老版':'新版英音'):'无音频';
+  var be=$('#stBook');
+  if(be){
+    be.textContent='教材：'+(has?'已生成':'尚未生成');
+    be.classList.toggle('ok',has);
+    be.title=has?'教材已生成，右栏顶部可按块跳转':'本课教材尚未生成';
+  }
+  var pg=$('#stProg');
+  if(pg)pg.textContent='✓ '+bk.units.filter(function(x){return done.has(doneId(bk.id,x.index));}).length+'/'+bk.units.length;
+  var acts=$('#metaActs');
+  if(acts)acts.innerHTML=
+    (hasOld?'<button class="mi act" id="tgVer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
+    (dn?'':'<button class="mi act pri" id="tgDone">标为已学</button>')+
+    '<button class="mi act" id="btnReset" title="清除本单元的「已学」标记">重置标记</button>';
+  var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
+  var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
   var r=$('#btnReset');if(r)r.onclick=()=>markUnit(bk,u,false,true);
 }
 /* ===== 教材内容加载：统一走 AppData.content（懒加载 + 缓存 + 404 记忆）=====

@@ -13,47 +13,64 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="点读学习">
-<link rel="stylesheet" href="css/app.css?v=40">
-<link rel="stylesheet" href="css/v12.css?v=40">
-<link rel="stylesheet" href="css/textbook.css?v=40">
-<link rel="stylesheet" href="css/split.css?v=40">
-<link rel="stylesheet" href="css/library.css?v=40">
+<link rel="stylesheet" href="css/app.css?v=48">
+<link rel="stylesheet" href="css/v12.css?v=48">
+<link rel="stylesheet" href="css/textbook.css?v=48">
+<link rel="stylesheet" href="css/split.css?v=48">
+<link rel="stylesheet" href="css/library.css?v=48">
 </head>
 <body>
 <div class="wrap">
   <div class="topbar">
     <div class="logo">学</div>
     <span class="sel booksel"><select id="bookSel"></select></span>
-    <!-- 教材目录：点击展开气泡弹窗，在弹窗里选单元 -->
-    <div class="dir-wrap">
-      <button class="dir-btn" id="dirBtn" aria-haspopup="dialog" aria-expanded="false">📚 教材目录 <i class="caret">▾</i></button>
-      <div class="dir-pop" id="dirPop" role="dialog" aria-label="教材目录" hidden>
-        <div class="dir-top">
-          <div>
-            <div class="dir-t">教材目录</div>
-            <div class="dir-sub" id="dirSub"></div>
+    <!-- 切课：上一课 / 教材目录（显示当前课名）/ 下一课，夹住目录按钮 -->
+    <div class="topnav">
+      <button class="unbtn" id="tPrev" title="上一课">‹ 上一课</button>
+      <div class="dir-wrap">
+        <button class="dir-btn" id="dirBtn" aria-haspopup="dialog" aria-expanded="false">📚 教材目录 <i class="caret">▾</i></button>
+        <div class="dir-pop" id="dirPop" role="dialog" aria-label="教材目录" hidden>
+          <div class="dir-top">
+            <div>
+              <div class="dir-t">教材目录</div>
+              <div class="dir-sub" id="dirSub"></div>
+            </div>
+            <button class="dir-x" id="dirX" title="关闭目录">✕</button>
           </div>
-          <button class="dir-x" id="dirX" title="关闭目录">✕</button>
-        </div>
-        <div class="dir-search">
-          <input id="dirSearch" type="text" placeholder="搜课号或标题，如 24 / handbag" autocomplete="off">
-          <span id="dirCount"></span>
-        </div>
-        <div class="dir-list" id="dirList"></div>
-        <div class="dir-foot">
-          <button class="dir-act" id="dirNow">定位当前课</button>
-          <button class="dir-act danger" id="dirDel" style="display:none">删除本课程包</button>
-          <span class="mut sm" id="dirTip">✓ 表示已学完</span>
+          <div class="dir-search">
+            <input id="dirSearch" type="text" placeholder="搜课号或标题，如 24 / handbag" autocomplete="off">
+            <span id="dirCount"></span>
+          </div>
+          <div class="dir-list" id="dirList"></div>
+          <div class="dir-foot">
+            <button class="dir-act" id="dirNow">定位当前课</button>
+            <button class="dir-act danger" id="dirDel" style="display:none">删除本课程包</button>
+            <span class="mut sm" id="dirTip">✓ 表示已学完</span>
+          </div>
         </div>
       </div>
+      <button class="unbtn" id="tNext" title="下一课">下一课 ›</button>
     </div>
+    <!-- 顶栏工具组：视图切换 + 课程管理，共用一个分段控件 -->
     <div class="viewsw">
       <button class="vwbtn on" id="vwStudy">📖 学习</button>
       <button class="vwbtn" id="vwNotes">🗂 笔记总览</button>
+      <button class="vwbtn imp" id="libBtn" title="课程管理：导入 / 导出 / 资源网站 / 我的知识">📚 课程管理</button>
     </div>
-    <button class="dir-btn imp" id="libBtn" title="课程管理：导入 / 导出 / 资源网站 / 我的知识">📚 课程管理</button>
     <input type="file" id="impFile" accept=".json,application/json" hidden>
-    <span class="pill" id="topTag"></span>
+    <!-- 状态区（整行独占）：左侧＝本单元信息，右侧＝单元操作 -->
+    <div class="statusbar" id="statusbar">
+      <span class="sb-item"><i class="sb-dot" id="stDot"></i><span id="stLesson">未学</span></span>
+      <i class="sb-sep"></i>
+      <span id="stNums"></span>
+      <i class="sb-sep"></i>
+      <span id="stVer"></span>
+      <i class="sb-sep"></i>
+      <span class="sb-book" id="stBook"></span>
+      <i class="sb-sep"></i>
+      <span class="sb-prog" id="stProg"></span>
+      <span class="meta-acts" id="metaActs"></span>
+    </div>
   </div>
   <div class="stage">
     <main class="main">
@@ -123,13 +140,13 @@
 
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
-<script src="js/data/store.js?v=40"></script>
-<script src="js/data/registry.js?v=40"></script>
-<script src="js/data/cache.js?v=40"></script>
-<script src="js/zip.js?v=40"></script>
-<script src="js/data/prompt.js?v=40"></script>
-<script src="js/app.js?v=40"></script>
-<script src="js/library.js?v=40"></script>
-<script src="js/pwa.js?v=40"></script>
+<script src="js/data/store.js?v=48"></script>
+<script src="js/data/registry.js?v=48"></script>
+<script src="js/data/cache.js?v=48"></script>
+<script src="js/zip.js?v=48"></script>
+<script src="js/data/prompt.js?v=48"></script>
+<script src="js/app.js?v=48"></script>
+<script src="js/library.js?v=48"></script>
+<script src="js/pwa.js?v=48"></script>
 </body>
 </html>

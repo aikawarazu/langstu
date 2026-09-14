@@ -1,16 +1,32 @@
 /* ===== v1.5 左右分栏 · 目录气泡 · 学习笔记 · 笔记总览 =====
    布局：顶栏 → 学习头（含本单元信息条）→ [左：音频/视频] [右：教材/学习笔记] → 上/下一单元 */
 
+/* ---------- 顶栏：① 切课按钮夹住教材目录 ② 状态区独占一行 ---------- */
+.topbar{flex-wrap:wrap;gap:8px} /* 收紧间距，尽量保持一行；真的放不下才折行 */
+.topnav{display:flex;align-items:center;gap:6px;flex:none}
+/* 状态区：整行独占。左侧＝本单元信息，右侧＝单元操作（原页面信息条已并入这里） */
+.statusbar{flex:1 1 100%;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-size:11px;font-weight:800;color:#6b7390;padding-top:8px;border-top:1px solid var(--line)}
+.statusbar .sb-item{display:flex;align-items:center;gap:5px}
+.statusbar .sb-dot{width:7px;height:7px;border-radius:50%;background:#c3cadd;flex:none}
+.statusbar .sb-dot.ok{background:var(--ok)}
+.statusbar .sb-sep{width:1px;height:11px;background:#d7dded;flex:none}
+.statusbar .sb-prog{color:var(--ok-ink)}
+.statusbar .sb-book.ok{color:var(--ok-ink)}
+
 /* ---------- 顶栏：学习 / 笔记总览 视图切换 ---------- */
 .viewsw{display:flex;gap:2px;background:#eef1f8;padding:3px;border-radius:10px;flex:none}
 .vwbtn{font-size:12px;font-weight:800;padding:6px 12px;border-radius:8px;color:var(--mut);white-space:nowrap}
 .vwbtn:hover{color:var(--ink)}
 .vwbtn.on{background:#fff;color:var(--pri);box-shadow:0 2px 8px -4px rgba(30,45,95,.4)}
+.vwbtn.imp{color:var(--pri)} /* 课程管理：同组内用主题色区分「动作项」 */
 
-/* ---------- 学习头右侧：本单元信息条 ---------- */
-.study-meta{margin-left:auto;display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+/* ---------- 学习头：信息条已并入顶栏状态区，占位元素为空时不再撑出空白 ---------- */
+.study-head:empty{display:none}
+.meta-acts{margin-left:auto;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.mi.act.pri{background:var(--pri-soft);border-color:#c9d2ff;color:var(--pri)}
+.mi.act.pri:hover{border-color:var(--pri);color:var(--pri)}
 .mi{font-size:11px;font-weight:800;padding:4px 9px;border-radius:99px;background:#eef1f8;color:#6b7390;white-space:nowrap}
-.mi.ok{background:var(--ok-soft);color:var(--ok-ink)}
 .mi.act{cursor:pointer;background:#fff;border:1px solid var(--line);color:#6b7390}
 .mi.act:hover{border-color:var(--err);color:var(--err)}
 
@@ -60,8 +76,7 @@
 .dir-act:hover{background:#dde2ff}
 .dir-act.danger{background:#fdeaea;color:var(--err)}
 .dir-act.danger:hover{background:#fbd7d7}
-.dir-btn.imp{background:#fff;border:1px dashed #c6ccda;color:#5b6380}
-.dir-btn.imp:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-soft)}
+
 .dir-foot .sm{margin-left:auto}
 
 /* ---------- 主区：左右两栏 ---------- */
@@ -75,14 +90,12 @@
 .col::-webkit-scrollbar{width:8px}
 .col::-webkit-scrollbar-thumb{background:#dbe1ee;border-radius:99px}
 .col::-webkit-scrollbar-thumb:hover{background:#c6cee0}
-/* 桌面双栏：切课按钮已移到课程头部右上，底部栏不再显示 */
+/* 桌面双栏：切课按钮已在课程头部，底部栏不再显示 */
 .navless{display:none}
 
-/* 课程头部：上一课 / 下一课 与「Lesson x」说明同一行，左右分布（单独占满一行） */
-.unit-nav{display:flex;align-items:center;gap:10px;flex:1 1 100%;justify-content:space-between;margin-top:2px}
-.unit-nav .zh{flex:1;min-width:0;text-align:center;font-size:12.5px;color:var(--mut);font-weight:700;
-  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.unbtn{display:inline-flex;align-items:center;gap:4px;padding:8px 14px;border-radius:10px;
+/* ---------- 学习头：只留本单元信息 / 操作条（课名在顶栏教材目录按钮上，页面内不重复） ---------- */
+.study-head{display:flex;flex-direction:column;align-items:stretch;flex:none;margin-bottom:14px}
+.unbtn{display:inline-flex;align-items:center;gap:4px;padding:7px 12px;border-radius:10px;
   background:#fff;border:1px solid var(--line);font-weight:800;font-size:12.5px;color:#5b6380;white-space:nowrap}
 .unbtn:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-soft)}
 
@@ -236,8 +249,8 @@
   /* 平板（上下堆叠）仍保留头部右上角的上一课/下一课，避免切课入口被推到页面最底部 */
 }
 @media (max-width:560px){
-  /* 手机头部过挤：头部切课按钮收起（保留「Lesson x」说明），改回页面底部切课栏 */
-  .unit-nav .unbtn{display:none}
+  /* 手机顶栏放不下切课按钮：收起，改回页面底部切课栏 */
+  .topnav .unbtn{display:none}
   .navless{display:flex;flex:none;gap:10px;margin:16px 0 0;padding:12px 0 16px;border-top:1px solid var(--line)}
   .topbar{padding:9px 12px;gap:7px}
   .booksel select{max-width:38vw}
@@ -248,7 +261,6 @@
   .dir-pop{position:fixed;top:54px;left:10px;right:10px;width:auto}
   .dir-pop::before{display:none}
   .nt-words{grid-template-columns:1fr 1fr}
-  .study-meta{margin-left:0;width:100%;justify-content:flex-start}
   .ov-stats{width:100%;justify-content:flex-start}
 }
 
