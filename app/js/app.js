@@ -219,6 +219,44 @@ function bindStatic(){
     if(S.loopAll){setT(S.seg.length?segStart(0):0);tryPlay();}
   });
   a.addEventListener('error',()=>toast('音频加载失败：需联网访问资源站'));
+  bindTopbarAutoHide();
+}
+
+/* ===== 顶栏「自动隐藏」：向下滚动收起、向上滚动立即回来 =====
+   专业叫法 hide-on-scroll header / auto-hide header（Android 旧称 Quick Return，Material 里是 Collapsing Toolbar）。
+   要点是「方向感知」：只看滚动方向，不只看位置 —— 往下滚藏起来给内容让位，往上滚一点点立刻召回。
+   收起用负 margin-top（而不是 height），这样不必 overflow:hidden，教材目录气泡弹窗才不会被裁掉。 */
+var TOP={el:null,h:0,lock:0};
+function topbarSyncH(){                      /* 顶栏高度随宽度换行而变，需要重新量 */
+  var b=TOP.el;if(!b)return;
+  TOP.h=b.offsetHeight||0;
+  b.style.setProperty('--topbar-h',TOP.h+'px');
+}
+function topbarSet(hid){
+  var b=TOP.el;if(!b)return;
+  if(b.classList.contains('hid')===hid)return;
+  b.classList.toggle('hid',hid);
+  /* 收起瞬间容器可用高度变大，滚动容器的 scrollTop 可能被夹一下，短暂上锁避免来回抖 */
+  TOP.lock=Date.now()+320;
+}
+function bindTopbarAutoHide(){
+  var b=document.querySelector('.topbar');if(!b)return;
+  TOP.el=b;topbarSyncH();
+  var MIN=48;   /* 顶部这段距离内永不收起，避免刚打开页面就闪 */
+  var STEP=6;   /* 方向判定阈值，滤掉惯性滚动的抖动 */
+  /* 滚动事件不冒泡，用捕获阶段就能同时收到各滚动容器（左右两栏 / 整页 / 笔记总览） */
+  document.addEventListener('scroll',function(e){
+    var t=e.target;
+    if(!t||t===window||Date.now()<TOP.lock)return;
+    var y=(t===document||t===document.documentElement||t===document.body)
+      ?(window.pageYOffset||0):(t.scrollTop||0);
+    var last=(t._sy==null)?y:t._sy;t._sy=y;   /* 每个容器各记一份，互不干扰 */
+    if(y<=MIN){topbarSet(false);return;}
+    var d=y-last;
+    if(d>=STEP)topbarSet(true);
+    else if(d<=-STEP)topbarSet(false);
+  },true);
+  var rz;window.addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(topbarSyncH,150);});
 }
 function setBook(id){
   var bk=dataOf(id);
@@ -540,6 +578,7 @@ function renderInfo(bk,u){
   var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
   var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
   var r=$('#btnReset');if(r)r.onclick=()=>markUnit(bk,u,false,true);
+  topbarSyncH(); /* 状态文案变长变短可能让顶栏多占一行，收起高度要跟着重算 */
 }
 /* ===== 教材内容加载：统一走 AppData.content（懒加载 + 缓存 + 404 记忆）=====
    取到后挂在 unit._content 上，渲染层只读 noteOf(bk,unit)。 */
