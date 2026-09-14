@@ -3,10 +3,6 @@
 
 /* ---------- 顶栏：① 切课按钮夹住教材目录 ② 状态区独占一行 ---------- */
 .topbar{flex-wrap:wrap;gap:8px} /* 收紧间距，尽量保持一行；真的放不下才折行 */
-/* 自动隐藏（hide-on-scroll）：向下滚收起、向上滚召回。
-   用负 margin-top 移出 .wrap 的 overflow:hidden 裁切区，避开 overflow 裁掉目录气泡弹窗的问题 */
-.topbar{transition:margin-top .22s ease}
-.topbar.hid{margin-top:calc(var(--topbar-h,0px) * -1)}
 .topnav{display:flex;align-items:center;gap:6px;flex:none}
 /* 状态区：整行独占。左侧＝本单元信息，右侧＝单元操作（原页面信息条已并入这里） */
 .statusbar{flex:1 1 100%;display:flex;align-items:center;gap:8px;flex-wrap:wrap;

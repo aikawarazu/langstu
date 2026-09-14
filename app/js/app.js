@@ -219,102 +219,6 @@ function bindStatic(){
     if(S.loopAll){setT(S.seg.length?segStart(0):0);tryPlay();}
   });
   a.addEventListener('error',()=>toast('音频加载失败：需联网访问资源站'));
-  bindTopbarAutoHide();
-}
-
-/* ===== 顶栏「自动隐藏」：向下滚动收起、向上滚动立即回来 =====
-   专业叫法 hide-on-scroll header / auto-hide header（Android 旧称 Quick Return，Material 是 Collapsing Toolbar）。
-   两个关键点：
-   1) 方向感知：向下滚藏起来让位，向上滚一点点就召回，不只看位置；
-   2) 滚动锚定（scroll anchoring）：收起会回收整整一条顶栏的高度，内容区顶边随之上移，
-      不管它的话眼睛看到的就是「内容跳一下」。这里在动画期间持续把 scrollTop 反向补偿，
-      让内容在屏幕坐标上原地不动 —— 屏幕上只有顶栏自己在滑。
-   收起用负 margin-top（而不是 height + overflow:hidden），否则会裁掉教材目录气泡弹窗。 */
-var TOP={el:null,h:0,lock:0,timer:0,tok:0,raf:0,scroller:null,lastTop:null,anchoring:false};
-function topbarSyncH(){                      /* 顶栏高度随宽度换行而变，需要重新量 */
-  var b=TOP.el;if(!b)return;
-  TOP.h=b.offsetHeight||0;
-  b.style.setProperty('--topbar-h',TOP.h+'px');
-}
-/* 动画期间每帧量一次容器顶边位移并反向补偿：容器下移 d，就多滚 d，内容便停在原地。
-   量的是容器自己的 border box，不受它内部滚动影响，所以这个测量是稳定的。 */
-function topbarAnchor(){
-  var c=TOP.scroller;
-  if(c&&typeof c.scrollTop==='number'){
-    var top=c.getBoundingClientRect().top;
-    if(TOP.lastTop!=null){
-      var d=top-TOP.lastTop;
-      if(d)c.scrollTop+=d;
-    }
-    TOP.lastTop=top;
-  }
-  if(TOP.anchoring)TOP.raf=requestAnimationFrame(topbarAnchor);
-  else{TOP.lastTop=null;TOP.scroller=null;}
-}
-function topbarSet(hid,t){
-  var b=TOP.el;if(!b)return;
-  if(b.classList.contains('hid')===hid){TOP.lock=Date.now()+200;return;}
-  /* t = 触发这次变化的滚动容器：滚动引起的变化才做锚定；切课之类离散动作不做 */
-  if(t&&typeof t.scrollTop==='number'){
-    TOP.scroller=t;TOP.lastTop=t.getBoundingClientRect().top;TOP.anchoring=true;
-    cancelAnimationFrame(TOP.raf);TOP.raf=requestAnimationFrame(topbarAnchor);
-  }
-  b.classList.toggle('hid',hid);
-  var tok=++TOP.tok;
-  if(t)setTimeout(function(){if(tok===TOP.tok)TOP.anchoring=false;},280); /* 过渡约 220ms，之后停表 */
-  TOP.lock=Date.now()+360;   /* 锁住锚定补偿自己产生的滚动事件，别被误判成用户滚动 */
-}
-function maxScrollOf(t){
-  if(t===document||t===document.documentElement||t===document.body)
-    return Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
-  return Math.max(0,t.scrollHeight-t.clientHeight);
-}
-/* 哪些滚动容器允许触发顶栏收起？
-   只允许「阅读区」：右栏教材/笔记（.col-b）、笔记总览（#overview），
-   以及窄屏整页滚动（.main）里**滚过音频/视频模块之后**的那一段。
-   音频/视频栏本身绝不触发 —— 收起会改变布局高度，触摸设备上会打断正在进行的手势：
-   iPad 上表现为「滚着滚着突然加速」、歌词列表滚不动、B 站播放器收不到滑动调音量的手势。 */
-function canAutoHide(t){
-  if(!t||!t.classList)return false;
-  if(t.classList.contains('col-b')||t.id==='overview')return true;
-  if(t.classList.contains('main')||t===document||t===document.documentElement||t===document.body){
-    var a=document.querySelector('.col-a');
-    return !a||a.getBoundingClientRect().bottom<=0;   /* 音频/视频整块已滚出视口上方 */
-  }
-  return false;
-}
-function bindTopbarAutoHide(){
-  var b=document.querySelector('.topbar');if(!b)return;
-  TOP.el=b;topbarSyncH();
-  var MIN=48;   /* 顶部这段距离内永不收起，避免刚打开页面就闪 */
-  var STEP=6;   /* 方向判定阈值，滤掉惯性滚动的抖动 */
-  /* 触摸设备等惯性滚动停下来再变状态：滚动过程中改布局或改 scrollTop 都会打断惯性，反而更抖 */
-  var COARSE=!!(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches);
-  var SETTLE=COARSE?140:0;
-  /* 滚动事件不冒泡，用捕获阶段就能同时收到各滚动容器（左右两栏 / 整页 / 笔记总览） */
-  document.addEventListener('scroll',function(e){
-    var t=e.target;
-    if(!t||t===window)return;
-    if(!canAutoHide(t))return;   /* 音频/视频区一律不动顶栏，保证触摸手势不被布局变化打断 */
-    if(Date.now()<TOP.lock)return;
-    var y=(t===document||t===document.documentElement||t===document.body)
-      ?(window.pageYOffset||0):(t.scrollTop||0);
-    var last=(t._sy==null)?y:t._sy;t._sy=y;   /* 每个容器各记一份，互不干扰 */
-    var hid=b.classList.contains('hid'),want=hid;
-    if(y<=MIN)want=false;
-    else{
-      var d=y-last;
-      if(d<=-STEP)want=false;
-      /* 收起要同时满足：下方还够滚（否则容器变高会把 scrollTop 夹小）、
-         上方也够补偿（锚定要把 scrollTop 减掉整整一条顶栏的高度） */
-      else if(d>=STEP&&y>=TOP.h&&maxScrollOf(t)-y>=TOP.h+24)want=true;
-      else return;                            /* 方向不明确：维持现状，不要来回翻 */
-    }
-    if(want===hid)return;
-    clearTimeout(TOP.timer);
-    TOP.timer=setTimeout(function(){topbarSet(want,t);},SETTLE);
-  },true);
-  var rz;window.addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(topbarSyncH,150);});
 }
 function setBook(id){
   var bk=dataOf(id);
@@ -462,8 +366,6 @@ function openUnit(u,autoplay){
   if(u<1)u=units.length;else if(u>units.length)u=1;
   /* 当前在「视频讲解」页签时切课不自动起播音频：避免正在看视频却被课文音频抢声 */
   if(S.tab==='video')autoplay=false;
-  /* 切课是离散动作（不是滚动），顺手把顶栏召回：否则在音频/视频区滚动时顶栏不会被唤醒，会滞留在收起态 */
-  if(TOP.el)topbarSet(false);
   S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;
   /* 立即落盘：不等轮询，关页面也不丢进度 */
   try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
@@ -638,7 +540,6 @@ function renderInfo(bk,u){
   var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};
   var d=$('#tgDone');if(d)d.onclick=()=>markUnit(bk,u,true);
   var r=$('#btnReset');if(r)r.onclick=()=>markUnit(bk,u,false,true);
-  topbarSyncH(); /* 状态文案变长变短可能让顶栏多占一行，收起高度要跟着重算 */
 }
 /* ===== 教材内容加载：统一走 AppData.content（懒加载 + 缓存 + 404 记忆）=====
    取到后挂在 unit._content 上，渲染层只读 noteOf(bk,unit)。 */
