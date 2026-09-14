@@ -244,6 +244,20 @@ function maxScrollOf(t){
     return Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
   return Math.max(0,t.scrollHeight-t.clientHeight);
 }
+/* 哪些滚动容器允许触发顶栏收起？
+   只允许「阅读区」：右栏教材/笔记（.col-b）、笔记总览（#overview），
+   以及窄屏整页滚动（.main）里**滚过音频/视频模块之后**的那一段。
+   音频/视频栏本身绝不触发 —— 收起会改变布局高度，触摸设备上会打断正在进行的手势：
+   iPad 上表现为「滚着滚着突然加速」、歌词列表滚不动、B 站播放器收不到滑动调音量的手势。 */
+function canAutoHide(t){
+  if(!t||!t.classList)return false;
+  if(t.classList.contains('col-b')||t.id==='overview')return true;
+  if(t.classList.contains('main')||t===document||t===document.documentElement||t===document.body){
+    var a=document.querySelector('.col-a');
+    return !a||a.getBoundingClientRect().bottom<=0;   /* 音频/视频整块已滚出视口上方 */
+  }
+  return false;
+}
 function bindTopbarAutoHide(){
   var b=document.querySelector('.topbar');if(!b)return;
   TOP.el=b;topbarSyncH();
@@ -253,6 +267,7 @@ function bindTopbarAutoHide(){
   document.addEventListener('scroll',function(e){
     var t=e.target;
     if(!t||t===window||Date.now()<TOP.lock)return;
+    if(!canAutoHide(t))return;   /* 音频/视频区一律不动顶栏，保证触摸手势不被布局变化打断 */
     var y=(t===document||t===document.documentElement||t===document.body)
       ?(window.pageYOffset||0):(t.scrollTop||0);
     var last=(t._sy==null)?y:t._sy;t._sy=y;   /* 每个容器各记一份，互不干扰 */
@@ -260,8 +275,7 @@ function bindTopbarAutoHide(){
     var d=y-last;
     if(d<=-STEP){topbarSet(false);return;}
     /* 只在「下方还剩足够可滚距离」时才收起：收起会让容器变高、maxScroll 变小，
-       从而把 scrollTop 夹小 —— 那会被当成「向上滚」，顶栏就会收起又立刻弹回。
-       左栏（音频/视频）内容通常只比视口高一点点，正是最容易踩到这个坑的地方。 */
+       从而把 scrollTop 夹小 —— 那会被当成「向上滚」，顶栏就会收起又立刻弹回。 */
     if(d>=STEP&&maxScrollOf(t)-y>=TOP.h+24)topbarSet(true);
   },true);
   var rz;window.addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(topbarSyncH,150);});
@@ -412,6 +426,8 @@ function openUnit(u,autoplay){
   if(u<1)u=units.length;else if(u>units.length)u=1;
   /* 当前在「视频讲解」页签时切课不自动起播音频：避免正在看视频却被课文音频抢声 */
   if(S.tab==='video')autoplay=false;
+  /* 切课是离散动作（不是滚动），顺手把顶栏召回：否则在音频/视频区滚动时顶栏不会被唤醒，会滞留在收起态 */
+  if(TOP.el)topbarSet(false);
   S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;
   /* 立即落盘：不等轮询，关页面也不丢进度 */
   try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
