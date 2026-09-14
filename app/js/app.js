@@ -223,21 +223,46 @@ function bindStatic(){
 }
 
 /* ===== 顶栏「自动隐藏」：向下滚动收起、向上滚动立即回来 =====
-   专业叫法 hide-on-scroll header / auto-hide header（Android 旧称 Quick Return，Material 里是 Collapsing Toolbar）。
-   要点是「方向感知」：只看滚动方向，不只看位置 —— 往下滚藏起来给内容让位，往上滚一点点立刻召回。
-   收起用负 margin-top（而不是 height），这样不必 overflow:hidden，教材目录气泡弹窗才不会被裁掉。 */
-var TOP={el:null,h:0,lock:0};
+   专业叫法 hide-on-scroll header / auto-hide header（Android 旧称 Quick Return，Material 是 Collapsing Toolbar）。
+   两个关键点：
+   1) 方向感知：向下滚藏起来让位，向上滚一点点就召回，不只看位置；
+   2) 滚动锚定（scroll anchoring）：收起会回收整整一条顶栏的高度，内容区顶边随之上移，
+      不管它的话眼睛看到的就是「内容跳一下」。这里在动画期间持续把 scrollTop 反向补偿，
+      让内容在屏幕坐标上原地不动 —— 屏幕上只有顶栏自己在滑。
+   收起用负 margin-top（而不是 height + overflow:hidden），否则会裁掉教材目录气泡弹窗。 */
+var TOP={el:null,h:0,lock:0,timer:0,tok:0,raf:0,scroller:null,lastTop:null,anchoring:false};
 function topbarSyncH(){                      /* 顶栏高度随宽度换行而变，需要重新量 */
   var b=TOP.el;if(!b)return;
   TOP.h=b.offsetHeight||0;
   b.style.setProperty('--topbar-h',TOP.h+'px');
 }
-function topbarSet(hid){
+/* 动画期间每帧量一次容器顶边位移并反向补偿：容器下移 d，就多滚 d，内容便停在原地。
+   量的是容器自己的 border box，不受它内部滚动影响，所以这个测量是稳定的。 */
+function topbarAnchor(){
+  var c=TOP.scroller;
+  if(c&&typeof c.scrollTop==='number'){
+    var top=c.getBoundingClientRect().top;
+    if(TOP.lastTop!=null){
+      var d=top-TOP.lastTop;
+      if(d)c.scrollTop+=d;
+    }
+    TOP.lastTop=top;
+  }
+  if(TOP.anchoring)TOP.raf=requestAnimationFrame(topbarAnchor);
+  else{TOP.lastTop=null;TOP.scroller=null;}
+}
+function topbarSet(hid,t){
   var b=TOP.el;if(!b)return;
-  if(b.classList.contains('hid')===hid)return;
+  if(b.classList.contains('hid')===hid){TOP.lock=Date.now()+200;return;}
+  /* t = 触发这次变化的滚动容器：滚动引起的变化才做锚定；切课之类离散动作不做 */
+  if(t&&typeof t.scrollTop==='number'){
+    TOP.scroller=t;TOP.lastTop=t.getBoundingClientRect().top;TOP.anchoring=true;
+    cancelAnimationFrame(TOP.raf);TOP.raf=requestAnimationFrame(topbarAnchor);
+  }
   b.classList.toggle('hid',hid);
-  /* 收起瞬间容器可用高度变大，滚动容器的 scrollTop 可能被夹一下，短暂上锁避免来回抖 */
-  TOP.lock=Date.now()+320;
+  var tok=++TOP.tok;
+  if(t)setTimeout(function(){if(tok===TOP.tok)TOP.anchoring=false;},280); /* 过渡约 220ms，之后停表 */
+  TOP.lock=Date.now()+360;   /* 锁住锚定补偿自己产生的滚动事件，别被误判成用户滚动 */
 }
 function maxScrollOf(t){
   if(t===document||t===document.documentElement||t===document.body)
@@ -263,20 +288,31 @@ function bindTopbarAutoHide(){
   TOP.el=b;topbarSyncH();
   var MIN=48;   /* 顶部这段距离内永不收起，避免刚打开页面就闪 */
   var STEP=6;   /* 方向判定阈值，滤掉惯性滚动的抖动 */
+  /* 触摸设备等惯性滚动停下来再变状态：滚动过程中改布局或改 scrollTop 都会打断惯性，反而更抖 */
+  var COARSE=!!(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches);
+  var SETTLE=COARSE?140:0;
   /* 滚动事件不冒泡，用捕获阶段就能同时收到各滚动容器（左右两栏 / 整页 / 笔记总览） */
   document.addEventListener('scroll',function(e){
     var t=e.target;
-    if(!t||t===window||Date.now()<TOP.lock)return;
+    if(!t||t===window)return;
     if(!canAutoHide(t))return;   /* 音频/视频区一律不动顶栏，保证触摸手势不被布局变化打断 */
+    if(Date.now()<TOP.lock)return;
     var y=(t===document||t===document.documentElement||t===document.body)
       ?(window.pageYOffset||0):(t.scrollTop||0);
     var last=(t._sy==null)?y:t._sy;t._sy=y;   /* 每个容器各记一份，互不干扰 */
-    if(y<=MIN){topbarSet(false);return;}
-    var d=y-last;
-    if(d<=-STEP){topbarSet(false);return;}
-    /* 只在「下方还剩足够可滚距离」时才收起：收起会让容器变高、maxScroll 变小，
-       从而把 scrollTop 夹小 —— 那会被当成「向上滚」，顶栏就会收起又立刻弹回。 */
-    if(d>=STEP&&maxScrollOf(t)-y>=TOP.h+24)topbarSet(true);
+    var hid=b.classList.contains('hid'),want=hid;
+    if(y<=MIN)want=false;
+    else{
+      var d=y-last;
+      if(d<=-STEP)want=false;
+      /* 收起要同时满足：下方还够滚（否则容器变高会把 scrollTop 夹小）、
+         上方也够补偿（锚定要把 scrollTop 减掉整整一条顶栏的高度） */
+      else if(d>=STEP&&y>=TOP.h&&maxScrollOf(t)-y>=TOP.h+24)want=true;
+      else return;                            /* 方向不明确：维持现状，不要来回翻 */
+    }
+    if(want===hid)return;
+    clearTimeout(TOP.timer);
+    TOP.timer=setTimeout(function(){topbarSet(want,t);},SETTLE);
   },true);
   var rz;window.addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(topbarSyncH,150);});
 }
