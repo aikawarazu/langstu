@@ -367,7 +367,7 @@ function openUnit(u,autoplay){
   try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
   var req=++S.req; /* 防快速切换：旧请求返回时丢弃 */
   var unit=units[u-1];
-  renderDir();renderHead(bk,unit);renderInfo(bk,unit);renderVideoChips(bk,unit);
+  renderDir();renderHead(bk,unit);renderVideoChips(bk,unit);
   renderTextbook(bk,unit);renderAnchors(bk,unit);refreshTextbook(bk,unit,req);
   var a=$('#audio');
   a.dataset.tok=String(req); /* 打标记：迟到的旧音频事件据此丢弃 */
@@ -443,6 +443,7 @@ function renderHead(bk,u){
   var p=$('#hPrev'),n=$('#hNext');
   if(p)p.onclick=()=>openUnit(u.index-1,true);
   if(n)n.onclick=()=>openUnit(u.index+1,true);
+  renderInfo(bk,u); /* #info 随 #head 一起被重建，信息条必须在最后补绘，否则重置/标记后整块会消失 */
 }
 function renderSubs(){
   var box=$('#subBox');

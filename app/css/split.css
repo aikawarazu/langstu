@@ -231,11 +231,12 @@
   .col+.col{margin-top:16px}
   .col-b .tabs{position:static}
   .sub{height:min(46vh,400px)}
-  /* 窄屏上下堆叠、整页滚动：恢复底部切课栏，滚到底即可换课 */
-  .navless{display:flex;flex:none;gap:10px;margin:16px 0 0;padding:12px 0 16px;border-top:1px solid var(--line)}
-  .unit-nav{display:none}
+  /* 平板（上下堆叠）仍保留头部右上角的上一课/下一课，避免切课入口被推到页面最底部 */
 }
 @media (max-width:560px){
+  /* 手机头部过挤：头部切课按钮收起，改回页面底部切课栏 */
+  .unit-nav{display:none}
+  .navless{display:flex;flex:none;gap:10px;margin:16px 0 0;padding:12px 0 16px;border-top:1px solid var(--line)}
   .topbar{padding:9px 12px;gap:7px}
   .booksel select{max-width:38vw}
   .viewsw{padding:2px}
