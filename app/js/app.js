@@ -239,6 +239,11 @@ function topbarSet(hid){
   /* 收起瞬间容器可用高度变大，滚动容器的 scrollTop 可能被夹一下，短暂上锁避免来回抖 */
   TOP.lock=Date.now()+320;
 }
+function maxScrollOf(t){
+  if(t===document||t===document.documentElement||t===document.body)
+    return Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
+  return Math.max(0,t.scrollHeight-t.clientHeight);
+}
 function bindTopbarAutoHide(){
   var b=document.querySelector('.topbar');if(!b)return;
   TOP.el=b;topbarSyncH();
@@ -253,8 +258,11 @@ function bindTopbarAutoHide(){
     var last=(t._sy==null)?y:t._sy;t._sy=y;   /* 每个容器各记一份，互不干扰 */
     if(y<=MIN){topbarSet(false);return;}
     var d=y-last;
-    if(d>=STEP)topbarSet(true);
-    else if(d<=-STEP)topbarSet(false);
+    if(d<=-STEP){topbarSet(false);return;}
+    /* 只在「下方还剩足够可滚距离」时才收起：收起会让容器变高、maxScroll 变小，
+       从而把 scrollTop 夹小 —— 那会被当成「向上滚」，顶栏就会收起又立刻弹回。
+       左栏（音频/视频）内容通常只比视口高一点点，正是最容易踩到这个坑的地方。 */
+    if(d>=STEP&&maxScrollOf(t)-y>=TOP.h+24)topbarSet(true);
   },true);
   var rz;window.addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(topbarSyncH,150);});
 }
