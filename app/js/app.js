@@ -231,6 +231,8 @@ function setBook(id){
 }
 function setTab(t){
   S.tab=t;
+  /* 切到「视频讲解」：先暂停音频，避免看视频时课文音频还在后台响 */
+  if(t==='video'){var a=$('#audio');if(a&&!a.paused){try{a.pause();}catch(e){}}}
   $('#tbAudio').classList.toggle('on',t==='audio');
   $('#tbVideo').classList.toggle('on',t==='video');
   $('#paneAudio').classList.toggle('on',t==='audio');
@@ -427,15 +429,16 @@ function renderHead(bk,u){
   $('#head').innerHTML=
     '<div class="study-num">'+u.index+'</div>'+
     '<div class="study-t"><h1>'+esc(u.title)+'</h1>'+
-    '<div class="zh">'+esc(pair||('Lesson '+nums[0]))+(nums.length>1?'（两课同一段录音）':'')+'</div>'+
     '<div class="study-tags"><span class="tag'+(done.has(id)?' ok':'')+'">'+(done.has(id)?'已学 ✓':'未学')+'</span>'+
     '<span class="tag">'+(S.ver==='old'&&hasOld?'1985 老版':'新版英音')+'</span>'+
     (hasOld?'<button class="tag" id="tgVer" style="cursor:pointer">切 '+(S.ver==='old'?'新版':'85 老版')+'</button>':'')+
     (done.has(id)?'':'<button class="tag new" id="tgDone" style="cursor:pointer">标为已学</button>')+
     '</div></div>'+
     '<div class="study-meta" id="info"></div>'+
+    /* 切课：上一课 /「Lesson x」/ 下一课 同一行，按钮贴左右两端 */
     '<div class="unit-nav">'+
       '<button class="unbtn" id="hPrev" title="'+esc(prevU.title)+'">‹ 上一课</button>'+
+      '<span class="zh">'+esc(pair||('Lesson '+nums[0]))+(nums.length>1?'（两课同一段录音）':'')+'</span>'+
       '<button class="unbtn" id="hNext" title="'+esc(nextU.title)+'">下一课 ›</button>'+
     '</div>';
   var v=$('#tgVer');if(v)v.onclick=()=>{S.ver=S.ver==='old'?'new':'old';S.lastFile=null;openUnit(u.index,true);};

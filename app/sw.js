@@ -8,7 +8,7 @@
    导航请求（打开页面）：network-first，失败回退缓存的 index.html → 离线也能打开。
    ⚠ 改了 app/ 下的静态资源后，把 VERSION 与 PRECACHE 里的 ?v= 一起 +1（旧缓存会在 activate 清掉）。 */
 
-var VERSION = 'langstu-v39';
+var VERSION = 'langstu-v40';
 var SHELL = VERSION + '-shell';
 var RUNTIME = VERSION + '-rt';
 var RT_MAX = 400;   /* 运行时文本桶上限（条），超出按插入顺序淘汰 */
@@ -21,19 +21,19 @@ var PRECACHE = [
   './icons/icon-512.png',
   './icons/icon-maskable-512.png',
   './icons/apple-touch-icon.png',
-  './css/app.css?v=39',
-  './css/v12.css?v=39',
-  './css/textbook.css?v=39',
-  './css/split.css?v=39',
-  './css/library.css?v=39',
-  './js/data/store.js?v=39',
-  './js/data/registry.js?v=39',
-  './js/data/cache.js?v=39',
-  './js/zip.js?v=39',
-  './js/data/prompt.js?v=39',
-  './js/app.js?v=39',
-  './js/library.js?v=39',
-  './js/pwa.js?v=39'
+  './css/app.css?v=40',
+  './css/v12.css?v=40',
+  './css/textbook.css?v=40',
+  './css/split.css?v=40',
+  './css/library.css?v=40',
+  './js/data/store.js?v=40',
+  './js/data/registry.js?v=40',
+  './js/data/cache.js?v=40',
+  './js/zip.js?v=40',
+  './js/data/prompt.js?v=40',
+  './js/app.js?v=40',
+  './js/library.js?v=40',
+  './js/pwa.js?v=40'
 ];
 
 /* ---------- 生命周期 ---------- */
