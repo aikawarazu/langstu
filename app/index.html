@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>新概念英语点读 · 学习</title>
 <meta name="description" content="纯静态英语教材点读学习站：课文逐句点读、音频精听 A-B 复读、教材笔记、跨课笔记总览，支持离线使用。">
 <meta name="theme-color" content="#4353ff">
@@ -13,11 +13,38 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="点读学习">
-<link rel="stylesheet" href="css/app.css?v=59">
-<link rel="stylesheet" href="css/v12.css?v=59">
-<link rel="stylesheet" href="css/textbook.css?v=59">
-<link rel="stylesheet" href="css/split.css?v=59">
-<link rel="stylesheet" href="css/library.css?v=59">
+<link rel="stylesheet" href="css/app.css?v=60">
+<link rel="stylesheet" href="css/v12.css?v=60">
+<link rel="stylesheet" href="css/textbook.css?v=60">
+<link rel="stylesheet" href="css/split.css?v=60">
+<link rel="stylesheet" href="css/library.css?v=60">
+<script>
+/* 禁用页面缩放（四种途径一起上，缺一种就会被某端绕过）：
+   1) 视口锁死：maximum-scale=1,user-scalable=no —— Android / 桌面浏览器认；
+   2) iOS Safari 从 iOS 10 起忽略 user-scalable=no，且不支持靠 touch-action 关捏合，
+      故拦掉它的手势事件 gesturestart/gesturechange/gestureend，并对多指 touchmove 兜底；
+   3) 双击缩放：300ms 内第二次抬手直接 preventDefault（只拦第二下，不影响单击）；
+   4) 桌面：Ctrl/⌘ + 滚轮（触控板捏合）与 Ctrl/⌘ + +/-/0 拦掉（浏览器快捷键缩放）。 */
+(function () {
+  function stop(e) { e.preventDefault(); }
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach(function (t) {
+    document.addEventListener(t, stop, { passive: false });
+  });
+  document.addEventListener('touchmove', function (e) {
+    if (e.touches.length > 1) e.preventDefault();
+  }, { passive: false });
+  var lastEnd = 0;
+  document.addEventListener('touchend', function (e) {
+    var now = Date.now();
+    if (now - lastEnd <= 300) e.preventDefault();
+    lastEnd = now;
+  }, { passive: false });
+  window.addEventListener('wheel', function (e) { if (e.ctrlKey) e.preventDefault(); }, { passive: false });
+  window.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && /^[+\-=_0]$/.test(e.key)) e.preventDefault();
+  }, { passive: false });
+})();
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -140,13 +167,13 @@
 
 <audio id="audio" preload="metadata"></audio>
 <div id="toast"></div>
-<script src="js/data/store.js?v=59"></script>
-<script src="js/data/registry.js?v=59"></script>
-<script src="js/data/cache.js?v=59"></script>
-<script src="js/zip.js?v=59"></script>
-<script src="js/data/prompt.js?v=59"></script>
-<script src="js/app.js?v=59"></script>
-<script src="js/library.js?v=59"></script>
-<script src="js/pwa.js?v=59"></script>
+<script src="js/data/store.js?v=60"></script>
+<script src="js/data/registry.js?v=60"></script>
+<script src="js/data/cache.js?v=60"></script>
+<script src="js/zip.js?v=60"></script>
+<script src="js/data/prompt.js?v=60"></script>
+<script src="js/app.js?v=60"></script>
+<script src="js/library.js?v=60"></script>
+<script src="js/pwa.js?v=60"></script>
 </body>
 </html>

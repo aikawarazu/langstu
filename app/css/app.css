@@ -2,10 +2,12 @@
  --pri:#4353ff;--pri-soft:#e8ebff;--ok:#13a06b;--ok-soft:#e2f5ec;--ok-ink:#0e7a52;
  --warn:#e8862e;--err:#e34f4f;--r:14px}
 *{box-sizing:border-box;margin:0;padding:0}
-/* 关掉「双击缩放」：触摸设备上快速点两下（例如双击播放、连点按钮）会被浏览器当成缩放手势。
-   manipulation = 只去掉双击缩放，单指滚动与双指缩放照旧 —— 比 user-scalable=no 干净（后者 iOS 早已忽略，还会废掉无障碍缩放）。 */
-html{touch-action:manipulation}
-.vframe,.vframe iframe{touch-action:manipulation} /* 播放器上快速双击也不触发整页缩放 */
+/* 禁用页面缩放：
+   pan-x pan-y = 只允许单指滚动，连双指捏合（pinch-zoom）和双击缩放一起关掉
+   （manipulation 只关双击缩放，仍保留双指缩放，故不用它）。
+   视口锁死 + iOS 手势拦截 + 桌面快捷键拦截见 index.html 顶部脚本。 */
+html{touch-action:pan-x pan-y}
+.vframe,.vframe iframe{touch-action:pan-x pan-y} /* 播放器上双击 / 双指也不缩放 */
 html,body{height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;
  color:var(--ink);background:var(--bg)}

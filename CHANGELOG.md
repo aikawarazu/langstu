@@ -12,6 +12,13 @@
   - `app/icons/*`：新增图标（`backend/scripts/make_pwa_icons.py` 纯标准库生成）。
 - `index.html` 资源版本号统一升至 `v=38`（与 `sw.js` 的 `VERSION` / `PRECACHE` 同步）。
 
+### 变更
+- **禁用页面缩放（整页 + 双击）**：原先只用 `touch-action:manipulation`（仅关双击、双指仍可缩放），现四条途径一起上：
+  - 视口加 `maximum-scale=1,user-scalable=no`（Android / 桌面生效）。
+  - `app/css/app.css`：`html`、`.vframe/.vframe iframe` 改为 `touch-action:pan-x pan-y`，连双指捏合一起关掉，只保留滚动。
+  - `app/index.html` 顶部内联脚本兜底：拦截 iOS `gesturestart/gesturechange/gestureend` 与多指 `touchmove`（Safari 忽略 `user-scalable=no`）；双击缩放按 300ms 内第二次抬手 `preventDefault`（不影响单击）；桌面拦 `Ctrl/⌘ + 滚轮`（触控板捏合）与 `Ctrl/⌘ + +/-/0`。
+  - 资源版本号 `v=59` → `v=60`（与 `sw.js` 的 `VERSION` / `PRECACHE` 同步，避免旧缓存继续命中 `app.css?v=59`）。
+
 ## [data-v1.0.0] - 2026-09-09
 
 ### 变更
