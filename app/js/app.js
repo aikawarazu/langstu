@@ -30,6 +30,8 @@ function saveDone(){window.AppStore.saveProgress(done);}
 
 var MODES=['show','zh','en','blur'];
 var MODE_TXT={show:'字幕：双语',zh:'字幕：中文',en:'字幕：英文',blur:'字幕：模糊'};
+/* 播放速度档位：点「1x」按钮按此顺序循环，最快 2x（浏览器原生支持，音高不跑） */
+var RATES=[0.75,1,1.25,1.5,2];
 var S={book:'nce1',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
   loopAll:true,view:'study',vsimple:false,vp:1,ovBook:'',ovType:'all',ovQ:'',dict:{},
   seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0};
@@ -155,7 +157,7 @@ function bindStatic(){
   $('#cLoop').onclick=()=>{S.loop=!S.loop;syncCtl();};
   $('#cLoopAll').onclick=()=>setLoopAll(!S.loopAll);
   $('#cAB').onclick=()=>cycleAB();
-  $('#cRate').onclick=()=>{var rs=[0.75,1,1.25,1.5];S.rate=rs[(rs.indexOf(S.rate)+1)%rs.length];a.playbackRate=S.rate;syncCtl();};
+  $('#cRate').onclick=()=>{S.rate=RATES[(RATES.indexOf(S.rate)+1)%RATES.length];a.playbackRate=S.rate;syncCtl();};
   $('#modeBtn').onclick=()=>cycleMode();
   $('#tbAudio').onclick=()=>setTab('audio');
   $('#tbVideo').onclick=()=>setTab('video');
@@ -1581,6 +1583,7 @@ function syncCtl(){
   c.textContent=S.abA==null?'⭯ A-B 复读':S.abB==null?('A：句'+(S.abA+1)+' · 点设B'):('A-B 句'+(Math.min(S.abA,S.abB)+1)+'-'+(Math.max(S.abA,S.abB)+1)+' · 取消');
   c.classList.toggle('warm',S.abA!=null);
   var r=$('#cRate');r.textContent=S.rate+'x';r.classList.toggle('on',S.rate!==1);
+  r.title='播放速度：'+RATES.join('x / ')+'x（点击切换）';
   $('#metaS').textContent=(S.loop?'单句循环 · ':'')+(S.loopAll?'整段循环 · ':'')+(S.rate!==1?(S.rate+'x · '):'')+(S.abA!=null&&S.abB!=null?'A-B 区间 · ':'')+'歌词自动跟随';
 }
 function jumpLine(d){

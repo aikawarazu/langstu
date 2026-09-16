@@ -5,6 +5,10 @@
 ## [Unreleased] - 2026-09-13
 
 ### 新增
+- **2 倍速播放**：音频精听的速度档位由 `0.75 / 1 / 1.25 / 1.5` 扩为 `0.75 / 1 / 1.25 / 1.5 / 2`。
+  - `app/js/app.js`：档位抽成常量 `RATES`（原先写死在点击回调里），按钮 `title` 列出全部档位（0.75x / 1x / 1.25x / 1.5x / 2x），点一次进一档、到 2x 回到 0.75x。
+  - 2x 由浏览器原生 `playbackRate` 实现（默认保音高，不会变调）。
+  - 资源版本号 `v=60` → `v=61`（与 `sw.js` 的 `VERSION` / `PRECACHE` 同步）。
 - **PWA 支持**：站点可安装到桌面 / 主屏（Android Chrome / Edge 桌面端安装提示，iOS「添加到主屏幕」），独立窗口运行。
   - `app/manifest.json`：PWA 清单（名称 / 图标 192·512·maskable / standalone / 主题色 `#4353ff`）。
   - `app/sw.js`：Service Worker——壳层（HTML/CSS/JS/图标）预缓存 cache-first；课程包 JSON / 课文 / LRC 字幕运行时 stale-while-revalidate（上限 400 条 LRU）；页面导航网络优先、离线回退缓存的 `index.html`；音频不进 Cache Storage（仍由 `js/data/cache.js` 走 IndexedDB，避免 216 MB 体积撑爆配额）。
