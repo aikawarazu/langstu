@@ -1,0 +1,164 @@
+{
+ "unitId": "u057",
+ "title": "Can I help you, madam?",
+ "subtitle": "您要买什么，夫人？",
+ "lead": {
+  "question": "穿牛仔裤遭冷遇的妇女，第二天靠什么让售货员爬进橱窗取衣？",
+  "warmup": "一位穿牛仔裤的妇女站在高档商店的橱窗前，犹豫片刻后走了进去，想看看橱窗里那件连衣裙。势利的售货员轻蔑地瞥了她一眼，谎称衣服已经售出。第二天上午，她换上裘皮大衣、挎着手提包、拎着长柄伞重返商店，点名要同一件衣服。没认出她的售货员殷勤备至，费劲爬进橱窗取衣，她却看一眼就说不喜欢，最后才买下最初要看的那一件。",
+  "goals": [
+   "掌握 madam、jeans、hesitate、serve、scornfully、punish、fur、eager 等本课重点词汇",
+   "理解 dress in、in + 衣物表穿着，with + 随身物品表携带的介词用法",
+   "掌握现在分词短语替代状语从句（after / before / not + doing）的写法",
+   "掌握 make / let + 宾语 + 不带 to 的不定式，被动语态须还原 to"
+  ],
+  "summary": "本课是一个讽刺以貌取人的故事。语言点集中在：in jeans / dressed in a fur coat 表穿着，with a handbag 表随身携带；glance at、be eager to do、seek out、ask for、with great difficulty 等固定搭配；以及现在分词短语作状语替代时间或原因状语从句，还有 make sb do 中不定式不带 to 的规则。",
+  "tips": "穿牛仔裤用 in jeans、提手提包用 with a handbag：in 表穿着，with 表携带或身体特征；make sb do 变被动必须补回 to。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Did the woman get what she wanted?",
+   "zh": "那位妇女得到她想要的东西了吗？",
+   "a": "Yes, she did. She enjoyed herself making the assistant bring almost everything in the window and finally bought the dress she had first asked for.",
+   "aZh": "得到了。她开心地让售货员把橱窗里几乎所有的东西都拿出来，最后买下了她最先要看的那一件。",
+   "hint": "见课文最后一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the assistant tell the woman that the dress was sold on her first visit?",
+   "zh": "第一次进店时，售货员为什么告诉她那件衣服已经卖出去了？",
+   "a": "Because he did not like the way she was dressed. Glancing at her scornfully, he lied that it was sold.",
+   "aZh": "因为他不喜欢她那副打扮，轻蔑地看了她一眼，就谎称衣服已经售出。",
+   "hint": "did not like the way she was dressed 与 glancing at her scornfully。"
+  },
+  {
+   "kind": "detail",
+   "q": "How was the woman dressed when she returned to the shop the following morning?",
+   "zh": "第二天上午她回到商店时是怎样打扮的？",
+   "a": "She was dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.",
+   "aZh": "她穿了一件裘皮大衣，一只手拎着手提包，另一只手拿着一把长柄伞。",
+   "hint": "dressed in a fur coat 与 with 引导的伴随状语。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the assistant have to do before the woman finally bought the dress?",
+   "zh": "在她最后买下那件衣服之前，售货员不得不做什么？",
+   "a": "With great difficulty, he climbed into the shop window to get the dress, and then brought almost everything in the window for her to look at.",
+   "aZh": "他费了好大劲儿爬进橱窗取衣，之后几乎把橱窗里所有的东西都拿出来给她看。",
+   "hint": "climbed into the shop window、bring almost everything。"
+  },
+  {
+   "kind": "think",
+   "q": "故事讽刺了什么？如果你是这位妇女，会怎样回应售货员的轻视？",
+   "zh": "故事讽刺了什么？",
+   "a": "It mocks the snobbish assistant who judges customers by their clothes. One may answer that clothes do not show a person's worth; a polite but firm complaint to the manager would be a calmer way to answer such rudeness.",
+   "aZh": "讽刺了以衣着取人的势利售货员。衣着不能代表一个人的价值；更冷静的做法是礼貌而坚定地向经理投诉。",
+   "hint": "结合最后一句 her enjoyment 的讽刺意味。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：她虽然犹豫了片刻，但终于还是走进了商店，要求看看橱窗里的那件衣服。",
+   "a": "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.",
+   "note": "though 引导让步状语。"
+  },
+  {
+   "q": "填空：The assistant glanced ____ her scornfully and told her that the dress was sold.",
+   "a": "at",
+   "note": "glance at sb."
+  },
+  {
+   "q": "句型转换：用现在分词短语改写 After she sought out the rude assistant, she asked for the same dress.",
+   "a": "After seeking out the rude assistant, she asked for the same dress.",
+   "note": "连词 after 后接 seeking out。"
+  },
+  {
+   "q": "汉译英：那个售货员没有认出她是谁，这一回接待她的态度非常殷勤。",
+   "a": "Not realizing who she was, the assistant was eager to serve her this time.",
+   "note": "分词否定式把 not 放在 realizing 之前。"
+  },
+  {
+   "q": "改错：She enjoyed herself making the assistant to bring almost everything in the window.",
+   "a": "She enjoyed herself making the assistant bring almost everything in the window.",
+   "note": "make sb. do sth. 不定式不带 to。"
+  },
+  {
+   "q": "填空：She returned to the shop the following morning dressed ____ a fur coat, ____ a handbag in one hand.",
+   "a": "in; with",
+   "note": "in 表穿着，with 表携带。"
+  },
+  {
+   "q": "汉译英：警方正在找的那位妇女有一头红发，手里拿着一个红色手提包。",
+   "a": "The woman the police are looking for has red hair and a red handbag in her hand.",
+   "note": "描写人用 with 引出外貌与随身特征。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文开头，那位妇女是怎样站在商店橱窗前的？",
+   "options": [
+    "A woman in jeans stood at the window of an expensive shop.",
+    "A woman in a fur coat stood at the window of an expensive shop.",
+    "A woman with a long umbrella walked past the shop.",
+    "A woman dressed in black sat near the window."
+   ],
+   "answer": 0,
+   "note": "首句为 A woman in jeans stood at the window…"
+  },
+  {
+   "q": "售货员第一次为什么说那件衣服已经卖出去了？",
+   "options": [
+    "Because the dress had really been sold to another customer.",
+    "Because he did not like the way she was dressed.",
+    "Because the shop was about to close.",
+    "Because the dress in the window was not for sale."
+   ],
+   "answer": 1,
+   "note": "did not like the way she was dressed。"
+  },
+  {
+   "q": "费了好大劲儿，他爬进橱窗去取那件衣服。对应的英文是哪一句？",
+   "options": [
+    "With great ease, he climbed into the shop window to get the dress.",
+    "With great difficulty, he climbed into the shop window to get the dress.",
+    "Without any difficulty, he reached the dress in the window.",
+    "In great difficulties, he broke the shop window to get the dress."
+   ],
+   "answer": 1,
+   "note": "with great difficulty 表示费劲地。"
+  },
+  {
+   "q": "下列哪一句能正确替代 After she sought out the rude assistant 这一从句？",
+   "options": [
+    "After she had seek out the rude assistant, she asked for the same dress.",
+    "After seek out the rude assistant, she asked for the same dress.",
+    "After seeking out the rude assistant, she asked for the same dress.",
+    "After sought out the rude assistant, she asked for the same dress."
+   ],
+   "answer": 2,
+   "note": "连词 after 后接现在分词。"
+  },
+  {
+   "q": "她开心地迫使售货员把橱窗里几乎所有的东西都拿出来。正确的英文表达是？",
+   "options": [
+    "She enjoyed herself making the assistant bring almost everything in the window.",
+    "She enjoyed herself making the assistant to bring almost everything in the window.",
+    "She enjoyed herself to make the assistant bring almost everything in the window.",
+    "She enjoyed to make the assistant brought almost everything in the window."
+   ],
+   "answer": 0,
+   "note": "enjoy oneself doing sth.，且 make 后不定式不带 to。"
+  },
+  {
+   "q": "描写人物时，表示穿着一件裘皮大衣应使用哪个介词？",
+   "options": [
+    "with a fur coat",
+    "in a fur coat",
+    "at a fur coat",
+    "on a fur coat"
+   ],
+   "answer": 1,
+   "note": "in 表穿着，with 表携带。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u051",
+ "title": "Reward for Virtue",
+ "subtitle": "对美德的奖赏",
+ "lead": {
+  "question": "休列了满满一张禁食清单，为何一周后依然胖得像从前一样？",
+  "warmup": "你是否也为减重立过一张禁吃清单，却在几天后偷偷撕毁？本课里的休正是如此：他一直很胖，近来情况糟糕到不得不节食，于是认真开出长长一张禁食单——黄油、土豆、米饭、啤酒、牛奶、巧克力、糖果。一周后朋友登门拜访，却发现他依旧胖如往常，桌下还藏着一个大包裹……",
+  "goals": [
+   "掌握 so…that 结果状语从句，以及 go on a diet、first of all、pay sb a visit 等核心短语",
+   "辨析 contain 与 include 的差异",
+   "理解 hurriedly、guiltily 等形容词+ly 副词的构词与作用",
+   "复习一般过去时与过去完成时，能用 It was obvious that 改写句子"
+  ],
+  "summary": "休一直很胖，近来情况越发糟糕，一周前他决定节食：首先开出长长一张禁食清单，上面几乎全是他最爱吃的东西。昨天我去看他，他仍和往常一样胖，还慌忙把大包裹藏到桌下，显得十分尴尬；被问起时才内疚地笑着坦白：饮食控制太严格，只好偶尔奖赏自己——五大块巧克力和三袋糖果。",
+  "tips": "复述时用 got—decided—began—wrote out—paid—rang—led—hid—smiled—explained 串起情节；reward 是及物动词，说 reward himself，因某事奖赏才用 reward sb for sth。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did Hugh's diet not work?",
+   "zh": "为什么休的节食没有起作用？",
+   "a": "Because his diet was so strict that he had to reward himself occasionally: he ate the very foods on his forbidden list — five large bars of chocolate and three bags of sweets.",
+   "aZh": "因为他的饮食控制得太严格，他不得不偶尔奖赏自己，吃的恰恰是禁食单上的东西——5 大块巧克力和 3 袋糖果。",
+   "hint": "his diet was so strict that he had to reward himself occasionally…"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Hugh do first of all when he began his diet?",
+   "zh": "休开始节食时做的第一件事是什么？",
+   "a": "First of all, he wrote out a long list of all the foods which were forbidden.",
+   "aZh": "首先，他开出一张长长的单子，上面列了所有禁吃的食物。",
+   "hint": "First of all, he wrote out a long list…"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was the writer not surprised to see Hugh?",
+   "zh": "为什么作者看到休时并不感到惊奇？",
+   "a": "Because Hugh was still as fat as ever after only a week of dieting.",
+   "aZh": "因为节食才一周，休仍和往常一样胖。",
+   "hint": "as fat as ever。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did Hugh behave when the writer came into his room?",
+   "zh": "作者进屋时休有哪些举动？",
+   "a": "He hurriedly hid a large parcel under his desk, was obviously embarrassed, then smiled guiltily and put the parcel on the desk.",
+   "aZh": "他慌忙把大包裹藏到桌下，显得很尴尬，随后内疚地笑了笑，把包裹放到了桌上。",
+   "hint": "hurriedly hid、It was obvious that he was very embarrassed、smiled guiltily。"
+  },
+  {
+   "kind": "think",
+   "q": "休把偷吃巧克力说成“对美德的奖赏”，你怎么看？标题的讽刺在哪里？",
+   "zh": "标题的讽刺在哪里？",
+   "a": "It is ironic: his only 'virtue' is one week of dieting, and his 'reward' is exactly the forbidden food that ruins the diet.",
+   "aZh": "这是一种反讽：所谓美德不过一周节食，而奖赏恰恰是毁掉节食的禁吃食品。",
+   "hint": "把写禁食单、一周后仍 as fat as ever、reward himself occasionally 连起来体会。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用括号内动词的适当形式填空：Before I paid him a visit, he ______ already ______ (write) out a long list of foods.",
+   "a": "had; written",
+   "note": "过去完成时表过去的过去。"
+  },
+  {
+   "q": "填空：Things got ______ bad recently ______ he decided to go ______ a diet.",
+   "a": "so; that; on",
+   "note": "so…that 如此…以致。"
+  },
+  {
+   "q": "用所给词的适当形式填空：He ______ (hurried) hid a large parcel under his desk and smiled ______ (guilty).",
+   "a": "hurriedly; guiltily",
+   "note": "形容词加 -ly 构成方式副词。"
+  },
+  {
+   "q": "汉译英：首先，他开出一张长长的单子，上面列了所有禁吃的食物。",
+   "a": "First of all, he wrote out a long list of all the foods which were forbidden.",
+   "note": "first of all 首先。"
+  },
+  {
+   "q": "汉译英：昨天我去看望了他。",
+   "a": "Yesterday I paid him a visit.",
+   "note": "pay sb a visit 拜访某人。"
+  },
+  {
+   "q": "用 It was obvious that 开头改写：He was very embarrassed.",
+   "a": "It was obvious that he was very embarrassed.",
+   "note": "it 作形式主语。"
+  },
+  {
+   "q": "汉译英：他解释说，他的饮食控制得太严格了，以致不得不偶尔奖赏自己一下。",
+   "a": "He explained that his diet was so strict that he had to reward himself occasionally.",
+   "note": "reward sb for sth 因某事奖赏某人。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "休一周前开始节食后，做的第一件事是什么？",
+   "options": [
+    "He wrote out a long list of all the foods which were forbidden.",
+    "He paid a visit to his friend for advice.",
+    "He bought five large bars of chocolate.",
+    "He rang the bell and hid a large parcel."
+   ],
+   "answer": 0,
+   "note": "First of all, he wrote out a long list…"
+  },
+  {
+   "q": "休藏在桌下的那个大包裹里装的是什么？",
+   "options": [
+    "Five large bars of chocolate and three bags of sweets!",
+    "A long list of all the forbidden foods.",
+    "Butter, potatoes, rice and beer.",
+    "A bottle of milk and some chocolate."
+   ],
+   "answer": 0,
+   "note": "It contained five large bars of chocolate and three bags of sweets!"
+  },
+  {
+   "q": "The parcel ______ five large bars of chocolate and three bags of sweets. 横线上应填？",
+   "options": [
+    "contained",
+    "was including",
+    "includes",
+    "has been contained"
+   ],
+   "answer": 0,
+   "note": "contain 表容器内全部所装之物。"
+  },
+  {
+   "q": "下列哪一句正确使用了 forbid 的搭配？",
+   "options": [
+    "His mother forbade him to eat chocolate.",
+    "His mother forbade him eating chocolate.",
+    "His mother forbade him eat chocolate.",
+    "His mother forbade that he eats chocolate."
+   ],
+   "answer": 0,
+   "note": "forbid sb to do sth。"
+  },
+  {
+   "q": "Yesterday I paid him a visit. 可以改写为下列哪一句？",
+   "options": [
+    "Yesterday I paid a visit to him.",
+    "Yesterday I paid visit him.",
+    "Yesterday I made him a visit to.",
+    "Yesterday I visited to him."
+   ],
+   "answer": 0,
+   "note": "pay sb a visit = pay a visit to sb。"
+  },
+  {
+   "q": "标题 Reward for Virtue 中的 virtue 最接近哪个英文释义？",
+   "options": [
+    "a good moral quality or good behaviour",
+    "a kind of sweet food like chocolate",
+    "a strict plan for losing weight",
+    "a large parcel hidden under the desk"
+   ],
+   "answer": 0,
+   "note": "virtue 美德、德行。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u058",
+ "title": "A Blessing in Disguise?",
+ "subtitle": "是祸是福？",
+ "lead": {
+  "question": "一棵人人避之不及的“该诅咒的树”，为何被牧师当成有用的财源？",
+  "warmup": "弗林利本是个不起眼的小村子，却因一棵“该诅咒的树”远近闻名。报纸一报道，游客便从全国各地涌来：据说摸树会倒霉，摘一片叶子就会死去。村民请求牧师叫人把树砍掉，牧师却至今不肯。他算的是另一笔账——这棵树给村子带来了源源不断的收入。",
+  "goals": [
+   "掌握 be said to do、It is said that 与 There is said to be 三种“据说”表达及互换",
+   "理解 have sth done 使役结构，以及 so far 与现在完成时的固定搭配",
+   "辨析 the number of 与 a number of、gain 与 earn 的用法",
+   "认识 It is/was ... that ... 强调句型，能复述牧师拒砍树的理由"
+  ],
+  "summary": "本课语法重点是被动语态的“谨慎说法”：主语 + be said + to do 与 It is said that 意思相同；还有 There is said to be 这一更口语的变体。词汇方面要掌握 have the tree cut down、so far 配现在完成时、gain an evil reputation、claim victims、in spite of。",
+  "tips": "have sth done 是“叫别人做”，cut down 用过去分词（cut）；so far 须配现在完成时，别写成 he refused。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why does the vicar refuse to cut down the tree?",
+   "zh": "牧师为什么拒绝把树砍掉？",
+   "a": "Because he has pointed out that the tree is a useful source of income, as tourists have been coming from all parts of the country to see it.",
+   "aZh": "因为牧师指出，全国各地的人纷纷前来观赏这棵树，它成了一个有用的财源。",
+   "hint": "出自 He has pointed out that the tree is a useful source of income…"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'have the tree cut down' mean, and why won't the vicar do it?",
+   "zh": "“have the tree cut down”是什么意思？牧师为什么不肯？",
+   "a": "It means 'ask someone else to cut the tree down' — have + object + past participle. The vicar refuses because the tree is a useful source of income.",
+   "aZh": "意为“叫人把树砍掉”（have + 宾语 + 过去分词）。牧师拒绝，因为这棵树是财源。",
+   "hint": "见第 6、7 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the text say 'the number of visitors ... has now increased' rather than 'have now increased'?",
+   "zh": "为什么用 has now increased 而不是 have now increased？",
+   "a": "Because the head word is 'number', not 'visitors': 'the number of' takes a singular verb, while 'a number of' meaning 'many' takes a plural verb.",
+   "aZh": "因为主语的中心词是 number（数量），谓语用单数；“a number of”意为“许多”，谓语才用复数。",
+   "hint": "the number of + 复数名词，谓语仍用单数。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'It is only in recent years that it has gained an evil reputation' emphasise?",
+   "zh": "强调的到底是哪一部分？",
+   "a": "It emphasises the time adverbial 'only in recent years': the tree was planted near the church fifty years ago, but it became notorious only in recent years.",
+   "aZh": "强调时间状语 only in recent years：树五十年前就栽在教堂旁，却直到近几年才得了个坏名声。",
+   "hint": "It is ... that 强调句型。"
+  },
+  {
+   "kind": "think",
+   "q": "Is the 'cursed tree' really a curse for Frinley, or a blessing in disguise?",
+   "zh": "这棵“该诅咒的树”对弗林利来说究竟是祸还是福？",
+   "a": "The tree is said to have claimed a number of victims, but the newspaper report has drawn tourists and the vicar points out that it is a useful source of income — so it looks like a blessing in disguise. The question mark leaves the final judgement to the reader.",
+   "aZh": "树被说成夺去人命的祸根，却因报纸报道引来游客，牧师也指出它是财源——似是因祸得福。标题的问号把判断权留给读者。",
+   "hint": "结合 so far not one of them has been struck down。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "解释标题中的 a blessing in disguise，并说明它在课文中指什么。",
+   "a": "a blessing in disguise 意为“因祸得福、表面是祸实则是福”。课文中指那棵被称作“该诅咒的树”的老树：名声吓人，却因报纸报道引来游客，成了村子的财源。",
+   "note": "disguise 表伪装。"
+  },
+  {
+   "q": "翻译：据说弗林利这个小村里有一棵“该诅咒的树”。",
+   "a": "The tiny village of Frinley is said to possess a 'cursed tree'.",
+   "note": "be said + to do。"
+  },
+  {
+   "q": "用 It is said that 与 There is said to be 两种句式改写上一句。",
+   "a": "It is said that the tiny village of Frinley possesses a 'cursed tree'. / There is said to be a 'cursed tree' in the tiny village of Frinley.",
+   "note": "it 作先行主语。"
+  },
+  {
+   "q": "填空：The number of visitors to Frinley ___ now ___ (increase).",
+   "a": "has; increased",
+   "note": "the number of 作主语，谓语用单数。"
+  },
+  {
+   "q": "翻译并说明结构：人们曾请求教区牧师叫人把教堂旁那棵树砍掉。",
+   "a": "The vicar has been asked to have the tree near the church cut down.（have + 宾语 + 过去分词，动作由别人完成）",
+   "note": "have sth done 表使役。"
+  },
+  {
+   "q": "根据课文填空：The tree was p___ near the church fifty years ago, but it has g___ an evil reputation. It is said to have c___ a number of victims, yet the vicar has p___ out that the tree is a useful s___ of i___.",
+   "a": "planted; gained; claimed; pointed; source; income",
+   "note": "gain 得名声；claim 夺去生命。"
+  },
+  {
+   "q": "翻译：尽管有上述种种说法，游客们还是照常摘树叶、把名字刻在树干上，而到目前为止还没有一个人暴死。",
+   "a": "In spite of all that has been said, the tourists have been picking leaves and cutting their names on the tree-trunk. So far, not one of them has been struck down by sudden death!",
+   "note": "so far 配现在完成时。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中“据说这个小村子有一棵该诅咒的树”，正确的英文表达是？",
+   "options": [
+    "The tiny village of Frinley is said to possess a 'cursed tree'.",
+    "The tiny village of Frinley is said that possesses a 'cursed tree'.",
+    "It is said the tiny village of Frinley to possess a 'cursed tree'.",
+    "The tiny village of Frinley said to possess a 'cursed tree'."
+   ],
+   "answer": 0,
+   "note": "be said + to do。"
+  },
+  {
+   "q": "与 It is said that there is a great deal of oil in Africa 同义、且更口语的说法是？",
+   "options": [
+    "There is said to be a great deal of oil in Africa.",
+    "There said is a great deal of oil in Africa.",
+    "There is said being a great deal of oil in Africa.",
+    "There has said to be a great deal of oil in Africa."
+   ],
+   "answer": 0,
+   "note": "There + be said + to do。"
+  },
+  {
+   "q": "牧师被要求“叫人把树砍掉”，正确的表达是？",
+   "options": [
+    "have the tree cut down",
+    "have the tree cutting down",
+    "have the tree to cut down",
+    "have the tree cutted down"
+   ],
+   "answer": 0,
+   "note": "cut 的过去分词仍为 cut。"
+  },
+  {
+   "q": "The number of visitors to Frinley ___ now increased. 空白处应填入？",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "were"
+   ],
+   "answer": 0,
+   "note": "the number of 作主语时谓语用单数。"
+  },
+  {
+   "q": "课文中“只是近几年才得到了一个坏名声”，正确的搭配是？",
+   "options": [
+    "gained an evil reputation",
+    "made an evil reputation",
+    "gained an evil fame",
+    "took an evil reputation"
+   ],
+   "answer": 0,
+   "note": "gain a reputation 为固定搭配。"
+  },
+  {
+   "q": "“到目前为止还没有一个人暴死”，与课文一致的句子是？",
+   "options": [
+    "So far, not one of them has been struck down by sudden death!",
+    "So far, not one of them was struck down by sudden death!",
+    "So far, not one of them has struck down by sudden death!",
+    "So far, not one of them had been striking down by sudden death!"
+   ],
+   "answer": 0,
+   "note": "so far 配现在完成时被动。"
+  }
+ ]
+}

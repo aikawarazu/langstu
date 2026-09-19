@@ -1,0 +1,138 @@
+{
+ "unit": "u074",
+ "unitId": "u074",
+ "lessons": [
+  {
+   "lesson": 74,
+   "title": "Out of the limelight",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "disguise 'too perfect'?",
+     "zh": "一辆古旧的汽车停在一条干涸的河床边，一群著名男女演员下了车。"
+    },
+    {
+     "en": "An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off.",
+     "zh": "他们戴着墨镜，穿着旧衣裳，特别小心以防别人认出他们。"
+    },
+    {
+     "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
+     "zh": "但他们很快就发觉，化装的效果有时过分完美了。"
+    },
+    {
+     "en": "But as they soon discovered, disguises can sometimes be too perfect.",
+     "zh": "“在这个地方野餐简直太妙了，”格格利亚。格利姆说。"
+    },
+    {
+     "en": "'This is a wonderful place for a picnic,' said Gloria Gleam 'It couldn't be better, Gloria,' Brinksley Meers agreed.",
+     "zh": "“是再好不过的了，格格利亚。”布林克斯利。米尔斯表示同意，“没有记者，没有影迷！"
+    },
+    {
+     "en": "'No newspaper men, no film fans!",
+     "zh": "我们为什么不经常来这里呢？"
+    },
+    {
+     "en": "Why don't we come more often?",
+     "zh": "”“此时，另外两位演员，罗克沃尔。"
+    },
+    {
+     "en": "Meanwhile, two other actors, Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees.",
+     "zh": "斯林格和默林。格里夫斯，已经把两个大食品篮子提到了一片树荫下。"
+    },
+    {
+     "en": "When they had all made themselves comfortable, a stranger appeared.",
+     "zh": "当他们都已安排舒适时，一个陌生人出现了。他看上去非常气愤。"
+    },
+    {
+     "en": "He looked very angry.",
+     "zh": "“你们都从这里走开，全都走开！"
+    },
+    {
+     "en": "'Now you get out of here, all of you!",
+     "zh": "”他大叫着，“我是这里的司法长官。"
+    },
+    {
+     "en": "he shouted.",
+     "zh": "你们看到那个布告牌了吗？"
+    },
+    {
+     "en": "'I'm sheriff here.",
+     "zh": "上面写着‘禁止野营’－－除非你们不识字！"
+    },
+    {
+     "en": "Do you see that notice?",
+     "zh": "”“好了，好了，司法官，”罗克沃尔说，“别使我们难堪。"
+    },
+    {
+     "en": "It says \"No Camping\" -- in case you can't read!",
+     "zh": "我是罗克沃尔。"
+    },
+    {
+     "en": "'Look, sheriff,' said Rockwall, 'don't be too hard on us.",
+     "zh": "斯林格，这位是默林。"
+    },
+    {
+     "en": "I'm Rockwall Slinger and this is Merlin Greeves.",
+     "zh": "格里夫斯。"
+    },
+    {
+     "en": "'Oh, is it?",
+     "zh": "”“噢，是吗？"
+    },
+    {
+     "en": "said the sheriff with a sneer .",
+     "zh": "”那位司法长官冷笑一声说道，“好，我就是布林克斯利。"
+    },
+    {
+     "en": "'Well, I'm Brinksley Meers, and my other name is Gloria Gleam.",
+     "zh": "米尔斯。我还有一个名字叫格格利亚。"
+    },
+    {
+     "en": "Now you get out of here fast!'",
+     "zh": "格利姆。现在你们赶快滚吧！”"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why was their",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "sneer",
+   "pos": "n",
+   "zh": "参考译文"
+  }
+ ],
+ "translation": [
+  "一辆古旧的汽车停在一条干涸的河床边，一群著名男女演员下了车。",
+  "他们戴着墨镜，穿着旧衣裳，特别小心以防别人认出他们。",
+  "但他们很快就发觉，化装的效果有时过分完美了。",
+  "“在这个地方野餐简直太妙了，”格格利亚。",
+  "格利姆说。",
+  "“是再好不过的了，格格利亚。",
+  "”布林克斯利。",
+  "米尔斯表示同意，“没有记者，没有影迷！",
+  "我们为什么不经常来这里呢？",
+  "”“此时，另外两位演员，罗克沃尔。",
+  "斯林格和默林。",
+  "格里夫斯，已经把两个大食品篮子提到了一片树荫下。",
+  "当他们都已安排舒适时，一个陌生人出现了。",
+  "他看上去非常气愤。",
+  "“你们都从这里走开，全都走开！",
+  "”他大叫着，“我是这里的司法长官。",
+  "你们看到那个布告牌了吗？",
+  "上面写着‘禁止野营’－－除非你们不识字！",
+  "”“好了，好了，司法官，”罗克沃尔说，“别使我们难堪。",
+  "我是罗克沃尔。",
+  "斯林格，这位是默林。",
+  "格里夫斯。",
+  "”“噢，是吗？",
+  "”那位司法长官冷笑一声说道，“好，我就是布林克斯利。",
+  "米尔斯。",
+  "我还有一个名字叫格格利亚。",
+  "格利姆。",
+  "现在你们赶快滚吧！”"
+ ]
+}

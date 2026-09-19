@@ -1,0 +1,164 @@
+{
+ "unitId": "u071",
+ "title": "A famous clock",
+ "subtitle": "一个著名的大钟",
+ "lead": {
+  "question": "闻名世界的大本钟如何得名？它为何能精准报时？又为何曾把时间报错？",
+  "warmup": "伦敦泰晤士河畔的国会大厦钟楼上，悬挂着一口巨钟——大本钟。它的报时声通过英国广播公司传遍世界。鲜为人知的是，这座大钟的诞生源于1834年焚毁国会大厦的那场大火，它的名字来自主持修钟的本杰明·霍尔爵士；它的走时由格林尼治天文台每天两次校验，却也曾被一位油漆工挂在指针上的油漆桶拖慢。",
+  "goals": [
+   "掌握 parliament、erect、accurate、official、observatory、microphone、tower 等核心词",
+   "熟练运用 take one's name from、be responsible for、be of + 抽象名词、have sth. done 等句型",
+   "复习第3类条件句与过去完成时被动",
+   "辨析 go wrong、fail to do、slow down、hang—hung—hung 等易混表达"
+  ],
+  "summary": "本课以大本钟为线索，串起一座建筑、一场大火与一个名字：1834年国会大厦被焚毁，才有重建时竖起的大钟；钟名取自负责铸钟的本杰明·霍尔爵士。钟体巨大却走时精准，靠格林尼治天文台每日两次校验；BBC 通过接在钟塔上的麦克风把钟声送向世界。大钟极少出错，唯一一次失误源于油漆工挂在指针上的一桶油漆。",
+  "tips": "写第3类条件句时，if 从句用 had (been) done、主句用 would (never) have done，切勿与第2类条件句混用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Has Big Ben ever gone wrong?",
+   "zh": "大本钟出过错吗？",
+   "a": "Yes, it has. Big Ben has rarely gone wrong, but once it failed to give the correct time, because a painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down.",
+   "aZh": "出过一次。大本钟很少出差错，但有一次它报错了时间——一位在钟塔上干活的油漆工把一桶油漆挂在了一根指针上，把钟弄慢了。",
+   "hint": "见 Big Ben has rarely gone wrong / it failed to give the correct time 及末句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where does the name Big Ben come from, and what was Sir Benjamin Hall responsible for?",
+   "zh": "名字从何而来？霍尔爵士负责什么？",
+   "a": "Big Ben takes its name from Sir Benjamin Hall, who was responsible for the making of the clock when the new Houses of Parliament were being built.",
+   "aZh": "它得名于本杰明·霍尔爵士；新国会大厦建造期间，他负责大钟的铸造。",
+   "hint": "见第 3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How do officials from Greenwich Observatory keep Big Ben accurate?",
+   "zh": "天文台的官员如何让大本钟保持准确？",
+   "a": "They have the clock checked twice a day.",
+   "aZh": "他们每天两次派人校正这座钟。",
+   "hint": "have + 宾语 + 过去分词的使役用法。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why can listeners hear Big Ben actually striking on the B.B.C.?",
+   "zh": "为什么听众能从广播里听到大钟正在打点？",
+   "a": "Because microphones are connected to the clock tower.",
+   "aZh": "因为钟塔上接了麦克风。",
+   "hint": "be connected to。"
+  },
+  {
+   "kind": "think",
+   "q": "If the Houses of Parliament had not been burned down in 1834, what would have happened to the great clock? What grammar is used here?",
+   "zh": "如果国会大厦没有在1834年被焚毁，这座大钟会怎样？用了什么语法？",
+   "a": "It would never have been erected. The sentence uses a Type 3 conditional to imagine an unreal past: in fact the Houses were burned down, and so the clock was erected.",
+   "aZh": "这座大钟永远也不会建造。这是第3类条件句，表示与过去事实相反的假设。",
+   "hint": "见第 2 句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：格林尼治天文台的官员们每天两次派人校正这座钟。",
+   "a": "Officials from Greenwich Observatory have the clock checked twice a day.",
+   "note": "have sth. done。"
+  },
+  {
+   "q": "用第3类条件句改写：The Houses of Parliament were burned down in 1834, so the great clock was erected.",
+   "a": "If the Houses of Parliament had not been burned down in 1834, the great clock would never have been erected.",
+   "note": "与过去事实相反。"
+  },
+  {
+   "q": "用 take one's name from 翻译：大本钟得名于本杰明·霍尔爵士。",
+   "a": "Big Ben takes its name from Sir Benjamin Hall.",
+   "note": "take one's name from。"
+  },
+  {
+   "q": "就划线部分提问：Sir Benjamin Hall was responsible for the making of the clock.",
+   "a": "Who was responsible for the making of the clock?",
+   "note": "be responsible for。"
+  },
+  {
+   "q": "用所给动词的适当形式填空：A painter who ________ (work) on the tower hung a pot of paint on one of the hands.",
+   "a": "had been working",
+   "note": "过去完成进行时。"
+  },
+  {
+   "q": "用 be of + 抽象名词改写：The clock is not only very large, but extremely accurate as well.",
+   "a": "The clock is not only of immense size, but is extremely accurate as well.",
+   "note": "be of + 抽象名词。"
+  },
+  {
+   "q": "汉译英：大本钟很少出差错。然而有一次，它却把时间报错了——一位油漆工把一桶油漆挂在了一根指针上，把钟弄慢了！",
+   "a": "Big Ben has rarely gone wrong. Once, however, it failed to give the correct time — a painter hung a pot of paint on one of the hands and slowed it down!",
+   "note": "hang—hung—hung。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“大本”这个名字来源于谁？",
+   "options": [
+    "Sir Benjamin Hall",
+    "Sir Winston Churchill",
+    "An official from Greenwich Observatory",
+    "The painter who worked on the tower"
+   ],
+   "answer": 0,
+   "note": "take its name from。"
+  },
+  {
+   "q": "1834年国会大厦被焚毁与大钟的建造之间是什么关系？",
+   "options": [
+    "If the Houses of Parliament had not been burned down in 1834, the great clock would never have been erected",
+    "The great clock was erected long before the fire of 1834",
+    "The fire was caused by the great clock",
+    "The great clock was burned down together with the Houses"
+   ],
+   "answer": 0,
+   "note": "第3类条件句。"
+  },
+  {
+   "q": "人们为什么能从广播里听到大钟打点？",
+   "options": [
+    "Microphones are connected to the clock tower",
+    "The clock is of immense size",
+    "Officials check it twice a day",
+    "Big Ben has rarely gone wrong"
+   ],
+   "answer": 0,
+   "note": "be connected to。"
+  },
+  {
+   "q": "格林尼治天文台的官员如何保证大钟走时准确？",
+   "options": [
+    "They have the clock checked twice a day",
+    "They check the clock once a week",
+    "They replaced the old clock with a new one",
+    "They slowed the clock down on purpose"
+   ],
+   "answer": 0,
+   "note": "have sth. done。"
+  },
+  {
+   "q": "大本钟唯一一次报错时间的原因是什么？",
+   "options": [
+    "A painter hung a pot of paint on one of the hands",
+    "The clock was never an accurate instrument",
+    "The microphones went wrong that day",
+    "The officials failed to check it twice a day"
+   ],
+   "answer": 0,
+   "note": "slow down；fail to do。"
+  },
+  {
+   "q": "下列哪一句中 hung 表示“悬挂”？",
+   "options": [
+    "A painter hung a pot of paint on one of the hands",
+    "The murderer was hanged last week",
+    "She hanged herself in her room",
+    "He was hanged for murder"
+   ],
+   "answer": 0,
+   "note": "悬挂 hung；绞死 hanged。"
+  }
+ ]
+}

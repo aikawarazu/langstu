@@ -1,0 +1,164 @@
+{
+ "unitId": "u063",
+ "title": "She was not amused",
+ "subtitle": "她并不觉得好笑",
+ "lead": {
+  "question": "人人都夸杰里米有幽默感，为何他六岁的女儿却一点也不觉得好笑？",
+  "warmup": "杰里米·汉普登交游甚广，聚会上人缘极好，人人都钦佩他绝妙的幽默感——只有他六岁的女儿珍妮例外。最近一位密友请他在婚宴上致辞，他精心准备了讲稿，还塞进大量笑话，果然大获成功。可他刚一讲完，珍妮就吵着要回家。回家路上父亲追问缘由，答案出人意料：她不喜欢看到那么多人嘲笑爸爸。",
+  "goals": [
+   "掌握 a large circle of friends、be popular at parties、admire sb. for sth.、a sense of humour 等搭配",
+   "掌握 make a speech at a wedding reception、the sort of thing、to one's surprise、laugh at",
+   "巩固间接引语：陈述句用 said/told (that)，一般疑问句用 asked if 并时态后退",
+   "辨别 six-year-old 类复合形容词与插入语 that is，理解 as 引导的方式状语从句"
+  ],
+  "summary": "本课以一则小笑话串起三组真功夫：一是名词与固定短语——a large circle of friends、be popular at、admire sb. for、a (great) sense of humour、the sort of thing、make a speech at a wedding reception、to one's surprise、laugh at；二是复合形容词 six-year-old 与插入语 that is；三是间接引语。",
+  "tips": "转述疑问句时语序必须还原为陈述句，且时态随 asked 后退一格：Did you enjoy the speech? → he asked Jenny if she had enjoyed the speech。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did Jenny want to leave the wedding reception?",
+   "zh": "珍妮为什么想在婚礼招待会上离开？",
+   "a": "Because she did not like to see so many people laughing at her father.",
+   "aZh": "因为她不愿意看到那么多人嘲笑她爸爸。",
+   "hint": "见课文末句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is Jeremy so popular at parties?",
+   "zh": "为什么杰里米在聚会上这么受欢迎？",
+   "a": "Because he has a great sense of humour and everybody admires him for it.",
+   "aZh": "因为他有绝妙的幽默感，人人都为此钦佩他。",
+   "hint": "见课文第 1-2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did Jeremy feel when Jenny asked to go home, and what did he do?",
+   "zh": "珍妮提出要回家时，杰里米作何感受？他怎么做了？",
+   "a": "He was a little disappointed, but he did as his daughter asked.",
+   "aZh": "他有点扫兴，但还是按女儿的要求做了。",
+   "hint": "见 Jeremy was a little disappointed by this but he did as his daughter asked。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'this was so' refer to in 'Jeremy asked her why this was so'?",
+   "zh": "“this was so”指什么？",
+   "a": "It refers to the fact that Jenny had not enjoyed the speech.",
+   "aZh": "指珍妮不喜欢他那篇祝词这件事。",
+   "hint": "this 回指上句 she said she hadn't。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did the guests laugh while Jenny felt sorry for her father?",
+   "zh": "为什么宾客大笑，珍妮却替爸爸难过？",
+   "a": "The guests knew the funny stories were meant to amuse them, so they laughed with Jeremy; Jenny, only six, took the laughter as laughing at her father. Humour depends on shared understanding.",
+   "aZh": "宾客明白笑话是用来逗乐的，所以跟着杰里米一起笑；六岁的珍妮却把笑声理解成嘲笑爸爸。可见幽默依赖共同的理解。",
+   "hint": "对比 it was a great success 与末句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "按课文填空：Jeremy has a large ______ of friends and is very popular ______ parties.",
+   "a": "circle; at",
+   "note": "circle 指圈子。"
+  },
+  {
+   "q": "介词填空：Everybody admires him ______ his great sense ______ humour.",
+   "a": "for; of",
+   "note": "admire sb. for sth。"
+  },
+  {
+   "q": "用复合形容词改写：He has a daughter. She is six years old. → He has a ______ daughter.",
+   "a": "six-year-old",
+   "note": "名词须用单数。"
+  },
+  {
+   "q": "完成句子：Recently one of Jeremy's closest friends asked him __ __ __ __ at a wedding reception.（请他在婚宴上致辞）",
+   "a": "to make a speech",
+   "note": "ask sb. to do sth。"
+  },
+  {
+   "q": "把直接引语改为间接引语：Did you enjoy the speech? Jeremy asked Jenny.",
+   "a": "Jeremy asked Jenny if she had enjoyed the speech.",
+   "note": "asked if + 陈述语序。"
+  },
+  {
+   "q": "用 I wonder 改写：Where is he?",
+   "a": "I wonder where he is.",
+   "note": "wonder 后接疑问词，仍用陈述语序。"
+  },
+  {
+   "q": "转述祈使句：Don't worry about it, he said to me.",
+   "a": "He told me not to worry about it.",
+   "note": "tell sb. not to do。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "人人都钦佩他那绝妙的幽默感，正确英文是？",
+   "options": [
+    "Everybody admires him for his great sense of humour.",
+    "Everybody admires him of his great sense of humour.",
+    "Everybody admires him with his great sense of humour.",
+    "Everybody admires him for his great sense of funny."
+   ],
+   "answer": 0,
+   "note": "admire sb. for sth。"
+  },
+  {
+   "q": "请他在一个婚礼招待会上致辞，正确表达是？",
+   "options": [
+    "asked him to make a speech at a wedding reception",
+    "asked him make a speech at a wedding reception",
+    "asked him to make speech at a wedding reception",
+    "asked him to make a speech on a wedding reception"
+   ],
+   "answer": 0,
+   "note": "make a speech；at a reception。"
+  },
+  {
+   "q": "下列哪句中 sort 的用法与课文 the sort of thing 相同？",
+   "options": [
+    "I don't like that sort of joke.",
+    "He was sort of disappointed by her answer.",
+    "She sorted the guests into two rooms.",
+    "The sort of very funny stories."
+   ],
+   "answer": 0,
+   "note": "sort 作名词表种类。"
+  },
+  {
+   "q": "“Did you enjoy the speech?” Jeremy asked Jenny. 的间接引语是？",
+   "options": [
+    "Jeremy asked Jenny if she had enjoyed the speech.",
+    "Jeremy asked Jenny did she enjoy the speech.",
+    "Jeremy asked Jenny if had she enjoyed the speech.",
+    "Jeremy asked Jenny that she had enjoyed the speech."
+   ],
+   "answer": 0,
+   "note": "asked if 后必须还原陈述语序。"
+  },
+  {
+   "q": "她告诉他，她不愿意看到那么多人嘲笑他，正确英文是？",
+   "options": [
+    "She told him that she did not like to see so many people laughing at him.",
+    "She told him that she did not like to see so many people laughing to him.",
+    "She told him that she did not like to see so many people laughing at her.",
+    "She said him that she did not like to see so many people laughing at him."
+   ],
+   "answer": 0,
+   "note": "laugh at sb。"
+  },
+  {
+   "q": "使他吃惊的是，正确的英文短语是？",
+   "options": [
+    "To his surprise",
+    "For his surprise",
+    "In his surprise",
+    "At his surprise"
+   ],
+   "answer": 0,
+   "note": "to one's surprise。"
+  }
+ ]
+}

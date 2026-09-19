@@ -1,0 +1,91 @@
+{
+ "unit": "u003",
+ "unitId": "u003",
+ "lessons": [
+  {
+   "lesson": 3,
+   "title": "Please send me a card",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Postcards always spoil my holidays.",
+     "zh": "明信片总搅得我假日不得安宁。"
+    },
+    {
+     "en": "Last summer, I went to Italy.",
+     "zh": "去年夏天，我去了意大利。"
+    },
+    {
+     "en": "I visited museums and sat in public gardens.",
+     "zh": "我参观了博物馆，还去了公园。"
+    },
+    {
+     "en": "A friendly waiter taught me a few words of Italian.",
+     "zh": "一位好客的服务员教了我几句意大利语，之后还借给我一本书。"
+    },
+    {
+     "en": "Then he lent me a book.",
+     "zh": "我读了几行，但一个字也不懂。"
+    },
+    {
+     "en": "I read a few lines, but I did not understand a word.",
+     "zh": "我每天都想着明信片的事。"
+    },
+    {
+     "en": "Every day I thought about postcards.",
+     "zh": "假期过得真快，可我还没有给我的朋友们寄过一张明信片。"
+    },
+    {
+     "en": "My holidays passed quickly, but I did not send cards to my friends.",
+     "zh": "到了最后一天，我作出了一项重大决定。"
+    },
+    {
+     "en": "On the last day I made a big decision.",
+     "zh": "我早早起了床，买来了37张明信片。"
+    },
+    {
+     "en": "I got up early and bought thirty-seven cards.",
+     "zh": "我在房间里关了整整一天。"
+    },
+    {
+     "en": "I spent the whole day in my room, but I did not write a single card!",
+     "zh": "然而竟连一张明信片也没写成！"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "museum",
+   "pos": "n",
+   "zh": "Palace Museum:故宫"
+  },
+  {
+   "word": "lovely",
+   "pos": "adj",
+   "zh": "★waiter　n. 服务员，招待员"
+  },
+  {
+   "word": "i",
+   "pos": "n",
+   "zh": "D正确"
+  }
+ ],
+ "translation": [
+  "明信片总搅得我假日不得安宁。",
+  "去年夏天，我去了意大利。",
+  "我参观了博物馆，还去了公园。",
+  "一位好客的服务员教了我几句意大利语，之后还借给我一本书。",
+  "我读了几行，但一个字也不懂。",
+  "我每天都想着明信片的事。",
+  "假期过得真快，可我还没有给我的朋友们寄过一张明信片。",
+  "到了最后一天，我作出了一项重大决定。",
+  "我早早起了床，买来了37张明信片。",
+  "我在房间里关了整整一天。",
+  "然而竟连一张明信片也没写成！"
+ ]
+}

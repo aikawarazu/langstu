@@ -1,0 +1,164 @@
+{
+ "unitId": "u038",
+ "title": "Everything except the weather",
+ "subtitle": "唯独没有考虑到天气",
+ "lead": {
+  "question": "盼了多年终于回英国养老的哈里森，为什么很快就把新买的房子卖掉了？",
+  "warmup": "设想你在阳光充足的地中海生活了大半辈子，天天梦想回英国乡间养老，一切都盘算好了，唯独忘了一件小事——英国的天气。哈里森正是如此：他刚回国就买房定居，却在同一年夏天遇上连绵阴雨和刺骨寒冷，多年的梦想还没落地就碎了。",
+  "goals": [
+   "掌握 no sooner ... than 与 hardly ... when 的搭配及句首倒装语序",
+   "用过去完成时理清“回国前的打算”与“回国后的行动”的先后",
+   "学会 dream of、settle down、complain about、think of 等本课短语",
+   "辨析 continually / continuously 以及 country / countryside"
+  ],
+  "summary": "哈里森在地中海生活多年，一直梦想回英国退休、在乡间安顿。他一回国就买了房子，可当年夏天雨下个不停、天气刺骨地冷，他大受打击，举止仿佛从未在英国生活过。最后他忍无可忍，还没安顿好就卖房离去。文中过去完成时交代“回国前”的打算，两组倒装连词把买房与卖房压缩在一瞬。",
+  "tips": "no sooner 后必须接 than、hardly 后必须接 when，不可混用；置于句首时助动词 had 要提到主语前；过去完成时不能与 ago 连用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did Harrison sell his house so quickly?",
+   "zh": "哈里森为什么这么快就卖掉了房子？",
+   "a": "Because he could not bear the English weather. Even though it was still summer, it rained continually and it was often bitterly cold, so hardly had he had time to settle down when he sold the house and left the country.",
+   "aZh": "因为他忍受不了英国的天气：尽管仍是夏天，雨却下个不停，而且常常冷得刺骨，所以他还没安顿下来就卖掉房子离开了。",
+   "hint": "见 In the end, it was more than he could bear."
+  },
+  {
+   "kind": "detail",
+   "q": "Where had Harrison lived before he returned to England, and what had he planned to do?",
+   "zh": "哈里森回英国前住在哪里？他原本计划做什么？",
+   "a": "He had lived in the Mediterranean for many years. He had often dreamed of retiring in England and had planned to settle down in the country.",
+   "aZh": "他在地中海地区生活了多年；他常幻想在英国退休，并计划在乡间安顿下来。",
+   "hint": "见开头两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What shocked Harrison after his return, and how did he behave?",
+   "zh": "回国后什么让哈里森震惊？他的举止如何？",
+   "a": "After so many years of sunshine, Harrison got a shock: it rained continually and it was often bitterly cold. He acted as if he had never lived in England before.",
+   "aZh": "在阳光下过了那么多年的他大受打击；他的举止就好像从未在英国生活过一样。",
+   "hint": "as if 后接过去完成时表示与过去事实相反。"
+  },
+  {
+   "kind": "detail",
+   "q": "Put the two sentences containing no sooner ... than and hardly ... into the inverted order.",
+   "zh": "把含 no sooner ... than 和 hardly ... when 的两句改成倒装语序。",
+   "a": "No sooner had he returned than he bought a house and went to live there. / Hardly had he had time to settle down when he sold the house and left the country.",
+   "aZh": "他刚一回到英国便买下房子住了进去；他还没等安顿下来就卖掉房子离开了这个国家。",
+   "hint": "助动词 had 提到主语前。"
+  },
+  {
+   "kind": "think",
+   "q": "What is ironic about the title 'Everything except the weather'?",
+   "zh": "标题“唯独没有考虑到天气”的讽刺意味在哪里？",
+   "a": "Harrison had thought of everything except the weather: the money, the house and the place to settle down. The one thing he forgot was the most ordinary thing he could not escape, and it destroyed his lifelong dream.",
+   "aZh": "他把一切都想到了，唯独漏掉了最平常却躲不开的天气；正是这个疏漏终结了他多年的梦想。",
+   "hint": "结合末句 Harrison had thought of everything except the weather。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用 no sooner ... than 合并两句，并把 no sooner 置于句首：He returned to England. He bought a house at once.",
+   "a": "No sooner had he returned than he bought a house.",
+   "note": "no sooner 在句首要倒装，后接 than。"
+  },
+  {
+   "q": "用 hardly ... when 合并两句，并把 hardly 置于句首：He had time to settle down. Then he sold the house and left the country.",
+   "a": "Hardly had he had time to settle down when he sold the house and left the country.",
+   "note": "hardly 后接 when。"
+  },
+  {
+   "q": "用所给动词的正确时态填空：Harrison ______ (live) in the Mediterranean for many years before he ______ (return) to England.",
+   "a": "had lived; returned",
+   "note": "先发生的动作用过去完成时。"
+  },
+  {
+   "q": "填空：He had often dreamed of ______ (retire) in England and settling down in the country.",
+   "a": "retiring",
+   "note": "dream of 后接动名词。"
+  },
+  {
+   "q": "选词填空（continually / continuously）：It rained ______ and it was often bitterly cold.",
+   "a": "continually",
+   "note": "continually 指反复、有间断。"
+  },
+  {
+   "q": "汉译英：在阳光下生活了那么多年后，哈里森开始抱怨天气——雨总是下个不停，而且常常冷得刺骨。",
+   "a": "After so many years of sunshine, Harrison began to complain about the weather, for it rained continually and it was often bitterly cold.",
+   "note": "complain about。"
+  },
+  {
+   "q": "改错：He had thought everything except the weather.",
+   "a": "He had thought of everything except the weather.",
+   "note": "think of 不可漏掉 of。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "哈里森回到英国之前，在哪里生活了很多年？",
+   "options": [
+    "in the Mediterranean",
+    "in the countryside of England",
+    "in a big city in France",
+    "in the north of England"
+   ],
+   "answer": 0,
+   "note": "课文首句。"
+  },
+  {
+   "q": "哈里森回国后原本打算做什么？",
+   "options": [
+    "settle down in the country",
+    "look for a job in London",
+    "travel around the world",
+    "buy a farm in the Mediterranean"
+   ],
+   "answer": 0,
+   "note": "settle down 意为定居。"
+  },
+  {
+   "q": "下列哪一句正确表达了“他刚一回来就买了房子”？",
+   "options": [
+    "No sooner had he returned than he bought a house.",
+    "No sooner he had returned when he bought a house.",
+    "Hardly had he returned than he bought a house.",
+    "No sooner had he returned when he bought a house."
+   ],
+   "answer": 0,
+   "note": "no sooner 配 than，置于句首须倒装。"
+  },
+  {
+   "q": "课文描写雨下个不停用的是哪一句？",
+   "options": [
+    "It rained continually.",
+    "It rained continuously.",
+    "It rained continuously for twenty hours.",
+    "It hardly rained at all."
+   ],
+   "answer": 0,
+   "note": "continually 强调反复。"
+  },
+  {
+   "q": "哈里森为什么会 got a shock？",
+   "options": [
+    "After years of sunshine, he found the English weather unbearable.",
+    "He found the house too expensive.",
+    "He lost his job in England.",
+    "He could not find his old friends."
+   ],
+   "answer": 0,
+   "note": "见 After so many years of sunshine, Harrison got a shock。"
+  },
+  {
+   "q": "标题 Everything except the weather 指的是什么？",
+   "options": [
+    "He had thought of everything except the weather.",
+    "He liked everything about England.",
+    "He forgot everything about the Mediterranean.",
+    "The weather was the only thing he enjoyed."
+   ],
+   "answer": 0,
+   "note": "课文末句点题。"
+  }
+ ]
+}

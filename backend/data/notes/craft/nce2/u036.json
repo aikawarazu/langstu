@@ -1,0 +1,164 @@
+{
+ "unitId": "u036",
+ "title": "Across the Channel",
+ "subtitle": "横渡海峡",
+ "lead": {
+  "question": "11岁的黛比明天要横渡英吉利海峡，她凭什么被认为一定能成功？",
+  "warmup": "十一岁的女孩要横渡英吉利海峡，听起来像传奇。黛比·哈特明早五点从法国海岸下水，不只想到达英国，还想创下新的世界纪录；父亲训练她多年，将乘小船随行，全程焦急注视。她计划每两小时稍作休息，途中只喝饮料、不吃固体食物。",
+  "goals": [
+   "听懂课文，理清黛比横渡海峡的时间、路线、补给与家人安排",
+   "掌握 record、strong、swimmer、succeed、train、anxiously、intend、solid 等词的用法",
+   "掌握 set out、set up a record、every two hours、be sure to do、intend to do 等短语",
+   "区分 be going to 与 will 表打算，掌握 will be doing 及时间状语从句用一般现在时表将来"
+  ],
+  "summary": "课文以预告口吻讲述11岁的黛比·哈特横渡英吉利海峡的计划：明早五点从法国海岸出发，希望创一项新的世界纪录；她是游泳能手，人们认为她必定成功。父亲乘小船同行并焦急注视；她打算每两小时短暂休息，只喝饮料、不吃固体食物。全文交织使用 be going to、will 与 will be doing 三种将来表达。",
+  "tips": "be going to 表打算与事先安排，will 表将要发生，will be doing 表将来某时正在进行；as、when 引导的时间状语从句表将来须用一般现在时，如 as she swims。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What is Debbie going to try to do?",
+   "zh": "黛比打算尝试做什么？",
+   "a": "She is going to try to swim across the English Channel. She will set out from the French coast at five o'clock in the morning and she hopes to set up a new world record.",
+   "aZh": "她打算尝试横渡英吉利海峡：清晨五点从法国海岸出发，并希望创下新的世界纪录。",
+   "hint": "见第 1—3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How old is Debbie, and why do many people feel that she is sure to succeed?",
+   "zh": "黛比多大？为什么很多人认为她一定会成功？",
+   "a": "She is only eleven years old. She is a strong swimmer, and her father has trained her for years, so many people feel that she is sure to succeed.",
+   "aZh": "她只有11岁；她是个游泳能手，父亲又训练她多年。",
+   "hint": "见第 3、4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What will Mr. Hart do while Debbie is swimming?",
+   "zh": "黛比游泳时，哈特先生将做什么？",
+   "a": "He will set out with her in a small boat and will be watching her anxiously as she swims the long distance to England.",
+   "aZh": "他将乘一条小船与她一同出发，并在游往英国的全程中焦急地注视着她。",
+   "hint": "见第 5、7 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What are Debbie's plans for rests and food during the swim?",
+   "zh": "横渡途中黛比对休息和饮食有什么安排？",
+   "a": "She intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.",
+   "aZh": "她打算每两小时稍作休息；她会喝些饮料，但不吃任何固体食物。",
+   "hint": "见第 8、9 句。"
+  },
+  {
+   "kind": "think",
+   "q": "The text ends by mentioning Debbie's mother, who swam the Channel herself when she was a girl. Why is this detail important?",
+   "zh": "课文结尾提到她母亲做姑娘时也横渡过海峡，这个细节有何作用？",
+   "a": "It shows that swimming the Channel runs in the family: Debbie has her father's training and the example of a mother who has done it herself. That is why people feel she is sure to succeed.",
+   "aZh": "说明横渡海峡像是这家人的传统：既有父亲多年的训练，又有母亲亲身成功的榜样，所以人们认为她一定会成功。",
+   "hint": "结合末句与第 4、6 句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空（每空一词）：Debbie hopes to ____ ____ a new world ____.",
+   "a": "set up; record",
+   "note": "set up 创立；record 名词重读首音节。"
+  },
+  {
+   "q": "汉译英：她打算早上五点钟从法国海岸出发。",
+   "a": "She is going to set out from the French coast at five o'clock in the morning.",
+   "note": "set out 出发。"
+  },
+  {
+   "q": "汉译英：她是一个游泳能手，很多人认为她一定能成功。",
+   "a": "She is a strong swimmer and many people feel that she is sure to succeed.",
+   "note": "be sure to do 必定会。"
+  },
+  {
+   "q": "汉译英：哈特先生训练他的女儿已经多年了。",
+   "a": "Mr. Hart has trained his daughter for years.",
+   "note": "for years 常与现在完成时连用。"
+  },
+  {
+   "q": "改错：Tomorrow he will watching her anxiously as she will swim the long distance to England.",
+   "a": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+   "note": "will be doing；as 从句用一般现在时表将来。"
+  },
+  {
+   "q": "句型转换：用 will be doing 改写 Most of Debbie's school friends will wait for her on the English coast.",
+   "a": "Most of Debbie's school friends will be waiting for her on the English coast.",
+   "note": "将来进行时表将来某时正在进行。"
+  },
+  {
+   "q": "汉译英：黛比计划每两小时休息一下；她将喝些饮料，但不吃固体食物。",
+   "a": "Debbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.",
+   "note": "intend to do。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“她希望创一项新的世界纪录”，其中“创立（纪录）”应译为：",
+   "options": [
+    "set up a new world record",
+    "make a new world record",
+    "do a new world record",
+    "build a new world record"
+   ],
+   "answer": 0,
+   "note": "课文用 set up a world record。"
+  },
+  {
+   "q": "“她打算早上五点钟从法国海岸出发”，下列哪句表达正确？",
+   "options": [
+    "She is going to set out from the French coast at five o'clock in the morning.",
+    "She is going to set out from the French coast in five o'clock in the morning.",
+    "She is going to set up from the French coast at five o'clock in the morning.",
+    "She is going to set out at the French coast at five o'clock in the morning."
+   ],
+   "answer": 0,
+   "note": "set out 出发；时刻用 at。"
+  },
+  {
+   "q": "“很多人认为她一定能成功”，“必定会成功”应译为：",
+   "options": [
+    "she is sure to succeed",
+    "she is sure to success",
+    "she is sure of succeed",
+    "she is sure succeeding"
+   ],
+   "answer": 0,
+   "note": "be sure to do。"
+  },
+  {
+   "q": "“明天他将焦急地注视着她游过这段漫长的距离到达英国”，正确的一句是：",
+   "options": [
+    "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+    "Tomorrow he will be watching her anxiously as she will swim the long distance to England.",
+    "Tomorrow he will watching her anxiously as she swims the long distance to England.",
+    "Tomorrow he will have watched her anxiously as she swims the long distance to England."
+   ],
+   "answer": 0,
+   "note": "as 时间状语从句用一般现在时表将来。"
+  },
+  {
+   "q": "“黛比计划每两小时休息一下”，正确的表达是：",
+   "options": [
+    "Debbie intends to take short rests every two hours.",
+    "Debbie intends take short rests every two hours.",
+    "Debbie intends to take short rests every two hour.",
+    "Debbie intends to take short rests each two hours."
+   ],
+   "answer": 0,
+   "note": "intend to do。"
+  },
+  {
+   "q": "“她将喝些饮料，但不吃固体食物”，正确的一句是：",
+   "options": [
+    "She will have something to drink but she will not eat any solid food.",
+    "She will have something to drink but she will not eat some solid food.",
+    "She will have anything to drink but she will not eat any solid food.",
+    "She will have something to drink but she will not eat no solid food."
+   ],
+   "answer": 0,
+   "note": "否定句用 any。"
+  }
+ ]
+}

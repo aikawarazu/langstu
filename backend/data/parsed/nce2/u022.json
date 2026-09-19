@@ -1,0 +1,66 @@
+{
+ "unit": "u022",
+ "unitId": "u022",
+ "lessons": [
+  {
+   "lesson": 22,
+   "title": "A glass envelope",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.",
+     "zh": "我的女儿简从未想过会接到荷兰一位同龄姑娘的来信。"
+    },
+    {
+     "en": "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.",
+     "zh": "去年，当我们横渡英吉利海峡时，简把写有她姓名和住址的一张纸条装进了一只瓶子，又将瓶子扔进了大海。"
+    },
+    {
+     "en": "She threw the bottle into the sea.",
+     "zh": "此后她就再没去想那只瓶子。"
+    },
+    {
+     "en": "She never thought of it again, but ten months later, she received a letter from a girl in Holland.",
+     "zh": "但10个月以后，她收到了荷兰一位姑娘的来信。"
+    },
+    {
+     "en": "Both girls write to each other regularly now.",
+     "zh": "现在这两位姑娘定期通信了。"
+    },
+    {
+     "en": "However, they have decided to use the post office.",
+     "zh": "然而她们还是决定利用邮局。"
+    },
+    {
+     "en": "Letters will cost a little more, but they will certainly travel faster.",
+     "zh": "这样会稍微多花点钱，但肯定是快得多了。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "How did Jane receive a letter from a stranger?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "age",
+   "pos": "n",
+   "zh": "teengager：十几岁的人"
+  },
+  {
+   "word": "channel",
+   "pos": "n",
+   "zh": "★throw　v. 扔，抛"
+  }
+ ],
+ "translation": [
+  "我的女儿简从未想过会接到荷兰一位同龄姑娘的来信。",
+  "去年，当我们横渡英吉利海峡时，简把写有她姓名和住址的一张纸条装进了一只瓶子，又将瓶子扔进了大海。",
+  "此后她就再没去想那只瓶子。",
+  "但10个月以后，她收到了荷兰一位姑娘的来信。",
+  "现在这两位姑娘定期通信了。",
+  "然而她们还是决定利用邮局。",
+  "这样会稍微多花点钱，但肯定是快得多了。"
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u017",
+ "title": "Always young",
+ "subtitle": "青春常驻",
+ "lead": {
+  "question": "至少三十五岁的詹妮弗，为什么总在舞台上扮演十几岁的少女？",
+  "warmup": "本课讲一位“不愿长大”的女演员。她至少三十五岁，却常常以少女形象出现在舞台上；新戏里要穿鲜红裙子和黑色长筒袜，去年演另一出戏时穿的却是短袜和橘红色连衣裙。有人问她的年龄，她总用一句玩笑话岔开。读的过程中请留意：作者如何用 must be、have to 表达“推测”与“客观要求”，又如何用 in spite of、as 把反差写得格外生动。",
+  "goals": [
+   "掌握 appear、stage、bright、stocking、sock 等本课核心词汇的词义与搭配",
+   "区分 must be 表肯定推测与 must / have to 表客观要求的用法差异",
+   "学会 in spite of、at least、take part in、grow up 等短语的准确使用",
+   "能用 as + 原级 + as 同级比较结构改写、仿写本课句子"
+  ],
+  "summary": "全文围绕“年龄与角色”的反差展开：先点明詹妮弗的真实年龄至少三十五岁，再用 In spite of this 转折，说她常以少女形象登台；接着交代即将参演的新戏和十七岁少女的角色，并详细描述两次演出的服装——这次是鲜红长裙配黑色长筒袜，去年是短袜配橘红色连衣裙。最后用她那句“长成大人真可怕”收尾，把一位怕老又爱演的演员写得活灵活现。",
+  "tips": "易错点：stocking 是长筒袜，sock 是短袜，别混；on the stage 指“在舞台上登台”，in the stage 属搭配错误。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+   "zh": "为什么詹妮弗姑姑不告诉任何人她的年龄？",
+   "a": "Because she is at least thirty-five but likes to appear as a young girl; she thinks it must be terrible to be grown up.",
+   "aZh": "因为她至少已三十五岁，却总在舞台上扮演少女，觉得“长成大人真可怕”，所以总是回避这个问题。",
+   "hint": "答案出自课文末句 she always answers, 'Darling, it must be terrible to be grown up!'，并结合首句 She must be at least thirty-five years old。"
+  },
+  {
+   "kind": "detail",
+   "q": "What must Jennifer wear in the new play?",
+   "zh": "詹妮弗在新剧里必须穿什么？",
+   "a": "She must appear in a bright red dress and long black stockings.",
+   "aZh": "她必须穿一条鲜红色的裙子和黑色的长筒袜登台。",
+   "hint": "见课文第五句 In the play, she must appear in a bright red dress and long black stockings。"
+  },
+  {
+   "kind": "detail",
+   "q": "What is the difference between her costume this time and last year's?",
+   "zh": "她这次的戏服和去年的有什么不同？",
+   "a": "Last year she had to wear short socks and a bright, orange-coloured dress, but this time she will wear long black stockings and a bright red dress.",
+   "aZh": "去年她不得不穿短袜和鲜艳的橘红色衣服，这次则要穿黑色长筒袜和鲜红色裙子。",
+   "hint": "对比课文第五句与第六句：this time 与 Last year in another play 的服装描写。"
+  },
+  {
+   "kind": "detail",
+   "q": "How old is Jennifer, and how old is the girl she will play?",
+   "zh": "詹妮弗实际多少岁？她要扮演的少女多少岁？",
+   "a": "She must be at least thirty-five years old, and this time she will be a girl of seventeen.",
+   "aZh": "她至少有三十五岁，而这次要扮演一个十七岁的少女。",
+   "hint": "见课文首句 She must be at least thirty-five years old 与第四句 This time, she will be a girl of seventeen。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer use 'In spite of this' instead of 'So' at the beginning of the second sentence?",
+   "zh": "作者为什么在第二句开头用 in spite of this（尽管如此），而不用 so（所以）？",
+   "a": "Because her appearing as a young girl contrasts with her real age: she is at least thirty-five, yet she still plays teenagers. 'In spite of this' expresses concession, while 'So' would wrongly suggest a cause-and-effect relation.",
+   "aZh": "因为“扮演少女”与“至少三十五岁”之间是让步转折而非因果：尽管年纪不小，她仍演少女。用 in spite of this 突出反差，用 so 会把转折误写成因果。",
+   "hint": "结合第二句 In spite of this, she often appears on the stage as a young girl 与首句的年龄信息。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我的姑姑詹妮弗是位演员，她至少也有三十五岁了。",
+   "a": "My aunt Jennifer is an actress. She must be at least thirty-five years old.",
+   "note": "must be 表肯定推测，at least 置于数词前。"
+  },
+  {
+   "q": "句型转换：Although she is at least thirty-five, she often appears on the stage as a young girl.（用 in spite of 改写）",
+   "a": "In spite of this, she often appears on the stage as a young girl.",
+   "note": "in spite of 后接名词或 this，不接句子。"
+  },
+  {
+   "q": "用所给词翻译：詹妮弗很快又要参加一个新剧的演出。（take part in）",
+   "a": "Jennifer will have to take part in a new play soon.",
+   "note": "have to 表客观要求，参加演出用 take part in a play。"
+  },
+  {
+   "q": "填空：Last year she had to wear short ______ (sock) and a bright, ______ (orange-colour) dress.",
+   "a": "socks; orange-coloured",
+   "note": "sock 短袜须用复数；复合形容词加 -ed。"
+  },
+  {
+   "q": "改错：In the play, she must appears in a bright red dress and long black stocking.",
+   "a": "In the play, she must appear in a bright red dress and long black stockings.",
+   "note": "must 后接动词原形；stocking 此处用复数。"
+  },
+  {
+   "q": "汉译英：亲爱的，长成大人真可怕啊！",
+   "a": "Darling, it must be terrible to be grown up!",
+   "note": "grown up 作形容词表“成年的”，it 为形式主语。"
+  },
+  {
+   "q": "句型转换：She is not as young as the girl she plays this time.（用 as … as 原级结构补充说明）",
+   "a": "She is not as young as the girl she will play this time.",
+   "note": "as + 形容词原级 + as，否定用 not as … as。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“她至少也有三十五岁了”，课文原句是哪一句？",
+   "options": [
+    "She must be at least thirty-five years old.",
+    "She has to be thirty-five years old at least.",
+    "She is thirty-five years old at the least.",
+    "She can be at least thirty-five years old."
+   ],
+   "answer": 0,
+   "note": "must be 表肯定推测，at least 置于数词前。"
+  },
+  {
+   "q": "下列哪个短语表示“尽管如此、虽然如此”？",
+   "options": [
+    "in case of",
+    "in front of",
+    "in spite of",
+    "instead of"
+   ],
+   "answer": 2,
+   "note": "in spite of 表让步；instead of 表“而不是”。"
+  },
+  {
+   "q": "詹妮弗在新剧中的服装是哪一套？",
+   "options": [
+    "short socks and a bright, orange-coloured dress",
+    "a bright red dress and long black stockings",
+    "long black stockings and a bright orange skirt",
+    "short socks and a bright red dress"
+   ],
+   "answer": 1,
+   "note": "橘红色短袜那套是去年另一出戏的服装。"
+  },
+  {
+   "q": "“詹妮弗很快又要参加一个新剧的演出”，哪一项表达正确？",
+   "options": [
+    "Jennifer will have to join a new play soon.",
+    "Jennifer will have to take part in a new play soon.",
+    "Jennifer will have to take part a new play soon.",
+    "Jennifer will has to take part in a new play soon."
+   ],
+   "answer": 1,
+   "note": "take part in 后接宾语，will 后接原形 have to。"
+  },
+  {
+   "q": "英语里表示“长筒袜”的词是？",
+   "options": [
+    "sock",
+    "stocking",
+    "stoking",
+    "shock"
+   ],
+   "answer": 1,
+   "note": "sock 是短袜，stocking 才是长筒袜。"
+  },
+  {
+   "q": "有人问詹妮弗年龄时，她总是怎么回答？",
+   "options": [
+    "Darling, I am only seventeen!",
+    "Darling, it must be terrible to be grown up!",
+    "Darling, I am at least thirty-five!",
+    "Darling, I have to act a young girl!"
+   ],
+   "answer": 1,
+   "note": "课文末句原话，用玩笑避开真实年龄。"
+  }
+ ]
+}

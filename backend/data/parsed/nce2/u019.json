@@ -1,0 +1,121 @@
+{
+ "unit": "u019",
+ "unitId": "u019",
+ "lessons": [
+  {
+   "lesson": 19,
+   "title": "Sold out",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "'The play may begin at any moment,' I said.",
+     "zh": "“剧马上就要开演了，”我说。"
+    },
+    {
+     "en": "'It may have begun already,' Susan answered.",
+     "zh": "“也许已经开演了呢，”苏珊回答说。"
+    },
+    {
+     "en": "I hurried to the ticket office. 'May I have two tickets please?",
+     "zh": "我匆匆赶到售票处，问：“我可以买两张票吗？"
+    },
+    {
+     "en": "I asked.",
+     "zh": "”“对不起，票已售完。"
+    },
+    {
+     "en": "'I'm sorry, we've sold out,' the girl said.",
+     "zh": "”那位姑娘说。"
+    },
+    {
+     "en": "'What a pity!",
+     "zh": "“真可惜！"
+    },
+    {
+     "en": "Susan exclaimed Just then, a man hurried to the ticket office.",
+     "zh": "”苏珊大声说。"
+    },
+    {
+     "en": "'Can I return these two tickets?",
+     "zh": "正在这时，一个男子匆匆奔向售票处。"
+    },
+    {
+     "en": "he asked.",
+     "zh": "“我可以退掉这两张票吗？"
+    },
+    {
+     "en": "'Certainly,' the girl said.",
+     "zh": "”他问。"
+    },
+    {
+     "en": "I went back to the ticket office at once.",
+     "zh": "“当然可以，”那姑娘说。"
+    },
+    {
+     "en": "'Could I have those two tickets please?",
+     "zh": "我马上又回到售票处。"
+    },
+    {
+     "en": "I asked.",
+     "zh": "“我可以买那两张票吗？"
+    },
+    {
+     "en": "'Certainly,' the girl said, 'but they're for next Wednesday's performance.",
+     "zh": "”我问。"
+    },
+    {
+     "en": "Do you still want them?",
+     "zh": "“当然可以，不过这两张票是下星期三的，您是否还要呢？"
+    },
+    {
+     "en": "'I might as well have them,' I said sadly",
+     "zh": "”“我还是买下的好，”我垂头丧气地说。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "When will the writer see the play?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "hurry",
+   "pos": "v",
+   "zh": "in a hurry：匆忙"
+  },
+  {
+   "word": "exclaim",
+   "pos": "v",
+   "zh": "shout：大声喊＝cry,call out"
+  },
+  {
+   "word": "return",
+   "pos": "v",
+   "zh": "return to：回来"
+  },
+  {
+   "word": "sadly　ad",
+   "pos": "v",
+   "zh": "涵盖了所有悲哀"
+  }
+ ],
+ "translation": [
+  "“剧马上就要开演了，”我说。",
+  "“也许已经开演了呢，”苏珊回答说。",
+  "我匆匆赶到售票处，问：“我可以买两张票吗？",
+  "”“对不起，票已售完。",
+  "”那位姑娘说。",
+  "“真可惜！",
+  "”苏珊大声说。",
+  "正在这时，一个男子匆匆奔向售票处。",
+  "“我可以退掉这两张票吗？",
+  "”他问。",
+  "“当然可以，”那姑娘说。",
+  "我马上又回到售票处。",
+  "“我可以买那两张票吗？",
+  "”我问。",
+  "“当然可以，不过这两张票是下星期三的，您是否还要呢？",
+  "”“我还是买下的好，”我垂头丧气地说。"
+ ]
+}

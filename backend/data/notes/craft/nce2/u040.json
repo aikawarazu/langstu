@@ -1,0 +1,164 @@
+{
+ "unitId": "u040",
+ "title": "Food and talk",
+ "subtitle": "进餐与交谈",
+ "lead": {
+  "question": "宴会上坐在一位不苟言笑的女士旁边，你该如何打破沉默、开启交谈？",
+  "warmup": "上星期的一次宴会上，女主人安排“我”坐在兰伯尔德夫人旁边。这位夫人身材高大、面无笑容，穿一件紧身黑衣，目光始终盯着盘子，只顾埋头吃饭。“我”提起环球剧场的新剧，又问她是否出国度假、是否留在英国，得到的回答全是“不”。失望之中，“我”问她饭是否吃得满意，她却回敬：如果你多吃点、少说点，我们两个都会吃得开心。",
+  "goals": [
+   "掌握 hostess、unsmiling、tight、fix、globe、despair 等本课核心词汇的词义与搭配",
+   "熟练运用 next to、take one's seat、fix one's eyes on、be busy doing、in despair、make conversation 等短语",
+   "理解并运用第2类条件句（if + 一般过去时，主句 would + 动词原形）",
+   "能用英语得体地开启交谈，也能委婉地收住话头"
+  ],
+  "summary": "本课用一次尴尬的晚宴串起语言点：next to 表“挨着”，in 表“穿着”，take one's seat 指按安排就座，fix one's eyes on 写目光紧盯，be busy doing 写忙着吃；三次提问换来三个“No”，逼出 in despair。结尾名句是第2类条件句，且 ate 对 talked、more 对 less，结构平衡。",
+  "tips": "第2类条件句里的过去时不表示过去；另外 be busy 后接 (in) doing，不接 to do。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Was Mrs. Rumbold a good companion at dinner?",
+   "zh": "兰伯尔德夫人在宴会上是个好聊伴吗？",
+   "a": "No, she wasn't. She was a large, unsmiling lady in a tight black dress; she kept her eyes fixed on her plate and was soon busy eating. She answered 'No' to all his questions and finally said, 'If you ate more and talked less, we would both enjoy our dinner!'",
+   "aZh": "不是。她身材高大、面无笑容，眼睛盯着盘子，不一会儿就忙着吃起来。她对所有问题一律回答“不”。",
+   "hint": "答案藏在首尾。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where did the hostess ask the writer to sit, and what did Mrs. Rumbold look like?",
+   "zh": "女主人安排“我”坐在哪里？兰伯尔德夫人是什么模样？",
+   "a": "The hostess asked him to sit next to Mrs. Rumbold. Mrs. Rumbold was a large, unsmiling lady in a tight black dress.",
+   "aZh": "女主人安排“我”坐在兰伯尔德夫人旁边；她是位身材高大、不苟言笑的女士，穿着一件紧身黑裙。",
+   "hint": "见课文第 1—2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was Mrs. Rumbold doing while the writer tried to make conversation?",
+   "zh": "当“我”试图找话题时，兰伯尔德夫人在做什么？",
+   "a": "Her eyes were fixed on her plate and in a short time she was busy eating — she did not even look up when he took his seat beside her.",
+   "aZh": "她眼睛盯着自己的盘子，不一会儿就忙着吃起来，连头都不抬。",
+   "hint": "见第 3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What three questions did the writer ask, and how did Mrs. Rumbold answer him in the end?",
+   "zh": "“我”连问了哪三个问题？兰伯尔德夫人最后是怎么回他的？",
+   "a": "He asked whether she would be seeing the new play at 'The Globe', whether she would be spending her holidays abroad, and whether she would be staying in England — each answered with 'No'. In despair he asked if she was enjoying her dinner, and she answered: 'Young man, if you ate more and talked less, we would both enjoy our dinner!'",
+   "aZh": "三个问题回答全是“不”；失望中“我”问她饭是否吃得满意，她答：“年轻人，如果你多吃点、少说点，我们两个都会吃得开心！”",
+   "hint": "见中间三次 Will you be doing…? 与三个 No。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is Mrs. Rumbold's last remark funny, and what does the Second Conditional tell us about her attitude?",
+   "zh": "兰伯尔德夫人最后那句话为什么好笑？第2类条件句透露出她怎样的态度？",
+   "a": "It is funny because she turns the writer's politeness into the problem: instead of blaming herself for being silent, she blames him for talking. The Second Conditional describes an imagined, unreal situation, so she is making a sharp joke rather than really asking him to change.",
+   "aZh": "好笑在于她把“我”的礼貌当成了问题，反怪对方话多。第2类条件句描写想像的、非真实的情况，她只是说了一句尖锐的俏皮话。",
+   "hint": "抓两点：幽默来自“反客为主”；过去时表“非真实的现在”。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "词汇填空：At the dinner party the ______ asked me to sit ______ ______ Mrs. Rumbold.",
+   "a": "hostess; next to",
+   "note": "hostess 女主人；next to 挨着。"
+  },
+  {
+   "q": "根据汉语完成句子：Mrs. Rumbold was a large, ______ lady ______ a ______ black dress.",
+   "a": "unsmiling; in; tight",
+   "note": "un- 表反义；in 表“穿着”。"
+  },
+  {
+   "q": "用 fix one's eyes on 改写：She looked steadily at her plate.",
+   "a": "She fixed her eyes on her plate.",
+   "note": "fix on 表目光集中。"
+  },
+  {
+   "q": "用 be busy (in) doing 翻译：不一会儿她就忙着吃起来。",
+   "a": "In a short time, she was busy (in) eating.",
+   "note": "be busy 后接 (in) doing。"
+  },
+  {
+   "q": "补全句子：I tried to ______ ______. 'A new play is coming to \"The ______\" soon,' I said.",
+   "a": "make conversation; Globe",
+   "note": "make conversation 找话题。"
+  },
+  {
+   "q": "用 in despair 翻译：失望之中，我问她饭是否吃得满意。",
+   "a": "In despair, I asked her whether she was enjoying her dinner.",
+   "note": "in despair 失望之中。"
+  },
+  {
+   "q": "按第2类条件句改写：If you ______ more and ______ less, we ______ both ______ our dinner.",
+   "a": "ate; talked; would; enjoy",
+   "note": "if 从句过去时，主句 would + 动词原形。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“女主人安排我坐在兰伯尔德夫人旁边”中的“旁边”，课文用的是哪个短语？",
+   "options": [
+    "far from",
+    "next to",
+    "behind",
+    "between"
+   ],
+   "answer": 1,
+   "note": "next to 表“挨着”。"
+  },
+  {
+   "q": "“失望之中”应译为？",
+   "options": [
+    "in despair",
+    "in disappoint",
+    "with despair",
+    "on despair"
+   ],
+   "answer": 0,
+   "note": "in despair 为固定短语。"
+  },
+  {
+   "q": "“她的眼睛盯着自己的盘子”正确的英文表达是哪一句？",
+   "options": [
+    "Her eyes fixed at her plate.",
+    "Her eyes were fixed on her plate.",
+    "Her eyes were fixing in her plate.",
+    "She fixed her eyes to her plate."
+   ],
+   "answer": 1,
+   "note": "fix one's eyes on。"
+  },
+  {
+   "q": "“她正忙着吃起来”应表达为？",
+   "options": [
+    "She was busy to eat.",
+    "She was busy eat.",
+    "She was busy eating.",
+    "She was busy for eating."
+   ],
+   "answer": 2,
+   "note": "be busy (in) doing。"
+  },
+  {
+   "q": "“我试图找个话题和她聊聊”中的“找话题”是？",
+   "options": [
+    "do conversation",
+    "take conversation",
+    "make a talk",
+    "make conversation"
+   ],
+   "answer": 3,
+   "note": "make conversation 固定搭配。"
+  },
+  {
+   "q": "If you ate more and talked less, we ______ both enjoy our dinner. 空白处应填？",
+   "options": [
+    "will",
+    "would",
+    "shall",
+    "must"
+   ],
+   "answer": 1,
+   "note": "第2类条件句。"
+  }
+ ]
+}

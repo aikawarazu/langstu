@@ -1,0 +1,164 @@
+{
+ "unitId": "u027",
+ "title": "A wet night",
+ "subtitle": "雨夜",
+ "lead": {
+  "question": "孩子们在田野中央搭帐篷过夜，半夜为什么慌忙跳出了睡袋？",
+  "warmup": "你有过野外露营的经历吗？白天在田野里搭帐篷、烧火做饭、围着营火讲故事，趣味十足；可一场夜雨就能把帐篷变成水塘。本课讲的正是这样一夜：孩子们睡得正香，半夜里却被泡在水里的睡袋惊醒。读时留意两点：动词几乎全用一般过去时串起整件事，以及 put up、put out 这类短语动词如何改变词义。",
+  "goals": [
+   "掌握 put up、put out、put off、put away 等 put 系列短语动词的辨析",
+   "记住 creep、leap、wind 的不规则过去式 crept、leapt、wound",
+   "学会 in the middle of 表时间与地点、right 表强调的用法",
+   "能用一般过去时按时间顺序连贯复述一次露营经历"
+  ],
+  "summary": "课文按时间顺序展开：傍晚搭帐篷、篝火做饭、讲故事唱歌、下雨熄灭营火钻进睡袋、睡得香甜，到半夜被水泡醒、跳出睡袋，最后交代帐篷进水的原因——一条小溪蜿蜒穿过田野，正好从帐篷底下流过。全文动词基本用一般过去时，其中 had formed 用过去完成时，表示先于发现发生。",
+  "tips": "易错提醒：wind 作“蜿蜒”讲时过去式是 wound，别写成 winded；句中 right 是副词“正好”，不是“右边”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What happened to the boys in the night?",
+   "zh": "夜里孩子们发生了什么事？",
+   "a": "It began to rain heavily. A stream formed in the field and flowed right under their tent, so the tent was full of water and the boys leapt out of their sleeping bags and hurried outside.",
+   "aZh": "夜里下起了大雨，田野里形成一条小溪，正好从他们的帐篷底下流过，帐篷里全是水，孩子们全都跳出睡袋跑到外面。",
+   "hint": "答案集中在课文后半部分：The tent was full of water!、a stream had formed in the field。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the boys sleep soundly at first?",
+   "zh": "孩子们一开始为什么睡得很香？",
+   "a": "Because their sleeping bags were warm and comfortable.",
+   "aZh": "因为他们的睡袋又暖和又舒服。",
+   "hint": "见第 7 句：Their sleeping bags were warm and comfortable, so they all slept soundly。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was the tent full of water?",
+   "zh": "帐篷里为什么全是水？",
+   "a": "It was raining heavily; a stream had formed in the field, wound its way across it and then flowed right under their tent.",
+   "aZh": "雨下得很大，田野里形成了一条小溪，它蜿蜒穿过田野，正好从他们的帐篷底下流过。",
+   "hint": "见末两句：a stream had formed in the field 与 flowed right under their tent。"
+  },
+  {
+   "kind": "detail",
+   "q": "How is 'in the middle of' used differently in 'in the middle of a field' and 'in the middle of the night'?",
+   "zh": "in the middle of a field 与 in the middle of the night 用法有何不同？",
+   "a": "The first refers to a place, the second refers to time.",
+   "aZh": "前者指地点“在田野中央”，后者指时间“午夜前后、半夜里”。",
+   "hint": "对比第 1 句与第 8 句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer wait until the last sentence to tell us that the stream flowed right under their tent?",
+   "zh": "作者为什么到最后一句才交代小溪“正好从帐篷底下流过”？",
+   "a": "It keeps the reader in suspense: we first see the flooded tent and only then learn the cause, which turns an ordinary camping trip into a surprise. The word 'right' also stresses the irony that they had pitched their tent in the worst possible place.",
+   "aZh": "先摆出“帐篷里全是水”的结果，最后才揭示原因，形成悬念与转折；right 强调他们恰好把帐篷搭在了最糟的位置。",
+   "hint": "关注末句 flowed right under their tent 与首句 in the middle of a field 的呼应。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空（一格一词）：Late in the afternoon, the boys ____ ____ their tent in the middle of a field.",
+   "a": "put up",
+   "note": "put up 此处意为“搭建”。"
+  },
+  {
+   "q": "填空：The boys felt tired so they ____ ____ the fire and ____ into their tent.",
+   "a": "put out; crept",
+   "note": "put out 扑灭；creep 过去式 crept。"
+  },
+  {
+   "q": "填空：Their sleeping bags were warm and __________, so they all slept __________.",
+   "a": "comfortable; soundly",
+   "note": "soundly 香甜地，修饰 slept。"
+  },
+  {
+   "q": "填空：____ ____ ____ ____ the night, two boys ____ ____ and began shouting.",
+   "a": "In the middle of; woke up",
+   "note": "in the middle of 也可表时间。"
+  },
+  {
+   "q": "用括号中动词的过去式填空：They all ____ out of their sleeping bags and hurried outside. (leap)",
+   "a": "leapt",
+   "note": "leap 是不规则动词。"
+  },
+  {
+   "q": "用括号中动词的正确形式填空：It was raining heavily and they found that a stream ____ ____ in the field. (form)",
+   "a": "had formed",
+   "note": "先于 found 发生，用过去完成时。"
+  },
+  {
+   "q": "汉译英：那条小溪弯弯曲曲穿过田野，然后正好从他们的帐篷底下流了过去。",
+   "a": "The stream wound its way across the field and then flowed right under their tent!",
+   "note": "wound 是 wind 的过去式；right 表强调。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中“搭起帐篷”用哪个短语？",
+   "options": [
+    "put up their tent",
+    "put out their tent",
+    "put off their tent",
+    "put away their tent"
+   ],
+   "answer": 0,
+   "note": "put up 搭建；put out 扑灭；put off 推迟；put away 收好。"
+  },
+  {
+   "q": "“他们扑灭了篝火，钻进了帐篷”最恰当的英文是？",
+   "options": [
+    "They put out the fire and crept into their tent.",
+    "They put up the fire and crept into their tent.",
+    "They put off the fire and climbed into their tent.",
+    "They put away the fire and crawled into their tent."
+   ],
+   "answer": 0,
+   "note": "put out 扑灭；creep 过去式 crept。"
+  },
+  {
+   "q": "“他们都睡得很香”如何表达？",
+   "options": [
+    "They all slept soundly.",
+    "They all slept heavily.",
+    "They all slept hardly.",
+    "They all slept loudly."
+   ],
+   "answer": 0,
+   "note": "soundly 香甜地；heavily 常修饰 rain、snow。"
+  },
+  {
+   "q": "“午夜前后，有两个孩子醒了”英文是？",
+   "options": [
+    "In the middle of the night, two boys woke up.",
+    "In the centre of the night, two boys woke up.",
+    "At the middle night, two boys woke up.",
+    "On the middle of the night, two boys woke up."
+   ],
+   "answer": 0,
+   "note": "in the middle of 可表时间。"
+  },
+  {
+   "q": "“小溪弯弯曲曲穿过田野”的正确英文是？",
+   "options": [
+    "The stream wound its way across the field.",
+    "The stream winded its way across the field.",
+    "The stream wound its way across the river.",
+    "The stream winds its way across the field."
+   ],
+   "answer": 0,
+   "note": "wind 作“蜿蜒”讲时过去式是 wound。"
+  },
+  {
+   "q": "课文中 they found that a stream had formed 为什么用 had formed？",
+   "options": [
+    "The stream formed before they found it.",
+    "The stream is forming now.",
+    "The stream will form later.",
+    "The stream forms every night."
+   ],
+   "answer": 0,
+   "note": "先于 found 发生，故用过去完成时。"
+  }
+ ]
+}

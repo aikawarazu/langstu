@@ -1,0 +1,164 @@
+{
+ "unitId": "u061",
+ "title": "Trouble with the Hubble",
+ "subtitle": "哈勃望远镜的困境",
+ "lead": {
+  "question": "耗资十亿美元的哈勃望远镜，为何一上天就出故障，还要派宇航员修理？",
+  "warmup": "1990年4月20日，NASA 耗资十多亿美元把哈勃望远镜送入太空，本指望它摆脱大气层的干扰，拍下人类从未见过的清晰星空。谁知从最开始就出问题：主镜有误差，传回的照片令人失望。于是航天局派奋进号航天飞机送四名宇航员上天，用机械臂抓住望远镜，在太空里把它修好。",
+  "goals": [
+   "复述哈勃望远镜发射、主镜故障与太空维修的全过程",
+   "辨析并运用将来进行时、将来完成时与将来完成进行时",
+   "熟练使用 at a cost of、right from the start、put ... right、thousands and thousands of、above the earth's atmosphere",
+   "掌握最高级后接 ever + 现在完成时的定语从句，并能区分 cost、price、value"
+  ],
+  "summary": "本课讲哈勃望远镜耗资十多亿美元上天却因主镜故障失灵，再由奋进号送宇航员修复。语法重点是三种将来时：will be taking 表计划中的持续动作，will have sent 表到你读到本文时已完成的成果，will have been sending 表延续到将来的过程。",
+  "tips": "by the time 引导的时间状语从句要用一般现在时代替将来时；cost 指工程费用，price 指商品价钱，value 指抽象价值。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What is the special importance of a telescope in space?",
+   "zh": "太空中的望远镜有什么特殊的重要性？",
+   "a": "Because it is above the earth's atmosphere, it can send us the clearest pictures of the stars and distant galaxies that we have ever seen, and tell us a great deal about the age and size of the universe.",
+   "aZh": "因为它位于地球大气层之上，能发回人类所见过的最清晰的恒星与遥远星系的照片，还能告诉我们许多关于宇宙年龄与大小的信息。",
+   "hint": "见第 7、8 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why were the pictures the Hubble sent us very disappointing?",
+   "zh": "为什么哈勃传回地球的照片令人非常失望？",
+   "a": "Because its main mirror was faulty.",
+   "aZh": "因为它的主镜有误差。",
+   "hint": "见第 3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How will the four astronauts repair the Hubble?",
+   "zh": "四名宇航员将如何修理哈勃望远镜？",
+   "a": "The shuttle Endeavour will take them to the Hubble, and a robot-arm from the Endeavour will grab the telescope and hold it while they make the necessary repairs.",
+   "aZh": "奋进号把他们送到哈勃处，机械臂抓住并托住望远镜，宇航员趁此进行必要的修理。",
+   "hint": "见第 5、6 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What will the Hubble's eagle eye have done by the time you read this?",
+   "zh": "到你读到这篇文章时，哈勃的鹰眼将会已经做了什么？",
+   "a": "It will have sent us thousands and thousands of wonderful pictures.",
+   "aZh": "它将已经为我们送来成千上万张精彩的照片。",
+   "hint": "见课文末句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer use 'will have sent' instead of 'will send', and how would 'will have been sending' change the meaning?",
+   "zh": "作者为何用将来完成时？若改用将来完成进行时，语意有何变化？",
+   "a": "By the time you read this points to a future moment, so will have sent stresses completion by then. Will send would only state a future action. Will have been sending would shift the focus from the result to the continuous process.",
+   "aZh": "将来完成时强调到那时已经完成；will send 只陈述将来动作；将来完成进行时把重点从结果转到延续的过程。",
+   "hint": "对照将来完成时与将来完成进行时的定义。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空：The Hubble telescope was launched into space by NASA on April 20, 1990 ______ over a billion dollars.",
+   "a": "at a cost of",
+   "note": "at a cost of 表示耗资。"
+  },
+  {
+   "q": "填空：______ there was trouble with the Hubble.",
+   "a": "Right from the start",
+   "note": "right 起强调作用。"
+  },
+  {
+   "q": "填空：NASA is now going to ______ the telescope ______.（修好）",
+   "a": "put ... right",
+   "note": "put sth. right 意为修好。"
+  },
+  {
+   "q": "汉译英：等你读到这篇文章时，敏锐的哈勃望远镜已经为我们送来了成千上万张精彩的照片。",
+   "a": "By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.",
+   "note": "将来完成时。"
+  },
+  {
+   "q": "用将来完成进行时填空：By next month, the Hubble ______ (send) us pictures for over thirty years.",
+   "a": "will have been sending",
+   "note": "强调持续。"
+  },
+  {
+   "q": "填空：By the time you ______ (read) this, the Hubble will have sent us wonderful pictures.",
+   "a": "read",
+   "note": "时间状语从句用现在时代替将来时。"
+  },
+  {
+   "q": "用所给动词的适当形式填空：The shuttle Endeavour ______ (take) the astronauts to the Hubble.",
+   "a": "will be taking",
+   "note": "将来进行时陈述计划。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文表示耗资的正确短语是？",
+   "options": [
+    "at a cost of over a billion dollars",
+    "at a price of over a billion dollars",
+    "with a value of over a billion dollars",
+    "in the cost of over a billion dollars"
+   ],
+   "answer": 0,
+   "note": "at a cost of 指工程费用。"
+  },
+  {
+   "q": "下面哪一句与课文一致，表示从最开始就有问题？",
+   "options": [
+    "Right from the start there was trouble with the Hubble.",
+    "Right at the end there was trouble with the Hubble.",
+    "From the start right there was trouble to the Hubble.",
+    "Right from the start there had trouble with the Hubble."
+   ],
+   "answer": 0,
+   "note": "right 强调 from the start。"
+  },
+  {
+   "q": "NASA 准备把望远镜修好，课文中的原句是哪一句？",
+   "options": [
+    "NASA is now going to put the telescope right.",
+    "NASA is now going to take the telescope right.",
+    "NASA is now going to put the telescope rightly.",
+    "NASA is now going to put the telescope correct."
+   ],
+   "answer": 0,
+   "note": "put sth. right 意为修好。"
+  },
+  {
+   "q": "哈勃为什么能拍到人类所见过的最清晰的照片？",
+   "options": [
+    "Because it is above the earth's atmosphere.",
+    "Because its main mirror was faulty.",
+    "Because it cost over a billion dollars.",
+    "Because four astronauts repaired it on the earth."
+   ],
+   "answer": 0,
+   "note": "位于大气层之外。"
+  },
+  {
+   "q": "到下星期这个时候，我就已经为这家公司工作二十年了，正确的时态是哪一句？",
+   "options": [
+    "By this time next week, I will have been working for this firm for twenty years.",
+    "By this time next week, I will have worked for this firm for twenty years.",
+    "By this time next week, I will be working for this firm for twenty years.",
+    "By this time next week, I will work for this firm for twenty years."
+   ],
+   "answer": 0,
+   "note": "将来完成进行时。"
+  },
+  {
+   "q": "这是我们所见过的最清晰的照片，正确的英文是哪一个？",
+   "options": [
+    "the clearest pictures that we have ever seen",
+    "the clearest pictures that we ever see",
+    "the clearest pictures that we had ever seen",
+    "the clearest pictures that we will ever see"
+   ],
+   "answer": 0,
+   "note": "最高级后接现在完成时 + ever。"
+  }
+ ]
+}

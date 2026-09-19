@@ -1,0 +1,116 @@
+{
+ "unit": "u061",
+ "unitId": "u061",
+ "lessons": [
+  {
+   "lesson": 61,
+   "title": "Trouble with the Hubble",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "The Hubble telescope was launched into space by NASA on April 20,1990 at a cost of over a billion dollars.",
+     "zh": "哈勃望远镜于1990年4月20日由国家航空航天局发射升空，耗资10多亿美元。"
+    },
+    {
+     "en": "Right from the start there was trouble with the Hubble.",
+     "zh": "从最开始哈勃望远镜就有问题。"
+    },
+    {
+     "en": "The pictures it sent us were very disappointing because its main mirror was faulty!",
+     "zh": "它传送给我们的图像很令人失望，因为它的主要镜子有误差。"
+    },
+    {
+     "en": "NASA is now going to put the telescope right, so it will soon be sending up four astronauts to repair it.",
+     "zh": "国家航天局准备纠正这一错误，为此将把4名宇航员送入太空修复望远镜。"
+    },
+    {
+     "en": "The shuttle Endeavour will be taking the astronauts to the Hubble.",
+     "zh": "“奋进”号航天飞机将把宇航员送上哈勃。"
+    },
+    {
+     "en": "A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.",
+     "zh": "当宇航员进行必要的修复工作时，“奋进”号上的一只机器手将抓住望远镜并托住它。"
+    },
+    {
+     "en": "Of course, the Hubble is above the earth's atmosphere, so it will soon be sending us the clearest pictures of the stars and distant galaxies that we have ever seen.",
+     "zh": "当然，哈勃位于地球的大气层之外，因此，它很快就会给我们传送我们所见到过的、有关行星和远距离星系的最清晰的照片。"
+    },
+    {
+     "en": "The Hubble will tell us a great deal about the age and size of the universe.",
+     "zh": "哈勃将告诉我们有关宇宙的年龄和大小的许多事情。"
+    },
+    {
+     "en": "By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.",
+     "zh": "等到你读到这篇文章时，敏锐的哈勃望远镜已经为我们送来了成千上万张精彩的照片。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What is the special importance of a telescope in space?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "Hubble",
+   "pos": "n",
+   "zh": "★telescope　n. 望远镜"
+  },
+  {
+   "word": "launch",
+   "pos": "v",
+   "zh": "★space　n. 空间"
+  },
+  {
+   "word": "NASA",
+   "pos": "n",
+   "zh": "★billion　n. 10亿"
+  },
+  {
+   "word": "fault",
+   "pos": "n",
+   "zh": "★astronaut　n. 宇航员"
+  },
+  {
+   "word": "shuttle",
+   "pos": "n",
+   "zh": "★Endeavour　n. “奋进”号"
+  },
+  {
+   "word": "robot-arm",
+   "pos": "n",
+   "zh": "★grab　v. 抓"
+  },
+  {
+   "word": "atmosphere",
+   "pos": "n",
+   "zh": "atmosphere 氛围"
+  },
+  {
+   "word": "distant",
+   "pos": "adj",
+   "zh": "★galaxy　n. 星系"
+  },
+  {
+   "word": "universe",
+   "pos": "n",
+   "zh": "★eagle eye　鹰眼"
+  },
+  {
+   "word": "faulty",
+   "pos": "adj",
+   "zh": "be going to 将要"
+  }
+ ],
+ "translation": [
+  "哈勃望远镜于1990年4月20日由国家航空航天局发射升空，耗资10多亿美元。",
+  "从最开始哈勃望远镜就有问题。",
+  "它传送给我们的图像很令人失望，因为它的主要镜子有误差。",
+  "国家航天局准备纠正这一错误，为此将把4名宇航员送入太空修复望远镜。",
+  "“奋进”号航天飞机将把宇航员送上哈勃。",
+  "当宇航员进行必要的修复工作时，“奋进”号上的一只机器手将抓住望远镜并托住它。",
+  "当然，哈勃位于地球的大气层之外，因此，它很快就会给我们传送我们所见到过的、有关行星和远距离星系的最清晰的照片。",
+  "哈勃将告诉我们有关宇宙的年龄和大小的许多事情。",
+  "等到你读到这篇文章时，敏锐的哈勃望远镜已经为我们送来了成千上万张精彩的照片。"
+ ]
+}

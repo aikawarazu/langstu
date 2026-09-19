@@ -1,0 +1,101 @@
+{
+ "unit": "u010",
+ "unitId": "u010",
+ "lessons": [
+  {
+   "lesson": 10,
+   "title": "—Not For Jazz",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Not For Jazz We have an old musical instrument.",
+     "zh": "我们有一件古老的乐器,叫击弦古钢琴。"
+    },
+    {
+     "en": "It is called a clavichord . It was made in Germany in 1681.",
+     "zh": "它是1681年德国制造的,我们这架钢琴放在客厅里。"
+    },
+    {
+     "en": "Our clavichord is kept in the living-room .",
+     "zh": "我们家拥有它很长时间了,这件乐器是许多年前我祖父买来的。"
+    },
+    {
+     "en": "It has belonged to our family for a long time. The instrument was bought by my grandfather many years ago.",
+     "zh": "最近它被一位客人弄坏了,她用它弹奏爵士乐!她按键太猛,把两根弦按断了。"
+    },
+    {
+     "en": "Recently it was damaged by a visitor.",
+     "zh": "我父亲为之震怒。"
+    },
+    {
+     "en": "She tried to play jazz on it!",
+     "zh": "现在他不允许我们再碰它。"
+    },
+    {
+     "en": "She struck the keys too hard and two of the strings were broken.",
+     "zh": "父亲的一位朋友正在修理这件古老的乐器。"
+    },
+    {
+     "en": "My father was shocked. Now we are not allowed to touch it. It is being repaired by a friend of my father's.",
+     "zh": "词汇：jazzn.爵士音乐musicala.音乐的instrumentn.器具callvt.叫做clavichordn.击弦古钢琴Germanyn.德国keepvt.保存living-roomn.客厅belongvi.属于recentlyad.最近damagevt.损坏playvt.弹奏keyn.琴键strikevt.敲hardad.重重地stringn.弦breakvt.弄断shockvt.震惊touchvt.碰allowvt.允许repairvt.修理"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "were broke",
+   "pos": "n",
+   "zh": "参考译文："
+  },
+  {
+   "word": "jazz",
+   "pos": "n",
+   "zh": "musical a.音乐的"
+  },
+  {
+   "word": "belong",
+   "pos": "vi",
+   "zh": "recently ad.最近"
+  },
+  {
+   "word": "strike",
+   "pos": "vt",
+   "zh": "hard ad.重重地"
+  },
+  {
+   "word": "repair",
+   "pos": "vt",
+   "zh": "新概念英语正版图书购买"
+  },
+  {
+   "word": "damage",
+   "pos": "v",
+   "zh": "★key　n. 琴键"
+  },
+  {
+   "word": "string",
+   "pos": "n",
+   "zh": "★shock　v. 使不悦或生气，震惊"
+  },
+  {
+   "word": "touch",
+   "pos": "v",
+   "zh": "【课文讲解】"
+  }
+ ],
+ "translation": [
+  "我们有一件古老的乐器,叫击弦古钢琴。",
+  "它是1681年德国制造的,我们这架钢琴放在客厅里。",
+  "我们家拥有它很长时间了,这件乐器是许多年前我祖父买来的。",
+  "最近它被一位客人弄坏了,她用它弹奏爵士乐!她按键太猛,把两根弦按断了。",
+  "我父亲为之震怒。",
+  "现在他不允许我们再碰它。",
+  "父亲的一位朋友正在修理这件古老的乐器。",
+  "词汇：jazzn.爵士音乐musicala.音乐的instrumentn.器具callvt.叫做clavichordn.击弦古钢琴Germanyn.德国keepvt.保存living-roomn.客厅belongvi.属于recentlyad.最近damagevt.损坏playvt.弹奏keyn.琴键strikevt.敲hardad.重重地stringn.弦breakvt.弄断shockvt.震惊touchvt.碰allowvt.允许repairvt.修理"
+ ]
+}

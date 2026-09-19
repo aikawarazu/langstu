@@ -1,0 +1,164 @@
+{
+ "unitId": "u033",
+ "title": "Out of the darkness",
+ "subtitle": "冲出黑暗",
+ "lead": {
+  "question": "一个姑娘在海上搏斗一夜游了八英里，醒来时为何躺在医院里？",
+  "warmup": "一个姑娘独自驾小船出海，却遇上风暴，船撞礁石后她跳进海里，在黑暗冰冷的海水中整整游了一夜，行程八英里。天亮前她看见峭壁高处的一点灯光，奋力挣扎爬上悬崖，随后失去知觉，醒来时已躺在医院里。本课带你弄清她为何近一周后才能讲述遭遇，并掌握 set out、be caught in、on arriving 等表达。",
+  "goals": [
+   "理解 before 引导时间状语从句时“过了……才”的译法，以及 explain 后接宾语从句的结构",
+   "掌握 set out from、be caught in、on arriving at、cover a distance of 等本课核心短语",
+   "区分表示方向与位置的介词 to / towards / from / off / up / into 等小品词",
+   "能用一般过去时与过去完成时复述这次海上脱险的经过"
+  ],
+  "summary": "故事按时间顺序推进：出海遇风暴→船撞礁石跳海→游了一夜共八英里→望见峭壁高处灯光→挣扎爬上悬崖→醒来已在医院。叙述以一般过去时为主，用过去完成时交代更早发生的事。语言重点：before 译作“过了……才”、be caught in 表“遭遇”、on + 动名词表“一……就”，以及 towards 强调“越来越近”的方向感。",
+  "tips": "易错提醒：on arriving at the shore 中的 on 后必须接动名词；in hospital 表“住院（就医）”不加 the，加了 the 就变成“在那家医院里”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why was the girl in hospital?",
+   "zh": "那个姑娘为什么会在医院里？",
+   "a": "Because her boat struck a rock and she jumped into the sea; after swimming all night and struggling up the cliff towards the light, she collapsed and was taken to hospital.",
+   "aZh": "因为小船撞上礁石后她跳进海里，在水中游了整整一夜，最后挣扎着爬上峭壁就昏了过去，被人送进了医院。",
+   "hint": "答案出自课文第 3 句与最后两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where did the girl set out from, and what happened to her on the way?",
+   "zh": "姑娘从哪里出发？途中遇到了什么事？",
+   "a": "She set out from the coast in a small boat, was caught in a storm, and towards evening the boat struck a rock, so she jumped into the sea.",
+   "aZh": "她乘小船从海岸出发，途中遇上风暴；天将黑时小船撞上一块礁石，她便跳进了海里。",
+   "hint": "见课文第 2、3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How far did the girl swim, and how did she know she was near the shore?",
+   "zh": "姑娘游了多远？她怎么知道自己已接近岸边？",
+   "a": "She covered a distance of eight miles. Early next morning she saw a light ahead, high up on the cliffs, so she knew she was near the shore.",
+   "aZh": "她游了八英里。第二天凌晨她看见前方有灯光，而且灯光高高地挂在峭壁上。",
+   "hint": "见课文第 5、6 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the girl do on arriving at the shore?",
+   "zh": "到达岸边后，姑娘做了什么？",
+   "a": "On arriving at the shore, she struggled up the cliff towards the light she had seen.",
+   "aZh": "一到岸边，她就朝着先前看到的那束灯光，挣扎着往峭壁上爬去。",
+   "hint": "见课文第 7 句。"
+  },
+  {
+   "kind": "think",
+   "q": "What do you think the title 'Out of the darkness' means?",
+   "zh": "你认为标题“冲出黑暗”有什么含义？",
+   "a": "It refers both to the girl's escape from the dark sea at night and to her recovery from unconsciousness into light and safety.",
+   "aZh": "它既指姑娘从夜里漆黑的海面上挣扎脱身，也指她从昏迷与无助中走出，重新回到灯光与安全之中。",
+   "hint": "结合第 6 句峭壁上的灯光与结尾醒来躺在医院。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：几乎过了一个星期，那姑娘才能讲述自己的遭遇。",
+   "a": "Nearly a week passed before the girl was able to explain what had happened to her.",
+   "note": "before 在此译作“过了……才”。"
+  },
+  {
+   "q": "句型转换：用“on + 动名词”改写：As soon as she arrived at the shore, the girl struggled up the cliff towards the light she had seen.",
+   "a": "On arriving at the shore, the girl struggled up the cliff towards the light she had seen.",
+   "note": "on+doing 相当于 as soon as/when。"
+  },
+  {
+   "q": "填空：One afternoon she set out ____ the coast in a small boat and was caught ____ a storm.",
+   "a": "from; in",
+   "note": "set out from 从…出发；be caught in 遭遇。"
+  },
+  {
+   "q": "改错：Then she swam to the shore after spend the whole night in the water.",
+   "a": "Then she swam to the shore after spending the whole night in the water.",
+   "note": "介词 after 后须接动名词。"
+  },
+  {
+   "q": "改错：When she woke up a day later, she found herself in the hospital.",
+   "a": "When she woke up a day later, she found herself in hospital.",
+   "note": "in hospital 表“住院”，不加 the。"
+  },
+  {
+   "q": "选词填空（towards / into / to / ahead）：____ evening, the boat struck a rock and the girl jumped ____ the sea; then she swam ____ the shore and saw a light ____.",
+   "a": "Towards; into; to; ahead",
+   "note": "towards 表接近；ahead 副词置名词后。"
+  },
+  {
+   "q": "汉译英：在那段时间里，她游了8英里。",
+   "a": "During that time she covered a distance of eight miles.",
+   "note": "cover 表行过。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“她乘小船从海岸出发”的正确英文是？",
+   "options": [
+    "She set out from the coast in a small boat.",
+    "She set out to the coast in a small boat.",
+    "She set out off the coast in a small boat.",
+    "She set out at the coast in a small boat."
+   ],
+   "answer": 0,
+   "note": "set out from 表示“从……出发”。"
+  },
+  {
+   "q": "“（她）遇上了风暴”应译为？",
+   "options": [
+    "was caught by a storm",
+    "was caught in a storm",
+    "caught a storm",
+    "was catching in a storm"
+   ],
+   "answer": 1,
+   "note": "be caught in 表突然遭遇风雨。"
+  },
+  {
+   "q": "“天将黑时”在课文中是哪一项？",
+   "options": [
+    "At evening",
+    "Towards evening",
+    "In evening",
+    "On evening"
+   ],
+   "answer": 1,
+   "note": "towards 强调越来越近。"
+  },
+  {
+   "q": "“几乎过了一个星期，那姑娘才能讲述自己的遭遇”应译为？",
+   "options": [
+    "Nearly a week passed before the girl was able to explain what had happened to her.",
+    "Nearly a week passed after the girl was able to explain what had happened to her.",
+    "Nearly a week passed when the girl was able to explain what had happened to her.",
+    "Nearly a week passed until the girl could explain what has happened to her."
+   ],
+   "answer": 0,
+   "note": "before 在此译作“过了……才”。"
+  },
+  {
+   "q": "“她朝着看到的灯光挣扎着爬上峭壁”是哪一句？",
+   "options": [
+    "She struggled up the cliff towards the light she had seen.",
+    "She struggled down the cliff towards the light she had seen.",
+    "She struggled for the cliff towards the light she had seen.",
+    "She struggled off the cliff towards the light she had seen."
+   ],
+   "answer": 0,
+   "note": "up 作介词，表“沿着……往上”。"
+  },
+  {
+   "q": "标题 Out of the darkness 中的 darkness 指的是什么？",
+   "options": [
+    "the darkness of the sea at night",
+    "the darkness of the hospital",
+    "the darkness of the cliff",
+    "the darkness of the small boat"
+   ],
+   "answer": 0,
+   "note": "指海上长夜的黑暗与昏迷的困境。"
+  }
+ ]
+}

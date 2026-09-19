@@ -1,0 +1,164 @@
+{
+ "unitId": "u007",
+ "title": "Too late",
+ "subtitle": "为时太晚",
+ "lead": {
+  "question": "警察在机场守候整整一上午，为什么打开贵重包裹后看到的却是石头和沙子？",
+  "warmup": "飞机晚点，侦探们却在机场守了一上午——他们等的不是旅客，而是一个从南非运来的钻石包裹。数小时前警方已接到密报：有人要偷这批钻石。于是飞机一降落，有人守主楼，有人守停机坪，分工严密。可包裹打开时，里面全是石头和沙子。读这篇课文前，请先想一想：钻石究竟在哪一步被掉包的？",
+  "goals": [
+   "掌握过去进行时的构成，分清它与一般过去时的分工",
+   "区分 when 与 while：when 可引出短暂动作，while 多连接同时进行的动作",
+   "掌握核心搭配 keep guard、to one's surprise、be full of、take sth. off",
+   "辨析 expect 与 wait (for)，并记牢 steal—stole—stolen 等不规则变化"
+  ],
+  "summary": "课文按时间顺序推进：先交代侦探在机场等候南非钻石包裹，再补叙数小时前的案情通报，接着铺开主楼与停机坪两处布控，最后以开箱只见石头沙子收尾。语法核心是过去进行时：when 引出短暂动作，while 连接同时进行的动作。重点搭配有 keep guard、to one's surprise、be full of。",
+  "tips": "expect 是及物动词，后接名词或用 expect sb. to do sth.，切勿写成 expect for；含 wait 才搭配 for（wait for sb.）。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What did the detectives find in the parcel when they opened it?",
+   "zh": "侦探们打开包裹后，在里面发现了什么？",
+   "a": "To their surprise, they found that the precious parcel was full of stones and sand, not diamonds.",
+   "aZh": "令他们吃惊的是，那珍贵的包裹里装的全是石头和沙子，而不是钻石。",
+   "hint": "答案见全文最后一句：To their surprise, the precious parcel was full of stones and sand!"
+  },
+  {
+   "kind": "detail",
+   "q": "Why were the detectives waiting at the airport all morning?",
+   "zh": "侦探们为什么在机场等了整整一上午？",
+   "a": "Because they were expecting a valuable parcel of diamonds from South Africa.",
+   "aZh": "因为他们正等待一个从南非运来的贵重钻石包裹。",
+   "hint": "见第 2 句：They were expecting a valuable parcel of diamonds from South Africa。"
+  },
+  {
+   "kind": "detail",
+   "q": "What had someone told the police a few hours earlier?",
+   "zh": "数小时以前，有人向警方报告了什么？",
+   "a": "He had told the police that thieves would try to steal the diamonds.",
+   "aZh": "他向警方报告说，有贼企图偷走这些钻石。",
+   "hint": "见第 3 句：someone had told the police that thieves would try to steal the diamonds。"
+  },
+  {
+   "kind": "detail",
+   "q": "What were two detectives doing while two others opened the parcel?",
+   "zh": "另外两名侦探打开包裹时，那两名侦探在做什么？",
+   "a": "They were keeping guard at the door.",
+   "aZh": "他们正在门口把风（守卫）。",
+   "hint": "见倒数第 2 句：While two detectives were keeping guard at the door, two others opened the parcel。"
+  },
+  {
+   "kind": "think",
+   "q": "Why do you think the parcel was full of stones and sand instead of diamonds?",
+   "zh": "你觉得为什么包裹里装的是石头和沙子而不是钻石？",
+   "a": "Because the diamonds had probably been taken out and the parcel filled with stones and sand before the plane landed; the thieves had already stolen the diamonds, so the detectives were too late.",
+   "aZh": "很可能在飞机降落之前，钻石就被取出，包里换成了石头和沙子；真钻石早已被盗，所以侦探们为时已晚。",
+   "hint": "结合倒数第 3、4 句推断：包裹由两名男子从飞机上取下，说明上机前或途中已被掉包。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：飞机误点了，侦探们在机场等了整整一上午。",
+   "a": "The plane was late and detectives were waiting at the airport all morning.",
+   "note": "持续动作用过去进行时，all morning 表整段。"
+  },
+  {
+   "q": "汉译英：令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！",
+   "a": "To their surprise, the precious parcel was full of stones and sand!",
+   "note": "to one's surprise 与 be full of 连用。"
+  },
+  {
+   "q": "根据汉语提示填空：They were expecting a ______ (贵重的) parcel of ______ (钻石) from South Africa.",
+   "a": "valuable; diamonds",
+   "note": "valuable 可换 precious，diamond 用复数。"
+  },
+  {
+   "q": "句型转换：用 while 合并两句。Two detectives were keeping guard at the door. Two others opened the parcel.",
+   "a": "While two detectives were keeping guard at the door, two others opened the parcel.",
+   "note": "while 连接同时进行的过去动作。"
+  },
+  {
+   "q": "用 expect 或 wait (for) 的适当形式填空：The detectives ______ a valuable parcel from South Africa, while the thieves ______ a chance to steal the diamonds.",
+   "a": "expected; waited for",
+   "note": "expect 表预料，wait for 指等待动作。"
+  },
+  {
+   "q": "用括号中动词的适当形式填空：Nobody knew that the diamonds had already ______ (steal).",
+   "a": "been stolen",
+   "note": "steal—stole—stolen，此处被动完成。"
+  },
+  {
+   "q": "改错（一处）：The valuable parcel was worth to guard day and night.",
+   "a": "The valuable parcel was worth guarding day and night.",
+   "note": "worth 后接动名词，主动表被动。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“侦探们在机场等了整整一上午”的正确英文表达是：",
+   "options": [
+    "The detectives were waiting at the airport all morning.",
+    "The detectives were waiting on the airport all morning.",
+    "The detectives waited at the airport all morning.",
+    "The detectives have waited at the airport all morning."
+   ],
+   "answer": 0,
+   "note": "at the airport 为固定搭配，此处用过去进行时。"
+  },
+  {
+   "q": "“当飞机到达时，一些侦探正等候在主楼内”的正确译文是：",
+   "options": [
+    "Some detectives were waiting inside the main building when the plane arrived.",
+    "Some detectives waited inside the main building while the plane arrived.",
+    "Some detectives are waiting inside the main building when the plane arrived.",
+    "Some detectives were waiting inside the main building while the plane was arriving."
+   ],
+   "answer": 0,
+   "note": "背景动作用过去进行时，短暂动作用 when 引出。"
+  },
+  {
+   "q": "“两名侦探把住门口”的正确表达是：",
+   "options": [
+    "Two detectives were keeping guard at the door.",
+    "Two detectives were keeping guard to the door.",
+    "Two detectives were making guard at the door.",
+    "Two detectives were keeping a guard of the door."
+   ],
+   "answer": 0,
+   "note": "keep guard 意为“守望、警戒”，门口用 at。"
+  },
+  {
+   "q": "“令他们吃惊的是”应译为：",
+   "options": [
+    "To their surprise",
+    "For their surprise",
+    "In their surprise",
+    "With their surprise"
+   ],
+   "answer": 0,
+   "note": "to one's surprise 为固定短语。"
+  },
+  {
+   "q": "“那珍贵的包裹里装满了石头和沙子”的正确英文是：",
+   "options": [
+    "The precious parcel was full of stones and sand.",
+    "The precious parcel was full with stones and sand.",
+    "The precious parcel was filled of stones and sand.",
+    "The precious parcel fulled of stones and sand."
+   ],
+   "answer": 0,
+   "note": "be full of 表状态，be filled with 才是另一搭配。"
+  },
+  {
+   "q": "“他们正期待一个来自南非的贵重包裹”的正确英文是：",
+   "options": [
+    "They were expecting a valuable parcel from South Africa.",
+    "They were expecting for a valuable parcel from South Africa.",
+    "They were waiting a valuable parcel from South Africa.",
+    "They were waiting for a parcel valuable of diamonds."
+   ],
+   "answer": 0,
+   "note": "expect 是及物动词，不加 for；wait 后须加 for。"
+  }
+ ]
+}

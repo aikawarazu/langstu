@@ -1,0 +1,201 @@
+{
+ "unitId": "u008",
+ "title": "The best and the worst",
+ "subtitle": "最好的和最差的",
+ "text": [
+  {
+   "lesson": 8,
+   "title": "The best and the worst",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Joe Sanders has the most beautiful garden in our town.",
+     "zh": "乔·桑德斯拥有我们镇上最漂亮的花园。"
+    },
+    {
+     "en": "Nearly everybody enters for 'The Nicest Garden Competition' each year, but Joe wins every time.",
+     "zh": "几乎每个人都报名参加一年一度的“最漂亮的花园比赛”，但乔每次都获胜。"
+    },
+    {
+     "en": "Bill Frith's garden is larger than Joe's.",
+     "zh": "比尔·弗里斯的花园比乔的大。"
+    },
+    {
+     "en": "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.",
+     "zh": "比尔比乔干活更卖力，种的花和蔬菜也更多，但乔的花园更有趣。"
+    },
+    {
+     "en": "He has made neat paths and has built a wooden bridge over a pool.",
+     "zh": "他修筑了整洁的小径，还在池塘上架起了一座木桥。"
+    },
+    {
+     "en": "I like gardens too, but I do not like hard work.",
+     "zh": "我也喜欢花园，但我不喜欢辛苦的劳动。"
+    },
+    {
+     "en": "Every year I enter for the garden competition too, and I always win a little prize for the worst garden in the town!",
+     "zh": "每年我也报名参加花园比赛，却总是因为镇上最差的花园而赢得一个小奖！"
+    }
+   ]
+  }
+ ],
+ "lead": {
+  "question": "乔·桑德斯的花园为何年年夺冠，而作者的花园却年年垫底？",
+  "warmup": "乔·桑德斯有全镇最漂亮的花园：他修了整齐的小径，还在池塘上架起一座木桥，因此每年“最漂亮的花园比赛”几乎都由他夺冠。比尔的花园更大、干活更卖力、花也种得更多，却仍败下阵来。作者同样年年参赛，却因不爱劳动而年年捧回小奖。学习时留意 best、worst 等不规则形式。",
+  "goals": [
+   "掌握形容词、副词比较级与最高级的构成及 than 的用法",
+   "辨别 best / worst / more 等不规则形式，分清 -er 与 more 的分工",
+   "学会用 not as … as 把比较级改写为同级否定句",
+   "活用 enter for、win a prize、grow flowers、hard work 等本课搭配"
+  ],
+  "summary": "本课以一场花园比赛串起形容词与副词的比较：larger、harder、more flowers 用比较级加 than，most beautiful、worst、best 则是最高级。乔赢在花园更有趣，比尔的花园虽大却略逊一筹。此外牢记 enter for 表“报名参加”，win a prize 表“获奖”，work 作“劳动”讲时不可数。",
+  "tips": "than 后比较对象要同类，如 Bill Frith's garden is larger than Joe's（Joe's 即 Joe's garden），不能写成 than Joe；enter the room 是“进入”，enter for the competition 才是“报名参赛”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Whose garden is the most beautiful in the town, and who has the worst one?",
+   "zh": "谁的花园是全镇最漂亮的，谁的又是最差的？",
+   "a": "Joe Sanders has the most beautiful garden in the town, and the writer has the worst one.",
+   "aZh": "乔·桑德斯有全镇最漂亮的花园，而作者的花园最差。",
+   "hint": "抓首句 Joe Sanders has the most beautiful garden 与末句 the worst garden in the town。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does Joe win although Bill Frith's garden is larger than his?",
+   "zh": "既然比尔·弗里斯的花园比乔的大，乔为什么还能获胜？",
+   "a": "Because Joe's garden is more interesting: he has made neat paths and has built a wooden bridge over a pool.",
+   "aZh": "因为乔的花园更有趣：他修了整洁的小径，还在池塘上架了一座木桥。",
+   "hint": "注意 but Joe's garden is more interesting 中的转折。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does Bill Frith do better than Joe?",
+   "zh": "比尔·弗里斯在哪方面做得比乔更好？",
+   "a": "Bill works harder than Joe and grows more flowers and vegetables.",
+   "aZh": "比尔干活比乔更卖力，种的花和蔬菜也更多。",
+   "hint": "比较级 harder 与 more 并列出现。"
+  },
+  {
+   "kind": "detail",
+   "q": "What prize does the writer win every year and why?",
+   "zh": "作者每年赢得什么奖？为什么？",
+   "a": "He always wins a little prize for the worst garden in the town, because he likes gardens but does not like hard work.",
+   "aZh": "他每年赢得“全镇最差花园”的小奖，因为他喜欢花园却不喜欢辛苦劳动。",
+   "hint": "定位 I do not like hard work 与 win a little prize。"
+  },
+  {
+   "kind": "think",
+   "q": "If you entered for 'The Nicest Garden Competition', what would you do to win?",
+   "zh": "如果你报名参加“最漂亮的花园比赛”，你会怎样取胜？",
+   "a": "I would work hard, make neat paths and grow more flowers, because interesting ideas and hard work together make a garden the nicest.",
+   "aZh": "我会辛勤劳动，修整洁的小径、种更多的花，因为巧思与勤劳结合才能让花园成为最美的。",
+   "hint": "结合 neat paths、hard work 与比较级来谈自己的做法。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：几乎每个人都报名参加一年一度的“最漂亮的花园比赛”，但乔每次都获胜。",
+   "a": "Nearly everybody enters for 'The Nicest Garden Competition' each year, but Joe wins every time.",
+   "note": "enter for 表“报名参加”；习惯性动作用一般现在时。"
+  },
+  {
+   "q": "汉译英：每年我也报名参加花园比赛，却总是因为镇上最差的花园而赢得一个小奖。",
+   "a": "Every year I enter for the garden competition too, and I always win a little prize for the worst garden in the town.",
+   "note": "worst 前加 the；win a prize 为固定搭配。"
+  },
+  {
+   "q": "句型转换：用 not as … as 改写 Joe's garden is more interesting than Bill's.",
+   "a": "Bill's garden is not as interesting as Joe's.",
+   "note": "比较双方需互换位置，as … as 中用原级。"
+  },
+  {
+   "q": "句型转换：用 last year 改写 Joe wins every time.",
+   "a": "Joe won last year.",
+   "note": "win 的过去式为 won，属不规则变化。"
+  },
+  {
+   "q": "填空：Bill works ____ (hard) than Joe and grows ____ (many) flowers and vegetables.",
+   "a": "harder; more",
+   "note": "两者均为比较级，后接 than。"
+  },
+  {
+   "q": "填空：He has made ____ (整洁的) paths and has built a ____ (木质的) bridge ____ a pool.",
+   "a": "neat; wooden; over",
+   "note": "neat paths、wooden bridge、over a pool 为课文搭配。"
+  },
+  {
+   "q": "改错：I like gardens too, but I do not like hard works.",
+   "a": "I like gardens too, but I do not like hard work.",
+   "note": "work 表“劳动”时不可数，不加 -s。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "乔为什么每次都能在花园比赛中夺冠？",
+   "options": [
+    "Because his garden is the largest in the town.",
+    "Because his garden is more interesting, with neat paths and a wooden bridge.",
+    "Because he grows the most vegetables in the town.",
+    "Because nobody else enters for the competition."
+   ],
+   "answer": 1,
+   "note": "课文说 Joe's garden is more interesting，largest 说的是比尔。"
+  },
+  {
+   "q": "比尔的花园与乔的相比如何？",
+   "options": [
+    "It is smaller than Joe's.",
+    "It is larger than Joe's.",
+    "It is as large as Joe's.",
+    "It is the largest garden in the town."
+   ],
+   "answer": 1,
+   "note": "原文 Bill Frith's garden is larger than Joe's。"
+  },
+  {
+   "q": "下列哪一句表达了“乔的花园比比尔的有趣”？",
+   "options": [
+    "Joe's garden is interesting than Bill's.",
+    "Joe's garden is more interesting than Bill's.",
+    "Joe's garden is the most interesting than Bill's.",
+    "Joe's garden is as interesting than Bill's."
+   ],
+   "answer": 1,
+   "note": "两者比较用比较级 more interesting + than。"
+  },
+  {
+   "q": "作者每年得到的是什么奖？",
+   "options": [
+    "A little prize for the worst garden in the town.",
+    "The first prize for the best garden in the town.",
+    "A large prize for growing the most vegetables.",
+    "No prize at all for his garden."
+   ],
+   "answer": 0,
+   "note": "他因“镇上最差的花园”获得一个小奖，是课文的幽默结尾。"
+  },
+  {
+   "q": "哪一句中 enter for 的用法正确？",
+   "options": [
+    "He entered the dark room quietly.",
+    "Nearly everybody enters for the competition each year.",
+    "She entered the garden by the back gate.",
+    "They entered into the house one by one."
+   ],
+   "answer": 1,
+   "note": "enter for 表“报名参加”；enter 单独用表“进入”。"
+  },
+  {
+   "q": "选出填入两处空白的正确形式：Bill works ____ than Joe and grows ____ flowers.",
+   "options": [
+    "harder; more",
+    "more hard; more",
+    "harder; most",
+    "more hard; most"
+   ],
+   "answer": 0,
+   "note": "两者相比用 harder 与 more，不可用双重比较或最高级。"
+  }
+ ]
+}

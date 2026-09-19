@@ -1,0 +1,164 @@
+{
+ "unitId": "u062",
+ "title": "After the Fire",
+ "subtitle": "大火之后",
+ "lead": {
+  "question": "大火扑灭后，村庄面临的危险是什么？当局为何要空撒草籽？",
+  "warmup": "一场森林大火烧了近三个星期才被控制住。火熄之后，真正的麻烦才刚开始：大树化为灰烬，土壤失去保护，冬天的暴雨一来，泥土就会被冲走，洪水将威胁周围的村庄。于是森林当局订购了好几吨速生草籽，用飞机大量撒播，赶在雨季之前让草生根。",
+  "goals": [
+   "用过去完成进行时 had been doing 描述扑救与撒播的持续过程",
+   "区分过去完成时与过去完成进行时，掌握过去完成时被动 had been put out",
+   "掌握 get ... under control、threaten ... with、take root、in huge quantities、in place of 等词组",
+   "用 not only ... but ... as well 表达大雨的双重后果"
+  ],
+  "summary": "消防队员奋战近三周才控制住森林大火，曾经覆盖方圆数英里的大树只剩荒凉山丘上腾起的烟雾。冬季将至，光秃的山丘以毁灭威胁周围村庄：大雨会冲走土壤、引发洪水。当局订购数吨速生草籽，用飞机大量撒播；撒播近一个月后天降大雨，而许多地方的草已经生根。",
+  "tips": "过去完成进行时强调“一直在进行”；动作已完成、强调结果时只用过去完成时，所以火被扑灭是 had been put out。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was the danger to the villages after the fire?",
+   "zh": "大火之后，村庄面临的危险是什么？",
+   "a": "The hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.",
+   "aZh": "这些山丘对周围的村庄构成了毁灭性的威胁：大雨不仅会冲走土壤，还会引起严重的水灾。",
+   "hint": "见课文第 4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is the past perfect progressive used in 'Firemen had been fighting the forest fire for nearly three weeks'?",
+   "zh": "为什么要用过去完成进行时 had been fighting？",
+   "a": "Because it stresses an action that had been going on continuously for nearly three weeks before the past moment of getting the fire under control; 'had fought' would only state the fact.",
+   "aZh": "因为它强调在“把火控制住”之前扑救已持续进行了近三周；had fought 只陈述事实。",
+   "hint": "课文第 1 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What picture does 'Now, smoke still rose up from the warm ground over the desolate hills' give, and why did the hills become dangerous in winter?",
+   "zh": "这句描绘了怎样的景象？为什么山丘在冬季变得危险？",
+   "a": "It shows a burnt, desolate landscape. With no trees to hold it, heavy winter rain would wash away the soil and cause serious floods.",
+   "aZh": "勾画出焦土荒山的画面：大树烧光，只剩发热冒烟的地面。树木不再固定土壤，冬雨一来就会冲走泥土并引发洪水。",
+   "hint": "课文第 3、4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How does 'In place of the great trees which had been growing there for centuries, patches of green had begun to appear' show the recovery of the land?",
+   "zh": "结尾句如何体现土地的恢复？",
+   "a": "'Which had been growing there for centuries' is past perfect progressive, showing the trees had been growing for centuries before the fire; 'in place of' means instead of; 'blackened' is a past participle adjective meaning burnt black. New life was replacing the old trees.",
+   "aZh": "过去完成进行时说明大树在火灾前已生长了数世纪；in place of 表示代替；blackened 意为烧焦的。新的生命正在取代古老的大树。",
+   "hint": "课文末句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did the forest authorities spray quick-growing grass-seed instead of planting young trees after the fire?",
+   "zh": "为什么撒播速生草籽，而不直接种小树？",
+   "a": "Because winter was coming on and the danger was immediate: grass-seed could be sprayed by aeroplanes in huge quantities and would take root quickly, holding the soil before the heavy rain came. Planting trees would take far too long.",
+   "aZh": "因为冬季将至，危险迫在眉睫：草籽可由飞机大量撒播、生根快，能在暴雨到来之前固定土壤；种树周期太长。",
+   "hint": "综合第 4、5、6、9 句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用所给动词的适当形式填空：When the fire ______ at last ______ ______ (put out), the forest authorities ordered several tons of grass-seed.",
+   "a": "had; been put out",
+   "note": "过去完成时的被动。"
+  },
+  {
+   "q": "用括号内动词的适当形式填空：The planes ______ ______ ______ (plant) seed for nearly a month when it began to rain.",
+   "a": "had been planting",
+   "note": "过去完成进行时。"
+  },
+  {
+   "q": "用 get ... under control 改写：Firemen could not control the fire until nearly three weeks had passed.",
+   "a": "Firemen could not get it under control until nearly three weeks had passed.",
+   "note": "get ... under control。"
+  },
+  {
+   "q": "完成句子（飞机撒播草籽）：The grass-seed ______ ______ over the ground in huge ______ by aeroplanes.",
+   "a": "was sprayed; quantities",
+   "note": "in huge quantities 大量地。"
+  },
+  {
+   "q": "选词填空（soil / ground）：Heavy rain would wash away the ______ from the desolate hills.",
+   "a": "soil",
+   "note": "soil 土壤。"
+  },
+  {
+   "q": "完成句子：这些山丘对周围的村庄具有毁灭性的威胁。The hills ______ the ______ villages with ______.",
+   "a": "threatened; surrounding; destruction",
+   "note": "threaten ... with ..."
+  },
+  {
+   "q": "完成句子：By then, however, in many places the grass ______ already ______ ______.",
+   "a": "had; taken root",
+   "note": "take root 生根。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "消防队员们同那场森林大火搏斗了多久才把火势控制住？",
+   "options": [
+    "For nearly three weeks",
+    "For nearly three days",
+    "For nearly three months",
+    "For nearly a year"
+   ],
+   "answer": 0,
+   "note": "首句 for nearly three weeks。"
+  },
+  {
+   "q": "冬季即将来临，这些山丘用什么威胁周围的村庄？",
+   "options": [
+    "Fresh water",
+    "Heavy snow",
+    "A good harvest",
+    "Destruction"
+   ],
+   "answer": 3,
+   "note": "threatened ... with destruction。"
+  },
+  {
+   "q": "大火最后被扑灭后，是谁订购了好几吨速生草籽？",
+   "options": [
+    "The villagers",
+    "The forest authorities",
+    "The firemen",
+    "The pilots"
+   ],
+   "answer": 1,
+   "note": "the forest authorities。"
+  },
+  {
+   "q": "下列哪一句正确表达了“大雨不仅会冲走土壤，而且还会引起严重的水灾”？",
+   "options": [
+    "Heavy rain would not only wash away the soil but would cause serious floods as well.",
+    "Heavy rain would wash away the soil or would cause serious floods.",
+    "Heavy rain washed away the soil as well as serious floods.",
+    "Not only heavy rain would wash away the soil but floods as well."
+   ],
+   "answer": 0,
+   "note": "not only ... but ... as well。"
+  },
+  {
+   "q": "“然而到那时，很多地方的草已经生了根”的正确英文是？",
+   "options": [
+    "In many places the grass had already taken place.",
+    "In many places the grass had already taken up.",
+    "In many places the grass had already taken root.",
+    "In many places the grass had already taken off."
+   ],
+   "answer": 2,
+   "note": "take root 生根。"
+  },
+  {
+   "q": "代替那些生长了数个世纪的参天大树，烧焦的土地上开始出现了什么？",
+   "options": [
+    "Great trees",
+    "Blackened soil",
+    "Patches of green",
+    "Warm ground"
+   ],
+   "answer": 2,
+   "note": "patches of green。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u031",
+ "title": "Success story",
+ "subtitle": "成功者的故事",
+ "lead": {
+  "question": "从修车小工到728人工厂老板，弗兰克靠什么走完了那条漫长的成功之路？",
+  "warmup": "本课是一篇人物故事：昨天下午，退休的弗兰克·霍金斯向“我”讲起年轻时的经历——小时候在小铺里修自行车，一天干十四小时；二十多岁造飞机零件；1958年用多年积蓄买下自己的小铺子，几年后发展成雇有728人的大工厂。故事结束时，妻子推门进来，要他去修孙子的自行车。阅读时留意三种过去时态的分工。",
+  "goals": [
+   "掌握 retire、company、workshop、helper、employ、grandson、spare parts 等核心词，以及 the head of、of his own、in his twenties 的用法",
+   "区分一般过去时与 used to：一次性过去动作用一般过去时，过去经常的习惯用 used to",
+   "理解过去进行时 was telling、was still smiling 在叙事中的背景铺垫作用",
+   "能用英语按时间顺序复述弗兰克的经历，并用 used to 讲述自己过去的习惯"
+  ],
+  "summary": "弗兰克退休前是一家大公司的负责人，少年时却在一家小铺里修自行车，一天干十四小时；他多年积蓄，1958年买下自己的小铺子，二十多岁造飞机零件，那时只有两个帮手，几年后工厂已雇了728人。课文用 used to 写过去的习惯，用一般过去时写已经发生的事，用 was telling 作背景，结尾回到修自行车，与开头呼应。",
+  "tips": "used to 只表“过去经常、现在已不”，1958年买铺子这类一次性动作只能用一般过去时 bought；used to 后接动词原形。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was Frank's first job?",
+   "zh": "弗兰克的第一份工作是什么？",
+   "a": "His first job was repairing bicycles in a small shop. As a boy he used to work in a small shop and it was his job to repair bicycles.",
+   "aZh": "他的第一份工作是在一家小铺里修理自行车。他小时候在小铺里做工，那时的工作就是修自行车。",
+   "hint": "答案出自第 2、3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "按课文顺序梳理弗兰克的经历：从修车少年到728人的大工厂，中间有哪几个关键阶段？",
+   "zh": "按课文顺序梳理弗兰克的经历：中间有哪几个关键阶段？",
+   "a": "As a boy he used to work in a small shop repairing bicycles, fourteen hours a day; he saved money for years and in 1958 bought a small workshop of his own; in his twenties he used to make spare parts for aeroplanes and had only two helpers; in a few years the workshop had become a large factory employing 728 people; before he retired he was the head of a very large business company.",
+   "aZh": "小时候在小铺里修自行车（一天十四小时）→多年积蓄，1958年买下自己的小铺子→二十多岁造飞机零件，只有两个帮手→几年后变成雇有728人的大工厂→退休前是一家大公司的负责人。",
+   "hint": "抓第 2—9 句的时间标记。"
+  },
+  {
+   "kind": "detail",
+   "q": "文中的 the head of 和 the long road to success 分别是什么意思？作者为什么把“大公司负责人”和“小铺里做工”放进同一个句子？",
+   "zh": "the head of 和 the long road to success 是什么意思？作者为什么把两个身份放进同一句？",
+   "a": "the head of means 'the leader / the boss of'; the long road to success is a metaphor for the long and hard process of becoming successful. The writer puts both in one sentence to contrast his present position with his humble beginnings.",
+   "aZh": "the head of 意为“……的负责人”；the long road to success 比喻“通往成功的漫漫长路”。同一句里形成今日地位与昔日苦干的对照。",
+   "hint": "见第 2 句与第 9 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "课文中哪些地方用了 used to，哪些用了一般过去时？两者能不能互换？",
+   "zh": "课文中哪些地方用了 used to，哪些用了一般过去时？能否互换？",
+   "a": "used to appears three times: used to work in a small shop, used to work fourteen hours a day, used to make spare parts for aeroplanes — all past habits. Retired, saved, bought, had, employed, smiled, opened, came in and wanted are in the simple past tense. They cannot be swapped: buying the workshop in 1958 was a single finished action, so only bought is correct.",
+   "aZh": "used to 三处都表过去习惯；retired、saved、bought、had、employed、smiled、opened、came in、wanted 用一般过去时叙述已完成的事。不能互换：1958年买铺子只能写 bought。",
+   "hint": "对照第 2、3、5、6、9、10、11 句。"
+  },
+  {
+   "kind": "think",
+   "q": "故事结尾妻子让弗兰克去修孙子的自行车，这个结尾妙在哪里？",
+   "zh": "故事结尾妻子让弗兰克去修孙子的自行车，妙在哪里？",
+   "a": "It echoes the beginning: Frank started by repairing bicycles and, after a long career as the head of a large company, ends up being asked to repair a bicycle again — this time his grandson's. The circle is humorous and warm, and suggests that success has not changed the man himself.",
+   "aZh": "它与开头呼应：弗兰克从修自行车起家，最后又被叫去修孙子的车。这个“回到原点”的循环既幽默又温暖，也暗示成功没有改变他本人。",
+   "hint": "把第 3 句与末句对照。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用括号内动词的正确形式填空：Before he ______ (retire), Frank was the head of a very large business company.",
+   "a": "retired",
+   "note": "过去一次发生的动作用一般过去时。"
+  },
+  {
+   "q": "按中文提示补全短语：Frank was ______ ______ ______ a very large business company.",
+   "a": "the head of",
+   "note": "head 此处指负责人。"
+  },
+  {
+   "q": "汉译英：他二十多岁的时候常常制造飞机零配件。",
+   "a": "In his twenties Frank used to make spare parts for aeroplanes.",
+   "note": "in one's twenties 表二十多岁。"
+  },
+  {
+   "q": "选词填空：He ______ money for years and in 1958 he bought a small workshop of his own.（saved / spent / borrowed）",
+   "a": "saved",
+   "note": "save 此处意为“积蓄”。"
+  },
+  {
+   "q": "用 job 或 work 填空：It was his ______ to repair bicycles and at that time he used to ______ fourteen hours a day.",
+   "a": "job; work",
+   "note": "job 可数指职位，work 不可数。"
+  },
+  {
+   "q": "汉译英：几年之后，这个小铺子已经变成了一家雇有728人的大工厂。",
+   "a": "In a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.",
+   "note": "employ 雇佣；had become 过去完成。"
+  },
+  {
+   "q": "改错：He used to buy a small workshop in 1958.",
+   "a": "He bought a small workshop in 1958.",
+   "note": "单次过去动作不用 used to。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "弗兰克小时候在那家小铺里做的是哪项工作？",
+   "options": [
+    "Repairing bicycles.",
+    "Making spare parts for aeroplanes.",
+    "Selling newspapers in the street.",
+    "Driving a truck for a factory."
+   ],
+   "answer": 0,
+   "note": "见 It was his job to repair bicycles。"
+  },
+  {
+   "q": "课文中 in his twenties 的意思是什么？",
+   "options": [
+    "When he was between 20 and 29 years old.",
+    "At the age of exactly twenty.",
+    "During the 1920s.",
+    "Twenty years ago."
+   ],
+   "answer": 0,
+   "note": "整十复数表约略年龄。"
+  },
+  {
+   "q": "1958 年弗兰克做了一件什么事？",
+   "options": [
+    "He retired from a large company.",
+    "He employed seven hundred and twenty-eight people.",
+    "He bought a small workshop of his own.",
+    "He repaired his grandson's bicycle."
+   ],
+   "answer": 2,
+   "note": "of his own 表示“属于自己的”。"
+  },
+  {
+   "q": "“At that time he had two helpers.” 中的 helpers 指的是谁？",
+   "options": [
+    "His two grandsons.",
+    "Two people who worked for him in the workshop.",
+    "Two large machines in the factory.",
+    "The heads of the business company."
+   ],
+   "answer": 1,
+   "note": "helper 意为帮手、助手。"
+  },
+  {
+   "q": "“Frank was the head of a very large business company.” 中 the head of 意为？",
+   "options": [
+    "The front page of",
+    "The beginning of",
+    "The top part of the body of",
+    "The leader or boss of"
+   ],
+   "answer": 3,
+   "note": "head 在此不是“头部”。"
+  },
+  {
+   "q": "下列句子中 used to 用法正确的一项是？",
+   "options": [
+    "He used to bought a small workshop in 1958.",
+    "He used to work fourteen hours a day.",
+    "He is used to work in a small shop.",
+    "He used to working in a small shop."
+   ],
+   "answer": 1,
+   "note": "used to 后接动词原形且只表过去。"
+  }
+ ]
+}

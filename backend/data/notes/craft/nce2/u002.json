@@ -1,0 +1,164 @@
+{
+ "unitId": "u002",
+ "title": "Breakfast or lunch?",
+ "subtitle": "早餐还是午餐？",
+ "lead": {
+  "question": "从不早起的作者赖到下午一点，为什么还在理直气壮地说自己在吃早饭？",
+  "warmup": "本课是新概念第二册最经典的幽默小品之一。作者先交代习惯：星期天从不早起，有时一直躺到吃午饭。接着镜头切到“上个星期天”：他很晚才起床，窗外一片漆黑，天又在下雨，偏偏电话响了，姑母露西说刚下火车，马上来看他。听读时留意三种时态的分工：过去的事用一般过去时，习惯用一般现在时，此刻的动作用现在进行时。",
+  "goals": [
+   "能用 until、on Sundays、by train、stay in bed 等本课短语准确造句",
+   "理解 it 作虚主语时可以指时间、天气以及打电话的人",
+   "会写一般现在时与现在进行时的对比句，并用 never、sometimes、always 描述习惯",
+   "会写 What 引导的感叹句，理解 What a day! 与 Dear me 的语气"
+  ],
+  "summary": "一个下雨的星期天，作者赖床到午后一点，姑母露西突然来电，说刚下火车、马上来看他，而作者还坐在桌前吃早饭，于是有了“早餐还是午餐”的笑点。核心语言点有三：it 作虚主语指时间、天气和来电话的人；频度副词 never、sometimes 与一般现在时搭配说习惯；have breakfast 用现在进行时说此刻的动作，再由 What a day! 收束感叹。",
+  "tips": "记住两条界线：bed 表“卧床”时零冠词（stay in bed）；until 前的动词若是短暂动词就用否定式，要说 I didn't get up until 12 o'clock。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why does the writer never get up early on Sundays?",
+   "zh": "作者为什么星期天从不早起？",
+   "a": "Because he never gets up early on Sundays — he sometimes stays in bed until lunchtime.",
+   "aZh": "因为星期天他从不早起，有时要一直躺到吃午饭的时候。",
+   "hint": "答案在开头第 1—2 句：It was Sunday. I never get up early on Sundays. / I sometimes stay in bed until lunchtime."
+  },
+  {
+   "kind": "detail",
+   "q": "What was it like when the writer looked out of the window?",
+   "zh": "作者向窗外望去时，外面是什么情形？",
+   "a": "It was dark outside, and it was raining again.",
+   "aZh": "外面一片漆黑，而且又在下雨了。",
+   "hint": "见第 4—7 句：I looked out of the window. / It was dark outside. / ‘What a day!’ I thought. / ‘It's raining again.’"
+  },
+  {
+   "kind": "detail",
+   "q": "Who telephoned, and how had she travelled?",
+   "zh": "谁打来了电话？她是怎样来的？",
+   "a": "His aunt Lucy telephoned. She had just arrived by train.",
+   "aZh": "是他的姑母露西打来的，她刚乘火车到达。",
+   "hint": "见第 9—11 句：It was my aunt Lucy. / ‘I've just arrived by train,’ she said. / ‘I'm coming to see you.’"
+  },
+  {
+   "kind": "detail",
+   "q": "What was the writer doing when his aunt rang him up?",
+   "zh": "姑母打电话来的时候，作者正在做什么？",
+   "a": "He was still having breakfast, and he repeated it when she asked.",
+   "aZh": "他还在吃早饭；姑母追问时，他又把这句话重复了一遍。",
+   "hint": "见第 12—14 句：‘But I'm still having breakfast,’ I said. / ‘What are you doing?’ she asked. / ‘I'm having breakfast,’ I repeated."
+  },
+  {
+   "kind": "think",
+   "q": "Why was Aunt Lucy so surprised that she said ‘Dear me!’?",
+   "zh": "姑母露西为什么会惊讶地喊出“天啊”？",
+   "a": "Because it was already one o'clock and the writer was still having breakfast, so she asked whether he always got up so late.",
+   "aZh": "因为当时已经一点钟了，作者却还在吃早饭，她难以置信，才问“你总是起得这么晚吗”。",
+   "hint": "见结尾三句：‘I'm having breakfast,’ I repeated. / ‘Dear me,’ she said. / ‘Do you always get up so late? It's one o'clock!’"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：星期天我从来不早起，有时我要一直躺到吃午饭的时候。",
+   "a": "I never get up early on Sundays; I sometimes stay in bed until lunchtime.",
+   "note": "on Sundays 表“每个星期天”；until 表示持续到某时刻。"
+  },
+  {
+   "q": "汉译英：我望向窗外，外面一片漆黑。（用到 outside）",
+   "a": "I looked out of the window. It was dark outside.",
+   "note": "outside 作副词，前面不再加介词。"
+  },
+  {
+   "q": "用括号中动词的正确形式填空：Last Sunday I got up very late. Just then, the telephone ______ (ring).",
+   "a": "rang",
+   "note": "叙述那天的事用一般过去时，ring 的过去式是 rang。"
+  },
+  {
+   "q": "填空：It ______ (be) Sunday. I never ______ (get) up early on Sundays.",
+   "a": "was; get",
+   "note": "it 作虚主语指时间；习惯性动作用一般现在时。"
+  },
+  {
+   "q": "改错：My aunt has just arrived by the train and she is coming to see me.",
+   "a": "My aunt has just arrived by train and she is coming to see me.",
+   "note": "by + 交通工具，中间不加冠词。"
+  },
+  {
+   "q": "汉译英：你总是起得这么晚吗？现在已经一点钟了！",
+   "a": "Do you always get up so late? It's one o'clock!",
+   "note": "always 与一般现在时连用表示频率。"
+  },
+  {
+   "q": "句型转换：把下面这句改成 What 引导的感叹句。It was a terrible day. → ______",
+   "a": "What a day!",
+   "note": "What + 名词，主谓常省略。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文第 2 句“有时我要一直躺到吃午饭的时候”，正确的英文是？",
+   "options": [
+    "I sometimes stay in bed until lunchtime.",
+    "I sometimes stay in the bed until lunchtime.",
+    "I sometimes stay in bed to lunchtime.",
+    "I sometimes sleep at lunchtime in bed."
+   ],
+   "answer": 0,
+   "note": "bed 表“卧床”时零冠词；until 引出截止时间。"
+  },
+  {
+   "q": "“星期天我从来不早起”，课文中对应的说法是？",
+   "options": [
+    "I never get up early on Sundays.",
+    "I never get up early in Sundays.",
+    "I never get up early at Sunday.",
+    "I never get up early on last Sunday."
+   ],
+   "answer": 0,
+   "note": "具体某天用介词 on；复数 Sundays 表示“每个星期天”。"
+  },
+  {
+   "q": "电话铃响了，课文用哪句话点明打电话的人是谁？",
+   "options": [
+    "It was my aunt Lucy.",
+    "There was my aunt Lucy.",
+    "My telephone was aunt Lucy.",
+    "It has been my aunt Lucy."
+   ],
+   "answer": 0,
+   "note": "it 可作中性代词，用来指明了身份的人。"
+  },
+  {
+   "q": "姑母问作者此刻正在做什么，正确的问句是？",
+   "options": [
+    "What are you doing?",
+    "What do you do?",
+    "What did you do?",
+    "What you are doing?"
+   ],
+   "answer": 0,
+   "note": "此刻正在发生的动作用现在进行时，疑问语序为 be + 主语 + -ing。"
+  },
+  {
+   "q": "姑母露西表示乘火车到达，课文用的是哪个短语？",
+   "options": [
+    "arrive by train",
+    "arrive by the train",
+    "arrive with train",
+    "arrive in train"
+   ],
+   "answer": 0,
+   "note": "by train 表交通方式，不加冠词；特指某一班次才用 the 9:15 train。"
+  },
+  {
+   "q": "听到作者还在吃早饭，姑母惊讶地喊“天啊”，课文中的表达是？",
+   "options": [
+    "Dear me!",
+    "Dear I!",
+    "Deer me!",
+    "My dear!"
+   ],
+   "answer": 0,
+   "note": "Dear me 表示惊愕、困惑或同情，也可说 Oh, dear!"
+  }
+ ]
+}

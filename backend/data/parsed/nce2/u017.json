@@ -1,0 +1,76 @@
+{
+ "unit": "u017",
+ "unitId": "u017",
+ "lessons": [
+  {
+   "lesson": 17,
+   "title": "Always young",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "My aunt Jennifer is an actress. She must be at least thirty-five years old.",
+     "zh": "我的姑姑詹妮弗是位演员，她至少也有35岁了。"
+    },
+    {
+     "en": "In spite of this, she often appears on the stage as a young girl.",
+     "zh": "尽管如此，她却常在舞台上扮演小姑娘。"
+    },
+    {
+     "en": "Jennifer will have to take part in a new play soon.",
+     "zh": "詹妮弗很快又要参加一个新剧的演出。"
+    },
+    {
+     "en": "This time, she will be a girl of seventeen.",
+     "zh": "这一次，她将扮演一个17岁的少女。"
+    },
+    {
+     "en": "In the play, she must appear in a bright red dress and long black stockings .",
+     "zh": "演出时她必须穿一条鲜红色的裙子和黑色的长筒袜。"
+    },
+    {
+     "en": "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.",
+     "zh": "去年在演另一个剧时，她不得不穿短袜和一件鲜艳的橘红色的衣服。"
+    },
+    {
+     "en": "If anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+     "zh": "一旦有人问起她有多大年纪，她总是回答：“亲爱的，长成大人真可怕啊！”"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "appear",
+   "pos": "v",
+   "zh": "appear：显示，露面≠disappear"
+  },
+  {
+   "word": "stage",
+   "pos": "n",
+   "zh": "on the stage：在舞台上"
+  },
+  {
+   "word": "bright",
+   "pos": "adj",
+   "zh": "bright red：鲜红色"
+  },
+  {
+   "word": "stocking",
+   "pos": "n",
+   "zh": "★sock　n. 短袜"
+  }
+ ],
+ "translation": [
+  "我的姑姑詹妮弗是位演员，她至少也有35岁了。",
+  "尽管如此，她却常在舞台上扮演小姑娘。",
+  "詹妮弗很快又要参加一个新剧的演出。",
+  "这一次，她将扮演一个17岁的少女。",
+  "演出时她必须穿一条鲜红色的裙子和黑色的长筒袜。",
+  "去年在演另一个剧时，她不得不穿短袜和一件鲜艳的橘红色的衣服。",
+  "一旦有人问起她有多大年纪，她总是回答：“亲爱的，长成大人真可怕啊！”"
+ ]
+}

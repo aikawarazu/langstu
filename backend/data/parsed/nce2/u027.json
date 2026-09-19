@@ -1,0 +1,116 @@
+{
+ "unit": "u027",
+ "unitId": "u027",
+ "lessons": [
+  {
+   "lesson": 27,
+   "title": "A wet night",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Late in the afternoon, the boys put up their tent in the middle of a field.",
+     "zh": "傍晚时分，孩子们在田野中央搭起了帐篷。"
+    },
+    {
+     "en": "As soon as this was done, they cooked a meal over an open fire.",
+     "zh": "这件事刚刚做完，他们就在篝火上烧起了饭。"
+    },
+    {
+     "en": "They were all hungry and the food smelled good.",
+     "zh": "他们全都饿了，饭菜散发出阵阵香味。"
+    },
+    {
+     "en": "After a wonderful meal, they told stories and sang songs by the campfire.",
+     "zh": "他们美美地吃了一顿饭后，就围在营火旁讲起了故事，唱起了歌。"
+    },
+    {
+     "en": "But some time later it began to rain.",
+     "zh": "但过了一阵子。"
+    },
+    {
+     "en": "The boys felt tired so they put out the fire and crept into their tent.",
+     "zh": "天下起雨来，于是他们扑灭了篝火，钻进了帐篷。"
+    },
+    {
+     "en": "Their sleeping bags were warm and comfortable, so they all slept soundly.",
+     "zh": "睡袋既暖和又舒服，所以，他们都睡得很香。"
+    },
+    {
+     "en": "In the middle of the night, two boys woke up and began shouting.",
+     "zh": "午夜前后，有两个孩子醒了，大声叫了起来。"
+    },
+    {
+     "en": "The tent was full of water!",
+     "zh": "原来帐篷里到处都是水！"
+    },
+    {
+     "en": "They all leapt out of their sleeping bags and hurried outside.",
+     "zh": "他们全都跳出睡袋，跑到外面。"
+    },
+    {
+     "en": "It was raining heavily and they found that a stream had formed in the field.",
+     "zh": "雨下得很大，他们发现地上已经形成了一条小溪。"
+    },
+    {
+     "en": "The stream wound its way across the field and then flowed right under their tent!",
+     "zh": "那小溪弯弯曲曲穿过田野，然后正好从他们的帐篷底下流过去。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What happened to the boys in the night?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "tent",
+   "pos": "n",
+   "zh": "★field　n. 田地，田野"
+  },
+  {
+   "word": "smell",
+   "pos": "v",
+   "zh": "smell　作半联系动词，接表语，接形容词"
+  },
+  {
+   "word": "campfire",
+   "pos": "n",
+   "zh": "fire 可数也不可数"
+  },
+  {
+   "word": "comfortable",
+   "pos": "adj",
+   "zh": "★soundly　adv. 香甜地"
+  },
+  {
+   "word": "stream",
+   "pos": "n",
+   "zh": "★form　v. 形成"
+  },
+  {
+   "word": "wind",
+   "pos": "v",
+   "zh": "wind one's way 蜿蜒而行"
+  },
+  {
+   "word": "right　ad",
+   "pos": "v",
+   "zh": "强调作用"
+  }
+ ],
+ "translation": [
+  "傍晚时分，孩子们在田野中央搭起了帐篷。",
+  "这件事刚刚做完，他们就在篝火上烧起了饭。",
+  "他们全都饿了，饭菜散发出阵阵香味。",
+  "他们美美地吃了一顿饭后，就围在营火旁讲起了故事，唱起了歌。",
+  "但过了一阵子。",
+  "天下起雨来，于是他们扑灭了篝火，钻进了帐篷。",
+  "睡袋既暖和又舒服，所以，他们都睡得很香。",
+  "午夜前后，有两个孩子醒了，大声叫了起来。",
+  "原来帐篷里到处都是水！",
+  "他们全都跳出睡袋，跑到外面。",
+  "雨下得很大，他们发现地上已经形成了一条小溪。",
+  "那小溪弯弯曲曲穿过田野，然后正好从他们的帐篷底下流过去。"
+ ]
+}

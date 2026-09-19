@@ -1,0 +1,164 @@
+{
+ "unitId": "u072",
+ "title": "A car called Bluebird",
+ "subtitle": "“蓝鸟”汽车",
+ "lead": {
+  "question": "坎贝尔失望地以为自己没破纪录，究竟是哪里出了错？",
+  "warmup": "1935年9月，马尔科姆·坎贝尔爵士驾驶“蓝鸟”赛车，在犹他州邦纳维尔盐滩冲击每小时300英里的极限。最高时速超过304英里，却因爆胎难以操控；赛后得知平均时速只有299英里，与纪录擦肩而过。几天后错误被纠正：实际是301英里。多年后，其子唐纳德驾驶同名“蓝鸟”再创纪录。",
+  "goals": [
+   "理解课文，能复述坎贝尔父子两代驾驶“蓝鸟”赛车创纪录的经过",
+   "掌握 the first man to do、have difficulty (in) doing、be disappointed to do/that 等句型",
+   "熟练运用 set up a record、at a speed of、per、average speed、horsepower 等搭配",
+   "复习第2/第3类条件句、被动语态与间接引语"
+  ],
+  "summary": "本课讲述坎贝尔父子两代驾驶“蓝鸟”赛车创纪录的故事。重点：the first man to do 中不定式作定语；have difficulty (in) doing sth.；be disappointed to do/that；follow in sb.'s footsteps。搭配：set up a record、at a speed of、average speed。还要注意 per 表“每”、burst 三态同形。",
+  "tips": "per 多用于商业与技术用语；have difficulty 后接 (in) doing；burst 的过去式、过去分词仍是 burst。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What mistake was made?",
+   "zh": "犯了什么错误？",
+   "a": "His average speed had been recorded as 299 miles per hour, but a mistake had been made: it was actually 301 miles per hour.",
+   "aZh": "他的平均时速被算作299英里，其实是弄错了，真正的平均时速是301英里。",
+   "hint": "见 a few days later, he was told that a mistake had been made。"
+  },
+  {
+   "kind": "detail",
+   "q": "What do we know about the car called Bluebird?",
+   "zh": "关于“蓝鸟”这辆车，我们了解到什么？",
+   "a": "It had been specially built for Campbell. It was over 30 feet in length and had a 2,500-horsepower engine.",
+   "aZh": "它是专为坎贝尔制造的，车身长30多英尺，装有一台2500马力的发动机。",
+   "hint": "见第 3—4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did Campbell have great difficulty in controlling the car?",
+   "zh": "为什么坎贝尔很难把汽车控制住？",
+   "a": "Because a tyre burst during the first run.",
+   "aZh": "因为在第一段行程中爆了一只轮胎。",
+   "hint": "见 because a tyre burst during the first run。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Sir Malcolm's son, Donald, do many years later?",
+   "zh": "多年以后，他的儿子唐纳德做了什么？",
+   "a": "Following in his father's footsteps, he also set up a world record, driving a car called Bluebird like his father.",
+   "aZh": "他踏着父亲的足迹，也驾驶一辆名叫“蓝鸟”的汽车创造了一项世界纪录。",
+   "hint": "见第 10—11 句。"
+  },
+  {
+   "kind": "think",
+   "q": "Campbell reached a speed of over 304 miles per hour, but he was still disappointed. Why?",
+   "zh": "时速已超过304英里，为什么仍然失望？",
+   "a": "Because the record is based on average speed, not on the highest speed reached. His average was only 299 miles per hour, one mile short of 300, and the burst tyre had slowed him down.",
+   "aZh": "因为纪录按平均时速计算而非最高时速：他的平均时速只有299英里，差1英里不到300，而爆胎拖慢了车子。",
+   "hint": "综合第 5—6 句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "选词填空（racing / per / horsepower / average / burst / footsteps）：The great ___ driver drove at over 300 miles ___ hour; his car had a 2,500-___ engine; his ___ speed was 301 miles an hour; a tyre ___ during the first run; following in his father's ___ , Donald also set up a world record.",
+   "a": "racing; per; horsepower; average; burst; footsteps",
+   "note": "per 表“每一”。"
+  },
+  {
+   "q": "汉译英：杰出的赛车手马尔科姆·坎贝尔爵士是第一个以每小时超过300英里的速度驾车的人。",
+   "a": "The great racing driver, Sir Malcolm Campbell, was the first man to drive at over 300 miles per hour.",
+   "note": "the first 后接不定式作定语。"
+  },
+  {
+   "q": "汉译英：他于1935年9月在犹他州邦纳维尔盐滩创造了一项新的世界纪录。",
+   "a": "He set up a new world record in September 1935 at Bonneville Salt Flats, Utah.",
+   "note": "set up 创（纪录）。"
+  },
+  {
+   "q": "同义改写：It was very difficult for him to control the car. → He ___ great ___ (in) ___ the car.",
+   "a": "had; difficulty; controlling",
+   "note": "have difficulty (in) doing。"
+  },
+  {
+   "q": "填空（他很失望地得知……）：He ___ ___ ___ ___ that his average speed had been 299 miles per hour.",
+   "a": "was disappointed to learn",
+   "note": "be disappointed to do。"
+  },
+  {
+   "q": "填空：A tyre ___ during the first run.（第一段行程中爆了一只轮胎）",
+   "a": "burst",
+   "note": "burst 三态同形。"
+  },
+  {
+   "q": "汉译英（第3类条件句）：如果轮胎没有爆，他控制汽车就不会有那么大的困难。",
+   "a": "If the tyre had not burst during the first run, he would not have had so much difficulty (in) controlling the car.",
+   "note": "与过去事实相反。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“第一个以每小时超过300英里的速度驾车的人”应选哪项？",
+   "options": [
+    "the first man to drive at over 300 miles per hour",
+    "the first man driving at over 300 miles per hour",
+    "the first man who drive at over 300 miles per hour",
+    "the first man for driving at over 300 miles per hour"
+   ],
+   "answer": 0,
+   "note": "the first 后用不定式作定语。"
+  },
+  {
+   "q": "“他很难把汽车控制住”的正确表达是？",
+   "options": [
+    "He had great difficulty to control the car.",
+    "He had great difficulty in controlling the car.",
+    "He had great difficulty for controlling the car.",
+    "He had great difficulty controlling of the car."
+   ],
+   "answer": 1,
+   "note": "have difficulty (in) doing。"
+  },
+  {
+   "q": "“他很失望地得知平均时速只有299英里”应译为？",
+   "options": [
+    "He was disappointing to learn that his average speed had been 299 miles per hour.",
+    "He disappointed to learn that his average speed had been 299 miles per hour.",
+    "He was disappointed to learn that his average speed had been 299 miles per hour.",
+    "He was disappointed learning that his average speed had been 299 miles per hour."
+   ],
+   "answer": 2,
+   "note": "人作主语用 -ed 形容词。"
+  },
+  {
+   "q": "“几天之后，有人告诉他说弄错了”的正确英文是？",
+   "options": [
+    "A few days later, he told that a mistake had been made.",
+    "A few days later, he was told that a mistake had been made.",
+    "A few days later, he was telling that a mistake has been made.",
+    "A few days later, he had told that a mistake was made."
+   ],
+   "answer": 1,
+   "note": "被动语态 + 间接引语。"
+  },
+  {
+   "q": "“踏着父亲的足迹”的固定搭配是？",
+   "options": [
+    "follow after his father's steps",
+    "follow in his father's footsteps",
+    "follow with his father's footsteps",
+    "follow on his father's footstep"
+   ],
+   "answer": 1,
+   "note": "footstep 用复数。"
+  },
+  {
+   "q": "“如果轮胎没有爆，他控制汽车就不会那么困难”如何译成第3类条件句？",
+   "options": [
+    "If the tyre did not burst, he would not have so much difficulty controlling the car.",
+    "If the tyre had not burst, he would not have had so much difficulty controlling the car.",
+    "If the tyre would not burst, he had not had so much difficulty controlling the car.",
+    "If the tyre has not burst, he will not have so much difficulty controlling the car."
+   ],
+   "answer": 1,
+   "note": "if had done, would have done。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u048",
+ "title": "Did you want to tell me something?",
+ "subtitle": "你想告诉我什么吗？",
+ "lead": {
+  "question": "拔完牙后嘴里塞满药棉，作家为什么突然非常着急？他最后说出了什么？",
+  "warmup": "想象你躺在牙科椅上，嘴里塞满药棉，医生却接连发问：火柴盒收藏增加了吗？兄弟好吗？伦敦的新工作喜欢吗？你想回答，却只能点头或发出怪声。本课抓住的正是“无法回答时被提问”的尴尬，结尾一句“您拔错了牙”把笑点引爆。",
+  "goals": [
+   "复述拔牙就诊的故事脉络，抓住结尾“拔错了牙”这一幽默反转的关键细节",
+   "掌握 pull out、cotton wool、collect / collection、nod、meanwhile、search out 等核心词语",
+   "熟练运用 either...or、in answer to、be busy doing、be unable to 等本课结构",
+   "复习一般过去时、过去完成时、被动语态与情态动词过去式的时间层次"
+  ],
+  "summary": "课文以一句“牙医总在你无法回答时提问”开篇，随后用一连串细节推进：刚拔完牙、嘴里塞着药棉，医生却问火柴盒收藏、兄弟近况和伦敦的新工作。“我”或点头或发出怪声，舌头却忙着探那颗牙留下的洞。直到药棉被取出，“我”才说出真相——他拔错了牙。",
+  "tips": "where the tooth had been 不是“牙齿曾在某处”，而是“那颗牙原先所在的地方”，牙早已不在，属“过去的过去”，故用 had been。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the writer become very worried?",
+   "zh": "作家为什么变得非常着急？",
+   "a": "Because his tongue found the hole and he realized the dentist had pulled out the wrong tooth, but with his mouth full of cotton wool he could not say anything.",
+   "aZh": "因为他的舌头摸到了那个牙洞，意识到牙医拔错了牙，可嘴里塞满药棉，什么也说不出来。",
+   "hint": "见第 7—9 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What three questions did the dentist ask after he had pulled out the tooth?",
+   "zh": "牙医拔牙后向作家提了哪三个问题？",
+   "a": "Whether his collection of match boxes was growing; how his brother was; whether he liked his new job in London.",
+   "aZh": "火柴盒收藏是否在增加；兄弟近况如何；是否喜欢伦敦的新工作。",
+   "hint": "第 4—5 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the writer answer the dentist's questions?",
+   "zh": "作家是怎样回答牙医这些问题的？",
+   "a": "In answer to these questions he either nodded or made strange noises.",
+   "aZh": "作为对这些问题的回答，他不是点头，就是发出奇怪的声音。",
+   "hint": "第 6 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does 'the hole where the tooth had been' use the past perfect tense?",
+   "zh": "为什么 where the tooth had been 要用过去完成时？",
+   "a": "Because the tooth had already gone before the tongue searched for the hole — an earlier past, 'the past in the past'.",
+   "aZh": "因为那颗牙在舌头寻找牙洞之前就已经不在了，属于“过去的过去”。",
+   "hint": "第 7 句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer begin with 'Dentists always ask questions when it is impossible for you to answer'?",
+   "zh": "作家为什么用“牙医总在你无法回答时提问”开篇？",
+   "a": "He states the rule first and then acts it out: every question arrives while the mouth is full of cotton wool, so the one thing that really matters — the wrong tooth — cannot be said until the cotton wool is removed.",
+   "aZh": "先立规矩、再演实例：所有提问都发生在嘴里塞着药棉之时，最要紧的那句只能等到最后才说出口，正是这种延迟制造了幽默。",
+   "hint": "把首句与末句对照读。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "语法填空：My dentist had just ______ (pull) out one of my teeth and had told me to rest for a while.",
+   "a": "pulled",
+   "note": "had just + 过去分词。"
+  },
+  {
+   "q": "同义改写并填空：when it is impossible for you to answer them → when you ______ ______ ______ answer them; I could ______ say anything.",
+   "a": "are unable to; not",
+   "note": "be unable to；could not 表过去能力。"
+  },
+  {
+   "q": "汉译英：与此同时，我的舌头正忙着寻找那颗牙原先所在的地方。",
+   "a": "Meanwhile, my tongue was busy searching out the hole where the tooth had been.",
+   "note": "be busy doing。"
+  },
+  {
+   "q": "用 either...or 填空：In answer to these questions I ______ nodded ______ made strange noises.",
+   "a": "either; or",
+   "note": "连接并列谓语。"
+  },
+  {
+   "q": "选词填空（collect / collection / cotton wool / patient / nod）：He knew I ______ match boxes and asked whether my ______ was growing. With ______ in my mouth I could only ______.",
+   "a": "collected; collection; cotton wool; nod",
+   "note": "collect 动词，collection 名词。"
+  },
+  {
+   "q": "用 no sooner...than 改写：The dentist had removed the cotton wool from my mouth. I told him he had pulled out the wrong tooth.",
+   "a": "No sooner had the dentist removed the cotton wool from my mouth than I told him he had pulled out the wrong tooth.",
+   "note": "no sooner 置句首须倒装。"
+  },
+  {
+   "q": "改写：The dentist had pulled out the wrong tooth.（改为被动语态）",
+   "a": "The wrong tooth had been pulled out (by the dentist).",
+   "note": "had been + done。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "拔牙后，作家的嘴里塞满了什么？",
+   "options": [
+    "A piece of chocolate",
+    "Some hot water",
+    "Cotton wool",
+    "A small mirror"
+   ],
+   "answer": 2,
+   "note": "cotton wool 药棉。"
+  },
+  {
+   "q": "牙医知道作家有什么爱好？",
+   "options": [
+    "He collected match boxes.",
+    "He collected stamps.",
+    "He collected coins.",
+    "He collected old books."
+   ],
+   "answer": 0,
+   "note": "collect match boxes。"
+  },
+  {
+   "q": "作家是怎样“回答”牙医那一连串问题的？",
+   "options": [
+    "He wrote the answers on paper.",
+    "He answered every question loudly.",
+    "He asked the dentist to wait.",
+    "He either nodded or made strange noises."
+   ],
+   "answer": 3,
+   "note": "either...or。"
+  },
+  {
+   "q": "药棉取出后，作家告诉牙医什么？",
+   "options": [
+    "He had forgotten to rest.",
+    "He had pulled out the wrong tooth.",
+    "He had lost his match boxes.",
+    "He had to remove the cotton wool."
+   ],
+   "answer": 1,
+   "note": "pull out 拔（牙）。"
+  },
+  {
+   "q": "“my tongue was busy ______ out the hole”中应填入哪种形式？",
+   "options": [
+    "searching",
+    "to search",
+    "searched",
+    "search"
+   ],
+   "answer": 0,
+   "note": "be busy doing。"
+  },
+  {
+   "q": "“where the tooth had been”为什么用过去完成时？",
+   "options": [
+    "It describes a future action.",
+    "It states a general truth.",
+    "The tooth was already gone — 'the past in the past'.",
+    "It follows the word 'busy'."
+   ],
+   "answer": 2,
+   "note": "牙齿已不存在，属“过去的过去”。"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "unit": "u011",
+ "unitId": "u011",
+ "lessons": [
+  {
+   "lesson": 11,
+   "title": "—One good turn",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "I was having dinner at a restaurant when Tony Steele came in.",
+     "zh": "我正在一家饭馆吃饭，托尼。"
+    },
+    {
+     "en": "Tony worked in a lawyer's office years ago, but he is now working at a bank.",
+     "zh": "斯蒂尔走了进来。"
+    },
+    {
+     "en": "He gets a good salary, but he always borrows money from his friends and never pays it back.",
+     "zh": "托尼曾在一家律师事务所工作，而现在正在一家银行上班，他的薪水很高，但他却总是向朋友借钱，并且从来不还。"
+    },
+    {
+     "en": "Tony saw me and came and sat at the same table.",
+     "zh": "托尼看见了我，就走过来和我坐到一张桌子前。"
+    },
+    {
+     "en": "He has never borrowed money from me.",
+     "zh": "他从未向我借过钱，但他吃饭时，我提出向他借20英镑。"
+    },
+    {
+     "en": "While he was eating, I asked him to lend me &20.",
+     "zh": "令我惊奇的是，他立刻把钱给了我。"
+    },
+    {
+     "en": "To my surprise, he gave me the money immediately.",
+     "zh": "“我还未向你借过钱。"
+    },
+    {
+     "en": "'I have never borrowed any money from you,' Tony said,'so now you can pay for my dinner!'",
+     "zh": "”托尼说道，“所以现在你可以替我付饭钱了！”"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "turn",
+   "pos": "n",
+   "zh": "behavior：行为，举止"
+  },
+  {
+   "word": "deserve",
+   "pos": "v",
+   "zh": "He deserves praise.他应该得到表扬"
+  },
+  {
+   "word": "a promotio",
+   "pos": "n",
+   "zh": "deserve to do: 应该..."
+  },
+  {
+   "word": "lawyer",
+   "pos": "n",
+   "zh": "lawyer's office：律师事务所"
+  },
+  {
+   "word": "salary",
+   "pos": "n",
+   "zh": "pay：工资　通用"
+  },
+  {
+   "word": "immediately　ad",
+   "pos": "v",
+   "zh": "at once：立刻，马上"
+  }
+ ],
+ "translation": [
+  "我正在一家饭馆吃饭，托尼。",
+  "斯蒂尔走了进来。",
+  "托尼曾在一家律师事务所工作，而现在正在一家银行上班，他的薪水很高，但他却总是向朋友借钱，并且从来不还。",
+  "托尼看见了我，就走过来和我坐到一张桌子前。",
+  "他从未向我借过钱，但他吃饭时，我提出向他借20英镑。",
+  "令我惊奇的是，他立刻把钱给了我。",
+  "“我还未向你借过钱。",
+  "”托尼说道，“所以现在你可以替我付饭钱了！”"
+ ]
+}

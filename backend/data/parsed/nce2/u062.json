@@ -1,0 +1,121 @@
+{
+ "unit": "u062",
+ "unitId": "u062",
+ "lessons": [
+  {
+   "lesson": 62,
+   "title": "First listen and then answer the question.",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Firemen had been fighting the forest for nearly three weeks before they could get it under control.",
+     "zh": "消防队员们同那场森林大火搏斗了将近3个星期才最后把火势控制住。"
+    },
+    {
+     "en": "A short time before, great trees had covered the countryside for miles around.",
+     "zh": "就在不久之前，参天大树还覆盖着方圆数英里的土地。"
+    },
+    {
+     "en": "Now, smoke still rose up from the warm ground over the desolate hills.",
+     "zh": "而现在，发热的地面上仍然升腾着烟雾，弥漫在荒凉的山丘上。"
+    },
+    {
+     "en": "Winter was coming on and the hills threatened the surrounding villages with destruction , for heavy rain would not only wash away the soil but would cause serious floods as well.",
+     "zh": "冬季即将来临，这些山丘对周围的村庄具有毁灭性的威胁，因为大雨不仅会冲走土壤，而且还会引起严重的水灾。"
+    },
+    {
+     "en": "When the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.",
+     "zh": "在大火最后被扑灭后，森林管理当局订购了好几吨一种生长迅速的特殊类型的草籽。"
+    },
+    {
+     "en": "The seed was sprayed over the ground in huge quantities by aeroplanes .",
+     "zh": "飞机把这种草籽大量地撒播在地上。"
+    },
+    {
+     "en": "The planes had been planting seed for nearly a month when it began to rain.",
+     "zh": "飞机撒播近一个月后，开始下起雨来。"
+    },
+    {
+     "en": "By then, however, in many places the grass had already taken root.",
+     "zh": "然而到那时，很多地方的草已经生了根。"
+    },
+    {
+     "en": "In place of the great trees which had been growing there for centuries patches of green had begun to appear in the blackened soil.",
+     "zh": "一片片的绿草开始出现在这片烧焦的土地上，代替了多少世纪以来一直生长在那里的参天大树。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What was the danger to the villages after the fire?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "control",
+   "pos": "n",
+   "zh": "control sth.控制．．．"
+  },
+  {
+   "word": "smoke",
+   "pos": "n",
+   "zh": "smoke:吸烟"
+  },
+  {
+   "word": "desolate",
+   "pos": "adj",
+   "zh": "lonely :孤独的；荒凉的，偏僻的"
+  },
+  {
+   "word": "threaten",
+   "pos": "v",
+   "zh": "threaten to do :威胁着要做．．．"
+  },
+  {
+   "word": "surrounding",
+   "pos": "adj",
+   "zh": "surrounds:环境"
+  },
+  {
+   "word": "destruction",
+   "pos": "n",
+   "zh": "destroy :破坏"
+  },
+  {
+   "word": "grass-seed",
+   "pos": "n",
+   "zh": "★spray　v. 喷撒"
+  },
+  {
+   "word": "quantity",
+   "pos": "n",
+   "zh": "quality :质量"
+  },
+  {
+   "word": "root",
+   "pos": "n",
+   "zh": "root of:...的根"
+  },
+  {
+   "word": "century",
+   "pos": "n",
+   "zh": "★patch　n. 小片"
+  },
+  {
+   "word": "blacken",
+   "pos": "v",
+   "zh": "-en --表示动词"
+  }
+ ],
+ "translation": [
+  "消防队员们同那场森林大火搏斗了将近3个星期才最后把火势控制住。",
+  "就在不久之前，参天大树还覆盖着方圆数英里的土地。",
+  "而现在，发热的地面上仍然升腾着烟雾，弥漫在荒凉的山丘上。",
+  "冬季即将来临，这些山丘对周围的村庄具有毁灭性的威胁，因为大雨不仅会冲走土壤，而且还会引起严重的水灾。",
+  "在大火最后被扑灭后，森林管理当局订购了好几吨一种生长迅速的特殊类型的草籽。",
+  "飞机把这种草籽大量地撒播在地上。",
+  "飞机撒播近一个月后，开始下起雨来。",
+  "然而到那时，很多地方的草已经生了根。",
+  "一片片的绿草开始出现在这片烧焦的土地上，代替了多少世纪以来一直生长在那里的参天大树。"
+ ]
+}

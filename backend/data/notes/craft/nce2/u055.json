@@ -1,0 +1,164 @@
+{
+ "unitId": "u055",
+ "title": "Not a gold mine",
+ "subtitle": "并非金矿",
+ "lead": {
+  "question": "探宝器真能在海边岩洞里探出金矿吗？标题“并非金矿”藏着什么反讽？",
+  "warmup": "每个人都做过暴富的梦：藏宝图、荒凉的海边岩洞、销声匿迹的海盗。如今“梦想成真”有了技术加持——一台叫“探宝器”的新机器被发明出来，专门探测埋在地下的金子。一支装备精良的探宝队走进岩洞，机器显示土壤下有金子！他们激动地挖了两英尺深……结果如何？标题早已剧透。",
+  "goals": [
+   "听懂并复述课文情节：探宝器、海边岩洞、两英尺深的坑、空铁皮箱",
+   "辨析 used to 与 would 表过去习惯的分工",
+   "掌握 Armed with 分词短语作状语、be confident that、in spite of 等结构",
+   "理解标题 Not a gold mine 的反讽：找到金子不等于找到金矿"
+  ],
+  "summary": "装备“探宝器”的探宝队在据说海盗藏过金的海边岩洞里寻宝：机器显示地下有金子，可挖了两英尺深，只找到一枚几乎不值钱的金币，搜遍全洞也只得一只空铁皮箱，恰扣标题 Not a gold mine 的反讽。语言重点是 used to 与 would、Armed with 分词状语。",
+  "tips": "used to 既可表过去状态也可表反复动作且暗含“今非昔比”，would 只表反复动作、不表状态；armed with 分词短语的逻辑主语必须是主句主语。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What did the team find?",
+   "zh": "这支探宝队到底找到了什么？",
+   "a": "They found only a small gold coin which was almost worthless, and an empty tin trunk — no gold mine at all.",
+   "aZh": "他们只找到一枚几乎一钱不值的小金币和一只空铁皮箱，根本没有金矿。",
+   "hint": "found a small gold coin which was almost worthless；did not find anything except an empty tin trunk。"
+  },
+  {
+   "kind": "detail",
+   "q": "In 'where pirates used to hide gold' and 'The pirates would often bury gold in the cave', can used to and would be swapped freely?",
+   "zh": "used to hide 与 would often bury 都译作“过去常常”，能随意互换吗？",
+   "a": "No. used to can describe past repeated actions AND past states, implying the situation no longer exists; would only describes repeated past actions and never states.",
+   "aZh": "不能。used to 既可表过去反复动作，也可表过去状态；would 只表过去反复的动作，不表状态。",
+   "hint": "对比 where pirates used to hide gold 与 would often bury gold in the cave。"
+  },
+  {
+   "kind": "detail",
+   "q": "What is the grammatical function of 'Armed with the new machine'?",
+   "zh": "Armed with the new machine 在句中是什么成分？",
+   "a": "It is a past participle phrase used as an adverbial; its logical subject is the main clause subject 'a search party', with which it has a passive relation.",
+   "aZh": "它是过去分词短语作状语，表示伴随状况；其逻辑主语就是主句主语 a search party。",
+   "hint": "Armed with the new machine, a search party went into the cave。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'this' refer to in 'In spite of this', and why 'may reveal' instead of 'will reveal'?",
+   "zh": "In spite of this 中的 this 指代什么？为何用 may reveal？",
+   "a": "'This' refers to the disappointing result that the party found nothing except an empty tin trunk. 'may' expresses possibility rather than certainty.",
+   "aZh": "this 指代“除了一只空铁皮箱外什么也没找到”这一结果；may 表示“有可能”的推测。",
+   "hint": "见末句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is the title 'Not a gold mine' ironic?",
+   "zh": "标题 Not a gold mine 的反讽妙在哪里？",
+   "a": "The title denies the expectation set up by 'Dreams of finding lost treasure almost came true': gold was detected, but it turned out to be one nearly worthless coin, so there was no mine at all.",
+   "aZh": "标题否定了首句营造的期待：金子确实探测到了，却只是一枚几乎不值钱的金币，根本没有矿。",
+   "hint": "结合首句 almost came true 与末句 In spite of this。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "根据汉语提示填空：Dreams of finding lost treasure almost ______ ______ recently.",
+   "a": "came true",
+   "note": "come true 无被动。"
+  },
+  {
+   "q": "用括号内动词的适当形式填空：A new machine ______ (call) 'The Revealer' has been invented and it has been used to ______ (detect) gold which has been ______ (bury) in the ground.",
+   "a": "called; detect; buried",
+   "note": "过去分词作后置定语。"
+  },
+  {
+   "q": "用 used to 或 would 填空：Pirates ______ hide gold in the cave, and they ______ often bury it there and then fail to collect it.",
+   "a": "used to; would",
+   "note": "would 表反复动作，不表状态。"
+  },
+  {
+   "q": "把过去分词短语还原为状语从句：Armed with the new machine, a search party went into the cave hoping to find buried treasure.",
+   "a": "After the search party had been armed with the new machine, they went into the cave hoping to find buried treasure.",
+   "note": "分词逻辑主语须与主句主语一致。"
+  },
+  {
+   "q": "用括号内动词的正确时态填空：The leader of the party ______ (examine) the soil near the entrance to the cave when the machine ______ (show) that there was gold under the ground.",
+   "a": "was examining; showed",
+   "note": "长动作用进行时。"
+  },
+  {
+   "q": "选词填空（seashore / soil / entrance / thoroughly / worthless / trunk）：The cave is near the ______. The leader examined the ______ near the ______ to the cave. The party searched the whole cave ______ but found only a ______ gold coin and an empty tin ______.",
+   "a": "seashore; soil; entrance; thoroughly; worthless; trunk",
+   "note": "entrance to 为固定搭配。"
+  },
+  {
+   "q": "汉译英：尽管如此，很多人仍然相信“探宝器”很快就会探出值钱的东西来。",
+   "a": "In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.",
+   "note": "in spite of 后接 this。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中被称为 'The Revealer' 的是什么？",
+   "options": [
+    "A pirate who once hid gold in the cave",
+    "A new machine invented to detect buried gold",
+    "The leader of the search party",
+    "An empty tin trunk found in the cave"
+   ],
+   "answer": 1,
+   "note": "A new machine called 'The Revealer'。"
+  },
+  {
+   "q": "下列哪一句正确表达“海盗过去常把金子埋在那个洞里”？",
+   "options": [
+    "The pirates used to burying gold in the cave.",
+    "The pirates are used to bury gold in the cave.",
+    "The pirates would often bury gold in the cave.",
+    "The pirates would often buried gold in the cave."
+   ],
+   "answer": 2,
+   "note": "would + 动词原形。"
+  },
+  {
+   "q": "'Armed with the new machine, a search party went into the cave.' 中 Armed with 的作用是？",
+   "options": [
+    "现在分词短语，作 machine 的后置定语",
+    "过去分词短语作状语，说明探宝队的装备状况",
+    "谓语动词的被动语态形式",
+    "介词短语，在句中作表语"
+   ],
+   "answer": 1,
+   "note": "be armed with 与主语构成被动关系。"
+  },
+  {
+   "q": "课文中 'was examining ... when the machine showed ...' 前半句为什么用过去进行时？",
+   "options": [
+    "表示在 showed 之前已经完成的动作",
+    "表示说话此刻正在进行的动作",
+    "表示过去经常发生的习惯性动作",
+    "表示被 when 引出的短动作打断的、正在进行的背景动作"
+   ],
+   "answer": 3,
+   "note": "长动作用进行时。"
+  },
+  {
+   "q": "探宝队挖了两英尺深的坑后，最终找到的是什么？",
+   "options": [
+    "An empty tin trunk",
+    "A large amount of hidden gold",
+    "A small gold coin which was almost worthless",
+    "A map left by the pirates"
+   ],
+   "answer": 2,
+   "note": "a small gold coin which was almost worthless。"
+  },
+  {
+   "q": "末句 'In spite of this' 中的 this 指代什么？",
+   "options": [
+    "The party found nothing but an empty tin trunk",
+    "The invention of the new machine",
+    "The pirates' habit of hiding gold",
+    "The leader's examination of the soil"
+   ],
+   "answer": 0,
+   "note": "this 回指上一句一无所获的结果。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u066",
+ "title": "Sweet as honey!",
+ "subtitle": "像蜜一样甜！",
+ "lead": {
+  "question": "一架在南太平洋荒岛坠毁26年的轰炸机，为什么第四台发动机仍完好无损？",
+  "warmup": "1963年，一架兰开斯特轰炸机坠落在南太平洋的瓦立斯岛——一个位于萨摩亚以西很远、几乎无人踏足的小岛。它损伤不重，却就此被遗忘，在荒草与海风里躺了二十六年。请你先猜一猜：一台露天停放二十六年的发动机，本该锈成什么样子？又是什么把它完整封存了下来？",
+  "goals": [
+   "掌握 bomber、remote、wreck、rediscover、aerial、survey、enthusiast、restore、preserve 等核心词汇",
+   "熟练运用 have + 宾语 + 过去分词这一使役式，并区别于被动语态",
+   "理解并运用 be worth doing、in the meantime、a colony of、turn...into 等本课短语",
+   "能按时间线复述1963年坠机、1989年重新发现到包装运回法国并着手修复的全过程"
+  ],
+  "summary": "课文按时间顺序展开：1963年一架兰开斯特轰炸机坠毁于南太平洋瓦立斯岛，损坏不重却被遗忘；1989年它在一次航空勘查中被意外发现。当时状况良好的兰开斯特已属罕见、值得抢救，法国当局让人把飞机包装成部件运回法国。四台默林发动机只需修三台——第四台被蜜蜂做成蜂房，在蜂蜡中完好封存。",
+  "tips": "使役式的关键是过去分词：要说 have the plane restored，别写成 have the plane restore；worth 后面只接 doing。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was 'sweet as honey' and why?",
+   "zh": "什么东西“像蜜一样甜”？为什么？",
+   "a": "The fourth Rolls-Royce Merlin engine was sweet as honey — still in perfect condition. A colony of bees had turned the engine into a hive, so it was totally preserved in beeswax.",
+   "aZh": "第四台默林发动机依旧完好无损。因为一群蜜蜂把它当成了蜂房，它被完整地保存在蜂蜡里。",
+   "hint": "见课文倒数第二句与末句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where and when did the Lancaster bomber crash, and what happened to the wreck in the following years?",
+   "zh": "这架轰炸机何时何地坠毁？之后残骸怎样了？",
+   "a": "In 1963 it crashed on Wallis Island, a remote place in the South Pacific, a long way west of Samoa. The plane wasn't too badly damaged, but over the years the crash was forgotten and the wreck remained undisturbed.",
+   "aZh": "1963年，它坠毁在瓦立斯岛；多年来这次失事被人遗忘，残骸也一直没受到扰动。",
+   "hint": "见第 1—2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How was the plane rediscovered in 1989, and why was it considered worth rescuing?",
+   "zh": "1989年飞机怎样被重新发现？为什么值得抢救？",
+   "a": "In 1989 it was accidentally rediscovered in an aerial survey of the island. By that time a Lancaster bomber in reasonable condition was rare and worth rescuing.",
+   "aZh": "1989年它在该岛的一次航空勘查中被意外重新发现；到那时状况尚好的兰开斯特已属罕见。",
+   "hint": "见第 3—4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the French authorities do, and what do the enthusiasts plan to do?",
+   "zh": "法国当局做了什么？热心人打算怎么做？",
+   "a": "The French authorities had the plane packaged and moved in parts back to France, and now a group of enthusiasts are going to have the plane restored. They will need to have only three of the four engines rebuilt.",
+   "aZh": "法国当局让人把飞机包装起来、分成部件运回法国；一群热心人准备把它修复，只需修复四台发动机中的三台。",
+   "hint": "见第 5—7 句。"
+  },
+  {
+   "kind": "think",
+   "q": "The title is 'Sweet as honey!'. What is 'sweet as honey', and why is the title a pun?",
+   "zh": "标题指的是什么？为什么是双关？",
+   "a": "It refers to the fourth engine, still in perfect condition, preserved in beeswax. Literally the engine was sealed in honey-like beeswax; figuratively it expresses the enthusiasts' delight at finding one engine that needed no rebuilding.",
+   "aZh": "它指第四台被蜂蜡封存的发动机。字面是蜂蜡封住，比喻上写出热心人的惊喜——竟有一台完全不用修。",
+   "hint": "结合标题与末两句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "根据课文填空：In 1963 a Lancaster ________ crashed on Wallis Island, a ________ place in the South ________. The plane wasn't too badly ________, but over the years the crash was forgotten and the ________ remained ________.",
+   "a": "bomber; remote; Pacific; damaged; wreck; undisturbed",
+   "note": "wreck 残骸。"
+  },
+  {
+   "q": "汉译英（须用 over the years 与 in the meantime）：多年来，这次坠机事件被遗忘了；在此期间，飞机残骸一直没有受到扰动。",
+   "a": "Over the years the crash was forgotten; in the meantime, the wreck remained undisturbed.",
+   "note": "in the meantime 在此期间。"
+  },
+  {
+   "q": "根据课文完成句子（注意语态）：Then in 1989, twenty-six years after the crash, the plane ________ accidentally ________ in an ________ ________ of the island.",
+   "a": "was; rediscovered; aerial survey",
+   "note": "一般过去时的被动语态。"
+  },
+  {
+   "q": "改写句子，保持句意：It was worth rescuing the Lancaster bomber.",
+   "a": "The Lancaster bomber was worth rescuing.",
+   "note": "be worth doing 主动表被动。"
+  },
+  {
+   "q": "用 have + 宾语 + 过去分词改写：① The French authorities arranged for someone to package the plane and move it in parts back to France. ② Enthusiasts will arrange for the plane to be restored.",
+   "a": "① The French authorities had the plane packaged and moved in parts back to France. ② A group of enthusiasts are going to have the plane restored.",
+   "note": "使役式 have sth done。"
+  },
+  {
+   "q": "根据汉语完成句子（须用 imagine 与 packing cases）：想一想他们拆开包装箱时那种惊奇与欣喜吧！",
+   "a": "Imagine their surprise and delight when they broke open the packing cases!",
+   "note": "imagine + 名词。"
+  },
+  {
+   "q": "用所给动词的正确时态与语态填空：Twenty-six years ________ (pass) before the plane ________ (rediscover) in 1989. By then the wreck ________ (not disturb) since the crash and the fourth engine ________ (preserve) in beeswax.",
+   "a": "had passed; was rediscovered; had not been disturbed; had been preserved",
+   "note": "过去的过去用过去完成时被动。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "1963年，那架兰开斯特轰炸机坠毁在什么地方？",
+   "options": [
+    "On Wallis Island, a remote place in the South Pacific",
+    "On Samoa, a busy island in the South Pacific",
+    "On an island a long way east of Samoa",
+    "In the north Atlantic, not far from France"
+   ],
+   "answer": 0,
+   "note": "瓦立斯岛，萨摩亚以西。"
+  },
+  {
+   "q": "这架飞机在1989年是怎样被重新发现的？",
+   "options": [
+    "It was accidentally rediscovered in an aerial survey of the island.",
+    "It was found by a fisherman swimming near the island.",
+    "It was dug out of the sand by some enthusiasts.",
+    "It was reported by the French authorities."
+   ],
+   "answer": 0,
+   "note": "aerial survey 航空勘查。"
+  },
+  {
+   "q": "课文中 a Lancaster bomber ... was rare and worth rescuing，be worth rescuing 的意思是？",
+   "options": [
+    "It deserved to be rescued.",
+    "It was too expensive to rescue.",
+    "It was being rescued at that moment.",
+    "It could not be rescued at all."
+   ],
+   "answer": 0,
+   "note": "be worth doing。"
+  },
+  {
+   "q": "飞机装有四台默林发动机，需要修复的有几台？",
+   "options": [
+    "Only three of them.",
+    "All four of them.",
+    "Only one of them.",
+    "None of them."
+   ],
+   "answer": 0,
+   "note": "第四台完好无损。"
+  },
+  {
+   "q": "文中 A colony of bees had turned the engine into a hive 里的 a colony of bees 指什么？",
+   "options": [
+    "A large group of bees living together",
+    "A single bee from the hive",
+    "A beekeeper's wooden box",
+    "A jar of honey"
+   ],
+   "answer": 0,
+   "note": "colony 作量词表示“群”。"
+  },
+  {
+   "q": "The French authorities had the plane packaged and moved in parts back to France. 句中 had the plane packaged 的意思是？",
+   "options": [
+    "They arranged for someone to package the plane.",
+    "They packaged the plane with their own hands.",
+    "They were asked to package the plane.",
+    "They refused to have the plane packaged."
+   ],
+   "answer": 0,
+   "note": "have + 宾语 + 过去分词。"
+  }
+ ]
+}

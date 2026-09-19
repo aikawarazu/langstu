@@ -1,0 +1,164 @@
+{
+ "unitId": "u003",
+ "title": "Please send me a card",
+ "subtitle": "请给我寄一张明信片",
+ "lead": {
+  "question": "天天惦记着写明信片的人，为什么假期结束时连一张也没寄出去？",
+  "warmup": "度假时写明信片寄给亲友，曾是再普通不过的问候方式，可“惦记着要写”和真的动笔之间，往往隔着一场拖延。本课作者去年夏天去了意大利，玩得十分尽兴，却偏偏被明信片搅得心神不宁。听读时请留意两点：一是全文几乎全用一般过去时串起去年夏天那段已经结束的经历；二是留意 send、lend、teach、buy 这类动词后面常常跟着两个宾语。",
+  "goals": [
+   "能用一般过去时连贯复述一次发生并结束于过去的旅行经历，正确搭配 last summer、on the last day 等过去时间状语",
+   "理解 send、lend、teach、buy 等动词带双宾语的语序，能在 send sb. sth. 与 send sth. to sb. 之间转换",
+   "理解 not a word、not a single card 的强调否定，以及 spoil、whole、a few 的确切含义",
+   "会写 make a big decision、spend the whole day、think about 等本课搭配，转述自己的度假计划"
+  ],
+  "summary": "去年夏天作者去意大利度假，逛博物馆、在公园里坐坐，一位友好的服务员教他几句意大利语还借给他一本书，他却一行也没读懂。整个假期他天天惦记着明信片，最后一天痛下决心买回三十七张，关在房间里待了一整天，结果竟连一张也没写成。全文以一般过去时记述这段往事，并集中操练 send、lend 一类的双宾语动词。",
+  "tips": "friendly 虽以 -ly 结尾却是形容词（He is friendly），不能写成 He taught me Italian friendly，要说 in a friendly way；顺带记牢 lend 借出（lend sb. sth.），borrow 借入（borrow sth. from sb.）。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How many cards did the writer send?",
+   "zh": "作者寄了多少张明信片？",
+   "a": "He did not send any cards. He bought thirty-seven cards and spent the whole day in his room, but he did not write a single card.",
+   "aZh": "一张也没寄出去。他买了三十七张明信片，在房间里待了整整一天，却连一张也没有写成。",
+   "hint": "答案在课文最后三句：On the last day I made a big decision. / I got up early and bought thirty-seven cards. / I spent the whole day in my room, but I did not write a single card!"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the writer do in Italy last summer?",
+   "zh": "去年夏天作者在意大利做了些什么？",
+   "a": "He visited museums and sat in public gardens. A friendly waiter taught him a few words of Italian and lent him a book.",
+   "aZh": "他参观了博物馆，还到公园里坐坐；一位友好的服务员教了他几句意大利语，并借给他一本书。",
+   "hint": "见课文第 3、4 句：I visited museums and sat in public gardens. 与 A friendly waiter taught me a few words of Italian. Then he lent me a book."
+  },
+  {
+   "kind": "detail",
+   "q": "In the sentence Then he lent me a book, which is the direct object and which is the indirect object?",
+   "zh": "Then he lent me a book 一句里，lend 的直接宾语和间接宾语分别是什么？",
+   "a": "The indirect object is me and the direct object is a book. Lend takes two objects, just like send and buy.",
+   "aZh": "me 是间接宾语（人），a book 是直接宾语（物）；lend 与 send、buy 一样可带双宾语。",
+   "hint": "见课文第 4 句后半部分，讲义语法部分也列举了 give、show、send、lend、teach 等可带双宾语的动词。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does not a single card tell us about that last day?",
+   "zh": "not a single card 这个说法说明了什么？",
+   "a": "Not a single card is a much stronger negative than not a card: he bought thirty-seven cards and stayed in his room all day, yet he wrote none of them.",
+   "aZh": "not a single card 比朴素的 not a card 语气更强：他买了三十七张，整天待在房间里，却一张也没写出来。",
+   "hint": "见课文最后一句 I spent the whole day in my room, but I did not write a single card!"
+  },
+  {
+   "kind": "think",
+   "q": "The writer thought about postcards every day, so why did he write none of them? And what does the first line really mean?",
+   "zh": "作者天天惦记着明信片，为什么最后一张也没写成？开篇那句“明信片总搅得我假日不得安宁”究竟是什么意思？",
+   "a": "The postcards became a worry hanging over the whole holiday: he thought about them every day, then made a big decision, bought thirty-seven cards and shut himself in his room for the whole day, but he had left everything to the last day and managed to write not a single one.",
+   "aZh": "明信片成了压在整个假期上的心事：他天天想着，最后还作出决定、一口气买回三十七张并闭门一整天，却因为把事情全拖到最后一天而一张也没写成。所谓 spoil my holidays，正是说写寄明信片这件心事破坏了度假的乐趣。",
+   "hint": "把第 1 句的总起与第 6 至 10 句连起来体会：第 6 句 Every day I thought about postcards。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：请把一张明信片寄给我。",
+   "a": "Please send me a card.",
+   "note": "send sb. sth. = send sth. to sb."
+  },
+  {
+   "q": "句型转换：把间接宾语移到句末改写句子。A friendly waiter taught me a few words of Italian.",
+   "a": "A friendly waiter taught a few words of Italian to me.",
+   "note": "直宾提前时，人前须加 to。"
+  },
+  {
+   "q": "汉译英：到了最后一天，我作出了一项重大决定。",
+   "a": "On the last day I made a big decision.",
+   "note": "make a decision 是固定搭配。"
+  },
+  {
+   "q": "填空：I ______ a book from the waiter, and he ______ it to me last summer.",
+   "a": "borrowed; lent",
+   "note": "borrow from 借入，lend to 借出。"
+  },
+  {
+   "q": "改错：He taught me a few words of Italian friendly.",
+   "a": "He taught me a few words of Italian in a friendly way.",
+   "note": "friendly 是形容词，不能作副词。"
+  },
+  {
+   "q": "填空：Last summer I ______ (go) to Italy and ______ (visit) museums every day.",
+   "a": "went; visited",
+   "note": "last summer 明确指过去，只配一般过去时。"
+  },
+  {
+   "q": "汉译英：我在房间里待了整整一天，可连一张明信片也没写成。",
+   "a": "I spent the whole day in my room, but I did not write a single card!",
+   "note": "spend 表度过，whole 强调整整。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文原句 I visited museums and sat in public gardens 中的 public gardens 指什么？",
+   "options": [
+    "The waiter's private garden",
+    "Parks open to everyone",
+    "A quiet museum in Italy",
+    "The garden behind the hotel"
+   ],
+   "answer": 1,
+   "note": "public 意为公共的、公众的，反义词是 private；public gardens 即人人可进的公园。"
+  },
+  {
+   "q": "下列哪一句正确地表达了“之后他把一本书借给了我”？",
+   "options": [
+    "Then he borrowed me a book.",
+    "Then he lent me a book.",
+    "Then he borrowed a book to me.",
+    "Then he lent a book for me."
+   ],
+   "answer": 1,
+   "note": "lend 表借出，可带双宾语 lend sb. sth.；borrow 表借入，须用 borrow sth. from sb."
+  },
+  {
+   "q": "要表达“去年夏天我去了意大利”，下列哪一句时态正确？",
+   "options": [
+    "Last summer I have gone to Italy.",
+    "Last summer I went to Italy.",
+    "Last summer I go to Italy.",
+    "Last summer I am going to Italy."
+   ],
+   "answer": 1,
+   "note": "last summer 是明确指过去的时间状语，只与一般过去时连用。"
+  },
+  {
+   "q": "friendly 是形容词，那么“他亲切地教我意大利语”正确的英文是？",
+   "options": [
+    "He taught me Italian friendly.",
+    "He taught me Italian in a friendly way.",
+    "He taught me Italian friendlyly.",
+    "He taught friendly me Italian."
+   ],
+   "answer": 1,
+   "note": "以 -ly 结尾的词未必是副词；friendly 只能作形容词，修饰动作要用 in a friendly way。"
+  },
+  {
+   "q": "课文中用来强调整天关在房间却一张也没写成的句子是？",
+   "options": [
+    "I did not write cards.",
+    "I wrote only one card.",
+    "I did not write a single card!",
+    "I never write cards."
+   ],
+   "answer": 2,
+   "note": "not a single 表示“连一个也不”，比简单的 not a 否定语气更强。"
+  },
+  {
+   "q": "“我在房间里度过了整整一天”最贴切的英文是？",
+   "options": [
+    "I cost the whole day in my room.",
+    "I spent the whole day in my room.",
+    "I took all the day in my room.",
+    "I used the whole day in my room."
+   ],
+   "answer": 1,
+   "note": "spend 与时间段连用时表示度过；whole 表示整整的。"
+  }
+ ]
+}

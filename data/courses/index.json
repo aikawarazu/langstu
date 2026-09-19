@@ -7,7 +7,7 @@
  "homepage": "https://github.com/aikawarazu/langstu",
  "license": "教材内容版权归原作者，仅作个人学习用途",
  "version": "1.0.0",
- "updatedAt": "2026-09-09",
+ "updatedAt": "2026-09-20",
  "albums": [
   {
    "id": "nce1",
@@ -44,8 +44,8 @@
    "version": "1.0.0",
    "url": "nce2.json",
    "bytes": {
-    "pkg": 72406,
-    "content": 709243,
+    "pkg": 72240,
+    "content": 1467001,
     "audio": 54006299
    }
   },
@@ -64,8 +64,8 @@
    "version": "1.0.0",
    "url": "nce3.json",
    "bytes": {
-    "pkg": 43820,
-    "content": 554566,
+    "pkg": 43760,
+    "content": 942237,
     "audio": 67094444
    }
   },
@@ -84,8 +84,8 @@
    "version": "1.0.0",
    "url": "nce4.json",
    "bytes": {
-    "pkg": 19855,
-    "content": 543041,
+    "pkg": 19816,
+    "content": 771570,
     "audio": 57529641
    }
   }

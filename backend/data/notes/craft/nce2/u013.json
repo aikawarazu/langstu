@@ -1,0 +1,164 @@
+{
+ "unitId": "u013",
+ "title": "The Greenwood Boys",
+ "subtitle": "绿林少年",
+ "lead": {
+  "question": "“绿林少年”明晚在哪里演出？为什么警察的日子将不好过？",
+  "warmup": "一支流行乐团巡演到小镇，会带来怎样的热闹？本课里，“绿林少年”是一个流行歌曲演唱团，目前正在全国各地巡回演出，明天将乘火车抵达，镇上的青年要到车站迎接。明晚他们在工人俱乐部演出，逗留五天，演出五场。每到这种场合，警察都得设法维持秩序。朗读时留意通篇的将来进行时。",
+  "goals": [
+   "掌握 group、pop singer、club、performance、occasion 等生词的音形义与基本搭配",
+   "掌握 at present、all parts of the country、during this time、as usual、keep order 等短语用法",
+   "掌握将来进行时 will be doing 的构成与用法，并能区分它与一般将来时的语气差别",
+   "能用将来进行时连贯复述一次巡演行程"
+  ],
+  "summary": "课文按时间顺序预告巡演行程：“绿林少年”明天乘火车抵达，大批青年到站迎接；明晚在工人俱乐部首演，停留五天、演出五场。结尾落到治安：警察照例难熬，得设法维持秩序，每逢这种场合都一样。语言上，全文用将来进行时 will be doing 叙述已安排好的事，语气比单纯的 will 委婉；give performances、as usual、keep order 是核心搭配。",
+  "tips": "将来进行时的公式是 will be + 现在分词，be 不能丢、后面动词必须用 -ing；occasion 前用介词 on，不要写成 in these occasions。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why will the police have a difficult time?",
+   "zh": "为什么警察的日子将不好过？",
+   "a": "Because the Greenwood Boys will stay five days and give five performances, and crowds of excited young people will welcome them; keeping order is always hard on such occasions. As usual, the police will be trying to keep order.",
+   "aZh": "因为“绿林少年”将逗留五天、演出五场，大批热情的青年会来迎接，每逢这种场合维持秩序都很难，所以警察照例难熬，将设法维持秩序。",
+   "hint": "答案出自倒数第二段 As usual, the police will have a difficult time. They will be trying to keep order。"
+  },
+  {
+   "kind": "detail",
+   "q": "How will the Greenwood Boys arrive, and who will meet them?",
+   "zh": "“绿林少年”将怎样抵达？谁会去迎接他们？",
+   "a": "They will be arriving here tomorrow and coming by train. Most of the young people in the town will be meeting them at the station.",
+   "aZh": "他们明天到达此地，乘火车前来；镇上的大部分青年将到车站迎接他们。",
+   "hint": "见课文第 2、3 句 They will be arriving here tomorrow 与 They will be coming by train … meeting them at the station。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where will they sing tomorrow evening, and how long will they stay?",
+   "zh": "明晚他们将在哪里演出？要逗留多久？",
+   "a": "They will be singing at the Workers' Club tomorrow evening, and they will be staying for five days.",
+   "aZh": "明晚他们将在工人俱乐部演出，并将在此逗留五天。",
+   "hint": "见 Tomorrow evening they will be singing at the Workers' Club 与 The Greenwood Boys will be staying for five days。"
+  },
+  {
+   "kind": "detail",
+   "q": "How many performances will they give, and when?",
+   "zh": "他们要演出几场？在什么时间？",
+   "a": "They will give five performances during this time, that is, during the five days they are staying here.",
+   "aZh": "他们在此期间将演出五场，也就是在逗留此地的这五天里。",
+   "hint": "见 During this time, they will give five performances，during this time 回指上文 five days。"
+  },
+  {
+   "kind": "think",
+   "q": "The writer says 'will be arriving', 'will be coming', 'will be singing'. Why not simply 'will arrive', 'will come', 'will sing'?",
+   "zh": "课文说 will be arriving、will be coming、will be singing，为什么不写成 will arrive、will come、will sing？",
+   "a": "The future progressive describes actions already arranged and emphasizes watching them happen as a process, and it sounds more polite and less imposing than will, which often carries intention, promise or decision. Here the tour is fixed in advance, so 'will be arriving' states the plan as a plain future fact.",
+   "aZh": "将来进行时用来叙述事先安排好的事，强调动作在将来某时进行的过程，语气委婉客气；而一般将来时的 will 常带有意愿、决心、许诺等主观色彩。这次巡演行程早已排定，所以用 will be arriving 只是客观陈述将来的安排。",
+   "hint": "对照本课语法讲解：will 常含蓄意之义，will be doing 只表示单纯的将来。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：“绿林少年”是一个流行歌曲演唱团。",
+   "a": "The Greenwood Boys are a group of pop singers.",
+   "note": "a group of 后接复数名词。"
+  },
+  {
+   "q": "汉译英：在此期间，他们将演出五场。",
+   "a": "During this time, they will give five performances.",
+   "note": "演出用 give performances。"
+  },
+  {
+   "q": "填空（每空一词）：As usual, the police will ______ a difficult time. They will be trying to ______ ______.",
+   "a": "have; keep order",
+   "note": "as usual 照例，try to do 设法。"
+  },
+  {
+   "q": "句型转换：改成将来进行时 They will arrive here tomorrow.",
+   "a": "They will be arriving here tomorrow.",
+   "note": "公式：will be + doing。"
+  },
+  {
+   "q": "句型转换：就划线部分提问 They will be staying for five days.（for five days）",
+   "a": "How long will they be staying?",
+   "note": "时间段用 How long 提问。"
+  },
+  {
+   "q": "改错：They will be sing at the Workers' Club tomorrow evening.",
+   "a": "They will be singing at the Workers' Club tomorrow evening.",
+   "note": "be 后须用现在分词。"
+  },
+  {
+   "q": "填空（每空一词）：It is always the same ______ these ______.",
+   "a": "on; occasions",
+   "note": "occasion 前的介词用 on。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“The Greenwood Boys are a group of pop singers.”句中 pop 一词的来源是？",
+   "options": [
+    "popular",
+    "population",
+    "poplar",
+    "popularly"
+   ],
+   "answer": 0,
+   "note": "pop 是 popular 的缩写，意为“通俗的、流行的”。"
+  },
+  {
+   "q": "“在此期间，他们将演出五场。”下列哪句翻译正确？",
+   "options": [
+    "During this time, they will give five performances.",
+    "During this time, they will give five performance.",
+    "During this time, they will make five performances.",
+    "During this time, they will five performances."
+   ],
+   "answer": 0,
+   "note": "performance 复数加 -s，动词用 give。"
+  },
+  {
+   "q": "“明晚他们将在工人俱乐部演出。”Workers' Club 的所有格写法说明 Workers' 是？",
+   "options": [
+    "a plural noun ending in -s, so only an apostrophe is added",
+    "a singular noun, so -'s is added",
+    "a noun without possessive meaning",
+    "a plural noun needing -s's"
+   ],
+   "answer": 0,
+   "note": "以 -s 结尾的规则复数只加省字号。"
+  },
+  {
+   "q": "“他们将设法维持秩序。”下列哪句表达正确？",
+   "options": [
+    "They will be trying to keep order.",
+    "They will be trying keeping order.",
+    "They will trying to keep order.",
+    "They will be tried to keep order."
+   ],
+   "answer": 0,
+   "note": "try to do sth.；order 此处指“治安、秩序”。"
+  },
+  {
+   "q": "“到明天这个时候，我将正躺在海滩上。”表达将来某时正在进行的动作，应选？",
+   "options": [
+    "By this time tomorrow, I'll be lying on the beach.",
+    "By this time tomorrow, I'll lie on the beach.",
+    "By this time tomorrow, I lie on the beach.",
+    "By this time tomorrow, I'll have lain on the beach."
+   ],
+   "answer": 0,
+   "note": "教材例句，用将来进行时表安排好的事。"
+  },
+  {
+   "q": "“每逢这种场合，情况都是这样。”画线短语的正确英语表达是？",
+   "options": [
+    "on these occasions",
+    "in these occasions",
+    "at these occasions",
+    "for these occasions"
+   ],
+   "answer": 0,
+   "note": "occasion 与介词 on 连用。"
+  }
+ ]
+}

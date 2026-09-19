@@ -1,0 +1,237 @@
+{
+ "unitId": "u059",
+ "title": "In or out?",
+ "subtitle": "进来还是出去？",
+ "text": [
+  {
+   "lesson": 59,
+   "title": "In or out?",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Our dog, Rex, used to sit outside our front gate and bark.",
+     "zh": "我们的狗雷克斯过去常常坐在前门外汪汪叫。"
+    },
+    {
+     "en": "Every time he wanted to come into the garden he would bark until someone opened the gate.",
+     "zh": "每当他想进花园时，他就会一直叫，直到有人把门打开。"
+    },
+    {
+     "en": "As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.",
+     "zh": "由于邻居们抱怨噪音，我丈夫花了几周时间训练他用爪子按门闩，好让自己进来。"
+    },
+    {
+     "en": "Rex soon became an expert at opening the gate.",
+     "zh": "雷克斯很快就成了开门的能手。"
+    },
+    {
+     "en": "These days he even picks up the newspaper in his mouth and presses the doorbell with his paw.",
+     "zh": "如今他甚至会用嘴叼起报纸，用爪子按门铃。"
+    },
+    {
+     "en": "He has also learned to put his head out of the window and bark at passers-by.",
+     "zh": "他还学会了把头伸出窗外，对着路人叫。"
+    },
+    {
+     "en": "However, when I was going out shopping last week, I noticed him in the garden near the gate.",
+     "zh": "然而，上星期我正要出去买东西时，我发现他在花园里、门边。"
+    },
+    {
+     "en": "This time he was barking so that someone would let him out!",
+     "zh": "这一次他叫，是为了让人把他放出去！"
+    },
+    {
+     "en": "Since then, he has developed another bad habit.",
+     "zh": "从那以后，他养成了另一个坏习惯。"
+    },
+    {
+     "en": "As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.",
+     "zh": "他一从外面把门打开，就走进花园，等着门关上。"
+    },
+    {
+     "en": "Then he sits and barks until someone lets him out.",
+     "zh": "然后他坐着叫，直到有人把他放出去。"
+    },
+    {
+     "en": "After this he immediately lets himself in and begins barking again.",
+     "zh": "之后他立刻让自己进来，又开始叫起来。"
+    },
+    {
+     "en": "Worse still, he has started letting our neighbour's dog in through the gate.",
+     "zh": "更糟的是，他开始把邻居家的狗从门放进来。"
+    },
+    {
+     "en": "The two dogs ran all over the garden and made a terrible mess.",
+     "zh": "两只狗在花园里到处乱跑，弄得一团糟。"
+    },
+    {
+     "en": "So my neighbour came to complain of the damage again.",
+     "zh": "于是邻居又来抱怨造成的损失。"
+    },
+    {
+     "en": "Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+     "zh": "昨天我丈夫把门拆了，雷克斯气坏了，从此我们再没见过他。"
+    }
+   ]
+  }
+ ],
+ "lead": {
+  "question": "雷克斯为什么总在门外叫？丈夫想出了什么办法？结果又如何？",
+  "warmup": "你家的宠物有没有让人哭笑不得的“仪式”？课文里的雷克斯每天坐在门外叫，被放进花园后还要再叫着出去，最后竟把大门当成玩具。读之前先想一想：英语里“过去的习惯”怎么说？used to 和 would 有什么不同？带着这两个问题听课文。",
+  "goals": [
+   "辨清 used to 与 would 表示过去习惯时的用法与区别",
+   "掌握 complain of、press ... on ...、let ... in、remove 等本课重点搭配",
+   "掌握 spend time doing、become an expert at doing 等固定结构",
+   "能复述故事情节，用本课语言点描述动物的习惯与趣事"
+  ],
+  "summary": "课文讲作者家的狗雷克斯因邻居抱怨噪音，被训练用爪子按门闩自己进门，很快成了开门专家；此后他养成进进出出的坏习惯，还把邻居的狗放进来惹出麻烦，最后丈夫拆掉大门，雷克斯气得离家出走。语言上要重点掌握 used to 与 would 表过去习惯。",
+  "tips": "记“过去习惯”就用 used to 搭骨架、would 填动作：状态与今昔对比用 used to，反复发生的动作用 would。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Where did Rex use to sit, and what did he do there?",
+   "zh": "雷克斯过去常坐在哪里？他在那里做什么？",
+   "a": "He used to sit outside our front gate and bark.",
+   "aZh": "他过去常坐在前门外汪汪叫。",
+   "hint": "used to + 动词原形。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the husband train Rex, and how long did it take?",
+   "zh": "丈夫为什么训练雷克斯？花了多长时间？",
+   "a": "Because the neighbours complained of the noise, and he spent weeks training him.",
+   "aZh": "因为邻居抱怨噪音，他花了几周时间训练它。",
+   "hint": "As the neighbours complained of ... 与 spent weeks training ..."
+  },
+  {
+   "kind": "detail",
+   "q": "How did Rex open the gate by himself?",
+   "zh": "雷克斯是怎样自己把门打开的？",
+   "a": "He pressed his paw on the latch.",
+   "aZh": "他用爪子按门闩把门打开。",
+   "hint": "press ... on ... 的搭配。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was Rex barking in the garden when the writer went out shopping last week?",
+   "zh": "上星期作者出门买东西时，雷克斯在花园里为什么叫？",
+   "a": "He was barking so that someone would let him out.",
+   "aZh": "他叫是为了让人把他放出去。",
+   "hint": "so that 引导目的状语从句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did Rex get so annoyed after the gate was removed? What do you think happened to him?",
+   "zh": "门被拆掉后，雷克斯为什么那么生气？",
+   "a": "Because his favourite game of getting in and out was gone; he was so annoyed that he ran away and has not been seen since.",
+   "aZh": "因为他最爱的“进进出出”游戏没了；他气得跑掉了，从此再没出现。",
+   "hint": "so annoyed that ... 的结构。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用 used to 或 would 填空：Our dog, Rex, _____ sit outside our front gate and bark every day.",
+   "a": "used to / would 均可；若强调今昔对比用 used to，只说过去反复的动作用 would。",
+   "note": "两者皆可。"
+  },
+  {
+   "q": "汉译英：邻居们抱怨噪音。",
+   "a": "The neighbours complained of the noise.",
+   "note": "complain of 后接抱怨的内容。"
+  },
+  {
+   "q": "用所给词的适当形式填空：My husband spent weeks _____ (train) Rex to open the gate.",
+   "a": "training",
+   "note": "spend 后接时间加动名词。"
+  },
+  {
+   "q": "填入适当的介词：Rex soon became an expert _____ opening the gate.",
+   "a": "at",
+   "note": "at 为固定介词。"
+  },
+  {
+   "q": "改错：He pressed his paw in the latch to let himself in.",
+   "a": "He pressed his paw on the latch to let himself in.",
+   "note": "press ... on ... 表示按在…上。"
+  },
+  {
+   "q": "汉译英：从那以后，他养成了另一个坏习惯，还把邻居的狗放了进来。",
+   "a": "Since then, he has developed another bad habit and even let the neighbour's dog in.",
+   "note": "let ... in 表示让……进来。"
+  },
+  {
+   "q": "简答：used to 与 would 表示过去习惯时有什么区别？",
+   "a": "used to 既可表过去的习惯也可表过去的状态，常含今昔对比；would 只表过去反复发生的动作，不能表状态。",
+   "note": "would 只表动作。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Rex used to sit ______ our front gate and bark.",
+   "options": [
+    "inside",
+    "outside",
+    "behind",
+    "under"
+   ],
+   "answer": 1,
+   "note": "课文说它总坐在前门外面叫。"
+  },
+  {
+   "q": "The neighbours complained ______ the noise.",
+   "options": [
+    "with",
+    "for",
+    "of",
+    "at"
+   ],
+   "answer": 2,
+   "note": "complain of 表示抱怨某事。"
+  },
+  {
+   "q": "My husband spent weeks ______ him to press his paw on the latch.",
+   "options": [
+    "train",
+    "to train",
+    "training",
+    "trained"
+   ],
+   "answer": 2,
+   "note": "spend time (in) doing sth."
+  },
+  {
+   "q": "Rex soon became an expert ______ opening the gate.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "for"
+   ],
+   "answer": 1,
+   "note": "become an expert at。"
+  },
+  {
+   "q": "This time he was barking so that someone ______ let him out.",
+   "options": [
+    "will",
+    "would",
+    "can",
+    "is"
+   ],
+   "answer": 1,
+   "note": "主句用过去时，从句用 would。"
+  },
+  {
+   "q": "Yesterday my husband ______ the gate and Rex got so annoyed.",
+   "options": [
+    "moved",
+    "removed",
+    "repaired",
+    "painted"
+   ],
+   "answer": 1,
+   "note": "remove 意为拆除、移走。"
+  }
+ ]
+}

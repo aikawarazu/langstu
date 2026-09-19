@@ -1,0 +1,164 @@
+{
+ "unitId": "u014",
+ "title": "Do you speak English?",
+ "subtitle": "你会讲英语吗？",
+ "lead": {
+  "question": "作者在法国南部让一位年轻人搭车，为什么两人一路都没开口说话？",
+  "warmup": "在异国开车，一次招手也许就是一段意外的旅程。去年，作者离开法国南部的一个小村庄继续赶路，途中一位年轻人向他招手要求搭车。作者除了几个单词根本不懂法语，仍用法语问好，对方也用法语作答。于是两人一路沉默，快到镇上时年轻人才慢慢问“你会讲英语吗”。通读时留意 had left、had got into 这样的过去完成时。",
+  "goals": [
+   "掌握 amusing、experience、wave、lift、reply、language、journey 等核心词汇与常见搭配",
+   "熟练运用 wave to sb.、ask sb. for a lift、give sb. a lift、apart from、as soon as、during the journey 等短语",
+   "理解过去完成时的构成与用法，能在 after、as soon as、when 引导的句子中判断“较早的过去”",
+   "区分 neither of、either of、both of，并能复述一次搭车经历"
+  ],
+  "summary": "课文记叙作者在法国南部的一次搭车经历：他离开小村庄继续赶路，一个年轻人招手搭车。一上车他就用法语问好，对方也用法语作答，可他除了几个词根本不懂法语，于是两人一路无言。快到镇上时年轻人才慢慢开口问会不会讲英语——原来他自己就是英国人。全篇用过去完成时交代先发生的动作，并集中出现 wave to、ask for a lift、apart from、neither of us。",
+  "tips": "过去完成时要与一般过去时配对：had left、had got into、had nearly reached 表示更早发生的事，主句用过去式；ask sb. for a lift 是“向某人要求搭车”，与 ask sb. a question“问某人问题”不可混为一谈。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Whom did the writer give a lift to in the south of France last year?",
+   "zh": "去年作者在法国南部让谁搭了便车？",
+   "a": "He gave a lift to a young man who waved to him on the way to the next town. Just as they nearly reached the town, the young man asked slowly, 'Do you speak English?' — for he was English himself.",
+   "aZh": "他让途中向他招手的一位年轻人搭了便车。就在快要到镇上时，那年轻人慢慢开口问：“你会讲英语吗？”——因为他自己就是英国人。",
+   "hint": "见第 3—5 句 a young man waved to me、he asked me for a lift，以及末两句 'Do you speak English?' 与 he was English himself。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the young man stop the writer's car and what did he ask for?",
+   "zh": "年轻人怎样拦住了作者的车？他提出了什么要求？",
+   "a": "He waved to the writer on the way to the next town. The writer stopped and the young man asked him for a lift.",
+   "aZh": "他在途中向作者招手。作者把车停下，年轻人便向他要求搭车。",
+   "hint": "见第 3、4 句 On the way, a young man waved to me 与 I stopped and he asked me for a lift。"
+  },
+  {
+   "kind": "detail",
+   "q": "Put the opening events in the right order: leaving the village, waving, stopping, asking for a lift, getting into the car.",
+   "zh": "按先后顺序排列：离开村庄、招手、停车、要求搭车、上车。",
+   "a": "First he had left a small village in the south of France and drove on to the next town; then a young man waved to him; then he stopped; then the man asked him for a lift; then, as soon as the man had got into the car, he said good morning in French.",
+   "aZh": "他先离开法国南部的一个小村庄驶往下一个城镇；接着一个年轻人向他招手；他把车停下；年轻人要求搭车；那人一上车，他就用法语向他说早上好。",
+   "hint": "见第 2—5 句；had left 与 had got into 用过去完成时，表示先于主句动作发生。"
+  },
+  {
+   "kind": "detail",
+   "q": "In what language did they greet each other, and why did neither of them speak during the journey?",
+   "zh": "他们用什么语言互相打招呼？旅途中为什么谁也没讲话？",
+   "a": "The writer said good morning in French and the young man replied in the same language. Neither of them spoke during the journey because, apart from a few words, the writer did not know any French at all.",
+   "aZh": "作者用法语向他说早上好，年轻人也用同一种语言回答。旅途中两人谁也没讲话，因为除了几个单词，作者根本不懂法语。",
+   "hint": "见第 5—7 句 he replied in the same language、Apart from a few words, I do not know any French at all 与 Neither of us spoke during the journey。"
+  },
+  {
+   "kind": "think",
+   "q": "The joke lies in the last sentence. How do had nearly reached, as soon as and neither of us spoke help the writer save the surprise for the end?",
+   "zh": "笑点在最后一句。had nearly reached、as soon as、neither of us spoke 这三处表达，是怎样把包袱留到最后的？",
+   "a": "The past perfect keeps pushing events back: he had left the village, the man had got into the car, he had nearly reached the town. Between these points both men hid behind French, so neither of them spoke during the journey. Only at the last moment does the young man say slowly, 'Do you speak English?', and 'As I soon learnt, he was English himself!' shows that all that French was unnecessary.",
+   "aZh": "过去完成时把动作一层层推到过去：已离开村庄、已上车、已快到镇上。在这条时间线上，两人一直用法语撑着，所以一路无话。直到最后一刻年轻人才慢慢问“你会讲英语吗”，而“他自己就是英国人”这一句点明：先前那番法语全都白说了。",
+   "hint": "对照本课语法“过去完成时”讲解，留意 after、as soon as、when 引导的从句如何把动作提前。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：去年我有过一次有趣的经历。",
+   "a": "I had an amusing experience last year.",
+   "note": "experience 表经历可数，须加 an。"
+  },
+  {
+   "q": "填空（用所给动词的适当形式）：After I ______ (leave) a small village in the south of France, I ______ (drive) on to the next town.",
+   "a": "had left; drove",
+   "note": "先发生的动作用过去完成时。"
+  },
+  {
+   "q": "汉译英：途中一个年轻人向我招手，我把车停下，他向我要求搭车。",
+   "a": "On the way, a young man waved to me. I stopped and he asked me for a lift.",
+   "note": "wave to sb.；ask sb. for a lift。"
+  },
+  {
+   "q": "句型转换：用 as soon as 合并两句 He got into the car. I said good morning to him in French and he replied in the same language.",
+   "a": "As soon as he had got into the car, I said good morning to him in French and he replied in the same language.",
+   "note": "as soon as 从句用过去完成时。"
+  },
+  {
+   "q": "填空：Apart from a few words, I do not know ______ French at all, so ______ of us spoke during the journey.",
+   "a": "any; neither",
+   "note": "not…any…at all 根本不；neither of 表单数。"
+  },
+  {
+   "q": "改错：After I had left a small village in the south of France, I drove on the next town.",
+   "a": "After I had left a small village in the south of France, I drove on to the next town.",
+   "note": "drive on to + 地点，on 后须加 to。"
+  },
+  {
+   "q": "汉译英：我快要到达那个镇时，那年轻人突然慢慢地说：“你会讲英语吗？”",
+   "a": "I had nearly reached the town, when the young man suddenly said, very slowly, 'Do you speak English?'",
+   "note": "过去完成时表即将到达的临界点。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“去年我有过一次有趣的经历。”下列哪一表达正确？",
+   "options": [
+    "I had an amusing experience last year.",
+    "I had an amused experience last year.",
+    "I had amusing experience last year.",
+    "I had an experience amused last year."
+   ],
+   "answer": 0,
+   "note": "amusing 修饰事，amused 修饰人。"
+  },
+  {
+   "q": "“途中一个年轻人向我招手。”此处“向我招手”应选？",
+   "options": [
+    "waved to me",
+    "waved me",
+    "waved on me",
+    "waved for me"
+   ],
+   "answer": 0,
+   "note": "wave to sb. 向某人招手，须加 to。"
+  },
+  {
+   "q": "“他向我要求搭车。”应译为？",
+   "options": [
+    "He asked me for a lift.",
+    "He asked me a lift.",
+    "He asked for me a lift.",
+    "He asked a lift to me."
+   ],
+   "answer": 0,
+   "note": "ask sb. for sth. 向某人要某物。"
+  },
+  {
+   "q": "“他一上车，我就用法语向他问好。”哪一句时态正确？",
+   "options": [
+    "As soon as he had got into the car, I said good morning to him in French.",
+    "As soon as he got into the car, I had said good morning to him in French.",
+    "As soon as he had got into the car, I had said good morning to him in French.",
+    "As soon as he was getting into the car, I had said good morning to him in French."
+   ],
+   "answer": 0,
+   "note": "先发生用过去完成时，主句用过去式。"
+  },
+  {
+   "q": "“除了几个单词以外，我根本不懂法语。”置于句首时应选？",
+   "options": [
+    "Apart from a few words",
+    "Except a few words",
+    "Beside a few words",
+    "In addition to a few words"
+   ],
+   "answer": 0,
+   "note": "except 不用于句首，句首用 apart from。"
+  },
+  {
+   "q": "“旅途中我们俩谁也没有讲话。”应译为？",
+   "options": [
+    "Neither of us spoke during the journey.",
+    "Neither of us did not speak during the journey.",
+    "Both of us spoke during the journey.",
+    "Either of us spoke during the journey."
+   ],
+   "answer": 0,
+   "note": "neither of 表单数且本身含否定。"
+  }
+ ]
+}

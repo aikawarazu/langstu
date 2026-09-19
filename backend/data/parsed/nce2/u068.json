@@ -1,0 +1,116 @@
+{
+ "unit": "u068",
+ "unitId": "u068",
+ "lessons": [
+  {
+   "lesson": 68,
+   "title": "Persistent",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "I crossed the street to avoid meeting him, but he saw me and came running towards me.",
+     "zh": "我穿过马路以便避开他，但他看到我并朝我跑过来。"
+    },
+    {
+     "en": "It was no use pretending that I had not seen him, so I waved to him.",
+     "zh": "若再装作没看见他已是没有用了，我只好向他招手。"
+    },
+    {
+     "en": "I never enjoy meeting Nigel Dykes .",
+     "zh": "我就怕遇到奈杰尔。"
+    },
+    {
+     "en": "He never has anything to do.",
+     "zh": "戴克斯。"
+    },
+    {
+     "en": "No matter how busy you are, he always insists on coming with you.",
+     "zh": "他从来都是无事可做，不管你多忙，他总是坚持要跟你去。"
+    },
+    {
+     "en": "I had to think of a way of preventing him from following me around all morning.",
+     "zh": "我得想办法不让他整个上午缠着我。"
+    },
+    {
+     "en": "'Hello, Nigel,' I said.",
+     "zh": "“你好，奈杰尔，想不到在这儿见到你。"
+    },
+    {
+     "en": "' Fancy meeting you here!",
+     "zh": "”我说。"
+    },
+    {
+     "en": "'Hi, Elizabeth,' Nigel answered.",
+     "zh": "“你好，伊丽莎白，”奈杰尔回答说，“我正不知道怎么消磨这一上午呢，正好见到你。"
+    },
+    {
+     "en": "'I was just wondering how to spend the morning -- until I saw you.",
+     "zh": "你不忙，是吗？"
+    },
+    {
+     "en": "You're not busy doing anything, are you?",
+     "zh": "”“不，不忙，我打算去。"
+    },
+    {
+     "en": "'No, not at all,' I answered.",
+     "zh": ".....”我回答。"
+    },
+    {
+     "en": "'I'm going to...",
+     "zh": "“我跟你一道去行吗？"
+    },
+    {
+     "en": "'Would you mind my coming with you?",
+     "zh": "”没等我说完话他就问道。"
+    },
+    {
+     "en": "he asked, before I had finished speaking.",
+     "zh": "“没关系，但我准备去牙医那里。"
+    },
+    {
+     "en": "'Not at all,' I lied, 'but I'm going to the dentist.",
+     "zh": "”我说了个谎。"
+    },
+    {
+     "en": "'Then I'll come with you,' he answered.",
+     "zh": "“那我也跟你去，候诊室里总有很多东西可供阅读！"
+    },
+    {
+     "en": "'There's always plenty to read in the waiting room!",
+     "zh": "”他回答。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why did Elizabeth tell Nigel that she was going to the dentist?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "insist",
+   "pos": "v",
+   "zh": "参考译文"
+  }
+ ],
+ "translation": [
+  "我穿过马路以便避开他，但他看到我并朝我跑过来。",
+  "若再装作没看见他已是没有用了，我只好向他招手。",
+  "我就怕遇到奈杰尔。",
+  "戴克斯。",
+  "他从来都是无事可做，不管你多忙，他总是坚持要跟你去。",
+  "我得想办法不让他整个上午缠着我。",
+  "“你好，奈杰尔，想不到在这儿见到你。",
+  "”我说。",
+  "“你好，伊丽莎白，”奈杰尔回答说，“我正不知道怎么消磨这一上午呢，正好见到你。",
+  "你不忙，是吗？",
+  "”“不，不忙，我打算去。",
+  ".....”我回答。",
+  "“我跟你一道去行吗？",
+  "”没等我说完话他就问道。",
+  "“没关系，但我准备去牙医那里。",
+  "”我说了个谎。",
+  "“那我也跟你去，候诊室里总有很多东西可供阅读！",
+  "”他回答。"
+ ]
+}

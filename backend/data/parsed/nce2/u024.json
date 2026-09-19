@@ -1,0 +1,86 @@
+{
+ "unit": "u024",
+ "unitId": "u024",
+ "lessons": [
+  {
+   "lesson": 24,
+   "title": "It could be worse",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "I entered the hotel manager's office and sat down.",
+     "zh": "我走进饭店经理的办公室，坐了下来。"
+    },
+    {
+     "en": "I had just lost $50 and I felt very upset.",
+     "zh": "我刚刚丢了50英镑，感到非常烦恼。"
+    },
+    {
+     "en": "'I left the money in my room,' I said, 'and it's not there now.",
+     "zh": "“我把钱放在房间里，”我说，“可现在没有了。"
+    },
+    {
+     "en": "The manager was sympathetic , but he could do nothing.",
+     "zh": "”经理深表同情，但却无能为力。"
+    },
+    {
+     "en": "'Everyone's losing money these days,' he said.",
+     "zh": "“现在大家都在丢钱，”他说。"
+    },
+    {
+     "en": "He started to complain about this wicked world but was interrupted by a knock at the door.",
+     "zh": "他开始抱怨起这个邪恶的世道来，却被一阵敲门声打断了。"
+    },
+    {
+     "en": "A girl came in and put an envelope on his desk.",
+     "zh": "一个姑娘走了进来，把一个信封放在了他桌上。"
+    },
+    {
+     "en": "It contained $50.",
+     "zh": "它里面装着50英镑。"
+    },
+    {
+     "en": "'I found this outside this gentleman's room,' she said.",
+     "zh": "“这是我在这位先生的房门外捡到的，”她说。"
+    },
+    {
+     "en": "'Well,' I said to the manager, 'there is still some honesty in this world!'",
+     "zh": "“是啊，”我对那位经理说，“这世界上还是有诚实可言的！”"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Had the writer's money been stolen?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "manager",
+   "pos": "n",
+   "zh": "boss：有钱"
+  },
+  {
+   "word": "upset",
+   "pos": "adj",
+   "zh": "★sympathetic　adj. 表示同情的"
+  },
+  {
+   "word": "contain",
+   "pos": "v",
+   "zh": "container：集装箱"
+  }
+ ],
+ "translation": [
+  "我走进饭店经理的办公室，坐了下来。",
+  "我刚刚丢了50英镑，感到非常烦恼。",
+  "“我把钱放在房间里，”我说，“可现在没有了。",
+  "”经理深表同情，但却无能为力。",
+  "“现在大家都在丢钱，”他说。",
+  "他开始抱怨起这个邪恶的世道来，却被一阵敲门声打断了。",
+  "一个姑娘走了进来，把一个信封放在了他桌上。",
+  "它里面装着50英镑。",
+  "“这是我在这位先生的房门外捡到的，”她说。",
+  "“是啊，”我对那位经理说，“这世界上还是有诚实可言的！”"
+ ]
+}

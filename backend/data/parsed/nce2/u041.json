@@ -1,0 +1,86 @@
+{
+ "unit": "u041",
+ "unitId": "u041",
+ "lessons": [
+  {
+   "lesson": 41,
+   "title": "Do you call that a hat?",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "'Do you call that a hat?",
+     "zh": "“你把那个叫帽子吗？"
+    },
+    {
+     "en": "I said to my wife.",
+     "zh": "”我对妻子说。"
+    },
+    {
+     "en": "'You needn't be so rude about it,' my wife answered as she looked at herself in the mirror.",
+     "zh": "“你说话没必要这样不客气，”我的妻子边回答边照着镜子。"
+    },
+    {
+     "en": "I sat down on one of those modern chairs with holes in it and waited.",
+     "zh": "我坐在一个新式的满是网眼儿的椅子上，等待着。"
+    },
+    {
+     "en": "We had been in the hat shop for half an hour and my wife was still in front of the mirror.",
+     "zh": "我们在这家帽店已经呆了半个小时了，而我的妻子仍在镜子面前。"
+    },
+    {
+     "en": "'We mustn't buy things we don't need,' I remarked suddenly. I regretted saying it almost at once.",
+     "zh": "“我们不应该买我们不需要的东西，”我突然发表意见说，但马上又后悔说了这话。"
+    },
+    {
+     "en": "'You needn't have said that,' my wife answered. 'I needn't remind you of that terrible tie you bought yesterday.",
+     "zh": "“你没必要这么说，”我妻子回答说，“我也不必提醒你昨天买的那条糟糕透了的领带。"
+    },
+    {
+     "en": "'I find it beautiful,' I said.",
+     "zh": "”“我觉得它好看，”我说，“男人有多少领带也不会嫌多。"
+    },
+    {
+     "en": "'A man can never have too many ties.",
+     "zh": "”“女人有多少帽子也不嫌多。"
+    },
+    {
+     "en": "'And a woman can't have too many hats,' she answered.",
+     "zh": "”她回答。"
+    },
+    {
+     "en": "Ten minutes later we walked out of the shop together.",
+     "zh": "10分钟以后，我们一道走出了商店。"
+    },
+    {
+     "en": "My wife was wearing a hat that looked like a lighthouse!",
+     "zh": "我妻子戴着一顶像灯塔一样的帽子。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What kind of shopping does the writer enjoy, do you think?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "lighthouse",
+   "pos": "n",
+   "zh": "【课文讲解】"
+  }
+ ],
+ "translation": [
+  "“你把那个叫帽子吗？",
+  "”我对妻子说。",
+  "“你说话没必要这样不客气，”我的妻子边回答边照着镜子。",
+  "我坐在一个新式的满是网眼儿的椅子上，等待着。",
+  "我们在这家帽店已经呆了半个小时了，而我的妻子仍在镜子面前。",
+  "“我们不应该买我们不需要的东西，”我突然发表意见说，但马上又后悔说了这话。",
+  "“你没必要这么说，”我妻子回答说，“我也不必提醒你昨天买的那条糟糕透了的领带。",
+  "”“我觉得它好看，”我说，“男人有多少领带也不会嫌多。",
+  "”“女人有多少帽子也不嫌多。",
+  "”她回答。",
+  "10分钟以后，我们一道走出了商店。",
+  "我妻子戴着一顶像灯塔一样的帽子。"
+ ]
+}

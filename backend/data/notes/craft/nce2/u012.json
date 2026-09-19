@@ -1,0 +1,164 @@
+{
+ "unitId": "u012",
+ "title": "Goodbye and good luck",
+ "subtitle": "再见，一路顺风",
+ "lead": {
+  "question": "明天启航的邻居船长要去做什么？我们为何为他自豪、又要告别多久？",
+  "warmup": "远航往往牵动惜别与敬意。本课里，邻居艾利森船长明天要从朴次茅斯启航，作者一家清早赶到码头送行。他的小艇「涛波赛」虽小却有名，已多次横渡大西洋，这次将参加一场重大的横渡大西洋比赛。标题 Goodbye and good luck 正是送别的祝福。通读时请留意几乎清一色的 will / shall。",
+  "goals": [
+   "掌握 luck、captain、sail、harbour、proud、important 等核心词汇的音形义与基本搭配",
+   "熟练运用 be proud of、take part in、set out、say goodbye to、plenty of 等本课短语",
+   "掌握一般将来时 will / shall 的肯定式、否定式与疑问句，并区分 will 与 shall 的人称用法",
+   "能读懂并复述课文，用将来时连贯讲述一次送别安排与远航计划"
+  ],
+  "summary": "课文围绕一次送别展开：船长明天从朴次茅斯启航，作者清晨去码头相见，先参观小艇再告别，他将离家两个月，参加横渡大西洋的重大比赛。全文用一般将来时预言将来安排，第一人称可用 shall；陈述此刻的事实与情感时才回到现在时——涛波赛号很有名、我们为他自豪。另有 set out 出发、plenty of 充裕、be away 表状态。",
+  "tips": "will / shall 之后必须跟动词原形，表示“离开两个月”要说 will be away for two months，切勿写成 will away；be proud of、take part in 的介词固定，不要随意替换。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What is Captain Alison going to do tomorrow?",
+   "zh": "艾利森船长明天要做什么？",
+   "a": "He will sail from Portsmouth tomorrow. He will take part in an important race across the Atlantic, and he will be away for two months.",
+   "aZh": "他明天要从朴次茅斯启航，去参加一次重大的横渡大西洋比赛，并将离开两个月。",
+   "hint": "首句 Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow 点明去向，末两句补充比赛与时长。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where and when will the writer meet Captain Alison tomorrow?",
+   "zh": "作者明天将在何时何地见到艾利森船长？",
+   "a": "They will meet him at the harbour early in the morning.",
+   "aZh": "明天一大早他们将在码头和他见面。",
+   "hint": "见课文第 2 句 We will meet him at the harbour early in the morning。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why shall they have plenty of time?",
+   "zh": "为什么他们会有充裕的时间？",
+   "a": "Because Captain Alison will set out at eight o'clock, and they will get to the harbour early in the morning.",
+   "aZh": "因为艾利森船长 8 点钟才启航，而他们一大早就到了码头。",
+   "hint": "见 Captain Alison will set out at eight o'clock, so we shall have plenty of time，so 表结果。"
+  },
+  {
+   "kind": "detail",
+   "q": "How long will Captain Alison be away, and why are they proud of him?",
+   "zh": "艾利森船长要离开多久？他们为什么为他感到自豪？",
+   "a": "He will be away for two months, and they are proud of him because he will take part in an important race across the Atlantic.",
+   "aZh": "他要离开两个月，他们为他自豪，因为他将参加一次重大的横渡大西洋的比赛。",
+   "hint": "见课文最后几句 He will be away for two months 与 He will take part in an important race。"
+  },
+  {
+   "kind": "think",
+   "q": "The future tense runs through almost the whole text. Where does the writer switch back to the present tense, and why?",
+   "zh": "课文几乎通篇使用将来时，哪些句子却回到一般现在时？作者为什么这样切换？",
+   "a": "Future forms predict what is arranged to happen: sailing tomorrow, being away for two months, taking part in the race. The present tense is kept for facts and feelings true now: 'Topsail is a famous little boat', 'It has sailed across the Atlantic many times' and 'We are very proud of him'.",
+   "aZh": "将来时用来预言明天启航、离开两个月、参加比赛这些已安排好的事；只有陈述此刻的事实与感受时才用现在时，如“涛波赛号是有名的小艇”“它已经多次横渡大西洋”“我们真为他感到自豪”。",
+   "hint": "对照本课语法关于一般将来时的讲解，逐句比较 will / shall 句与 is、has sailed、are proud of 三处现在时。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我们的邻居查尔斯·艾利森船长明天就要从朴次茅斯启航了。",
+   "a": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.",
+   "note": "头衔与人名作 neighbour 的同位语。"
+  },
+  {
+   "q": "汉译英：明天一大早我们将在码头和他见面。",
+   "a": "We will meet him at the harbour early in the morning.",
+   "note": "地点用 at，early 强调清晨。"
+  },
+  {
+   "q": "汉译英：我们将参观他的船，然后和他告别。",
+   "a": "We shall see his boat and then we shall say goodbye to him.",
+   "note": "say goodbye to sb. 向某人告别。"
+  },
+  {
+   "q": "汉译英：我们真为他感到自豪，他将参加一次重大的横渡大西洋的比赛。",
+   "a": "We are very proud of him. He will take part in an important race across the Atlantic.",
+   "note": "be proud of 与 take part in 均为固定搭配。"
+  },
+  {
+   "q": "改错：He will away for two months.",
+   "a": "He will be away for two months.",
+   "note": "will 后须接原形 be。"
+  },
+  {
+   "q": "填空：Captain Alison will ______ ______ at eight o'clock, so we shall have plenty ______ time.",
+   "a": "set out; of",
+   "note": "set out 出发；plenty of 后接名词。"
+  },
+  {
+   "q": "句型转换：就划线部分提问 He will be away for two months.（for two months）",
+   "a": "How long will he be away?",
+   "note": "对 for 引导的时间段用 How long。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“明天一大早我们将在码头和他见面。”句中“一大早”的正确英语表达是？",
+   "options": [
+    "early in the morning",
+    "early at the morning",
+    "at the morning early",
+    "early on morning"
+   ],
+   "answer": 0,
+   "note": "教材说法：early in the morning。"
+  },
+  {
+   "q": "“艾利森船长将于 8 点钟启航。”表示“出发、动身”的短语是？",
+   "options": [
+    "set up",
+    "set out",
+    "be away",
+    "take part in"
+   ],
+   "answer": 1,
+   "note": "set out 出发；set up 建立。"
+  },
+  {
+   "q": "“它已经多次横渡大西洋。”表示“横渡”的介词应选？",
+   "options": [
+    "across",
+    "through",
+    "along",
+    "over"
+   ],
+   "answer": 0,
+   "note": "across 指横切、横渡。"
+  },
+  {
+   "q": "“我们真为他感到自豪。”下列哪一表达正确？",
+   "options": [
+    "We are proud of him.",
+    "We are proud for him.",
+    "We are pride of him.",
+    "We are proud with him."
+   ],
+   "answer": 0,
+   "note": "be proud of sb.，pride 是名词。"
+  },
+  {
+   "q": "“涛波赛号是艘有名的小艇。”强调船小而亲切，应选？",
+   "options": [
+    "Topsail is a famous little boat.",
+    "Topsail is a little famous boat.",
+    "Topsail is famous little boat.",
+    "Topsail is a boat little famous."
+   ],
+   "answer": 0,
+   "note": "little 含喜爱色彩，词序不可颠倒。"
+  },
+  {
+   "q": "Our neighbour, Captain Charles Alison 中 Captain Charles Alison 的作用是？",
+   "options": [
+    "an appositive to 'our neighbour'",
+    "the object of 'will sail'",
+    "the subject of the sentence",
+    "an adverbial of tomorrow"
+   ],
+   "answer": 0,
+   "note": "头衔加人名，作 our neighbour 的同位语。"
+  }
+ ]
+}

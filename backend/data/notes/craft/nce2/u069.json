@@ -1,0 +1,164 @@
+{
+ "unitId": "u069",
+ "title": "But not murder!",
+ "subtitle": "并非谋杀！",
+ "lead": {
+  "question": "最后一次路考中，“我”到底有没有通过？主考人为何说他压死了小孩？",
+  "warmup": "第三次路考，前半段出奇顺利：作者在拥挤车流中平稳驾驶，又被指令把车开出城，于是信心渐生，几乎开始享受这场考试。主考人微笑着说“只剩一项了”，让他设想一个孩子突然横穿马路，敲窗后必须在5英尺内停住。故事到此还是喜剧，结局却急转直下。",
+  "goals": [
+   "掌握 murder、instruct、acquire、confidence、examiner、suppose、tap、react、brake、pedal、mournful 等核心词",
+   "掌握被动语态的过去进行时 was being tested 与 after having been instructed",
+   "会用 must have been pleased with、in a mournful voice、let sb do 等表达",
+   "能复述这次路考全过程，并讲清标题 “But not murder!” 的幽默所在"
+  ],
+  "summary": "本课复习被动语态的进阶用法：过去进行时被动 was being tested、介词+动名词的被动完成式 after having been instructed、情态推测 must have been pleased with。情节上，作者信心最足的一刻正是翻车的一刻：反应慢半拍，刹车时车早已冲过5英尺。幽默全在标题双关。",
+  "tips": "写 after having been instructed 时别漏掉 having；口语里换成从句 After I had been instructed 更自然。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Do you think that the writer passed his driving test? Why?",
+   "zh": "你认为作者通过这次驾驶考试了吗？为什么？",
+   "a": "No, he didn't. He reacted too slowly to the examiner's tap and stopped far beyond five feet, so the examiner said in a mournful voice that he had just killed that child.",
+   "aZh": "没有通过。他反应太慢，刹车时车早已冲出5英尺，主考人悲伤地说他刚把那个小孩压死了。",
+   "hint": "见 Though the sound could be heard clearly, it took me a long time to react. 及末句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the writer begin to acquire confidence during the test?",
+   "zh": "考试途中作者为什么开始有了信心？",
+   "a": "Because he had been asked to drive in heavy traffic and had done so successfully, and after having been instructed to drive out of town he felt sure that he had passed.",
+   "aZh": "因为按要求在拥挤车流中驾驶他完成得很圆满，又被指令把车开出城后，他确信自己已经通过。",
+   "hint": "见 I had been asked to drive in heavy traffic and had done so successfully。"
+  },
+  {
+   "kind": "detail",
+   "q": "What exactly did the examiner ask the writer to do in the last part of the test?",
+   "zh": "主考人在最后一项中要求作者做什么？",
+   "a": "He asked him to suppose that a child suddenly crosses the road and to stop within five feet as soon as he tapped on the window.",
+   "aZh": "他让作者假设一个小孩突然横穿马路，并在他一敲车窗时把车停在5英尺之内。",
+   "hint": "见 Let us suppose that a child suddenly crosses the road in front of you。"
+  },
+  {
+   "kind": "detail",
+   "q": "Was there a real child on the road? Why did the examiner say 'you have just killed that child'?",
+   "zh": "路上真有小孩吗？主考人为什么那样说？",
+   "a": "No, there was no real child; it was only a supposition. The examiner said it because the writer took so long to react that he would have knocked the child down long before stopping.",
+   "aZh": "没有真的小孩，那只是假设。因为作者反应太慢、停车远超5英尺，换作真有孩子早就被撞倒了。",
+   "hint": "见 Let us suppose… 与 we were both thrown forward。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is the lesson called 'But not murder!'? Where does the humour lie?",
+   "zh": "课文为什么取名“并非谋杀！”？幽默在哪里？",
+   "a": "The title plays on the word murder: failing a test is not murder, yet the examiner's mournful verdict 'you have just killed that child' treats the mistake as if it were a killing.",
+   "aZh": "标题拿 murder 开玩笑：考砸并不等于谋杀，可主考人的判词把一次失误说成了人命案，反差越大越可笑。",
+   "hint": "结合标题与末句 in a mournful voice。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "语法填空：After having been ______ (instruct) to drive out of town, I began to acquire confidence.",
+   "a": "instructed",
+   "note": "介词后接动名词被动完成式。"
+  },
+  {
+   "q": "改为被动语态：They were testing me for a driving licence for the third time.",
+   "a": "I was being tested for a driving licence for the third time.",
+   "note": "过去进行时被动。"
+  },
+  {
+   "q": "汉译英（用 acquire）：玛丽五年之内学会了汉语。",
+   "a": "Mary acquired a good knowledge of Chinese in five years' time.",
+   "note": "acquire 强调经努力获得。"
+  },
+  {
+   "q": "完成句子：The examiner smiled. He ______ (一定是满意的) my performance.",
+   "a": "must have been pleased with",
+   "note": "对过去作肯定推测。"
+  },
+  {
+   "q": "填空：As soon as I tap on the window, you must stop ______ five feet.",
+   "a": "within",
+   "note": "within 在……限度之内。"
+  },
+  {
+   "q": "填空：I suddenly pressed the brake ______ and we were both thrown forward.",
+   "a": "pedal",
+   "note": "brake pedal 刹车踏板。"
+  },
+  {
+   "q": "用 have difficulty (in) doing 改写：It took me a long time to react to the tap.",
+   "a": "I had difficulty (in) reacting to the tap.",
+   "note": "in 可省略。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "主考人对“我”的驾驶表现所持的态度是：",
+   "options": [
+    "He must have been pleased with my performance.",
+    "He was disappointed with my performance.",
+    "He was afraid of my performance.",
+    "He was tired of my performance."
+   ],
+   "answer": 0,
+   "note": "前段他微笑。"
+  },
+  {
+   "q": "主考人要求“我”把车停在什么范围之内？",
+   "options": [
+    "within five feet",
+    "within fifty feet",
+    "within five miles",
+    "within fifteen metres"
+   ],
+   "answer": 0,
+   "note": "stop within five feet。"
+  },
+  {
+   "q": "“I was being tested for a driving licence” 的时态与语态是：",
+   "options": [
+    "the past continuous passive",
+    "the simple past passive",
+    "the present perfect passive",
+    "the past perfect passive"
+   ],
+   "answer": 0,
+   "note": "was being + 过去分词。"
+  },
+  {
+   "q": "“After having been instructed to drive out of town” 属于哪种结构？",
+   "options": [
+    "after + the perfect gerund passive (having been done)",
+    "after + the plain gerund passive (being done)",
+    "before + the gerund active",
+    "on + the gerund active"
+   ],
+   "answer": 0,
+   "note": "完成式表先后。"
+  },
+  {
+   "q": "主考人用悲伤的声调说的是哪一句？",
+   "options": [
+    "'Mr. Eames, you have just killed that child!'",
+    "'Just one more thing, Mr. Eames.'",
+    "'Let us suppose that a child crosses the road.'",
+    "'I was being tested for the third time.'"
+   ],
+   "answer": 0,
+   "note": "末句内容。"
+  },
+  {
+   "q": "“Let us suppose that a child suddenly crosses the road.” 中的 suppose 意为：",
+   "options": [
+    "assume; imagine",
+    "pretend",
+    "prove",
+    "promise"
+   ],
+   "answer": 0,
+   "note": "设定假设情境。"
+  }
+ ]
+}

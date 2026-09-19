@@ -1,0 +1,76 @@
+{
+ "unit": "u023",
+ "unitId": "u023",
+ "lessons": [
+  {
+   "lesson": 23,
+   "title": "A new house",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "I had a letter from my sister yesterday. She lives in Nigeria.",
+     "zh": "昨天我收到了姐姐的一封信，她住在尼日利亚。"
+    },
+    {
+     "en": "In her letter, she said that she would come to England next year.",
+     "zh": "在信中她说她明年将到英国来。"
+    },
+    {
+     "en": "If she comes, she will get a surprise.",
+     "zh": "如果她来了，她会感到非常惊奇了。"
+    },
+    {
+     "en": "We are now living in a beautiful new house in the country.",
+     "zh": "我们现在住在乡间的一栋漂亮的新住宅里。"
+    },
+    {
+     "en": "Work on it had begun before my sister left. The house was completed five months ago.",
+     "zh": "这栋房子在我姐姐离开之前就已动工了，是在5个月以前竣工的。"
+    },
+    {
+     "en": "In my letter, I told her that she could stay with us.",
+     "zh": "我在信中告诉她，她可以和我们住在一起。"
+    },
+    {
+     "en": "The house has many large rooms and there is a lovely garden.",
+     "zh": "这栋房子里有许多房间，还有一个漂亮的花园。"
+    },
+    {
+     "en": "It is a very modern house, so it looks strange to some people.",
+     "zh": "它是一栋非常现代化的住宅，因此在有些人看来很古怪。"
+    },
+    {
+     "en": "It must be the only modern house in the district",
+     "zh": "它肯定是这个地区唯一的一栋现代化住宅。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why is the new house special?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "modern",
+   "pos": "adj",
+   "zh": "现代的　　modern history/house/art"
+  },
+  {
+   "word": "district",
+   "pos": "n",
+   "zh": "【课文讲解】"
+  }
+ ],
+ "translation": [
+  "昨天我收到了姐姐的一封信，她住在尼日利亚。",
+  "在信中她说她明年将到英国来。",
+  "如果她来了，她会感到非常惊奇了。",
+  "我们现在住在乡间的一栋漂亮的新住宅里。",
+  "这栋房子在我姐姐离开之前就已动工了，是在5个月以前竣工的。",
+  "我在信中告诉她，她可以和我们住在一起。",
+  "这栋房子里有许多房间，还有一个漂亮的花园。",
+  "它是一栋非常现代化的住宅，因此在有些人看来很古怪。",
+  "它肯定是这个地区唯一的一栋现代化住宅。"
+ ]
+}

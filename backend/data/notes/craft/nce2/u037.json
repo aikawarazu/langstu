@@ -1,0 +1,164 @@
+{
+ "unitId": "u037",
+ "title": "The Olympic Games",
+ "subtitle": "奥林匹克运动会",
+ "lead": {
+  "question": "这个国家上一次举办奥运会是在什么时候？课文给出的答案是什么？",
+  "warmup": "奥运会四年后首次在这个国家举行，这不只是体育盛事，更是一场全国总动员：政府要建新饭店、一个大型体育场和一个奥运会标准游泳池，还要修新路和铁路专线，首都市郊将被划作“奥林匹克城”。阅读时请留意三种将来时态的分工，以及被动语态怎样让叙述聚焦在事物本身。",
+  "goals": [
+   "区分并运用一般将来时被动、将来进行时与将来完成时",
+   "掌握 by the end of、in four years' time、look forward to、go up 等本课核心搭配",
+   "理解 hold（举行/容纳）、design、immense、standard、fantastic 的用法",
+   "能用将来时态与被动语态连贯描述一项大型工程的筹备与进度"
+  ],
+  "summary": "四年后奥运会首次在这个国家举行：政府将建饭店、大型体育场、奥运会标准游泳池、新路和铁路专线，赛场设在首都市郊，整片区域将被称为“奥林匹克城”。工程以将来完成时排期：今年年底铺好新路，明年年底建成新体育场；奇妙的现代化建筑由库尔特·冈特设计。",
+  "tips": "by the end of + 将来时间点，谓语用将来完成时 will have done；look forward to 的 to 是介词，后接名词、代词或动名词。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "When was the last time this country hosted the Olympic Games?",
+   "zh": "这个国家上一次举办奥林匹克运动会是在什么时候？",
+   "a": "Never. The Games have never been held before in this country, so this will be the first time.",
+   "aZh": "从来没有举办过——这将是该国第一次举办奥运会。",
+   "hint": "答案在课文末句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where will the Games be held and what will the whole area be called?",
+   "zh": "奥运会将在哪里举行？整片区域将被称作什么？",
+   "a": "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.",
+   "aZh": "奥运会就在首都市郊举行，整个地区将被称作“奥林匹克城”。",
+   "hint": "出自 The Games will be held just outside the capital... 一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What will the government be building for the great many visitors?",
+   "zh": "政府将为大批来访者建造哪些设施？",
+   "a": "New hotels, an immense stadium, a new Olympic-standard swimming pool, new roads and a special railway line.",
+   "aZh": "新饭店、大型体育场、奥运会标准游泳池，还有新道路和一条铁路专线。",
+   "hint": "出自 As a great many people will be visiting the country 引导的第 2、3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What will have been completed by the end of this year, and what by the end of next year?",
+   "zh": "到今年年底和明年年底，分别会完成什么工程？",
+   "a": "Workers will have completed the new roads by the end of this year, and by the end of next year they will have finished work on the new stadium.",
+   "aZh": "今年年底前新路全部铺好；到明年年底新体育场完工。",
+   "hint": "抓住两个 by the end of 时间状语。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer say 'will be building' instead of 'will build', and 'will have completed' instead of 'will complete'?",
+   "zh": "为什么作者用 will be building 而不用 will build，用 will have completed 而不用 will complete？",
+   "a": "will be building 强调那段时间正在进行的动作，且是政府已规划好的安排；will have completed 强调在“今年年底”之前已经完成。两种时态分别回答“届时正在做什么”和“到某时已做完什么”。",
+   "aZh": "will be building 强调将来某时正在进行、也是已规划好的安排；will have completed 强调截止某时已经完成。",
+   "hint": "结合课文语法：将来进行时表计划与正在进行，将来完成时表截止某时完成。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用所给词的适当形式填空：The Olympic Games will be ____ (hold) in our country in four years' time.",
+   "a": "held",
+   "note": "一般将来时被动：will be + 过去分词。"
+  },
+  {
+   "q": "填空：Workers will have ____ (complete) the new roads by the end of this year.",
+   "a": "completed",
+   "note": "by the end of 用将来完成时。"
+  },
+  {
+   "q": "填空：By the end of next year, the workers ____ (work) on the new stadium for over a year.",
+   "a": "will have been working",
+   "note": "将来完成进行时。"
+  },
+  {
+   "q": "填空：The fantastic modern buildings have been ____ (design) by Kurt Gunter.",
+   "a": "designed",
+   "note": "现在完成时被动。"
+  },
+  {
+   "q": "填空：We are all very excited and are looking forward ____ the Olympic Games.",
+   "a": "to",
+   "note": "look forward to 中 to 是介词。"
+  },
+  {
+   "q": "选词填空（government / immense / standard）：the ________ will be building new hotels, an ________ stadium and a new Olympic-________ swimming pool.",
+   "a": "government; immense; standard",
+   "note": "Olympic-standard 是复合形容词。"
+  },
+  {
+   "q": "汉译英：奥运会将在首都市郊举行，整个地区将被称作“奥林匹克城”。",
+   "a": "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.",
+   "note": "两句都用将来时被动。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "下列哪句正确表达“这个体育场能容纳两万人”？",
+   "options": [
+    "The stadium can hold 20,000 people.",
+    "The stadium can held 20,000 people.",
+    "The stadium can be holding 20,000 people.",
+    "The stadium can be hold 20,000 people."
+   ],
+   "answer": 0,
+   "note": "hold 表“容纳”。"
+  },
+  {
+   "q": "“工人们将在今年年底前把新路铺好”，正确的英文是？",
+   "options": [
+    "Workers will complete the new roads by the end of this year.",
+    "Workers will be completing the new roads by the end of this year.",
+    "Workers will have completed the new roads by the end of this year.",
+    "Workers have completed the new roads by the end of this year."
+   ],
+   "answer": 2,
+   "note": "by the end of + 将来时间点，用将来完成时。"
+  },
+  {
+   "q": "“由于将有大批人来，政府将正在建造新饭店和一个大型体育场”，应选？",
+   "options": [
+    "The government will build new hotels and an immense stadium.",
+    "The government is building new hotels and an immense stadium.",
+    "As a great many people will be visiting the country, the government will be building new hotels and an immense stadium.",
+    "The government will have built new hotels and an immense stadium."
+   ],
+   "answer": 2,
+   "note": "将来进行时。"
+  },
+  {
+   "q": "“我们都盼望着奥运会的到来”，哪一句正确？",
+   "options": [
+    "We are all looking forward for the Olympic Games.",
+    "We are all looking forward to the Olympic Games.",
+    "We are all looking forward to watch the Olympic Games.",
+    "We are all looking forward the Olympic Games."
+   ],
+   "answer": 1,
+   "note": "look forward to 的 to 是介词。"
+  },
+  {
+   "q": "“这些奇妙的现代化建筑是由库尔特·冈特设计的”，正确英文是？",
+   "options": [
+    "The fantastic modern buildings have designed by Kurt Gunter.",
+    "The fantastic modern buildings have been designed by Kurt Gunter.",
+    "The fantastic modern buildings were designing by Kurt Gunter.",
+    "The fantastic modern buildings has been designed by Kurt Gunter."
+   ],
+   "answer": 1,
+   "note": "现在完成时被动。"
+  },
+  {
+   "q": "“到明年年底，工人们将已经在新体育场上工作一年多了”，应选？",
+   "options": [
+    "By the end of next year, the workers will work on the new stadium for over a year.",
+    "By the end of next year, the workers will have worked on the new stadium for over a year.",
+    "By the end of next year, the workers will have been working on the new stadium for over a year.",
+    "By the end of next year, the workers will be working on the new stadium for over a year."
+   ],
+   "answer": 2,
+   "note": "将来完成进行时。"
+  }
+ ]
+}

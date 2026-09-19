@@ -1,0 +1,164 @@
+{
+ "unitId": "u026",
+ "title": "The Best Art Critics",
+ "subtitle": "最佳艺术评论家",
+ "lead": {
+  "question": "一个七岁的女孩，凭什么成了画家眼中最好的艺术评论家？",
+  "warmup": "学艺术的学生画画不少，却常被“懂行”的人围着点评——其实他们并不懂，只是装懂，张口就告诉你一幅画“意思”是什么。作者不以为然：许多画根本没有“意思”，不过是好看的图案，喜欢它们就像喜欢漂亮的窗帘布。真正让他服气的是七岁的妹妹：她不装，看得细，一眼就看出新画挂倒了。",
+  "goals": [
+   "复述课文：说清“装懂的大人”与“七岁妹妹”两次点评的对比和结尾的反转",
+   "掌握 art、critic、paint、pretend、pattern、curtain material、appreciate、notice、hang 等本课词汇",
+   "学会 in the same way that/as、whether...or not、better than anyone else、for a moment、upside down 等句型",
+   "巩固一般现在时（普遍情况、习惯动作、三单 -s），并区分 many、much、many a"
+  ],
+  "summary": "全文先议后叙。开头 I am an art student 定下身份，paint a lot of pictures 带出话题；接着 many people pretend 一针见血，of course 一转给出理由——许多画本无“意思”，只是 pretty patterns，再拿 curtain material 作比，调侃味十足。后半用 yesterday 转入叙事：七岁的妹妹 critically 看了一会儿，一句 isn't it upside down 戳破作者的自信。",
+  "tips": "易错：hang 作“悬挂”时过去式、过去分词是 hung，hanged 意为“绞死”；pretend 只接 to do，不接 doing。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Who is the student's best critic?",
+   "zh": "这位学艺术的学生最好的评论家是谁？",
+   "a": "His seven-year-old sister. She is only seven, but she always tells him whether his pictures are good or not — and she was right when she said his new picture was upside down.",
+   "aZh": "是他七岁的妹妹。她虽然只有七岁，却总能说出他的画是好是坏，还一眼看出那幅新画挂倒了。",
+   "hint": "见 My sister is only seven, but she always tells me whether my pictures are good or not，以及结尾 She was right! It was!"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the writer say that many people only pretend to understand modern art?",
+   "zh": "为什么作者说许多人只是装作懂现代艺术？",
+   "a": "Because they always tell you what a picture is 'about', while in fact many pictures are not 'about' anything — they are just pretty patterns.",
+   "aZh": "因为他们总爱告诉你一幅画“意思”是什么，可事实上许多画根本没有什么“意思”，只是些好看的图案。",
+   "hint": "见 Many people pretend that they understand modern art。"
+  },
+  {
+   "kind": "detail",
+   "q": "What comparison does the writer make with pretty curtain material?",
+   "zh": "作者拿漂亮的窗帘布作了怎样的比较？",
+   "a": "He says we like those pictures in the same way that we like pretty curtain material — we enjoy the pretty pattern itself, not any 'meaning' behind it.",
+   "aZh": "他说我们喜欢这些画，就像喜欢漂亮的窗帘布一样——喜欢的是好看的图案本身，而不是什么“意思”。",
+   "hint": "见 We like them in the same way that we like pretty curtain material。"
+  },
+  {
+   "kind": "detail",
+   "q": "What happened when his sister came into his room yesterday?",
+   "zh": "昨天妹妹走进他房间时发生了什么？",
+   "a": "He was hanging a new picture on the wall and asked if she liked it. She looked at it critically for a moment, said it was all right, and asked whether it was upside down. He looked again — she was right.",
+   "aZh": "他正把一幅新画挂到墙上，问妹妹喜不喜欢。她挑剔地看了一会儿，说“还不错”，接着问是不是挂倒了。他再看一眼——她说对了。",
+   "hint": "见 I'm hanging this picture on the wall. 与 She looked at it critically for a moment。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer think young children appreciate modern pictures better than anyone else? What is he satirising?",
+   "zh": "为什么作者认为小孩子比任何人都更能欣赏现代绘画？他在讽刺什么？",
+   "a": "Because children do not pretend: they notice more and judge only what they actually see, while adults keep reciting what a picture is 'about'. He is satirising grown-up critics who fake understanding instead of really looking at the picture.",
+   "aZh": "因为孩子不装懂：他们看得更细，凭眼睛说话，而大人只会背“意思”。作者讽刺的正是那些装作内行、却不肯真正看画的评论者。",
+   "hint": "联系 I think that young children often appreciate modern pictures better than anyone else. They notice more。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我是个学艺术的学生，画很多画。我最好的评论家是我七岁的妹妹。",
+   "a": "I am an art student and I paint a lot of pictures. My best critic is my sister, who is only seven.",
+   "note": "art student 艺术系学生；paint 用颜料画。"
+  },
+  {
+   "q": "填空：Many people pretend ______ (understand) modern art, but in fact they understand nothing.",
+   "a": "to understand",
+   "note": "pretend 后接 to do，不接 doing。"
+  },
+  {
+   "q": "句型转换：用 as 改写 We like them in the same way that we like pretty curtain material.",
+   "a": "We like them in the same way as we like pretty curtain material.",
+   "note": "in the same way that/as 可互换。"
+  },
+  {
+   "q": "改错：Young children are appreciating modern pictures better than anyone else, because they are noticing more.",
+   "a": "Young children appreciate modern pictures better than anyone else, because they notice more.",
+   "note": "appreciate/notice 表状态，不用进行时。"
+  },
+  {
+   "q": "汉译英：我正在把这幅画挂到墙上。她挑剔地看了一会儿，说：“还不错，不过是不是挂倒了？”",
+   "a": "I'm hanging this picture on the wall. She looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'",
+   "note": "hang 现在分词 hanging；upside down 上下颠倒。"
+  },
+  {
+   "q": "句型转换：用 whether...or not 改写 She always tells me if my pictures are good or not.",
+   "a": "She always tells me whether my pictures are good or not.",
+   "note": "whether...or not 比 if 正式。"
+  },
+  {
+   "q": "填空：My sister always ______ (tell) me whether my pictures are good or not. There isn't ______ (many/much) meaning in these patterns. Many ______ picture ______ (be) just a pretty pattern.",
+   "a": "tells; much; a; is",
+   "note": "三单 tells；much+不可数；many a 谓语用单数。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“我是个学艺术的学生，画了很多画。”正确的英文是？",
+   "options": [
+    "I am an art student and I paint a lot of pictures.",
+    "I am an art student and I paints a lot of pictures.",
+    "I am a art student and I paint a lot of pictures.",
+    "I am art student and I paint a lot pictures."
+   ],
+   "answer": 0,
+   "note": "an art student；一般现在时三单加 -s。"
+  },
+  {
+   "q": "“很多人装作懂现代艺术。”下列哪句正确？",
+   "options": [
+    "Many people pretend understanding modern art.",
+    "Many people pretend that they understand modern art.",
+    "Many people pretend to understanding modern art.",
+    "Many people pretend that they understood modern art."
+   ],
+   "answer": 1,
+   "note": "pretend 后接 to do 或 that 从句。"
+  },
+  {
+   "q": "“我们喜爱它们就像喜爱漂亮的窗帘布一样。”课文原句是？",
+   "options": [
+    "We like them in the same way which we like pretty curtain material.",
+    "We like them in the same way what we like pretty curtain material.",
+    "We like them in the same way that we like pretty curtain material.",
+    "We like them on the same way that we like pretty curtain material."
+   ],
+   "answer": 2,
+   "note": "in the same way that/as 为固定比较短语。"
+  },
+  {
+   "q": "“小孩子往往比任何人都更能欣赏现代绘画。”下列哪句正确？",
+   "options": [
+    "Young children often appreciate modern pictures better than anyone.",
+    "Young children often are appreciating modern pictures better than anyone else.",
+    "Young children often appreciate modern pictures better than anyone other.",
+    "Young children often appreciate modern pictures better than anyone else."
+   ],
+   "answer": 3,
+   "note": "anyone else 排除自身；appreciate 不用进行时。"
+  },
+  {
+   "q": "“她总能说出我的画是好还是坏。”下列哪句正确？",
+   "options": [
+    "She always tells me whether my pictures are good or not.",
+    "She always tells me that my pictures are good or not.",
+    "She always tells me whether are my pictures good or not.",
+    "She always tells me whether my pictures good or not."
+   ],
+   "answer": 0,
+   "note": "whether 从句用陈述语序。"
+  },
+  {
+   "q": "“你把这幅画挂倒了。”正确的英文是？",
+   "options": [
+    "You've hanged the picture upside down.",
+    "You've hung the picture upside down.",
+    "You've hung the picture up and down.",
+    "You've hung the picture downside up."
+   ],
+   "answer": 1,
+   "note": "hang 悬挂为 hung；hanged 意为绞死。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u041",
+ "title": "Do You Call That a Hat?",
+ "subtitle": "你把那个叫帽子吗？",
+ "lead": {
+  "question": "陪妻子逛帽店时，丈夫说了哪句话，一出口就后悔了？",
+  "warmup": "丈夫陪妻子逛了半小时帽店，坐在一把满是网眼儿的新式椅子上干等，妻子却仍站在镜子前试帽子。他忍不住说“不该买不需要的东西”，话一出口就后悔了——妻子立刻反唇相讥，提起他昨天买的那条糟糕透了的领带。十分钟后两人一起走出店门，妻子头上戴着一顶像灯塔一样的帽子。",
+  "goals": [
+   "分清 needn't、mustn't、don't have to 与 needn't have done 的含义和用法",
+   "体会 Do you call that a hat? 中的轻蔑、不满语气",
+   "掌握 can never...too...（再……也不为过）以及 regret doing、remind sb. of sth. 等结构",
+   "辨析 remark / notice / observe 等“说”与“察觉”类动词的用法差别"
+  ],
+  "summary": "本课借一对夫妻在帽店的斗嘴，集中训练“必要与不必要”的情态表达：needn't 表示不必，mustn't 表示禁止，needn't have done 表示本不必做却已经做了。同时通过 Do you call that a hat?、A man can never have too many ties 等句子，体会英语里轻蔑、不耐烦与“越多越好”的地道说法。",
+  "tips": "needn't have done 是“本不必做却做了”；didn't need to / didn't have to 只说明过去不必做，是否做过并不明确。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What kind of shopping does the writer enjoy, do you think?",
+   "zh": "你认为作者喜欢什么样的购物？",
+   "a": "None. He doesn't enjoy shopping at all. He sat on a modern chair with holes in it and waited impatiently, and said they mustn't buy things they didn't need.",
+   "aZh": "哪种都不喜欢。他坐在网眼儿椅子上不耐烦地干等，还说不该买不需要的东西。",
+   "hint": "见课文第 2 句妻子责他 rude、第 5 句 We mustn't buy things we don't need。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the wife say 'You needn't be so rude about it' instead of 'You mustn't be so rude about it'?",
+   "zh": "为什么妻子说 needn't be so rude，而不用 mustn't be so rude？",
+   "a": "Because needn't means 'it is not necessary' — she is only advising him that his remark was unnecessary, not forbidding him. Mustn't expresses absolute prohibition.",
+   "aZh": "因为 needn't 表示“没必要”，只是劝他说话不必这样不客气；mustn't 表示绝对禁止。",
+   "hint": "见语法部分：mustn't 表示绝对禁止。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'I needn't remind you of that terrible tie you bought yesterday' tell us about the structure of remind?",
+   "zh": "“我不必提醒你昨天买的那条糟糕透了的领带”一句体现了 remind 的什么用法？",
+   "a": "It shows 'remind sb. of sth.' — 提醒某人想起某事.",
+   "aZh": "体现 remind sb. of sth.（提醒某人某事／使某人想起）。",
+   "hint": "见词语学习 remind 条。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is the past perfect continuous used in 'We had been in the hat shop for half an hour'?",
+   "zh": "“我们在这家帽店已经待了半小时”为什么用过去完成进行时？",
+   "a": "It describes an action that had been going on continuously before a later past moment — they had already waited half an hour and the wife was still in front of the mirror.",
+   "aZh": "过去完成进行时表示在过去某一时刻之前持续进行的动作，突出丈夫的不耐烦。",
+   "hint": "结合后半句 my wife was still in front of the mirror。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the husband say 'A man can never have too many ties', and how does the wife turn it against him?",
+   "zh": "丈夫为什么说“男人有多少领带也不会嫌多”？妻子又是怎样将计就计的？",
+   "a": "He uses 'can never...too...' to defend the terrible tie he bought. The wife immediately turns the same structure round — 'a woman can't have too many hats' — so buying a hat becomes equally justified.",
+   "aZh": "他用 can never...too... 为昨天买的领带辩护；妻子套用同一句式说女人有多少帽子也不嫌多。",
+   "hint": "以及结尾 Ten minutes later... looked like a lighthouse。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：你把那个叫帽子吗？",
+   "a": "Do you call that a hat?",
+   "note": "call + 宾语 + 名词，含轻蔑意味。"
+  },
+  {
+   "q": "汉译英：你说话没必要这样不客气。",
+   "a": "You needn't be so rude about it.",
+   "note": "needn't 后接动词原形。"
+  },
+  {
+   "q": "填空：I sat down on one of those modern chairs with ____ in it and waited.",
+   "a": "holes",
+   "note": "hole 用复数。"
+  },
+  {
+   "q": "填空：'We mustn't buy things we don't need,' I ____ suddenly.",
+   "a": "remarked",
+   "note": "remark 意为评论说。"
+  },
+  {
+   "q": "汉译英：我不必提醒你昨天买的那条糟糕透了的领带。",
+   "a": "I needn't remind you of that terrible tie you bought yesterday.",
+   "note": "remind sb. of sth."
+  },
+  {
+   "q": "句型转换：It was not necessary for you to say that. → You ____ that.",
+   "a": "needn't have said",
+   "note": "本不必说却说了。"
+  },
+  {
+   "q": "改错：I regretted to say it almost at once.",
+   "a": "I regretted saying it almost at once.",
+   "note": "regret doing 后悔做过的事。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“我们不应该买我们不需要的东西。”正确的是哪一句？",
+   "options": [
+    "We mustn't buy things we don't need.",
+    "We needn't buy things we don't need.",
+    "We mustn't to buy things we don't need.",
+    "We don't need buy things we don't need."
+   ],
+   "answer": 0,
+   "note": "mustn't 表禁止、不该。"
+  },
+  {
+   "q": "“你没必要这么说。”（暗含：其实已经说了）应选哪句？",
+   "options": [
+    "You needn't say that.",
+    "You needn't have said that.",
+    "You mustn't have said that.",
+    "You didn't need say that."
+   ],
+   "answer": 1,
+   "note": "needn't have done 指本不必做却做了。"
+  },
+  {
+   "q": "“我妻子戴着一顶像灯塔一样的帽子。”正确的英文是？",
+   "options": [
+    "My wife was wearing a hat that looked like a lighthouse!",
+    "My wife was wearing a hat that looked as a lighthouse!",
+    "My wife wore a hat which looked lighthouse!",
+    "My wife was wearing a hat that looked like lighthouse."
+   ],
+   "answer": 0,
+   "note": "look like + 名词。"
+  },
+  {
+   "q": "“男人有多少领带也不会嫌多。”正确的英文是？",
+   "options": [
+    "A man can never have too much ties.",
+    "A man can have too many ties never.",
+    "A man can never have too many ties.",
+    "A man cannot have too much ties."
+   ],
+   "answer": 2,
+   "note": "can never...too...；ties 用 many。"
+  },
+  {
+   "q": "“她边照镜子边回答。”正确的英文是？",
+   "options": [
+    "She answered as she looked at her in the mirror.",
+    "She answered as she looked herself in the mirror.",
+    "She answered as she was looking her in the mirror.",
+    "She answered as she looked at herself in the mirror."
+   ],
+   "answer": 3,
+   "note": "look at oneself 反身代词不可省。"
+  },
+  {
+   "q": "“你不必工作那么长时间。”正确的英文是？",
+   "options": [
+    "You needn't work such long hours.",
+    "You mustn't work such long hours.",
+    "You needn't to work such long hours.",
+    "You don't need work such long hours."
+   ],
+   "answer": 0,
+   "note": "情态 needn't 直接加动词原形。"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "unit": "u025",
+ "unitId": "u025",
+ "lessons": [
+  {
+   "lesson": 25,
+   "title": "Do the English speak English?",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "porter I arrived in London at last.",
+     "zh": "我终于到了伦敦。"
+    },
+    {
+     "en": "The railway station was big, black and dark.",
+     "zh": "火车站很大，又黑又暗。"
+    },
+    {
+     "en": "I did not know the way to my hotel, so I asked a porter.",
+     "zh": "我不知道去旅馆的路该怎么走，于是向一个搬运工打听。"
+    },
+    {
+     "en": "I not only spoke English very carefully, but very clearly as well.",
+     "zh": "我的英语讲得不但非常认真，而且咬字也非常清楚。"
+    },
+    {
+     "en": "The porter, however, could not understand me.",
+     "zh": "然而搬运工却不明白我的话。"
+    },
+    {
+     "en": "I repeated my question several times and at last he understood.",
+     "zh": "我把问话重复了很多遍。他终于听懂了。"
+    },
+    {
+     "en": "he answered me, but he spoke neither slowly nor clearly.",
+     "zh": "他回答了，但他讲得既不慢也不清楚。"
+    },
+    {
+     "en": "'I am a foreigner,' I said.",
+     "zh": "“我是个外国人，”我说。"
+    },
+    {
+     "en": "Then he spoke slowly, but I could not understand him.",
+     "zh": "于是他说得慢了，可我还是听不懂。"
+    },
+    {
+     "en": "My teacher never spoke English like that!",
+     "zh": "我的老师从来不那样讲英语！"
+    },
+    {
+     "en": "The porter and I looked at each other and smiled.",
+     "zh": "我和搬运工相视一笑。"
+    },
+    {
+     "en": "Then he said something and I understood it.",
+     "zh": "接着，他说了点什么，这回我听懂了。"
+    },
+    {
+     "en": "'You'll soon learn English!",
+     "zh": "“您会很快学会英语的！"
+    },
+    {
+     "en": "he said.",
+     "zh": "”他说。"
+    },
+    {
+     "en": "I wonder.",
+     "zh": "我感到奇怪。"
+    },
+    {
+     "en": "In England, each person speaks a different language.",
+     "zh": "在英国，人们各自说着一种不同的语言。"
+    },
+    {
+     "en": "The English understand each other, but I don't understand them!",
+     "zh": "英国人之间相互听得懂，可我却不懂他们的话！"
+    },
+    {
+     "en": "Do they speak English?",
+     "zh": "他们说的是英语吗？"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why does the writer not understand the",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "porter",
+   "pos": "n",
+   "zh": "several  quantifier 几个"
+  },
+  {
+   "word": "wonder",
+   "pos": "v",
+   "zh": "参考译文"
+  }
+ ],
+ "translation": [
+  "我终于到了伦敦。",
+  "火车站很大，又黑又暗。",
+  "我不知道去旅馆的路该怎么走，于是向一个搬运工打听。",
+  "我的英语讲得不但非常认真，而且咬字也非常清楚。",
+  "然而搬运工却不明白我的话。",
+  "我把问话重复了很多遍。",
+  "他终于听懂了。",
+  "他回答了，但他讲得既不慢也不清楚。",
+  "“我是个外国人，”我说。",
+  "于是他说得慢了，可我还是听不懂。",
+  "我的老师从来不那样讲英语！",
+  "我和搬运工相视一笑。",
+  "接着，他说了点什么，这回我听懂了。",
+  "“您会很快学会英语的！",
+  "”他说。",
+  "我感到奇怪。",
+  "在英国，人们各自说着一种不同的语言。",
+  "英国人之间相互听得懂，可我却不懂他们的话！",
+  "他们说的是英语吗？"
+ ]
+}

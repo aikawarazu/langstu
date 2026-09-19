@@ -1,0 +1,164 @@
+{
+ "unitId": "u068",
+ "title": "Persistent",
+ "subtitle": "纠缠不休",
+ "lead": {
+  "question": "伊丽莎白为甩开纠缠不休的奈杰尔编了什么理由？结果如何？",
+  "warmup": "你在街上看见一个“最不想见的人”，会立刻躲开吗？伊丽莎白正是如此：她穿过马路想避开奈杰尔·戴克斯，却被对方一眼瞧见、跑着迎了上来。奈杰尔永远无事可做，不管你多忙他都要跟着；伊丽莎白只好编个“去看牙医”的借口，没想到一句“候诊室里总有东西可读”就让计划落空。",
+  "goals": [
+   "掌握 avoid、enjoy、fancy、mind、finish 等动词后只接动名词的用法",
+   "掌握 It is no use doing、insist on doing、prevent sb. from doing、be busy doing 等含动名词的固定结构",
+   "会用 no matter + 疑问词引导让步状语从句",
+   "理解动名词的逻辑主语（my coming）"
+  ],
+  "summary": "伊丽莎白为避开奈杰尔穿过马路，却被一眼看见，装作没看见已无济于事，只好挥手。奈杰尔永远无事可做，不管人多忙都要跟着；她情急谎称去看牙医，对方却答“候诊室里总有东西可读”，照样跟了上来。全文几乎句句带动名词，是动名词用法的集中演练。",
+  "tips": "avoid、enjoy、fancy、mind、finish、insist on、it is no use、be busy、prevent sb. from 之后一律接动名词。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did Elizabeth tell Nigel that she was going to the dentist?",
+   "zh": "伊丽莎白为什么告诉奈杰尔她要去看牙医？",
+   "a": "She lied. She just wanted a way of preventing him from following her around all morning, so the dentist was only an excuse.",
+   "aZh": "她在撒谎：只是想找个办法不让奈杰尔整个上午缠着她，“看牙医”是个借口。",
+   "hint": "见 I had to think of a way of preventing him from following me around all morning。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Elizabeth do when she saw Nigel, and why did she wave to him in the end?",
+   "zh": "伊丽莎白看到奈杰尔时做了什么？为什么最后还是挥手？",
+   "a": "She crossed the street to avoid meeting him, but he saw her and came running towards her; it was no use pretending that she had not seen him, so she waved to him.",
+   "aZh": "她穿过马路想避开他，可奈杰尔看见了她并朝她跑过来；再装作没看见已没有用，她只好挥手。",
+   "hint": "见开头两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Which sentence best describes Nigel's character? Quote it.",
+   "zh": "课文中哪句话最能概括奈杰尔的性格？",
+   "a": "He never has anything to do. No matter how busy you are, he always insists on coming with you.",
+   "aZh": "他从来都是无事可做；不管你多忙，他总是坚持要跟你去。",
+   "hint": "见第 4-5 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did Nigel answer Elizabeth's excuse about the dentist?",
+   "zh": "奈杰尔是怎么回答她“去看牙医”的借口？",
+   "a": "'Then I'll come with you,' he answered. 'There's always plenty to read in the waiting room!'",
+   "aZh": "“那我也跟你去，候诊室里总有很多东西可供阅读！”",
+   "hint": "见课文最后两行。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did Elizabeth's excuse fail, and what does the title 'Persistent' tell us about Nigel?",
+   "zh": "借口为什么失败？标题揭示了奈杰尔的什么特点？",
+   "a": "Nigel is persistent: wherever she went he would come along, even to a dentist's waiting room. A vague excuse only invites him to join; she should have said plainly that she wanted to be alone.",
+   "aZh": "奈杰尔锲而不舍：她去哪儿他都要跟着，连牙医候诊室也乐意去。含糊的借口反而给了他跟来的余地。",
+   "hint": "结合标题与末句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "动词填空：I crossed the street to avoid ______ (meet) him.",
+   "a": "meeting",
+   "note": "avoid 后只接动名词。"
+  },
+  {
+   "q": "汉译英：再装作没看见他已经没有用了。（用 It was no use ...）",
+   "a": "It was no use pretending that I had not seen him.",
+   "note": "It is no use doing 固定句型。"
+  },
+  {
+   "q": "动词填空：I had to think of a way of preventing him from ______ (follow) me around all morning.",
+   "a": "following",
+   "note": "prevent sb. from doing。"
+  },
+  {
+   "q": "汉译英：不管你多忙，他总是坚持要跟你去。",
+   "a": "No matter how busy you are, he always insists on coming with you.",
+   "note": "no matter how；insist on doing。"
+  },
+  {
+   "q": "用所给词的适当形式填空：I never enjoy ______ (meet) Nigel Dykes. / Fancy ______ (meet) you here!",
+   "a": "meeting；meeting",
+   "note": "enjoy、fancy 后接动名词。"
+  },
+  {
+   "q": "填空并说明 my 的作用：Would you mind my ______ (come) with you?",
+   "a": "coming；my 是动名词 coming 的逻辑主语，也可用宾格 me。",
+   "note": "mind + 动名词。"
+  },
+  {
+   "q": "汉译英（反意疑问句）：你不忙，是吧？",
+   "a": "You're not busy doing anything, are you?",
+   "note": "be busy doing。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“我穿过马路以便避开他”的正确英文是：",
+   "options": [
+    "I crossed the street to avoid meeting him.",
+    "I crossed the street to avoid to meet him.",
+    "I crossed the street for avoid meeting him.",
+    "I crossed the street avoiding to meet him."
+   ],
+   "answer": 0,
+   "note": "avoid 后接动名词。"
+  },
+  {
+   "q": "下列哪一句中的动名词用法有错？",
+   "options": [
+    "It was no use pretending that I had not seen him.",
+    "He always insists on coming with you.",
+    "I had to think of a way of preventing him from following me.",
+    "She avoided to meet him by crossing the street."
+   ],
+   "answer": 3,
+   "note": "avoid 后须用动名词。"
+  },
+  {
+   "q": "“不管你多忙”应译为：",
+   "options": [
+    "No matter how busy you are,",
+    "No matter how busy are you,",
+    "No matter what busy you are,",
+    "No matter how you are busy,"
+   ],
+   "answer": 0,
+   "note": "no matter + 疑问词，陈述语序。"
+  },
+  {
+   "q": "奈杰尔说 'Would you mind my coming with you?'，其中 my 的作用是：",
+   "options": [
+    "the logical subject of 'coming'",
+    "the object of the verb 'mind'",
+    "a marker of the passive voice",
+    "modifying the word 'you'"
+   ],
+   "answer": 0,
+   "note": "动名词的逻辑主语。"
+  },
+  {
+   "q": "“Fancy meeting you here!” 表达的意思是：",
+   "options": [
+    "What a surprise to see you here!",
+    "Do you like meeting people here?",
+    "Please wait for me here.",
+    "I remember seeing you here."
+   ],
+   "answer": 0,
+   "note": "fancy + 动名词表惊讶。"
+  },
+  {
+   "q": "伊丽莎白说要去看牙医，奈杰尔的回答是：",
+   "options": [
+    "'Then I'll come with you. There's always plenty to read in the waiting room!'",
+    "'Then I'll wait for you outside the dentist's.'",
+    "'I'm sorry, but I have to leave now.'",
+    "'Would you mind my not coming with you?'"
+   ],
+   "answer": 0,
+   "note": "体现 persistent。"
+  }
+ ]
+}

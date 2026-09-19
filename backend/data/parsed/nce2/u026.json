@@ -1,0 +1,96 @@
+{
+ "unit": "u026",
+ "unitId": "u026",
+ "lessons": [
+  {
+   "lesson": 26,
+   "title": "The best art critics",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "critic I am an art student and I paint a lot of pictures.",
+     "zh": "我是个学艺术的学生，画了很多画。"
+    },
+    {
+     "en": "Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns.",
+     "zh": "有很多人装成很懂现代艺术的样子，总是告诉你一幅画的“意思”是什么。"
+    },
+    {
+     "en": "We like them in the same way that we like pretty curtain material.",
+     "zh": "当然，有很多画是什么“意思”也没有的。"
+    },
+    {
+     "en": "I think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.",
+     "zh": "它们就是些好看的图案，我们喜爱它们就像我们喜欢漂亮的窗帘布一样。"
+    },
+    {
+     "en": "She came into my room yesterday. 'What are you doing? she asked. 'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?",
+     "zh": "我觉得小孩子们往往比任何人都更能欣赏现代绘画，他们观察到的东西更多。"
+    },
+    {
+     "en": "She looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?",
+     "zh": "我的妹妹只有7岁，但她总能说出我的画是好还是坏。"
+    },
+    {
+     "en": "I looked at it again. She was right! It was!",
+     "zh": "昨天她到我房里来了。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Who is the student's best",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "art",
+   "pos": "n",
+   "zh": "art student 艺术系的学生"
+  },
+  {
+   "word": "paint",
+   "pos": "v",
+   "zh": "draw a picture 用线条画"
+  },
+  {
+   "word": "curtain",
+   "pos": "n",
+   "zh": "★material　n. 材料"
+  },
+  {
+   "word": "appreciate",
+   "pos": "v",
+   "zh": "enjoy 欣赏"
+  },
+  {
+   "word": "notice",
+   "pos": "v",
+   "zh": "pay attention to 思想上的注意"
+  },
+  {
+   "word": "whether",
+   "pos": "conj",
+   "zh": "If 在表示是否的时候可以被whether所取代"
+  },
+  {
+   "word": "hang",
+   "pos": "v",
+   "zh": "hang　hanged　hanged　绞死"
+  },
+  {
+   "word": "critically　ad",
+   "pos": "v",
+   "zh": "★upside down 上下颠倒地　　两个同样的发音连在一起时，前边的音省去不读"
+  }
+ ],
+ "translation": [
+  "我是个学艺术的学生，画了很多画。",
+  "有很多人装成很懂现代艺术的样子，总是告诉你一幅画的“意思”是什么。",
+  "当然，有很多画是什么“意思”也没有的。",
+  "它们就是些好看的图案，我们喜爱它们就像我们喜欢漂亮的窗帘布一样。",
+  "我觉得小孩子们往往比任何人都更能欣赏现代绘画，他们观察到的东西更多。",
+  "我的妹妹只有7岁，但她总能说出我的画是好还是坏。",
+  "昨天她到我房里来了。"
+ ]
+}

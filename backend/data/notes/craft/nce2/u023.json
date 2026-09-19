@@ -1,0 +1,164 @@
+{
+ "unitId": "u023",
+ "title": "A new house",
+ "subtitle": "新居",
+ "lead": {
+  "question": "姐姐明年要来英国，她为什么会对我们的乡间新居感到惊奇？",
+  "warmup": "一封来自尼日利亚的信，把一个家庭搬进乡间新居的故事悄悄铺开。姐姐动身前，房子就已动工；五个月后竣工，它成了当地唯一的一栋现代化住宅——漂亮，却也让一些人觉得古怪。读这篇课文时，请留意作者如何用过去完成时交代“更早发生的事”，用 there is 引出花园，并用 must be 作出肯定的推测。",
+  "goals": [
+   "掌握 complete、modern、strange、district 的词义与搭配：complete a house、a modern house、look strange to sb.、in the district",
+   "理解过去完成时 had begun 表示“过去的过去”，并与一般过去时 was completed 对照使用",
+   "分清 there is 与 it is 的分工：there be 引出存在，it 用于进一步说明已指明的事物",
+   "学会用 must be 表示肯定推测，以及 if 引导的真实条件句“主将从现”"
+  ],
+  "summary": "课文以姐姐的来信起笔：她明年要来英国，一来就会大吃一惊——因为作者一家已住进乡间一栋漂亮的新房子。这栋房子在姐姐离开前就已动工，五个月前竣工，里面有许多大房间，还有一个漂亮的花园。它非常现代化，因此在有些人看来很古怪，而且肯定是这个地区唯一的一栋现代化住宅。",
+  "tips": "complete 是及物动词，“房子竣工”要说 The house was completed...；in the country 表“在乡下”时 the 不能丢；work on it 中的 work 是抽象不可数名词。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why is the new house special?",
+   "zh": "这栋新房子为什么特别？",
+   "a": "Because it is a very modern house, so it looks strange to some people, and it must be the only modern house in the district.",
+   "aZh": "因为它是一栋非常现代化的住宅，有些人觉得它很古怪，而且它肯定是这个地区唯一的一栋现代化住宅。",
+   "hint": "见课文最后两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is the past perfect tense used in 'Work on it had begun before my sister left'?",
+   "zh": "为什么句中用过去完成时 had begun？",
+   "a": "Because the building work started before another past action (my sister left); the past perfect expresses 'the past in the past'.",
+   "aZh": "因为“动工”发生在“姐姐离开”这一过去动作之前，过去完成时用来表示“过去的过去”。",
+   "hint": "见第五句，并与 The house was completed five months ago 对照。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the writer say 'We are now living in a beautiful new house' instead of 'We live in...'?",
+   "zh": "为什么课文用现在进行时 are living，而不用一般现在时 live？",
+   "a": "Live usually describes a permanent state and is rarely used in the continuous form; here the -ing form with 'now' emphasises the present situation.",
+   "aZh": "live 表示长期居住，一般不用进行时；这里与 now 连用，用进行时强调目前的居住情况。",
+   "hint": "见第四句 We are now living in a beautiful new house in the country。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the text use 'there is' in 'there is a lovely garden' rather than 'it is'?",
+   "zh": "为什么用 there is a lovely garden，而不用 it is？",
+   "a": "'There is' introduces the existence of something mentioned for the first time; once it has been identified, 'it' is used to say more about it.",
+   "aZh": "there is 用于引出“存在某物”（首次提到的花园）；已经被指明之后，才用 it 进一步说明。",
+   "hint": "见第七句 The house has many large rooms and there is a lovely garden。"
+  },
+  {
+   "kind": "think",
+   "q": "Why will the sister get a surprise when she comes to England?",
+   "zh": "为什么姐姐来英国时会感到非常惊奇？",
+   "a": "She left before the house was finished, so she still pictures the old home; now she will find a beautiful new modern house in the country that must be the only modern house in the district.",
+   "aZh": "她是在房子动工前后离开的，印象里还是旧居；如今看到的却是乡间一栋漂亮、现代化、且是当地唯一的现代住宅，自然会大吃一惊。",
+   "hint": "综合第三、五句与末句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：这栋房子是 5 个月以前竣工的。",
+   "a": "The house was completed five months ago.",
+   "note": "complete 是及物动词，竣工须用被动。"
+  },
+  {
+   "q": "汉译英：它肯定是这个地区唯一的一栋现代化住宅。",
+   "a": "It must be the only modern house in the district.",
+   "note": "must 后接原形 be，地区用 in the district。"
+  },
+  {
+   "q": "句型转换：用 so 合并为一句。It is a very modern house. It looks strange to some people.",
+   "a": "It is a very modern house, so it looks strange to some people.",
+   "note": "so 表因果。"
+  },
+  {
+   "q": "句型转换：用 if 合并为一句。She will come to England next year. She will get a surprise.",
+   "a": "If she comes to England next year, she will get a surprise.",
+   "note": "真实条件句主将从现，从句用 comes。"
+  },
+  {
+   "q": "填空：用括号内动词的适当形式填空。Work on it had begun before my sister ____ (leave).",
+   "a": "left",
+   "note": "姐姐离开是过去动作，用一般过去时。"
+  },
+  {
+   "q": "填空：用 there is 或 it is 填空。____ a lovely garden behind the house. ____ is very lovely.",
+   "a": "There is; It is",
+   "note": "先 there be 引出存在，再用 it 说明。"
+  },
+  {
+   "q": "改错：改正句中一处错误。We are now living in a beautiful new house in country.",
+   "a": "We are now living in a beautiful new house in the country.",
+   "note": "country 作“乡下”讲时必须带 the。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中“这栋房子是5个月以前竣工的”，正确的英文表达是哪一项？",
+   "options": [
+    "The house was completed five months ago.",
+    "The house completed five months ago.",
+    "The house had completed five months ago.",
+    "The house was completing five months ago."
+   ],
+   "answer": 0,
+   "note": "房子是被建成的，须用被动 was completed。"
+  },
+  {
+   "q": "Work on it had begun before my sister left. 句中的 work on 是什么意思？",
+   "options": [
+    "do building work on something",
+    "finish something completely",
+    "travel to a place",
+    "live in a place"
+   ],
+   "answer": 0,
+   "note": "work on 意为“在……上施工／着手做”。"
+  },
+  {
+   "q": "课文中 in the country 的含义是哪一项？",
+   "options": [
+    "in the countryside",
+    "in the nation",
+    "in the city centre",
+    "in that district"
+   ],
+   "answer": 0,
+   "note": "country 与 the 连用、与 town 相对时意为“乡下”。"
+  },
+  {
+   "q": "“这房子在有些人看来很古怪”，正确的英文是哪一项？",
+   "options": [
+    "The house looks strange to some people.",
+    "The house looks strangely to some people.",
+    "The house is looked strange to some people.",
+    "Some people look the house strange."
+   ],
+   "answer": 0,
+   "note": "look 是系动词，后接形容词 strange；“对某人来说”用 to sb.。"
+  },
+  {
+   "q": "“它肯定是这个地区唯一的一栋现代化住宅”，正确的英文是哪一项？",
+   "options": [
+    "It must be the only modern house in the district.",
+    "It must is the only modern house in the district.",
+    "It must be the only modern house of the district.",
+    "It must be the only modern house at the district."
+   ],
+   "answer": 0,
+   "note": "must 后一律接动词原形 be；固定用 in the district。"
+  },
+  {
+   "q": "课文先说 There is a lovely garden，接着要进一步说明这个花园很大，句首应该用哪一项？",
+   "options": [
+    "It is",
+    "There is",
+    "There has",
+    "It has"
+   ],
+   "answer": 0,
+   "note": "用 there be 引出存在之后，须换用 it 作主语进一步说明。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u009",
+ "title": "A Cold Welcome",
+ "subtitle": "冷遇",
+ "lead": {
+  "question": "新年夜市政厅的大钟为何停摆？课文标题的“冷遇”究竟指什么？",
+  "warmup": "新年夜，人们聚在市政厅的大钟下，等着午夜十二点的钟声把新年迎进来。可就在十一点五十五分，大钟停了，巨大的分针一动不动。人群一直等到十二点零二分才反应过来：大钟“拒绝”敲响十二下，新年受到了冷遇。作者为何偏偏用“拒绝”二字？文末人们为何又笑又唱？",
+  "goals": [
+   "复述课文：用英语讲清新年夜大钟停摆的整个过程",
+   "掌握 a large crowd of、gather、Town Hall、minute hand、strike、refuse to 等核心表达",
+   "辨别过去完成时 had gathered 与过去将来时 would strike 在叙事中的作用",
+   "区分 at / on / in / during / till 的时间用法，会用 in twenty minutes' time"
+  ],
+  "summary": "本课以一次泡汤的新年倒计时为线索，串起过去完成时 had gathered、过去将来时 would strike、拟人化的 refused to welcome 等表达，并梳理 at、on、in、during、till 引导时间状语的分工。学完你能讲清：人群聚在何处、大钟本该何时敲响、为何 in twenty minutes' time 译作“二十分钟之后”。",
+  "tips": "易错：in twenty minutes' time 表“二十分钟之后”，配将来时；钟“敲响”用 strike，过去式 struck，不要写成 striked。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What does 'a cold welcome' refer to?",
+   "zh": "课文标题中的 a cold welcome（冷遇）指的是什么事？",
+   "a": "It refers to the big Town Hall clock which stopped at five to twelve and never struck twelve, so it 'refused to welcome the New Year'.",
+   "aZh": "指市政厅的大钟在 11 点 55 分停摆，始终没有敲响 12 下，等于“拒绝”迎接新年，新年因此受到冷遇。",
+   "hint": "答案出自末句 The big clock refused to welcome the New Year，并结合第 4 句 the clock stopped 理解。"
+  },
+  {
+   "kind": "detail",
+   "q": "Where had the large crowd gathered before midnight, and what were they waiting for?",
+   "zh": "午夜前，那一大群人聚集在哪里？他们在等什么？",
+   "a": "They had gathered under the Town Hall clock, waiting for it to strike twelve and welcome the New Year.",
+   "aZh": "他们聚集在市政厅的大钟下面，等着大钟敲响十二下，迎接新年到来。",
+   "hint": "见第 2、3 句：under the Town Hall clock 与 It would strike twelve。"
+  },
+  {
+   "kind": "detail",
+   "q": "At what exact time did the clock stop, and what time was it when someone shouted?",
+   "zh": "大钟是在几点停的？有人喊叫时又是几点？",
+   "a": "The clock stopped at five to twelve, and it was two minutes past twelve when someone shouted.",
+   "aZh": "大钟在 11 点 55 分停摆；有人喊叫时，时间已是 12 点零 2 分。",
+   "hint": "见第 4 句 at five to twelve 和第 6 句 It's two minutes past twelve!"
+  },
+  {
+   "kind": "detail",
+   "q": "Why are 'had gathered' and 'would strike' used instead of 'gathered' and 'will strike'?",
+   "zh": "课文为何用 had gathered 和 would strike，而不用 gathered、will strike？",
+   "a": "'Had gathered' is the past perfect, showing the crowd had already come together earlier; 'would strike' is the future in the past, showing that twelve was still to come from that past moment.",
+   "aZh": "had gathered 是过去完成时，表“过去的过去”；would strike 是过去将来时，表当时看来将要发生的事。",
+   "hint": "对照讲义注释：过去完成时表先完成，过去将来时表其后发生。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did everybody begin to laugh and sing instead of getting angry at the broken clock?",
+   "zh": "新年的钟声泡汤了，人们为何没有生气，反而又笑又唱？",
+   "a": "Because the clock's sudden silence was so unexpected and funny that people took it in good part: they laughed and welcomed the New Year by singing themselves.",
+   "aZh": "因为大钟“罢工”的意外太滑稽，人们不以为恼，索性自己笑着唱起来迎接新年，显得幽默而乐观。",
+   "hint": "抓住末句 At that moment 的转折，与标题 a cold welcome 形成反差。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：新年前夜，一大群人聚集在市政厅的大钟下面。",
+   "a": "On New Year's Eve, a large crowd of people gathered under the Town Hall clock.",
+   "note": "crowd 表人群，聚集用 gather。"
+  },
+  {
+   "q": "汉译英：再过二十分钟，大钟就要敲响十二下了。",
+   "a": "It would strike twelve in twenty minutes' time.",
+   "note": "过去将来时；in … time 表“之后”。"
+  },
+  {
+   "q": "用 at, on, in 填空：(1) ___ Wednesday evening (2) ___ five to twelve (3) ___ twenty minutes' time (4) ___ that moment",
+   "a": "(1) On (2) at (3) in (4) at",
+   "note": "某天晚上用 on，钟点用 at。"
+  },
+  {
+   "q": "句型转换：用 refused to 改写，保持拟人语气。The big clock did not want to welcome the New Year.",
+   "a": "The big clock refused to welcome the New Year.",
+   "note": "refuse to do 表“不肯做”，可拟人。"
+  },
+  {
+   "q": "改错：My watch said it was two minutes passed twelve, but the big clock refused strike.",
+   "a": "My watch said it was two minutes past twelve, but the big clock refused to strike.",
+   "note": "past 表时间“过”；refuse 接 to do。"
+  },
+  {
+   "q": "用括号中动词的适当形式填空：When I entered the room, the clock ___ (strike) five, and then its big hands suddenly ___ (stop).",
+   "a": "struck; stopped",
+   "note": "strike 过去式 struck，非 striked。"
+  },
+  {
+   "q": "汉译英：我们等啊等啊，可什么也没有发生。就在那时，大家笑了起来，唱起了歌。",
+   "a": "We waited and waited, but nothing happened. At that moment, everybody began to laugh and sing.",
+   "note": "happen 主语为物；begin to do。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中表示“一大群人已经聚集在市政厅大钟下”的正确表达是哪一项？",
+   "options": [
+    "A large crowd of people had gathered under the Town Hall clock.",
+    "A large crowd of people have gathered under the Town Hall clock.",
+    "A large crowd of people had gathering under the Town Hall clock.",
+    "A large crowd of people was gather under the Town Hall clock."
+   ],
+   "answer": 0,
+   "note": "had + 过去分词 gathered 构成过去完成时。"
+  },
+  {
+   "q": "表示“再过二十分钟，大钟将敲响十二下”，英文应选哪一项？",
+   "options": [
+    "It would strike twelve in twenty minutes' time.",
+    "It would strike twelve after twenty minutes' time.",
+    "It will strike twelve for twenty minutes.",
+    "It would strike twelve twenty minutes ago."
+   ],
+   "answer": 0,
+   "note": "in + 一段时间 + 's time 表“之后”，用于将来。"
+  },
+  {
+   "q": "表示“大钟敲响十二点”，正确的动词搭配是哪一项？",
+   "options": [
+    "The clock struck twelve.",
+    "The clock hit twelve.",
+    "The clock beat twelve.",
+    "The clock knocked twelve."
+   ],
+   "answer": 0,
+   "note": "钟“敲响”用 strike，过去式 struck。"
+  },
+  {
+   "q": "下列哪一项正确表达了“那座大钟不愿意迎接新年”？",
+   "options": [
+    "The big clock refused to welcome the New Year.",
+    "The big clock refused welcoming the New Year.",
+    "The big clock refused to welcoming the New Year.",
+    "The big clock denied to welcome the New Year."
+   ],
+   "answer": 0,
+   "note": "refuse 后接 to do；此处为拟人手法。"
+  },
+  {
+   "q": "关于本课标题 a cold welcome 的构词，下列说法正确的是哪一项？",
+   "options": [
+    "welcome 是名词，cold 作定语修饰，整体意为“冷遇”",
+    "welcome 是副词，用来修饰形容词 cold",
+    "cold welcome 是动词短语，意为“冷淡欢迎”",
+    "welcome 在此作连词，连接两个名词"
+   ],
+   "answer": 0,
+   "note": "形容词 + 名词构成名词短语。"
+  },
+  {
+   "q": "课文中“星期三的晚上”所使用的正确介词搭配是哪一项？",
+   "options": [
+    "On Wednesday evening, we went to the Town Hall.",
+    "In Wednesday evening, we went to the Town Hall.",
+    "At Wednesday evening, we went to the Town Hall.",
+    "During Wednesday evening, we went to the Town Hall."
+   ],
+   "answer": 0,
+   "note": "具体某一天的晚上用 on。"
+  }
+ ]
+}

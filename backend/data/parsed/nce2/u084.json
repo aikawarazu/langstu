@@ -1,0 +1,81 @@
+{
+ "unit": "u084",
+ "unitId": "u084",
+ "lessons": [
+  {
+   "lesson": 84,
+   "title": "On strike",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Busmen have decided to go on strike next week.",
+     "zh": "公共汽车司机决定下星期罢工。"
+    },
+    {
+     "en": "The strike is due to begin on Tuesday. No one knows how long it will last.",
+     "zh": "罢工定于星期二开始，谁也不知道会持续多久。"
+    },
+    {
+     "en": "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.",
+     "zh": "司机们声称此次罢工将一直持续到就工资和工作条件问题达成全面协议的时候为止。"
+    },
+    {
+     "en": "Most people believe that the strike will last for at least a week.",
+     "zh": "多数人认为此次罢工至少会持续一个星期。"
+    },
+    {
+     "en": "Many owners of private cars are going to offer 'free rides' to people on their way to work. This will relieve pressure on the trains to some extent .",
+     "zh": "很多私人汽车的车主正准备为乘车上班的人们提供“免费乘车”的服务，这将在某种程度上减轻对火车的压力。"
+    },
+    {
+     "en": "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.",
+     "zh": "与此同时，有一部分大学生自愿在罢工期间驾驶公共汽车。"
+    },
+    {
+     "en": "All the students are expert drivers, but before they drive any of the buses, they will have to pass a special test.",
+     "zh": "所有的学生都是开车的能手，但在驾驶公共汽车之前，他们必须通过一项专门测验。"
+    },
+    {
+     "en": "The students are going to take the test in two days' time.",
+     "zh": "学生们准备在两天后就接受测验。"
+    },
+    {
+     "en": "Even so, people are going to find it difficult to get to work.",
+     "zh": "即使这样，人们仍会感到上班有困难。"
+    },
+    {
+     "en": "But so far, the public has expressed its gratitude to the students in letters to the Press.",
+     "zh": "但到目前为止，公众已经向新闻界写信表达他们对学生们的感激之情了。"
+    },
+    {
+     "en": "Only one or two people have objected that the students will drive too fast!",
+     "zh": "只有一两个人提出反对意见，说学生们会把车开得太快！"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Who will be driving the buses next week?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "object",
+   "pos": "v",
+   "zh": "参考译文"
+  }
+ ],
+ "translation": [
+  "公共汽车司机决定下星期罢工。",
+  "罢工定于星期二开始，谁也不知道会持续多久。",
+  "司机们声称此次罢工将一直持续到就工资和工作条件问题达成全面协议的时候为止。",
+  "多数人认为此次罢工至少会持续一个星期。",
+  "很多私人汽车的车主正准备为乘车上班的人们提供“免费乘车”的服务，这将在某种程度上减轻对火车的压力。",
+  "与此同时，有一部分大学生自愿在罢工期间驾驶公共汽车。",
+  "所有的学生都是开车的能手，但在驾驶公共汽车之前，他们必须通过一项专门测验。",
+  "学生们准备在两天后就接受测验。",
+  "即使这样，人们仍会感到上班有困难。",
+  "但到目前为止，公众已经向新闻界写信表达他们对学生们的感激之情了。",
+  "只有一两个人提出反对意见，说学生们会把车开得太快！"
+ ]
+}

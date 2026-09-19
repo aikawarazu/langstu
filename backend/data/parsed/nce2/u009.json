@@ -1,0 +1,101 @@
+{
+ "unit": "u009",
+ "unitId": "u009",
+ "lessons": [
+  {
+   "lesson": 9,
+   "title": "——A cold welcome",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "On Wednesday evening, we went to the Town Hall.",
+     "zh": "星期三的晚上，我们去了市政厅。"
+    },
+    {
+     "en": "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.",
+     "zh": "那是一年的最后一天，一大群人聚集在市政厅的大钟下面。"
+    },
+    {
+     "en": "It would strike twelve in twenty minutes' time.",
+     "zh": "再过20分钟，大钟将敲响12下。"
+    },
+    {
+     "en": "Fifteen minutes passed and then, at five to twelve, the clock stopped.",
+     "zh": "15分钟过去了，而就在11点55分时，大钟停了。"
+    },
+    {
+     "en": "The big minute hand did not move.",
+     "zh": "那根巨大的分针不动了。"
+    },
+    {
+     "en": "We waited and waited, but nothing happened.",
+     "zh": "我们等啊等啊，可情况没有变化。"
+    },
+    {
+     "en": "Suddenly someone shouted, ‘It's two minutes past twelve!",
+     "zh": "突然有人喊道：“已经12点零2分了！"
+    },
+    {
+     "en": "The clock has stopped!",
+     "zh": "那钟已经停了！"
+    },
+    {
+     "en": "I looked at my watch. It was true.",
+     "zh": "”我看了一下我的手表，果真如此。"
+    },
+    {
+     "en": "The big clock refused to welcome the New Year.",
+     "zh": "那座大钟不愿意迎接新年。"
+    },
+    {
+     "en": "At that moment, everybody began to laugh and sing.",
+     "zh": "此时，大家已经笑了起来，同时唱起了歌。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "welcome",
+   "pos": "n",
+   "zh": "a cold welcome 冷遇"
+  },
+  {
+   "word": "crowd",
+   "pos": "v",
+   "zh": "a large crowd of people 一大群人／crowds of people 许多人，人山人海"
+  },
+  {
+   "word": "gather",
+   "pos": "v",
+   "zh": "people gathered 人们聚集在一起，尤指自发性的聚集"
+  },
+  {
+   "word": "shout",
+   "pos": "v",
+   "zh": "call out 大声喊叫"
+  },
+  {
+   "word": "refuse",
+   "pos": "v",
+   "zh": "★laugh　v. 笑"
+  }
+ ],
+ "translation": [
+  "星期三的晚上，我们去了市政厅。",
+  "那是一年的最后一天，一大群人聚集在市政厅的大钟下面。",
+  "再过20分钟，大钟将敲响12下。",
+  "15分钟过去了，而就在11点55分时，大钟停了。",
+  "那根巨大的分针不动了。",
+  "我们等啊等啊，可情况没有变化。",
+  "突然有人喊道：“已经12点零2分了！",
+  "那钟已经停了！",
+  "”我看了一下我的手表，果真如此。",
+  "那座大钟不愿意迎接新年。",
+  "此时，大家已经笑了起来，同时唱起了歌。"
+ ]
+}

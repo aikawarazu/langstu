@@ -1,0 +1,101 @@
+{
+ "unit": "u013",
+ "unitId": "u013",
+ "lessons": [
+  {
+   "lesson": 13,
+   "title": "—The Greenwood Boys",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "The Greenwood Boys are a group of pop singers.",
+     "zh": "“绿林少年”是一个流行歌曲演唱团。"
+    },
+    {
+     "en": "At present, they are visiting all parts of the country. They will be arriving here tomorrow.",
+     "zh": "目前他们正在全国各地巡回演出，明天就要到达此地。"
+    },
+    {
+     "en": "They will be coming by train and most of the young people in the town will be meeting them at the station.",
+     "zh": "他们将乘火车来，镇上的大部分青年人将到车站迎接他们。"
+    },
+    {
+     "en": "Tomorrow evening they will be singing at the Workers' Club.",
+     "zh": "明晚他们将在工人俱乐部演出。"
+    },
+    {
+     "en": "The Greenwood Boys will be staying for five days.",
+     "zh": "“绿林少年”准备在此逗留5天。"
+    },
+    {
+     "en": "During this time, they will give five performances.",
+     "zh": "在此期间，他们将演出5场。"
+    },
+    {
+     "en": "As usual,the police will have a difficult time.They will be trying to keep order.",
+     "zh": "同往常一样，警察的日子不好过，他们将设法维持秩序。"
+    },
+    {
+     "en": "It is always the same on these occasions",
+     "zh": "每逢这种场合，情况都这样。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "group",
+   "pos": "n",
+   "zh": "group：指合唱团"
+  },
+  {
+   "word": "band",
+   "pos": "n",
+   "zh": "★pop singer　流行歌手"
+  },
+  {
+   "word": "club",
+   "pos": "n",
+   "zh": "night club 夜总会"
+  },
+  {
+   "word": "performance",
+   "pos": "n",
+   "zh": "-mance 名词标志"
+  },
+  {
+   "word": "occasion",
+   "pos": "n",
+   "zh": "中文：在某种场合，某种条件下，某种环境中"
+  },
+  {
+   "word": "nowadays ad",
+   "pos": "v",
+   "zh": "be doing 正在做某事"
+  },
+  {
+   "word": "visit",
+   "pos": "v",
+   "zh": "all parts of the country 全国各地"
+  },
+  {
+   "word": "and",
+   "pos": "conj",
+   "zh": "the young people in the town 镇上的年轻人"
+  }
+ ],
+ "translation": [
+  "“绿林少年”是一个流行歌曲演唱团。",
+  "目前他们正在全国各地巡回演出，明天就要到达此地。",
+  "他们将乘火车来，镇上的大部分青年人将到车站迎接他们。",
+  "明晚他们将在工人俱乐部演出。",
+  "“绿林少年”准备在此逗留5天。",
+  "在此期间，他们将演出5场。",
+  "同往常一样，警察的日子不好过，他们将设法维持秩序。",
+  "每逢这种场合，情况都这样。"
+ ]
+}

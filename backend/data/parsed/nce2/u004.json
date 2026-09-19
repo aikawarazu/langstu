@@ -1,0 +1,71 @@
+{
+ "unit": "u004",
+ "unitId": "u004",
+ "lessons": [
+  {
+   "lesson": 4,
+   "title": "An exciting trip",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "I have just received a letter from my brother, Tim. He is in Australia.",
+     "zh": "我刚刚收到弟弟蒂姆的来信，他正在澳大利亚。"
+    },
+    {
+     "en": "He has been there for six months.",
+     "zh": "他在那儿已经住了6个月了。"
+    },
+    {
+     "en": "Tim is an engineer. He is working for a big firm and he has already visited a great number of different places in Australia.",
+     "zh": "蒂姆是个工程师，正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。"
+    },
+    {
+     "en": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.",
+     "zh": "他刚买了一辆澳大利亚小汽车，现在去了澳大利亚中部的小镇艾利斯斯普林斯。"
+    },
+    {
+     "en": "He will soon visit Darwin From there, he will fly to Perth.",
+     "zh": "他不久还将到达尔文去，从那里，他再飞往珀斯。"
+    },
+    {
+     "en": "My brother has never been abroad before, so he is finding this trip very exciting.",
+     "zh": "我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "receive",
+   "pos": "v",
+   "zh": "accept：同意接收"
+  },
+  {
+   "word": "different",
+   "pos": "adj",
+   "zh": "★centre　n. 中心"
+  },
+  {
+   "word": "abroad　ad",
+   "pos": "v",
+   "zh": "副词，直接和动词连用"
+  },
+  {
+   "word": "go i",
+   "pos": "n",
+   "zh": "go into...有去向的动作，还有进入的动作　　go into the room"
+  }
+ ],
+ "translation": [
+  "我刚刚收到弟弟蒂姆的来信，他正在澳大利亚。",
+  "他在那儿已经住了6个月了。",
+  "蒂姆是个工程师，正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。",
+  "他刚买了一辆澳大利亚小汽车，现在去了澳大利亚中部的小镇艾利斯斯普林斯。",
+  "他不久还将到达尔文去，从那里，他再飞往珀斯。",
+  "我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。"
+ ]
+}

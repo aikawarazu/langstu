@@ -1,0 +1,164 @@
+{
+ "unitId": "u043",
+ "title": "Over the South Pole",
+ "subtitle": "飞越南极",
+ "lead": {
+  "question": "伯德飞越南极时飞机险些坠毁，他们用什么办法越过了群山？",
+  "warmup": "1929年，美国探险家 R.E. 伯德在飞越北极三年之后，第一次飞越了南极。机上的人先为脚下连绵的群山拍下大量照片，转眼却陷入险境：飞机只有升到 10,000 英尺才能越过山头。伯德当机立断，命令助手扔掉两个沉重的食物袋，飞机随即上升，并以 400 英尺的余量飞越群山。",
+  "goals": [
+   "掌握 pole、flight、explorer、lie、serious、point、crash、sack、clear、order 等核心词",
+   "辨析 can/could 与 be able to 在“具体某次成功做成”上的差别",
+   "运用 for the first time、at first、at once、run into、get over、in sight 等短语",
+   "区分 at/over/above 等方位介词及 by 表示“相差”的用法"
+  ],
+  "summary": "课文按“顺利拍照—突遇险情—减重爬升—化险为夷”推进：先交代伯德 1929 年首次飞越南极，再用 though 引出转折，最后以扔掉食物袋、飞机上升并以 400 英尺余量越过山头收束。语言上要抓牢 be able to 表“成功做成”，以及 clear（不接触地越过）、by（相差）、in sight（看得见）。",
+  "tips": "be able to 强调“过去某次成功做成”，失败或否定才用 couldn't；本课 were able to take、was able to rise 不宜换成 could。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How was the plane able to clear the mountains?",
+   "zh": "飞机是怎样才得以飞越那些山头的？",
+   "a": "Byrd at once ordered his men to throw out two heavy food sacks. The plane was then able to rise and it cleared the mountains by 400 feet.",
+   "aZh": "伯德立刻命令助手们扔掉两个沉重的食物袋，飞机因此得以升高，并以 400 英尺的余量飞越了山头。",
+   "hint": "出自课文第 5 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What were Byrd and his men able to do at first, and what happened soon after?",
+   "zh": "起初伯德一行能做什么？不久后又发生了什么？",
+   "a": "At first they were able to take a great many photographs of the mountains that lay below, but they soon ran into serious trouble.",
+   "aZh": "起初他们拍下了飞机下方群山的大量照片，但很快就陷入了严重的困境。",
+   "hint": "见课文第 2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How high did the plane have to rise before it could get over the mountains?",
+   "zh": "飞机必须升到多高才能越过群山？",
+   "a": "It could only get over the mountains if it rose to 10,000 feet.",
+   "aZh": "它只有升到 10,000 英尺的高度，才能越过这些山头。",
+   "hint": "见课文第 4 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was Byrd certain that he would be able to reach the South Pole?",
+   "zh": "伯德为什么确信自己能飞抵南极？",
+   "a": "Because there were no more mountains in sight and the aircraft could fly over the endless white plains without difficulty.",
+   "aZh": "因为眼前再没有山了，飞机可以毫无困难地飞过这片茫茫无际的白色原野。",
+   "hint": "见课文第 6 句。"
+  },
+  {
+   "kind": "think",
+   "q": "What do you think of Byrd's decision to throw out the food sacks?",
+   "zh": "你如何看待伯德扔掉食物袋的决定？",
+   "a": "It was a quick and sensible decision: throwing out the two heavy food sacks was the only way to make the plane lighter and rise above the mountains, so losing some food was far better than crashing.",
+   "aZh": "这是一个果断而明智的决定：扔掉食物袋是让飞机减重上升的唯一办法，损失一些食物远好过坠毁。",
+   "hint": "结合 run into serious trouble 与 rise to 10,000 feet。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填词（flight / explorer / pole / lie）：Three years after his ____ over the North ____, the American ____, R.E. Byrd, flew over the South ____ for the first time; the mountains that ____ below were in his photographs.",
+   "a": "flight; Pole; explorer; Pole; lay",
+   "note": "lie 位于，过去式 lay。"
+  },
+  {
+   "q": "用 can/could 或 be able to 的正确形式填空：They tried several times and at last they ____ take a great many photographs.",
+   "a": "were able to",
+   "note": "过去某次成功做成用 were able to。"
+  },
+  {
+   "q": "用 run into 的适当形式填空：Soon after taking the photographs, they ____ serious trouble.",
+   "a": "ran into",
+   "note": "run into trouble 陷入困境。"
+  },
+  {
+   "q": "选词填空（get over / clear）：The plane could only ____ the mountains if it rose to 10,000 feet, and at last it ____ them by 400 feet.",
+   "a": "get over; cleared",
+   "note": "clear 指不接触地越过。"
+  },
+  {
+   "q": "介词填空（at / over / above / on）：The plane flew ____ the mountains and stayed ____ 10,000 feet.",
+   "a": "over; at",
+   "note": "over 从上方越过；at 接具体高度。"
+  },
+  {
+   "q": "汉译英：伯德马上命令他的助手们把两个沉重的食物袋扔掉。",
+   "a": "Byrd at once ordered his men to throw out two heavy food sacks.",
+   "note": "order sb. to do sth.。"
+  },
+  {
+   "q": "用 at first 或 for the first time 填空：____ they were able to take photographs; in 1929 Byrd flew over the South Pole ____.",
+   "a": "At first; for the first time",
+   "note": "at first 起初。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中 it cleared the mountains by 400 feet 的意思是什么？",
+   "options": [
+    "The plane flew over the mountains with 400 feet to spare.",
+    "The plane hit the mountains 400 feet below the top.",
+    "The plane flew at 400 feet above sea level.",
+    "The plane stopped 400 feet away from the mountains."
+   ],
+   "answer": 0,
+   "note": "clear 不接触地越过；by 表示相差。"
+  },
+  {
+   "q": "At one point, it seemed certain that their plane would crash. 句中的 at one point 在本课应理解为？",
+   "options": [
+    "At a certain place on the way",
+    "At a certain moment in the past",
+    "On one particular opinion",
+    "At least in one respect"
+   ],
+   "answer": 0,
+   "note": "此处指飞行途中的某处。"
+  },
+  {
+   "q": "there were no more mountains in sight 中 in sight 的含义是？",
+   "options": [
+    "within the range of vision",
+    "out of the range of vision",
+    "below the line of vision",
+    "as expected by everyone"
+   ],
+   "answer": 0,
+   "note": "in sight 在看得见的范围内。"
+  },
+  {
+   "q": "their plane would crash 中的 crash 指什么？",
+   "options": [
+    "hit the ground and be destroyed",
+    "land safely on the snow",
+    "rise higher into the sky",
+    "run out of fuel slowly"
+   ],
+   "answer": 0,
+   "note": "crash 坠毁。"
+  },
+  {
+   "q": "they were able to take a great many photographs 一句强调什么？",
+   "options": [
+    "They succeeded in taking the photographs.",
+    "They had a general ability to take photographs.",
+    "They were allowed to take photographs.",
+    "They were forced to take photographs."
+   ],
+   "answer": 0,
+   "note": "be able to 强调具体某一次成功做到。"
+  },
+  {
+   "q": "they soon ran into serious trouble 中的 ran into 可以替换为？",
+   "options": [
+    "got into",
+    "got over",
+    "ran out of",
+    "ran away from"
+   ],
+   "answer": 0,
+   "note": "run into trouble 等于 get into trouble。"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "unit": "u002",
+ "unitId": "u002",
+ "lessons": [
+  {
+   "lesson": 2,
+   "title": "Breakfast or lunch?",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "It was Sunday. I never get up early on Sundays. I sometimes stay in bed until lunchtime. Last Sunday I got up very late.",
+     "zh": "那是个星期天，而在星期天我是从来不早起的，有时我要一直躺到吃午饭的时候。"
+    },
+    {
+     "en": "I looked out of the window.",
+     "zh": "上个星期天，我起得很晚。"
+    },
+    {
+     "en": "It was dark outside.",
+     "zh": "我望望窗外，外面一片昏暗。"
+    },
+    {
+     "en": "‘What a day!’ I thought.",
+     "zh": "“鬼天气！"
+    },
+    {
+     "en": "‘It's raining again.",
+     "zh": "”我想，“又下雨了。"
+    },
+    {
+     "en": "’ Just then, the telephone rang.",
+     "zh": "”正在这时，电话铃响了。"
+    },
+    {
+     "en": "It was my aunt Lucy.",
+     "zh": "是我姑母露西打来的。"
+    },
+    {
+     "en": "‘I've just arrived by train, ’ she said.",
+     "zh": "“我刚下火车，”她说，“我这就来看你。"
+    },
+    {
+     "en": "‘I'm coming to see you.",
+     "zh": "”“但我还在吃早饭，”我说。"
+    },
+    {
+     "en": "’ ‘But I'm still having breakfast, ’ I said.",
+     "zh": "“你在干什么？"
+    },
+    {
+     "en": "‘What are you doing?’ she asked.",
+     "zh": "”她问道。"
+    },
+    {
+     "en": "‘I'm having breakfast, ’ I repeated ‘Dear me, ’ she said.",
+     "zh": "“我正在吃早饭，”我又说了一遍。"
+    },
+    {
+     "en": "‘Do you always get up so late?",
+     "zh": "“天啊，”她说，“你总是起得这么晚吗？"
+    },
+    {
+     "en": "It's one o'clock!’",
+     "zh": "现在已经1点钟了！”"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "until",
+   "pos": "prep",
+   "zh": "直到...才; 直到...为止"
+  },
+  {
+   "word": "outside　　　　　ad",
+   "pos": "v",
+   "zh": "作状语"
+  },
+  {
+   "word": "aunt",
+   "pos": "n",
+   "zh": "uncle:　叔叔"
+  },
+  {
+   "word": "repeat",
+   "pos": "v",
+   "zh": "【课文讲解】"
+  }
+ ],
+ "translation": [
+  "那是个星期天，而在星期天我是从来不早起的，有时我要一直躺到吃午饭的时候。",
+  "上个星期天，我起得很晚。",
+  "我望望窗外，外面一片昏暗。",
+  "“鬼天气！",
+  "”我想，“又下雨了。",
+  "”正在这时，电话铃响了。",
+  "是我姑母露西打来的。",
+  "“我刚下火车，”她说，“我这就来看你。",
+  "”“但我还在吃早饭，”我说。",
+  "“你在干什么？",
+  "”她问道。",
+  "“我正在吃早饭，”我又说了一遍。",
+  "“天啊，”她说，“你总是起得这么晚吗？",
+  "现在已经1点钟了！”"
+ ]
+}

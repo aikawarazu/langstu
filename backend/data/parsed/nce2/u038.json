@@ -1,0 +1,91 @@
+{
+ "unit": "u038",
+ "unitId": "u038",
+ "lessons": [
+  {
+   "lesson": 38,
+   "title": "Everything except the weather",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "My old friend, Harrison, had lived in the Mediterranean for many years before he returned to England.",
+     "zh": "我的老朋友哈里森在回到英国以前曾多年居住在地中海地区。"
+    },
+    {
+     "en": "He had often dreamed of retiring in England and had planned to settle down in the country.",
+     "zh": "过去他常幻想退休后到英国，并计划在乡间安顿下来。"
+    },
+    {
+     "en": "He had no sooner returned than he bought a house and went to live there.",
+     "zh": "他刚一回到英国便买下了一幢房子住了进去。"
+    },
+    {
+     "en": "Almost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold.",
+     "zh": "但紧接着他就开始抱怨那里的天气了。"
+    },
+    {
+     "en": "After so many years of sunshine, Harrison got a shock.",
+     "zh": "因为即使那时仍为夏季，但雨总是下个不停，而且常常冷得厉害。"
+    },
+    {
+     "en": "He acted as if he had never lived in England before.",
+     "zh": "在阳光下生活了那么多年的哈里森对此感到惊奇。"
+    },
+    {
+     "en": "In the end, it was more than he could bear.",
+     "zh": "他的举动就好像他从未在英国生活过一样。"
+    },
+    {
+     "en": "He had hardly had time to settle down when he sold the house and left the country.",
+     "zh": "最后，他再也忍受不住，还没等安顿下来就卖掉了房子，离开了这个国家。"
+    },
+    {
+     "en": "The dream he had had for so many years ended there.",
+     "zh": "他多年来的幻想从此破灭。"
+    },
+    {
+     "en": "Harrison had thought of everything except the weather.",
+     "zh": "哈里森把每件事情都考虑到了，唯独没想到天气。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Why did Harrison sell his house so quickly?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "complain",
+   "pos": "v",
+   "zh": "complain to sb. 向某人抱怨"
+  },
+  {
+   "word": "continually　ad",
+   "pos": "v",
+   "zh": "continuously：连续不断地"
+  },
+  {
+   "word": "bitterly　ad",
+   "pos": "v",
+   "zh": "bitterly cold：刺骨地寒冷"
+  },
+  {
+   "word": "sunshine",
+   "pos": "n",
+   "zh": "a drop of；一缕"
+  }
+ ],
+ "translation": [
+  "我的老朋友哈里森在回到英国以前曾多年居住在地中海地区。",
+  "过去他常幻想退休后到英国，并计划在乡间安顿下来。",
+  "他刚一回到英国便买下了一幢房子住了进去。",
+  "但紧接着他就开始抱怨那里的天气了。",
+  "因为即使那时仍为夏季，但雨总是下个不停，而且常常冷得厉害。",
+  "在阳光下生活了那么多年的哈里森对此感到惊奇。",
+  "他的举动就好像他从未在英国生活过一样。",
+  "最后，他再也忍受不住，还没等安顿下来就卖掉了房子，离开了这个国家。",
+  "他多年来的幻想从此破灭。",
+  "哈里森把每件事情都考虑到了，唯独没想到天气。"
+ ]
+}

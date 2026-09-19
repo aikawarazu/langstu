@@ -1,0 +1,164 @@
+{
+ "unitId": "u054",
+ "title": "Sticky Fingers",
+ "subtitle": "粘糊的手指",
+ "lead": {
+  "question": "作家刚把双手沾满面糊，就接连遇上了哪两次让人崩溃的打扰？",
+  "warmup": "清晨把孩子送去上学、丈夫也上了班，屋里难得安静，你系上围裙要做肉馅饼。黄油和面粉刚搅到一半，双手早已沾满黏糊糊的面糊，电话却在此刻响起——偏偏是最爱闲聊的海伦·贝茨。你好不容易劝她过会儿再打，挂上电话，手指、话筒、门把手全是面糊。刚回厨房，门铃又炸响：邮递员要你签收挂号信。",
+  "goals": [
+   "复述从做肉馅饼、接电话到签收挂号信的两次打扰主线",
+   "掌握 sticky / pastry / mix / pie / annoying / receiver / dismay / recognize / persuade / mess / doorknob / sign / register 等词语",
+   "熟练运用 at exactly that moment、persuade sb to do、hang up、sign for、be covered with",
+   "掌握 no sooner ... than 的过去完成时与句首倒装，以及 a / some / the 与零冠词的用法"
+  ],
+  "summary": "课文从一个清静的上午开始：送走孩子、丈夫上班后，作家决定做些肉馅饼。她正忙着拌黄油和面粉，双手很快沾满黏面糊，电话却恰恰在此时响起，来电的正是海伦·贝茨。她花了十分钟才说服对方过会儿再打。挂上电话，手指、话机、门把手全是面糊；刚回到厨房，门铃又响起，邮递员要她签收挂号信。",
+  "tips": "no sooner 后必须接 than，不能换成 when；它说的是“过去某一动作之前的动作”，主句用过去完成时，且 no sooner 置于句首时 had 要提到主语之前。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What two interruptions did the writer have?",
+   "zh": "作家遇上了哪两次打扰？",
+   "a": "A telephone call from Helen Bates and a ring at the doorbell — the postman wanted her to sign for a registered letter.",
+   "aZh": "第一次是海伦·贝茨打来的电话，第二次是门铃响——邮递员要她签收一封挂号信。",
+   "hint": "电话见 At exactly that moment, the telephone rang；门铃见末两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was the telephone call so annoying?",
+   "zh": "为什么这通电话让人格外恼火？",
+   "a": "Her hands were covered with sticky pastry, so she had to pick up the receiver between two sticky fingers, and it took her ten minutes to persuade Helen Bates to ring back later.",
+   "aZh": "她双手沾满黏面糊，只能用两个黏手指捏起话筒，而且花了十分钟才说服海伦过会儿再打来。",
+   "hint": "见第 5—9 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why are there no articles before school and work in 'The children were at school, my husband was at work'?",
+   "zh": "为什么 school 和 work 前不加冠词？",
+   "a": "Because they refer to the activity or purpose, not to the places themselves — school means 'attending lessons' and work means 'being on duty'.",
+   "aZh": "因为这里说的是“在上学”“在上班”这种用途或活动，而非具体地点。",
+   "hint": "零冠词用法。"
+  },
+  {
+   "kind": "detail",
+   "q": "Explain the tense and word order of 'I had no sooner got back to the kitchen than the doorbell rang'.",
+   "zh": "请说明该句的时态与语序。",
+   "a": "Getting back to the kitchen happened before the doorbell rang, so the past perfect is used with no sooner ... than. Inverted: No sooner had I got back to the kitchen than the doorbell rang.",
+   "aZh": "“回到厨房”先于“门铃响”发生，故用过去完成时配合 no sooner ... than；no sooner 提前时必须倒装。",
+   "hint": "末第二句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is 'Sticky Fingers' a good title for this story?",
+   "zh": "为什么“粘糊的手指”是本课的好标题？",
+   "a": "The sticky pastry on her fingers is the thread that ties the two interruptions together: it makes the telephone call unbearable, spreads to the receiver and doorknobs, and leaves her helpless when the bell rings again.",
+   "aZh": "手上的黏面糊是把两次打扰串起来的线索：它让电话难以忍受，又沾到话筒与门把手，门铃再响时她仍束手无策。",
+   "hint": "把 sticky pastry — two sticky fingers — pastry on the doorknobs 串起来读。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "语法填空：In a short time I was busy ______ (mix) butter and flour and my hands were soon covered ______ sticky ______.",
+   "a": "mixing; with; pastry",
+   "note": "be busy doing；be covered with。"
+  },
+  {
+   "q": "汉译英：恰恰在此时，电话铃响了。没有什么能比这更烦人了。",
+   "a": "At exactly that moment, the telephone rang. Nothing could have been more annoying.",
+   "note": "否定加比较级表最高级。"
+  },
+  {
+   "q": "用 no sooner ... than 合并：I got back to the kitchen. The doorbell rang loud enough to wake the dead.",
+   "a": "I had no sooner got back to the kitchen than the doorbell rang loud enough to wake the dead.",
+   "note": "先发生的动作用过去完成时。"
+  },
+  {
+   "q": "把上一句改为 no sooner 置于句首的倒装语序。",
+   "a": "No sooner had I got back to the kitchen than the doorbell rang loud enough to wake the dead.",
+   "note": "had 提到主语前。"
+  },
+  {
+   "q": "结构填空：It took me ten minutes ______ ______ (persuade) her ______ ______ (ring) back later.",
+   "a": "to persuade; to ring",
+   "note": "persuade sb to do sth。"
+  },
+  {
+   "q": "选词并用适当形式填空（receiver / dismay / recognize / hang up / mess / doorknob）：I picked up the ______ between two sticky fingers and was ______ when I ______ the voice of Helen Bates. At last I ______ the receiver. What a ______! There was pastry on my fingers, on the telephone, and on the ______.",
+   "a": "receiver; dismayed; recognized; hung up; mess; doorknobs",
+   "note": "be dismayed when...；hang up 挂断。"
+  },
+  {
+   "q": "汉译英（注意冠词）：孩子们在上学，我丈夫在上班，家里清静得很。于是我决定做些肉馅饼。",
+   "a": "The children were at school, my husband was at work and the house was quiet. So I decided to make some meat pies.",
+   "note": "school/work 表用途用零冠词。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作家决定做肉馅饼时，家里的情形是怎样的？",
+   "options": [
+    "The children were at home and the house was noisy.",
+    "The children were at school, her husband was at work and the house was quiet.",
+    "Her husband was cooking in the kitchen.",
+    "Some guests were coming for lunch."
+   ],
+   "answer": 1,
+   "note": "at school / at work 表用途用零冠词。"
+  },
+  {
+   "q": "电话铃响起时，作家正在做什么？",
+   "options": [
+    "She was busy mixing butter and flour.",
+    "She was washing the doorknobs.",
+    "She was talking to the postman.",
+    "She was reading a letter."
+   ],
+   "answer": 0,
+   "note": "be busy doing。"
+  },
+  {
+   "q": "她是用什么方式捏起话筒的？",
+   "options": [
+    "She picked up the receiver with a spoon.",
+    "She picked up the receiver after washing her hands.",
+    "She picked up the receiver between two sticky fingers.",
+    "She asked her husband to pick it up."
+   ],
+   "answer": 2,
+   "note": "sticky fingers 正是标题所指。"
+  },
+  {
+   "q": "下列哪一句正确表达了“我刚回到厨房，门铃就响了”？",
+   "options": [
+    "No sooner I had got back to the kitchen than the doorbell rang.",
+    "No sooner had I got back to the kitchen than the doorbell rang.",
+    "No sooner had I got back to the kitchen when the doorbell rang.",
+    "No sooner did I get back to the kitchen than the doorbell rang."
+   ],
+   "answer": 1,
+   "note": "no sooner 后接 than，置句首须倒装。"
+  },
+  {
+   "q": "挂上电话后，面糊沾到了哪些地方？",
+   "options": [
+    "Only on her fingers.",
+    "On the kitchen floor and the table.",
+    "On the receiver and the letter.",
+    "On her fingers, on the telephone and on the doorknobs."
+   ],
+   "answer": 3,
+   "note": "There was pastry on... 三层并列。"
+  },
+  {
+   "q": "门铃响后，门外是谁？他要作家做什么？",
+   "options": [
+    "The postman wanted her to sign for a registered letter.",
+    "Helen Bates came to visit her.",
+    "Her husband came back from work.",
+    "The children returned from school."
+   ],
+   "answer": 0,
+   "note": "sign for a registered letter 签收挂号信。"
+  }
+ ]
+}

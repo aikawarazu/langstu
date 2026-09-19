@@ -1,0 +1,96 @@
+{
+ "unit": "u007",
+ "unitId": "u007",
+ "lessons": [
+  {
+   "lesson": 7,
+   "title": "Too late",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "The plane was late and detectives were waiting at the airport all morning.",
+     "zh": "飞机误点了，侦探们在机场等了整整一上午。"
+    },
+    {
+     "en": "They were expecting a valuable parcel of diamonds from South Africa.",
+     "zh": "他们正期待从南非来的一个装着钻石的贵重包裹。"
+    },
+    {
+     "en": "A few hours earlier, someone had told the police that thieves would try to steal the diamonds.",
+     "zh": "数小时以前，有人向警方报告，说有人企图偷走这些钻石。"
+    },
+    {
+     "en": "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield .",
+     "zh": "当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。"
+    },
+    {
+     "en": "Two men took the parcel off the plane and carried it into the Customs House.",
+     "zh": "有两个人把包裹拿下飞机，进了海关。"
+    },
+    {
+     "en": "While two detectives were keeping guard at the door, two others opened the parcel.",
+     "zh": "这时两个侦探把住门口，另外两个侦探打开了包裹。"
+    },
+    {
+     "en": "To their surprise, the precious parcel was full of stones and sand!",
+     "zh": "令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "detective",
+   "pos": "n",
+   "zh": "detective story 侦探小说"
+  },
+  {
+   "word": "airport",
+   "pos": "n",
+   "zh": "★airfield　n. 飞机起落的场地"
+  },
+  {
+   "word": "expect",
+   "pos": "v",
+   "zh": "except 除……之外"
+  },
+  {
+   "word": "valuable",
+   "pos": "adj",
+   "zh": "★precious　adj. 珍贵的"
+  },
+  {
+   "word": "valueless",
+   "pos": "adj",
+   "zh": "worth 值："
+  },
+  {
+   "word": "parcel",
+   "pos": "n",
+   "zh": "★diamond　n. 钻石"
+  },
+  {
+   "word": "guard",
+   "pos": "n",
+   "zh": "life guard 救生员/body guard　保镖"
+  },
+  {
+   "word": "stone",
+   "pos": "n",
+   "zh": "★sand　n. 沙子"
+  }
+ ],
+ "translation": [
+  "飞机误点了，侦探们在机场等了整整一上午。",
+  "他们正期待从南非来的一个装着钻石的贵重包裹。",
+  "数小时以前，有人向警方报告，说有人企图偷走这些钻石。",
+  "当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。",
+  "有两个人把包裹拿下飞机，进了海关。",
+  "这时两个侦探把住门口，另外两个侦探打开了包裹。",
+  "令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！"
+ ]
+}

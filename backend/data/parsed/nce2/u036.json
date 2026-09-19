@@ -1,0 +1,121 @@
+{
+ "unit": "u036",
+ "unitId": "u036",
+ "lessons": [
+  {
+   "lesson": 36,
+   "title": "Across the Channel",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Debbie Hart is going to swim across the English Channel tomorrow.",
+     "zh": "黛比。"
+    },
+    {
+     "en": "She is going to set out from the French coast at five o'clock in the morning.",
+     "zh": "哈特准备明天横渡英吉利海峡。"
+    },
+    {
+     "en": "Debbie is only eleven years old and she hopes to set up a new world record.",
+     "zh": "她打算早上5点钟从法国海岸出发。"
+    },
+    {
+     "en": "She is a strong swimmer and many people feel that she is sure to succeed.",
+     "zh": "黛比只有11岁，她希望创一项新的世界纪录。"
+    },
+    {
+     "en": "Debbie's father will set out with her in a small boat.",
+     "zh": "她是一个游泳能手，很多人认为她一定能成功。"
+    },
+    {
+     "en": "Mr.. Hart has trained his daughter for years.",
+     "zh": "黛比的父亲将乘一条小船同她一道出发。"
+    },
+    {
+     "en": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+     "zh": "哈特先生训练她的女儿已经多年了，明天他将焦急地注视着女儿游过这段漫长的距离到达英国。"
+    },
+    {
+     "en": "Debbie intends to take short rests every two hours.",
+     "zh": "黛比计划每两小时休息一下。"
+    },
+    {
+     "en": "She will have something to drink but she will not eat any solid food.",
+     "zh": "她将喝些饮料，但不吃固体食物。"
+    },
+    {
+     "en": "Most of Debbie's school friends will be waiting for her on the English coast.",
+     "zh": "黛比的大部分同学将在英国海岸等候她。"
+    },
+    {
+     "en": "Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+     "zh": "他们当中还会有黛比的母亲，她本人还是个姑娘时，也曾横渡过英吉利海峡！"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What is Debbie going to try to do?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "record",
+   "pos": "n",
+   "zh": "如果同一词音节落在第一个音节的重音，肯定是名词，重音落在第二个音节肯定是动词"
+  },
+  {
+   "word": "strong",
+   "pos": "adj",
+   "zh": "as...as... 比如。比方"
+  },
+  {
+   "word": "swimmer",
+   "pos": "n",
+   "zh": "游泳者"
+  },
+  {
+   "word": "failure",
+   "pos": "n",
+   "zh": "★train　v. 训练"
+  },
+  {
+   "word": "anxiously　ad",
+   "pos": "v",
+   "zh": "anxious：焦急的"
+  },
+  {
+   "word": "intend",
+   "pos": "v",
+   "zh": "be to/be about to/be going do: 表将来"
+  },
+  {
+   "word": "during",
+   "pos": "prep",
+   "zh": "though meanwhile; though 虽然"
+  },
+  {
+   "word": "however　ad",
+   "pos": "v",
+   "zh": "连词连接两个句子，副词只能修饰句子或者动词，起修饰作用"
+  },
+  {
+   "word": "success",
+   "pos": "n",
+   "zh": "be + adj. 系表结构"
+  }
+ ],
+ "translation": [
+  "黛比。",
+  "哈特准备明天横渡英吉利海峡。",
+  "她打算早上5点钟从法国海岸出发。",
+  "黛比只有11岁，她希望创一项新的世界纪录。",
+  "她是一个游泳能手，很多人认为她一定能成功。",
+  "黛比的父亲将乘一条小船同她一道出发。",
+  "哈特先生训练她的女儿已经多年了，明天他将焦急地注视着女儿游过这段漫长的距离到达英国。",
+  "黛比计划每两小时休息一下。",
+  "她将喝些饮料，但不吃固体食物。",
+  "黛比的大部分同学将在英国海岸等候她。",
+  "他们当中还会有黛比的母亲，她本人还是个姑娘时，也曾横渡过英吉利海峡！"
+ ]
+}

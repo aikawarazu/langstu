@@ -1,0 +1,81 @@
+{
+ "unit": "u094",
+ "unitId": "u094",
+ "lessons": [
+  {
+   "lesson": 94,
+   "title": "Future champions",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "Experiments have proved that children can be instructed in swimming at a very early age.",
+     "zh": "实验证明，儿童在很小的时候就可以开始学习游泳。"
+    },
+    {
+     "en": "At a special swimming pool in Los Angeles, children become expert at holding their breath under water even before they can walk.",
+     "zh": "在洛杉矶的一个特设的游泳池里，孩子们甚至在还没有学会走路时就已经能熟练地在水下屏住呼吸了。"
+    },
+    {
+     "en": "Babies of two months old do not appear to be reluctant to enter the water.",
+     "zh": "两个月的婴儿并未显得不愿意入水。"
+    },
+    {
+     "en": "It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.",
+     "zh": "他们很快便适应了游泳，以致能捡起池底的物品。"
+    },
+    {
+     "en": "A game that is very popular with these young swimmers is the underwater tricycle race.",
+     "zh": "这些幼小的游泳运动员非常喜爱的一种游戏是水下三轮车比赛。"
+    },
+    {
+     "en": "Tricycles are lined up on the floor of the pool seven feet under water.",
+     "zh": "三轮车并排放在7英尺深的游泳池底上。"
+    },
+    {
+     "en": "The children compete against each other to reach the other end of the pool.",
+     "zh": "孩子们比赛看谁先到达游泳池的另一端。"
+    },
+    {
+     "en": "Many pedal their tricycles, but most of them prefer to push or drag them.",
+     "zh": "很多孩子用脚蹬车，但多数孩子更愿意推或是拉着三轮车。"
+    },
+    {
+     "en": "Some children can cover the whole length of the pool without coming up for breath even once.",
+     "zh": "有些孩子能够跑完游泳池的全长而不用露出水面换气。"
+    },
+    {
+     "en": "Whether they will ever become future Olympic champions, only time will tell.",
+     "zh": "他们将来是否能成为奥林匹克的冠军，这只能由时间来作出回答。"
+    },
+    {
+     "en": "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.",
+     "zh": "与此同时，他们对我们中的那些游不了5码就已喘不过气来的人应该是种鼓舞。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "What kind of race do the children compete in?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "instruct",
+   "pos": "v",
+   "zh": "Los Angeles 洛杉矶"
+  }
+ ],
+ "translation": [
+  "实验证明，儿童在很小的时候就可以开始学习游泳。",
+  "在洛杉矶的一个特设的游泳池里，孩子们甚至在还没有学会走路时就已经能熟练地在水下屏住呼吸了。",
+  "两个月的婴儿并未显得不愿意入水。",
+  "他们很快便适应了游泳，以致能捡起池底的物品。",
+  "这些幼小的游泳运动员非常喜爱的一种游戏是水下三轮车比赛。",
+  "三轮车并排放在7英尺深的游泳池底上。",
+  "孩子们比赛看谁先到达游泳池的另一端。",
+  "很多孩子用脚蹬车，但多数孩子更愿意推或是拉着三轮车。",
+  "有些孩子能够跑完游泳池的全长而不用露出水面换气。",
+  "他们将来是否能成为奥林匹克的冠军，这只能由时间来作出回答。",
+  "与此同时，他们对我们中的那些游不了5码就已喘不过气来的人应该是种鼓舞。"
+ ]
+}

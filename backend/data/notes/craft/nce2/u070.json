@@ -1,0 +1,164 @@
+{
+ "unitId": "u070",
+ "title": "Red for danger",
+ "subtitle": "危险的红色",
+ "lead": {
+  "question": "斗牛场上，一个醉汉误入场心，他怎样才能从牛角下全身而退？",
+  "warmup": "斗牛场上正斗得激烈，一个醉汉摇摇晃晃走进场地中央，观众惊呼，他却浑然不觉。公牛瞥见这个挥着红帽子、嘴里不干不净的家伙，竟撇下斗牛士直冲过来；醉汉踉跄一闪，人群欢呼，他居然还鞠躬谢幕。",
+  "goals": [
+   "掌握 bullfight、drunk、matador、ring、remark、criticism 等场景与叙事类词汇",
+   "熟练运用 be unaware of、catch sight of、break into、look on、out of the way、get close to 等短语",
+   "理清 charge、bow 的一词多义，以及 sensitive to criticism 一类形容词介词搭配",
+   "读懂末段长句：for 并列分句 + until 从句 + before 动名词结构"
+  ],
+  "summary": "故事把一场惊险写成闹剧：醉汉溜达进场中央却没意识到危险，公牛瞥见他后因受不了挑衅而直冲过来；醉汉踉跄闪开，观众爆发出欢呼，他还鞠躬致谢，最后被人拖到安全地带。语言重点则是形容词与介词的固定搭配。",
+  "tips": "形容词的介词靠搭配记：unaware of、sensitive to、busy with、close to、sorry for；break into 后接 cheers/tears/laughter 表“突然……起来”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How was the drunk removed from the ring?",
+   "zh": "那个醉汉是怎么被弄出斗牛场的？",
+   "a": "Three men came into the ring and they quickly dragged the drunk to safety.",
+   "aZh": "三个人进入斗牛场，迅速把醉汉拖到了安全的地方。",
+   "hint": "见 three men had come into the ring and they quickly dragged the drunk to safety。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the bull forget all about the matador and turn to the drunk?",
+   "zh": "公牛为什么撇开斗牛士而转向醉汉？",
+   "a": "Because it suddenly caught sight of the drunk, who was shouting rude remarks and waving a red cap; apparently sensitive to criticism, it charged at him.",
+   "aZh": "因为它突然看见了那个大声说粗话、挥舞红帽子的醉汉；对挑衅显然非常敏感，于是直奔醉汉而来。",
+   "hint": "见第二、三句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the drunk escape being hurt when the bull got close to him?",
+   "zh": "公牛逼近他时，醉汉是怎样躲开的？",
+   "a": "He clumsily stepped aside to let it pass.",
+   "aZh": "他踉跄地往旁边一闪，让公牛扑了个空。",
+   "hint": "When the bull got close to him, he clumsily stepped aside to let it pass。"
+  },
+  {
+   "kind": "detail",
+   "q": "What were the reactions of the crowd and of the bull after the drunk stepped aside?",
+   "zh": "醉汉闪开之后，观众和公牛各有什么反应？",
+   "a": "The crowd broke into cheers and the drunk bowed; the bull looked on sympathetically until the drunk was out of the way.",
+   "aZh": "观众爆发出欢呼，醉汉鞠躬致谢；公牛则同情地看着他，直到他不再挡道。",
+   "hint": "见 The crowd broke into cheers and the drunk bowed 与末句。"
+  },
+  {
+   "kind": "think",
+   "q": "Does the title 'Red for danger' mean that the bull is angry at the colour red? What is the real joke?",
+   "zh": "标题是说公牛怕红色吗？故事真正的笑点在哪儿？",
+   "a": "Not really. The joke is that the bull seems 'sensitive to criticism' of the drunk's rude remarks rather than to the red cap; the drunk survives by luck and comic self-confidence.",
+   "aZh": "并非如此。笑点在于公牛像是“对批评敏感”而不是对红色敏感；醉汉靠运气和滑稽的自信脱险。",
+   "hint": "联系 waving a red cap、sensitive to criticism、looked on sympathetically。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "选词填空（be unaware of / be busy with / be sensitive to / get close to / feel sorry for）：① The drunk ______ the danger. ② The bull ______ the matador at the time. ③ The bull ______ criticism. ④ When the bull ______ him, he clumsily stepped aside. ⑤ Even the bull seemed to ______ him.",
+   "a": "① was unaware of ② was busy with ③ was sensitive to ④ got close to ⑤ feel sorry for",
+   "note": "形容词与介词为固定搭配。"
+  },
+  {
+   "q": "根据课文及首字母补全单词：During a b______, a d______ suddenly w______ into the middle of the r______ and shouted rude r______. A______ sensitive to criticism, the bull c______ at him.",
+   "a": "bullfight; drunk; wandered; ring; remarks; Apparently; charged",
+   "note": "wander into 溜达进入。"
+  },
+  {
+   "q": "用 catch sight of 改写：As I came out of the shop, I suddenly saw Dan in the crowd.",
+   "a": "As I came out of the shop, I caught sight of Dan in the crowd.",
+   "note": "catch sight of 看见。"
+  },
+  {
+   "q": "用 break into 翻译：① 听到这个消息，她大哭起来。② 观众欢呼起来，醉汉鞠躬致谢。",
+   "a": "① On hearing the news, she broke into tears. ② The crowd broke into cheers and the drunk bowed.",
+   "note": "break into 突然……起来。"
+  },
+  {
+   "q": "写出下列各句中 charge 的含义：a) The bull charged at the drunk. b) They charged us too much for repairs. c) The police charged him with murder.",
+   "a": "a) 冲向、猛攻 b) 要价、收费 c) 指控、控告",
+   "note": "charge 三义。"
+  },
+  {
+   "q": "翻译并体会 bow 的不同含义：① 醉汉鞠躬致谢。② 他最终屈从于他们的决定。③ 大雪压弯了那棵小树。",
+   "a": "① The drunk bowed. ② He finally bowed to their decision. ③ The little tree is bowed with snow.",
+   "note": "bow：鞠躬／屈服／压弯。"
+  },
+  {
+   "q": "翻译：好像连公牛也在为他感到遗憾，因为它一直同情地看着醉汉，直到他不再挡道，才重新把注意力转向斗牛士。",
+   "a": "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
+   "note": "for 并列连词；before + 动名词。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“那个醉汉没有意识到危险”的正确英文表达是：",
+   "options": [
+    "The drunk was unaware of the danger.",
+    "The drunk was unaware for the danger.",
+    "The drunk was unaware with the danger.",
+    "The drunk was unaware at the danger."
+   ],
+   "answer": 0,
+   "note": "unaware 与 of 连用。"
+  },
+  {
+   "q": "表达“公牛突然看见了那个醉汉”，应选：",
+   "options": [
+    "it suddenly caught a sight of the drunk",
+    "it suddenly caught sight for the drunk",
+    "it suddenly caught sight of the drunk",
+    "it suddenly caught the sight of the drunk"
+   ],
+   "answer": 2,
+   "note": "catch sight of，sight 前无冠词。"
+  },
+  {
+   "q": "“公牛直奔醉汉而来”应说：",
+   "options": [
+    "The bull charged for the drunk.",
+    "The bull charged to the drunk.",
+    "The bull charged on the drunk.",
+    "The bull charged at the drunk."
+   ],
+   "answer": 3,
+   "note": "charge at sb."
+  },
+  {
+   "q": "“观众欢呼起来”的正确表达是：",
+   "options": [
+    "The crowd broke out cheers.",
+    "The crowd broke up cheers.",
+    "The crowd broke into cheers.",
+    "The crowd broke off cheers."
+   ],
+   "answer": 2,
+   "note": "break into。"
+  },
+  {
+   "q": "“三个人迅速把醉汉拖到安全的地方”，应选：",
+   "options": [
+    "they quickly dragged the drunk in safety",
+    "they quickly dragged the drunk for safety",
+    "they quickly dragged the drunk at safety",
+    "they quickly dragged the drunk to safety"
+   ],
+   "answer": 3,
+   "note": "drag sb. to safety。"
+  },
+  {
+   "q": "“它一直同情地看着醉汉，直到他不再挡道”，应选：",
+   "options": [
+    "it looked on sympathetically until the drunk was out of way",
+    "it looked on sympathetically until the drunk was out of the way",
+    "it looked on sympathetically until the drunk was in the way",
+    "it looked for sympathetically until the drunk was out of the way"
+   ],
+   "answer": 1,
+   "note": "out of the way 不挡道。"
+  }
+ ]
+}

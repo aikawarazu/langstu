@@ -1,0 +1,76 @@
+{
+ "unit": "u057",
+ "unitId": "u057",
+ "lessons": [
+  {
+   "lesson": 57,
+   "title": "Can I help you, madam?",
+   "kind": "课文 · 短文",
+   "lines": [
+    {
+     "en": "A woman in jeans stood at the window of an expensive shop.",
+     "zh": "一位穿着牛仔裤的妇女站在一家高档商店的橱窗前。"
+    },
+    {
+     "en": "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.",
+     "zh": "她虽然犹豫了片刻，但终于还是走进了商店，要求把陈列在橱窗里的一件衣服拿给她看。"
+    },
+    {
+     "en": "The assistant who served her did not like the way she was dressed. Glancing at her scornfully, he told her that the dress was sold.",
+     "zh": "接待她的售货员不喜欢她的那副打扮，轻蔑地看了她一眼后，便告诉她那件衣服已经卖出去了。"
+    },
+    {
+     "en": "The woman walked out of the shop angrily and decided to punish the assistant next day.",
+     "zh": "这位妇女怒气冲冲地走出了商店，决定第二天教训一下那个售货员。"
+    },
+    {
+     "en": "She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.",
+     "zh": "第二天上午，她又来到这家商店，穿了一件裘皮大衣，一只手拎着一只手提包，另一只手拿着一把长柄伞。"
+    },
+    {
+     "en": "After seeking out the rude assistant, she asked for the same dress.",
+     "zh": "找到那个无礼的售货员后，她还要看昨天的那件衣服。"
+    },
+    {
+     "en": "Not realizing who she was, the assistant was eager to serve her this time.",
+     "zh": "那个售货员没有认出她是谁，这一回接待她的态度非常殷勤。"
+    },
+    {
+     "en": "With great difficulty , he climbed into the shop window to get the dress.",
+     "zh": "费了好大劲儿，他爬进橱窗去取那件衣服。"
+    },
+    {
+     "en": "As soon as she saw it, the woman said she did not like it.",
+     "zh": "这位妇女对那件衣服只看一眼，就说不喜欢。"
+    },
+    {
+     "en": "She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.",
+     "zh": "她开心地迫使那位售货员把橱窗里几乎所有的东西都拿了出来，最后才买下了她最先要看的那一件。"
+    }
+   ]
+  }
+ ],
+ "question": {
+  "en": "Did the woman get what she wanted?",
+  "zh": ""
+ },
+ "words": [
+  {
+   "word": "eager",
+   "pos": "adj",
+   "zh": "be eager to do:急于做某事"
+  }
+ ],
+ "translation": [
+  "一位穿着牛仔裤的妇女站在一家高档商店的橱窗前。",
+  "她虽然犹豫了片刻，但终于还是走进了商店，要求把陈列在橱窗里的一件衣服拿给她看。",
+  "接待她的售货员不喜欢她的那副打扮，轻蔑地看了她一眼后，便告诉她那件衣服已经卖出去了。",
+  "这位妇女怒气冲冲地走出了商店，决定第二天教训一下那个售货员。",
+  "第二天上午，她又来到这家商店，穿了一件裘皮大衣，一只手拎着一只手提包，另一只手拿着一把长柄伞。",
+  "找到那个无礼的售货员后，她还要看昨天的那件衣服。",
+  "那个售货员没有认出她是谁，这一回接待她的态度非常殷勤。",
+  "费了好大劲儿，他爬进橱窗去取那件衣服。",
+  "这位妇女对那件衣服只看一眼，就说不喜欢。",
+  "她开心地迫使那位售货员把橱窗里几乎所有的东西都拿了出来，最后才买下了她最先要看的那一件。"
+ ]
+}

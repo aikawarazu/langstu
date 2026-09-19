@@ -1,0 +1,164 @@
+{
+ "unitId": "u047",
+ "title": "A thirsty ghost",
+ "subtitle": "嗜酒的鬼魂",
+ "lead": {
+  "question": "刚买下的酒馆为何急着转手？五只空威士忌瓶真是鬼喝的吗？",
+  "warmup": "伊恩·汤普森先生刚买下一家小酒店，转眼就挂牌出售，理由是屋里闹鬼：夜里酒吧传来怪声，第二天门被椅子堵住、家具被挪位，关掉的灯却亮着，还多了五只空威士忌酒瓶。可“我”暗示这可能是村民进来喝免费酒留下的，汤普森只是摇头。",
+  "goals": [
+   "掌握 must have done 对过去作肯定推测，并区分 must do 与 must have done",
+   "掌握 suggest 表“暗示/表明”与“建议”时接 that 从句的不同用法",
+   "运用 be up for sale、be haunted、give away、shake one's head、block、furniture 等搭配",
+   "复习 hear sb. doing、even if 让步从句与间接引语中 last night → the night before 的转换"
+  ],
+  "summary": "课文用一则幽默的“鬼故事”串起过去完成与情态推测：汤普森因“闹鬼”要卖酒馆，列举门被堵、家具移位、灯亮着、五只空威士忌瓶四项证据；叙述者却用 must have come in for a free drink 给出更接地气的解释，被摇头否定——村民连白送都不肯要。",
+  "tips": "must 表推测时，对现在用 must do，对过去用 must have done；感官动词 hear/see 后接 doing 强调“正在进行”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What evidence is there of a ghost?",
+   "zh": "有什么证据表明那里有鬼？",
+   "a": "The doors had been blocked by chairs and the furniture had been moved; though the lights had been turned off before he went to bed, they were on in the morning; and he found five empty whisky bottles which the ghost must have drunk the night before.",
+   "aZh": "酒吧的门被椅子堵住、家具被挪动过；临睡前关掉的灯早晨却亮着；他还发现了五只空的威士忌酒瓶，据说是鬼魂头天晚上喝的。",
+   "hint": "答案集中在第 3～6 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is Mr. Thompson going to sell the pub so soon after buying it?",
+   "zh": "汤普森先生为什么刚买下这家小酒店就要把它卖掉？",
+   "a": "Because it is haunted. He could not go to sleep one night because he heard a strange noise coming from the bar.",
+   "aZh": "因为那里闹鬼。有天夜里他听到酒吧里传来奇怪的响声，怎么也睡不着。",
+   "hint": "见第 1～3 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the writer suggest, and how did Mr. Thompson react?",
+   "zh": "作者暗示了什么？汤普森先生又是如何反应的？",
+   "a": "The writer suggested that some villagers must have come in for a free drink, but Mr. Thompson shook his head.",
+   "aZh": "作者暗示说一定是有些村民进来喝了不花钱的酒，汤普森先生摇了摇头表示不同意。",
+   "hint": "见第 7 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why won't the villagers take the pub even if it is free?",
+   "zh": "为什么即使酒馆白送，村民们也不肯要？",
+   "a": "Because they believe it is haunted. They have told him that they will not accept the pub even if he gives it away.",
+   "aZh": "因为他们相信那里闹鬼。村民们已经告诉他，即使他把小酒店白送人，他们也不会接受。",
+   "hint": "见末句。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you think the pub is really haunted? Give your reasons based on the text.",
+   "zh": "你认为这家酒馆真的闹鬼吗？请结合课文细节说明理由。",
+   "a": "Probably not. Blocked doors, moved furniture, lights left on and five empty whisky bottles look more like human visitors helping themselves to a free drink. But the villagers refuse the pub even when it is free, which keeps the mystery open.",
+   "aZh": "很可能不是。堵门、挪家具、灯亮着和五只空酒瓶更像是有人进来白喝酒留下的痕迹；但村民连白送都不肯要，故事因此留下悬念。",
+   "hint": "把“鬼证据”与末句“村民拒收”对照推断。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "根据课文填空：The next morning, he found that the doors had been _______ by chairs and the _______ had been moved.",
+   "a": "blocked; furniture",
+   "note": "furniture 不可数。"
+  },
+  {
+   "q": "根据课文填空：He found five empty _______ bottles, so the _______ was _______, not hungry.",
+   "a": "whisky; ghost; thirsty",
+   "note": "thirsty 双关。"
+  },
+  {
+   "q": "翻译：最近被伊恩·汤普森先生买下的那家小酒店现在要出售，因为它闹鬼。",
+   "a": "A public house which was recently bought by Mr. Ian Thompson is up for sale because it is haunted.",
+   "note": "up for sale 供出售。"
+  },
+  {
+   "q": "改写为对过去作肯定推测的句子：The ghost drank the whisky. → The ghost _______ _______ _______ the whisky.",
+   "a": "must have drunk",
+   "note": "对过去的推测。"
+  },
+  {
+   "q": "用 suggest 翻译：我暗示说一定是有些村民进来喝了不花钱的酒。",
+   "a": "I suggested that some villagers must have come in for a free drink.",
+   "note": "suggest 表“暗示”时从句不虚拟。"
+  },
+  {
+   "q": "合并句子：He heard a strange noise. It came from the bar. → He heard a strange noise _______ from the bar.",
+   "a": "coming",
+   "note": "hear sth. doing。"
+  },
+  {
+   "q": "翻译：汤普森先生摇了摇头，说即使他把小酒店白送人，村民们也不会接受。",
+   "a": "Mr. Thompson shook his head and said the villagers would not accept the pub even if he gave it away.",
+   "note": "give away 白送。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "汤普森先生为什么要把小酒店卖掉？",
+   "options": [
+    "Because the pub is too small",
+    "Because it is haunted",
+    "Because he has moved to another village",
+    "Because no one comes to the bar"
+   ],
+   "answer": 1,
+   "note": "because it is haunted。"
+  },
+  {
+   "q": "第二天早上，汤普森先生发现了什么？",
+   "options": [
+    "All the whisky bottles were broken",
+    "The doors had been blocked by chairs and the furniture had been moved",
+    "The bar was on fire",
+    "The lights had been stolen"
+   ],
+   "answer": 1,
+   "note": "block 堵住。"
+  },
+  {
+   "q": "“早上灯都亮着”正确的英文表达是？",
+   "options": [
+    "They were on in the morning",
+    "They were opened in the morning",
+    "They were lighting in the morning",
+    "They were turned up in the morning"
+   ],
+   "answer": 0,
+   "note": "on 形容词表示“开着的”。"
+  },
+  {
+   "q": "“这肯定是鬼魂头天晚上喝的”，空格处应填？",
+   "options": [
+    "the ghost must drink",
+    "the ghost must have drunk",
+    "the ghost had drunk",
+    "the ghost would drink"
+   ],
+   "answer": 1,
+   "note": "must have done。"
+  },
+  {
+   "q": "作者暗示（suggest）了什么？",
+   "options": [
+    "Some villagers must have come in for a free drink",
+    "Mr. Thompson himself must have drunk the whisky",
+    "The ghost must be thirsty again tonight",
+    "The pub must be sold at once"
+   ],
+   "answer": 0,
+   "note": "suggest 意为“暗示、表明”。"
+  },
+  {
+   "q": "村民们对白送的酒馆持什么态度？",
+   "options": [
+    "They will accept it gladly",
+    "They will buy it at a low price",
+    "They will not accept it even if he gives it away",
+    "They will turn it into a museum"
+   ],
+   "answer": 2,
+   "note": "even if 即使。"
+  }
+ ]
+}
