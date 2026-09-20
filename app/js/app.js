@@ -32,10 +32,14 @@ var MODES=['show','zh','en','blur'];
 var MODE_TXT={show:'字幕：双语',zh:'字幕：中文',en:'字幕：英文',blur:'字幕：模糊'};
 /* 播放速度档位：点「1x」按钮按此顺序循环，最快 2x（浏览器原生支持，音高不跑） */
 var RATES=[0.75,1,1.25,1.5,2];
-var S={book:'nce1',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
+var S={book:'',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
   loopAll:true,view:'study',vsimple:false,vp:1,ovBook:'',ovType:'all',ovQ:'',dict:{},
   seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0};
 (function initPref(){
+  /* 当前教材：恢复「上次打开的那一册」。该册可能已被删除，boot 里会再校验一次并回退到第一册。
+     注意：各册的学习位置另存为 last.<册id>，所以这里只要恢复册 id 就能连同位置一起回到原处。 */
+  var b=window.AppStore.pref('lastBook','');
+  if(typeof b==='string'&&b)S.book=b;
   var v=window.AppStore.pref('loopAll',null);
   if(v===null){try{v=localStorage.getItem('nce_loopall');}catch(e){}}   /* 兼容旧 key */
   if(v==='0'||v===false)S.loopAll=false;
@@ -222,12 +226,14 @@ function bindStatic(){
   });
   a.addEventListener('error',()=>toast('音频加载失败：需联网访问资源站'));
 }
+/* 记住「当前打开的是哪一册」：刷新后回到同一册（每册各自的学习位置另存为 last.<册id>） */
+function rememberBook(id){if(id){try{window.AppStore.setPref('lastBook',id);}catch(e){}}}
 function setBook(id){
   var bk=dataOf(id);
   if(!bk){toast('课程数据未加载：'+id);console.error('[course] setBook 失败，无数据：',id);return false;}
   try{$('#audio').pause();}catch(e){}
   var sel=$('#bookSel');if(sel)sel.value=id; /* 保持下拉框与当前课程一致 */
-  S.book=id;S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;
+  S.book=id;rememberBook(id);S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;
   S.seg=[];S.divs=[];S.wantStart=null;
   S.ui=Math.max(1,Math.min(bk.units.length,+(window.AppStore.pref('last.'+id,1)||1)||1));
   closeDir();renderDir();
@@ -1715,7 +1721,7 @@ function addOfficialAlbums(){
 /* 载入并打开某课程（空态 / 切换课程共用）：空态破坏了骨架时需要重建 */
 function startCourse(id){
   return window.AppData.get(id).then(function(p){
-    DATA[id]=p;COURSES=window.AppData.list();S.book=id;
+    DATA[id]=p;COURSES=window.AppData.list();S.book=id;rememberBook(id);
     S.ui=Math.min(p.units.length,+(window.AppStore.pref('last.'+id,1)||1)||1);
     if(!$('#head')){skeleton();bindStatic();applyMode();}   /* 空态把 #study 覆盖过 → 重建骨架并重绑事件 */
     renderBookSel();renderDir();syncCtl();setView('study');
@@ -1749,13 +1755,13 @@ function boot(){
     window.AppData.autoRefreshBuiltin().catch(function(){});
     handleHashImport();
     if(!COURSES.length){renderEmptyState();return;}
-    /* 恢复上次课程；不再存在的 id 回退到第一个 */
+    /* 恢复上次打开的册（S.book 由 lastBook 恢复）；该册已不存在（被删/换设备）则回退到第一册 */
     if(!COURSES.some(function(c){return c.id===S.book;}))S.book=COURSES[0].id;
     renderBookSel();
     return startCourse(S.book).then(function(){
       setInterval(function(){window.AppStore.setPref('last.'+S.book,S.ui);},1200);
-      /* 兜底：页面隐藏/关闭前把当前课立即写盘（扩展/移动端常在后台时被杀） */
-      var flushLast=function(){try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}};
+      /* 兜底：页面隐藏/关闭前把「当前册 + 当前课」立即写盘（扩展/移动端常在后台时被杀） */
+      var flushLast=function(){try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}rememberBook(S.book);};
       document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')flushLast();});
       window.addEventListener('pagehide',flushLast);
       window.addEventListener('beforeunload',flushLast);
