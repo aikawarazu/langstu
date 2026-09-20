@@ -8,7 +8,7 @@
    对外只暴露标准结构（docs/course-package-spec.md），app.js 不再碰全局变量。 */
 window.AppData = (function () {
   var SPEC = '1.0';                 /* 本站支持的规范版本（MAJOR.MINOR） */
-  var APP = '1.4.0';                /* 站点版本：升级后会自动刷新内置资源网站 */
+  var APP = '1.5.1';                /* 站点版本：升级后会自动刷新内置资源网站 */
   var SUPPORTED_MAJORS = [1];
   var SEED_URL = 'data/sources.json';
 

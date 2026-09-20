@@ -252,7 +252,7 @@ New words and expressions 生词和短语                  ← 词 + 词性 + �
 
 - **改了数据页面没变** → 数据走 CDN：升 `data/VERSION` → 重新构建 → 打新 `data` tag → 用户端「资源网站 → 🔄 刷新」；只改界面才需要 `index.html` 的 `?v=N` +1。
 - **导入被拒绝「数据规范 vX 不受支持」** → `specVersion` 主版本与站点不一致，升级站点或换兼容版本的数据（见 [versioning.md](./versioning.md)）。
-- **示例 URL 取不到数据** → 先试 `data/demo/package.json`（站点自带，一定能取到）；CDN 地址需要 tag 已推送（`@data-v1.0.0`）。
+- **示例 URL 取不到数据** → 先试 `data/demo/package.json`（站点自带，一定能取到）；CDN 地址需要 tag 已推送（当前 `@data-v1.1.0`）。
 - **上传校验不过** → 看控制台：`id` 非法、缺 `title`、`kind` 不是 series/single。
 - **内容没显示但锚点有计数** → 内容懒加载失败，查 `unit.contentRef`（相对包文件解析，如 `content/nce1/u001.json`）。
 - **缓存 / 音频** → 课文与字幕后台自动全量预载；音频按课按需下载，或在课程管理里「⬇ 缓存全部音频」。

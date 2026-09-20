@@ -97,8 +97,8 @@ https://<站点>/#import=<encodeURIComponent(A 或 B 的 URL)>
 | 用途 | URL | 说明 |
 |---|---|---|
 | 本地示例（一定可用） | `data/demo/package.json` | 站点自带，自创的三课小教材，零版权，用于验证链路 |
-| CDN 清单（需先打 tag） | `https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.0.0/data/courses/index.json` | 四册专辑清单 |
-| CDN 单册 | `https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.0.0/data/courses/nce1.json` | 第一册课程包 |
+| CDN 清单（需先打 tag） | `https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.1.0/data/courses/index.json` | 四册专辑清单 |
+| CDN 单册 | `https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.1.0/data/courses/nce1.json` | 第一册课程包 |
 
 课程管理 →「📥 导入说明」里有「试一试」按钮，会真的去取这些 URL 并显示返回摘要。
 

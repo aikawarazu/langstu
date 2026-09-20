@@ -239,7 +239,7 @@ window.Library = (function () {
     if (act === 'install') return installAlbum(s, v);
     if (act === 'upd') return installAlbum(s, v);
     if (act === 'try') return tryUrl();
-    if (act === 'try-cdn') { var i = $('#tryUrl'); if (i) i.value = 'https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.0.0/data/courses/index.json'; return; }
+    if (act === 'try-cdn') { var i = $('#tryUrl'); if (i) i.value = 'https://cdn.jsdelivr.net/gh/aikawarazu/langstu@data-v1.1.0/data/courses/index.json'; return; }
     if (act === 'copy-prompt') return copyText((window.LS_PROMPT || {}).MAIN || '');
     if (act === 'dl-sample') return downloadJSON('course-sample.json', (window.LS_PROMPT || {}).SAMPLE || {});
     if (act === 'toggle-prompt') { var p = $('#promptBox'); if (p) p.hidden = !p.hidden; return; }
