@@ -2,6 +2,31 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。版本与 tag 规范见 [docs/versioning.md](./docs/versioning.md)。
 
+## [Unreleased] - 2026-09-20
+
+### 新增
+- **第二册、第三册精编稿全量补齐**：nce2 96 课、nce3 60 课全部达到与第一册一致的精编标准（`lead` 导学 5 字段 / `questions` 5 条（首条听力）/ `exercises` 7 条 / `quiz` 6 条），并检出中英逐句对齐的课文 `text`。
+  - nce2 中 7 课（u006/u008/u015/u016/u026/u059/u060）原站缺失课文，由智能体按教材补写 `text`。
+  - 数据落点：`data/courses/content/nce2|nce3/*.json`；精编稿源：`backend/data/notes/craft/nce2|nce3/*.json`。
+- **第四册精编稿前 16 课**（u001–u016），其余单元按需求变更暂不生成。
+- **数据管线脚本**：`backend/scripts/extract_raw_nce234.py`（原文抽取 + 中英比例成组对齐）、`backend/scripts/assemble_craft.py`（增量稿 → 精编稿 + 完成标记 + 契约校验）、`backend/scripts/validate_courses.py`（全量字段齐备性与污染检查）。
+- **协作进度目录** `progress/nce234-craft/`：`extract/`（只读素材）、`delta/`（AI 增量稿）、`units/`（`.lock` 领取 / `.done` 完成标记），支持多智能体并行且互不抢课。
+
+### 变更
+- `extension/build_data.py`：数据源路径由已失效的 `app/data/courses` 修正为 `data/courses`，同步恢复正常（281 文件 + `vocab.json` 重建）。
+- `backend/scripts/validate_courses.py`：词典串污染规则收窄（`人性化` → `人性化 adjacent`），消除对合法释义的误报。
+
+### 修复
+- 抽取器兼容听力室两种页面模板（正文页 / 双语词典弹窗页），修复弹窗词条与脚注编号混入课文的问题。
+- **第一册课文译文补齐**：nce1 对话体课文（Lesson 5 起）此前只有英文、缺中文，本次为 u003–u027 共 **25 个单元 / 337 行**补齐逐句译文，并删除 u006 中混入正文的说话人残片（`"DAVE:"`）。
+  - 译稿固化在 `backend/data/notes/nce1_zh/*.json`，由 `build_course_packages.py` 的 `apply_zh_patch()` 在构建时应用——避免直接改构建产物导致重建后译文丢失。
+  - 新增工具：`backend/scripts/prepare_nce1_zh.py`（汇总素材）、`backend/scripts/apply_nce1_zh.py`（校验+写回+标记）、`backend/scripts/freeze_nce1_zh.py`（固化为数据源）。
+- **第一册 u001 精编稿补齐**：`craft/nce1/u001.json` 新增，补齐 `lead.warmup/goals`、`questions` 1→5、`exercises` 5→7、`quiz` 0→6。
+- `extension/build_data.py` 移除 Python 2 遗留的 `str.to_unicode()` 调用及未使用的 `sys` 导入、`unit_meta` 变量，静态检查 error 归零。
+
+### 数据
+- 四册校验现状：`nce1` / `nce2` / `nce3` 全部 **NG=0**；`nce4` 已完成 u001–u016（其余 32 课按需求暂不生成）。
+
 ## [Unreleased] - 2026-09-13
 
 ### 新增

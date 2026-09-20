@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u041",
+ "book": "nce2",
+ "unitId": "u041",
+ "title": "Do You Call That a Hat?",
+ "subtitle": "你把那个叫帽子吗？",
+ "hasText": false,
+ "lines": 12,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "f6023fc2df19",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

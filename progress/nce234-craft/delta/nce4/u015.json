@@ -1,0 +1,35 @@
+{
+ "title": "Secrecy in Industry",
+ "subtitle": "工业中的秘密",
+ "lead": {
+  "question": "工业中的科学研究为何效率不高？化学工业为何尤其需要保密？",
+  "warmup": "想一想：公司里搞研发的人，为什么常不愿让人知道自己在研究什么？课文指出，工业科研效率受两个因素拖累——普遍存在的保密气氛，以及研究人员缺乏个人自由。保密把科研人员与外界同行隔离开来。作者还提到：公司连去图书馆借书都怕留下名字。读时留意保密到了什么程度、又付出什么代价。",
+  "goals": ["掌握 secrecy、secret、industry、patent、inquiry、research worker 等科研与保密主题词汇。", "理解 weigh against、in so far as、take out a patent、for fear (that) 等固定表达。", "辨析 secrecy 与 secret，并熟练运用被动语态、such...that 与定语从句描述科研所受限制。", "体会 the one ... the other 对称结构与 for fear (that)...should 所表达的目的语气。"],
+  "summary": "课文开篇指出工业科研效率受两大因素拖累：普遍的保密气氛与研究人员缺乏个人自由。保密使研究人员难与国内外同行有效接触。大公司的基础研究不必保密，更多工艺则在取得专利前严守机密，甚至永不申请专利。化学工业尤其如此，偶然发现远多于物理和机械工业，保密竟到了连研究性质都不能提及的地步。",
+  "tips": "secrecy 只作名词，指“保密状态”；secret 兼作名词和形容词，别混用。take out a patent 意为“取得专利”，动词搭配是 take out。for fear (that) 后从句常用 should，表示“唯恐”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why is secrecy particularly important in the chemical industries?", "zh": "为什么保密在化学工业中尤为重要？", "a": "Because in the chemical industries chance discoveries play a much larger part than they do in physical and mechanical industries, so firms keep their new processes strictly secret.", "aZh": "因为在化学工业中，偶然发现所起的作用远大于物理和机械工业，所以企业把新工艺严加保密。", "hint": "见课文第 7 句：This applies particularly to chemical industries, where chance discoveries play a much larger part..."},
+  {"kind": "detail", "q": "What two factors weigh heavily against the effectiveness of scientific research in industry?", "zh": "哪两个因素严重妨碍工业中科学研究的效率？", "a": "One is the general atmosphere of secrecy in which research is carried out, the other is the lack of freedom of the individual research worker.", "aZh": "一是科研工作中普遍存在的保密气氛，二是研究人员缺乏个人自由。", "hint": "见课文第 1、2 句，注意 the one ... the other 的对称结构。"},
+  {"kind": "detail", "q": "How does secrecy limit the scientists engaged in research?", "zh": "保密怎样限制了从事研究的科学家？", "a": "In so far as any inquiry is a secret one, it limits them from effective contact with their fellow scientists in other countries or universities, or even in other departments of the same firm.", "aZh": "只要某项研究是保密的，它就会限制他们与别国、别的大学，甚至本公司其他部门的同行进行有效接触。", "hint": "见课文第 3 句，注意 in so far as 引导的程度状语。"},
+  {"kind": "detail", "q": "What happens to the processes depending on such research?", "zh": "依赖这类研究的工艺程序会怎样？", "a": "Many are sought for with complete secrecy until the stage at which patents can be taken out; even more are never patented at all but kept as secret processes.", "aZh": "很多工艺程序是在完全保密的情况下进行的，直到可以取得专利权的阶段；更多的则根本不会申请专利，而是作为秘方保存着。", "hint": "见课文第 5、6 句，注意 at which 引导的定语从句。"},
+  {"kind": "think", "q": "Why are many firms unwilling to borrow books from libraries, and what does this show?", "zh": "为什么许多公司不愿从图书馆借书？这说明了什么？", "a": "Because they are unwilling to have their names entered as having taken out such and such a book, for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking. It shows how extreme industrial secrecy can become.", "aZh": "因为它们不愿让人记下公司名字和所借书籍，生怕别家公司的情报人员据此摸到它们可能从事的科研项目。这表明工业保密可以走到多么极端的地步。", "hint": "见课文最后一句，体会 for fear (that) ... should 的用法。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：有两个因素严重妨碍工业中科学研究的效率。", "a": "Two factors weigh heavily against the effectiveness of scientific research in industry.", "note": "weigh against 妨碍"},
+  {"q": "填空：The degree of secrecy naturally ______ (vary) considerably from firm to firm.", "a": "varies", "note": "主语单数，用 varies"},
+  {"q": "句型转换：用 such...that 合并 “Some bigger firms are engaged in researches which are of general and fundamental nature. It is a positive advantage to them not to keep them secret.”", "a": "Some of the bigger firms are engaged in researches which are of such general and fundamental nature that it is a positive advantage to them not to keep them secret.", "note": "such...that 引导结果"},
+  {"q": "填空：Many processes are sought for with complete secrecy until the stage ______ which patents can be taken out.", "a": "at", "note": "at which 引导定语从句"},
+  {"q": "改错：Even more processes are never patented at all but keep as secret processes.", "a": "Even more processes are never patented at all but kept as secret processes.", "note": "并列被动须用 kept"},
+  {"q": "汉译英：有些公司不愿让人记下公司名字和所借书籍，生怕别家公司的情报人员据此摸到它们的研究项目。", "a": "Some firms are unwilling to have their names entered as having taken out books, for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking.", "note": "for fear (that)...should"},
+  {"q": "改错：Many firms have great difficulty to obtain technical or scientific books from libraries.", "a": "Many firms have great difficulty in obtaining technical or scientific books from libraries.", "note": "have difficulty in doing"}
+ ],
+ "quiz": [
+  {"q": "课文认为，严重妨碍工业中科学研究效率的两个因素是什么？", "options": ["The atmosphere of secrecy and the lack of freedom of the research worker", "High costs and a shortage of scientists", "Poor libraries and slow printing", "Tariffs and government regulations"], "answer": 0, "note": "见课文第 1、2 句。"},
+  {"q": "关于保密程度，课文怎么说？", "options": ["It varies considerably from firm to firm.", "It is the same in all industries.", "It does not exist in big firms.", "It applies only to universities."], "answer": 0, "note": "The degree of secrecy naturally varies considerably."},
+  {"q": "为什么某些大公司不把研究保密？", "options": ["Because the research is of such general and fundamental nature that secrecy is no advantage.", "Because they cannot afford to keep secrets.", "Because the government forbids secrecy.", "Because their scientists refuse to keep secrets."], "answer": 0, "note": "not to keep them secret is a positive advantage。"},
+  {"q": "课文说化学工业的特殊之处是什么？", "options": ["Chance discoveries play a much larger part there.", "Chemical firms never take out patents.", "Chemical research is never secret.", "Chemical industries need no scientific books."], "answer": 0, "note": "where chance discoveries play a much larger part。"},
+  {"q": "为什么许多公司不愿从图书馆借科技书籍？", "options": ["They fear their names and the books would reveal their research.", "They cannot read technical books.", "The libraries refuse to lend to firms.", "The books are far too expensive."], "answer": 0, "note": "for fear the agents of other firms should trace their research。"},
+  {"q": "下列哪个句子的被动语态使用正确？", "options": ["Even more processes are never patented but kept secret.", "Even more processes are never patent but keep secret.", "Even more processes never patented but kept secret.", "Even more processes are never patented but keep secret."], "answer": 0, "note": "并列被动应为 are patented / (are) kept。"}
+ ]
+}

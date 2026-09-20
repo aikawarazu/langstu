@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u030",
+ "book": "nce2",
+ "unitId": "u030",
+ "title": "Football or polo?",
+ "subtitle": "足球还是水球？",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "49d2e4dbff96",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

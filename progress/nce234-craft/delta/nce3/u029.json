@@ -1,0 +1,35 @@
+{
+ "title": "Funny or Not",
+ "subtitle": "是否可笑",
+ "lead": {
+  "question": "为什么同一则笑话在不同国家反应不同？“病态幽默”又以什么为素材？",
+  "warmup": "笑话能否逗人发笑，往往不取决于笑话本身，而取决于听笑话的人在哪儿长大。课文告诉我们：幽默感与民族性格有着神秘的联系，同一则笑话可能让英国人大笑，却让俄国人无动于衷。不过某些滑稽情节又具有普遍感染力，比如卓别林的早期电影。近来源自美国的“病态幽默”把暴死、事故当笑料，究竟可笑与否，还得你自己判断。",
+  "goals": ["掌握 comedy / comic / humour / sense of humour / universal / appeal 等本课核心词汇，弄清 comic 与 comedy 的词性差别。", "学会 whether...or not 引导主语从句，以及 in spite of、no matter where 等让步表达。", "读懂课文对“病态幽默”的定义与实例，能复述那个摔断腿的男人的故事。", "辨析一般过去时与现在完成时，理解 recently 与现在完成时的搭配。"],
+  "summary": "课文指出：一则笑话是否可笑，很大程度上取决于我们成长的环境，幽默感与民族特征神秘相连。不过某些滑稽情节具有普遍吸引力，卓别林的早期电影便是明证。近来源自美国的“病态幽默”开始流行，喜剧演员把暴死、重大事故等悲剧当素材，不少人觉得它低级庸俗。课文最后讲了一个实例，供读者自行判断。",
+  "tips": "whether...or not 作主语从句时不能换成 if；no matter where 与 wherever 可互换，后者更书面。易错点是 in spite of 之后不能再加 but。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What is the basis of 'sick' humour?", "zh": "“病态幽默”的依据是什么？", "a": "Comedians base their jokes on tragic situations like violent death or serious accidents.", "aZh": "喜剧演员把笑话建立在诸如暴死、重大事故等悲剧情节之上。", "hint": "课文第10句：Comedians base their jokes on tragic situations like violent death or serious accidents."},
+  {"kind": "detail", "q": "According to the text, what is the sense of humour bound up with?", "zh": "根据课文，幽默感与什么相连？", "a": "It is mysteriously bound up with national characteristics.", "aZh": "它与民族特征神秘地联系在一起。", "hint": "课文第2句：The sense of humour is mysteriously bound up with national characteristics."},
+  {"kind": "detail", "q": "In spite of national differences, what do certain funny situations have?", "zh": "尽管民族不同，某些滑稽情节具有什么？", "a": "They have a universal appeal.", "aZh": "它们具有普遍的吸引力。", "hint": "课文第6句：In spite of national differences, certain funny situations have a universal appeal."},
+  {"kind": "detail", "q": "What happened to the man at the end of the party?", "zh": "晚会结束时，那个男人发生了什么？", "a": "He slipped on a piece of ice and broke his left leg.", "aZh": "他踩到一块冰上滑倒了，摔断了左腿。", "hint": "课文最后一句：he slipped on a piece of ice and broke his left leg."},
+  {"kind": "think", "q": "Why is the ending of the story both ironic and 'sick'?", "zh": "为什么这个结局既讽刺又“病态”？", "a": "Because the man kept telling everyone how much he hated hospitals, yet he broke his left leg and would have to go back to hospital.", "aZh": "因为那人整晚都在说他多么讨厌医院，结果在晚会上摔断了左腿，又不得不回到医院。", "hint": "结合课文最后两句体会“病态幽默”：以悲剧收场，出人意料。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们觉得一则笑话是否好笑，很大程度上取决于我们在哪儿长大。", "a": "Whether we find a joke funny or not largely depends on where we have been brought up.", "note": "whether...or not 引导主语从句"},
+  {"q": "汉译英：尽管民族不同，某些滑稽情节却具有普遍的吸引力。", "a": "In spite of national differences, certain funny situations have a universal appeal.", "note": "in spite of 让步，后接名词"},
+  {"q": "用所给词的适当形式填空：This funny story is based on a ____ (comedy) situation.", "a": "comic", "note": "comic 是形容词，comedy 是名词"},
+  {"q": "句型转换：将 No matter where you live, you would find it difficult not to laugh. 改写为 wherever 引导的句子。", "a": "Wherever you live, you would find it difficult not to laugh.", "note": "no matter where = wherever"},
+  {"q": "改错：In spite of national differences, but certain funny situations have a universal appeal.", "a": "In spite of national differences, certain funny situations have a universal appeal.（删去 but）", "note": "in spite of 不与 but 连用"},
+  {"q": "用所给词的适当形式填空：The sense of humour is mysteriously ____ (bind) up with national characteristics.", "a": "bound", "note": "be bound up with 与……相连"},
+  {"q": "汉译英：近来，一种主要源自美国的新型幽默流行了起来。", "a": "A new type of humour, which stems largely from the U.S., has recently come into fashion.", "note": "现在完成时 + recently"}
+ ],
+ "quiz": [
+  {"q": "课文说，一种被称为“病态幽默”的新型幽默近来流行，它主要源自：", "options": ["Russia", "the U.S.", "France", "Britain"], "answer": 1, "note": "which stems largely from the U.S."},
+  {"q": "根据课文，幽默感与下列哪一项神秘地联系在一起？", "options": ["personal wealth", "national characteristics", "the weather", "school education"], "answer": 1, "note": "bound up with national characteristics"},
+  {"q": "课文中提到，无论你住在哪里，你都很难不对以下哪一内容发笑？", "options": ["Charlie Chaplin's early films", "modern TV talk shows", "American cartoons", "French comedies"], "answer": 0, "note": "have a universal appeal 的例证"},
+  {"q": "“喜剧演员根据悲剧情节编笑话”，课文为此举出的例子是：", "options": ["violent death or serious accidents", "holidays abroad", "political meetings", "family dinners"], "answer": 0, "note": "sick humour 的素材来源"},
+  {"q": "医生用什么话安慰了那位住院的病人？", "options": ["He could leave hospital in time for New Year celebrations.", "He would receive a big present.", "He could go home at once.", "His leg would heal within a week."], "answer": 0, "note": "chances of leaving... for New Year"},
+  {"q": "故事结尾，那个男人发生了什么？", "options": ["He slipped on a piece of ice and broke his left leg.", "He fell down the hospital stairs.", "He broke his right leg again.", "He lost his crutches at the party."], "answer": 0, "note": "以悲剧收场的“病态幽默”"}
+ ]
+}

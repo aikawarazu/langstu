@@ -20,6 +20,34 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(REPO, "data", "courses")                                            # 仓库根 data/courses（不进站点）
 OLD_NOTES = os.path.join(ROOT, "notes")
 CRAFT = os.path.join(OLD_NOTES, "craft")          # 逐课精编稿（人工/AI 编写，优先级最高）
+NCE1_ZH = os.path.join(OLD_NOTES, "nce1_zh")      # NCE1 课文译文补丁（见 freeze_nce1_zh.py）
+
+
+def apply_zh_patch(c, uid):
+    """应用 NCE1 课文译文补丁。
+
+    补齐 `text[].lines` 的 `zh`；`zh` 为 null 的行是混入 en 的说话人残片，予以删除。
+    补丁由 `backend/scripts/freeze_nce1_zh.py` 从 progress/nce1-fix 固化而来，
+    这样重建课程包时译文不会被覆盖丢失。
+    """
+    p = os.path.join(NCE1_ZH, uid + ".json")
+    if not os.path.exists(p):
+        return
+    patch = json.load(open(p, encoding="utf-8"))
+    by_lesson = {L["lesson"]: {e["i"]: e["zh"] for e in L.get("zh") or []}
+                 for L in patch.get("lessons") or []}
+    for t in c.get("text") or []:
+        m = by_lesson.get(t.get("lesson"))
+        if not m:
+            continue
+        lines = t.get("lines") or []
+        for i, l in enumerate(lines):
+            if m.get(i):
+                l["zh"] = m[i]
+        for i in sorted([k for k, v in m.items() if v is None], reverse=True):
+            if i < len(lines):
+                del lines[i]
+        t["lines"] = lines
 BACKEND_PARSED = os.path.join(ROOT, "parsed")     # 原文底稿（raw txt 解析产物）
 
 SPEC_VERSION = "1.0"                              # URL/清单规范版本（docs/data-url-spec.md）
@@ -434,6 +462,8 @@ def build():
                     c["words"] = merge_words(c.get("words", []), craft["wordsExtra"])
                 if craft.get("textExtra"):
                     c["text"] = merge_text(c.get("text", []), craft["textExtra"])
+            if pid == "nce1":
+                apply_zh_patch(c, uid)
             if c:
                 c["unitId"] = uid
                 cdir = os.path.join(OUT, "content", pid)

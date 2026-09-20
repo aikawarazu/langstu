@@ -1,0 +1,40 @@
+{
+ "title": "No wrong numbers",
+ "subtitle": "无错误号码",
+ "lead": {
+  "question": "没有电话线，相距五英里的两家汽车修理部，靠什么传递紧急消息？",
+  "warmup": "标题说“无错误号码”，可课文里压根没有电话。詹姆斯·斯科特先生在锡尔伯里开着一家汽车修理部，又在五英里外的平赫斯特买下另一家；新店装不上电话，他却天天要在两地之间传递索取备件的订单和紧急函件。于是十二只鸽子上岗了，三分钟飞完全程。先在脑中问一句：这样的私人“电话”业务，真的不会拨错号码吗？",
+  "goals": [
+   "能按顺序复述课文，准确说出两地相距五英里、鸽子三分钟飞完全程的数据",
+   "能掌握并运用本课词汇搭配：cover the distance、requests for spare parts、private ‘telephone’ service、a great many",
+   "能区分一般过去时（carried、covered）与现在完成时（has just bought、has sent、has begun）的使用场合",
+   "能用 from…to…、so、in this way 等本课结构完成汉译英与句型转换练习"
+  ],
+  "summary": "本课用一个有趣的小故事讲清了时态分工：Yesterday 引出一般过去时的 carried、covered，叙述已完结的具体动作；has just bought、has sent、has begun 用现在完成时，强调结果延续到“现在”，因此才有 up to now、in this way 这类标志词。词汇上要抓住 cover the distance、requests for spare parts、a great many 必须带 a、from one garage to the other 的方向，以及带引号的 private ‘telephone’ service 的幽默说法。",
+  "tips": "记牢一条界线：Yesterday、ago、last 只跟一般过去时；just、up to now、already 只跟现在完成时。读到 carried 与 has sent 相邻时，按一下暂停，语感自然分清。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How far is it from Silbury to Pinhurst?", "zh": "从锡尔伯里到平赫斯特有多远？", "a": "It is only five miles from Silbury to Pinhurst.", "aZh": "平赫斯特离锡尔伯里只有五英里。", "hint": "答案见第二句：Pinhurst is only five miles from Silbury。"},
+  {"kind": "detail", "q": "Why has Mr. Scott bought twelve pigeons?", "zh": "斯科特先生为什么买了十二只鸽子？", "a": "Because he cannot get a telephone for his new garage and needs pigeons to carry messages between Pinhurst and Silbury.", "aZh": "因为他的新汽车修理部装不上电话，他需要靠鸽子在两地之间传递消息。", "hint": "见第三句 cannot get a telephone … so he has just bought twelve pigeons。"},
+  {"kind": "detail", "q": "How long did the bird take to fly from Pinhurst to Silbury?", "zh": "那只鸽子从平赫斯特飞到锡尔伯里用了多久？", "a": "It covered the distance in three minutes.", "aZh": "它只用了三分钟就飞完了全程。", "hint": "见第四句：The bird covered the distance in three minutes。"},
+  {"kind": "detail", "q": "What has Mr. Scott sent from one garage to the other up to now?", "zh": "到目前为止，斯科特先生从一个汽车修理部向另一个发送了些什么？", "a": "He has sent a great many requests for spare parts and other urgent messages.", "aZh": "他发送了大量索取备件的信件和其他紧急函件。", "hint": "见第五句：Up to now, Mr. Scott has sent a great many requests…"},
+  {"kind": "think", "q": "Why does the writer call it his own private ‘telephone’ service?", "zh": "作者为什么把这称作他自己的私人“电话”业务？", "a": "Because the pigeons carry messages quickly between his two garages just like a telephone line, and the humorous ‘telephone’ explains the title No wrong numbers.", "aZh": "因为鸽子在两个汽车修理部之间快速传递函件，起了电话线的作用；带引号的“电话”带有幽默意味，也照应了标题“无错误号码”。", "hint": "见末句：In this way, he has begun his own private ‘telephone’ service。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：到目前为止，斯科特先生已从一个汽车修理部向另一个发送了大量索取备件的请求。", "a": "Up to now, Mr. Scott has sent a great many requests for spare parts from one garage to the other.", "note": "up to now 常配现在完成时。"},
+  {"q": "汉译英：这只鸟只用了三分钟就飞完了这段距离。", "a": "The bird covered the distance in three minutes.", "note": "cover 此处意为“行过”。"},
+  {"q": "句型转换：用 just 改为现在完成时，强调现在已经拥有鸽子。（He bought twelve pigeons.）", "a": "He has just bought twelve pigeons.", "note": "just + has/have + 过去分词。"},
+  {"q": "句型转换：用 so 合并两句。（Mr. Scott cannot get a telephone for his new garage. He has just bought twelve pigeons.）", "a": "Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.", "note": "so 引导结果分句。"},
+  {"q": "填空：Yesterday a pigeon c______ the first message from Pinhurst ______ Silbury.", "a": "carried; to", "note": "yesterday 决定用过去式。"},
+  {"q": "填空：______ this way, he has begun his own private ‘telephone’ ______.", "a": "In; service", "note": "service 是名词“业务”。"},
+  {"q": "改错：Up to now, Mr. Scott sent a great many request for spare part from one garage to another.", "a": "Up to now, Mr. Scott has sent a great many requests for spare parts from one garage to the other.", "note": "缺 has；request 须用复数。"}
+ ],
+ "quiz": [
+  {"q": "课文原句 cover the distance 中的 cover 应理解为？", "options": ["To travel over a distance.", "To put a lid on something.", "To hide something from others.", "To measure with a ruler."], "answer": 0, "note": "cover + 距离＝行过，通常不用被动。"},
+  {"q": "哪句英文正确表达了“到目前为止，斯科特先生已从一个汽车修理部向另一个发送了大量索取备件的请求”？", "options": ["Up to now, Mr. Scott has sent a great many requests for spare parts from one garage to the other.", "Up to now, Mr. Scott sent a great many requests for spare parts from one garage to the other.", "Up to now, Mr. Scott has sent a great many request for spare part from one garage to another.", "Yesterday, Mr. Scott has sent a great many requests for spare parts from one garage to the other."], "answer": 0, "note": "up to now 须配现在完成时，request 可数加 s。"},
+  {"q": "“昨天，一只鸽子把第一封信从平赫斯特带到锡尔伯里”的正确英文是？", "options": ["Yesterday, a pigeon carried the first message from Pinhurst to Silbury.", "Yesterday, a pigeon has carried the first message from Pinhurst to Silbury.", "Yesterday, a pigeon carried the first message from Silbury to Pinhurst.", "Yesterday, a pigeon carried the first message from one garage to other."], "answer": 0, "note": "yesterday 用过去式，from…to… 方向不可颠倒。"},
+  {"q": "“就这样，他开始了自己的私人‘电话’业务”中的“就这样”应译为？", "options": ["In this way", "On the way", "By the way", "In the way"], "answer": 0, "note": "注意 in the way 意为“妨碍”。"},
+  {"q": "关于两地距离与送信用时，哪一项与课文相符？", "options": ["It is only five miles from Silbury to Pinhurst, and the bird covered the distance in three minutes.", "It is only three miles from Silbury to Pinhurst, and the bird covered the distance in five minutes.", "It is only five miles from Silbury to Pinhurst, and the bird covered the distance in thirteen minutes.", "It is only fifteen miles from Silbury to Pinhurst, and the bird covered the distance in three minutes."], "answer": 0, "note": "见课文第二句与第四句的数据。"},
+  {"q": "斯科特先生在平赫斯特新买的那家修理部，课文称它为什么？", "options": ["another garage in Pinhurst", "his old garage in Silbury", "a spare part shop in Pinhurst", "his private telephone service"], "answer": 0, "note": "首句用 another 表示“又一个”。"}
+ ]
+}

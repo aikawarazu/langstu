@@ -1,0 +1,35 @@
+{
+ "title": "It's Only Me",
+ "subtitle": "是我呀",
+ "lead": {
+  "question": "理查兹夫人本想吓唬面包师，为什么反而把查电表的人吓跑了？",
+  "warmup": "试想一下：你裹着一条白床单扮成鬼，刚走到楼下，门外忽然响起敲门声。理查兹夫人就碰上这样的场面——她以为来的是送面包的人，怕吓着他便躲进储藏室，谁知推门进来的却是查电表的人，结果反被吓得夺门而逃。本课用一连串过去完成时和分词短语，把这场阴差阳错的误会讲得既紧张又有趣。",
+  "goals": ["掌握 costume、consist、sheet、effective、frighten、ghost、storey 等本课核心词汇。", "熟练运用过去完成时与过去将来进行时，叙述过去先后发生的动作。", "理解现在分词短语作状语（含否定式 Not wanting...）的用法。", "能用 dress up as、try on、just as、too...to 等结构复述故事。"],
+  "summary": "本课讲理查兹夫人为晚上的化装舞会做好一件“床单鬼”服装。她刚下楼试穿，前门就传来敲门声。她以为是面包师，便躲进楼梯下的小储藏室，免得吓着对方。不料来人是供电局查电表的人，一开门迎面撞见“鬼”，惊叫一声夺路而逃。故事用过去完成时和现在分词状语，把这场误会讲得紧凑好笑。",
+  "tips": "注意 try on 的宾语若是代词须放中间，说 try it on，不能说 try on it；同理 dress up as 后接身份名词，如 as a ghost。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What did the man expect to find under the stairs?", "zh": "那个人以为楼梯下面会有什么？", "a": "Nothing unusual — he certainly did not expect to find a “ghost”. He had come to read the electricity meter, which was in the storeroom under the stairs.", "aZh": "他以为下面没什么异常——更没想到会遇到“鬼”。他是供电局来查电表的，电表就装在楼梯下的储藏室里。", "hint": "出自 “it must be the man from the Electricity Board who had come to read the meter” 与结尾他惊叫逃走的情节。"},
+  {"kind": "detail", "q": "What did Mrs. Richards intend to dress up as, and what was her costume made of?", "zh": "理查兹夫人打算装扮成什么？她的化装服是用什么做的？", "a": "She intended to dress up as a ghost, and her costume consisted only of a sheet.", "aZh": "她打算装扮成鬼，而她的化装服仅由一条床单制成。", "hint": "见 “She intended to dress up as a ghost” 与 “the costume consisted only of a sheet”。"},
+  {"kind": "detail", "q": "Why did Mrs. Richards go downstairs after putting on the costume?", "zh": "穿上化装服后，理查兹夫人为什么下楼？", "a": "She wanted to find out whether the costume would be comfortable to wear.", "aZh": "她想看看这套化装服穿起来是否舒服。", "hint": "见 “She wanted to find out whether it would be comfortable to wear”。"},
+  {"kind": "detail", "q": "Why did Mrs. Richards hide in the small storeroom under the stairs?", "zh": "理查兹夫人为什么躲进楼梯下的小储藏室？", "a": "She heard a knock, thought it must be the baker, and did not want to frighten the poor man, so she hid quickly.", "aZh": "她听到敲门声，以为是面包师来了，不想吓着这个可怜人，于是赶紧躲了起来。", "hint": "见 “She knew that it must be the baker” 与 “Not wanting to frighten the poor man”。"},
+  {"kind": "think", "q": "Why did the man let out a cry and flee when he saw Mrs. Richards?", "zh": "那人一见理查兹夫人为什么就惊叫一声、夺门而逃？", "a": "Because she was dressed as a ghost with a sheet over her, he thought he had met a real ghost. She said “It's only me”, but it was too late to explain.", "aZh": "因为她裹着床单扮成鬼，他以为撞见了真鬼。她喊了声“是我”，可解释已经来不及了。", "hint": "见结尾 “let out a cry and jumped back several paces ... he fled, slamming the door behind him”。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：尽管化装服仅由一条床单制成，却十分逼真。", "a": "Though the costume consisted only of a sheet, it was very effective.", "note": "consist of 用主动语态，不用被动"},
+  {"q": "填入正确介词：She intended to dress up ___ a ghost.", "a": "as", "note": "dress up as 表示“装扮成……”"},
+  {"q": "句型转换：把 She was too excited to do any housework that morning. 改成 so...that 结构。", "a": "She was so excited that she could not do any housework that morning.", "note": "too...to 与 so...that 的转换"},
+  {"q": "改错：Wanting not to frighten the poor man, Mrs. Richards quickly hid in the storeroom.", "a": "Not wanting to frighten the poor man, Mrs. Richards quickly hid in the storeroom.", "note": "分词否定式要把 not 提前"},
+  {"q": "选词填空（effective / frighten）：Though it looked simple, the costume was very ___, and it nearly ___ the man.", "a": "effective; frightened", "note": "effective 逼真有效；frighten 使害怕"},
+  {"q": "改错：They live in a two-storeys house near the corner.", "a": "They live in a two-storey house near the corner.", "note": "复合形容词中 storey 用单数"},
+  {"q": "汉译英：她曾告诉面包师，如果她不去开门，他可直接进来，把面包放在厨房桌上。", "a": "She had told him to come straight in if ever she failed to open the door and to leave the bread on the kitchen table.", "note": "过去完成时 + if ever 表强调"}
+ ],
+ "quiz": [
+  {"q": "理查兹夫人的化装服仅由什么做成？", "options": ["A sheet", "A curtain", "A blanket", "An old coat"], "answer": 0, "note": "a sheet 意为“一条床单”"},
+  {"q": "在 “it must be the man from the Electricity Board who had come to read the meter” 中，who 引导的是？", "options": ["A relative clause（定语从句）", "An adverbial clause（状语从句）", "An object clause（宾语从句）", "A subject clause（主语从句）"], "answer": 0, "note": "who 修饰 the man，作定语从句主语"},
+  {"q": "“It's only me” 这句话是谁说的？", "options": ["The baker", "Mrs. Richards", "The man from the Electricity Board", "Mrs. Richards' husband"], "answer": 1, "note": "这是理查兹夫人喊的话"},
+  {"q": "推开储藏室门的那个男人其实是？", "options": ["the baker", "the man from the Electricity Board", "her husband", "a neighbour"], "answer": 1, "note": "他是供电局来查电表的人"},
+  {"q": "理查兹夫人为什么躲进储藏室？", "options": ["To hide from her husband", "To avoid frightening the baker", "To read the meter herself", "To try on her costume"], "answer": 1, "note": "她以为来的是面包师，怕吓着他"},
+  {"q": "课文中表示“那天晚上她将和丈夫去参加化装舞会”用的是哪种形式？", "options": ["would be going", "was going", "will be going", "went"], "answer": 0, "note": "过去将来进行时 would be going"}
+ ]
+}

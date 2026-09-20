@@ -1,0 +1,40 @@
+{
+ "title": "Do the English speak English?",
+ "subtitle": "英国人讲的是英语吗？",
+ "lead": {
+  "question": "作者英语讲得又认真又清楚，为什么还是听不懂英国搬运工的话？",
+  "warmup": "你有没有过这样的经历：明明说的是同一种语言，对方却一脸茫然？本课里作者满怀信心地来到伦敦，把英语说得又认真又清楚，火车站的搬运工却听不懂；等搬运工一开口，轮到作者发懵——“我的老师从来不那样讲英语！”带着“到底是谁的语言出了问题”这个疑问去听读课文吧。",
+  "goals": [
+   "听懂课文并能回答“作者为什么听不懂搬运工”，复述问路的经过",
+   "掌握 railway、porter、foreigner、several、wonder 在课文语境中的用法",
+   "熟练运用 not only…but…as well 与 neither…nor 连接对等成分",
+   "区分 arrive in、at last、like that 等短语，掌握并列句中连词与逗号的位置"
+  ],
+  "summary": "本课讲作者初到伦敦，在又大又黑的火车站向搬运工问路：他英语讲得又认真又清楚，对方却听不懂；搬运工开口后讲得既不慢也不清楚，作者说自己是外国人，对方才放慢语速，他依然听不懂。结尾那句“您会很快学会英语的”点出笑话：英国人彼此听得懂，作者却听不懂他们。课文串起 arrive in、at last、not only…but…as well、neither…nor、like that 等表达。",
+  "tips": "not only…but…as well 与 neither…nor 两端必须词性对等；and 前一般不加逗号，but、so 前一般要加逗号。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why does the writer not understand the porter?", "zh": "作者为什么听不懂那位搬运工的话？", "a": "Because the porter spoke neither slowly nor clearly — his English was not like the English the writer's teacher spoke.", "aZh": "因为搬运工讲得既不慢也不清楚，跟作者老师讲的英语完全不一样。", "hint": "答案在第 6—7 句 he spoke neither slowly nor clearly，以及第 10 句 My teacher never spoke English like that!"},
+  {"kind": "detail", "q": "How did the writer speak to the porter at first, and why?", "zh": "作者一开始怎样对搬运工说英语？为什么这样说？", "a": "He not only spoke English very carefully, but very clearly as well, because he wanted the porter to understand him.", "aZh": "他英语讲得不但非常认真，而且非常清楚，因为他想让搬运工听懂自己的话。", "hint": "见第 4 句 I not only spoke English very carefully, but very clearly as well。"},
+  {"kind": "detail", "q": "What changed after the writer said 'I am a foreigner'?", "zh": "作者说了“我是个外国人”之后，情况有什么变化？", "a": "The porter spoke slowly, but the writer still could not understand him; they just looked at each other and smiled.", "aZh": "搬运工说得慢了，可作者还是听不懂，两人只能相视一笑。", "hint": "见第 9—11 句 Then he spoke slowly, but I could not understand him。"},
+  {"kind": "detail", "q": "Why does the porter say 'You'll soon learn English!'?", "zh": "搬运工为什么说“您会很快学会英语的”？", "a": "He thought the writer could not speak English, because the writer had not understood him and had said he was a foreigner.", "aZh": "他以为作者不会英语，因为作者一直听不懂他的话，还说自己是外国人。", "hint": "把第 8 句 I am a foreigner 和第 13 句 You'll soon learn English 连起来看。"},
+  {"kind": "think", "q": "What does the title 'Do the English speak English?' really mean? Is it a serious question?", "zh": "标题“英国人讲的是英语吗”究竟想说什么？这是个严肃的提问吗？", "a": "It is a joke, not a serious question: the writer means that in England each person seems to speak a different language — the English understand each other, but he doesn't.", "aZh": "这是个玩笑，不是真的提问：作者是说在英国人人好像各说各的语言，英国人彼此听得懂，他却听不懂。", "hint": "抓住结尾两句 In England, each person speaks a different language 与 The English understand each other, but I don't understand them!"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我终于到达了伦敦。", "a": "I arrived in London at last.", "note": "arrive in 接大城市；at last 终于。"},
+  {"q": "填空（每空一词）：The ____ station was big, black and dark, ____ I asked a ____ the way to my hotel.", "a": "railway; so; porter", "note": "railway 火车站；so 表结果。"},
+  {"q": "句型转换：用 not only…but…as well 合并——I spoke English very carefully. I spoke English very clearly.", "a": "I not only spoke English very carefully, but very clearly as well.", "note": "not only 与 but 后成分须对等。"},
+  {"q": "句型转换：用 neither…nor 合并——He did not speak slowly. He did not speak clearly.", "a": "He spoke neither slowly nor clearly.", "note": "neither…nor 连接对等成分。"},
+  {"q": "改错：I repeated my question several time and at last he understand.", "a": "I repeated my question several times and at last he understood.", "note": "several 后接复数；叙述用过去时。"},
+  {"q": "填空：I ____ why the English understand each other, but I don't understand them.", "a": "wonder", "note": "wonder 想知道、感到奇怪。"},
+  {"q": "汉译英：“我是个外国人，”我说，“我的老师从来不那样讲英语！”", "a": "'I am a foreigner,' I said. 'My teacher never spoke English like that!'", "note": "like 作介词，意为像……一样。"}
+ ],
+ "quiz": [
+  {"q": "“我终于到达了伦敦”的正确英文是？", "options": ["I arrived in London at last.", "I arrived at London at last.", "I arrived in London in last.", "I reached in London at last."], "answer": 0, "note": "arrive in 接大城市；reach 后直接加宾语。"},
+  {"q": "“我的英语讲得不但非常认真，而且也非常清楚”，哪一句正确？", "options": ["I not only spoke English very carefully, but very clearly as well.", "I not only spoke English very carefully, but very clear as well.", "I not only spoke English very careful, but very clearly as well.", "Not only I spoke English very carefully, but very clearly as well."], "answer": 0, "note": "not only 与 but 后须同用副词。"},
+  {"q": "“他讲得既不慢也不清楚”，正确的英文是？", "options": ["He spoke neither slowly nor clearly.", "He spoke neither slow nor clearly.", "He didn't spoke neither slowly nor clearly.", "He spoke either slowly nor clearly."], "answer": 0, "note": "neither…nor 已含否定，动词不再加 not。"},
+  {"q": "“我的老师从来不那样讲英语”，“那样”该怎么说？", "options": ["like that", "as that", "like this", "for that"], "answer": 0, "note": "like 作介词，表示像……一样。"},
+  {"q": "“我把问话重复了好几遍”，空格处应填？", "options": ["several times", "several time", "much times", "a several time"], "answer": 0, "note": "several 后接可数名词复数。"},
+  {"q": "下列哪一句的并列连词与逗号用法正确？", "options": ["He speaks Spanish, but his wife speaks French.", "He speaks Spanish but, his wife speaks French.", "He speaks Spanish and, his wife speaks French.", "He speaks Spanish, and, his wife speaks French."], "answer": 0, "note": "but 前加逗号，and 前一般不加逗号。"}
+ ]
+}

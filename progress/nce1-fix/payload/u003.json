@@ -1,0 +1,147 @@
+{
+ "unitId": "u003",
+ "lessons": [
+  {
+   "lesson": 5,
+   "title": "Nice to meet you",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "MR. BLAKE",
+     "en": "Good morning."
+    },
+    {
+     "i": 1,
+     "speaker": "STUDENTS",
+     "en": "Good morning, Mr. Blake."
+    },
+    {
+     "i": 2,
+     "speaker": "MR. BLAKE",
+     "en": "This is Miss Sophie Dupont."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "Sophie is a new student."
+    },
+    {
+     "i": 4,
+     "speaker": null,
+     "en": "She is French."
+    },
+    {
+     "i": 5,
+     "speaker": "MR. BLAKE",
+     "en": "Sophie, this is Hans."
+    },
+    {
+     "i": 6,
+     "speaker": null,
+     "en": "He is German."
+    },
+    {
+     "i": 7,
+     "speaker": "HANS",
+     "en": "Nice to meet you."
+    },
+    {
+     "i": 8,
+     "speaker": "MR. BLAKE",
+     "en": "And this is Naoko."
+    },
+    {
+     "i": 9,
+     "speaker": null,
+     "en": "She's Japanese."
+    },
+    {
+     "i": 10,
+     "speaker": "NAOKO",
+     "en": "Nice to meet you."
+    },
+    {
+     "i": 11,
+     "speaker": "MR. BLAKE",
+     "en": "And this is Chang-woo."
+    },
+    {
+     "i": 12,
+     "speaker": null,
+     "en": "He's Korean."
+    },
+    {
+     "i": 13,
+     "speaker": null,
+     "en": "CHANG-WOO: Nice to meet you."
+    },
+    {
+     "i": 14,
+     "speaker": "MR. BLAKE",
+     "en": "And this is Luming."
+    },
+    {
+     "i": 15,
+     "speaker": null,
+     "en": "He is Chinese."
+    },
+    {
+     "i": 16,
+     "speaker": "LUMNG",
+     "en": "Nice to meet you."
+    },
+    {
+     "i": 17,
+     "speaker": "MR. BLAKE",
+     "en": "And this is Xiaohui."
+    },
+    {
+     "i": 18,
+     "speaker": null,
+     "en": "She's Chinese, too."
+    },
+    {
+     "i": 19,
+     "speaker": "XIAOHUI",
+     "en": "Nice to meet you."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "5": [
+   "布莱克先生：早上好。",
+   "学      生：早上好，布莱克先生。",
+   "布莱克先生：这位是索菲娅.杜邦小姐。索菲娅是个新学生。她是法国人。",
+   "布莱克先生：索菲娅，这位是汉斯。他是德国人。",
+   "汉      斯：很高兴见到你。",
+   "布莱克先生：这位是直子。她是日本人。",
+   "直      子：很高兴见到你。",
+   "布莱克先生：这位是昌宇。他是韩国人。",
+   "昌      宇：很高兴见到你。",
+   "布莱克先生：这位是鲁明。他是中国人。",
+   "鲁      明：很高兴见到你。",
+   "布莱克先生：这位是晓惠。她也是中国人。",
+   "晓      惠：很高兴见到你。"
+  ]
+ },
+ "rawPage": {
+  "5": "186.txt"
+ },
+ "parsedTranslation": [
+  "布莱克先生：早上好。",
+  "学      生：早上好，布莱克先生。",
+  "布莱克先生：这位是索菲娅.杜邦小姐。索菲娅是个新学生。她是法国人。",
+  "布莱克先生：索菲娅，这位是汉斯。他是德国人。",
+  "汉      斯：很高兴见到你。",
+  "布莱克先生：这位是直子。她是日本人。",
+  "直      子：很高兴见到你。",
+  "布莱克先生：这位是昌宇。他是韩国人。",
+  "昌      宇：很高兴见到你。",
+  "布莱克先生：这位是鲁明。他是中国人。",
+  "鲁      明：很高兴见到你。",
+  "布莱克先生：这位是晓惠。她也是中国人。",
+  "晓      惠：很高兴见到你。"
+ ]
+}

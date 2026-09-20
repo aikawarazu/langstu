@@ -1,0 +1,35 @@
+{
+ "title": "Fully Insured",
+ "subtitle": "全保险",
+ "lead": {
+  "question": "一只十八英尺长的巨型馅饼盘为何沉入运河？打捞费用又由谁来索赔？",
+  "warmup": "你知道吗？除了房子和汽车，连一次露天游园会、甚至一只烤巨型馅饼的盘子都能投保。保险公司承担的风险越大，你要付的保险费就越高。本课讲的就是一只十八英尺长的馅饼盘沉入运河后，地方当局如何为打捞费用向保险公司索赔的趣事。学会 insure、premium、claim 等词，你就能读懂真实世界的保险故事。",
+  "goals": ["掌握 insure / insurance / policy / premium / claim / cover 等保险核心词汇。", "理解并运用 the＋比较级，the＋比较级 结构。", "掌握过去完成时被动语态（had been purchased / had been insured）。", "理解虚拟条件句 if you were holding…, it would be possible to… 的用法。"],
+  "summary": "保险公司几乎什么都愿承保。某地方当局买下一只十八英尺长、六英尺宽的巨型馅饼盘，为一年一度交易会烤制大馅饼，并为运河运输投保。盘子下水后，一群少年爬上去开舞会，使它倾覆沉入七英尺深水中。打捞一波三折：链条固定的盘子失衡滑回水中，工人加装金属夹子重来，终于赶在大浪折返前把它拖上岸。",
+  "tips": "注意 insure（投保、承保）、ensure（确保）、assure（使某人确信）、insurance（保险）拼写相近但含义不同；表示“索赔”要用 make a claim for，介词是 for 而不是 of。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Who owned the pie and why?", "zh": "这个馅饼归谁所有？为什么？", "a": "It was bought by a local authority, so that an enormous pie could be baked for an annual fair.", "aZh": "它由地方当局买下，为的是一年一度的交易会能烤制一个巨型馅饼。", "hint": "答案见 It had been purchased by a local authority so that an enormous pie could be baked for an annual fair."},
+  {"kind": "detail", "q": "What size was the unusual pie dish?", "zh": "这只不寻常的馅饼盘有多大？", "a": "It was eighteen feet long and six feet wide.", "aZh": "它有十八英尺长、六英尺宽。", "hint": "答案见 Admittedly it was an unusual pie dish, for it was eighteen feet long and six feet wide."},
+  {"kind": "detail", "q": "How did the dish come to sink in the canal?", "zh": "盘子是怎样沉入运河的？", "a": "A number of teenagers climbed on to the dish and held a party; while they were dancing, the dish capsized and sank in seven feet of water.", "aZh": "一群十几岁的孩子爬上盘子开起了派对；他们跳舞时盘子倾覆，沉入七英尺深的水中。", "hint": "答案见 Dancing proved to be more than the dish could bear… it capsized and sank in seven feet of water."},
+  {"kind": "detail", "q": "What happened during the first attempt to salvage the dish?", "zh": "第一次打捞盘子的经过如何？", "a": "They fixed chains to one end and started a powerful winch; the dish rose and was drawn towards the bank, but for one agonizing moment it perched precariously and suddenly overbalanced, sliding back into the water.", "aZh": "他们把链条固定在盘子的一端，开动大功率绞车；盘子浮起被拖向岸边，可在令人忐忑的瞬间它晃晃悠悠地上了岸，突然失去平衡又滑回水中。", "hint": "答案见 it perched precariously on the bank… suddenly overbalanced and slid back into the water."},
+  {"kind": "think", "q": "Why did the men have to work at tremendous speed at the very end?", "zh": "为什么工人们在最后必须争分夺秒地作业？", "a": "Because the huge wave set up in the canal might rebound off the far bank and plunge the dish into the water again; they had to get it on to dry land before the wave returned.", "aZh": "因为盘子上岸时在运河里掀起的大浪可能从对岸折回，把盘子再次拖入水中；他们必须赶在大浪返回之前把盘子拽上干地。", "hint": "答案见 There was danger that the wave would rebound… By working at tremendous speed… before the wave returned."}
+ ],
+ "exercises": [
+  {"q": "翻译：保险公司一般说来愿意承保一切东西。", "a": "Insurance companies are normally willing to insure anything.", "note": "insure 动词，意为“承保”。"},
+  {"q": "填空：The bigger the risk an insurance company takes, the higher the ____ you will have to pay.", "a": "premium", "note": "premium 保险费。"},
+  {"q": "填空：Before the trip the pie committee took out an insurance ____ for the dish.", "a": "policy", "note": "insurance policy 保险单。"},
+  {"q": "句型转换：将“A local authority had purchased the dish.”改为被动语态。", "a": "The dish had been purchased by a local authority.", "note": "过去完成时被动：had been done。"},
+  {"q": "翻译：如果你要举办一次露天游园会，为防遇上坏天气也可以投保。", "a": "If you were holding an open air garden party, it would be equally possible to insure yourself in the event of bad weather.", "note": "虚拟条件句＋insure oneself。"},
+  {"q": "改错：It is not uncommon to hear that a shipping company has made a claim of the cost of salvaging a sunken ship.", "a": "将 of 改为 for：…has made a claim for the cost of salvaging a sunken ship.", "note": "make a claim for 索赔。"},
+  {"q": "句型转换：用 the＋比较级 改写“If the risk is bigger, you will have to pay a higher premium.”", "a": "The bigger the risk, the higher the premium you will have to pay.", "note": "the＋比较级，the＋比较级。"}
+ ],
+ "quiz": [
+  {"q": "“保险公司一般说来愿意承保一切东西”中，“承保”用哪个动词？", "options": ["insure", "ensure", "assure", "assume"], "answer": 0, "note": "insure 承保；ensure 确保。"},
+  {"q": "“It is not uncommon to hear that…” 中 not uncommon 的意思是？", "options": ["very common", "very rare", "quite unusual", "almost impossible"], "answer": 0, "note": "not uncommon＝相当常见。"},
+  {"q": "下面哪一句是被动语态？", "options": ["A local authority had purchased the dish.", "The dish had been purchased by a local authority.", "A local authority purchased the dish.", "The dish purchased a local authority."], "answer": 1, "note": "had done→had been done。"},
+  {"q": "The risk was great, so he had to pay a high ____. 选哪个词？", "options": ["premium", "policy", "claim", "garage"], "answer": 0, "note": "the higher the risk, the higher the premium。"},
+  {"q": "The insurance policy ____ fire and theft. 哪个动词最恰当？", "options": ["covers", "pays", "takes", "holds"], "answer": 0, "note": "cover 承保、涵盖。"},
+  {"q": "哪一句正确使用 the more…the more… 结构表达“风险越大，保险费越高”？", "options": ["The bigger the risk is, higher the premium you will have to pay.", "The bigger the risk, the higher the premium you will have to pay.", "The bigger the risk, the high premium you will have to pay.", "Bigger the risk, higher the premium you will have to pay."], "answer": 1, "note": "the＋比较级，the＋比较级。"}
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u022",
+ "title": "By Heart",
+ "subtitle": "熟记台词",
+ "lead": {
+  "question": "一出连演多年的戏里，狱卒用一张白纸试探同事，最后是谁念了那封信？",
+  "warmup": "有些剧目太成功，以致连续上演好几年，演员就得夜复一夜地重复同样的台词——人们本以为他们早已把台词背得烂熟，可事实并非总是如此。本课讲一位名演员在戏中扮演被囚巴士底狱二十年的贵族，每场都要念一封信。一天晚上，狱卒想拿同事开个玩笑，把全文写好的信换成了一张白纸，于是舞台上出现了一段妙趣横生的临场应对。",
+  "goals": [
+   "掌握 by heart、learn/know...by heart、go on doing、play a joke on、in the role of、be cast in 等本课核心短语",
+   "理解 insist 后接宾语从句时常用 (should) + 动词原形的虚拟语气用法",
+   "复习一般过去时、过去完成时与 would 表过去习惯的用法，理清舞台情节的时间线索",
+   "能把台词从直接引语改成间接引语，并用英文复述狱卒与贵族“白纸念信”的趣事"
+  ],
+  "summary": "课文先交代背景：成功的剧目连演数年，演员夜夜重复同样的台词；人们以为他们早已熟记，其实未必。一位名演员扮演被囚巴士底狱二十年的贵族，每场都坚持信要全文写全。一天晚上，狱卒把信换成白纸试探他。贵族盯着白纸几秒，眯眼说光线太暗，请狱卒代读；狱卒也一字不记，借口去取眼镜下台，最后带着眼镜和平时那封信回来念给囚犯听。",
+  "tips": "易错：know/learn the lines by heart 中的 by 不能换成 in 或 on；insist that 从句用 (should) + 动词原形，不能写成 is/was；play a joke on sb. 的介词是 on，不是 to。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Which actor read the letter in the end, the aristocrat or the gaoler?",
+   "zh": "最后是谁念了那封信，贵族还是狱卒？",
+   "a": "The gaoler read the letter in the end. He hurried off the stage, came back a few moments later with a pair of glasses and the usual copy of the letter, and proceeded to read it to the prisoner.",
+   "aZh": "最后是狱卒念的信。他匆匆下台，一会儿工夫又带着一副眼镜和平时那封信重新登台，然后为那囚犯念了起来。",
+   "hint": "见末句：the gaoler returned... with a pair of glasses and the usual copy of the letter which he proceeded to read to the prisoner。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is a long-running play unfortunate for the actors?",
+   "zh": "为什么一出连演多年的戏对演员来说是件倒霉事？",
+   "a": "Because they are required to go on repeating the same lines night after night, and one would expect them to know their parts by heart and never have cause to falter.",
+   "aZh": "因为他们需要一夜连着一夜地重复同样的台词，而人们本以为他们一定会把台词熟记于心，绝不会临场结巴。",
+   "hint": "见第 1、2 句：run for years on end; go on repeating the same lines night after night; know their parts by heart。"
+  },
+  {
+   "kind": "detail",
+   "q": "What role was the famous actor cast in, and what did he always insist on?",
+   "zh": "那位名演员被分配扮演什么角色？他始终坚持什么？",
+   "a": "He was cast in the role of an aristocrat who had been imprisoned in the Bastille for twenty years. He always insisted that the letter he read in the last act should be written out in full.",
+   "aZh": "他扮演一位已在巴士底狱被关押二十年的贵族。他每场都坚持要求最后一幕中念的那封信必须全文写全。",
+   "hint": "见第 4 句 was cast in the role of an aristocrat 与第 6 句 insisted that it should be written out in full。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the gaoler do one night, and why?",
+   "zh": "一天晚上狱卒做了什么？目的是什么？",
+   "a": "He decided to play a joke on his colleague and gave him a blank sheet of paper instead of the usual letter, to find out if, after so many performances, the actor had managed to learn the contents of the letter by heart.",
+   "aZh": "他决定跟同事开个玩笑，把平时的信换成一张白纸，想看看这位演员演了这么多场之后是否已经把信的内容熟记下来。",
+   "hint": "见第 7 句 play a joke on his colleague 与第 12 句 a blank sheet of paper。"
+  },
+  {
+   "kind": "think",
+   "q": "If you were the aristocrat, how would you deal with a blank sheet of paper on stage?",
+   "zh": "如果你是那位贵族，在台上拿到一张白纸会怎么应对？",
+   "a": "I would stay in character and find an excuse, just as he did: I would say the light was too dim to read and ask the gaoler to read the letter to me, so that the play could go on without a pause.",
+   "aZh": "我会像他那样留在角色里找借口：说光线太暗看不清，请狱卒替我念这封信，这样戏就能不中断地演下去。",
+   "hint": "借鉴贵族 squinting his eyes 后说的 'The light is dim. Read the letter to me.'。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：有些剧目十分成功，以致连续上演好几年。",
+   "a": "Some plays are so successful that they run for years on end.",
+   "note": "so...that 结构；run 表连续上演。"
+  },
+  {
+   "q": "汉译英：人们以为演员们一定会把台词背得烂熟。",
+   "a": "One would expect them to know their parts by heart.",
+   "note": "expect sb. to do；know...by heart。"
+  },
+  {
+   "q": "填空：A famous actor was once cast ___ the role of an aristocrat.",
+   "a": "in",
+   "note": "be cast in the role of 扮演……角色。"
+  },
+  {
+   "q": "句型转换（改为间接引语）：The noble said, 'The light is dim. Read the letter to me.'",
+   "a": "The noble said that the light was dim and asked the gaoler to read the letter to him.",
+   "note": "间接引语时态后移，祈使句用 ask sb. to do。"
+  },
+  {
+   "q": "改错：He insisted that the letter is written out in full.",
+   "a": "He insisted that the letter (should) be written out in full.",
+   "note": "insist 从句用 (should) + 动词原形。"
+  },
+  {
+   "q": "填空：The gaoler decided to play a joke ___ his colleague to find out if he had learnt the letter ___ heart.",
+   "a": "on; by",
+   "note": "play a joke on sb.；learn...by heart。"
+  },
+  {
+   "q": "汉译英：狱卒发现自己把信上的内容一个字也忘记了。",
+   "a": "The gaoler found that he had forgotten every word of the letter.",
+   "note": "forget 过去分词为 forgotten；宾语从句用过去完成时。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文标题中的 by heart 在本课里是什么意思？",
+   "options": [
+    "From memory",
+    "With deep feeling",
+    "From the bottom of one's heart",
+    "By chance"
+   ],
+   "answer": 0,
+   "note": "by heart 意为“凭记忆、熟记”，不是“发自内心”。"
+  },
+  {
+   "q": "剧目连演多年，为什么对演员来说是件倒霉事？",
+   "options": [
+    "Because they are poorly paid",
+    "Because they must repeat the same lines night after night",
+    "Because the theatre is far from their homes",
+    "Because they must write the letter in full every night"
+   ],
+   "answer": 1,
+   "note": "第 1 句：go on repeating the same lines night after night。"
+  },
+  {
+   "q": "一天晚上狱卒带上舞台的那封信其实是？",
+   "options": [
+    "The usual letter written out in full",
+    "A letter from the king",
+    "A blank sheet of paper",
+    "A pair of glasses"
+   ],
+   "answer": 2,
+   "note": "第 12 句：It was simply a blank sheet of paper。"
+  },
+  {
+   "q": "贵族看到白纸后是如何应对的？",
+   "options": [
+    "He read the letter from memory at once",
+    "He called the gaoler back angrily",
+    "He asked the audience for help",
+    "He said the light was dim and handed the sheet back to the gaoler"
+   ],
+   "answer": 3,
+   "note": "squinting his eyes, 'The light is dim. Read the letter to me.'"
+  },
+  {
+   "q": "insist that it should be written out in full 中的 should 可以怎样处理？",
+   "options": [
+    "It cannot be left out",
+    "It must be changed to would",
+    "It can be left out",
+    "It must be changed to will"
+   ],
+   "answer": 2,
+   "note": "insist 后从句的 should 常可省略，后接动词原形。"
+  },
+  {
+   "q": "狱卒说完 I must get my glasses 之后做了什么？",
+   "options": [
+    "He fetched his glasses and the usual copy of the letter and read it to the prisoner",
+    "He left the theatre and never came back",
+    "He asked the aristocrat to lend him his glasses",
+    "He tore the blank sheet into pieces"
+   ],
+   "answer": 0,
+   "note": "末句：returned with a pair of glasses and the usual copy of the letter which he proceeded to read。"
+  }
+ ]
+}

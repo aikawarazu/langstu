@@ -1,0 +1,141 @@
+{
+ "unitId": "u008",
+ "lessons": [
+  {
+   "lesson": 15,
+   "title": null,
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": null,
+     "en": "Your passports, please."
+    },
+    {
+     "i": 1,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are you Swedish"
+    },
+    {
+     "i": 2,
+     "speaker": "GIRLS",
+     "en": "No, we are not."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "We are Danish."
+    },
+    {
+     "i": 4,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are your friends Danish, too?"
+    },
+    {
+     "i": 5,
+     "speaker": "GIRLS",
+     "en": "No, they aren't."
+    },
+    {
+     "i": 6,
+     "speaker": null,
+     "en": "They are Norwegian."
+    },
+    {
+     "i": 7,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Your passports, please."
+    },
+    {
+     "i": 8,
+     "speaker": "GIRLS",
+     "en": "Here they are."
+    },
+    {
+     "i": 9,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are these your cases?"
+    },
+    {
+     "i": 10,
+     "speaker": "GIRLS",
+     "en": "No, they aren't. Our cases are brown."
+    },
+    {
+     "i": 11,
+     "speaker": null,
+     "en": "Here they are."
+    },
+    {
+     "i": 12,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are you tourists?"
+    },
+    {
+     "i": 13,
+     "speaker": "GIRLS",
+     "en": "Yes, we are."
+    },
+    {
+     "i": 14,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "Are your friends tourists too?"
+    },
+    {
+     "i": 15,
+     "speaker": "GIRLS",
+     "en": "Yes, they are."
+    },
+    {
+     "i": 16,
+     "speaker": "CUSTOMS OFFICER",
+     "en": "That's fine."
+    },
+    {
+     "i": 17,
+     "speaker": "GIRLS",
+     "en": "Thank you very much."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "15": [
+   "海关官员：你们是瑞典人吗？",
+   "姑 娘 们：不，我们不是瑞典人。我们是丹麦人。",
+   "海关官员：你们的朋友也是丹麦人吗？",
+   "姑 娘 们：不，他们不是丹麦人。他们是挪威人。",
+   "海关官员：请出示们的护照。",
+   "姑 娘 们：给您。",
+   "海关官员：这些是你们的箱子吗？",
+   "姑 娘 们：不，不是。",
+   "姑 娘 们：我们的箱子是棕色的。在这儿呢。",
+   "海关官员：你们是来旅游的吗？",
+   "姑 娘 们：是的，我们是来旅游的。",
+   "海关官员：你们的朋友也是来旅游的吗？",
+   "姑 娘 们：是的，他们也是。",
+   "海关官员：好了。",
+   "姑 娘 们：非常感谢。"
+  ]
+ },
+ "rawPage": {
+  "15": "191.txt"
+ },
+ "parsedTranslation": [
+  "海关官员：你们是瑞典人吗？",
+  "姑 娘 们：不，我们不是瑞典人。我们是丹麦人。",
+  "海关官员：你们的朋友也是丹麦人吗？",
+  "姑 娘 们：不，他们不是丹麦人。他们是挪威人。",
+  "海关官员：请出示们的护照。",
+  "姑 娘 们：给您。",
+  "海关官员：这些是你们的箱子吗？",
+  "姑 娘 们：不，不是。",
+  "姑 娘 们：我们的箱子是棕色的。在这儿呢。",
+  "海关官员：你们是来旅游的吗？",
+  "姑 娘 们：是的，我们是来旅游的。",
+  "海关官员：你们的朋友也是来旅游的吗？",
+  "姑 娘 们：是的，他们也是。",
+  "海关官员：好了。",
+  "姑 娘 们：非常感谢。"
+ ]
+}

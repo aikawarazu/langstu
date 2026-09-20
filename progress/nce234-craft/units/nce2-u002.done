@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u002",
+ "book": "nce2",
+ "unitId": "u002",
+ "title": "Breakfast or lunch?",
+ "subtitle": "早餐还是午餐？",
+ "hasText": false,
+ "lines": 14,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "a5462d4f646e",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Sold out",
+ "subtitle": "票已售完",
+ "lead": {
+  "question": "剧院票已售完，作者最后怎样买到了票？为什么反而高兴不起来？",
+  "warmup": "去买票的路上最怕听见票已售完。本课里，作者赶在开演前冲到售票处，却被一句 we've sold out 挡在门外；Susan 刚喊出 What a pity，就有一名男子跑来退票，局面瞬间反转。作者立刻回到窗口，却发现票是下星期三的。读时留意四处 may、might、can、could 的语气差别，以及 might as well 传达的那份无奈。",
+  "goals": [
+   "用 may/might 表达对现在或过去的不确定推测，如 may begin、may have begun",
+   "区分 can、could、may、might 四种请求语的客气程度与答语限制",
+   "掌握 hurry to、ticket office、sold out、return、at once、What a pity、might as well 等本课词组",
+   "理清买票—退票—再买的情节脉络，体会结尾的幽默与无奈"
+  ],
+  "summary": "全文只有十二句，却完成了一次戏剧性反转：may 先营造出随时开演与也许已开演的不确定；接着 sold out 把希望推到谷底，What a pity 顺势爆发；一个退票人又把希望推回来，作者用 could 委婉再问；最后售票员补上下星期三的演出，I might as well have them 与 sadly 收束全篇，留下哭笑不得的余味。",
+  "tips": "I might as well have them 不是“我可能拥有它们”：may/might as well 后接动词原形，表示“还是……的好、不妨”，不可加 to。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "When will the writer see the play?", "zh": "作者什么时候能看到这场戏？", "a": "He will see it next Wednesday, because the two tickets are for next Wednesday's performance.", "aZh": "下星期三。因为那两张退票是下星期三那场演出的票。", "hint": "见倒数第二句售票员的话 they're for next Wednesday's performance，以及作者的回答 I might as well have them。"},
+  {"kind": "detail", "q": "Why couldn't the girl give the writer two tickets when he first hurried to the ticket office?", "zh": "作者第一次匆匆赶到售票处时，为什么姑娘拿不出两张票？", "a": "Because they had sold out — there were no tickets left for that performance.", "aZh": "因为票已售完——那一场一张票也没有了。", "hint": "第四句 I'm sorry, we've sold out 是 sell out 的现在完成时用法。"},
+  {"kind": "detail", "q": "What happened just then, and how did it change the situation?", "zh": "正在这时发生了什么事？它对作者有什么帮助？", "a": "Just then a man hurried to the ticket office and asked, 'Can I return these two tickets?' The girl said 'Certainly,' so two tickets became available again.", "aZh": "一个男子匆匆奔向售票处退掉两张票，姑娘答应了，于是又有票可售，作者马上返回窗口再问。", "hint": "第六至第九句：a man hurried to the ticket office 与 Can I return these two tickets，return 此处为“退回、退还”。"},
+  {"kind": "detail", "q": "Why did the writer say 'I might as well have them' sadly?", "zh": "作者为什么垂头丧气地说“我还是买下的好”？", "a": "Because the tickets were not for tonight but for next Wednesday's performance; he had waited so long that he took them unwillingly.", "aZh": "因为这两张票是下星期三的，不是当天晚上的；他等了很久却买不上当场的票，只好无可奈何地买下。", "hint": "结尾 I might as well have them 表“还是……的好”，sadly 点明心情。"},
+  {"kind": "think", "q": "文中三处请求分别用了 May I、Can I、Could I，语气为何不完全相同？这说明作者当时的心理有什么变化？", "zh": "作者买票用 May I，男子退票用 Can I，作者再问用 Could I，三者语气有何差别？反映了怎样的心理？", "a": "May I is formal and polite; Can I is the most common and direct; Could I is more hesitant and tactful than can. The writer's second request sounds less confident because he is not sure whether he can still get the tickets after the disappointment.", "aZh": "may 最正式客气，can 常用直接，could 比 can 更犹豫委婉。第三次用 could，说明作者在遭拒之后不敢确定还能不能买到，语气更谨慎。", "hint": "对比第三句 May I have two tickets please、男子说的 Can I return these two tickets、第十一句 Could I have those two tickets please。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：当他发现已经八点钟的时候，他赶紧去了办公室。", "a": "When he saw that it was already eight o'clock, he hurried to the office.", "note": "hurry to + 地点，hurry 作动词。"},
+  {"q": "句型转换：用 may 改写下列句子，表示对已经发生之事的推测。Perhaps the play has begun already.", "a": "The play may have begun already.", "note": "may + have + 过去分词，表示“也许已经……”。"},
+  {"q": "填空：I went back to the ticket office ___ ___.（立刻，两空）", "a": "at once", "note": "at once = immediately；注意不是 at last（终于）。"},
+  {"q": "改错：What pity! Susan exclaimed.", "a": "What a pity! Susan exclaimed.", "note": "pity 此处为可数名词，感叹句须加 a。"},
+  {"q": "汉译英：我还是买下的好，我垂头丧气地说。", "a": "'I might as well have them,' I said sadly.", "note": "may/might as well + 动词原形，意为“还是……的好”。"},
+  {"q": "填空：___ I have those two tickets please?（比 can 更委婉的请求）", "a": "Could", "note": "could 此处不表过去，只使请求更客气。"},
+  {"q": "汉译英：今晚演出的门票已经售完了。", "a": "Tickets for tonight's performance are sold out.", "note": "sold out 表“已售完”，复数 tickets 后要用 are。"}
+ ],
+ "quiz": [
+  {"q": "售票员说 we've sold out，她的意思是：", "options": ["There are no tickets left.", "The tickets are very expensive.", "The tickets must be returned today.", "The tickets are only for tonight."], "answer": 0, "note": "sell out 指“售完”，此处为现在完成时。"},
+  {"q": "“他可能已经把两张票退了”，正确的一句是：", "options": ["He may have returned the tickets.", "He may return the tickets.", "He must return the tickets.", "He can be returning the tickets."], "answer": 0, "note": "对过去可能性的推测用 may + have + 过去分词。"},
+  {"q": "“我匆匆赶到售票处”，正确的一句是：", "options": ["I hurried to the ticket office.", "I hurried the ticket office.", "I was hurry to the ticket office.", "I hurried at the ticket office."], "answer": 0, "note": "hurry to + 地点，hurry 是动词。"},
+  {"q": "作者第三次开口买票时说的是哪一句？", "options": ["May I have two tickets please?", "Can I return these two tickets?", "Could I have those two tickets please?", "I might as well have them."], "answer": 2, "note": "第三次用 could，语气比 can 更委婉犹豫。"},
+  {"q": "“我还是买下的好”，英文应为：", "options": ["I might as well have them.", "I might as well to have them.", "I as well might have them.", "I might as well having them."], "answer": 0, "note": "may/might as well 后直接跟动词原形。"},
+  {"q": "“我马上又回到售票处”，“马上”应译作：", "options": ["I went back to the ticket office at once.", "I went back to the ticket office at last.", "I went back to the ticket office in once.", "I went back to the ticket office just then."], "answer": 0, "note": "at once 意为“立刻、马上”。"}
+ ]
+}

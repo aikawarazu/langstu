@@ -1,0 +1,84 @@
+{
+ "unitId": "u020",
+ "lessons": [
+  {
+   "lesson": 39,
+   "title": "Don't drop it!",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "SAM",
+     "en": "What are you going to do with that vase, Penny?"
+    },
+    {
+     "i": 1,
+     "speaker": "PENNY",
+     "en": "I'm going to put it on this table, Sam."
+    },
+    {
+     "i": 2,
+     "speaker": "SAM",
+     "en": "Don't do that. Give it to me."
+    },
+    {
+     "i": 3,
+     "speaker": "PENNY",
+     "en": "What are you going to do with it?"
+    },
+    {
+     "i": 4,
+     "speaker": "SAM",
+     "en": "I'm going to put it here, in front of the window."
+    },
+    {
+     "i": 5,
+     "speaker": "PENNY",
+     "en": "Be careful. Don't drop it!"
+    },
+    {
+     "i": 6,
+     "speaker": "PENNY",
+     "en": "Don't put it there, Sam. Put it here, on this shelf."
+    },
+    {
+     "i": 7,
+     "speaker": "SAM",
+     "en": "There we are! It's a lovely vase."
+    },
+    {
+     "i": 8,
+     "speaker": "PENNY",
+     "en": "Those flowers are lovely, too."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "39": [
+   "萨姆：你打算如何处理那花瓶？",
+   "彭妮：我打算把它放在这张桌子上，萨姆。",
+   "萨姆：不要放在那儿，把它给我。",
+   "彭妮：你打算怎么办？",
+   "萨姆：我准备把它摆在这儿，放在窗前。",
+   "彭妮：小心点！别摔了！",
+   "彭妮：别放在那儿，萨姆。放在这儿，这个架子上。",
+   "萨姆：这只漂亮的花瓶。",
+   "彭妮：这些花也很漂亮啊。"
+  ]
+ },
+ "rawPage": {
+  "39": "203.txt"
+ },
+ "parsedTranslation": [
+  "萨姆：你打算如何处理那花瓶？",
+  "彭妮：我打算把它放在这张桌子上，萨姆。",
+  "萨姆：不要放在那儿，把它给我。",
+  "彭妮：你打算怎么办？",
+  "萨姆：我准备把它摆在这儿，放在窗前。",
+  "彭妮：小心点！别摔了！",
+  "彭妮：别放在那儿，萨姆。放在这儿，这个架子上。",
+  "萨姆：这只漂亮的花瓶。",
+  "彭妮：这些花也很漂亮啊。"
+ ]
+}

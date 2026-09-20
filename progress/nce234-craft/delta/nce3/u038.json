@@ -1,0 +1,35 @@
+{
+ "title": "The First Calendar",
+ "subtitle": "最早的日历",
+ "lead": {
+  "question": "刻在骨头和象牙上的点和线，为什么被称为人类最早的日历？",
+  "warmup": "考古学家在洞穴墙壁、兽骨和猛犸象牙上发现了许多刻痕：细小的点、笔直的线和各种符号。长期以来，人们以为它们只是原始装饰或某种艺术，可近年的研究显示，这些痕迹竟记录着日子的推移和月亮的圆缺。它们出自冰川时代以狩猎、捕鱼为生的游牧人之手。本课要谈的正是这样一份“文字”——人类最早的日历。读课文前先想一想：没有文字的年代，人们靠什么记住四季的轮转？",
+  "goals": ["掌握 calendar、primitive、historian、accurate、code 等核心词汇的含义与用法。", "读懂并复述点、线、符号与原始日历之间的关系，理清课文说明顺序。", "学会 deduce ... from、be faced with、shed light on、come into being、by correlating 等地道搭配。", "熟悉被动语态与现在完成时、过去完成时在说明文中的表达，掌握 It has long been known that... 句型。"],
+  "summary": "未来的历史学家拥有大量影像资料，再现遥远过去却只能凭零星线索推断。历史学家原以为日历随农业的出现而产生，近年证据否定了这一假设。他们把世界各地刻在墙壁、骨头和猛犸象牙上的点、线、符号相互对照，破译了这种代码：它与日子的推移和月亮圆缺有关，是最原始的日历，可见这比原先设想的早两万年。",
+  "tips": "易错提醒：be engraved on 用被动语态，介词是 on 而非 in；end 作“结束”讲是不及物动词，只能说 ended，不能说 was ended。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What is the importance of the dots, lines, and symbols", "zh": "刻在墙壁、骨头和象牙上的这些点、线和符号有什么重要意义？", "a": "They form a primitive type of calendar, for they are connected with the passage of days and the phases of the moon.", "aZh": "它们构成了一种最原始的日历，因为与日子的推移和月亮的圆缺有关。", "hint": "答案在第10—11句：历史学家通过把世界各地的痕迹相互对照，弄懂了这个费解的代码。"},
+  {"kind": "detail", "q": "What have historians long assumed about calendars, and what does recent evidence seem to indicate?", "zh": "历史学家长期以来对日历的起源抱有什么看法？近期的科学证据又说明了什么？", "a": "They have assumed that calendars came into being with the advent of agriculture, but recent scientific evidence seems to indicate that this assumption is incorrect.", "aZh": "他们一直认为日历是随着农业的问世而出现的，但近期的科学证据似乎表明这一假设并不正确。", "hint": "见第7句 Up to now, historians have assumed that... Recent scientific evidence seems to indicate..."},
+  {"kind": "detail", "q": "Who made the markings, and when did the last Ice Age begin and end?", "zh": "这些刻痕是什么人留下的？冰川期始于何时又结束于何时？", "a": "The nomads who lived by hunting and fishing made them；the last Ice Age began about 35,000 B.C. and ended about 10,000 B.C.", "aZh": "它们是靠狩猎、捕鱼为生的游牧人留下的；冰川期约始于公元前35,000年，结束于公元前10,000年。", "hint": "见第9句 The nomads who made these markings lived by hunting and fishing during the last Ice Age..."},
+  {"kind": "detail", "q": "Why were the hunting scenes depicted on walls not simply a form of artistic expression?", "zh": "为什么说画在墙上的狩猎图景并不单纯是一种艺术表现形式？", "a": "Because they had a definite meaning, for they were as near as early man could get to writing.", "aZh": "因为它们有着一定的含义，已接近古代人所能达到的文字形式。", "hint": "见第12句 They had a definite meaning, for they were as near as early man could get to writing."},
+  {"kind": "think", "q": "Why will future historians be in a unique position, and yet why is reconstructing the distant past still hard?", "zh": "未来的历史学家为何处于独特的有利地位？而重现遥远的过去为何依然困难？", "a": "They will have films, videos, CDs and CD-ROMs, and will be able to see and hear us in action；but the historian reconstructing the distant past has only a few scanty clues and must deduce what he can from them.", "aZh": "他们将拥有电影、录像、光盘等大量资料，能够“身临其境”地看和听；但重现遥远过去的历史学家只有少量不充分的线索，必须据此进行推断。", "hint": "把第2—4句的有利条件与第5句 the historian ... is always faced with a difficult task 对比作答。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：日历是随着农业的出现而产生的。", "a": "Calendars came into being with the advent of agriculture.", "note": "come into being 意为“产生、出现”。"},
+  {"q": "汉译英：这些符号被刻在墙壁、骨头和猛犸的象牙上。", "a": "These symbols were engraved on walls, bones and the ivory tusks of mammoths.", "note": "用被动语态，介词是 on。"},
+  {"q": "句型转换（主动变被动）：Historians have engraved these dots and lines on walls.", "a": "These dots and lines have been engraved on walls.", "note": "现在完成时的被动语态 have been done。"},
+  {"q": "句型转换（合并成 It has long been known that...）：The hunting scenes were not simply artistic expression. People have long known this.", "a": "It has long been known that the hunting scenes were not simply a form of artistic expression.", "note": "It has long been known that... 主语从句句型。"},
+  {"q": "填空：Historians have been able to read this difficult code ____ correlating markings made in various parts of the world.", "a": "by", "note": "by + 动名词表示方式手段。"},
+  {"q": "填空：He has to deduce what he can ____ the few scanty clues available.", "a": "from", "note": "deduce...from... 表示“由……推断出”。"},
+  {"q": "改错：The last Ice Age began about 35,000 B.C. and was ended about 10,000 B.C.", "a": "去掉 was，改为 ...and ended about 10,000 B.C.", "note": "end 作“结束”不及物，不用被动。"}
+ ],
+ "quiz": [
+  {"q": "刻在墙壁、骨头和猛犸象牙上的点、线、符号的重要意义是什么？", "options": ["They were a form of artistic expression only.", "They were used to record hunting profits.", "They form a primitive type of calendar.", "They served as weapons of the nomads."], "answer": 2, "note": "与日子推移和月相有关。"},
+  {"q": "历史学家长期以来对日历的起源抱有什么看法？", "options": ["Calendars were invented by future historians.", "Calendars came into being with the advent of agriculture.", "Calendars were first made in ancient Greece.", "Calendars were used only to record the phases of the moon."], "answer": 1, "note": "近期证据表明此假设不正确。"},
+  {"q": "关于未来的历史学家，课文是怎么说的？", "options": ["They will have no evidence about our times at all.", "They will rely solely on the written word.", "They will find it easy to reconstruct our history.", "They will hardly know which facts to select from the great mass of evidence."], "answer": 3, "note": "资料浩繁，反而不易取舍。"},
+  {"q": "力图重现遥远过去的历史学家处境如何？", "options": ["They have to deduce what they can from the few scanty clues available.", "They can see and hear early man in action.", "They have a bewildering amount of information.", "They can easily reconstruct the distant past."], "answer": 0, "note": "与未来历史学家形成对比。"},
+  {"q": "画在墙上的狩猎图景有什么特点？", "options": ["They were merely decoration for the caves.", "They had a definite meaning and were as near as early man could get to writing.", "They were maps showing the way home.", "They were made by farmers after the Ice Age."], "answer": 1, "note": "并非单纯的艺术表达。"},
+  {"q": "课文最后的结论是什么？", "options": ["Man learned to write 20,000 years ago.", "The markings were made by farmers rather than nomads.", "The last Ice Age ended 35,000 years ago.", "Man was making a real effort to understand the seasons 20,000 years earlier than has been supposed."], "answer": 3, "note": "比原先设想的早两万年。"}
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "title": "One good turn deserves another",
+ "subtitle": "礼尚往来",
+ "lead": {
+  "question": "托尼薪水不错却总借钱不还，作者为什么反而开口向他借二十英镑？",
+  "warmup": "这是一幕饭馆里的小喜剧。作者正吃饭，老友托尼走了进来——他曾在律师事务所做事，如今在银行拿高薪，却有个向朋友借钱不还的毛病。偏偏作者向他借二十英镑，托尼竟立刻掏钱，理由让人哭笑不得。听读时两条时间线要分清：过去进行时的背景动作（was having、was eating）与一般过去时的推进动作。",
+  "goals": [
+   "能用 was having dinner、was eating 等过去进行时描写背景动作，并与一般过去时的推进动词区分",
+   "能分清 borrow ... from 与 lend ... to，以及 pay back 与 pay for 两组易混搭配",
+   "会用 lawyer's office、at a bank、get a good salary、immediately 讲述职业与收入",
+   "理解标题中 turn 与 deserve 的含义，并能复述结尾“谁付饭钱”的转折"
+  ],
+  "summary": "作者在饭馆吃饭时，老友托尼走进来坐下。托尼多年前在律师事务所做事，如今在银行任职、薪水可观，却总向朋友借钱从不归还。他从没向作者借过钱，于是当作者开口借二十英镑时，他爽快答应，随即一句“所以这顿饭你请”让笑话落地。过去进行时与一般过去时分工明确，还要辨清 borrow 与 lend。",
+  "tips": "记住一组对照：borrow 是借进来，必接 from；lend 是借出去，常说 lend sb. sth. 或 lend sth. to sb.；pay back 是还钱，pay for 是为某物付款。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did Tony say, 'so now you can pay for my dinner'?", "zh": "为什么托尼说“所以现在你可以替我付饭钱了”？", "a": "Because he had never borrowed any money from the writer before, so after lending him £20 he said the writer could pay for his dinner.", "aZh": "因为托尼以前从未向作者借过钱，所以借出二十英镑后，他说这顿饭该由作者来付。", "hint": "答案在最后两句：To my surprise, he gave me the money immediately. / 'I have never borrowed any money from you … so now you can pay for my dinner!'"},
+  {"kind": "detail", "q": "What was the writer doing when Tony came in?", "zh": "托尼进来的时候，作者正在做什么？", "a": "He was having dinner at a restaurant.", "aZh": "他正在一家饭馆吃饭。", "hint": "见第 1 句 I was having dinner at a restaurant when Tony Steele came in，背景动作用过去进行时。"},
+  {"kind": "detail", "q": "Where did Tony work years ago, and where is he working now?", "zh": "托尼多年前在哪里工作？现在又在哪里上班？", "a": "He worked in a lawyer's office years ago, but he is now working at a bank. He gets a good salary, yet he always borrows money from his friends and never pays it back.", "aZh": "他多年前在一家律师事务所工作，现在在一家银行上班；薪水很高，却总向朋友借钱，而且从来不还。", "hint": "见第 2、3 句，years ago 用一般过去时，now 用现在进行时。"},
+  {"kind": "detail", "q": "What did the writer ask Tony to do while he was eating?", "zh": "托尼吃饭的时候，作者向他提出了什么请求？", "a": "He asked him to lend him £20, and to his surprise Tony gave him the money immediately.", "aZh": "作者请他借二十英镑给自己；令作者惊奇的是，托尼立刻把钱给了他。", "hint": "见第 6、7 句 While he was eating, I asked him to lend me £20. / To my surprise, he gave me the money immediately。"},
+  {"kind": "think", "q": "Why is the story funny, and what does the title 'One good turn deserves another' mean here?", "zh": "这个故事的笑点在哪里？标题“礼尚往来”在文中有怎样的意味？", "a": "Tony's joke is that lending £20 looks like a good turn, but he immediately makes the writer pay for his dinner with it. The title means a good deed should be repaid with another good deed — here 'turn' means an act towards someone and 'deserve' means should get.", "aZh": "笑点在于托尼“借出”二十英镑看着是帮了忙，却立刻用它让作者替自己付饭钱。标题本意是善举当以善举相报，文中 turn 指对他人的举动，deserve 意为“应得、值得”，于是有了反讽的味道。", "hint": "结合标题注释：turn 意为“行为、举动”，再看结尾 Tony said, 'so now you can pay for my dinner!'"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我正在一家饭馆吃饭，这时托尼走了进来。", "a": "I was having dinner at a restaurant when Tony Steele came in.", "note": "背景动作用过去进行时，when 引出插入的短动作。"},
+  {"q": "汉译英：托尼多年前在一家律师事务所工作，但现在正在一家银行上班，薪水很高。", "a": "Tony worked in a lawyer's office years ago, but he is now working at a bank. He gets a good salary.", "note": "years ago 用一般过去时，now 用现在进行时。"},
+  {"q": "汉译英：托尼薪水很高，却总向朋友借钱从不归还；这次他却立刻把钱给了我。", "a": "Tony gets a good salary, but he always borrows money from his friends and never pays it back; this time he gave me the money immediately.", "note": "immediately 作副词修饰动词。"},
+  {"q": "句型转换：用 while 把下面两句合并成一句。He was eating. I asked him to lend me £20.", "a": "While he was eating, I asked him to lend me £20.", "note": "while 引导的从句常用过去进行时表示背景。"},
+  {"q": "填空：补全本课标题 One good turn ______ another. 并说明 turn 在此的含义：______。", "a": "deserves；turn 在此指对人有益（或有害）的举动、行为", "note": "deserve 及物，后直接接名词宾语。"},
+  {"q": "填空（介词／副词）：He always borrows money ______ his friends and never pays it ______.", "a": "from; back", "note": "borrow ... from 借入；pay ... back 归还。"},
+  {"q": "改错：While he was eating, I asked him lend me £20.", "a": "While he was eating, I asked him to lend me £20.", "note": "ask sb. to do sth. 的 to 不能省略。"}
+ ],
+ "quiz": [
+  {"q": "“我正在一家饭馆吃饭，这时托尼走了进来”的正确英文是哪一句？", "options": ["I was having dinner at a restaurant when Tony Steele came in.", "I had dinner at a restaurant when Tony Steele was coming in.", "I am having dinner at a restaurant when Tony Steele came in.", "I was having dinner at a restaurant while Tony Steele came in."], "answer": 0, "note": "长背景用过去进行时，when 引出短暂动作；while 不接短暂动词。"},
+  {"q": "要表达“他现在正在一家银行上班”，下列哪一句正确？", "options": ["He is now working at a bank.", "He is now working in bank.", "He now working at a bank.", "He is now working for the bank's office."], "answer": 0, "note": "work at + 工作地点；bank 是可数名词，须带冠词。"},
+  {"q": "“他从不还朋友的钱”的正确英文是哪一句？", "options": ["He never pays it back.", "He never pays it for.", "He never pays back it.", "He never pays it to."], "answer": 0, "note": "pay back 还钱，代词宾语须放在副词 back 之前。"},
+  {"q": "“我请他借给我二十英镑”的正确英文是哪一句？", "options": ["I asked him to lend me £20.", "I asked him lend me £20.", "I asked to him to lend me £20.", "I asked him lending me £20."], "answer": 0, "note": "ask sb. to do sth.，不定式 to 不可省略。"},
+  {"q": "“令我惊奇的是，他立刻把钱给了我”的正确英文是哪一句？", "options": ["To my surprise, he gave me the money immediately.", "For my surprise, he gave me the money immediately.", "To my surprise, he gave to me the money immediate.", "At my surprise, he gave me money immediately."], "answer": 0, "note": "to one's surprise 是固定插入语；修饰动词用副词 immediately。"},
+  {"q": "下列哪一句最能解释本课标题 One good turn deserves another？", "options": ["If you do someone a good turn, it should be repaid with another good turn.", "If you turn round once, someone will turn round twice.", "A good turn always deserves a good lawyer.", "One good turn helps you get a good salary at once."], "answer": 0, "note": "turn 指帮助他人的举动，deserve 意为应得、值得。"}
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Never too old to learn",
+ "subtitle": "活到老学到老",
+ "lead": {
+  "question": "佩奇先生执教多少年后退休？同学们准备怎样纪念这位老校长？",
+  "warmup": "在每个人的学生时代，总有一位令人难忘的老师。本课作者收到母校来信，得知当年那位既耐心又善解人意的老校长斯图亚特·佩奇先生下周就要退休了。为了纪念这个特殊的日子，学校的新老同学纷纷凑钱要送他一件礼物，还要在下周四为他举办一场告别宴会。更巧的是，他退休的前一天恰好执教满四十年，退休后他又将投身于园艺这个全新的爱好。",
+  "goals": ["掌握 inform、headmaster、pupil、retire、honourable、odd、decent、completely 等本课核心词汇。", "理解并会用 in one's honour、devote oneself to、mark the occasion 等短语。", "辨析现在完成时与一般过去时，会用将来进行时和将来完成进行时描述将来。", "区分 old 与 elder 的用法，体会 old and new 作非限定性定语的作用。"],
+  "summary": "作者收到母校来信，得知前校长佩奇先生下周退休。为纪念这一刻，新老同学将送他礼物，所有出资者在签名簿上签名，签名簿随后寄往校长家。大家感念他的耐心、理解与亲切鼓励。下周四，许多former pupils将参加为他举办的 farewell dinner。巧合的是，他退休前一天正好执教满四十年。退休后他将致力于园艺——一个全新的爱好。但他并不在意，因为正如他常说的：活到老，学到老。",
+  "tips": "elder 只用于家庭成员，'母校'应说 my old school（不能用 elder）；in one's honour 表示'为向某人表示敬意'，注意是 one's 而非 the。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How long has Mr. Page been teaching?", "zh": "佩奇先生执教多少年了？", "a": "For a total of forty years.", "aZh": "总共四十年。", "hint": "见第6句“…Mr. Page will have been teaching for a total of forty years.”"},
+  {"kind": "detail", "q": "What will the pupils of the school do to mark the occasion?", "zh": "为了纪念这个日子，学校的学生们将做什么？", "a": "Pupils of the school, old and new, will be sending him a present.", "aZh": "学校的新老同学将送他一件礼物。", "hint": "见第2句“Pupils of the school, old and new, will be sending him a present to mark the occasion.”"},
+  {"kind": "detail", "q": "Where will the signed album be sent?", "zh": "签好名的签名簿将被送到哪里？", "a": "It will be sent to the headmaster's home.", "aZh": "它将被送到校长的家里。", "hint": "见第3句“…a large album which will be sent to the headmaster's home.”"},
+  {"kind": "detail", "q": "What will Mr. Page do after he has retired?", "zh": "佩奇先生退休后将做什么？", "a": "He will devote himself to gardening.", "aZh": "他将致力于园艺。", "hint": "见第7句“After he has retired, he will devote himself to gardening.”"},
+  {"kind": "think", "q": "What does the sentence 'one is never too old to learn' suggest about Mr. Page?", "zh": "“活到老，学到老”一句表现了佩奇先生怎样的态度？", "a": "He is willing to keep learning new things, even after retirement.", "aZh": "即使退休，他也愿意不断学习新的事物。", "hint": "结合结尾“an entirely new hobby”与主题句 one is never too old to learn 理解。"}
+ ],
+ "exercises": [
+  {"q": "我刚刚收到母校的一封信，通知我说我的前校长斯图亚特·佩奇先生下星期就要退休了。", "a": "I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week.", "note": "inform用现在分词表伴随；retire用将来进行时。"},
+  {"q": "They will hold a farewell dinner for him next Thursday. A great many former pupils will attend it.（用 in his honour 合并为一句）", "a": "A great many former pupils will attend a farewell dinner in his honour next Thursday.", "note": "in one's honour 表示“为向某人表示敬意”。"},
+  {"q": "用括号内动词的适当形式填空：After he ____ (retire) next week, Mr. Page will devote ____ (he) to gardening.", "a": "has retired; himself", "note": "retire用现在完成时；devote oneself to接动名词。"},
+  {"q": "用 old 或 elder 填空：（1）My ____ brother is now a headmaster.（2）I have just received a letter from my ____ school.", "a": "（1）elder　（2）old", "note": "elder只用于家人；old可指“旧的/以前的”。"},
+  {"q": "改错：Mr. Page has retired last week, so we held a farewell dinner for him.", "a": "Mr. Page retired last week, so we held a farewell dinner for him.", "note": "last week等明确过去时间用一般过去时。"},
+  {"q": "他是一位可敬又正直的校长，我们都为他感到骄傲。", "a": "He is an honourable and decent headmaster, and we are all proud of him.", "note": "be proud of后接名词或代词。"},
+  {"q": "用 odd 或 completely 填空：It is a(n) ____ coincidence that he had ____ completed forty years of teaching.", "a": "odd; completely", "note": "odd＝奇特的；completely＝完全地。"}
+ ],
+ "quiz": [
+  {"q": "佩奇先生退休前执教满多少年？", "options": ["Twenty years.", "Thirty years.", "Forty years.", "Fifty years."], "answer": 2, "note": "a total of forty years。"},
+  {"q": "作者是从哪里得知前校长即将退休的消息的？", "options": ["His old school.", "Mr. Page himself.", "A former pupil.", "The new headmaster."], "answer": 0, "note": "a letter from my old school。"},
+  {"q": "按照课文，那本签好名的签名簿将被送往何处？", "options": ["To the school.", "To the headmaster's home.", "To the farewell dinner.", "To the writer's house."], "answer": 1, "note": "sent to the headmaster's home。"},
+  {"q": "佩奇先生退休后准备把精力投入什么？", "options": ["Teaching.", "Gardening.", "Writing.", "Travelling."], "answer": 1, "note": "devote himself to gardening。"},
+  {"q": "哪一句最能解释“one is never too old to learn”？", "options": ["Old people cannot learn anything.", "You can always learn new things, however old you are.", "Only young people should learn.", "Learning is too hard for old people."], "answer": 1, "note": "主题句含义：活到老，学到老。"},
+  {"q": "关于“will have been teaching”，下列说法正确的是？", "options": ["It is the present perfect.", "It is the past simple.", "It is the future perfect continuous.", "It is the present continuous."], "answer": 2, "note": "将来完成进行时。"}
+ ]
+}

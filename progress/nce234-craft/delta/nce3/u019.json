@@ -1,0 +1,35 @@
+{
+ "title": "A Very Dear Cat",
+ "subtitle": "一只贵重的宝贝猫",
+ "lead": {
+  "question": "拉姆齐太太说猫很 dear，为什么作者说它 dear 得“不止一层含义”？",
+  "warmup": "一只作息极有规律的猫突然失踪，三天后一封匿名信索要赎金——故事就这样轻松诙谐地展开。作者用冷静克制的口吻叙述一桩“绑架案”，结尾却靠 dear 一词的双关点出幽默：猫对主人是心爱之物，对钱包却是昂贵之物。阅读时请留意事件如何层层推进，以及间接引语、条件句和分词短语怎样把信中的威胁转述得不动声色。",
+  "goals": ["掌握 kidnap、ransom、anonymous、withdraw、punctually、astounded 等本课核心词汇。", "理解 dear 的双关：既指“心爱的”，又指“昂贵的”。", "学会用间接引语转述他人的陈述（stated、was instructed、explained）。", "体会条件句与分词短语在叙事中的表达作用。"],
+  "summary": "拉姆齐太太是位富有的老妇人，多年来与爱猫拉斯同住。拉斯生活规律，傍晚散步后总在七点前回家。可一天晚上它没回来，三天后她收到匿名信：付 1,000 美元赎金便把猫归还，并把钱放进纸盒留在门外。她原想报警，却怕再也见不到猫，只得从银行取钱照办。次日盒子不见，当晚七点拉斯准时归来，只是渴得喝了半瓶牛奶。警察听后大为震惊，她说拉斯很 dear；念及那笔钱，这 dear 便有了双重含义。",
+  "tips": "dear 在本课是双关：既表“亲爱的、心爱的”，又表“昂贵的”。切勿一律译成“亲爱的”，须结合语境判断含义。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why was Rastus 'very dear' in more ways than one?", "zh": "为什么拉斯“贵重”得不止一层含义？", "a": "Because Rastus was dear to Mrs. Ramsay (he was her beloved cat), and he was also dear in the sense of expensive, since she had paid a ransom of $1,000 to get him back.", "aZh": "因为拉斯对拉姆齐太太来说是心爱之物（她珍爱的猫），同时它也是“昂贵”的——她为赎回它付了 1,000 美元赎金。", "hint": "答案见课文最后两句：'She explained that Rastus was very dear to her. Considering the amount she paid, he was dear in more ways than one!'"},
+  {"kind": "detail", "q": "What kind of life did Rastus lead?", "zh": "拉斯平时过着怎样的生活？", "a": "He led an orderly life. He usually took a short walk in the evenings and was always home by seven o'clock.", "aZh": "它生活很有规律，傍晚常常出去溜达一会儿，总在七点钟以前回家。", "hint": "见课文第三、四句（'Rastus leads an orderly life...'）。"},
+  {"kind": "detail", "q": "What did the anonymous letter ask Mrs. Ramsay to do?", "zh": "那封匿名信要求拉姆齐太太做什么？", "a": "It stated that Rastus was in safe hands and would be returned if she paid a ransom of $1,000; she was instructed to put the money in a cardboard box and leave it outside her door.", "aZh": "信中说拉斯安然无恙，只要她付 1,000 美元赎金便立即归还；并要求她把钱放进纸盒，留在门外。", "hint": "见匿名信内容两句（'The writer stated...' / 'Mrs. Ramsay was instructed...'）。"},
+  {"kind": "detail", "q": "What condition was Rastus in when he returned?", "zh": "拉斯回来时状态如何？", "a": "He looked very well, though he was rather thirsty, for he drank half a bottle of milk.", "aZh": "它看上去很好，只是渴得厉害，喝了半瓶牛奶。", "hint": "见课文倒数第三句（'He looked very well though he was rather thirsty...'）。"},
+  {"kind": "think", "q": "Why did Mrs. Ramsay decide not to go to the police in the end?", "zh": "拉姆齐太太为什么最后决定不去报警？", "a": "Because she feared that she would never see Rastus again -- the letter had made that quite clear -- so she changed her mind and paid the money.", "aZh": "因为她怕再也见不到拉斯——信上把这点说得十分明白——于是改变了主意，付了钱。", "hint": "见她改变主意的那句（'At first she decided to go to the police, but fearing that...'）。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：绑架者很少对动物感兴趣，但最近他们对拉姆齐太太的猫产生了极大的兴趣。", "a": "Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Ramsay's cat.", "note": "rarely 为否定频率副词。"},
+  {"q": "语法填空：Mrs. Ramsay received an ____ letter demanding a ____ of $1,000.", "a": "anonymous; ransom", "note": "anonymous 匿名的；ransom 赎金。"},
+  {"q": "句型转换：将直接引语改为间接引语。He said, 'Rastus is in safe hands and will be returned immediately if you pay a ransom.'", "a": "The writer stated that Rastus was in safe hands and would be returned immediately if she paid a ransom.", "note": "间接引语时态须后移。"},
+  {"q": "改错：She withdrawed $1000 from her bank and followed the kidnapper's instructions.", "a": "withdrawed → withdrew（withdraw 的过去式不规则）。", "note": "withdraw 过去式为 withdrew。"},
+  {"q": "汉译英：她怕再也见不到拉斯，于是改变了主意。", "a": "Fearing that she would never see Rastus again, she changed her mind.", "note": "fearing 作原因状语。"},
+  {"q": "填空并解释：Considering the amount she paid, he was dear in more ways than one! 句中 dear 的两个含义分别是？", "a": "“心爱的”和“昂贵的”；considering 意为“考虑到”。", "note": "dear 双关：心爱的／昂贵的。"},
+  {"q": "条件句填空：The cat ____ (return) immediately if Mrs. Ramsay ____ (pay) a ransom of $1,000.", "a": "would be returned / paid（与将来事实相反的假设用过去式）。", "note": "条件句主句用 would+动词原形。"}
+ ],
+ "quiz": [
+  {"q": "课文标题 A very dear cat 中，dear 的含义是？", "options": ["beloved and expensive", "only expensive", "only beloved", "cheap and worthless"], "answer": 0, "note": "dear 一语双关。"},
+  {"q": "拉斯的日常作息是怎样的？", "options": ["He never goes out of the flat.", "He spends the whole night outside.", "He takes a short walk in the evenings and is home by seven.", "He comes home at midnight every day."], "answer": 2, "note": "orderly life 有规律。"},
+  {"q": "那封匿名信提出了什么要求？", "options": ["Hand the cat over to the police.", "Move to another city at once.", "Give the writer some jewellery instead.", "Pay a ransom of $1,000 and leave the money in a cardboard box outside the door."], "answer": 3, "note": "cardboard box 纸盒。"},
+  {"q": "拉姆齐太太最初想报警，为什么又改变主意？", "options": ["The police refused to help her.", "She feared she would never see Rastus again.", "She had no money to pay the ransom.", "The cat had already come back by then."], "answer": 1, "note": "fearing 引出原因。"},
+  {"q": "拉斯回到家中时状态如何？", "options": ["He looked very well though he was rather thirsty.", "He was badly injured and weak.", "He was very hungry and thin.", "He was fast asleep and could not move."], "answer": 0, "note": "drank half a bottle of milk。"},
+  {"q": "警察听到拉姆齐太太的做法后反应如何？", "options": ["They laughed at her.", "They praised her for her cleverness.", "They were astounded.", "They were quite indifferent."], "answer": 2, "note": "astounded 大为震惊。"}
+ ]
+}

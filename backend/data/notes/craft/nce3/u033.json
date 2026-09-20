@@ -1,0 +1,164 @@
+{
+ "unitId": "u033",
+ "title": "A Day to Remember",
+ "subtitle": "难忘的一天",
+ "lead": {
+  "question": "课文里的难忘的一天，是事事顺利还是事事不顺？一件小事为何会引发一连串大乱子？",
+  "warmup": "每个人都有过事事不顺心的日子：早晨还好好的，转眼间一切都失去了控制。本课先讲一位主妇边做饭边照看孩子，一个电话便引来一连串麻烦；接着把镜头转向悉尼郊区的帕拉马塔，一场小车祸在交通高峰时演变成大乱子。阅读时留意作者如何用一般过去时按时间顺序，把事故一环扣一环地讲清楚。",
+  "goals": [
+   "掌握本课重点词汇与短语：prelude、catastrophe、crockery、get into a panic、pull up、on a big scale 等。",
+   "学会用 set up、lead to、reduce sb to tears 等表达'引起、导致'的因果关系。",
+   "理解并运用一般过去时按时间顺序叙述一连串接连发生的事件。",
+   "能复述帕拉马塔交通事故的连锁过程，体会'小事引发连锁反应'的主题。"
+  ],
+  "summary": "课文由普遍现象写起：一天可能开头顺利，却突然失控，一件小事就像多米诺骨牌般引发连锁反应。作者先以主妇做饭、电话铃响、孩子打翻餐具为例，再叙述帕拉马塔的真实事故：两车相撞、初学者惊慌停车、后面司机急刹车、蛋糕飞出挡风玻璃、卡车司机猛然刹车、成百啤酒瓶滑落，争吵不断，交通堵塞近一小时，最后只有两条野狗坐享其成。",
+  "tips": "注意 prelude to、lead to、benefit from 的介词搭配，以及 It took sb + 时间 + to do sth 的句型；叙述过去连续动作时，谓语要统一用一般过去时。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What incident began the series of traffic accidents?",
+   "zh": "是什么事件引发了一连串的交通事故？",
+   "a": "During the rush hour one evening, two cars collided and both drivers began to argue.",
+   "aZh": "一天傍晚交通最拥挤时，两辆汽车相撞，两个司机争吵起来。",
+   "hint": "答案在课文第11句：'During the rush hour one evening two cars collided and both drivers began to argue.'——两车相撞是这一连串事故的开端。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the baby do while the woman was on the phone?",
+   "zh": "女人接电话时，孩子做了什么？",
+   "a": "The baby pulled the tablecloth off the table, smashing half her best crockery and cutting himself in the process.",
+   "aZh": "孩子把桌布从桌上扯下来，摔碎了半数最好的陶瓷餐具，还弄伤了自己。",
+   "hint": "见课文第7句：the baby pulls the tablecloth off the table... 是紧接着电话铃响之后发生的事。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was the lorry loaded with, and what happened to its load?",
+   "zh": "那辆卡车装的是什么？货物后来怎样了？",
+   "a": "The lorry was loaded with empty beer bottles, and hundreds of them slid off the back of the vehicle on to the road.",
+   "aZh": "卡车装着空啤酒瓶，成百只瓶子从车尾滑落到马路上。",
+   "hint": "见课文第17、18句：loaded with empty beer bottles... hundreds of them slid off the back of the vehicle。"
+  },
+  {
+   "kind": "detail",
+   "q": "How long did it take the police to get the traffic on the move again?",
+   "zh": "警察花了多长时间才使车辆重新开动起来？",
+   "a": "It took the police nearly an hour to get the traffic on the move again.",
+   "aZh": "警察花了将近一个小时才使车辆又重新开动起来。",
+   "hint": "见课文第21句：'It took the police nearly an hour to get the traffic on the move again.'"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the author end with 'It was just one of those days!'?",
+   "zh": "作者为什么用'这就是事事不顺心的那么一天！'来结尾？",
+   "a": "It echoes the opening line about days when everything goes wrong, and sums up the whole chain of small mishaps that snowballed into a big mess.",
+   "aZh": "它与开头'事事不顺心的日子'相呼应，概括了由一件小事滚雪球般演变成大乱子的全过程。",
+   "hint": "联系课文第1句 'We have all experienced days when everything goes wrong.' 体会首尾呼应的结构。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：这封信预示着一连串意想不到的灾难。",
+   "a": "This letter marked the prelude to an unforeseen series of catastrophes.",
+   "note": "prelude to + 名词"
+  },
+  {
+   "q": "句型转换：将 'This caused yet another angry argument.' 用 lead to 改写。",
+   "a": "This led to yet another angry argument.",
+   "note": "lead to 后接名词，表导致"
+  },
+  {
+   "q": "填空：During the rush hour one evening two cars ______ (collide) and both drivers began to argue.",
+   "a": "collided",
+   "note": "叙述过去事件用一般过去时"
+  },
+  {
+   "q": "改错：This made the driver following her to brake hard.",
+   "a": "This made the driver following her brake hard.",
+   "note": "make sb do 后不加 to"
+  },
+  {
+   "q": "填空：Let us suppose that you are preparing a meal and ______ the baby at the same time.",
+   "a": "keeping an eye on",
+   "note": "keep an eye on 照看"
+  },
+  {
+   "q": "汉译英：警察花了将近一个小时才使车辆重新开动。",
+   "a": "It took the police nearly an hour to get the traffic on the move again.",
+   "note": "It took sb + 时间 + to do sth"
+  },
+  {
+   "q": "填空：Only two stray dogs benefited ______ all this confusion.",
+   "a": "from",
+   "note": "benefit from 从…中得益"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "prelude 一词在课文 'this marks the prelude to an unforeseen series of catastrophes' 中的意思是？",
+   "options": [
+    "an event that comes before and leads to something bigger",
+    "the final result of an accident",
+    "a kind of musical instrument",
+    "a traffic police officer"
+   ],
+   "answer": 0,
+   "note": "prelude 序曲，喻指前奏、先导"
+  },
+  {
+   "q": "'This led to yet another angry argument.' 中 led to 与下列哪一项意思最接近？",
+   "options": [
+    "resulted in",
+    "took away",
+    "looked after",
+    "laughed at"
+   ],
+   "answer": 0,
+   "note": "lead to = result in 导致"
+  },
+  {
+   "q": "根据课文，这一连串交通事故最初是由什么引起的？",
+   "options": [
+    "Two cars collided during the rush hour.",
+    "A cake fell on to the road.",
+    "A lorry lost all its beer bottles.",
+    "Two stray dogs ran across the street."
+   ],
+   "answer": 0,
+   "note": "两车相撞是这一串事故的开端"
+  },
+  {
+   "q": "'She suddenly got into a panic and stopped her car.' 中 got into a panic 的意思是？",
+   "options": [
+    "became very frightened and confused",
+    "felt very happy and relaxed",
+    "fell asleep at the wheel",
+    "made a phone call for help"
+   ],
+   "answer": 0,
+   "note": "get into a panic 惊慌失措"
+  },
+  {
+   "q": "选择正确的一项补全句子：It took the police nearly an hour ______ the traffic on the move again.",
+   "options": [
+    "to get",
+    "getting",
+    "get",
+    "got"
+   ],
+   "answer": 0,
+   "note": "It took sb some time to do sth"
+  },
+  {
+   "q": "'everything seems to get out of control' 中 get out of control 的意思最接近？",
+   "options": [
+    "become impossible to manage",
+    "become very cheap",
+    "become very quiet",
+    "become quite interesting"
+   ],
+   "answer": 0,
+   "note": "get out of control 失去控制"
+  }
+ ]
+}

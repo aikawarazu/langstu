@@ -1,0 +1,164 @@
+{
+ "unitId": "u001",
+ "title": "Finding Fossil Man",
+ "subtitle": "寻找化石人",
+ "lead": {
+  "question": "为什么由讲述人代代相传、保存历史的传说对研究远古人类仍然有用？",
+  "warmup": "在文字出现之前，人类靠口耳相传的传奇故事保存历史。本文从近东最早的文字讲起，引出至今仍不会书写的民族：他们只能把往事编成 saga，一代代讲述。传说帮人类学家追问波利尼西亚人祖先的来处。当传说也随年代久远而失传，考古学家只能转向不会腐烂的石器，寻找最早的“现代人”从何而来。",
+  "goals": [
+   "掌握 fossil、remains、archaeologist、primitive、flint 等本课核心词的用法",
+   "理解 sagas、legends 作为口传历史的作用，抓住听力提问的答案线索",
+   "复习被动语态、现在完成时与定语从句在文中的实际运用",
+   "能用英语复述人类学家与考古学家探索早期现代人起源的思路"
+  ],
+  "summary": "课文先指出近东最早出现文字，而世界某些地方至今没有文字，只能把历史编成 saga 由讲述人代代传下。传说能帮人类学家追溯远古人群的迁徙，如波利尼西亚人的部分祖先约两千年前来自印度尼西亚。但更早的“现代人”连传说都已失传，考古学家只好依靠不会腐烂的石器，凭石制工具推断他们的踪迹。",
+  "tips": "易错提醒：remain 常作不及物动词，意为“剩下、留下”，remains 才表示“遗迹、遗骸”；decay 指自然腐坏，与 preserve（保存、留存）语义相反。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why are legends handed down by storytellers useful?",
+   "zh": "为什么由讲述人代代相传的传说是有用的？",
+   "a": "Because they can tell us something about migrations of people who lived long ago, but none could write down what they did.",
+   "aZh": "因为它们能告诉我们一些关于很久以前生活、却无人能记录下自己所作所为的人群迁徙的情况。",
+   "hint": "见课文第三句 These legends are useful because..."
+  },
+  {
+   "kind": "detail",
+   "q": "What is the only way for people in some parts of the world to preserve their history?",
+   "zh": "世界上某些地方的人保存自己历史的唯一办法是什么？",
+   "a": "To recount it as sagas -- legends handed down from one generation of storytellers to another.",
+   "aZh": "把历史当作传奇故事讲述，即由讲述人一代代传下来的传说。",
+   "hint": "见课文第二、三句 The only way that they can preserve their history is to recount it as sagas."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the sagas of the Polynesian peoples explain about their ancestors?",
+   "zh": "波利尼西亚人的传说对他们的祖先作了什么说明？",
+   "a": "They explain that some of them came from Indonesia about 2,000 years ago.",
+   "aZh": "传说说明他们中的一部分人是约两千年前从印度尼西亚迁来的。",
+   "hint": "见课文第五句 The sagas of these people explain..."
+  },
+  {
+   "kind": "detail",
+   "q": "Why have the tools of long ago remained while the bones of the men who made them disappeared?",
+   "zh": "为什么远古时代的工具能保存下来，而制造它们的人的骨头却消失了？",
+   "a": "Because stone does not decay, so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
+   "aZh": "因为石头不会腐烂，所以远古时代的工具得以留存，而制造它们的人的骨头却荡然无存。",
+   "hint": "见课文最后一句 Stone does not decay..."
+  },
+  {
+   "kind": "think",
+   "q": "Why do you think archaeologists can only rely on stone tools, rather than on legends, to study the first 'modern men'?",
+   "zh": "你认为考古学家为什么只能依靠石器，而不能依靠传说来研究最早的“现代人”？",
+   "a": "Because the first people like ourselves lived so long ago that even their sagas, if they had any, are forgotten; only stone, which does not decay, survives.",
+   "aZh": "因为和我们相似的远古人类生活年代太久远，即便有过传说也已失传，只有不会腐烂的石头才留存下来。",
+   "hint": "综合课文第五至八句推断"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：这些化石遗骸能告诉我们远古人类的迁徙情况。",
+   "a": "These fossil remains can tell us something about the migrations of ancient men.",
+   "note": "fossil remains 化石遗骸"
+  },
+  {
+   "q": "汉译英：他们保存历史的唯一办法就是把历史当作传奇故事讲述。",
+   "a": "The only way that they can preserve their history is to recount it as sagas.",
+   "note": "the only way...is to do"
+  },
+  {
+   "q": "填空：____ have neither history nor legends to help them find out where the first 'modern men' came from.",
+   "a": "Archaeologists",
+   "note": "archaeologist 考古学家"
+  },
+  {
+   "q": "填空：Stone does not ____, and so the tools of ____ men have remained.",
+   "a": "decay / primitive",
+   "note": "decay 腐烂；primitive 原始的"
+  },
+  {
+   "q": "句型转换（定语从句）：合并 We can read of things. They happened 5,000 years ago in the Near East.",
+   "a": "We can read of things that happened 5,000 years ago in the Near East.",
+   "note": "that 引导定语从句"
+  },
+  {
+   "q": "句型转换（现在完成时被动）：Legends are handed down from one generation of storytellers to another.",
+   "a": "Legends have been handed down from one generation of storytellers to another.",
+   "note": "现在完成时被动语态"
+  },
+  {
+   "q": "改错：The sagas of these people explain that some of them have come from the island of Java about 2,000 years ago.",
+   "a": "The sagas of these people explain that some of them came from the island of Java about 2,000 years ago.",
+   "note": "有明确过去时间用一般过去时"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "根据课文，人们最早学会写字是在哪里？",
+   "options": [
+    "In the Pacific Islands",
+    "In the Near East",
+    "In Indonesia",
+    "In South Europe"
+   ],
+   "answer": 1,
+   "note": "近东最早出现文字。"
+  },
+  {
+   "q": "世界上有些地方的人保存自己历史的唯一办法是什么？",
+   "options": [
+    "To write it down in books",
+    "To carve it on stone",
+    "To recount it as sagas",
+    "To ask anthropologists"
+   ],
+   "answer": 2,
+   "note": "当作传说讲述下来。"
+  },
+  {
+   "q": "波利尼西亚人的传说说明他们的一部分祖先来自哪里？",
+   "options": [
+    "Indonesia",
+    "Africa",
+    "The Near East",
+    "North Africa"
+   ],
+   "answer": 0,
+   "note": "约两千年前迁来。"
+  },
+  {
+   "q": "考古学家为什么难以弄清最早的“现代人”来自哪里？",
+   "options": [
+    "They have no stone tools to study",
+    "They cannot read ancient languages",
+    "They live far from the Pacific",
+    "They have neither history nor legends to help them"
+   ],
+   "answer": 3,
+   "note": "neither... nor... 结构。"
+  },
+  {
+   "q": "为什么远古石制工具能留存，而制造者的骨头却消失了？",
+   "options": [
+    "Because flint is soft and light",
+    "Because stone does not decay",
+    "Because men buried them",
+    "Because wood protected them"
+   ],
+   "answer": 1,
+   "note": "石头不会腐烂。"
+  },
+  {
+   "q": "根据课文，远古人为什么特别选用燧石制作工具？",
+   "options": [
+    "Because it never breaks",
+    "Because it was handed down as a saga",
+    "Because it is easier to shape than other kinds",
+    "Because it is easier to find than wood"
+   ],
+   "answer": 2,
+   "note": "燧石更易成形。"
+  }
+ ]
+}

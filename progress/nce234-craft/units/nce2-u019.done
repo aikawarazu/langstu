@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u019",
+ "book": "nce2",
+ "unitId": "u019",
+ "title": "Sold out",
+ "subtitle": "票已售完",
+ "hasText": false,
+ "lines": 16,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "199eefcf752c",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

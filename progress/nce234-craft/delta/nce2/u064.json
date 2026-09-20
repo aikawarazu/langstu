@@ -1,0 +1,40 @@
+{
+ "title": "The Channel Tunnel",
+ "subtitle": "海峡隧道",
+ "lead": {
+  "question": "一条穿越英吉利海峡的海底隧道，为什么让世界等了将近一百年？",
+  "warmup": "你坐过穿越英吉利海峡的列车吗？从伦敦到巴黎不过两个多小时。可这条海底隧道从设想到通车，走了将近一百四十年：1858年，一位法国工程师带着21英里隧道的计划来到英国；1860年，英国人威廉·洛又提出更完善的双轨方案；42年后工程真正开挖，却因恐惧战争而停工。修建海底隧道最难的问题之一是什么？先想想通风。",
+  "goals": [
+   "掌握 tunnel、port、ventilate、chimney、sea level、ventilation 等核心词汇",
+   "熟练运用 put forward、serve as、draw in、solve the problem of、connect...to 等短语",
+   "理解并运用第3类条件句（if + had done, would have done），并能与第2类条件句区分",
+   "能按时间线复述海峡隧道从1858年设想到1994年通车的历程"
+  ],
+  "summary": "课文按时间顺序讲述海峡隧道：1858年法国工程师德·干蒙提出21英里隧道方案，拟在海峡中央建平台兼作港口与火车站，靠高出海平面的烟囱通风；1860年威廉·洛提出双轨隧道，用列车带进新鲜空气解决通风；42年后动工，却因英国人惧怕入侵而中止；直到1994年3月7日才正式通车。",
+  "tips": "第3类条件句只写“过去没有发生的事”：if 从句用过去完成时，主句用 would have + 过去分词；别和第2类混为一谈。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why was the first tunnel not completed?", "zh": "为什么第一条隧道没有建成？", "a": "Because, at the time, the British feared invasion, so the work was stopped.", "aZh": "因为当时英国人害怕入侵，工程因此中止。", "hint": "见课文第 9 句。"},
+  {"kind": "detail", "q": "What did Aimé Thomé de Gamond plan to build in 1858, and what would the platform be used for?", "zh": "1858年德·干蒙计划建造什么？平台用来做什么？", "a": "He arrived in England with a plan for a twenty-one-mile tunnel under the English Channel, and the platform in the centre would serve as a port and a railway station.", "aZh": "他带着一条长21英里、穿越英吉利海峡的隧道计划来到英国；建在海峡中央的平台将用作港口和火车站。", "hint": "见第 1—3 句。"},
+  {"kind": "detail", "q": "How would the first tunnel be ventilated, and how did William Low's plan solve the problem of ventilation?", "zh": "最初的隧道打算如何通风？威廉·洛的方案怎样解决？", "a": "Tall chimneys built above sea level would keep the tunnel well-ventilated. Low suggested a double railway-tunnel: if a train entered this tunnel, it would draw in fresh air behind it.", "aZh": "修建高大的烟囱状通风管；洛建议双轨隧道，列车开进隧道时会把新鲜空气随之抽进来。", "hint": "见第 4—7 句。"},
+  {"kind": "detail", "q": "When was the Channel Tunnel officially opened, and what did it finally do?", "zh": "海峡隧道何时正式开通？它最终起到了什么作用？", "a": "It was officially opened on March 7, 1994, finally connecting Britain to the European continent.", "aZh": "它于1994年3月7日正式开通，终于把英国与欧洲大陆连接了起来。", "hint": "见课文末句。"},
+  {"kind": "think", "q": "Compare 'If, at the time, the British had not feared invasion, it would have been completed.' with 'If a train entered this tunnel, it would draw in fresh air behind it.'", "zh": "比较这两个条件句，它们各属第几类？", "a": "The first is a Type 3 conditional: past perfect in the if-clause and would have + past participle in the main clause; it imagines something that did not happen in the past. The second is a Type 2 conditional: past tense and would + base form; it describes an imagined situation in the present or future.", "aZh": "第一句是第3类条件句，表示与过去事实相反的假设；第二句是第2类条件句，表示现在或将来想象中的情况。", "hint": "对比课文第 9 句与第 7 句。"}
+ ],
+ "exercises": [
+  {"q": "根据课文填空：The tunnel would be well ________ if tall ________ were built above ________ ________.", "a": "ventilated; chimneys; sea level", "note": "above sea level。"},
+  {"q": "用 serve as 改写：The platform would be used as a port and a railway station.", "a": "The platform would serve as a port and a railway station.", "note": "serve as 充当、用作。"},
+  {"q": "根据课文填空：In 1860, a better plan was ________ ________ by an Englishman, William Low.", "a": "put forward", "note": "put forward 提出。"},
+  {"q": "用 draw in 完成句子：If a train entered this tunnel, it ________ ________ fresh air behind it.", "a": "would draw in", "note": "draw in 吸入。"},
+  {"q": "用 double 与 solve the problem of 合并两句：William Low suggested building a railway tunnel with two tracks. This would deal with the difficulty of ventilation.", "a": "William Low suggested that a double railway-tunnel should be built, and this would solve the problem of ventilation.", "note": "suggest 后从句用 should + 原形。"},
+  {"q": "汉译英：它于1994年3月7日正式开通，终于把英国与欧洲大陆连接了起来。", "a": "It was officially opened on March 7, 1994, finally connecting Britain to the European continent.", "note": "connecting 现在分词表结果。"},
+  {"q": "句型分析：指出第3类条件句与第2类条件句在时态与含义上的差别。", "a": "第3类：if 从句 had done，主句 would have done，与过去事实相反；第2类：if 从句过去时，主句 would + 动词原形，表现在或将来想象的情况。", "note": "第3类谈过去，第2类谈现在或将来。"}
+ ],
+ "quiz": [
+  {"q": "1858年法国工程师提出的计划中，隧道的长度是？", "options": ["a twenty-one-miles tunnel", "a twelve-mile tunnel", "a twenty-one-mile tunnel", "a twenty-mile canal"], "answer": 2, "note": "数词作前置定语时 mile 用单数。"},
+  {"q": "按照1858年的方案，建在海峡中央的平台将用作什么？", "options": ["A hotel and a car park.", "A port and a railway station.", "A hospital and a school.", "A factory and a market."], "answer": 1, "note": "serve as。"},
+  {"q": "早期方案打算怎样让隧道保持良好的通风？", "options": ["By fixing huge fans inside the tunnel.", "By cutting windows in the tunnel walls.", "By pumping air from both ends every hour.", "By building tall chimneys above sea level."], "answer": 3, "note": "above sea level。"},
+  {"q": "42年后真正开挖的隧道为什么没有建成？", "options": ["Because the British feared invasion at the time.", "Because there was not enough money.", "Because the Channel was too deep to dig.", "Because William Low gave up his plan."], "answer": 0, "note": "invasion 入侵。"},
+  {"q": "课文中 it would draw in fresh air behind it 的 draw in 是什么意思？", "options": ["To stop a train slowly.", "To let dirty air out.", "To take in or pull in (air).", "To push a train forward."], "answer": 2, "note": "draw in 吸入。"},
+  {"q": "用第3类条件句完成课文原句：If, at the time, the British had not feared invasion, it ______.", "options": ["will be completed", "would have been completed", "would be completed", "had been completed"], "answer": 1, "note": "would have done。"}
+ ]
+}

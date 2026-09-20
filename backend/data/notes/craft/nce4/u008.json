@@ -1,0 +1,164 @@
+{
+ "unitId": "u008",
+ "title": "Trading Standards",
+ "subtitle": "贸易标准",
+ "lead": {
+  "question": "为什么富国之间的贸易会受阻？贸易标准的差异带来了哪些麻烦？",
+  "warmup": "本篇选自《经济学人》。布鲁塞尔的官员抱怨美国屠宰的鸡不宜上欧洲餐桌，美国人反驳说只是清洗方式不同。真正的障碍已不再是关税，而是各国迥异的管理条例与安全标准：在欧洲安全的剃须刀到美国要重新检测，美国透析仪进欧洲也要欧盟首肯。大西洋两岸的企业追问：一套测试足够，何必两套？谈判由此展开。",
+  "goals": [
+   "掌握 standard、regulation、consumer、inspect 等贸易监管词汇",
+   "理解 it is ... that 强调句与 put sand in the wheels of trade 习语",
+   "熟练运用被动语态、现在完成时与定语从句描述贸易壁垒",
+   "能用英语讨论标准互认、双重检测等经贸话题"
+  ],
+  "summary": "课文先以美欧鸡肉之争引出核心观点：如今阻碍富国贸易的是各国管理条例的差异，而非关税。电动剃须刀与透析仪的例子说明安全标准不互认导致双重检测，企业因而呼吁取消重复测试。政治家原则上同意，但协议细节复杂，谈判代表未必能赶在 5 月 28 日峰会前谈成。分歧在于美国人想分门别类签协议，欧洲人想先定普遍原则。",
+  "tips": "far more than tariffs 是插入的对比成分，强调\"差距之大\"，别只译成\"比关税多\"；put sand in the wheels of trade 意为给贸易车轮撒沙子，即从中作梗、阻碍。另注意 in principle 是\"原则上\"，不等于\"实际上\"。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What makes trading between rich countries difficult?",
+   "zh": "是什么使富国之间的贸易变得困难？",
+   "a": "Differences in national regulations, far more than tariffs, put sand in the wheels of trade between rich countries.",
+   "aZh": "是各国管理条例上的差异，而非关税，阻碍了富国之间的贸易。",
+   "hint": "见课文第 3 句：it is differences in national regulations, far more than tariffs, that ..."
+  },
+  {
+   "kind": "detail",
+   "q": "Why must an electric razor that meets the EU's safety standards be tested again?",
+   "zh": "为何符合欧盟安全标准的电动剃须刀还要再受检测？",
+   "a": "It must be approved by American testers before it can be sold in the United States.",
+   "aZh": "它必须先得到美国检测人员的认可，才能在美国市场上销售。",
+   "hint": "见课文第 5 句，注意 must be approved by 被动结构。"
+  },
+  {
+   "kind": "detail",
+   "q": "What have America and the EU been trying to do?",
+   "zh": "美国和欧盟一直在努力做什么？",
+   "a": "They have been trying to reach a deal which would eliminate the need to double-test many products.",
+   "aZh": "他们一直在寻求达成协议，以取消对许多产品的双重检测。",
+   "hint": "见课文第 7 句，注意 have been trying 现在完成进行时。"
+  },
+  {
+   "kind": "detail",
+   "q": "How do the Americans and the EU differ in their approach to agreements?",
+   "zh": "美国人和欧盟在达成协议的方式上有何分歧？",
+   "a": "The Americans would rather sign separate accords, one on medical devices then different pacts for electronic goods and drug manufacturing; the EU wants agreement on general principles that could cover many products and perhaps extend to other countries.",
+   "aZh": "美国人更愿分门别类地签协议，先就医疗器械达成一个，再为电子产品和药品生产敲定不同合同；欧盟则希望先就适用于众多产品、并可延伸到其他国家的普遍原则达成一致。",
+   "hint": "见课文最后两句，注意 following fine continental traditions 的调侃语气。"
+  },
+  {
+   "kind": "think",
+   "q": "Does mutual recognition of safety standards benefit consumers? Why?",
+   "zh": "安全标准的相互认可是否有利于消费者？为什么？",
+   "a": "Yes. It avoids double-testing and cuts costs and delays, so safe goods reach consumers sooner and more cheaply; yet standards must stay strict enough to protect consumer safety.",
+   "aZh": "有利。标准互认避免了重复检测，降低成本和延误，让安全产品更快、更便宜地到达消费者手中；但标准仍须足够严格，以保护消费者安全。",
+   "hint": "结合课文中双重检测的例子和 consumer、standard 两个关键词，言之成理即可。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：符合欧盟安全标准的电动剃须刀必须先得到美国检测人员的认可。",
+   "a": "An electric razor that meets the European Union's safety standards must be approved by American testers.",
+   "note": "定语从句加被动语态"
+  },
+  {
+   "q": "句型转换：将 Not only farmers are complaining. 改写为 it is ... who 强调句。",
+   "a": "It is not just farmers who are complaining.",
+   "note": "强调句结构"
+  },
+  {
+   "q": "填空：It is differences in national regulations, far more than tariffs, that ____ (put) sand in the wheels of trade.",
+   "a": "put",
+   "note": "强调句谓语形式不变"
+  },
+  {
+   "q": "填空：The EU wants agreement on general principles, which could ____ (apply) to many types of products.",
+   "a": "be applied",
+   "note": "which 从句用被动"
+  },
+  {
+   "q": "改错：An electric razor meets the EU's safety standards must be approved by American testers.",
+   "a": "An electric razor that meets the EU's safety standards must be approved by American testers.",
+   "note": "定语从句缺关系代词"
+  },
+  {
+   "q": "改错：America and the EU have been tried to reach a deal.",
+   "a": "America and the EU have been trying to reach a deal.",
+   "note": "现在完成进行时"
+  },
+  {
+   "q": "汉译英：消费者要求政府检查这些商品是否符合管理条例。",
+   "a": "Consumers demand that the government inspect whether these goods meet the regulations.",
+   "note": "consumer/inspect/regulation"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文认为，如今阻碍富国之间贸易的主要因素是什么？",
+   "options": [
+    "Differences in national regulations",
+    "High tariffs between rich countries",
+    "A shortage of farm products",
+    "Language barriers in business"
+   ],
+   "answer": 0,
+   "note": "原句 far more than tariffs 明确对比。"
+  },
+  {
+   "q": "关于符合欧盟标准的电动剃须刀，课文说明了什么？",
+   "options": [
+    "It must be approved by American testers before being sold in America.",
+    "It is too dangerous to be used in America.",
+    "It is made only in Europe.",
+    "It is exempt from all safety standards."
+   ],
+   "answer": 0,
+   "note": "must be approved by American testers。"
+  },
+  {
+   "q": "put sand in the wheels of trade 在文中意思最接近？",
+   "options": [
+    "To hinder the smooth flow of trade",
+    "To speed up trade negotiations",
+    "To raise tariffs on imports",
+    "To clean goods before export"
+   ],
+   "answer": 0,
+   "note": "习语意为阻碍、从中作梗。"
+  },
+  {
+   "q": "美国和欧盟在协议方式上的分歧是？",
+   "options": [
+    "America prefers separate accords; the EU wants general principles.",
+    "America wants no deal; the EU wants one single accord.",
+    "The EU prefers separate pacts; America wants common rules.",
+    "Both insist on double-testing every product."
+   ],
+   "answer": 0,
+   "note": "见课文末段，分门别类对比普遍原则。"
+  },
+  {
+   "q": "谈判代表们虽持乐观态度，却可能难以达成协议，原因何在？",
+   "options": [
+    "The details are so complex.",
+    "They do not want any deal.",
+    "The summit has been cancelled.",
+    "Tariffs are far too low."
+   ],
+   "answer": 0,
+   "note": "the details are complex enough。"
+  },
+  {
+   "q": "下列哪句的被动语态使用正确？",
+   "options": [
+    "The razor must be approved by American testers.",
+    "The razor must approves by American testers.",
+    "The razor must approved by American testers.",
+    "The razor must to approve by American testers."
+   ],
+   "answer": 0,
+   "note": "情态动词后用 be 加过去分词。"
+  }
+ ]
+}

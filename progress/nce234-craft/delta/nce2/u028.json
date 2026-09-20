@@ -1,0 +1,40 @@
+{
+ "title": "No Parking",
+ "subtitle": "禁止停车",
+ "lead": {
+  "question": "信奉古代神话的贾斯珀，搬进城里新房后为何麻烦不断？",
+  "warmup": "No Parking 是最常见的禁令牌，可贾斯珀家门前的牌子却毫无用处。他是少有的相信古代神话的人，搬进城里新居后，总有人把车停在他家大门外，害得他一次也没能把车开进车库。于是他把丑陋的石雕头像——蛇发女怪美杜莎——挂到了大门上方。读前不妨猜一猜：神话真能管住乱停车的人吗？",
+  "goals": [
+   "听懂课文，能用英文回答 Jasper White 的问题出在哪里",
+   "掌握 ever since 引导的现在完成时与一般过去时的分工",
+   "辨析 believe in / believe、because of / because、can / be able to 的用法",
+   "运用 put up、have trouble with、turn ... to stone、effect 等本课词组"
+  ],
+  "summary": "本课讲贾斯珀·怀特信奉古代神话：搬入新居后屡遭乱停车之扰，禁令牌毫无效果，便在门上摆出美杜莎的石雕头像，指望把汽车和车主变成石头，结果一个也没变。语法重点是现在完成时与一般过去时的配合（ever since 从句用过去时、主句用完成时），以及 one of + 复数名词 后定语从句谓语用单数。",
+  "tips": "易错提醒：one of those rare people 后的定语从句谓语要用单数 believes；because of 只接名词或代词，接句子必须用 because。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What is Jasper White's problem?", "zh": "贾斯珀·怀特遇到了什么麻烦？", "a": "He has trouble with cars and their owners: someone always parks a car outside his gate, so he has not been able to get his own car into his garage even once.", "aZh": "汽车和车主总给他添麻烦：总有人把车停在他家大门外，他甚至一次也没能把自己的车开进车库。", "hint": "见课文第 2—5 句。"},
+  {"kind": "detail", "q": "Why have Jasper's 'No Parking' signs failed?", "zh": "为什么贾斯珀挂起的“禁止停车”牌子没有用？", "a": "Because these signs have not had any effect on the drivers.", "aZh": "因为这些牌子对车主毫无效果。", "hint": "第 6 句：but these have not had any effect。"},
+  {"kind": "detail", "q": "What has Jasper put over his gate, and who is it?", "zh": "贾斯珀在大门上方放了什么？那是谁？", "a": "He has put an ugly stone head over the gate, and it is Medusa, the Gorgon.", "aZh": "他在大门上方放了一个丑陋的石雕头像，那是蛇发女怪美杜莎。", "hint": "第 8—9 句。"},
+  {"kind": "detail", "q": "Why does the text say 'he has had trouble' rather than 'he had trouble'?", "zh": "为什么课文用现在完成时 has had trouble，而不用一般过去时 had trouble？", "a": "Because the trouble began when he moved in and still continues now; 'ever since' joins a past point to the present, so the main clause takes the present perfect.", "aZh": "因为麻烦从他搬进去那刻开始，一直持续到现在；ever since 把过去的时间点和现在连起来，主句要用现在完成时。", "hint": "第 3 句：ever since he moved in, he has had trouble。"},
+  {"kind": "think", "q": "The text ends with 'But none of them has been turned to stone yet!' What does this ending tell us about Jasper's belief in ancient myths?", "zh": "课文以“但到目前为止还没有一个变成石头呢！”结尾，这个结尾透露出作者对贾斯珀信奉神话的态度是什么？", "a": "It shows the writer's gentle humour: Jasper really believes in the ancient myth, but Medusa's power exists only in the myth, so not one car or owner has turned to stone.", "aZh": "这是作者善意的幽默：贾斯珀真心相信神话，但美杜莎的法力只存在于神话之中，一辆车、一个车主也没变成石头。", "hint": "把末句与首句 believes in ancient myths 对照。"}
+ ],
+ "exercises": [
+  {"q": "用所给词的适当形式填空：Jasper White is one of those rare people who ____ (believe) in ancient myths.", "a": "believes", "note": "one of + 复数名词，从句谓语用单数。"},
+  {"q": "选词填空：____ this, he has not been able to get his own car into his garage even once.（because / because of）", "a": "Because of", "note": "后接代词 this，须用介词短语。"},
+  {"q": "用动词的适当时态填空：Ever since he ____ (move) in, he ____ (have) trouble with cars and their owners.", "a": "moved; has had", "note": "ever since 从句用过去时，主句用完成时。"},
+  {"q": "根据汉语补全句子：贾斯珀曾在大门外挂起几块“禁止停车”的牌子。Jasper has ____ ____ 'No Parking' signs outside his gate.", "a": "put up", "note": "put up 此处意为挂起、竖起。"},
+  {"q": "汉译英：贾斯珀希望她把汽车和车主们都变成石头。", "a": "Jasper hopes that she will turn cars and their owners to stone.", "note": "turn ... to/into stone 把……变成石头。"},
+  {"q": "选词填空：He has not ____ ____ ____ get his own car into his garage even once.（can / be able to）", "a": "been able to", "note": "完成时中表示能力用 be able to。"},
+  {"q": "仿写句子：这是我所见过的最丑陋的头像之一。", "a": "It is one of the ugliest faces I have ever seen.", "note": "one of + 最高级 + 复数名词。"}
+ ],
+ "quiz": [
+  {"q": "课文中 one of those rare people 的 rare 是什么意思？", "options": ["very unusual and uncommon", "very common and ordinary", "very rich and famous", "very old and weak"], "answer": 0, "note": "rare 意为罕见的、少有的。"},
+  {"q": "贾斯珀相信古代神话，课文用了哪个表达？", "options": ["believes in ancient myths", "believes ancient myths", "believes of ancient myths", "believes about ancient myths"], "answer": 0, "note": "believe in 表示相信……的存在/价值。"},
+  {"q": "Jasper has put up 'No Parking' signs outside his gate. 句中 put up 的含义是？", "options": ["to hang or raise something", "to take something down", "to put something off", "to look something up"], "answer": 0, "note": "put up 在文中指挂起、竖起。"},
+  {"q": "Ever since he moved in, he ____ trouble with cars and their owners.", "options": ["has had", "had", "has", "is having"], "answer": 0, "note": "ever since 主句用现在完成时。"},
+  {"q": "He has not ____ get his own car into his garage even once.", "options": ["been able to", "could", "can", "able to"], "answer": 0, "note": "完成时里表能力只用 be able to。"},
+  {"q": "Jasper hopes that she will turn cars and their owners to stone. 短语 turn ... to stone 的意思是？", "options": ["change ... into stone", "move the stone away", "put the stone on the car", "break the stone into pieces"], "answer": 0, "note": "turn ... to/into stone 把……变成石头。"}
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "A Chance in a Million",
+ "subtitle": "百万分之一的机缘",
+ "lead": {
+  "question": "一个被认为早已阵亡的兄弟，怎么会二十年后在路边与亲人重逢？",
+  "warmup": "19世纪小说家喜欢在结尾安排一连串巧合，现代读者早就不买账了。可现实生活偏偏偶尔上演小说也编不出的情节：德国出租车司机弗朗兹·巴斯曼和妻子徒步旅行时，妻子只凭一张相似的脸，就认定路边那位工人可能是丈夫失散多年的兄弟。弗朗兹对此嗤之以鼻，妻子却认为这个猜测仍有百万分之一的机会。故事由此展开。",
+  "goals": ["读懂巴斯曼兄弟重逢的故事，理清人物关系与事件时间线。", "掌握 coincidence、credulous、resemblance、pour scorn on、a chance in a million 等核心词汇与短语。", "学会用过去完成时的被动语态（had been killed / had been destroyed）交代先于另一过去动作的事件。", "能用非限制性定语从句与分词结构（who was presumed dead / After having been wounded）简洁地补充信息。"],
+  "summary": "课文指出现代读者不再轻信19世纪小说里那些牵强的巧合，随后却讲了一个真实的巧合：巴斯曼夫人发现徒步途中遇到的工人酷似丈夫，尽管丈夫说弟弟已阵亡，她仍抱着百万分之一的希望派人去问，那人果然是失散二十年的汉斯。汉斯负伤住院、医院被炸、档案尽毁，误以为家人死于空袭，从此定居五十英里外的村庄。",
+  "tips": "别把 than we used to be 写成 than we were used to：used to do 指“过去常常”，be used to (doing) sth 指“习惯于”，本课比较的正是“过去常轻信”这一旧习惯。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the chance in a million?", "zh": "课文中所说的“百万分之一的机缘”指的是什么？", "a": "It was the chance that Mrs. Bussman's guess was right: the workman she and her husband met on their walking tour really was Franz's long-lost brother Hans, who everyone had presumed dead for twenty years.", "aZh": "这就是“巴斯曼夫人的猜测竟然成立”的可能性：他们徒步旅行途中遇到的那位工人，真的是弗朗兹失散多年、被大家认定已死去二十年的弟弟汉斯。", "hint": "线索在 she thought that there was a chance in a million that she might be right 一句，答案由结尾 Needless to say… 一段落实。"},
+  {"kind": "detail", "q": "Why did Franz pour scorn on his wife's suggestion?", "zh": "弗朗兹为什么对妻子的猜测嗤之以鼻？", "a": "Because he pointed out that his brother had been killed in action during the war.", "aZh": "因为他指出自己的弟弟早在战争中阵亡了。", "hint": "出处：Franz poured scorn on the idea, pointing out that his brother had been killed in action during the war."},
+  {"kind": "detail", "q": "How did Franz and his brother happen to meet?", "zh": "弗朗兹和弟弟是怎样偶然相遇的？", "a": "While Franz was on a walking tour with his wife, he stopped to talk to a workman whose close resemblance to him made Mrs. Bussman suggest that he might be his brother.", "aZh": "弗朗兹与妻子徒步旅行时停下来和一个工人交谈，那工人与丈夫相貌极像，巴斯曼夫人因此猜测他可能就是丈夫的兄弟。", "hint": "出处：While on a walking tour with his wife, he stooped to talk to a workman… 以及 Mrs. Bussman commented on the workman's close resemblance to her husband."},
+  {"kind": "detail", "q": "What had happened to Hans after he was wounded towards the end of the war?", "zh": "战争即将结束时汉斯负伤后遭遇了什么？", "a": "He was sent to hospital and separated from his unit; the hospital was bombed, so he made his way back to Western Germany on foot, while his unit was lost and all records of him were destroyed.", "aZh": "他被送进医院，与部队失去联系；医院遭轰炸，他只好步行回到西德，而他所在的部队被击溃，有关他的所有档案都被毁掉了。", "hint": "出处：After having been wounded towards the end of the war… 到 Meanwhile, his unit was lost and all records of him had been destroyed."},
+  {"kind": "think", "q": "Why does the writer first say modern readers reject coincidences in novels and then tell a story full of coincidences?", "zh": "作者为什么先说现代读者不接受小说里的巧合，接着又讲了一个充满巧合的故事？", "a": "He uses the contrast to show that real life can be stranger than fiction: circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth-century novelist would find incredible.", "aZh": "作者用这一对照说明现实有时比小说更离奇：生活环境有时确实会促成巧合，而这些巧合除了19世纪小说家谁都会觉得难以置信。", "hint": "关键句：Yet, in real life, circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth century novelist would find incredible."}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们不再像以往那样轻易相信别人了。", "a": "We are less credulous than we used to be.", "note": "less + adj. + than we used to be"},
+  {"q": "汉译英：她认为自己的想法仍有百万分之一的可能性。", "a": "She thought that there was a chance in a million that she might be right.", "note": "a chance in a million 后接同位语从句"},
+  {"q": "句型转换：用非限制性定语从句合并句子——A long-lost brother was presumed dead. He was really alive all the time.", "a": "A long-lost brother, who was presumed dead, was really alive all the time.", "note": "非限制性定语从句要用逗号隔开"},
+  {"q": "用适当的介词填空：Mrs. Bussman commented ____ the workman's close resemblance ____ her husband, but Franz poured scorn ____ the idea.", "a": "on; to; on", "note": "resemblance to sb；pour scorn on"},
+  {"q": "用括号中动词的适当时态填空：Meanwhile, his unit ____ (lose) and all records of him ____ (destroy).", "a": "had been lost; had been destroyed", "note": "过去完成时被动，表更早的被动动作"},
+  {"q": "改错：Franz poured scorn to the idea, pointing out that his brother has been killed in action.", "a": "Franz poured scorn on the idea, pointing out that his brother had been killed in action.", "note": "pour scorn on；宾语从句用过去完成时"},
+  {"q": "汉译英（虚拟语气）：如果巴斯曼夫人没有派男孩去问，兄弟俩也许永远不会团聚。", "a": "If Mrs. Bussman had not sent a boy to ask, the brothers might never have been reunited.", "note": "与过去事实相反的虚拟条件句"}
+ ],
+ "quiz": [
+  {"q": "课文中“百万分之一的机缘”究竟指什么？", "options": ["A chance meeting that could only happen in a nineteenth-century novel.", "Mrs. Bussman's guess that the workman was her husband's brother came true.", "The hospital where Hans had been treated was bombed.", "Franz happened to meet a workman who shared his name."], "answer": 1, "note": "chance 指猜测成立的可能性"},
+  {"q": "弗朗兹听了妻子的猜测后是什么反应？", "options": ["He poured scorn on the idea.", "He fully agreed with her at once.", "He went back and questioned the workman himself.", "He wrote to the army to check his brother's records."], "answer": 0, "note": "pour scorn on 意为鄙夷、不屑"},
+  {"q": "巴斯曼夫人怎样核实那个工人的身份？", "options": ["She showed the workman a photograph of her husband.", "She asked the workman straight out whether he was Hans Bussman.", "She sent a boy to ask whether his name was Hans Bussman.", "She waited until the workman came to their house."], "answer": 2, "note": "send a boy to ask 是原文做法"},
+  {"q": "汉斯负伤之后为什么与家人彻底失去联系？", "options": ["His family had moved to a village fifty miles away.", "He was taken prisoner and sent to Western Germany.", "He chose to settle in another country after the war.", "He was sent to hospital, the hospital was bombed, and all records of him were destroyed."], "answer": 3, "note": "见hospital bombed 与 records destroyed"},
+  {"q": "汉斯为什么在五十英里外的村庄定居下来？", "options": ["He assumed that his family had been killed during an air raid.", "He wanted to be near the hospital where he had been treated.", "His unit was stationed in that village.", "He had found a steady job in a factory there."], "answer": 0, "note": "Assuming that… 表主观臆断"},
+  {"q": "课文开头对现代读者的判断是什么？", "options": ["Modern readers still enjoy the naive solutions of old novels.", "Modern readers believe every coincidence they read about.", "Modern readers are less credulous than they used to be.", "Modern readers prefer novels written in the nineteenth century."], "answer": 2, "note": "less credulous than we used to be"}
+ ]
+}

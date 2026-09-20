@@ -1,0 +1,35 @@
+{
+ "title": "A Noble Gangster",
+ "subtitle": "贵族歹徒",
+ "lead": {
+  "question": "霍克伍德在和平时期用什么办法赚钱，为什么意大利人仍把他视作英雄？",
+  "warmup": "歹徒勒索、强收“保护金”看似是现代都市的犯罪，其实早在六百年前就已存在。14世纪，英国雇佣兵头目约翰·霍克伍德爵士带兵来到意大利，在佛罗伦萨附近落脚。他靠向各城邦索要“保护金”大发横财，死后却被佛罗伦萨人以国葬相待，被尊为最勇敢的战士。这究竟是怎样一位“高贵的歹徒”？让我们从课文里寻找答案。",
+  "goals": ["掌握 gangster、noble、Florentine、prince、band、protection money 等本课核心词汇。", "理解并运用 in return for、out of business、make a name for himself 等固定搭配。", "复习 would rather...than...、be at war with、in times of peace 等结构以及让步从句。", "通过霍克伍德的故事，辨析一般过去时与表过去习惯的 would / used to 的用法。"],
+  "summary": "课文从芝加哥商人向歹徒缴纳“保护金”说起，指出这种罪恶自古就有。14世纪，英国人约翰·霍克伍德爵士率一队士兵到意大利，在佛罗伦萨附近驻扎并出了名，被意大利人称作乔凡尼·阿库托。战乱时他受雇于出价高的君主；和平时期便带兵闯入城邦，烧毁农场、索取“保护金”后撤离。他借此大发横财，却被视为英雄，死后佛罗伦萨人为他举行国葬并画像纪念。",
+  "tips": "注意区分 would rather...than... 与表过去习惯的 would：前者意为“宁愿……而不愿……”，后者描述过去反复发生的动作，如 Hawkwood and his men would march into a city-state。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How did Haywood make in times of peace?", "zh": "霍克伍德在和平时期是如何赚钱的？", "a": "In times of peace, when business was bad, he and his men would march into a city-state, burn down a few farms, and offer to go away if 'protection money' was paid to them.", "aZh": "和平时期生意萧条时，霍克伍德便带领士兵进入某个城邦，纵火烧毁一两个农场，然后提出：只要缴纳“保护金”，他们就主动撤离。", "hint": "答案见课文第八句：“In times of peace, when business was bad, Hawkwood and his men would march into a city-state...”"},
+  {"kind": "detail", "q": "What did the gangsters do if the money was not paid promptly in Chicago?", "zh": "在芝加哥，如果钱款没有及时缴纳，歹徒会怎么做？", "a": "They would quickly put a man out of business by destroying his shop.", "aZh": "他们会很快捣毁他的商店，使他破产。", "hint": "见课文第二句，注意 put a man out of business 的含义。"},
+  {"kind": "detail", "q": "What did Sir John Hawkwood discover in the fourteenth century?", "zh": "14世纪，约翰·霍克伍德爵士发现了什么？", "a": "That people would rather pay large sums of money than have their life work destroyed by gangsters.", "aZh": "人们情愿拿出大笔的钱，也不愿毕生的心血毁于歹徒之手。", "hint": "见课文第四句，由 made the remarkable discovery that... 引导的宾语从句。"},
+  {"kind": "detail", "q": "How did the Florentines honour Hawkwood when he died at the age of eighty?", "zh": "霍克伍德80岁去世时，佛罗伦萨人是如何纪念他的？", "a": "They gave him a state funeral and had a picture dedicated to his memory.", "aZh": "他们为他举行了国葬，并为他画像以示纪念。", "hint": "见课文最后一句，gave him a state funeral 与 had a picture dedicated to his memory。"},
+  {"kind": "think", "q": "Why did the Italians regard such a man as a sort of hero?", "zh": "为什么意大利人会把这样一个勒索钱财的人视为某种英雄？", "a": "Although he made money by threatening the city-states, he was a skilled soldier who could protect a city at war, so the Italians respected his courage and leadership.", "aZh": "尽管他靠威胁城邦来敛财，但他毕竟是能保护交战城邦的出色军人，意大利人敬重他的勇武与领袖才能，因此把他当作英雄。", "hint": "结合课文 In spite of this, the Italians regarded him as a sort of hero 以及结尾的赞语思考。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：榨取“保护金”并不是一种现代的罪恶行径。", "a": "Obtaining 'protection money' is not a modern crime.", "note": "动名词短语作主语。"},
+  {"q": "填空：There was a time ___ the owners of shops in Chicago had to pay large sums of money to gangsters ___ return for 'protection'.", "a": "when / in", "note": "定语从句加固定搭配。"},
+  {"q": "句型转换：Hawkwood and his men would march into a city-state.（用 used to 改写，意思不变）", "a": "Hawkwood and his men used to march into a city-state.", "note": "would 与 used to 表过去习惯。"},
+  {"q": "改错：In spite of this, the Italians regarded him like a sort of hero.", "a": "In spite of this, the Italians regarded him as a sort of hero.", "note": "regard...as...，不用 like。"},
+  {"q": "汉译英：尽管霍克伍德靠这种方式赚了大钱，意大利人还是把他当作英雄。", "a": "Although Hawkwood made large sums of money in this way, the Italians regarded him as a sort of hero.", "note": "Although 引导让步从句。"},
+  {"q": "用定语从句合并：Hawkwood used to hire his soldiers to princes. + The princes were willing to pay the high price he demanded.", "a": "Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded.", "note": "who 引导定语从句修饰 princes。"},
+  {"q": "汉译英：如果交款不及时，歹徒们就会很快捣毁他的商店。", "a": "If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.", "note": "过去将来时加 out of business。"}
+ ],
+ "quiz": [
+  {"q": "在芝加哥，店主和商行的老板们不得不做什么？", "options": ["Give up their shops to the police.", "Pay large sums of money to gangsters.", "Hire soldiers to protect their shops.", "Move their businesses to Florence."], "answer": 1, "note": "in return for 'protection'。"},
+  {"q": "根据课文，霍克伍德爵士率士兵到意大利后在哪里驻扎下来？", "options": ["In Chicago", "In Rome", "Near Florence", "In England"], "answer": 2, "note": "settled near Florence。"},
+  {"q": "和平时期，霍克伍德和他的士兵做了什么？", "options": ["They hired themselves out to princes.", "They marched into a city-state and burned down a few farms.", "They gave the Italians a state funeral.", "They paid large sums to the gangsters."], "answer": 1, "note": "战时才受雇于君主。"},
+  {"q": "“made a name for himself” 在文中的意思是？", "options": ["Wrote his own name", "Became famous", "Changed his name", "Gave himself a title"], "answer": 1, "note": "意为“出名了”。"},
+  {"q": "意大利人如何看待霍克伍德？", "options": ["As a sort of hero", "As a common criminal", "As a modern businessman", "As an English king"], "answer": 0, "note": "In spite of this 含让步意味。"},
+  {"q": "根据课文，“protection money” 指什么？", "options": ["Money paid by the government to soldiers", "Money paid to gangsters to avoid being destroyed", "Money spent on guarding a city", "Money saved by shop owners"], "answer": 1, "note": "即“保护金”。"}
+ ]
+}

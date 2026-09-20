@@ -1,0 +1,35 @@
+{
+ "title": "The Cutty Sark",
+ "subtitle": "卡蒂萨克号",
+ "lead": {
+  "question": "19 世纪最快的帆船“卡蒂萨克”号，为何在 1872 年那场著名远洋比赛中落败？",
+  "warmup": "1872 年 6 月 18 日，两艘当时最快的帆船——“卡蒂萨克”号与“塞姆皮雷”号——同时从上海启航，展开一场驶往英国的激烈比赛。这场持续整整四个月的较量，是帆船时代最后一次远洋竞赛，也标志着一个古老传统的落幕。途中“卡蒂萨克”号一度领先，却在印度洋上突遭厄运。学完本课，你就会弄清它究竟因何功亏一篑。",
+  "goals": ["掌握 clipper、sail、rudder、steer 等航海词汇，读懂“卡蒂萨克”号的故事。", "理解并运用比较级、最高级描述最快的帆船与两船的速度对比。", "掌握被动语态（was struck / was torn away / was fitted）在叙事中的用法。", "学会用 There is no doubt that 与虚拟语气表达对过去情况的假设。"],
+  "summary": "“卡蒂萨克”号是 19 世纪最快的帆船之一，当年往返中国、澳大利亚运送茶叶和羊毛。1872 年它和“塞姆皮雷”号从上海启航，比赛驶向英国。尽管它在印度洋上一度领先，八月的一场特大风暴却刮走了船舵，船员只好在船上赶制应急舵，航速因此大减。它最终晚一个星期抵达英国。课文指出：若不是中途失去船舵，它本可轻松夺冠。",
+  "tips": "注意区分 take the lead（取得领先）与 lose one's lead（失去领先）；tear away 的被动过去分词是 torn away，不可写成 teared，rudder 是可数名词，勿漏冠词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What piece of bad luck prevented the Cutty Sark from winning the race?", "zh": "是什么坏运气使“卡蒂萨克”号未能赢得这场比赛？", "a": "In August, during the race, she was struck by a very heavy storm, and her rudder was torn away.", "aZh": "8 月比赛途中，它遭到一场特大风暴的袭击，船舵被刮走了。", "hint": "答案出自课文：In August, she was struck by a very heavy storm during which her rudder was torn away."},
+  {"kind": "detail", "q": "What were sailing vessels like the Cutty Sark used to carry, and from where?", "zh": "像“卡蒂萨克”号这样的帆船被用来运送什么？从哪里运？", "a": "They were used to carry tea from China and wool from Australia.", "aZh": "它们被用来从中国运茶叶，从澳大利亚运羊毛。", "hint": "见课文：sailing vessels like the Cutty Sark were used to carry tea from China and wool from Australia."},
+  {"kind": "detail", "q": "When and from where did the two ships set out for England?", "zh": "这两艘船何时、从何处启航驶往英国？", "a": "Both ships set out from Shanghai on June 18th, 1872.", "aZh": "两船于 1872 年 6 月 18 日从上海启航。", "hint": "见课文：Both these ships set out from Shanghai on June 18th, 1872 on an exciting race to England."},
+  {"kind": "detail", "q": "How did the crew deal with the lost rudder, and why did this reduce the ship's speed?", "zh": "船员如何应对失去的船舵？为什么这会降低船速？", "a": "A temporary rudder was made on board from spare planks and fitted with great difficulty; the speed was reduced because the ship could not travel too quickly, or the rudder would be torn away as well.", "aZh": "船员用备用木板在船上赶制了一只应急舵，并费尽力气把它装上；船不能开得太快，否则应急舵也会被刮走，所以航速大为降低。", "hint": "见课文：A temporary rudder was made on board from spare planks...This greatly reduced the speed of the ship."},
+  {"kind": "think", "q": "What does the last sentence suggest about the result of the race, and what grammatical structure does it use?", "zh": "课文最后一句对比赛结果作了怎样的暗示？它用了什么语法结构？", "a": "It suggests that if she had not lost her rudder, the Cutty Sark would have won the race easily. It uses the subjunctive mood — a counterfactual condition about the past (if + had done, would have done).", "aZh": "它暗示：如果中途没有失去船舵，“卡蒂萨克”号本可轻松夺冠。句子用了虚拟语气，是对过去情况的假设（if + had done, would have done）。", "hint": "见课文最后一句：There is no doubt that if she had not lost her rudder she would have won the race easily."}
+ ],
+ "exercises": [
+  {"q": "汉译英：“卡蒂萨克”号是有史以来建造的最快帆船之一。", "a": "The Cutty Sark was one of the fastest sailing ships that has ever been built.", "note": "one of the + 最高级 + 复数名词"},
+  {"q": "汉译英：帆船被用来从中国运茶叶，从澳大利亚运羊毛。", "a": "Sailing vessels were used to carry tea from China and wool from Australia.", "note": "be used to do 表用途，用被动"},
+  {"q": "用 clipper / sail / rudder / steer 的适当形式填空：The Cutty Sark was a famous ______, a fast ship with ______. Without a ______, the crew could not ______ her.", "a": "clipper; sails; rudder; steer", "note": "航海名词与 steer 用法"},
+  {"q": "句型转换（改为被动语态）：A very heavy storm struck the Cutty Sark in August.", "a": "The Cutty Sark was struck by a very heavy storm in August.", "note": "主动改被动，注意过去分词"},
+  {"q": "用 take the lead / lose one's lead 的适当形式填空：On the Indian Ocean, the Cutty Sark ______, but a heavy storm made her ______.", "a": "took the lead; lose her lead", "note": "take / lose the lead 搭配"},
+  {"q": "改错：The Cutty Sark was one of the fastest sailing ship that has ever been built.", "a": "ship→ships; has→have（one of the fastest sailing ships that have ever been built）", "note": "one of 后接复数名词"},
+  {"q": "用括号内动词的适当形式填空：There is no doubt that if she ______ (not lose) her rudder, she ______ (win) the race easily.", "a": "had not lost; would have won", "note": "虚拟语气对过去的假设"}
+ ],
+ "quiz": [
+  {"q": "“卡蒂萨克”号如今陈列在哪里？", "options": ["In Shanghai.", "At Greenwich.", "In Australia.", "At Java."], "answer": 1, "note": "现于格林威治展出"},
+  {"q": "“卡蒂萨克”号过去从哪里运茶叶，从哪里运羊毛？", "options": ["Tea from Australia and wool from China.", "Tea from Java and wool from England.", "Tea from China and wool from Australia.", "Tea from England and wool from Java."], "answer": 2, "note": "中国运茶，澳洲运羊毛"},
+  {"q": "哪艘船是唯一能与“卡蒂萨克”号匹敌的？", "options": ["The Thermopylae.", "The Shanghai.", "The Java.", "The Greenwich."], "answer": 0, "note": "对手是 Thermopylae"},
+  {"q": "比赛中“卡蒂萨克”号遭遇的坏运气是什么？", "options": ["She ran out of food at sea.", "She lost her way to England.", "She was left far behind at Java.", "Her rudder was torn away in a storm."], "answer": 3, "note": "暴风中船舵被刮走"},
+  {"q": "失去船舵后，船员是怎样应对的？", "options": ["They turned back to Shanghai.", "They gave up the race at once.", "They made a temporary rudder on board.", "They waited for another ship to help."], "answer": 2, "note": "赶制应急舵"},
+  {"q": "课文最后一句表达了什么意思？", "options": ["She won the race in the end.", "She would have won easily if she had not lost her rudder.", "The race was never finished.", "The Thermopylae also lost its rudder."], "answer": 1, "note": "虚拟语气，本可夺冠"}
+ ]
+}

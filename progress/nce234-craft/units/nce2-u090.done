@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u090",
+ "book": "nce2",
+ "unitId": "u090",
+ "title": "What's for supper?",
+ "subtitle": "晚餐吃什么？",
+ "hasText": false,
+ "lines": 8,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "885d122cbc92",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u059",
+ "title": "Collecting",
+ "subtitle": "收藏",
+ "lead": {
+  "question": "认真投入收藏的人，究竟能从中特别获得哪些益处与收获？",
+  "warmup": "收藏是一种常见的爱好，但人们囤积物品的原因却各不相同：有人只是不知不觉地留下杂物，有人因年老力衰或感情牵绊而舍不得丢弃旧物，也有人刻意留起绳子和包装纸以省下日后开支。作者随后把这种杂乱堆积极为不同，说明「严肃的收藏」能带给人休闲、知识、朋友与自信。让我们跟随课文，看看收藏为何是一种有益的爱好。",
+  "goals": [
+   "理解课文大意：人们收藏物品的种种原因，以及严肃收藏的多重益处。",
+   "掌握本课重点词汇与表达：amass, possession, collection, hobby, valuable, mania, like-minded 等。",
+   "巩固语法要点：被动语态、who/which 引导的定语从句、过去分词作后置定语及 as 引导的原因状语从句。",
+   "能就「收藏 / 爱好」这一话题，用英语表达原因、益处并作出简单评价。"
+  ],
+  "summary": "课文先谈人们天生爱囤积物品：从不搬家的人不加选择地堆积杂物，老年人因体力衰退和感情因素不愿丢弃旧物，节俭者特意留存绳子与包装纸。接着作者指出，把收藏当作严肃爱好则大不相同：它让人在闲暇中得到休憩，在专题及相关知识上受教育，还能结识同道、出门旅行、增强自信，把时间利用得富有建设性，使人满足而不觉无聊。",
+  "tips": "易错提醒：thing(s)、possession(s)、chances 作主语时谓语通常用复数，如 the chances ... are remote；注意 worth 是名词、valuable 是形容词，切勿混用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What in particular does a person gain when he or she becomes a serious collector?",
+   "zh": "一个人成为认真的收藏者后，特别能获得什么？",
+   "a": "He or she gains relaxation, education and, in particular, growing self-confidence — from mastering a subject and being able to talk about it.",
+   "aZh": "他能得到休闲与教育，尤其能获得不断增强的自信心——先源于掌握一门学问，后源于能够就它发表见解。",
+   "hint": "答案见课文末段：self-confidence grows, first from mastering a subject, then from being able to talk about it."
+  },
+  {
+   "kind": "detail",
+   "q": "Why do those who never have to move house become indiscriminate collectors?",
+   "zh": "为什么从不必搬家的人会成为不加选择的收藏者？",
+   "a": "Because they leave unwanted objects in drawers, cupboards and attics for years, believing they may one day need just those very things.",
+   "aZh": "因为他们把不用的东西堆放在抽屉、碗柜和阁楼里一放就是好几年，相信总有一天需要的正是那些东西。",
+   "hint": "见第3、4句：They leave unwanted objects … in the belief that …"
+  },
+  {
+   "kind": "detail",
+   "q": "What are the two reasons why old people accumulate belongings?",
+   "zh": "老年人囤积物品的两个原因是什么？",
+   "a": "Lack of physical and mental energy, which is needed to turn out and throw things away, and sentiment.",
+   "aZh": "一是缺乏清除和丢弃东西所需的体力和精力，二是感情上的因素。",
+   "hint": "见第5句：for two other reasons, lack of physical and mental energy … and sentiment."
+  },
+  {
+   "kind": "detail",
+   "q": "What does the woman who cuts sketches from newspapers collect, and what is the result?",
+   "zh": "那位从报纸上剪下图样的女士收集什么？结果如何？",
+   "a": "She cuts out sketches of model clothes she would like to buy; harmless as it is, the habit litters up her desk so much that loose bits of paper fall out whenever she opens it.",
+   "aZh": "她剪下她想买的流行服装图样；这习惯虽无害，却把写字台堆得满满当当，每次打开抽屉都有散落的纸片四处飞落。",
+   "hint": "见 I know someone who always cuts sketches … 及其后两句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the author believe that collecting makes a person contented with no time for boredom?",
+   "zh": "作者为什么认为收藏能使人感到心满意足、无暇感到无聊？",
+   "a": "Because collecting occupies one's spare time constructively: it fills leisure hours with relaxation, learning and meeting like-minded people, so there is always something to do.",
+   "aZh": "因为收藏富有建设性地占用了业余时间：它用休闲、学习和结识同道等有益活动填满闲暇，总是有事可做，自然就不觉无聊。",
+   "hint": "结合课文中间与结尾：there is always something to do … makes a person contented, with no time for boredom."
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：人们喜欢收藏东西，有时并没有意识到自己在这样做。",
+   "a": "People tend to amass possessions, sometimes without being aware of doing so.",
+   "note": "注意 tend to 与 be aware of doing。"
+  },
+  {
+   "q": "将 People collect some things deliberately in the home in an attempt to avoid waste. 改为被动语态。",
+   "a": "Some things are collected deliberately in the home in an attempt to avoid waste.",
+   "note": "主动变被动，宾语提前作主语。"
+  },
+  {
+   "q": "用 who 合并两句：I know someone. She always cuts sketches out from newspapers.",
+   "a": "I know someone who always cuts sketches out from newspapers.",
+   "note": "who 引导定语从句修饰 someone。"
+  },
+  {
+   "q": "填空：Things ______ (own) for a long time gradually acquire a value beyond their true worth and become more ______ (value).",
+   "a": "owned; valuable",
+   "note": "过去分词作定语；value→valuable。"
+  },
+  {
+   "q": "填空：______ (collect) as a serious hobby is quite different and has many advantages.",
+   "a": "Collecting",
+   "note": "动名词作主语，首字母大写。"
+  },
+  {
+   "q": "改错：The chances that she will ever be able to afford such purchases is remote.",
+   "a": "is 改为 are（主语 the chances 为复数）。",
+   "note": "复数主语，谓语用 are。"
+  },
+  {
+   "q": "汉译英：欣赏自己的收藏品总是一件乐事，所以人们不必出门娱乐。",
+   "a": "Looking at one's collection is always a joy, so one does not have to go outside for amusement.",
+   "note": "collection 收藏品；looking 作主语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中表达「人们喜欢囤积物品」的是哪一句？",
+   "options": [
+    "People tend to amass possessions.",
+    "People tend to move house.",
+    "People tend to throw things away.",
+    "People tend to buy small items."
+   ],
+   "answer": 0,
+   "note": "tend to amass possessions，囤积物品。"
+  },
+  {
+   "q": "短语 in the belief that 的意思是？",
+   "options": [
+    "in order that",
+    "believing that",
+    "even though",
+    "as soon as"
+   ],
+   "answer": 1,
+   "note": "表示「相信 / 认为」。"
+  },
+  {
+   "q": "在 both of which are essential in turning out and throwing away 中，both of which 指代什么？",
+   "options": [
+    "two other reasons",
+    "unwanted objects",
+    "physical and mental energy",
+    "drawers and cupboards"
+   ],
+   "answer": 2,
+   "note": "指体力和精力。"
+  },
+  {
+   "q": "Collecting small items can easily become a mania. 中 mania 最接近的意思是？",
+   "options": [
+    "an excessive enthusiasm",
+    "a serious illness",
+    "a useful habit",
+    "a special talent"
+   ],
+   "answer": 0,
+   "note": "mania 指狂热、痴迷。"
+  },
+  {
+   "q": "在 as just looking at one's treasures is always a joy 中，as 引导的是？",
+   "options": [
+    "时间状语从句",
+    "结果状语从句",
+    "定语从句",
+    "原因状语从句"
+   ],
+   "answer": 3,
+   "note": "as 引导原因状语从句。"
+  },
+  {
+   "q": "按作者观点，把收藏当作严肃爱好最大的好处是？",
+   "options": [
+    "It helps people save money.",
+    "It educates, relaxes and builds self-confidence.",
+    "It forces people to move abroad.",
+    "It stops people from buying clothes."
+   ],
+   "answer": 1,
+   "note": "教育、休闲、增强自信。"
+  }
+ ]
+}

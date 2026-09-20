@@ -1,0 +1,164 @@
+{
+ "unitId": "u031",
+ "title": "A Lovable Eccentric",
+ "subtitle": "可爱的怪人",
+ "lead": {
+  "question": "一位精明富有的商人为何被店员拒之门外？他又是怎样不动声色地报复的？",
+  "warmup": "你也许见过这样一类人：穿着随便、行为古怪，却让整条街的人都喜欢他。课文里的迪基就是这样一位“可爱的怪人”——他明明是镇上最精明富有的商人，却偏偏喜欢步行、拒不带伞、痛恨势利小人。有一天下大雨，他浑身泥水地走进一家高级商店买表，店员竟不肯接待他。他会怎样回应呢？读时请留意作者如何用让步和对比，把一个怪人写得令人敬佩。",
+  "goals": [
+   "掌握 eccentric、snob、bedraggled、collection 等核心词汇，理解 a lovable eccentric 这类名词短语的用法。",
+   "学会用 though、even when 引导的让步状语从句和 preferring… 分词短语，写出对比鲜明的句子。",
+   "熟悉 hardly ever、invariably、intensely 等频度与程度副词的位置和语气差别。",
+   "能用被动语态与非限制性定语从句复述迪基买表和画展恶作剧的经过。"
+  ],
+  "summary": "课文先说真正古怪的人从不有意引人注意，却总能赢得别人的喜爱与尊敬，因为他们给平淡的日常生活添了色彩。接着介绍迪基：他是精明富有的商人，却以古怪出名——很少用豪车、雨天拒不带伞、痛恨势利小人。他被大雨淋得浑身泥水进店买三百英镑的手表，遭店员拒绝，便用一布袋三万枚便士让店员当场点清。他还请评论家参观自己的“现代画收藏”，那些画其实出自他本人之手，用四年时间证明评论家并不总知道自己在说什么。",
+  "tips": "频度副词的位置要记牢：hardly ever、invariably、intensely 放在实义动词之前、be 动词和助动词之后；hardly 本身含否定，不可再加 not。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the shop assistant refuse to serve Dickie?",
+   "zh": "店员为什么拒绝接待迪基？",
+   "a": "Because Dickie was in such a bedraggled condition: he had just been caught in a particularly heavy shower and looked wet and dirty, so the assistant thought he was not a real customer.",
+   "aZh": "因为迪基当时浑身泥水、狼狈不堪：他刚被一场瓢泼大雨淋透，样子又湿又脏，店员因此不把他当成真正的顾客。",
+   "hint": "见课文“One day, he walked into an expensive shop after having been caught in a particularly heavy shower… an assistant refused to serve him”。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did Dickie usually travel about the town, and what did he refuse to carry even when it was raining heavily?",
+   "zh": "迪基平时怎样在镇上出行？即使下大雨他拒绝带什么？",
+   "a": "He hardly ever used his large car and preferred always to go on foot; even when it was raining heavily, he refused to carry an umbrella.",
+   "aZh": "他很少使用那辆豪华轿车，总喜欢以步代车；即使大雨倾盆，他也拒绝带伞。",
+   "hint": "见课文“Though he owned a large car, he hardly ever used it, preferring always to go on foot.”与“Even when it was raining heavily, he refused to carry an umbrella.”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Dickie do after the assistant refused to serve him, and how did he finally pay for the watch?",
+   "zh": "店员拒绝接待之后迪基做了什么？他最后用什么方式付表钱？",
+   "a": "He left the shop without a word and came back carrying a large cloth bag, which he dumped on the counter. He paid no attention when asked to leave, requested to see the manager, then handed over the bag with $300 in pennies and insisted on the assistant's counting all 30,000 pennies before he left.",
+   "aZh": "他一言不发地走出商店，然后提着一个大布袋回来，重重地扔在柜台上。店员让他走开他置之不理，要求见经理，随后把装着三百英镑便士的布袋递过去，并坚持要店员点清全部三万枚便士才肯离开。",
+   "hint": "见课文“Dickie left the shop without a word…”至“He insisted on the assistant's counting the money before he left -- 30,000 pennies in all!”。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the exhibition of modern paintings receive so much attention in the press, and how long did it take Dickie to stage the joke?",
+   "zh": "那次现代画展为何在报界引起极大关注？迪基用了多长时间来策划这场玩笑？",
+   "a": "Because although the pictures were supposed to be the work of famous artists, they had in fact been painted by Dickie himself; and it took him four years to stage this elaborate joke.",
+   "aZh": "因为那些画虽然号称出自名家之手，实际上却是迪基自己画的；而他为策划这场精心设计的玩笑花了四年时间。",
+   "hint": "见课文最后两句，注意 had in fact been painted by Dickie 这一被动结构。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer call Dickie a “lovable” eccentric rather than simply a strange man?",
+   "zh": "作者为什么称迪基为“可爱的”怪人，而不只是说他古怪？",
+   "a": "Because his oddness was harmless and unselfconscious — he disregarded social conventions without being conscious of doing anything extraordinary, and he added colour to the dull routine of everyday life. His jokes were aimed at snobs, a rude assistant and self-important critics, never at ordinary people, so they won him the love and respect of others.",
+   "aZh": "因为他的古怪无害且出于无心——他不顾社会习俗，却意识不到自己做了什么特殊的事，还给平淡单调的日常生活增添了色彩。他的玩笑针对的是势利小人、无礼的店员和自命不凡的评论家，从不针对普通人，因此他赢得了别人的喜爱与尊敬。",
+   "hint": "结合首段“This invariably wins them the love and respect of others…”与全文对迪基行为目的的描写。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：真正古怪的人从不有意引人注意。",
+   "a": "True eccentrics never deliberately set out to draw attention to themselves.",
+   "note": "deliberately 放在实义动词前"
+  },
+  {
+   "q": "汉译英：尽管他有一辆豪华轿车，却很少使用，总喜欢以步代车。",
+   "a": "Though he owned a large car, he hardly ever used it, preferring always to go on foot.",
+   "note": "though 让步，分词短语作状语"
+  },
+  {
+   "q": "句型转换（改被动语态）：Dickie had in fact painted the pictures.",
+   "a": "The pictures had in fact been painted by Dickie.",
+   "note": "过去完成时被动 had been done"
+  },
+  {
+   "q": "用非限制性定语从句合并：The pictures were supposed to be the work of famous artists. They had in fact been painted by Dickie.",
+   "a": "The pictures, which were supposed to be the work of famous artists, had in fact been painted by Dickie.",
+   "note": "非限制性定语从句用逗号隔开"
+  },
+  {
+   "q": "填空：Dickie was known ___ us all ___ Dickie, and his eccentricity had become legendary.",
+   "a": "to; as",
+   "note": "be known to sb as…"
+  },
+  {
+   "q": "改错：He insisted on the assistant to count the money before he left.",
+   "a": "He insisted on the assistant's counting the money before he left.",
+   "note": "insist on + 动名词/所有格"
+  },
+  {
+   "q": "用括号中词的适当形式填空：Our neighbour is a little ___ (eccentricity), rather ___ (forget) about his own affairs, but extremely ___ (consider) to children.",
+   "a": "eccentric; forgetful; considerate",
+   "note": "形容词后缀 -ic / -ful / -ate"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "店员拒绝接待迪基的直接原因是什么？",
+   "options": [
+    "He had no money with him.",
+    "He was in a bedraggled condition after a heavy shower.",
+    "He was wearing an old hat.",
+    "He refused to speak to the assistant."
+   ],
+   "answer": 1,
+   "note": "浑身泥水，被当作闲人"
+  },
+  {
+   "q": "关于迪基的汽车，课文是怎么说的？",
+   "options": [
+    "He sold his large car years ago.",
+    "He owned a large car but hardly ever used it.",
+    "He used his car only on rainy days.",
+    "He never owned a car of his own."
+   ],
+   "answer": 1,
+   "note": "hardly ever 表极少"
+  },
+  {
+   "q": "迪基用什么支付那块三百英镑的手表？",
+   "options": [
+    "A cheque for £300.",
+    "A cloth bag containing 30,000 pennies.",
+    "Three hundred pound notes.",
+    "The manager's credit card."
+   ],
+   "answer": 1,
+   "note": "三万枚便士，让店员点数"
+  },
+  {
+   "q": "经理认出这位顾客后有什么反应？",
+   "options": [
+    "He called the police at once.",
+    "He laughed at the assistant.",
+    "He was most apologetic and reprimanded the assistant severely.",
+    "He refused to sell the watch."
+   ],
+   "answer": 2,
+   "note": "道歉并严厉训斥店员"
+  },
+  {
+   "q": "迪基的画展为何在报界引起极大关注？",
+   "options": [
+    "The pictures were sold at a very low price.",
+    "The pictures were supposed to be by famous artists but had been painted by Dickie.",
+    "The critics refused to attend the exhibition.",
+    "Dickie gave all the pictures away."
+   ],
+   "answer": 1,
+   "note": "所谓名家作品实为亲笔"
+  },
+  {
+   "q": "迪基用四年时间策划这场玩笑，想证明什么？",
+   "options": [
+    "Critics do not always know what they are talking about.",
+    "Modern art is completely worthless.",
+    "Shop assistants are always rude to the poor.",
+    "Rich men are usually hopeless snobs."
+   ],
+   "answer": 0,
+   "note": "末句点明用意"
+  }
+ ]
+}

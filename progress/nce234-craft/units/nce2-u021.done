@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u021",
+ "book": "nce2",
+ "unitId": "u021",
+ "title": "Mad or not?",
+ "subtitle": "是疯了还是不疯？",
+ "hasText": false,
+ "lines": 8,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "0d654bada50d",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

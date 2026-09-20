@@ -1,0 +1,66 @@
+{
+ "book": "nce2",
+ "unitId": "u048",
+ "lesson": 48,
+ "sourceFile": "303.txt",
+ "titleEn": "Did you want to tell me something?",
+ "titleZh": "",
+ "listenQuestion": "Why did the writer become very worried?",
+ "lines": [
+  {
+   "en": "Dentists always ask questions when it is impossible for you to answer.",
+   "zh": "牙科医生们总是在你无法作出回答的时候向你提出问题。"
+  },
+  {
+   "en": "My dentist had just pulled out one of my teeth and had told me to rest for a while.",
+   "zh": "我的牙科医生刚刚给我拔掉了一颗牙，叫我休息一会儿。"
+  },
+  {
+   "en": "I tried to say something, but my mouth was full of cotton wool.",
+   "zh": "我想说点什么，但我嘴里塞满了药棉。"
+  },
+  {
+   "en": "He knew I collected match boxes and asked me whether my collection was growing.",
+   "zh": "他知道我收集火柴盒，于是问我收藏的火柴盒是否在增加。"
+  },
+  {
+   "en": "He then asked me how my brother was and whether I liked my new job in London.",
+   "zh": "接着他又问我的兄弟近来如何，问我是否喜欢伦敦的新工作。"
+  },
+  {
+   "en": "In answer to these questions I either nodded or made strange noises.",
+   "zh": "作为对这些问题的回答，我不是点头，就是发出奇怪的声音。"
+  },
+  {
+   "en": "Meanwhile, my tongue was busy searching out the hole where the tooth had been.",
+   "zh": "与此同时，我的舌头正在忙着寻找刚拔掉的那颗牙的伤口。"
+  },
+  {
+   "en": "I suddenly felt very worried, but could not say anything.",
+   "zh": "我突然非常着急起来，但却什么也说不出来。"
+  },
+  {
+   "en": "When the dentist at last removed the cotton wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.",
+   "zh": "当那位牙医最后将药棉从我嘴中取出时，我总算有可能告诉他，他拔错了牙。"
+  }
+ ],
+ "translationJoined": "牙科医生们总是在你无法作出回答的时候向你提出问题。我的牙科医生刚刚给我拔掉了一颗牙，叫我休息一会儿。我想说点什么，但我嘴里塞满了药棉。他知道我收集火柴盒，于是问我收藏的火柴盒是否在增加。接着他又问我的兄弟近来如何，问我是否喜欢伦敦的新工作。作为对这些问题的回答，我不是点头，就是发出奇怪的声音。与此同时，我的舌头正在忙着寻找刚拔掉的那颗牙的伤口。我突然非常着急起来，但却什么也说不出来。当那位牙医最后将药棉从我嘴中取出时，我总算有可能告诉他，他拔错了牙。",
+ "words": [
+  {
+   "word": "pull",
+   "pos": "v",
+   "zh": "cotton wool 药棉"
+  },
+  {
+   "word": "meanwhile  ad",
+   "pos": "v",
+   "zh": "参考译文"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．Dentists always ask questions when it is impossible for you to answer. 牙科医生们总是在你无法作出回答的时候向你提出问题。\n在when引导的时间状语从句中，it为先行主语，代指后面的不定式，for+人称代词／名词说明不定式表示的动作是谁做的：\nIt is not hard for you to help them.\n你帮助他们并不难。\nIt was a mistake for me to come to the party.\n我来参加晚会是错误的。\nimpossible通常不以人作主语，而以不定式或从句作主语：\nIt is impossible for him to help you.\n他不可能帮你。\nIt is impossible that he will help you.\n（译文同上）\n2．In answer to these questions I either nodded or made strange noises. 作为对这些问题的回答，我不是点头，就是发出奇怪的声音。\n（1）in answer to为固定短语，在这里表示“作为对……的回答”：\nIn answer to my question, Dan shook his head.\n作为对我的问题的回答，丹摇了摇头。\n这个短语的另一个含义是“响应……的请求”：\nIn answer to my request, he wrote a letter to George.\n应我的请求，他给乔治写了封信。\n（2）made strange noises, 发出奇怪的声音。“我”并不是有意发出这些声音，而是因为嘴里有药棉，又想回答医生的话造成的。\n3．Meanwhile, my tongue was busy searching out the hole where the tooth had been. 与此同时，我的舌头正在忙着寻找刚拔掉的那颗牙的伤口。\n（1）副词meanwhile表示“在此期间”、“与此同时”：\nHe won't come until ten o'clock. Meanwhile you can have a rest.\n他10点以前不会来。在此期间你可以休息一下。\nMary was talking to me about her new dress. Meanwhile I was thinking about something else.\n玛丽在和我讲她的新衣服。与此同时我却在想着其他事情。\n（2）search out表示“找出”、“查出”、“搜出”等：\nHave you searched out the books I needed?\n你找出我需要的书了吗？\n（3）where the tooth had been用的是过去完成时，因为在描述这件事的时候那颗牙已经不在了。牙齿尚在的时间是“过去的过去”。\n4．When the dentist at last removed the cotton wool from my mouth…\n当那位牙医最后将药棉从我嘴中取出时……\nremove可以表示“拿去”、“除去”、“去掉”，通常结构为“remove +名词+from”；它也可以单独使用：\nI've removed that picture from the wall.\n我已经把那幅画从墙上拿走了。\nPlease remove your hat.\n请摘下你的帽子。",
+  "grammar": "复习第26～45课的部分语法\nIt is one of the ugliest faces(that) I have ever seen.\n这是我见过的最丑陋的头像之一。（that在关系从句中作宾语，可省略）\nThere aren't many students who sing as well as she does.\n在学生当中没几个人唱歌像她那么好。（who在关系从句中作主语，不可省略）\nPeople are not so honest as they once were.\n人们不再像以前那样诚实了。（not so/ as…as用于比较状语从句）\nHe had hardly had time to\nsettle\ndown when he sold the house.\n他还没等安顿下来就卖掉了房子。（hardly…when用于过去完成时）\nNo sooner had I sat down than he came in.\n我刚坐下他就进来了。（no sooner…than用于过去完成时；否定词位于句首时句子要倒装）\nThe box was so heavy that she couldn't lift it.\n箱子太重了，她搬不起来。（so+形容词+that表示“如此……以至于”）\nThe thief got such a\nfright\nthat he dropped the bag.\n那个小偷吓得把提包都扔了。（such〈a〉+名词+that表示“如此……以至于”）\nBilly is not at home at present. He's at school.\n比利现在不在家，他在学校。（at+名词的用法）",
+  "wordStudy": "1．pull vt.,vi.\n（1）拉，拖，牵，扯：\nI felt someone pulling my arm.\n我觉得有人在拉我的胳膊。\nThey pulled the heavy bag into a room.\n他们把那个重袋子拖到一个房间里。\nYou have to pull hard.\n你得用力拉。\n（2）拔，抽：\nYou've pulled out the wrong teeth!\n你拔错了牙！\nHe pulled an address book from his pocket.\n他从口袋里抽出一本通讯录。\n2．nod\n（1）vt.,vi. 点头，点头示意／招呼：\nI asked him if he wanted to come and he nodded his head.\n我问他是否想来，他点了点头。\nWhen we meet each other in the office, he always nods at me.\n我们在办公室见面时，他总是向我点头打招呼。\n（2）vi. 打盹，打瞌睡（常与off连用）：\nHe used to nod off during the French class.\n他过去常在上法语课时打瞌睡。\nAs he was very tired, he nodded over his reading.\n因为他很累，所以他一边看书一边打盹。",
+  "keyAnswers": "1．难点练习答案\nA 1 which              2 denied                3 fetched\n4 too                 5 jobs                   6 One…a…who\n7 past                8 next                 9 watching\n10 continually     11 remarked          12\nrobbed\nB (sample sentences)\nI'm sorry to cause you such trouble.\nHave you ever seen such beautiful pictures before? It's such a nice day that we can't stay\nindoors\n!\nI'm feeling so tired that I shall have to stop work.\nC 1 He had no sooner come home than they rang him up from the office.\n2 The plane had no sooner taken off than it returned to the airport.\nD 1 made  2 do  3 make  4 do  5 Do  6 make 7 made8 does\nE 1 out  2 up  3 up  4 up…away  5 up  6 out 7 back  8 up with  9 up with\nF (sample sentences)\nIf you don't stop that noise at once, you'll have to go to bed. I'm at a\nloss\nto know what to do.\nIt's stopped raining at last!\nHe's very busy and can't accept any more work at present. I'll be at home tonight.\n2．多项选择题答案\n1c  2b  3c  4b  5a  6c\n7b  8 b  9 d  10 a  11b  12 c\n课堂笔记\nbe busy doing 忙于做某事\nsearch out找出\n判断是否是定语从句就看是否和前面的名词有关系\nwhere＝介词＋which\nthat is the house which i lived in\nthat is the house where i lived\nthis is the river where i swim\nwhere作定语从句的标志，修饰前面的hole\nin answer to作为对...的回答\nin return for作为对...的报答\n点击\n收听单词发音\nsettle\nvi.安家；定居；停留；vt.使定居；安排；解决\n参考例句：\nI have to settle my affairs before leaving here.离开这儿以前，我得把一些私人的事情安排妥当。\nShe has decided how she should settle the matter.她已做出决定如何来了解这件事。\nfright\nn.惊骇；吃惊\n参考例句：\nA tree fell on the house and gave him a fright"
+ }
+}

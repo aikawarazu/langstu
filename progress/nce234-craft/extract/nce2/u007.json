@@ -1,0 +1,88 @@
+{
+ "book": "nce2",
+ "unitId": "u007",
+ "lesson": 7,
+ "sourceFile": "262.txt",
+ "titleEn": "Too late",
+ "titleZh": "为时太晚",
+ "listenQuestion": "",
+ "lines": [
+  {
+   "en": "The plane was late and detectives were waiting at the airport all morning.",
+   "zh": "飞机误点了，侦探们在机场等了整整一上午。"
+  },
+  {
+   "en": "They were expecting a valuable parcel of diamonds from South Africa.",
+   "zh": "他们正期待从南非来的一个装着钻石的贵重包裹。"
+  },
+  {
+   "en": "A few hours earlier, someone had told the police that thieves would try to steal the diamonds.",
+   "zh": "数小时以前，有人向警方报告，说有人企图偷走这些钻石。"
+  },
+  {
+   "en": "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield .",
+   "zh": "当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。"
+  },
+  {
+   "en": "Two men took the parcel off the plane and carried it into the Customs House.",
+   "zh": "有两个人把包裹拿下飞机，进了海关。"
+  },
+  {
+   "en": "While two detectives were keeping guard at the door, two others opened the parcel.",
+   "zh": "这时两个侦探把住门口，另外两个侦探打开了包裹。"
+  },
+  {
+   "en": "To their surprise, the precious parcel was full of stones and sand!",
+   "zh": "令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！"
+  }
+ ],
+ "translationJoined": "飞机误点了，侦探们在机场等了整整一上午。他们正期待从南非来的一个装着钻石的贵重包裹。数小时以前，有人向警方报告，说有人企图偷走这些钻石。当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。有两个人把包裹拿下飞机，进了海关。这时两个侦探把住门口，另外两个侦探打开了包裹。令他们吃惊的是，那珍贵的包裹里面装的全是石头和沙子！",
+ "words": [
+  {
+   "word": "detective",
+   "pos": "n",
+   "zh": "detective story 侦探小说"
+  },
+  {
+   "word": "airport",
+   "pos": "n",
+   "zh": "★airfield　n. 飞机起落的场地"
+  },
+  {
+   "word": "expect",
+   "pos": "v",
+   "zh": "except 除……之外"
+  },
+  {
+   "word": "valuable",
+   "pos": "adj",
+   "zh": "★precious　adj. 珍贵的"
+  },
+  {
+   "word": "valueless",
+   "pos": "adj",
+   "zh": "worth 值："
+  },
+  {
+   "word": "parcel",
+   "pos": "n",
+   "zh": "★diamond　n. 钻石"
+  },
+  {
+   "word": "guard",
+   "pos": "n",
+   "zh": "life guard 救生员/body guard　保镖"
+  },
+  {
+   "word": "stone",
+   "pos": "n",
+   "zh": "★sand　n. 沙子"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．…detectives were waiting at the airport all morning. ……侦探们在机场等了整整一上午。\nall 一般直接加表示时间的单数名词构成副同短语，如：all day （整整一天），all night（整夜），all week（整星期），all winter（整个冬天），all year（整年）等。但不说all hour。\nwhole在表达同样的意思时一般要加冠词或数词，如：a whole day/ year（一整天／年），two whole weeks（整整两星期）。\n2．…someone had told the police that thieves would try to steal the diamonds. ……有人向警方报告，说有人企图偷走这些钻石。\nthat后面的部分为动词tell的宾语从句。从句中的时态为过去将来时（would）。\n3．When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.\n当飞机到达时，一些侦探等候在主楼内，另一些侦探则守候在停机坪上。\n（1）这个长句子由3个部分组成：when引导的是整个句子的时间状语从句；some of…building为主句；while 引导的是动作与主句的动作同时进行的时间状语从句。while作为连词表示“和……同时”、“当……时候”时常常引导一个过去进行时从句。（cf. 本课语法）\n（2）地点状语 on the airfield 与第一句中的 at the airport 意义相近。注意介词on和at的不同搭配。\n（3）代词others常常和some连用，表示“有些（人）……，也有些（人）……”或者“有的……，其余的……”：\nSome students are very hard-working; others are not.\n有些学生非常用功；有些则不然。\nSome of the novels are interesting; (the) others are not.\n在这些小说中，有些很有趣，其他的则不然。\n4．keep guard, 守望，警戒，与 stand guard（站岗，放哨）意思相近。\nTwo thieves kept guard around the house while the others entered it.\n两个小偷在屋子外面守着，其他的则进了屋。\nThey kept a close guard over the thieves.\n他们对小偷们严加看管。\n5．to their surprise, 令他们吃惊的是。\n这个短语中的所有格形容词their也可以换成其他所有格形容词：(much) to my/ his surprise, to our surprise 等。一般不说 to your surprise.",
+  "grammar": "1．过去进行时(The past\nprogressive\ntense)\n构成：be的过去式+现在分词（注意现在分词的构成）\n（1）过去进行时主要表示过去某个时刻或某段时间正在进行的动作。过去进行时和一般过去时经常同在一个句子里使用。过去进行时表示过去正在进行的动作或情况，一般过去时则表示比较短暂的动作或事件。正在进行中的动作或情况往往由连词 when, while, as, just as等引导：\nWhile/ When/ As I was\nsweeping\nthe floor, I found your pen.\n我扫地的时候，发现了你的钢笔。\nwhile通常只引导持续时间较长的动作，并且主句和从句可以同时用过去进行时，而when和as一般不这么用：\nJohn was watching TV while his wife was talking with a neighbour over the phone.\n当他的妻子和一位邻居在电话中聊天时，约翰一直在看电视。\nSome students were dancing and singing while others were eating and drinking.\n有些学生在唱歌跳舞，而另一些则在吃喝。\nJust as I was opening the front door, the telephone rang.\n我正开前门的时候，电话铃响了。\nJust as I was leaving the house, you came in.\n你进来的时候我正要出门。\nwhen也可以引导比较短暂的动作，while和as则一般不行：\nWe were having supper when the lights went out.\n我们正在吃晚饭时灯灭了。\n2）过去进行时往往与表示一段时间的状语连用，如all morning, all night, all day, all evening, the whole week等，表示这段时间一直在干什么：\nThey were preparing for the party for two whole days.\n整整两天他们一直在为晚会进行准备。\n2．短语动词中的小品词(The particles)\n在上一课的语法中已经提到，许多动词加上介词或副词后就会改变词义。这些介词和副词通常被称为小品词。它们没有词形变化。有些小品词既可以作介词又可以作副词。判断一个小品词是副词还是介词要看小品词有没有带宾语。有宾语的是介词，没有宾语的是副词。介词的位置相对固定些：I am looking for Tim.\n我在找蒂姆。（for为介词，位置不能变动）\nShe looked after the baby.\n她照顾那孩子。（after为介词）\nHe put the fire/ it out.\n他灭了火。（out为副词）\nMother woke the children/ them up.\n母亲把孩子们叫醒了。（up为副词）\nShe took the picture/ it down.\n她把画取了下来。（down为副词）\nPlease turn the radio/ it off.\n请把收音机关掉。（off为副词）\nHe turned it on.\n约翰打开了电视。（on为副词）\nPut the cake on the table.\n把蛋糕放在桌上。（on为介词）\nShe is walking up the hill.\n她正向山上走去。（up为介词）\n词汇学习  Word study\n1．expect\n（1）vt., vi. 预计，预料：\nWe expect a cold winter this year.\n我们预计今年冬天会冷。\nJim has failed in\nmathematics\nas his teacher expected.\n正如他老师所预料的那样，吉姆数学考试没及格。\n（2）vt. 等待，期待，盼望：\nI'm expecting a letter from Jimmy.\n我在等待吉米的一封信。\nThey are expecting guests tonight.\n今晚有人要去他们那里作客。\nexpect所表示的等待一般暗含着根据某些信息或规律而作出相应反应的意思，而wait(for)主要指“等待”这个动作本身：\nHe waited for her for more than an hour, but she did not come.\n他等了她一个多小时，但她没来。\nWait a minute, please.\n请等一下。\n（3）vt. 认为，猜想（一般用于口语）：\nI expect you've heard the news.\n我想你已经听到这个消息了。\n2．steal\n（1）vt. vi. 偷盗，行窃：\nSomeone has stolen my bike.\n有人把我的自行车偷走了。\nJohn never steals.\n约翰从不偷东西。\n（2）vt. 巧妙地占有，偷偷地弄到手：\nHe has stolen away Mary's heart.\n他已赢得玛丽的芳心。\n（3）vi. 偷偷地行动，悄悄靠近：\nHe stole into the room.\n他悄悄地进了房间。",
+  "wordStudy": "",
+  "keyAnswers": "1．关键句型练习答案\nA detectives were waiting(1.1); They were expecting(1.2);\ndetectives were waiting(1.5); others were waiting(1.6);two detectives were keeping guard(11.7-8)\nB 1 When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.\n2 When two of the detectives opened the parcel, two others were keeping guard at the door.\nC (sample answers)\n1 I was getting into my bath when you telephoned me.\n2 I was reading Hamlet when you saw me in the library this morning.\n3 I was saying that you must see the new film when you interruped me.\nD 1 was leaving…arrived 2 worked/ was working…was sitting/ sat3 was walking…met\n4 was reading…heard\n5 was preparing…set/ was\nsetting\n6 dropped…spoke\n2．难点练习答案\n1 He gave all his books away.\n2 She woke the children up early this morning.\n4 They cut the king's head off.\n5 Put your hat and coat on.\n7 Help me to lift this table up.\n8 Take your shoes off and put your\nslippers\non.\n11 They have pulled the old building down.12 Make your mind up.\n14 She threw all those old newspapers away.\n3．多项选择题答案\n1 b  2 c  3 c  4 d  5 a  6 c\n7 d  8 a  9 c  10 b  11a  12 b\n课堂笔记\nNEW WORDS AND EXPRESSIONS】\n★detective　n. 侦探\ndetective story 侦探小说\n★airport　n. 机场\n★airfield　n. 飞机起落的场地\nport 港口；airport航空港\nfield 田野；airfield 停机坪\nat the airport\non the airfield\n★expect　v. 期待，等待\nexcept 除……之外\nexpect／ik'spekt/ v. 期待，等待\nI think so.\nI expect so.我希望如此［口语］\nexpect sb.to do sth.期待某人做某事\nexpect sth.及物动词：I expect your letter.\nI expect you "
+ }
+}

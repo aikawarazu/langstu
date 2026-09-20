@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u048",
+ "book": "nce2",
+ "unitId": "u048",
+ "title": "Did you want to tell me something?",
+ "subtitle": "你想告诉我什么吗？",
+ "hasText": false,
+ "lines": 9,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "549c1b5bc7a7",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

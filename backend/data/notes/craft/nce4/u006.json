@@ -1,0 +1,164 @@
+{
+ "unitId": "u006",
+ "title": "The Sporting Spirit",
+ "subtitle": "体育的精神",
+ "lead": {
+  "question": "作者如何看待国际层面的体育运动？它真能增进国家间的友谊吗？",
+  "warmup": "乔治·奥威尔在文中挑战一个流行的信念：体育能促进国家间的友谊。他冷峻地指出，国际赛场往往不是友谊的舞台，而是仇恨与对抗的温床。本课带你走近\"体育精神\"的另一面，在品味其犀利论证的同时，掌握让步从句、虚拟语气与分词等语法要点，并积累竞争、荣誉类词汇。",
+  "goals": [
+   "理解奥威尔反驳\"体育创造国家友谊\"的论证逻辑与立场。",
+   "掌握 competitive、prestige、rivalry、spectator 等本课核心词汇。",
+   "学会 even if 引导的让步从句与 if only 的条件/虚拟用法。",
+   "辨析 unless 引导的反向条件句及分词短语作定语、状语的表达。"
+  ],
+  "summary": "作者反驳体育创造国家友谊之说：国际比赛往往引发疯狂仇恨，1936 年奥运会便是明证。他指出，当今体育几乎都是竞争性的，参赛只为取胜。在乡村草坪上可只为娱乐踢球，但一旦涉及荣誉与声望、想到会因输而丢脸，好斗本能便被激发。在国际层面，体育简直是模拟战争，各国为荒唐的比赛如痴如狂，甚至把跑跳踢球当作民族品德的检验。",
+  "tips": "区分 if only 的两种用法：单独成句表虚拟愿望（If only I could fly.），引导条件时等于 as long as，后面必须有主句，如 if only the common peoples could meet one another。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How does the writer describe sport at the international level?",
+   "zh": "作者如何描述国际层面的体育运动？",
+   "a": "He says that at the international level sport is frankly mimic warfare.",
+   "aZh": "他说，在国际层面，体育简直是一场模拟战争。",
+   "hint": "答案见课文：At the international level, sport is frankly mimic warfare."
+  },
+  {
+   "kind": "detail",
+   "q": "What concrete example does the writer give of international contests leading to orgies of hatred?",
+   "zh": "作者举出什么具体事例说明国际比赛会导致疯狂的仇恨？",
+   "a": "The 1936 Olympic Games.",
+   "aZh": "1936 年奥林匹克运动会。",
+   "hint": "见第二句括号中 the 1936 Olympic Games, for instance。"
+  },
+  {
+   "kind": "detail",
+   "q": "According to the writer, when is it possible to play simply for the fun and exercise?",
+   "zh": "按照作者的观点，什么时候才可能单纯为了娱乐和锻炼而比赛？",
+   "a": "On the village green, where you pick up sides and no feeling of local patriotism is involved.",
+   "aZh": "在乡间的草坪上，当你随意组队、不涉及地方情绪的时候。",
+   "hint": "见第五句前半 On the village green, where...。"
+  },
+  {
+   "kind": "detail",
+   "q": "What happens as soon as the question of prestige arises?",
+   "zh": "一旦涉及荣誉与声望的问题，会发生什么？",
+   "a": "The most savage combative instincts are aroused.",
+   "aZh": "最野蛮的争斗天性便会被激发起来。",
+   "hint": "见第五句后半 as soon as the question of prestige arises...。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you agree that international sport is a form of warfare rather than a creator of goodwill?",
+   "zh": "你同意作者的观点吗——国际体育是某种形式的战争，而不是友谊的缔造者？",
+   "a": "Open answer. One view: sport can rouse fierce rivalry and national pride, yet it also builds ties; the writer deliberately stresses the darker side.",
+   "aZh": "开放性问题。一种看法：体育确实会激起强烈的对抗和民族荣誉感，但也能建立联系；作者有意突出其阴暗的一面。",
+   "hint": "结合首句 goodwill 与末句 tests of national virtue 的矛盾作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：体育运动能创造国家之间的友谊。",
+   "a": "Sport creates goodwill between the nations.",
+   "note": "goodwill 善意，亲善"
+  },
+  {
+   "q": "汉译英：如今开展的体育运动几乎都是竞争性的，参赛就是为了取胜。",
+   "a": "Nearly all the sports practised nowadays are competitive. You play to win.",
+   "note": "practised 过去分词作后置定语"
+  },
+  {
+   "q": "填空：Even if one didn't know from concrete examples, one could ____ it from general principles.（填入\"推断出\"）",
+   "a": "deduce",
+   "note": "deduce 推断，推导"
+  },
+  {
+   "q": "填空：You play to win, and the game has little meaning ____ you do your utmost to win.",
+   "a": "unless",
+   "note": "unless 引导反向条件句"
+  },
+  {
+   "q": "句型转换：用 if only 改写 \"If the common peoples could meet one another at football, they would have no inclination to meet on the battlefield.\"",
+   "a": "If only the common peoples could meet one another at football, they would have no inclination to meet on the battlefield.",
+   "note": "if only 作条件句＝as long as"
+  },
+  {
+   "q": "改错：As soon as the question of prestige arise, the most savage combative instincts are aroused.",
+   "a": "arise 改为 arises",
+   "note": "主谓一致，the question arises"
+  },
+  {
+   "q": "汉译英：在国际层面上，体育简直是一场模拟战争。",
+   "a": "At the international level, sport is frankly mimic warfare.",
+   "note": "frankly 直率地；mimic 模拟的"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者用哪个短语形容国际层面的体育？",
+   "options": [
+    "mimic warfare",
+    "goodwill between nations",
+    "the fun and exercise",
+    "a school football match"
+   ],
+   "answer": 0,
+   "note": "课文原句：sport is frankly mimic warfare"
+  },
+  {
+   "q": "作者举出哪个例子说明国际比赛会导致疯狂的仇恨？",
+   "options": [
+    "the village green",
+    "the 1936 Olympic Games",
+    "a school football match",
+    "the common peoples"
+   ],
+   "answer": 1,
+   "note": "1936 年奥运会是文中具体事例"
+  },
+  {
+   "q": "\"Nearly all the sports practised nowadays are competitive.\" 中 practised 的作用是？",
+   "options": [
+    "谓语动词",
+    "过去分词作后置定语",
+    "动名词作主语",
+    "现在分词作状语"
+   ],
+   "answer": 1,
+   "note": "practised 修饰 sports，作后置定语"
+  },
+  {
+   "q": "下列哪句体现了\"反向条件\"（unless）？",
+   "options": [
+    "You play to win.",
+    "The game has little meaning unless you do your utmost to win.",
+    "If only I had a pair of wings.",
+    "Even if one didn't know, one could deduce it."
+   ],
+   "answer": 1,
+   "note": "unless＝if not，表反向条件"
+  },
+  {
+   "q": "按作者所说，一旦涉及荣誉与声望，会发生什么？",
+   "options": [
+    "友谊加深",
+    "地方情绪消失",
+    "最野蛮的好斗本能被激发",
+    "人们只为娱乐踢球"
+   ],
+   "answer": 2,
+   "note": "the most savage combative instincts are aroused"
+  },
+  {
+   "q": "prestige 在本课中意为？",
+   "options": [
+    "娱乐",
+    "声望，荣誉",
+    "仇恨",
+    "锻炼"
+   ],
+   "answer": 1,
+   "note": "prestige 声望、威信"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u082",
+ "book": "nce2",
+ "unitId": "u082",
+ "title": "Monster or Fish?",
+ "subtitle": "是妖还是鱼？",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "6a07ed9c479a",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

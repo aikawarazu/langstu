@@ -1,0 +1,35 @@
+{
+ "title": "Thirteen Equals One",
+ "subtitle": "十三等于一",
+ "lead": {
+  "question": "教区牧师一向为修钟筹钱，可钟真的响了，他为什么反而请修钟人下楼喝茶？",
+  "warmup": "一个安静的深夜，牧师突然被钟声惊醒——那口多年不响的教堂大钟竟又敲了起来，而且一点钟敲了十三下。他拿起手电爬上钟楼，竟意外发现一个熟人。他为何深夜在那儿？钟又为何多敲两下？读读这个带点幽默的小故事，体会牧师与杂货店主之间的善意吧。",
+  "goals": ["掌握 vicar、church、torch、collection 等本课生词及 raise money、go from door to door 等短语。", "理解并运用 have sth done（have the church clock repaired）与一般过去时的被动语态（was damaged）。", "辨析 as good as 原级比较结构，能正确表达“不如……”。", "读懂故事幽默的结尾，体会牧师宽容、Bill 想给人惊喜的善意。"],
+  "summary": "牧师一直为各种事筹款，却始终没钱修好损坏多年的教堂大钟。一天深夜钟声突然响起，一点钟竟敲了十三下。牧师拿手电上钟楼，发现是本村杂货店主比尔，他每夜偷偷来修钟，只想给牧师一个惊喜。比尔说钟虽能响了，可一点钟总敲十三下，他已无能为力。牧师却说十三下虽不如一下好，但总比不敲强，便邀他下楼喝茶。",
+  "tips": "注意 “have the church clock repaired” 是 have sth done 结构（请别人把钟修好），不能写成 have the clock repair；比较时用 as good as，别写成 as good than。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Was the vicar pleased that the clock was striking? Why?", "zh": "牧师对钟又开始报时感到高兴吗？为什么？", "a": "Yes, he was. Though the bell struck thirteen times at one o'clock, he said thirteen was not as good as one but it was better than nothing, and invited Bill downstairs for a cup of tea.", "aZh": "高兴。尽管一点钟敲了十三下，他说十三下不如一下好，但总比一下也不敲强，还邀比尔下楼喝茶。", "hint": "见课文结尾 the vicar 的话：“Still, I'm glad the bell is working again.” 与 “Thirteen is not as good as one, but it's better than nothing.”"},
+  {"kind": "detail", "q": "Why had the church clock been silent for so long?", "zh": "教堂的钟为什么沉默了那么久？", "a": "The big clock which used to strike the hours day and night was damaged many years ago, and the vicar had never managed to get enough money to have it repaired.", "aZh": "那口过去不分昼夜报时的大钟很多年前被损坏了，而牧师始终没能筹足钱把它修好。", "hint": "见课文第1、2句：was damaged many years ago / has never managed to get enough money to have the church clock repaired。"},
+  {"kind": "detail", "q": "What did the vicar hear and do one night?", "zh": "一天夜里牧师听到了什么，又做了什么？", "a": "He woke up with a start because the clock was striking the hours; looking at his watch he saw it was one o'clock but the bell struck thirteen times. Armed with a torch, he went up into the clock tower to see what was going on.", "aZh": "他被钟声惊醒了，一看表才一点钟，可钟却敲了十三下。他拿着手电筒走上钟楼，想看个究竟。", "hint": "见课文：woke up with a start / struck thirteen times before it stopped / Armed with a torch。"},
+  {"kind": "detail", "q": "Who was in the clock tower, and why was he there?", "zh": "钟楼上是谁？他为什么在那儿？", "a": "It was Bill Wilkins, the local grocer. He had been coming up night after night for weeks trying to repair the bell, hoping to give the vicar a surprise.", "aZh": "是本村杂货店主比尔·威尔金斯。他已连续好几个星期每夜上来修钟，想给牧师一个惊喜。", "hint": "见课文：recognized as Bill Wilkins, our local grocer / I've been coming up here night after night for weeks。"},
+  {"kind": "think", "q": "Why is the lesson called “Thirteen Equals One”? What does Bill mean by “there's nothing I can do about it”?", "zh": "课文为什么取名“十三等于一”？比尔说“对此我已无能为力”是什么意思？", "a": "Because the repaired bell always strikes thirteen times at one o'clock, so “thirteen” actually stands for “one”. Bill has fixed the bell but cannot remove the extra strokes, so he can do nothing more about the wrong number of chimes.", "aZh": "因为修好的钟每到一点钟总敲十三下，“十三”实际就等于“一”。比尔修好了钟，却无法去掉多出的敲击，所以对敲错次数他已无能为力。", "hint": "结合标题与课文：“at one o'clock it will strike thirteen times and there's nothing I can do about it.”"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们教区的牧师总是为这样那样的事筹集资金，却始终没能筹够钱把教堂的钟修好。", "a": "Our vicar is always raising money for one cause or another, but he has never managed to get enough money to have the church clock repaired.", "note": "raise money；have sth done"},
+  {"q": "句型转换（改为被动语态）：They damaged the big clock many years ago.", "a": "The big clock was damaged many years ago.", "note": "一般过去时的被动语态"},
+  {"q": "填空：Armed with a ____, the vicar went up into the clock tower to see what was going on.", "a": "torch", "note": "torch 手电筒"},
+  {"q": "用括号内动词的适当时态填空：Bill ____ (come) up here night after night for weeks before the vicar found him.", "a": "had been coming", "note": "过去完成进行时"},
+  {"q": "改错：Thirteen is not so good than one.", "a": "Thirteen is not as good as one.", "note": "as...as 原级比较"},
+  {"q": "汉译英：牧师常常挨家挨户地为教堂募捐。", "a": "The vicar often goes from door to door to collect money for the church.", "note": "go from door to door"},
+  {"q": "汉译英：牧师邀请比尔下楼喝杯茶。", "a": "The vicar invited Bill to go downstairs and have a cup of tea.", "note": "invite sb to do sth"}
+ ],
+ "quiz": [
+  {"q": "教堂的钟一直没有报时，是因为____。", "options": ["it was too expensive to repair", "it disturbed the vicar's sleep", "Bill Wilkins only worked at night", "the bell had been out of order for many years"], "answer": 3, "note": "钟多年前就被损坏了"},
+  {"q": "牧师在钟楼上见到比尔很惊讶，是因为____。", "options": ["Bill Wilkins had been hoping to surprise him", "it was an unusual time and place to find him", "he had expected to find a figure", "the clock had struck thirteen times"], "answer": 1, "note": "深夜钟楼出现他很不寻常"},
+  {"q": "牧师请比尔喝茶，是因为____。", "options": ["he thought that Bill Wilkins was thirsty", "thanks to him, the clock would now strike once an hour", "he was grateful for the trouble Bill Wilkins had taken", "he was pleased to have been woken up for nothing"], "answer": 2, "note": "感激比尔付出辛劳"},
+  {"q": "过去那口大钟____报时。", "options": ["struck always", "always struck", "was always striking", "has always been striking"], "answer": 1, "note": "频率副词放实义动词前"},
+  {"q": "直到敲完第十三下，钟____停了下来。", "options": ["before", "when", "so that", "that"], "answer": 3, "note": "not until...that 强调句"},
+  {"q": "牧师问比尔在钟楼里做什么。", "options": ["what was he", "what he was", "what he is", "whatever was he"], "answer": 1, "note": "宾语从句用陈述语序"}
+ ]
+}

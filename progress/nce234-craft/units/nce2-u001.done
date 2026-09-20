@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u001",
+ "book": "nce2",
+ "unitId": "u001",
+ "title": "A private conversation",
+ "subtitle": "私人间的谈话",
+ "hasText": false,
+ "lines": 7,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "7aaf397111dd",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

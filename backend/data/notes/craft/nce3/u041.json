@@ -1,0 +1,164 @@
+{
+ "unitId": "u041",
+ "title": "Illusions of Pastoral Peace",
+ "subtitle": "田园生活的幻象",
+ "lead": {
+  "question": "作者身为城里人，为何说朋友们对田园生活的赞美不过是幻觉？",
+  "warmup": "在大城市住惯了的人，常常会向往乡村：清晨的鸡鸣、黎明的鸟叫、冉冉升起的朝阳、悠闲的生活节奏。可作者偏偏是城里生、城里长，对这套田园叙事始终无动于衷。他冷眼旁观，发现朋友们的赞美里漏掉了漫长的冬夜、单调的商店和每天四小时的通勤。这节课，我们就来听听这位城里人的反驳。",
+  "goals": [
+   "掌握 pastoral、illusion、rustic、commuter、suburb 等本课核心词汇的含义与用法。",
+   "理解并会运用 though/although 引导的让步状语从句，注意它与 but 不能连用。",
+   "熟悉现在完成时（has never appealed、has ever gone）表达至今为止的经历。",
+   "学习 Nor 置于句首引起的倒装结构，并体会作者对比城乡、层层反驳的论证思路。"
+  ],
+  "summary": "本文是一篇立场鲜明的议论文。作者自称 city born and city bred，从不觉得乡村生活有吸引力，而朋友们一提乡村就欣喜若狂，却只有一人真正搬去住过，不到半年便重返城市。作者指出，田园风光只是 picture 的一部分，漫长的冬夜、商品单调、通勤奔波都被刻意忽略。相反，城市提供了随时可聚的朋友、最新的展览与戏剧、琳琅满目的购物和周末宁静的街景。",
+  "tips": "though/although 引导的让步从句后面不能再加 but；Nor 置于句首时主句必须部分倒装，如 Nor is the city without its moments of beauty。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What particular anxiety spoils the country",
+   "zh": "是什么特别的焦虑破坏了乡村生活？",
+   "a": "It is the anxiety of country dwellers who come up to town for the theatre: as the play draws to its close they worry whether they will ever catch the last train home.",
+   "aZh": "是乡下人的这份焦虑：他们进城看戏，戏快演完时便担心自己能否赶上末班火车回家。",
+   "hint": "答案见课文后半部分 As the play draws to its close... 一句，注意最后一句 The city dweller never experiences anxieties of this sort。"
+  },
+  {
+   "kind": "detail",
+   "q": "How many of the author's friends have actually gone to live in the country, and how long did that one stay?",
+   "zh": "作者的朋友中有几人真的去乡下住过？住了多久？",
+   "a": "Only one of them has ever gone to live in the country, and he was back in town within six months.",
+   "aZh": "只有一个人真去乡下住过，而且不到六个月就回到了城里。",
+   "hint": "见课文第三句 Though they extol the virtues of the peaceful life, only one of them has ever gone to live in the country..."
+  },
+  {
+   "kind": "detail",
+   "q": "What does the friend fail to mention about country life?",
+   "zh": "那位朋友没有提到乡村生活的哪些方面？",
+   "a": "He fails to mention the long and friendless winter evenings in front of the TV, the poor selection of goods in the shops, and those people who must travel to the city every day to get to work.",
+   "aZh": "他没提电视机前漫长寂寞的冬夜、商店里单调的商品，以及那些每天不得不赶去城里上班的人。",
+   "hint": "见课文 This idyllic pastoral scene is only part of the picture. 之后的几句 fail to mention / says nothing about。"
+  },
+  {
+   "kind": "detail",
+   "q": "According to the author, what can the city offer?",
+   "zh": "据作者所说，城市能提供什么？",
+   "a": "Friends who live nearby and are always available for a chat, the latest exhibitions, films and plays, a wide variety of goods, and the peaceful deserted streets at weekends.",
+   "aZh": "住在附近、随时能聊天相聚的朋友，最新的展览、电影和戏剧，琳琅满目的商品，以及周末空旷宁静的街道。",
+   "hint": "见课文 If you can do without the few pastoral pleasures of the country... 直至结尾一段。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the author call the city dwellers' preference for the country a mystery?",
+   "zh": "作者为什么把城里人偏爱乡村这一点说成一个谜？",
+   "a": "Because they appreciate all the city's advantages, yet obstinately pretend that they would prefer to live in the country, a contradiction the author simply cannot understand.",
+   "aZh": "因为城里人明明懂得并欣赏城市的一切好处，却偏要执拗地装作更愿意住在乡下，这种自相矛盾让作者无法理解。",
+   "hint": "结合课文末句 It has always been a mystery to me who city dwellers... 及全文对比城乡的立场来作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：尽管他们都交口称赞宁静的田园生活，但只有一个人曾去乡下长住。",
+   "a": "Though they extol the virtues of the peaceful life, only one of them has ever gone to live in the country.",
+   "note": "固定搭配 extol the virtues"
+  },
+  {
+   "q": "汉译英：我生在城市，长在城市，总把乡村看作透过火车车窗看到的景象。",
+   "a": "City born and city bred, I have always regarded the country as something you look at through a train window.",
+   "note": "city born and city bred 作状语"
+  },
+  {
+   "q": "句型转换：将 The city is not without its moments of beauty either. 改写为以 Nor 开头的倒装句。",
+   "a": "Nor is the city without its moments of beauty.",
+   "note": "Nor 置句首须部分倒装"
+  },
+  {
+   "q": "填空：Though they extol the virtues of the ____ life, none of them ever really moves there.（用 pastoral 的适当形式）",
+   "a": "pastoral",
+   "note": "pastoral 意为田园的"
+  },
+  {
+   "q": "改错：Although they extol the virtues of the peaceful life, but only one has ever lived there.",
+   "a": "删去 but：Although they extol the virtues of the peaceful life, only one has ever lived there.",
+   "note": "although 与 but 不连用"
+  },
+  {
+   "q": "用括号动词填空：Only one of my friends ____ (go) to live in the country so far.",
+   "a": "has gone",
+   "note": "so far 常与现在完成时连用"
+  },
+  {
+   "q": "填空：A ____ travels from the ____ to the city to work every day.（填表示“通勤者”“郊区”的词）",
+   "a": "commuter / suburb",
+   "note": "commuter 指通勤者"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者对乡村生活持什么态度？",
+   "options": [
+    "It has never appealed to him.",
+    "He looks forward to moving there.",
+    "He extols its virtues.",
+    "He spends every weekend there."
+   ],
+   "answer": 0,
+   "note": "首句 quiet life... never appealed to me"
+  },
+  {
+   "q": "关于作者的朋友，下面哪一项符合原文？",
+   "options": [
+    "Many of them live in the countryside.",
+    "Only one of them has ever gone to live in the country.",
+    "All of them have lived in the country for six months.",
+    "None of them ever mention the country."
+   ],
+   "answer": 1,
+   "note": "only one of them has ever gone"
+  },
+  {
+   "q": "那位去乡下住的朋友多久后返回了城里？",
+   "options": [
+    "Within six months.",
+    "Within six weeks.",
+    "After a whole year.",
+    "After four hours."
+   ],
+   "answer": 0,
+   "note": "back in town within six months"
+  },
+  {
+   "q": "作者说朋友没有提到乡村的哪一面？",
+   "options": [
+    "The friendly people.",
+    "The clean atmosphere.",
+    "The long, friendless winter evenings in front of the TV.",
+    "The twittering of birds at dawn."
+   ],
+   "answer": 2,
+   "note": "only part of the picture 之后"
+  },
+  {
+   "q": "乡下人进城看戏时最担心的是什么？",
+   "options": [
+    "Missing the last train home.",
+    "Finding a good theatre.",
+    "The price of the tickets.",
+    "The noise of the city."
+   ],
+   "answer": 0,
+   "note": "catch that last train home"
+  },
+  {
+   "q": "作者认为城里人对乡村生活的实际态度是什么？",
+   "options": [
+    "They obstinately pretend they would prefer to live in the country.",
+    "They have no interest in the country at all.",
+    "They move to the country whenever they can.",
+    "They have never seen the countryside."
+   ],
+   "answer": 0,
+   "note": "末句 obstinately pretend"
+  }
+ ]
+}

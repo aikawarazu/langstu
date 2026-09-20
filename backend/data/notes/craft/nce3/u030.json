@@ -1,0 +1,164 @@
+{
+ "unitId": "u030",
+ "title": "The Death of a Ghost",
+ "subtitle": "幽灵之死",
+ "lead": {
+  "question": "恩得利农场“闹鬼”多年，考克斯兄弟为何甘愿保守秘密五十多年？",
+  "warmup": "在英格兰乡村的恩得利农场，村民们世代相传着一个幽灵的故事：夜里有“鬼”帮忙割干草、打扫牛棚。农场主乔和鲍勃·考克斯雇了好几拨农工，却没有人愿意久留。直到一场葬礼，兄弟俩才揭开尘封半个世纪的家族秘密。故事既有悬疑，也藏着亲情的重量，读来令人唏嘘。",
+  "goals": [
+   "读懂“幽灵”背后的家族秘密，理清 Eric 与 Joe、Bob 的兄弟关系。",
+   "掌握 haunt、suspect、desert、recluse 等本课关键词的用法。",
+   "学会用过去完成时（had done / had been done）交代更早发生的背景。",
+   "识别并运用 that / who 引导的定语从句，读懂课文长句。"
+  ],
+  "summary": "课文讲述恩得利农场“闹鬼”的真相。多年来，村民都相信农场有一个尽责的幽灵：夜里干草被切好，牛棚被打扫干净。其实那并不是鬼，而是考克斯家被认为早已死在战场上的长子埃里克。他因逃离军队、害怕当局，被父亲藏在家中，白天睡觉、夜里干活。父亲与两个弟弟为他保守秘密五十余年，直到他去世，真相才在葬礼后公开。",
+  "tips": "haunt 表“闹鬼”时多用被动：The farm was haunted；而 hunt 是“打猎”，别把 haunted 写成 hunted。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the two brothers keep the secret?",
+   "zh": "兄弟俩为什么要保守这个秘密？",
+   "a": "Because their brother Eric had deserted the army and feared the authorities. Their father had hidden him and told everybody that he had been killed in action; after their father died, Joe and Bob thought it their duty to keep Eric in hiding and protect him.",
+   "aZh": "因为他们的哥哥埃里克是逃兵，害怕当局。父亲当年把他藏起来，还对外谎称他阵亡；父亲去世后，乔和鲍勃觉得有责任继续把埃里克藏起来保护他。",
+   "hint": "答案见课文后半部分：'Fearing the authorities, Eric remained in hiding after the war as well.' 及 'they thought it their duty to keep Eric in hiding'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What made the farmhands believe that a ghost was doing the work?",
+   "zh": "是什么让农工们相信有“鬼”在帮农场干活？",
+   "a": "They always woke up to find that work had been done overnight: hay had been cut and cowsheds had been cleaned.",
+   "aZh": "他们每天醒来都发现活已在夜里干完——干草切好了，牛棚也打扫干净了。",
+   "hint": "答案见 'they always woke up to find that work had been done overnight...'。"
+  },
+  {
+   "kind": "detail",
+   "q": "Who was the 'ghost' of Endley Farm, and when was he supposed to have died?",
+   "zh": "恩得利农场的“幽灵”究竟是谁？人们以为他何时去世？",
+   "a": "He was none other than Eric Cox, the eldest of the three brothers, who was supposed to have died as a young man.",
+   "aZh": "他不是别人，正是三兄弟中的长子埃里克·考克斯；人们以为他年轻时就已经死了。",
+   "hint": "答案见 'the \"ghost\" was none other than Eric Cox, a third brother who was supposed to have died as a young man.'。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did Eric return to the farm and stay in hiding?",
+   "zh": "埃里克为什么逃回农场并一直躲藏？",
+   "a": "He hated army life and decided to desert his regiment. When he learnt that he would be sent abroad, he returned to the farm and his father hid him; fearing the authorities, he remained in hiding even after the war.",
+   "aZh": "他厌恶军旅生活，逃离了所在部队；得知将被派往国外后逃回农场，父亲把他藏了起来；战后因害怕当局又继续躲藏。",
+   "hint": "答案见 'As he hated army life, he decided to desert his regiment.' 与 'Fearing the authorities, Eric remained in hiding after the war as well.'。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you think the brothers were right to keep the secret for so long? Why?",
+   "zh": "你认为兄弟俩保守这个秘密这么久是否值得？为什么？",
+   "a": "Open answer. For example: they acted out of family loyalty and the wish to protect Eric, but the price was that Eric lived as a recluse for over fifty years, cut off from the outside world and quite unaware that he had become the ghost of Endley. Honesty might have given him a freer and happier life.",
+   "aZh": "开放性答案。例如：他们出于亲情和对哥哥的保护，但代价是埃里克像隐士一样与世隔绝五十多年，失去自由，还浑然不知自己已成了恩得利的“鬼”。当年若坦诚面对，他或许能过得更自由、更像个人。",
+   "hint": "结合课文结尾 'Eric had lived as a recluse... quite unaware of the fact that he had become the ghost of Endley' 谈个人看法。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：多年来，村民们一直认为恩得利农场在闹鬼。",
+   "a": "For years, villagers believed that Endley Farm was haunted.",
+   "note": "haunt 用被动表‘闹鬼’。"
+  },
+  {
+   "q": "改错：For years, villagers believed that Endley Farm was hunting.",
+   "a": "hunting → haunted（应为‘闹鬼’，而非‘打猎’）。",
+   "note": "hunt 打猎，haunt 闹鬼。"
+  },
+  {
+   "q": "用所给词的适当形式填空：As he hated army life, he decided ________ (desert) his regiment.",
+   "a": "to desert",
+   "note": "desert 此处指擅自离队。"
+  },
+  {
+   "q": "句型转换（把画线句改为过去完成时被动）：He woke up and found that someone had done the work overnight.",
+   "a": "He woke up to find that the work had been done overnight.",
+   "note": "过去完成时被动语态。"
+  },
+  {
+   "q": "合并句子（用非限制性定语从句）：The 'ghost' was Eric Cox. He was supposed to have died as a young man.",
+   "a": "The 'ghost' was Eric Cox, who was supposed to have died as a young man.",
+   "note": "who 引导非限制性定语从句。"
+  },
+  {
+   "q": "汉译英：谁也没想到农场里还有一个从未露面的人。",
+   "a": "No one suspected that there might be someone else on the farm who had never been seen.",
+   "note": "suspect 后接 that 从句。"
+  },
+  {
+   "q": "汉译英：二战期间他被迫参军；战后因害怕当局，他多年来一直过着隐士般的生活。",
+   "a": "During the Second World War he was obliged to join the army; after the war, fearing the authorities, he had lived as a recluse for years.",
+   "note": "be obliged to do；分词状语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "村民们为什么相信恩得利农场“闹鬼”？",
+   "options": [
+    "Work was always found done overnight.",
+    "Strange lights appeared in the cowshed every night.",
+    "The farmhouse was left empty and silent all day long.",
+    "The brothers often heard someone shouting in the fields."
+   ],
+   "answer": 0,
+   "note": "农工醒来发现活已在夜里干完。"
+  },
+  {
+   "q": "那个声称见过“鬼”的农工究竟看到了什么？",
+   "options": [
+    "A stranger walking into the farmhouse at midnight.",
+    "An old man feeding the cows in the cowshed.",
+    "A figure cutting corn in the moonlight.",
+    "A soldier hiding behind the haystack."
+   ],
+   "answer": 2,
+   "note": "他彻夜未眠，说见人影月光下收割。"
+  },
+  {
+   "q": "“幽灵”的真实身份是谁？",
+   "options": [
+    "A farmhand who had worked on the farm for many years.",
+    "Eric Cox, the eldest brother, who was thought to have died long before.",
+    "The brothers' father, who had died during the Second World War.",
+    "A soldier who had once escaped from the army."
+   ],
+   "answer": 1,
+   "note": "none other than Eric Cox，家长子。"
+  },
+  {
+   "q": "埃里克当年为什么躲进农场不再露面？",
+   "options": [
+    "He wanted to help his brothers with the farm work.",
+    "He was seriously ill and could not go out of doors.",
+    "He was angry with his father and hid himself away.",
+    "He had deserted the army and feared the authorities."
+   ],
+   "answer": 3,
+   "note": "逃兵，害怕当局，一直藏身。"
+  },
+  {
+   "q": "埃里克为什么会被误认成“幽灵”？",
+   "options": [
+    "He slept by day and worked at night, unaware that he had become a ghost.",
+    "He wrapped himself in a white sheet and walked round the farm.",
+    "He made strange noises to frighten the farmhands away.",
+    "He never showed himself even to his own brothers."
+   ],
+   "answer": 0,
+   "note": "白天睡夜里干，浑然不知自己是‘鬼’。"
+  },
+  {
+   "q": "这个秘密最终为什么无法再保守下去？",
+   "options": [
+    "Because the villagers forced the brothers to tell the truth.",
+    "Because the police discovered Eric hiding on the farm.",
+    "Because Eric died and his brothers could no longer keep the secret.",
+    "Because Eric's wife told everyone the story."
+   ],
+   "answer": 2,
+   "note": "Eric 去世，兄弟俩无法再隐瞒。"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u023",
+ "title": "One Man's Meat is Another Man's Poison",
+ "subtitle": "各有所爱",
+ "lead": {
+  "question": "作者一向对收集蜗牛送朋友不感兴趣，为何偏在那天动了手？结果如何？",
+  "warmup": "课文从一句英语谚语谈起：对一方有利的未必对另一方也有利，即“各有所爱”。人在决定什么能吃、什么不能吃时往往很不合情理：地中海人视章鱼为美味，北方人却爱用动物油煎土豆。接着他讲了蜗牛的故事——住在大城市公寓里的朋友罗伯特偏偏视蜗牛为珍馐，请他收集蜗牛捎来，结果一袋蜗牛在门厅里闹出大笑话。",
+  "goals": [
+   "理解谚语 One man's meat is another man's poison 的含义与用法。",
+   "掌握 delicacy、repulsion/repulsive、appeal to、stick to 等词的搭配。",
+   "学习过去分词作状语（Cooked in wine…）与虚拟条件句（If you lived…）。",
+   "能用英语复述作者为罗伯特收集蜗牛、蜗牛逃满门厅的故事。"
+  ],
+  "summary": "本文是一篇围绕“各有所爱”的幽默小品。作者先指出人在饮食上极不合逻辑：甲之美味可能正是乙之毒药。接着聚焦蜗牛——它在许多地方是酒烹名菜，在罗伯特的国家却遭人厌恶。罗伯特住公寓没有花园，多年托作者收集蜗牛。一个雨后，作者一时冲动逮了几十只送去，谁知蜗牛从纸袋逃出爬满门厅，成了主菜前的“惊喜”。",
+  "tips": "Cooked in wine 是过去分词短语作状语，表示条件，相当于 If they are cooked in wine，不要误当成谓语；另注意 repulse 是动词、repulsive 是形容词，find it repulsive 中须用形容词。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was it about snails that made the writer collect them for his friend on that day in particular?",
+   "zh": "究竟是什么原因，让作者在那一天特意为朋友收集了蜗牛？",
+   "a": "A heavy shower had just fallen, and while walking in his garden he noticed a huge number of snails taking a stroll on some of his prize plants. Acting on a sudden impulse, he collected several dozen and took them to Robert.",
+   "aZh": "刚下过一场大雨，他在花园散步时发现许多蜗牛在他心爱的花木上爬动，一时冲动便逮了几十只送给罗伯特。",
+   "hint": "答案出自 after heavy shower ... prize plants ... Acting on a sudden impulse 两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the writer say people are like when they decide what can and cannot be eaten?",
+   "zh": "作者说人们在决定什么能吃、什么不能吃时是什么样子？",
+   "a": "People become quite illogical.",
+   "aZh": "人们往往变得不合情理。",
+   "hint": "首句 People become quite illogical..."
+  },
+  {
+   "kind": "detail",
+   "q": "How does the writer describe the common garden snail?",
+   "zh": "作者如何描述常见的花园蜗牛？",
+   "a": "No creature has received more praise and abuse than the common garden snail.",
+   "aZh": "没有一种生物受到的赞美和厌恶能超过花园里常见的蜗牛。",
+   "hint": "见 No creature has received more praise and abuse than..."
+  },
+  {
+   "kind": "detail",
+   "q": "Why did Robert ask the writer to bring him snails, and what happened to the snails in the hall?",
+   "zh": "罗伯特为什么让作者给他带蜗牛？门厅里的蜗牛后来怎样了？",
+   "a": "Robert lives in a country where snails are despised, and as his flat is in a large town he has no garden of his own. When the two men came back, the snails had escaped from the paper bag and had taken complete possession of the hall.",
+   "aZh": "罗伯特所住的国家厌恶蜗牛，他住在大城市的公寓里没有自己的花园。两人回来时，蜗牛已从纸袋逃出，爬满整个门厅。",
+   "hint": "见 he has no garden of his own 与 took complete possession of the hall。"
+  },
+  {
+   "kind": "think",
+   "q": "Why could the writer never look at a snail again, and how does this fit the title?",
+   "zh": "为什么作者此后再也不能看一眼蜗牛？这与标题有何呼应？",
+   "a": "The sight of the hall crawling with escaped snails was so disgusting that he was permanently put off them. This reflects the title: what Robert regards as a delicacy is poison to the writer.",
+   "aZh": "满是逃窜蜗牛的门厅令他反胃，从此对蜗牛彻底失去胃口。这正呼应标题：罗伯特眼中的美味，在作者看来却如同毒药。",
+   "hint": "结合末句 I have never been able to look at a snail since then 与谚语含义。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：对一方有利的未必对另一方也有利。（用本课谚语）",
+   "a": "One man's meat is another man's poison.",
+   "note": "谚语固定译法"
+  },
+  {
+   "q": "汉译英：你会把章鱼视作一道美味佳肴。",
+   "a": "You would consider octopus a great delicacy.",
+   "note": "consider sth a delicacy 结构"
+  },
+  {
+   "q": "改错：People become quite illogic when they try to decide what can be eaten.",
+   "a": "People become quite illogical when they try to decide what can be eaten.",
+   "note": "illogical 是形容词"
+  },
+  {
+   "q": "句型转换：用 appeal 改写 The idea never interested me very much.",
+   "a": "The idea never appealed to me very much.",
+   "note": "appeal to sb 意为吸引"
+  },
+  {
+   "q": "填空：You would not be able to understand why some people find it ______ (repulse).",
+   "a": "repulsive",
+   "note": "find it + 形容词 repulsive"
+  },
+  {
+   "q": "填空：The sad truth is that most of us ______ (bring up) to eat certain foods and we ______ (stick) to them all our lives.",
+   "a": "have been brought up; stick",
+   "note": "现在完成时 + stick to 坚持"
+  },
+  {
+   "q": "句型转换：用 although 合并——Snails are a great luxury in many parts of the world. In Robert's country they are despised.",
+   "a": "Although snails are a great luxury in many parts of the world, they are despised in Robert's country.",
+   "note": "although 引导让步状语从句"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "在决定什么能吃、什么不能吃时，人们往往变得怎样？",
+   "options": [
+    "very logical",
+    "quite illogical",
+    "rather delighted",
+    "rather repulsive"
+   ],
+   "answer": 1,
+   "note": "首句 illogical 点明主题"
+  },
+  {
+   "q": "在地中海地区，人们如何看待章鱼？",
+   "options": [
+    "A common pest",
+    "A kind of poison",
+    "A great delicacy",
+    "An everyday vegetable"
+   ],
+   "answer": 2,
+   "note": "delicacy 指珍馐美味"
+  },
+  {
+   "q": "作者说我们中大部分人一辈子都怎样看待某些食物？",
+   "options": [
+    "We stick to them",
+    "We give them up",
+    "We never taste them",
+    "We trade them away"
+   ],
+   "answer": 0,
+   "note": "stick to 意为坚持"
+  },
+  {
+   "q": "在罗伯特所住的国家，蜗牛受到怎样的对待？",
+   "options": [
+    "They are cherished as a luxury.",
+    "They are fried in animal fat.",
+    "They are despised.",
+    "They are protected by law."
+   ],
+   "answer": 2,
+   "note": "despise 意为厌恶、鄙视"
+  },
+  {
+   "q": "作者为什么在那天特意收集蜗牛送给罗伯特？",
+   "options": [
+    "The idea had always appealed to him.",
+    "Robert had written to ask for them.",
+    "He wanted to sell them at the market.",
+    "He acted on a sudden impulse after seeing them on his prize plants."
+   ],
+   "answer": 3,
+   "note": "acting on a sudden impulse"
+  },
+  {
+   "q": "两人回到门厅时看到了什么？",
+   "options": [
+    "The snails had escaped and taken complete possession of the hall.",
+    "Robert had already cooked the snails in wine.",
+    "The paper bag was still neatly closed.",
+    "A neighbour had taken the snails away."
+   ],
+   "answer": 0,
+   "note": "take possession of 意为占据"
+  }
+ ]
+}

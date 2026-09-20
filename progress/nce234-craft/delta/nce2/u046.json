@@ -1,0 +1,40 @@
+{
+ "title": "Expensive and uncomfortable",
+ "subtitle": "既昂贵又难受",
+ "lead": {
+  "question": "一只飞抵悉尼的木箱为何特别沉？里面躺着谁，他又付出了什么代价？",
+  "warmup": "从伦敦飞往悉尼要飞十几个小时，票价自然不便宜。有个人为了省下这笔钱，在飞机起飞前钻进一只装服装的木箱，指望一路“免费”抵达。可他不仅要挤在木箱里颠簸十八个多小时，最后还被责令支付远高于票价的旅费。究竟是谁发现了他？",
+  "goals": [
+   "掌握 unload、wooden、extremely、occur、astonish、pile、woollen、goods、discover、admit、confine、normal 等核心词",
+   "熟练运用 account for、a pile of、on top of、it occurred to sb that、be astonished at、admit doing、be confined to",
+   "归纳与 to、at、for、with 连用的动词（occur to、confine to、account for、astonished at 等）",
+   "用过去时与过去完成时按时间顺序复述偷乘经过"
+  ],
+  "summary": "本课讲一个偷乘飞机的男子。飞机从伦敦飞抵悉尼后，工人们卸下几只装服装的木箱，其中一只重得离奇。一名工人忽然想到打开箱子，眼前的景象令他大吃一惊：箱里躺着一个人，身下是一堆毛织品。那人被捕后承认是在飞机起飞前躲进箱里的，最终被责令支付 3,500 英镑旅费，而正常机票只要 2,000 英镑。",
+  "tips": "occur 表示“某人想起某事”时主语是事不是人，应说 It occurred to him to open the box；admit 后接 doing 表示“承认做过”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What did the man in this story do?", "zh": "这个故事里的那个男子做了什么事？", "a": "He hid in a wooden box before the plane left London, hoping to fly to Sydney without buying a ticket; after he was discovered and arrested, he was ordered to pay £3,500 for the cost of the trip.", "aZh": "他在飞机离开伦敦之前就躲进一只木箱，想不买票偷乘到悉尼；被发现逮捕后，被责令支付 3,500 英镑的旅费。", "hint": "见第 6、8 句。"},
+  {"kind": "detail", "q": "Why did one of the wooden boxes draw the workers' attention?", "zh": "为什么其中一只木箱引起了工人们的注意？", "a": "Because one of the boxes was extremely heavy and no one could account for it.", "aZh": "因为有只箱子特别沉，谁也说不清是怎么回事。", "hint": "见第 2 句，account for 意为“解释、说明”。"},
+  {"kind": "detail", "q": "What did the worker find when he opened up the box?", "zh": "工人打开箱子后发现了什么？", "a": "He found a man lying in the box on top of a pile of woollen goods.", "aZh": "他发现箱里躺着一个人，那人躺在一堆毛织品上面。", "hint": "见第 4 句。"},
+  {"kind": "detail", "q": "How long had the man stayed in the box and how much was he ordered to pay?", "zh": "那人在箱子里待了多久？被责令付多少钱？", "a": "He had been confined to the wooden box for over eighteen hours, and he was ordered to pay £3,500, while the normal price of a ticket is £2,000.", "aZh": "他在木箱里被关了十八个多小时，被责令支付 3,500 英镑，而正常票价只有 2,000 英镑。", "hint": "见第 7、8 句。"},
+  {"kind": "think", "q": "What does the title 'Expensive and uncomfortable' really mean?", "zh": "标题“既昂贵又难受”究竟指什么？", "a": "It refers to both his fare and his suffering: he paid £3,500 instead of the normal £2,000 and had been confined to a wooden box for over eighteen hours. It was far from worth it.", "aZh": "expensive 指他被罚的旅费比票价还贵；uncomfortable 指他在木箱里闷了十八个多小时的难受旅程。偷乘一点都不划算。", "hint": "把第 7、8 两句的数字与时间对比。"}
+ ],
+ "exercises": [
+  {"q": "词形与构词：workers began ________ (卸) a number of ________ (wood) boxes which contained clothing.", "a": "to unload; wooden", "note": "un- 表相反动作；wood→wooden。"},
+  {"q": "短语填空：No one could ________ ________ the fact that one of the boxes was ________ (extreme) heavy.", "a": "account for; extremely", "note": "account for 解释。"},
+  {"q": "汉译英：一个工人突然想到打开箱子看看。（用 it occurred to sb to do）", "a": "It suddenly occurred to one of the workers to open up the box.", "note": "主语是事不是人。"},
+  {"q": "汉译英：他对自己的发现感到吃惊。（用 be astonished at）", "a": "He was astonished at what he found.", "note": "what = the thing that。"},
+  {"q": "补全短语：A man was lying in the box on top of ________ ________ ________ woollen ________ (一堆毛织品).", "a": "a pile of; goods", "note": "goods 只有复数。"},
+  {"q": "动词形式：the man admitted ________ (hide) in the box before the plane left London.", "a": "hiding", "note": "admit (to) doing。"},
+  {"q": "介词搭配：It occurred ________ him；be confined ________ a box；pay £3,500 ________ the trip；quarrel ________ his brother。", "a": "to; to; for; with", "note": "与 to 连用：occur to、confine to。"}
+ ],
+ "quiz": [
+  {"q": "飞机抵达悉尼机场后，工人们开始做什么？", "options": ["They began to unload a number of wooden boxes.", "They began to load the plane with clothing.", "They began to open up every box at once.", "They began to look for the missing passenger."], "answer": 0, "note": "第 1 句。"},
+  {"q": "谁也无法解释的事实是什么？", "options": ["One of the boxes was extremely heavy.", "The plane arrived at Sydney very late.", "All the boxes contained woollen goods.", "The clothing was made of wool."], "answer": 0, "note": "account for the fact that..."},
+  {"q": "打开箱子后，工人看到了什么？", "options": ["A man was lying in the box on top of a pile of woollen goods.", "A man was standing in the box and shouting for help.", "A pile of woollen goods was lying on top of a man.", "A big dog was sleeping among the clothes."], "answer": 0, "note": "第 4 句。"},
+  {"q": "那人被发现后为什么没有逃跑？", "options": ["He was so surprised at being discovered that he did not even try to run away.", "He was too tired after the long trip to move.", "He was confined to the box and could not get out.", "He wanted to pay for the cost of the trip at once."], "answer": 0, "note": "so surprised at being discovered that..."},
+  {"q": "他最终为自己的旅程付出了什么代价？", "options": ["He was ordered to pay £3,500 for the cost of the trip.", "He was ordered to pay £2,000, the normal price of a ticket.", "He was ordered to pay £1,500 for the wooden box.", "He was ordered to unload all the boxes himself."], "answer": 0, "note": "第 8 句。"},
+  {"q": "下列哪一句正确表达“我从未想到他会是个小偷”？", "options": ["It never occurred to me that he could be a thief.", "I never occurred that he could be a thief.", "He never occurred to be a thief to me.", "It never occurred to him that I could be a thief."], "answer": 0, "note": "sth occur to sb。"}
+ ]
+}

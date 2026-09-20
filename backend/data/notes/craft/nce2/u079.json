@@ -1,0 +1,164 @@
+{
+ "unitId": "u079",
+ "title": "By air",
+ "subtitle": "乘飞机",
+ "lead": {
+  "question": "飞机刚起飞却突然掉头飞回机场，机组到底收到了什么消息？机上究竟藏着什么？",
+  "warmup": "你有过飞机起飞后被通知返航的经历吗？设想机舱广播只说“请保持镇静，着陆后安静下机”却不作解释，你会不会心跳加速？本课作者是位“飞行老手”：小时候常往返欧洲与南美洲，由乘务员照管，从未遇到不愉快。可这位老手也有过一次被吓坏的经历。",
+  "goals": [
+   "听懂并记录飞机返航的直接原因、机上知情顺序与搜查结果",
+   "分清 used to do、would do 与 be used to doing 三种“过去/习惯”表达",
+   "掌握 only + 状语置于句首的部分倒装结构，并能还原为正常语序",
+   "活用 take charge of、on board、gain height、touch down、take off 等核心短语"
+  ],
+  "summary": "作者回忆：幼时常乘飞机往返欧洲与南美洲，每次由空中乘务员照管，从未有过不快，因而习惯了飞行。唯有一次起飞后在城市上空爬高时，飞机突然掉头返航；后来得知机上有位要人，警方接到举报说飞机上被安放了炸弹，降落后被彻底搜查，幸而无恙，五小时后再次起飞。",
+  "tips": "别把 used to do（过去常常，接原形）与 be used to doing（习惯于，接动名词）混为一谈；only + 状语置句首时助动词必须提到主语之前。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the plane turn back?",
+   "zh": "飞机为什么掉头飞回？",
+   "a": "Because the police had been told that a bomb had been planted on the plane, so it had to fly back and be searched thoroughly.",
+   "aZh": "因为警方接到举报，说飞机上被安放了一枚炸弹，飞机必须返航接受彻底搜查。",
+   "hint": "见 The police had been told that a bomb had been planted on the plane。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the flight attendant tell the passengers to do while they were waiting to land?",
+   "zh": "等待降落时，空中乘务员让乘客做什么？",
+   "a": "She told them to keep calm and to get off the plane quietly as soon as it had touched down.",
+   "aZh": "她让大家保持镇静，等飞机一着陆就悄悄下机。",
+   "hint": "见 While we were waiting to land…；as soon as 后用过去完成时。"
+  },
+  {
+   "kind": "detail",
+   "q": "How does the writer show the difference between 'used to do' and 'be used to doing'?",
+   "zh": "作者如何区分 used to do 与 be used to doing？",
+   "a": "'used to travel / live / fly' (and 'a flight attendant would take charge of me') describe past habits; 'I am used to travelling by air' means being accustomed to flying now.",
+   "aZh": "前三处 used to + 动词原形表示过去经常发生的事；am used to travelling 表示现在习惯于乘飞机。",
+   "hint": "对比前三句与 am used to travelling；to 后接原形还是 -ing 是分水岭。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is 'only on one occasion have I ever felt frightened' inverted?",
+   "zh": "为什么这句话要倒装？正常语序是什么？",
+   "a": "Because 'only + adverbial' at the beginning requires partial inversion. Normal order: I have ever felt frightened only on one occasion.",
+   "aZh": "only 加状语置于句首时须部分倒装，助动词 have 提到主语 I 之前。",
+   "hint": "见第 4 句及讲义。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you think the VIP and the bomb report were connected? How might the five-hour search change a passenger's attitude?",
+   "zh": "你认为这位要人与炸弹举报有关吗？五小时的搜查会怎样改变乘客对飞行的态度？",
+   "a": "The two facts are placed side by side, which suggests the bomb threat was aimed at the VIP; even a traveller used to flying may feel frightened after a five-hour search, though the closing line shows his confidence returned.",
+   "aZh": "作者把两件事紧邻叙述，暗示二者相关；五个小时的搜查足以让习惯了飞行的人再次害怕，而结尾又显示作者重拾信心。",
+   "hint": "结合要人与炸弹举报的先后顺序与结尾 Fortunately 的语气。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用 used to / would / be used to 的正确形式填空：When I was a boy, I ____ travel by air a great deal. My parents ____ live in South America and a flight attendant ____ take charge of me. Now I ____ travelling by air.",
+   "a": "used to; used to; would; am used to",
+   "note": "used to 接原形；be used to 接 -ing。"
+  },
+  {
+   "q": "冠词填空：____ flight attendant would take charge of me；there was ____ very important person on board；____ police had been told that ____ bomb had been planted on ____ plane.",
+   "a": "A; a; The; a; the",
+   "note": "首次提及用 a/an，特指用 the。"
+  },
+  {
+   "q": "用 only on one occasion 开头改写句子：I have never felt frightened on any other occasion.",
+   "a": "Only on one occasion have I ever felt frightened.",
+   "note": "助动词提前。"
+  },
+  {
+   "q": "用 take 短语动词的适当形式填空（take off / take after / take up / take over）：① The plane will ____ in half an hour. ② Jane ____ her mother. ③ This work won't ____ too much time. ④ The new manager will ____ next week.",
+   "a": "take off; takes after; take up; take over",
+   "note": "依宾语判断含义。"
+  },
+  {
+   "q": "用所给词的适当形式填空（parent / curious / plant / search / frighten）：My ____ used to live in South America. Everybody was worried and ____ to find out what had happened. A bomb had been ____ on the plane. The plane was ____ thoroughly. I have never felt ____ except on one occasion.",
+   "a": "parents; curious; planted; searched; frightened",
+   "note": "-ed 形容词写人的感受。"
+  },
+  {
+   "q": "用 gain 的宾语补全搭配：① 飞机爬高 gain ____ ② 汽车加速 gain ____ ③ 体重增加 gain ____ ④ 获得自信 gain ____",
+   "a": "height; speed; weight; confidence",
+   "note": "gain 表逐渐增加。"
+  },
+  {
+   "q": "汉译英：① 我小时候总由一位空中乘务员照管。② 起飞后我们在城市上空低低地飞行，然后慢慢爬高。",
+   "a": "① A flight attendant would take charge of me when I was a boy. ② After taking off, we flew low over the city and slowly gained height.",
+   "note": "after + 动名词作时间状语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“我习惯了乘飞机旅行”（现在仍然如此）的正确英文是？",
+   "options": [
+    "I used to travel by air.",
+    "I am used to travelling by air.",
+    "I used to travelling by air.",
+    "I am used to travel by air."
+   ],
+   "answer": 1,
+   "note": "be used to + doing。"
+  },
+  {
+   "q": "“飞机着陆”的地道说法是？",
+   "options": [
+    "touch down",
+    "take off",
+    "gain height",
+    "turn round"
+   ],
+   "answer": 0,
+   "note": "touch down 着陆。"
+  },
+  {
+   "q": "课文中“只是有一次把我吓坏了”的原句是？",
+   "options": [
+    "Only on one occasion have I ever felt frightened.",
+    "Only on one occasion I have ever felt frightened.",
+    "Only on one occasion did I ever felt frightened.",
+    "Only on one occasion I ever have felt frightened."
+   ],
+   "answer": 0,
+   "note": "助动词 have 须提到主语之前。"
+  },
+  {
+   "q": "课文中 take charge of 的意思最接近哪一项？",
+   "options": [
+    "to take care of and be responsible for",
+    "to take something off",
+    "to charge a battery",
+    "to take a photograph"
+   ],
+   "answer": 0,
+   "note": "take charge (of) 照管、接管。"
+  },
+  {
+   "q": "“有人报告警察说飞机上安放了一枚炸弹”的正确英文是？",
+   "options": [
+    "The police had been told that a bomb had been planted on the plane.",
+    "The police had been told that a bomb had been planted in the plane.",
+    "The police had told that a bomb had planted on the plane.",
+    "The police had been told that a bomb had been planting on the plane."
+   ],
+   "answer": 0,
+   "note": "被动语态 + 过去完成时，用 on。"
+  },
+  {
+   "q": "“我在幼年的时候曾多次乘飞机旅行”的正确英文是？",
+   "options": [
+    "I used to travel by air a great deal when I was a boy.",
+    "I was used to travel by air a great deal when I was a boy.",
+    "I used to travelling by air a great deal when I was a boy.",
+    "I am used to travel by air a great deal when I was a boy."
+   ],
+   "answer": 0,
+   "note": "used to + 动词原形。"
+  }
+ ]
+}

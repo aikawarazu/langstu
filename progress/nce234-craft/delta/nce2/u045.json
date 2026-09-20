@@ -1,0 +1,40 @@
+{
+ "title": "A Clear Conscience",
+ "subtitle": "问心无愧",
+ "lead": {
+  "question": "捡到钱包的人为何一次次还钱，最后还自称100%诚实？",
+  "warmup": "一个屠户在去邮局存钱的路上丢了钱包，全村人都知道了这件事。钱没有立刻被送回，却在三个月后出现在他家门口——用报纸包着，里面只剩一半的钱，还夹着一张字条：“一个小偷，是的，但只是一个50%的小偷！”此后钱被分批送回，字条上的百分比一路下降。",
+  "goals": [
+   "复述故事脉络：丢钱包—三个月后归还一半—分批还清",
+   "掌握过去完成时被动与 must have been done 的被动推测",
+   "掌握 while＋现在分词的省略结构及其同主语条件",
+   "活用 wrap up、pay back、in time、per cent、savings 等表达"
+  ],
+  "summary": "本课讲述屠户萨姆丢失钱包后，钱被匿名者用报纸分批包好送回，字条上的“50%”“25%”一路降到“我现在100%诚实”。语言点：过去完成时被动与 must have been found、while＋现在分词省略、wrap up、pay back、in time、per cent。",
+  "tips": "in time 此处＝“最终／经过一段时间”，不是 on time（准时）；while 后接现在分词时，其逻辑主语必须与主句主语一致。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How did Sam get his money back?", "zh": "萨姆是怎样把钱要回来的？", "a": "The thief returned it bit by bit: three months later the wallet, wrapped up in newspaper and containing half the money, was left outside Sam's front door; two months later some more money was sent with a second note, and in time all Sam's money was paid back in this way.", "aZh": "小偷分批归还：三个月后用报纸包着的钱包出现在萨姆家门口，里面只有一半的钱；两个月后又送来一些钱；最终全部还了回来。", "hint": "见课文第 5—8 句。"},
+  {"kind": "detail", "q": "How did Sam lose his wallet?", "zh": "萨姆是怎么把钱包弄丢的？", "a": "He lost it while taking his savings to the post office.", "aZh": "他在把存款送往邮局的途中把钱包丢了。", "hint": "第 2 句。"},
+  {"kind": "detail", "q": "What did Sam think had happened to the wallet?", "zh": "萨姆认为钱包出了什么事？", "a": "He was sure that the wallet must have been found by one of the villagers, but it was not returned to him.", "aZh": "他确信钱包一定是被某个村民捡到了，可是却不见有人来送还给他。", "hint": "第 3 句。"},
+  {"kind": "detail", "q": "How much money came back the first time, and what did the three notes say?", "zh": "第一次送回来多少钱？三张字条分别写了什么？", "a": "The wallet contained half the money he had lost. The notes said: 'A thief, yes, but only 50 per cent a thief!', then 'Only 25 per cent a thief now!', and finally 'I am 100 per cent honest now!'", "aZh": "第一次只有他丢失钱数的一半；字条依次写着“50%的小偷”“现在只是25%的小偷”“我现在100%诚实”。", "hint": "第 5、7、8 句。"},
+  {"kind": "think", "q": "Why did the thief return the money little by little instead of all at once?", "zh": "这个“小偷”为什么不一次性还清，而要分期还钱？", "a": "Because his conscience troubled him: he wanted the money but could not bear to be a whole thief, so he returned it in instalments and cut his 'thief percentage' each time until he could call himself 100 per cent honest.", "aZh": "因为良心不安：他既舍不得那笔钱，又不愿当十足的小偷，于是分批还钱、一次次降低自己的“小偷百分比”。", "hint": "结合标题与三张字条的百分比递减。"}
+ ],
+ "exercises": [
+  {"q": "填空（注意时态与语态）：The whole village soon learnt that a large sum of money ______ (lose).", "a": "had been lost", "note": "过去的过去＋被动。"},
+  {"q": "用 while 的省略结构补全：had lost his wallet ______ (take) his savings to the post office.", "a": "while taking", "note": "while＋现在分词，主语须一致。"},
+  {"q": "解释标题 A clear conscience 中 clear 的含义，并写出本课中文标题。", "a": "clear 意为“清白的、无罪的”（innocent / free from guilt）；中文标题为“问心无愧”。", "note": "clear 此处不是“清楚的”。"},
+  {"q": "改为被动语态：① Someone stole Sam's wallet on the way to the post office. ② Someone sent some more money to Sam two months later.", "a": "① Sam's wallet was stolen on the way to the post office. ② Some more money was sent to Sam two months later.", "note": "一般过去时被动。"},
+  {"q": "汉译英：钱包是用报纸包着的，里面有他丢失的钱的一半。", "a": "It had been wrapped up in newspaper and it contained half the money he had lost.", "note": "wrap up 包裹。"},
+  {"q": "汉译英：很快，萨姆全部的钱都用同样的方式还了回来。", "a": "In time, all Sam's money was paid back in this way.", "note": "in time 此处＝最终。"},
+  {"q": "首字母填空：Sam lost his w______ while taking his s______ to the post office; he was sure one of the v______ had found it, and the note said he was only 50 p______ c______ a thief.", "a": "wallet; savings; villagers; per cent", "note": "per cent 无复数。"}
+ ],
+ "quiz": [
+  {"q": "“整个村子很快知道，有一大笔钱丢失了。”正确的英文表达是：", "options": ["The whole village soon learnt that a large sum of money had been lost.", "The whole village soon learnt that a large sum of money had lost.", "The whole village soon learns that a large sum of money has lost.", "The whole village soon learnt that a large sum of money was losing."], "answer": 0, "note": "用过去完成时被动。"},
+  {"q": "萨姆是在什么情况下丢的钱包？", "options": ["while taking his savings to the post office", "while he had taken his savings to the post office", "after he had taken his savings from the post office", "before taking his savings to the bank"], "answer": 0, "note": "while＋现在分词。"},
+  {"q": "“萨姆确信钱包一定是被某个村民捡到了”，对应的英文是：", "options": ["He was sure the wallet must have been found by one of the villagers.", "He was sure the wallet must be found by one of the villagers.", "He was sure the wallet must have found one of the villagers.", "He was sure the wallet had to find one of the villagers."], "answer": 0, "note": "must have been done。"},
+  {"q": "“钱包是用报纸包着的”，正确的英文是：", "options": ["It had been wrapped up in newspaper.", "It had wrapped up in newspaper.", "It was wrapping up in newspaper.", "It has been wrapping up in newspaper."], "answer": 0, "note": "had been wrapped up。"},
+  {"q": "“很快，萨姆全部的钱都用同样的方式还了回来。”", "options": ["In time, all Sam's money was paid back in this way.", "On time, all Sam's money was paid back in this way.", "In time, all Sam's money paid back in this way.", "At time, all Sam's money had paid back in this way."], "answer": 0, "note": "in time＝最终。"},
+  {"q": "最后那张字条上写着：“我现在是一个100%的诚实人了！”", "options": ["The last note said: 'I am 100 per cent honest now!'", "The last note said: 'I am 100 per cents honest now!'", "The last note said: 'I have 100 per cent honesty now!'", "The last note said: 'I am 100 per cent a thief now!'"], "answer": 0, "note": "per cent 无复数。"}
+ ]
+}

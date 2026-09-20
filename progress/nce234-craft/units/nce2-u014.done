@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u014",
+ "book": "nce2",
+ "unitId": "u014",
+ "title": "Do you speak English?",
+ "subtitle": "你会讲英语吗？",
+ "hasText": false,
+ "lines": 9,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "b4ca6f407220",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

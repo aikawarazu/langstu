@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u040",
+ "book": "nce2",
+ "unitId": "u040",
+ "title": "Food and talk",
+ "subtitle": "进餐与交谈",
+ "hasText": false,
+ "lines": 15,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "3f1ad7f820e8",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

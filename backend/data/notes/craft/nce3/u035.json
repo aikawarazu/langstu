@@ -1,0 +1,164 @@
+{
+ "unitId": "u035",
+ "title": "Justice was Done",
+ "subtitle": "伸张正义",
+ "lead": {
+  "question": "课文中的 justice 为什么有两种含义？从法庭断案到小偷自困烟囱，正义如何在无人干预时自己动手？",
+  "warmup": "先别急着背课文。想象一个画面：一个贼夜里钻进珠宝店，却把自己卡在又高又窄的烟囱里，十个小时后被消防队员从墙里凿出来——他不落网也难。这样的结局不需要法官宣判，正如英语那句 It serves him right。课文开头谈的是法庭上的正义，结尾却让我们看到另一种更直接的正义。作者把这两种 justice 摆在一起，正是全文的关键。",
+  "goals": [
+   "掌握 justice、court of law、innocence、guilt、trial、judge、premises 等法律词汇在文中的含义",
+   "理解 justice 在课文中的两种含义：法庭上的抽象概念与自行其是的有生命的力量",
+   "复习被动语态与过去完成时（has been done / had been trapped / was handed over）在叙事中的配合",
+   "体会 however wise or eminent 的让步状语从句结构，以及 it serves him right 等固定表达"
+  ],
+  "summary": "课文先给 justice 下定义：它通常与法庭联系在一起，只有当一个人的无罪或有罪被确凿证明时，人们才会说正义得到了伸张。然而正义只是复杂法律机器的一部分，寻求它的人走在崎岖的路上，再聪明有名的法官也会出错。作者随后举出一个例外：当奖惩不受人的意志支配时，正义就像一种有生命的力量自行其是。小偷卡在烟囱里十个小时，正是这种正义的体现。",
+  "tips": "易错提醒：however wise or eminent 中 however 相当于 no matter how，后面必须紧跟形容词或副词，不能写成 whatever wise，也不能让 however 直接接名词。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "The word 'justice' is given two different meanings in the text. What is the distinction between them?",
+   "zh": "课文中 justice 一词有两种不同含义，它们的区别是什么？",
+   "a": "In the first sense justice is an abstract concept belonging to courts of law: justice has been done when a man's innocence or guilt has been proved beyond doubt. In the second sense justice acts like a living force that operates of its own accord — reward or punishment is meted out quite independent of human interference, as when the thief got stuck in the chimney and everyone said 'It serves him right.'",
+   "aZh": "第一种含义是把 justice 看作属于法庭的抽象概念：当一个人的无罪或有罪被确凿证明时，人们便说正义得到了伸张。第二种含义是把它看作一种自行其是的有生命的力量——奖惩的实施不受人的意志支配，正如小偷卡在烟囱里、人人都说他罪有应得那样。",
+   "hint": "答案线索在课文开头三段与结尾一段：前者关键词是 courts of law、proved beyond doubt、complex machinery of the law，后者是 a living force、of its own accord。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the shop assistants find it impossible to resist the temptation to say 'It serves him right'?",
+   "zh": "为什么店员们忍不住想说“他罪有应得”？",
+   "a": "Because a thief had been caught on the premises of the large jewellery store that morning — his own action, not a court, had brought him down.",
+   "aZh": "因为那天上午一个贼就在这家大珠宝店里被人当场抓住——是他自己的行为，而不是法庭，把他送进了法网。",
+   "hint": "见 'When a thief was caught on the premises of large jewellery store on morning...' 一句，注意 premises 指店堂、场所。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the fire fighters locate the right chimney, and how did they finally free the man?",
+   "zh": "消防队员是怎样找到正确的烟囱、又怎样最终把那个人解救出来的？",
+   "a": "They located the right chimney by tapping at the walls and listening for the man's cries. After chipping through a wall eighteen inches thick, they freed him by cutting a huge hole in the wall.",
+   "aZh": "他们敲击墙壁、听那人的喊叫声，从而确定了正确的烟囱。他们凿透一堵十八英寸厚的墙后，在墙上挖了个大洞才把他解救出来。",
+   "hint": "见 'They located the right chimney by tapping at the walls and listening for the man's cries.' 与 'by cutting a huge hole in the wall'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the blackened figure admit as soon as he emerged from the chimney?",
+   "zh": "那个浑身漆黑的家伙从烟囱里一出来就承认了什么？",
+   "a": "He admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney, and that he had been there for nearly ten hours.",
+   "aZh": "他立刻承认，他前一天夜里曾企图闯进这家商店，却被卡在烟囱里，而且他已经在里面待了将近十个小时。",
+   "hint": "见 'The sorry-looking, blackened figure that emerged, admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney.' 及下一句 'He had been there for nearly ten hours.'"
+  },
+  {
+   "kind": "think",
+   "q": "What does the last sentence mean: 'Justice had been done even before the man was handed over to the police'?",
+   "zh": "最后一句“甚至在那人还没被送交给警察之前，正义就已得到了伸张”是什么意思？",
+   "a": "It means the thief was punished by the circumstances themselves rather than by a court: the abstract justice of the law had turned into a living force and acted of its own accord, so no trial was needed for him to get what he deserved.",
+   "aZh": "意思是这个小偷是被环境本身、而不是被法庭惩罚的：法律中抽象的正义变成了一种有生命的力量并自行其是，所以他用不着接受审判，就已经得到了应有的下场。",
+   "hint": "先回到课文前半部分的 'justice acts like a living force' 与 'justice to act of its own accord'，再看结尾的 even before the man was handed over to the police。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：当某人的罪行被确凿证实时，我们也许会说正义得到了伸张。",
+   "a": "We might say that justice has been done when a man's guilt has been proved beyond doubt.",
+   "note": "beyond doubt 表“确凿无疑”"
+  },
+  {
+   "q": "填空：A man's innocence or ______ has to be proved beyond doubt before he is sentenced by the court.（用 guilty 的正确形式）",
+   "a": "guilt",
+   "note": "主语位置用名词 guilt"
+  },
+  {
+   "q": "句型转换（主动变被动）：The fire fighters cut a huge hole in the wall and freed the man.",
+   "a": "A huge hole was cut in the wall and the man was freed by the fire fighters.",
+   "note": "两个动作均改用被动语态"
+  },
+  {
+   "q": "改错：The shop assistants must find it impossible to resist the temptation to say 'It serves him right.'",
+   "a": "The shop assistants must have found it impossible to resist the temptation to say 'It serves him right.'",
+   "note": "对过去的推测用 must have done"
+  },
+  {
+   "q": "汉译英：那个满脸沮丧的家伙承认他夜里曾试图闯进商店，却被卡住了。",
+   "a": "The sorry-looking fellow admitted that he had tried to break into the shop during the night but had got stuck.",
+   "note": "宾语从句用过去完成时"
+  },
+  {
+   "q": "填空：The man ______ (hand) over to the police after he ______ (free) from the chimney.",
+   "a": "was handed; had been freed",
+   "note": "被动语态加过去完成时"
+  },
+  {
+   "q": "改错：Judges, whatever wise or eminent, are human and can make mistakes.",
+   "a": "Judges, however wise or eminent, are human and can make mistakes.",
+   "note": "however + 形容词表让步"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中 justice 一词被赋予的两种不同含义是：",
+   "options": [
+    "the decision of a judge and the verdict of a jury",
+    "the abstract concept of law and a living force acting of its own accord",
+    "the innocence of a man and the guilt of a man",
+    "a reward for good deeds and a punishment for crimes"
+   ],
+   "answer": 1,
+   "note": "抽象法律概念对自行其是的力量"
+  },
+  {
+   "q": "快到中午时，那位女售货员听到哭声后做了什么？",
+   "options": [
+    "She tapped at the walls herself.",
+    "She rang up the fire brigade directly.",
+    "She ran to tell the manager, who promptly rang up the fire brigade.",
+    "She asked the shop assistants to keep quiet."
+   ],
+   "answer": 2,
+   "note": "先报经理，经理再叫消防队"
+  },
+  {
+   "q": "消防队员无法确定哭声出自哪一个烟囱，原因是什么？",
+   "options": [
+    "Because the cries were repeated only once.",
+    "Because the chimney was extremely narrow.",
+    "Because the man was trapped eighteen inches deep.",
+    "Because the old converted house had so many chimneys."
+   ],
+   "answer": 3,
+   "note": "烟囱太多，只能敲墙细听"
+  },
+  {
+   "q": "小偷为什么会被困在烟囱里？",
+   "options": [
+    "He had tried to break into the shop during the night and got stuck.",
+    "He was hiding from the police in the shop.",
+    "He had climbed up to repair the chimney.",
+    "He was locked in by the shop assistants."
+   ],
+   "answer": 0,
+   "note": "夜里行窃，反被烟囱卡住"
+  },
+  {
+   "q": "'Judges, however wise or eminent, are human and can make mistakes.' 意为：",
+   "options": [
+    "Judges are wise and eminent, so they never make mistakes.",
+    "Even the wisest and most eminent judges can make mistakes.",
+    "Only judges who are human can be wise and eminent.",
+    "Judges become wise and eminent by making mistakes."
+   ],
+   "answer": 1,
+   "note": "however 引导让步状语"
+  },
+  {
+   "q": "下列哪一句与 'It serves him right' 意思最接近？",
+   "options": [
+    "He has served his sentence in prison.",
+    "He did the right thing at last.",
+    "He deserves what has happened to him.",
+    "It is none of his business."
+   ],
+   "answer": 2,
+   "note": "罪有应得，与服刑无关"
+  }
+ ]
+}

@@ -25,7 +25,7 @@
    "url": "nce1.json",
    "bytes": {
     "pkg": 46336,
-    "content": 1432667,
+    "content": 1454627,
     "audio": 47453951
    }
   },
@@ -44,8 +44,8 @@
    "version": "1.0.0",
    "url": "nce2.json",
    "bytes": {
-    "pkg": 72240,
-    "content": 1467001,
+    "pkg": 72216,
+    "content": 1636789,
     "audio": 54006299
    }
   },
@@ -64,8 +64,8 @@
    "version": "1.0.0",
    "url": "nce3.json",
    "bytes": {
-    "pkg": 43760,
-    "content": 942237,
+    "pkg": 43700,
+    "content": 1400451,
     "audio": 67094444
    }
   },
@@ -84,8 +84,8 @@
    "version": "1.0.0",
    "url": "nce4.json",
    "bytes": {
-    "pkg": 19816,
-    "content": 771570,
+    "pkg": 19800,
+    "content": 895785,
     "audio": 57529641
    }
   }

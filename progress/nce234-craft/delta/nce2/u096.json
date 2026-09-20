@@ -1,0 +1,35 @@
+{
+ "title": "The Dead Return",
+ "subtitle": "亡灵返乡",
+ "lead": {
+  "question": "日本“亡灵节”是怎样的节日？人们为何挂灯笼、摆食物，节后灯笼又漂向何方？",
+  "warmup": "日本每年举办一次“亡灵节”，人们相信这一天祖先的灵魂会回到家中。与中国清明节的哀思不同，这个节日气氛欢快：家家门外挂起特制的灯笼为亡灵照路，屋内摆好食物招待归来的亲人；夜晚人们载歌载舞，天亮后食物被投入河海。课文既介绍独特民俗，也集中呈现被动语态、定语从句等语法。",
+  "goals": ["掌握本课重点词汇与短语：festival、welcome、prepare、traditional、drift、guide、spectacle 等。", "理解并运用被动语态（are said / is laid out / had been hung / are placed 等）描述客观事实。", "识别 the dead / the living 等“the+形容词”表一类人的用法，以及 specially-made 这类复合形容词。", "体会说明文的写作顺序与现在分词作状语（guiding、watching）的表达效果。"],
+  "summary": "本课用说明性笔调介绍日本的“亡灵节”：节日一年一度，是欢乐的场合；人们相信死者当日重返家中，于是摆好食物、挂起特制灯笼为亡灵引路，整夜歌舞；次日清晨食物被投入江海，近海城镇的小灯笼节后放入水中，随波漂向另一个世界。语言上被动语态贯穿全篇，还有 the dead/the living、复合形容词 specially-made、现在分词作状语 guiding 与 watching。",
+  "tips": "易错提醒：被动语态中动词要用过去分词，别把 are placed 写成 are placing；the dead 是复数概念，谓语用 are。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What happens to the lanterns at the end of the festival?", "zh": "节日结束时，灯笼会被怎样处理？", "a": "They are placed into the water and slowly drift out to sea, guiding the dead on their return journey to the other world.", "aZh": "它们被放进水里，慢慢漂向大海，指引亡灵返回另一个世界。", "hint": "见课文第 7、8 句：are placed into the water / slowly drift out to sea。"},
+  {"kind": "detail", "q": "What is done with the food that had been laid out for the dead in the early morning?", "zh": "清晨为死者摆放的食物被怎么处理？", "a": "It is thrown into a river or into the sea, for it is considered unlucky for anyone living to eat it.", "aZh": "它被扔进河中或海里，因为人们认为活着的人吃了它是不吉利的。", "hint": "见课文第 6 句：is thrown into a river or into the sea。"},
+  {"kind": "detail", "q": "Where are the tiny lanterns placed when the festival is over in towns near the sea?", "zh": "在靠海的城镇，节后小灯笼被放在哪里？", "a": "The tiny lanterns which had been hung in the streets the night before are placed into the water.", "aZh": "头天夜里挂在大街小巷的小灯笼被放进水里。", "hint": "见课文第 7 句：are placed into the water。"},
+  {"kind": "detail", "q": "Why is this festival described as a cheerful occasion?", "zh": "为什么说这个节日是个欢乐的场合？", "a": "Because on this day the dead are said to return to their homes and they are welcomed by the living.", "aZh": "因为在这一天，据说死去的人要回到家里来，活着的人对他们表示欢迎。", "hint": "见课文第 2 句：a cheerful occasion / are welcomed by the living。"},
+  {"kind": "think", "q": "Why do the living prepare food and hang lanterns for the dead, and what does this show?", "zh": "生者为何为亡灵摆食物、挂灯笼？这反映了怎样的情感？", "a": "They treat the returning dead as honoured guests, which shows the living's love, respect and remembrance for those who have died.", "aZh": "他们把归来的亡灵当作贵客款待，体现了生者对逝者的爱、敬意与怀念。", "hint": "综合课文第 3、4 句的 food is laid out 与 lanterns are hung，体会民俗背后的情感。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：日本每年过一次“亡灵节”。", "a": "A Festival for the Dead is held once a year in Japan.", "note": "被动语态 be held；专名首字母大写"},
+  {"q": "句型转换：People say that the dead return to their homes.（改为被动结构）", "a": "The dead are said to return to their homes.", "note": "用 be said to do 结构"},
+  {"q": "填空：Specially-______ (make) lanterns are hung outside each house to help the dead find their way.", "a": "made", "note": "副词+过去分词构成复合形容词"},
+  {"q": "改错：The tiny lanterns are placing into the water when the festival is over.", "a": "The tiny lanterns are placed into the water when the festival is over.", "note": "被动语态须用过去分词 placed"},
+  {"q": "汉译英：成千上万只灯笼慢慢漂向大海，指引着亡灵返回另一个世界。", "a": "Thousands of lanterns slowly drift out to sea, guiding the dead on their return journey to the other world.", "note": "现在分词 guiding 作伴随状语"},
+  {"q": "填空：In towns ______ are near the sea, the tiny lanterns are placed into the water.", "a": "that / which", "note": "关系代词在定语从句中作主语"},
+  {"q": "填空：On this day the dead are ______ (welcome) by the living.", "a": "welcomed", "note": "被动语态用过去分词 welcomed"}
+ ],
+ "quiz": [
+  {"q": "日本“亡灵节”上，人们在屋外挂特制灯笼的主要目的是什么？", "options": ["To help the dead find their way.", "To decorate the houses for the living.", "To welcome the living guests.", "To light the streets all year round."], "answer": 0, "note": "课文：to help the dead to find their way"},
+  {"q": "节日第二天一早，为死者摆放的食物被怎样处理？", "options": ["It is eaten by the living.", "It is thrown into a river or into the sea.", "It is kept until the next festival.", "It is given to the neighbours."], "answer": 1, "note": "课文：is thrown into a river or into the sea"},
+  {"q": "为什么不能由活人来吃这些食物？", "options": ["Because the food has already gone bad.", "Because there is far too much food.", "Because it is considered unlucky for anyone living to eat it.", "Because the dead prefer fresh food."], "answer": 2, "note": "课文：unlucky for anyone living to eat it"},
+  {"q": "在靠海的城镇，节后那些小灯笼被放在哪里？", "options": ["They are hung in the streets again.", "They are stored in each house.", "They are burnt in the town square.", "They are placed into the water."], "answer": 3, "note": "课文：are placed into the water"},
+  {"q": "“the dead are said to return to their homes”中 are said 的作用是什么？", "options": ["To show that the speaker is quite certain.", "To soften the tone, as the speaker is not quite sure.", "To give an order to the listeners.", "To describe a daily habit."], "answer": 1, "note": "被动语态 are said 缓和语气"},
+  {"q": "课文结尾为什么把这个场面称作 a moving spectacle？", "options": ["Because the lanterns are extremely expensive.", "Because the festival lasts a whole year.", "Because crowds stand on the shore watching the lanterns drift away.", "Because the dead actually come back to life."], "answer": 2, "note": "课文末句：crowds of people stand on the shore…"}
+ ]
+}

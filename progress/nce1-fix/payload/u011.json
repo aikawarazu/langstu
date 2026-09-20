@@ -1,0 +1,77 @@
+{
+ "unitId": "u011",
+ "lessons": [
+  {
+   "lesson": 21,
+   "title": "Which book?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "HUSBAND",
+     "en": "Give me a book please, Jane."
+    },
+    {
+     "i": 1,
+     "speaker": "WIFE",
+     "en": "Which book?"
+    },
+    {
+     "i": 2,
+     "speaker": "WIFE",
+     "en": "This one?"
+    },
+    {
+     "i": 3,
+     "speaker": "HUSBAND",
+     "en": "No, not that one. The red one."
+    },
+    {
+     "i": 4,
+     "speaker": "WIFE",
+     "en": "This one?"
+    },
+    {
+     "i": 5,
+     "speaker": "HUSBAND",
+     "en": "Yes, please."
+    },
+    {
+     "i": 6,
+     "speaker": "WIFE",
+     "en": "Here you are."
+    },
+    {
+     "i": 7,
+     "speaker": "HUSBAND",
+     "en": "Thank you."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "21": [
+   "丈夫：请拿本书给我，简。",
+   "妻子：哪一本？",
+   "妻子：是这本吗？",
+   "丈夫：不，不是那本。是那本红皮的。",
+   "妻子：这本吗？",
+   "丈夫：是的，请给我。",
+   "妻子：给你。",
+   "丈夫：谢谢。"
+  ]
+ },
+ "rawPage": {
+  "21": "194.txt"
+ },
+ "parsedTranslation": [
+  "丈夫：请拿本书给我，简。",
+  "妻子：哪一本？",
+  "妻子：是这本吗？",
+  "丈夫：不，不是那本。是那本红皮的。",
+  "妻子：这本吗？",
+  "丈夫：是的，请给我。",
+  "妻子：给你。",
+  "丈夫：谢谢。"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "book": "nce2",
+ "unitId": "u018",
+ "lesson": 18,
+ "sourceFile": "273.txt",
+ "titleEn": "He often does this!",
+ "titleZh": "",
+ "listenQuestion": "What had happened to the writer's bag?",
+ "lines": [
+  {
+   "en": "After I had had lunch at a village pub , I looked for my bag.",
+   "zh": "我在一家乡村小酒店吃过午饭后，就找我的提包。"
+  },
+  {
+   "en": "I had left it on a chair beside the door and now it wasn't there!",
+   "zh": "我曾把它放在门边的椅子上，可这会儿不见了！"
+  },
+  {
+   "en": "As I was looking for it, the landlord came in.",
+   "zh": "当我正在寻找时，酒店老板走了进来。"
+  },
+  {
+   "en": "'Did you have a good meal?",
+   "zh": "“您吃得好吗？"
+  },
+  {
+   "en": "he asked.",
+   "zh": "”他问。"
+  },
+  {
+   "en": "'Yes, thank you,' I answered, 'but I can't pay the bill.",
+   "zh": "“很好，谢谢。"
+  },
+  {
+   "en": "I haven't got my bag.",
+   "zh": "”我回答，“但我付不了帐，我的提包没有了。"
+  },
+  {
+   "en": "The landlord smiled and immediately went out.",
+   "zh": "”酒店老板笑了笑，马上走了出去。"
+  },
+  {
+   "en": "In a few minutes he returned with my bag and gave it back to me.",
+   "zh": "一会儿工夫他拿着我的提包回来了，把它还给了我。"
+  },
+  {
+   "en": "'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+   "zh": "“实在抱歉，”他说，“我的狗把它弄到花园里去了，他常干这种事！”"
+  }
+ ],
+ "translationJoined": "我在一家乡村小酒店吃过午饭后，就找我的提包。我曾把它放在门边的椅子上，可这会儿不见了！当我正在寻找时，酒店老板走了进来。“您吃得好吗？”他问。“很好，谢谢。”我回答，“但我付不了帐，我的提包没有了。”酒店老板笑了笑，马上走了出去。一会儿工夫他拿着我的提包回来了，把它还给了我。“实在抱歉，”他说，“我的狗把它弄到花园里去了，他常干这种事！”",
+ "words": [
+  {
+   "word": "bill",
+   "pos": "n",
+   "zh": "参考译文"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．After I had had lunch at a village pub, I looked for my bag. 我在一家乡村小酒店吃过午饭后，就找我的提包。\n（1）have在have lunch这个词组中是完全动词而不是助动词，因此，像其他完全动词一样，它的过去完成时要加助动词had。\n（cf. 本课语法）\n（2）pub为public house（酒店，酒吧）的缩略形式，在英国英语的口语中较常见：\nLet's go to the pub for a drink.\n咱们去酒店喝杯酒吧。\n（3）look for强调“寻找”这个动作，而不涉及结果：\nI looked for my key everywhere, but I couldn't find it.\n我到处寻找我的钥匙，但还是没找到。\n2．I had left it on a chair beside the door…我曾把它放在门边的椅子上……\nleave除了“离去”、“离开”、“出发”的意思，还可以表示“把（人、物）留下”、“遗留”、“丢下”等：\nThe dog has left your bag by a tree.\n那狗把你的提包丢在了一棵树旁。\nHave you left anything in the car?\n你有没有把什么东西丢在车里？\nLeave the books on the desk.\n把书放在课桌上。\n3．My dog had taken it into the garden. He often does this!我的狗把它弄到花园里去了，他常干这种事！\nhe在这里指代的是狗。动物通常用it来代表，即被看成像东西一样。但是，指宠物、家畜或民间故事中的动物时，我们经常也用he，she，who等，即使得它们“人格化”并具有性别。用阴性代词指某个动物或东西时尤其有一种亲切的含义：\nI have a little cat. She drinks milk every morning.\n我有一只小猫。她每天早上喝牛奶。\nGeorge's parrot, Henry, can speak a few words. He always calls when there are lights.\n乔治的鹦鹉亨利能说几个单词。只要有灯光他就叫。",
+  "grammar": "完全动词have\n（1）动词have有两种用法。一是作为助动词构成各种完成时（包括过去、现在、将来）和完成进行时：\nI haven't seen him this morning.\n我今天上午没见过他。\nWhen I rang, Tim had already left.\n我打电话的时候，蒂姆已经走了。\n（2）have还可以作完全动词。当它作“具有”、“拥有”讲时，它和have got通常可以互换。在英国英语中，疑问句和否定句中\nhave（具有）的用法与be相同，即可以不用助动词do（或did）。\nI haven't got any pencils.\n我没有铅笔。\n在美国英语中，常用do，did等与have一起构成疑问句和否定句：\n这种形式在英国英语中现在也常见了。\nhave作“具有”、“拥有”讲时是状态动词，不能用于进行时态或被动语态。它通常用于一般现在时：\nYou can have these apples if you want them. I've got a lot more.\n如果你想要这些苹果你可以把它们拿走。我还有许多。\nHe has(got) a\nFord\n.\n他有一辆福特牌汽车。\n在其他时态中，一般用have而不用 have got：\nHe had a Ford last year.\n去年他有过一辆福特牌汽车。\nI have had this car for three years.\n这辆汽车我已用了3年了。\nLast week, Jimmy had a bad cold.\n上星期吉米得了重感冒。\n（3）have 作完全动词时，还可以表示eat，drink，enjoy，take等意思，这时它是行为动词，可以用于包括进行时的各种时态：\nHave a\ncigarette\n, Sam.\n萨姆，请抽烟。\nWe will have dinner at seven o'clock.\n我们将于7点开饭。\nSam and I had lunch together today.\n我和萨姆今天一起吃的午饭。\nI'm having a drink.\n我正在喝点东西。\n当have用于表示这些含义时，它必须与do和did等连用以构成疑问句和否定句：",
+  "wordStudy": "1．beside与besides\n介词beside常用的含义为“在……旁边”、“在……附近”：\nCome and sit beside us.\n过来坐在我们旁边吧。\nThere is a chair beside the door.\n门旁边有一把椅子。\nbesides的词形与beside很相似，但意义却相差甚远。besides作副词时表示“而且”、“并且”、“此外”等意思：\nShe has so much else to do besides.\n此外，她还有许多其他事要做。\nI'm quite busy today. Besides, I've got a bad cold.\n我今天很忙，而且我还感冒得厉害。\nbesides还可以作介词，表示“除……之外（还）”：\nThere were a lot of people at the party besides us.\n除了我们以外，晚会上还有许多（其他）人。\n2．give的几个固定搭配\n及物动词give常用的含义是“给予”、“交给”：\nGive me some water, please.\n请给我一些水。\nI lent him some books last month and he has given them back to me this morning.\n我上个月曾借给他一些书。他今天上午都还给我了。可以看出，give与back连用时，它的意义并没有发生太大的变化。但是，当它与其他副词连用时，意义往往会有变化，有时变化非常大：\nHe gave away all his books to the library.\n他把所有的书都赠给了这家图书馆。（give away：赠送）\nGive in your\nexamination\npapers\nafter you've finished.\n考卷做好后就交上来。（give in：上交，呈交）\nYou can do what you like. I will never give in.\n你想干什么就干什么。我决不屈服。（give in：屈服，让步）\nHe gave up drinking a few years ago.\n他几年前戒酒了。（give up：放弃，抛弃）\nJack\nhas given up the watch he stole last week.\n杰克把他上星期偷的表交了出来。（give up：交出，让出）",
+  "keyAnswers": "1．关键句型练习答案\nA 1 I looked for my bag after I had had lunch at a village pub.\n2 I had left my bag on a chair beside the door.\n3 The landlord asked me:‘Did you have a good meal?’\n4 I answered:‘I can't pay the bill because I haven't got my bag.’\n5 The dog had taken the bag into the garden.\nC Sentences 2, 3, 5, 7, 8, 10, 11\n2．难点练习答案\nA 1 back  2 away  3 in  4 in\nB 1 Besides  2  beside\n3．多项选择题答案\n1b  2d  3b  4d  5b  6c\n7d  8c  9a  10c  11c  12b\nhave的用法：\nhave dinner,have a cigarette,have coffee,have a holiday,have a good time\nhave a swim,have a rest\nhave a pen,have a headache\nhave做＂有，患病＂概念时，可作为实义动词，也可作为非实义动词。\n疑问句和否定句构成：\n实义动词：通过助动词\n非实义动词：直接加not\nhave只能作为非实义动词，如果一个词是以完成时态出现的\nhave只能作为实义动词\nI have a holiday.\nI don't have a holiday.\n【Key structures】"
+ }
+}

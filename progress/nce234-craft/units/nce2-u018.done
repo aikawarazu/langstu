@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u018",
+ "book": "nce2",
+ "unitId": "u018",
+ "title": "He often does this!",
+ "subtitle": "他经常干这种事！",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "23a52c7df40d",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

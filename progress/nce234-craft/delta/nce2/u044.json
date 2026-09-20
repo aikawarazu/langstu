@@ -1,0 +1,40 @@
+{
+ "title": "Through the forest",
+ "subtitle": "穿过森林",
+ "lead": {
+  "question": "斯特林夫人在森林边被抢走了手提包，她究竟是怎么把包夺回来的？",
+  "warmup": "这是一篇惊险又幽默的小故事：斯特林夫人正带着孩子们在森林边野餐，两个男人突然冲上来抢她的手提包。争抢中包带断了，两人拿着包跑进树林。多数人也许就此放弃，可她偏偏追了上去——追得上吗？追上后又发生了什么？",
+  "goals": [
+   "理清抢包与追包的起因、经过、结果，能用英语复述故事大意",
+   "辨析 run after、run away、catch up with、go through 等短语动词",
+   "掌握 take the risk of doing、in one's possession、out of breath、at the edge of、need doing 等重点表达",
+   "巩固动名词作介词宾语，以及 start / continue / need 后接动名词的用法"
+  ],
+  "summary": "本课讲斯特林夫人在森林边野餐时被两个男人抢走手提包，包带在争抢中断掉。她气愤地追进树林，虽上气不接下气仍不停追赶，最终追上正在翻包的两人，他们受惊丢包逃跑。",
+  "tips": "need doing 等于 need to be done，主语是物却表被动，所以是 The strap needs mending；run after 指追赶、catch up with 强调追上的结果、go through 指翻看搜寻。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How did Mrs. Sterling get her bag back?", "zh": "斯特林夫人是怎样把手提包夺回来的？", "a": "She ran after the two men through the forest. When she caught up with them, they got such a fright that they dropped the bag and ran away.", "aZh": "她穿过森林追赶那两个男人。追上他们时，两人吓了一大跳，扔下提包逃跑了。", "hint": "见课文后三句。"},
+  {"kind": "detail", "q": "What happened to the strap in the struggle, and who had the bag then?", "zh": "争抢中包带怎么了？当时包在谁手里？", "a": "The strap broke and both men started running through the trees with the bag in their possession.", "aZh": "争抢中手提包的带子断了，两个男人拿到包，拔腿跑进了树林。", "hint": "见课文第三句。"},
+  {"kind": "detail", "q": "How did Mrs. Sterling feel soon after she started running, and what did she do?", "zh": "斯特林夫人跑了一会儿之后感觉如何？她接着做了什么？", "a": "She was soon out of breath, but she continued to run.", "aZh": "她很快就上气不接下气了，但还是继续追赶。", "hint": "out of breath 意为“上气不接下气”。"},
+  {"kind": "detail", "q": "What were the two men doing when Mrs. Sterling caught up with them?", "zh": "斯特林夫人追上他们时，那两个男人在做什么？", "a": "They had sat down and were going through the contents of the bag.", "aZh": "他们已经坐了下来，正翻看着包里的东西。", "hint": "go through 在此意为“翻看、搜寻”。"},
+  {"kind": "think", "q": "Why did the two men drop the bag and run away instead of fighting back?", "zh": "那两个男人为什么扔下包就跑而不反抗？", "a": "Because a woman running straight at them was so unexpected that they got such a fright. Her last words show she was brave and calm, and could even make a joke about the broken strap.", "aZh": "因为一个女人直冲过来完全出乎意料，他们吓得丢包就逃。最后一句说明她勇敢镇定，脱险后还能拿断掉的带子打趣。", "hint": "结合 The men got such a fright 中的 such a…that 结构。"}
+ ],
+ "exercises": [
+  {"q": "语法填空：After ______ (run) through the trees for a while, she was soon out of ______ (breathe).", "a": "running; breath", "note": "介词后接动名词；out of breath 固定搭配。"},
+  {"q": "汉译英：他冒着撞坏自己汽车的危险，把车开进了树林。", "a": "He took the risk of damaging his car and drove it into the trees.", "note": "take the risk of doing sth."},
+  {"q": "用 in one's possession 改写句子：After the strap broke, the bag was theirs.", "a": "After the strap broke, the bag was in their possession.", "note": "in one's possession 为某人所有。"},
+  {"q": "改错：The strap needs mend.", "a": "The strap needs mending.（或 The strap needs to be mended.）", "note": "need doing 含被动意义。"},
+  {"q": "选词填空（run after / run away / catch up with / go through）：She ran after the two men and finally ______ them under the trees.", "a": "caught up with", "note": "强调“追上”的结果。"},
+  {"q": "汉译英：当她赶上他们时，他们正翻看着包里的东西。", "a": "When she caught up with them, they were going through the contents of the bag.", "note": "go through 翻看、搜寻。"},
+  {"q": "完成句子：She was having a picnic ___ ___ ___ ___ a forest with her children when two men rushed up to her.", "a": "at the edge of", "note": "at the edge of 在……的边上。"}
+ ],
+ "quiz": [
+  {"q": "课文中“包落入他们手中”用的是下面哪个表达？", "options": ["with the bag in their possession", "with the bag in their hands", "with the bag on their side", "with the bag under their control"], "answer": 0, "note": "in one's possession。"},
+  {"q": "“这提包带需要修理”，正确的英文表达是？", "options": ["The strap needs mending.", "The strap needs to mend.", "The strap needs mend.", "The strap needs being mended."], "answer": 0, "note": "need doing 等于 need to be done。"},
+  {"q": "她跑了一会儿就“上气不接下气”，正确的英文是？", "options": ["out of breath", "out of breathing", "out of the breath", "out of breathe"], "answer": 0, "note": "out of breath 固定搭配。"},
+  {"q": "她和孩子们是在森林的什么位置野餐？", "options": ["at the edge of a forest", "in the middle of a forest", "on the top of a forest", "at the foot of a forest"], "answer": 0, "note": "at the edge of。"},
+  {"q": "课文中“冒……的危险”应说成？", "options": ["take the risk of doing sth.", "make the risk of doing sth.", "do the risk to do sth.", "have the risk doing sth."], "answer": 0, "note": "of 后接动名词。"},
+  {"q": "“他们正翻看着包里的东西”应译为？", "options": ["They were going through the contents of the bag.", "They were going over the contents of the bag.", "They were getting through the bag.", "They were looking after the contents of the bag."], "answer": 0, "note": "go through 此处指翻看、搜寻。"}
+ ]
+}

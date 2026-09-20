@@ -1,0 +1,133 @@
+{
+ "unitId": "u023",
+ "lessons": [
+  {
+   "lesson": 45,
+   "title": "The boss's letter",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "THE BOSS",
+     "en": "Can you come here a minute please, Bob?"
+    },
+    {
+     "i": 1,
+     "speaker": "BOB",
+     "en": "Yes, sir?"
+    },
+    {
+     "i": 2,
+     "speaker": "THE BOSS",
+     "en": "Where's Pamela?"
+    },
+    {
+     "i": 3,
+     "speaker": "BOB",
+     "en": "She's next door. She's in her office, sir."
+    },
+    {
+     "i": 4,
+     "speaker": "THE BOSS",
+     "en": "Can she type this letter for me? Ask her please."
+    },
+    {
+     "i": 5,
+     "speaker": "BOB",
+     "en": "Yes, sir."
+    },
+    {
+     "i": 6,
+     "speaker": "BOB",
+     "en": "Can you type this letter for the boss please, Pamela?"
+    },
+    {
+     "i": 7,
+     "speaker": "PAMELA",
+     "en": "Yes, of course I can."
+    },
+    {
+     "i": 8,
+     "speaker": "BOB",
+     "en": "Here you are."
+    },
+    {
+     "i": 9,
+     "speaker": "PAMELA",
+     "en": "Thank you, Bob."
+    },
+    {
+     "i": 10,
+     "speaker": "PAMELA",
+     "en": "Bob!"
+    },
+    {
+     "i": 11,
+     "speaker": "BOB",
+     "en": "Yes?"
+    },
+    {
+     "i": 12,
+     "speaker": "BOB",
+     "en": "What's the matter?"
+    },
+    {
+     "i": 13,
+     "speaker": "PAMELA",
+     "en": "I can't type this letter."
+    },
+    {
+     "i": 14,
+     "speaker": "PAMELA",
+     "en": "I can't read it!"
+    },
+    {
+     "i": 15,
+     "speaker": "PAMELA",
+     "en": "The boss's handwriting is terrible!"
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "45": [
+   "老 板：请你来一下好吗？鲍勃？",
+   "鲍 勃: 什么事，先生？",
+   "老 板：帕梅拉在哪儿？",
+   "鲍 勃: 她在隔壁，在她的办公室里，先生。",
+   "老 板：她能为我打一下这封信吗？请问她。",
+   "鲍 勃: 好的，先生。",
+   "鲍 勃: 请你把这封信给老板打一下可以吗，",
+   "帕梅拉？",
+   "帕梅拉：可以，当然可以。",
+   "鲍 勃: 给你这信。",
+   "帕梅拉：谢谢你，鲍勃。",
+   "帕梅拉：鲍勃！",
+   "鲍 勃: 怎么了？怎么回事？",
+   "帕梅拉：我打不了这封信。",
+   "帕梅拉：我看不懂这封信，",
+   "老板的书写太糟糕了！"
+  ]
+ },
+ "rawPage": {
+  "45": "206.txt"
+ },
+ "parsedTranslation": [
+  "老 板：请你来一下好吗？鲍勃？",
+  "鲍 勃: 什么事，先生？",
+  "老 板：帕梅拉在哪儿？",
+  "鲍 勃: 她在隔壁，在她的办公室里，先生。",
+  "老 板：她能为我打一下这封信吗？请问她。",
+  "鲍 勃: 好的，先生。",
+  "鲍 勃: 请你把这封信给老板打一下可以吗，",
+  "帕梅拉？",
+  "帕梅拉：可以，当然可以。",
+  "鲍 勃: 给你这信。",
+  "帕梅拉：谢谢你，鲍勃。",
+  "帕梅拉：鲍勃！",
+  "鲍 勃: 怎么了？怎么回事？",
+  "帕梅拉：我打不了这封信。",
+  "帕梅拉：我看不懂这封信，",
+  "老板的书写太糟糕了！"
+ ]
+}

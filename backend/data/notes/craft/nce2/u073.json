@@ -1,0 +1,164 @@
+{
+ "unitId": "u073",
+ "title": "The record-holder",
+ "subtitle": "纪录保持者",
+ "lead": {
+  "question": "逃学的孩子大多缺乏想象力，可这个男孩为何反倒成了纪录保持者？",
+  "warmup": "同样是逃学，多数孩子至多安静钓一天鱼，或在电影院里把同一部影片看上八小时。可本课的小主人公一路搭便车，钻进船里睡了一觉，醒来时竟已漂到加来；又坐卡车到了巴黎，被下一辆车带到法西边境的佩皮尼昂。逃学逃出国境，结局却不浪漫——他被警察抓住，遣送回英国。",
+  "goals": [
+   "复述男孩从多佛经加来、巴黎到佩皮尼昂的逃学路线与最终结局",
+   "掌握 play truant、put ... to shame、in the meantime、as far as、creep off、evade 等核心表达",
+   "辨析 who、while、when、as 引导的从句以及 and、but 构成的并列句",
+   "仿写现在分词作状语的句子，如 while playing truant"
+  ],
+  "summary": "本课记述一个逃学男孩无意中旅行一千六百英里的经历：搭便车到多佛，钻进船里过夜，醒来发现船已开到加来，趁无人注意爬下船，又搭卡车到巴黎，最后被带到法西边境的佩皮尼昂，被警察截获后遣送回英国。",
+  "tips": "put ... to shame（使……相形见绌）不等于 be ashamed of（为……感到羞耻）。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Did the boy go where he wanted to?",
+   "zh": "男孩去了他想去的地方吗？",
+   "a": "No, he didn't. The next car did not take him into the centre of Paris as he hoped it would, but to Perpignan on the French-Spanish border, where a policeman picked him up and the local authorities sent him back to England.",
+   "aZh": "没有。他本来想去巴黎市中心，却被带到了法西边境的佩皮尼昂；他在那里被警察抓住，由当地当局送回了英国。",
+   "hint": "见第 9-10 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "作者为什么说逃学的孩子 unimaginative？他们通常的“极限”是什么？",
+   "zh": "为什么说逃学的孩子缺乏想象力？",
+   "a": "Because a quiet day's fishing, or eight hours in a cinema seeing the same film over and over again, is usually as far as they get — truants never go beyond that.",
+   "aZh": "因为他们最了不起的“壮举”也不过是安静地钓一天鱼，或在电影院里把同一部影片反复看上八小时。",
+   "hint": "见第 1-2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the boy cross the Channel without knowing it?",
+   "zh": "男孩如何在不知情的情况下渡过英吉利海峡？",
+   "a": "He hitchhiked to Dover and, towards evening, went into a boat to find somewhere to sleep. When he woke up next morning, the boat had, in the meantime, travelled to Calais, and no one noticed him as he crept off.",
+   "aZh": "他搭便车到了多佛，天快黑时钻进一条船里找地方睡觉；早上醒来时船已开到加来，他爬下船时谁也没有发现他。",
+   "hint": "见第 4-6 句，注意 in the meantime 与 crept off。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the lorry driver treat him, and why was he finally sent back to England?",
+   "zh": "卡车司机怎样对待他？他为何最终被送回英国？",
+   "a": "The driver gave him a few biscuits and a cup of coffee and left him just outside the city; the next car took him to Perpignan, where a policeman picked him up and the local authorities sent him back to England.",
+   "aZh": "司机给了他几块饼干和一杯咖啡，把他留在城外；下一辆车把他带到佩皮尼昂，他在那里被警察抓住并遣送回英国。",
+   "hint": "见第 8-10 句，pick up 此处意为“逮捕”。"
+  },
+  {
+   "kind": "think",
+   "q": "Was the boy really more imaginative than other truants? Why does the writer call him a record-holder?",
+   "zh": "他真的比其他逃学者更有想象力吗？为什么称他为纪录保持者？",
+   "a": "Hardly by design: he only wanted somewhere to sleep and was carried abroad by chance. The writer calls him a record-holder humorously — by accident he travelled much further than any unimaginative truant, putting them all to shame.",
+   "aZh": "很难说是刻意为之：他只是想找个地方睡觉，却阴差阳错被船带出了国。作者幽默地称他为纪录保持者——他无意中走得比任何逃学者都远。",
+   "hint": "结合标题、unimaginative、put to shame 与 set up a record。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "词汇填空：Many children dream of ______ (evade) school, and some of them even play ______ from it every week.",
+   "a": "evading; truant",
+   "note": "dream of 后接动名词；play truant 逃学。"
+  },
+  {
+   "q": "用现在分词短语改写：While he was playing truant, the boy travelled 1,600 miles.",
+   "a": "While playing truant, the boy travelled 1,600 miles.",
+   "note": "主从句主语一致可省略。"
+  },
+  {
+   "q": "写出 unimaginative 的反义词，并用它翻译：画家应当富于想像力。",
+   "a": "imaginative；Painters should be imaginative.",
+   "note": "un- 是否定前缀。"
+  },
+  {
+   "q": "用 put ... to shame 改写：His 1,600-mile journey made all other truants look ordinary.",
+   "a": "His 1,600-mile journey put all other truants to shame.",
+   "note": "put ... to shame 使……相形见绌。"
+  },
+  {
+   "q": "同义替换：When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais.",
+   "a": "Meanwhile, the boat had travelled to Calais.",
+   "note": "in the meantime = meanwhile。"
+  },
+  {
+   "q": "连词填空：The next car the boy stopped did not take him into the centre of Paris ______ he hoped it would, ______ to Perpignan.",
+   "a": "as; but",
+   "note": "as 引导方式状语从句，but 连接并列状语。"
+  },
+  {
+   "q": "中译英：第二天早上他醒来时发现船已经到了加来，他趁没人注意爬下船，又搭上一辆卡车去了巴黎。",
+   "a": "When he woke up next morning, he discovered that the boat had travelled to Calais. No one noticed him as he crept off, and he hitchhiked to Paris in a lorry.",
+   "note": "creep off 爬离；hitchhike 搭便车。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "标题中的 “the record-holder” 指的是谁？",
+   "options": [
+    "The boy who travelled 1,600 miles while playing truant",
+    "The lorry driver who gave him biscuits and coffee",
+    "The policeman who picked him up",
+    "The child who watched the same film eight hours"
+   ],
+   "answer": 0,
+   "note": "指逃学旅行 1,600 英里的男孩。"
+  },
+  {
+   "q": "“Children who play truant from school are unimaginative.” 中 play truant 的意思是：",
+   "options": [
+    "Stay away from school without permission",
+    "Play games in the playground",
+    "Travel abroad during the holidays",
+    "Sit quietly fishing for a whole day"
+   ],
+   "answer": 0,
+   "note": "play truant (from school) 逃学。"
+  },
+  {
+   "q": "课文中 “that is usually as far as they get” 里的 as far as 表示：",
+   "options": [
+    "To the greatest degree they can ever reach",
+    "To a place very far away",
+    "As long as the day is quiet",
+    "Until the same film is over"
+   ],
+   "answer": 0,
+   "note": "此处表“到……的程度”。"
+  },
+  {
+   "q": "“The boat had, in the meantime, travelled to Calais.” 中 in the meantime 可替换为：",
+   "options": [
+    "meanwhile",
+    "in the end",
+    "as far as",
+    "over and over again"
+   ],
+   "answer": 0,
+   "note": "in the meantime = meanwhile。"
+  },
+  {
+   "q": "选择正确形式填空：No one noticed the boy as he ______ off.",
+   "options": [
+    "creeped",
+    "crept",
+    "was creep",
+    "has creeping"
+   ],
+   "answer": 1,
+   "note": "creep—crept—crept。"
+  },
+  {
+   "q": "男孩最终没能进入巴黎市中心，原因是：",
+   "options": [
+    "The boat took him straight back to England",
+    "The next car took him to Perpignan on the French-Spanish border",
+    "The lorry driver left him inside the city",
+    "He gave up and went back to school"
+   ],
+   "answer": 1,
+   "note": "见第 9 句。"
+  }
+ ]
+}

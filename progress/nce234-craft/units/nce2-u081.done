@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u081",
+ "book": "nce2",
+ "unitId": "u081",
+ "title": "Escape",
+ "subtitle": "脱逃",
+ "hasText": false,
+ "lines": 12,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "8147c5483abc",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

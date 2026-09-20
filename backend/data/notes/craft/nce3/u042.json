@@ -1,0 +1,164 @@
+{
+ "unitId": "u042",
+ "title": "Modern Cavemen",
+ "subtitle": "现代穴居人",
+ "lead": {
+  "question": "作者把高弗·伯杰洞比作什么？深渊探险背后又藏着怎样的艰辛与奇景？",
+  "warmup": "洞穴勘查，又叫 pot-holing，是一项较新的运动。有人为寻求独处，有人为碰上意外发现，甘愿深入地底。深洞探险远非星期日下午散步，它需要军事行动般的周密谋划：搭绳梯、建补给基地，一耗可能八天。世界上已知最深的洞穴——法国高弗·伯杰洞，便是这项运动的圣地。本课将带你跟随一支探险队走进这一黑暗的地下世界。",
+  "goals": [
+   "掌握 pot-holing、pot-holer、cave、cavern、solitude、lure、expedition 等本课核心词汇。",
+   "学会用 it 作形式主语（It is impossible to...）以及 It takes...to do 结构。",
+   "理解并运用定语从句（which/who）、让步从句（Though...）和虚拟条件的倒装（had not the entrance been spotted）。",
+   "读懂高弗·伯杰洞游记的叙事结构，了解洞穴探险的准备、风险与奇景。"
+  ],
+  "summary": "课文先总说 pot-holing 是新兴运动，魅力在于独处与意外发现；深洞探险要求军事行动般的周密计划，甚至花八天搭绳梯、建基地。接着介绍世界最深洞穴——格勒诺布尔附近的高弗·伯杰洞：深 3,723 英尺，洞口仅六英尺宽，由地下暗流冲刷岩缝而成，被奉为洞穴探险者的‘珠峰’。末段记述探险队侧身过窄道、涉浅溪、游深潭、乘橡皮艇渡地下湖，抵达音乐厅般的大岩洞，见到石笋与钟乳石相接的奇景。",
+  "tips": "记住：形容词 solitary 加 -ude 变名词 solitude；表示‘吸引’用 lure sb down，主语常是 the desire/the chance 这类抽象事物。‘洞穴’是 cave，‘大岩洞’用 cavern，‘洞穴探险运动’是 pot-holing，‘探险者’是 pot-holer。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "With what does the writer compare the Gouffre Berger?",
+   "zh": "作者把高弗·伯杰洞比作什么？",
+   "a": "The writer compares it with Mount Everest: since its discovery it has become a sort of potholers' Everest.",
+   "aZh": "作者把它比作珠穆朗玛峰——自从被发现，它便成了洞穴探险者的‘珠峰’。",
+   "hint": "答案见课文“Since its discovery, it has become a sort of potholers' Everest.”一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How deep is the Gouffre Berger and where is its entrance?",
+   "zh": "高弗·伯杰洞有多深？洞口在哪里？",
+   "a": "It extends to a depth of 3,723 feet. The entrance to the cave is on a plateau in the Dauphine Alps.",
+   "aZh": "它深达 3,723 英尺，洞口位于丹芬阿尔卑斯山的一处高原上。",
+   "hint": "见课文“It extends to a depth of 3,723 feet.”与“The entrance to the cave is on a plateau in the Dauphine Alps.”"
+  },
+  {
+   "kind": "detail",
+   "q": "How was this immense chasm formed?",
+   "zh": "这个巨大的裂谷是怎样形成的？",
+   "a": "It has been formed by an underground stream which has tunneled a course through a flaw in the rocks.",
+   "aZh": "它是由一条在地下凿穿岩石裂隙、冲刷出一条通道的暗流形成的。",
+   "hint": "见课文“This immense chasm has been formed by an underground stream which has tunneled a course through a flaw in the rocks.”"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the pot-holers see after they switched on powerful arc lights in the enormous cavern?",
+   "zh": "探险者在巨大的岩洞里打开强力弧光灯后看到了什么？",
+   "a": "They saw great stalagmites, some over forty feet high, rising up like tree-trunks to meet the stalactites suspended from the roof, and piles of limestone glistening in all the colours of the rainbow.",
+   "aZh": "他们看见一株株巨大的石笋，有的高达四十英尺，像树干一样向上长，与洞顶垂下的钟乳石相接；四周一堆堆石灰石闪烁着彩虹般的颜色。",
+   "hint": "见课文“After switching on powerful arc lights...”至该段结尾。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer say that exploring really deep caves is not a task for the 'Sunday afternoon rambler'?",
+   "zh": "作者为什么说探测很深的洞穴不是‘星期日下午漫步者’所能胜任的？",
+   "a": "Because such undertakings require the precise planning and foresight of military operations. It can take as long as eight days to rig up rope ladders and establish supply bases before a descent can be made, for no one can foretell the exact nature of the difficulties which will confront the pot-holer.",
+   "aZh": "因为这类行动需要像军事行动那样周密的计划与预见：为了下到一处很深的洞穴，搭绳梯、建立补给基地可能要花上整整八天，而且无人能预知探险者会遇到何种性质的困难。",
+   "hint": "见课文“Such undertakings require the precise planning and foresight of military operations.”及其后两句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：洞穴勘查，又称洞穴探险，是一项比较新的运动。",
+   "a": "Cave exploration, or pot-holing, as it has come to be known, is a relatively new sport.",
+   "note": "注意 as it has come to be known 插入语"
+  },
+  {
+   "q": "用 solitary 的适当形式填空：Perhaps it is the desire for ____ or the chance of making an unexpected discovery that lures people down to the depths of the earth.",
+   "a": "solitude",
+   "note": "solitary 是形容词，名词为 solitude"
+  },
+  {
+   "q": "句型转换：用 it 作形式主语改写“To give a satisfactory explanation for a pot-holer's motives is impossible.”",
+   "a": "It is impossible to give a satisfactory explanation for a pot-holer's motives.",
+   "note": "it 作形式主语，真正主语是不定式"
+  },
+  {
+   "q": "改错：Exploring really deep caves are not a task for the Sunday afternoon rambler.",
+   "a": "Exploring really deep caves is not a task for the Sunday afternoon rambler.（are 改为 is）",
+   "note": "动名词短语作主语，谓语用单数"
+  },
+  {
+   "q": "用 which 合并：This immense chasm has been formed by an underground stream. + It has tunneled a course through a flaw in the rocks.",
+   "a": "This immense chasm has been formed by an underground stream which has tunneled a course through a flaw in the rocks.",
+   "note": "which 引导定语从句修饰 stream"
+  },
+  {
+   "q": "用 Though 改写：A number of descents have been made, but much of it still remains to be explored.",
+   "a": "Though a number of descents have been made, much of it still remains to be explored.",
+   "note": "though 引导让步状语从句"
+  },
+  {
+   "q": "汉译英：若不是法国著名洞穴探险家伯杰发现了洞口，这个洞也许永远不会被人发现。",
+   "a": "The cave might never have been discovered had not the entrance been spotted by the distinguished French pot-holer, Berger.",
+   "note": "虚拟条件句倒装：had not...been spotted"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者把高弗·伯杰洞比作什么？",
+   "options": [
+    "A huge concert hall",
+    "A sort of potholers' Everest",
+    "A military operation",
+    "An underground lake"
+   ],
+   "answer": 1,
+   "note": "它成了洞穴探险者的‘珠峰’"
+  },
+  {
+   "q": "高弗·伯杰洞的深度是多少？",
+   "options": [
+    "Six feet",
+    "Forty feet",
+    "3,723 feet",
+    "Eight feet"
+   ],
+   "answer": 2,
+   "note": "extend to a depth of 3,723 feet"
+  },
+  {
+   "q": "这个巨大裂谷（chasm）是如何形成的？",
+   "options": [
+    "By an earthquake",
+    "By melting ice",
+    "By volcanic rock",
+    "By an underground stream"
+   ],
+   "answer": 3,
+   "note": "地下暗流冲刷岩缝而成"
+  },
+  {
+   "q": "洞口位于何处？",
+   "options": [
+    "On a plateau in the Dauphine Alps",
+    "Near Grenoble's city centre",
+    "Under a concert hall",
+    "Beside the Gouffre Berger hotel"
+   ],
+   "answer": 0,
+   "note": "entrance on a plateau"
+  },
+  {
+   "q": "作者说探测极深的洞穴需要什么？",
+   "options": [
+    "A Sunday afternoon ramble",
+    "The precise planning and foresight of military operations",
+    "Only a long, strong rope",
+    "A group of mountain climbers"
+   ],
+   "answer": 1,
+   "note": "需军事行动般的计划与预见"
+  },
+  {
+   "q": "关于洞内石笋（stalagmites）的描述，哪一项正确？",
+   "options": [
+    "They hang down from the roof.",
+    "They are only a few inches high.",
+    "Some of them rise over forty feet high like tree-trunks.",
+    "They are made of pure ice."
+   ],
+   "answer": 2,
+   "note": "高达四十英尺如树干"
+  }
+ ]
+}

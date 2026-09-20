@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u039",
+ "book": "nce2",
+ "unitId": "u039",
+ "title": "Am I all right?",
+ "subtitle": "我是否痊愈？",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "b5ffbe3fdd9a",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Five Pounds Too Dear",
+ "subtitle": "五镑也太贵",
+ "lead": {
+  "question": "为什么作者哪怕只花五英镑买下那支钢笔，仍然觉得太贵？",
+  "warmup": "想象你刚下船，就被一群商贩团团围住：波斯地毯、印度丝绸、钻石戒指、名贵钢笔，样样都让人动心。他们开价高得离谱，又忽然肯打个“特别折扣”。你会不会动心买下？课文里的这位游客本想不动声色地讨价还价，结果却买了一件“物美价廉”的纪念品。读之前先想一想：便宜真的等于划算吗？",
+  "goals": ["掌握 no sooner…than 表示“刚……就……”的用法", "学会 bargain、go to great lengths to do、get rid of 等本课表达", "练习直接引语变间接引语（时态后移、人称与时间状语调整）", "读懂课文的讽刺结尾，体会“便宜未必划算”的幽默"],
+  "summary": "大型班船一进港，载满杂货的小船便纷纷靠拢，商贩涌上甲板兜售波斯地毯、印度丝绸和工艺品。作者本想上岸前什么都不买，可下船后先被卖钻石戒指的纠缠许久，又遇上兜售名贵钢笔的商贩。他步步压价，最后只花五英镑买下那支“美国制造”的金笔，得意不已。可回到船上他才发现，钢笔灌不进墨水，一个字也写不出来。",
+  "tips": "no sooner 置于句首时主句要用部分倒装（No sooner had I got off the ship than…），且固定搭配是 than，不可写成 when。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why was even five pounds 'too dear'?", "zh": "为什么五英镑也算太贵了呢？", "a": "Because the pen he bought for five pounds was useless: no matter how hard he tried, it was impossible to fill it with ink, and it never wrote a single word.", "aZh": "因为他花五英镑买的那支钢笔根本没用：无论怎么摆弄都灌不进墨水，到现在一个字也没写过。", "hint": "见课文末句 No matter how hard I tried, it was impossible to fill this beautiful pen with ink…"},
+  {"kind": "detail", "q": "What goods did the men from the boats spread on the deck of the liner?", "zh": "小船上的商贩在客轮甲板上摆出了哪些货物？", "a": "Colourful rugs from Persia, silks from India, copper coffee pots, and beautiful handmade silverware.", "aZh": "色彩斑斓的波斯地毯、印度丝绸、铜咖啡壶以及手工制作的漂亮银器。", "hint": "见第一段 the decks were soon covered with… 一句。"},
+  {"kind": "detail", "q": "How did the man try to prove that his diamonds were real?", "zh": "那个卖钻石的人是怎样证明钻石是真的？", "a": "He held a diamond firmly against a shop window and made a deep impression in the glass.", "aZh": "他把一颗钻石使劲按在商店橱窗的玻璃上，在玻璃上留下一道深痕。", "hint": "见 As we were walking past a shop… 一句。"},
+  {"kind": "detail", "q": "How much did the author finally pay for the pen, and how did the deal end?", "zh": "作者最终为那支钢笔付了多少钱？买卖怎样收场？", "a": "He paid five pounds. The seller kept throwing up his arms in despair but readily accepted the money and thrust the pen into his hands.", "aZh": "他付了五英镑。卖笔人绝望地举起双手，却毫不迟疑地收下钱，把笔塞到他手里。", "hint": "见 he ran after me and thrust the pen into my hands 与 he readily accepted… 两句。"},
+  {"kind": "think", "q": "Why did the author feel pleased with his 'wonderful bargain' at first, and what does the ending tell us?", "zh": "作者起初为何对自己的“绝妙买卖”十分得意？结尾又说明了什么？", "a": "He thought he had beaten the seller by paying only five pounds for a pen said to be worth fifty. But the pen never wrote, so he was really cheated—'cheap' was not 'worth it', and five pounds was still too dear.", "aZh": "他以为只用五英镑就买到号称值五十镑的笔，占了便宜。可那支笔写不出字，他其实被坑了——便宜并不等于划算，五英镑也太贵。", "hint": "结合结尾的反讽与标题 Five pounds too dear 理解。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我刚刚下船，就被一个想向我兜售钻石戒指的人缠住了。", "a": "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a diamond ring.", "note": "no sooner…than 刚…就"},
+  {"q": "将直接引语改为间接引语：The man said, \"The pen is worth £50, but as a special favour I'll let you have it for £30.\"", "a": "The man said that the pen was worth £50, but as a special favour he would let me have it for £30.", "note": "间接引语时态后移"},
+  {"q": "填空：On board, many tourists had begun ______ (bargain) with the tradesmen.", "a": "bargaining", "note": "bargain with sb 讨价还价"},
+  {"q": "填空：Small boats loaded ______ wares sped to the great liner.", "a": "with", "note": "(be) loaded with 满载"},
+  {"q": "改错：I had no intention to buy one, but I could not conceal the fact.", "a": "I had no intention of buying one, but I could not conceal the fact.", "note": "intention of doing"},
+  {"q": "汉译英：他最终把价格降到了10英镑，但我只肯付5英镑。", "a": "He eventually reduced the price to £10, but I was willing to pay only £5.", "note": "reduce…to＋数词"},
+  {"q": "汉译英：那人竭力想证明那些钻石是真的。", "a": "The man went to great lengths to prove that the diamonds were real.", "note": "go to great lengths to do"}
+ ],
+ "quiz": [
+  {"q": "标题 Five Pounds Too Dear 中 dear 在文中的意思是？", "options": ["expensive", "lovely", "precious", "beloved"], "answer": 0, "note": "dear＝expensive 昂贵"},
+  {"q": "作者最终为那支钢笔付了多少钱？", "options": ["£50", "£30", "£10", "£5"], "answer": 3, "note": "最后以5镑成交"},
+  {"q": "卖钻石戒指的人用什么办法证明钻石是真的？", "options": ["He weighed it in his hand.", "He held it against a shop window and made a deep impression in the glass.", "He showed a certificate of quality.", "He cut a piece of glass with it."], "answer": 1, "note": "课文细节：按在橱窗上"},
+  {"q": "作者这次买卖的结果如何？", "options": ["The pen wrote beautifully.", "The pen never wrote a single word.", "The pen was resold at a profit.", "The pen turned out to be genuine."], "answer": 1, "note": "结尾反讽：写不出字"},
+  {"q": "I had no sooner got off the ship than I was assailed by a man. 中 assailed 最接近？", "options": ["greeted", "attacked", "ignored", "entertained"], "answer": 1, "note": "assail＝袭击/纠缠"},
+  {"q": "短语 go to great lengths to do sth. 意为？", "options": ["walk a long way to do sth.", "try very hard to do sth.", "refuse to do sth.", "pretend to do sth."], "answer": 1, "note": "竭力做某事"}
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u002",
+ "title": "Spare That Spider",
+ "subtitle": "别伤害蜘蛛",
+ "lead": {
+  "question": "蜘蛛令人厌恶，作者却称它们是朋友，一年中它们有多少时间在消灭昆虫？",
+  "warmup": "提起蜘蛛，许多人第一反应是厌恶甚至害怕，恨不得立刻拍死。但这篇选自《听众》的文章却大声呼吁：别伤害蜘蛛。作者用一组惊人的数据说明，蜘蛛一年中至少有一半时间在消灭昆虫，功劳远超鸟类和野兽；它们不是昆虫，从不伤害我们与我们财物。读完你就会明白，这个不起眼的小生物，其实是庄稼与牛羊的守护者。",
+  "goals": [
+   "掌握 spider, insect, devour, estimate, acre, census 等本课核心词汇。",
+   "理解并会分析 why, you may wonder 这类插入语及疑问句结构。",
+   "学会用现在完成时与被动语态客观陈述调查、估计等事实。",
+   "能用比较级表达蜘蛛与其他食虫动物在灭虫数量上的差异。"
+  ],
+  "summary": "本文选自《听众》杂志。作者指出蜘蛛是我们的朋友：它们消灭大量昆虫，而昆虫是人类的大敌。与鸟兽相比，蜘蛛消灭的昆虫多得多，且从不伤害我们和我们的财物。蜘蛛不是昆虫，它有八条腿，昆虫至多六条。一位蜘蛛权威调查发现，每英亩草地竟有二百多万只蜘蛛，它们一年至少半年忙于灭虫，所消灭昆虫的总重量超过全英国人的体重。",
+  "tips": "why, you may wonder 是插入语，去掉后句子结构才清楚：You may wonder why spiders should be our friends? 写作时插入语两侧要用逗号隔开，切勿与主句混为一谈。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How much of each year do spiders spend killing insects?",
+   "zh": "蜘蛛一年中有多少时间在消灭昆虫？",
+   "a": "At least half the year.",
+   "aZh": "至少半年。",
+   "hint": "见课文 Spiders are busy for at least half the year in killing insects."
+  },
+  {
+   "kind": "detail",
+   "q": "Why should spiders be our friends?",
+   "zh": "为什么蜘蛛应当是我们的朋友？",
+   "a": "Because they destroy so many insects, and insects include some of the greatest enemies of the human race.",
+   "aZh": "因为它们消灭那么多昆虫，而昆虫中包括一些人类最大的敌人。",
+   "hint": "见课文开头 Because they destroy so many insects…"
+  },
+  {
+   "kind": "detail",
+   "q": "How can one tell a spider from an insect?",
+   "zh": "怎样一眼看出蜘蛛和昆虫的差别？",
+   "a": "A spider always has eight legs and an insect never more than six.",
+   "aZh": "蜘蛛总是有八条腿，而昆虫的腿从不超过六条。",
+   "hint": "见课文 One can tell the difference almost at a glance…"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the authority on spiders estimate in the south of England?",
+   "zh": "那位蜘蛛研究权威在英国南部估计出了什么？",
+   "a": "He estimated that there were more than 2,250,000 spiders in one acre, that is about 6,000,000 of different kinds on a football pitch.",
+   "aZh": "他估计每英亩有225万多只蜘蛛，也就是说一个足球场上约有600万只不同种类的蜘蛛。",
+   "hint": "见课文 made a census… and he estimated that…"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the author say the insects destroyed by spiders in Britain in one year would weigh more than all the people in the country?",
+   "zh": "作者为什么说英国蜘蛛一年消灭的昆虫重量超过全国人口的总重量？",
+   "a": "To show how enormous the spiders' work is, so that we should spare them instead of killing them.",
+   "aZh": "为了说明蜘蛛灭虫的功劳之大，我们应当保护它们而不是伤害它们。",
+   "hint": "结合作者写作目的与课文结尾的估计数据思考。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：昆虫会吞食我们全部的庄稼，杀死我们成群的牛羊。",
+   "a": "Insects would devour all our crops and kill our flocks and herds.",
+   "note": "devour 指狼吞虎咽地吞食。"
+  },
+  {
+   "q": "汉译英：要不是有食虫动物的保护，昆虫就会使我们无法在地球上生活下去。",
+   "a": "If it were not for the protection we get from insect-eating animals, insects would make it impossible for us to live in the world.",
+   "note": "if it were not for 为虚拟语气。"
+  },
+  {
+   "q": "句型转换：They have destroyed a large number of insects.（改为被动语态）",
+   "a": "A large number of insects have been destroyed by them.",
+   "note": "现在完成时的被动为 have been done。"
+  },
+  {
+   "q": "填空：One authority on spiders made a ____ of them and ____ that there were more than 2,250,000 in one ____.",
+   "a": "census / estimated / acre",
+   "note": "census 调查，acre 英亩。"
+  },
+  {
+   "q": "改错：Spiders are not insects, nor even nearly related with them.",
+   "a": "related to them（related to 为固定搭配，不用 with）",
+   "note": "be related to 表示与……有关。"
+  },
+  {
+   "q": "汉译英：与鸟兽相比，蜘蛛消灭的昆虫要多得多。",
+   "a": "Spiders destroy far more insects than birds and beasts do.",
+   "note": "比较级 far more…than 差异明显。"
+  },
+  {
+   "q": "填空：It ____ been estimated that the weight of all the insects destroyed by spiders in Britain in one year ____ be greater than that of all the human beings.",
+   "a": "has / would",
+   "note": "It has been estimated 意为据估计。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "蜘蛛一年中至少有多长时间在消灭昆虫？",
+   "options": [
+    "About one month.",
+    "At least half the year.",
+    "Only a few days.",
+    "Three meals a day."
+   ],
+   "answer": 1,
+   "note": "at least half the year 至少半年。"
+  },
+  {
+   "q": "蜘蛛与昆虫最关键的区别是什么？",
+   "options": [
+    "Spiders destroy our crops.",
+    "A spider has eight legs while an insect has no more than six.",
+    "Spiders have wings but insects do not.",
+    "Spiders live only in grass fields."
+   ],
+   "answer": 1,
+   "note": "八条腿对至多六条腿。"
+  },
+  {
+   "q": "作者认为哪一类动物消灭的昆虫最多？",
+   "options": [
+    "Birds and beasts.",
+    "Spiders.",
+    "Human beings.",
+    "Insect-eating animals."
+   ],
+   "answer": 1,
+   "note": "蜘蛛灭虫远多于鸟兽。"
+  },
+  {
+   "q": "一位权威对英国南部草地蜘蛛数量的估计是？",
+   "options": [
+    "More than 2,250,000 in one acre.",
+    "About 6,000 in one acre.",
+    "Over 6,000,000 in one square mile.",
+    "Fewer than 1,000 on a football pitch."
+   ],
+   "answer": 0,
+   "note": "一英亩超过225万只。"
+  },
+  {
+   "q": "文中 devour 的意思最接近？",
+   "options": [
+    "To protect.",
+    "To eat up greedily.",
+    "To measure.",
+    "To count carefully."
+   ],
+   "answer": 1,
+   "note": "devour 意为贪婪地吞食。"
+  },
+  {
+   "q": "作者写这篇文章的主要目的是什么？",
+   "options": [
+    "To teach readers how to keep spiders as pets.",
+    "To persuade us not to harm spiders.",
+    "To explain how a census is done.",
+    "To compare British and foreign spiders."
+   ],
+   "answer": 1,
+   "note": "呼吁别伤害蜘蛛。"
+  }
+ ]
+}

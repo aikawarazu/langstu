@@ -1,0 +1,40 @@
+{
+ "title": "Taxi!",
+ "subtitle": "出租汽车",
+ "lead": {
+  "question": "弗西特机长的“出租车”竟是一架飞机，他为何拒绝送商人去罗卡尔岛？",
+  "warmup": "出租车通常在街上跑，可本课里的“出租车”却长着翅膀。本·弗西特机长买了一架瑞士小型飞机“皮勒特斯·波特”号，办起空中出租业务：它能载七名乘客，还能在雪地、水面甚至刚耕过的田里降落。他把医生送进威尔士山区，也降过公寓楼顶和废弃停车场。可当一位商人要飞往大西洋孤岛罗卡尔时，他却说了“不”。",
+  "goals": [
+   "掌握 taxi、land、plough、lonely、roof、block、flat、desert、refuse 等本课核心词的词义与搭配",
+   "理解过去分词 ploughed、deserted 作定语的位置规律及其与定语从句的转换",
+   "辨清一般过去时与现在完成时的时间状语差异，能在 since then、once、on another occasion 等语境中正确选时",
+   "区分 refuse 与 deny、bring/take/fetch、too 与 very，并掌握 a most + 形容词 表“非常”"
+  ],
+  "summary": "本文讲述弗西特机长用一架瑞士小飞机经营空中出租车的故事。开篇用现在完成时（has bought、has begun）交代新业务，中间用一般过去时（flew、landed、wanted、did not take）追述一次次具体飞行：送医生进威尔士山区、降落在公寓楼顶与废弃停车场。结尾以 has just refused 回到现在，用 because the trip was too dangerous 点明拒绝理由。",
+  "tips": "诀窍：见 since then、just 想到现在完成时，见 once、on another occasion 想到一般过去时；另外 a most + 形容词 中的 most 等于 very，并非最高级。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Does Captain Fawcett think any trip is too dangerous?", "zh": "弗西特机长认为任何行程都太危险吗？", "a": "No, he doesn't. He has already flown passengers to many unusual places; he refused only this one because the trip to Rockall was too dangerous.", "aZh": "不。他已经载送乘客到过许多不寻常的地方，只是因为飞往罗卡尔岛的这趟飞行太危险，才拒绝了这一次。", "hint": "答案落在最后一句：Captain Fawcett did not take him because the trip was too dangerous。"},
+  {"kind": "detail", "q": "Why is the word 'taxi' printed in quotation marks, and what does 'a most unusual taxi' mean?", "zh": "为什么 taxi 一词要加引号？“一辆最不寻常的出租汽车”该怎么理解？", "a": "Because it is not a real taxi but a small Swiss aeroplane called a 'Pilatus Porter'. In 'a most unusual taxi', most means very, not the superlative.", "aZh": "因为它不是真正的汽车，而是一架叫“皮勒特斯·波特”号的瑞士小型飞机；“a most unusual taxi”里的 most 相当于 very。", "hint": "见课文第 1-2 句。"},
+  {"kind": "detail", "q": "Which two unusual landing places does the text give as examples?", "zh": "课文举了他两次不寻常的降落，分别是哪里？", "a": "Once he landed on the roof of a block of flats, and on another occasion he landed in a deserted car park.", "aZh": "一次，他把飞机降落在了一栋公寓楼的楼顶上；还有一次，降落在了一个废弃的停车场上。", "hint": "见原句 Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park。"},
+  {"kind": "detail", "q": "What is the difference between refuse and deny, and which word does the text use about the strange request?", "zh": "refuse 与 deny 有何区别？课文中拒绝商人请求用的是哪个词？", "a": "The text uses refuse: 'Captain Fawcett has just refused a strange request'. When it means 'not to accept or not to give', refuse and deny can replace each other, but only deny means 'to say that something is not true'.", "aZh": "课文用的是 refuse。表示“拒绝接受、拒绝给予”时 refuse 与 deny 可互换；但只有 deny 有“否认”之义。", "hint": "见讲义语法：has just refused a strange request。"},
+  {"kind": "think", "q": "Captain Fawcett has flown passengers to many unusual places, yet he refused to fly to Rockall. Is he a coward?", "zh": "机长去过许多不寻常的地方，却唯独拒绝飞往罗卡尔岛。他是胆小吗？", "a": "No. He is not afraid of unusual places — he has landed on snow, water, a ploughed field, a roof and a car park. He refused only because the trip was too dangerous, which shows that he is a responsible pilot who puts his passengers' safety first.", "aZh": "不是。他从不畏惧不寻常的地方；他拒绝只是因为那段飞行太危险，说明他是把乘客安全放在第一位的负责机长。", "hint": "结合 has flown passengers to many unusual places 与 because the trip was too dangerous。"}
+ ],
+ "exercises": [
+  {"q": "课文标题里的 taxi 为什么要加引号？补全：Because it is not a real taxi but ______.", "a": "a small Swiss aeroplane called a 'Pilatus Porter'", "note": "引号表示“所谓的”。"},
+  {"q": "用过去分词作定语翻译：一片耕过的田；一个废弃的停车场。", "a": "a ploughed field; a deserted car park", "note": "单个过去分词作定语常前置。"},
+  {"q": "选词填空：The doctor flew to a ______ village in the Welsh mountains.（lonely / alone）", "a": "lonely", "note": "lonely 可修饰地点，表“偏僻的”。"},
+  {"q": "用 refuse 或 deny 的正确形式填空：The secretary ______ that she has stolen the letter.", "a": "denied", "note": "否认用 deny，拒绝用 refuse。"},
+  {"q": "bring / take / fetch 选词填空：Please ______ me a glass of water from the kitchen.", "a": "fetch", "note": "fetch 双程，bring 带来，take 拿走。"},
+  {"q": "改写句子：The trip was very dangerous, so he did not go. → The trip was ______ dangerous for him ______ go.", "a": "too; to", "note": "too ... to ... 表“太……而不能”。"},
+  {"q": "时态填空：Since then, Captain Fawcett ______ (fly) passengers to many unusual places. Once he ______ (land) on the roof of a block of flats.", "a": "has flown; landed", "note": "since then 用完成时，once 用过去时。"}
+ ],
+ "quiz": [
+  {"q": "弗西特机长买下的那辆“出租汽车”实际上是什么？", "options": ["A Swiss train running in the mountains", "A red London double-decker bus", "A small Swiss aeroplane called a 'Pilatus Porter'", "A large ship that carries seven cars"], "answer": 2, "note": "课文第 2 句即给出名称。"},
+  {"q": "关于这架飞机，最令人惊奇的一点是什么？", "options": ["It can carry seventy passengers", "It can fly without a pilot", "It is painted bright red", "It can land anywhere: on snow, water, or even on a ploughed field"], "answer": 3, "note": "The most surprising thing 后接表语从句。"},
+  {"q": "弗西特机长的第一位乘客是谁，飞往何处？", "options": ["A doctor who flew from Birmingham to a lonely village in the Welsh mountains", "A businessman who wanted to fly to Rockall", "A farmer who worked in a ploughed field", "An engineer from a Swiss factory"], "answer": 0, "note": "first passenger 后由 who 引导定语从句。"},
+  {"q": "有一次，弗西特机长把飞机降落在了哪里？", "options": ["On a busy street in Birmingham", "On the roof of a block of flats", "Inside a Welsh mountain", "On the top of a Swiss hotel"], "answer": 1, "note": "a block of flats 意为“一栋公寓楼”。"},
+  {"q": "那位商人想飞去的地方是哪里？", "options": ["Rockall, a lonely island in the Atlantic Ocean", "Birmingham, a big city in England", "A deserted car park in Wales", "A ploughed field near the village"], "answer": 0, "note": "Rockall 是大西洋中的孤岛。"},
+  {"q": "弗西特机长为什么没有带那位商人去？", "options": ["The businessman had no money with him", "His plane was already full of passengers", "The trip was too dangerous", "The island had no place to land at all"], "answer": 2, "note": "because 引导原因状语从句。"}
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Predicting the Future",
+ "subtitle": "预测未来",
+ "lead": {
+  "question": "为什么说莱昂·巴格瑞特在20世纪60年代对计算机未来的预测格外非凡？",
+  "warmup": "本课回顾计算机从笨重主机到个人电脑、再到国际互联网的惊人演变，并介绍英国人莱昂·巴格瑞特。他在20世纪60年代就预言了今天电脑的许多用途，却没能预见互联网的诞生。边读边想：预测未来为何如此困难？注意体会 predict、foresee 与将来时、虚拟语气的表达。",
+  "goals": ["掌握 predict、foresee、forecast 等表示'预测'的动词用法。", "理解并运用 would 与过去将来时描述从过去看将来的事。", "辨析 though 引导的让步从句和 Nor 置句首的倒装结构。", "体会与现在事实相反的虚拟语气（If he were alive today...）。"],
+  "summary": "课文以计算机的演变为线索：从占据整间空调房的主机，到1975年的牛郎星、苹果机与IBM个人电脑，再到今天小巧廉价的电脑和多媒体设备。作者由此赞叹莱昂·巴格瑞特：在个人电脑尚未问世的60年代，他就预言了掌上电脑、路况提示、辅助诊断等用途，却没能预见互联网。",
+  "tips": "predict 强调凭知识'预言、预测'未来，forecast 多指依据数据的'预报'（天气、经济）；foresee 意为'预见到'，后接名词或从句，别与 look forward to（期待）混淆。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the 'future' electronic development that Leon Bagrit wasn't able to foresee?", "zh": "莱昂·巴格瑞特未能预见到的'未来'电子发展是什么？", "a": "The development of the Internet, the worldwide system that links computers to telephone networks and lets us communicate instantly with anyone anywhere.", "aZh": "国际互联网的发展——把计算机连接到电话网络、可与世界任何地方的人即时通讯的世界性系统。", "hint": "见课文 'could not possibly have foreseen the development of the Internet...'"},
+  {"kind": "detail", "q": "In the 1970s, where were computers mainly used?", "zh": "20世纪70年代，计算机主要用在什么地方？", "a": "Only in big business, government departments and large organizations — the so-called mainframe machines.", "aZh": "只用在大公司、政府部门和大的组织之中，即所谓的主机。", "hint": "见 'but only in big business, government departments, and large organizations'"},
+  {"kind": "detail", "q": "What was the Altair, launched in the USA in 1975?", "zh": "1975年在美国推出的'牛郎星'是什么？", "a": "A primitive machine that can properly be described as the first 'home computer' and that pointed the way to the future.", "aZh": "一台原始机型，严格来说可称为第一台'家用电脑'，并指明了未来的方向。", "hint": "见 'In 1975, a primitive machine called the Altair...' 及下一句"},
+  {"kind": "detail", "q": "What idea did Bagrit dismiss, and what did he foresee instead?", "zh": "巴格瑞特不接受什么想法，又预示了什么？", "a": "He dismissed the idea that computers would learn to 'think' and 'rule the world'; he foresaw small hand-held computers that give traffic information, help doctors diagnose illnesses and relieve clerks of dull work.", "aZh": "他不接受计算机会学会自己'思考'并'统治世界'的想法；他预示计算机可小到拿在手上、提供路况信息、辅助医生诊断、免除职员的枯燥工作。", "hint": "见 'Bagrit dismissed the idea...' 与 'Bagrit foresaw a time when...'"},
+  {"kind": "think", "q": "Why does the author think Leon Bagrit's predictions are particularly remarkable?", "zh": "作者为什么认为莱昂·巴格瑞特的预测格外非凡？", "a": "Because in the 1960s, long before personal computers existed, he already predicted many computer uses we take for granted today; given how recent these developments are, such foresight looks all the more remarkable.", "aZh": "因为在个人电脑尚未出现的20世纪60年代，他就已预见了我们今天习以为常的许多计算机用途；考虑到这些发展距今如此之近，这样的先见之明就更显得非凡。", "hint": "见 'Considering how recent these developments are, it is even more remarkable...' 及文末 'This is what makes...'"}
+ ],
+ "exercises": [
+  {"q": "汉译英：众所周知，预测未来是非常困难的。", "a": "It is notoriously difficult to predict the future.", "note": "predict 后接名词或从句"},
+  {"q": "填空：Who could have ____ (imagine), in the mid 1970s, that computers ____ (be) as common in people's homes as TV sets?", "a": "imagined; would be", "note": "could have done 表过去推测"},
+  {"q": "句型转换：These large machines still exist. Many of their functions have been taken over by small powerful personal computers.（用 Though 合并为一句）", "a": "Though these large machines still exist, many of their functions have been taken over by small powerful personal computers.", "note": "though 引导让步从句"},
+  {"q": "填空（虚拟语气）：If he, or someone like him, ____ (be) alive today, he ____ (be) able to tell us what to expect in the next fifty years.", "a": "were; might be", "note": "与现在相反的虚拟语气"},
+  {"q": "改错：Nor he could have foreseen how we could use the Internet to obtain information.", "a": "Nor could he have foreseen how we could use the Internet to obtain information.", "note": "Nor 置句首须倒装"},
+  {"q": "汉译英：巴格瑞特预示有一天计算机可以小到拿在手上。", "a": "Bagrit foresaw a time when computers would be small enough to hold in the hand.", "note": "a time when 引导定语从句"},
+  {"q": "汉译英：天气预报说明天将有大雨。", "a": "The weather forecast says there will be heavy rain tomorrow.", "note": "forecast 多指天气/经济预报"}
+ ],
+ "quiz": [
+  {"q": "课文认为，20世纪70年代的计算机主要使用在哪些地方？", "options": ["In people's homes and schools.", "In small family shops.", "In big business, government departments and large organizations.", "Only in hospitals."], "answer": 2, "note": "文中说明当时只在机关、企业和大型组织使用。"},
+  {"q": "1975年在美国推出、被称为第一台'家用电脑'的原始机型是？", "options": ["The Apple.", "The Altair.", "The IBM Personal Computer.", "Microsoft DOS."], "answer": 1, "note": "Altair 于1975年问世，被视为首台'家用电脑'。"},
+  {"q": "巴格瑞特拒绝接受 (dismissed) 的关于计算机的想法是什么？", "options": ["That computers would learn to 'think' for themselves and 'rule the world'.", "That computers would become smaller and cheaper.", "That computers could help doctors diagnose illnesses.", "That computers could give advice about traffic jams."], "answer": 0, "note": "他否定'计算机会思考并统治世界'之说。"},
+  {"q": "巴格瑞特没能预见的'未来'电子发展是什么？", "options": ["The spread of personal computers.", "The DOS operating system.", "The use of computers in hospitals.", "The development of the Internet."], "answer": 3, "note": "他无法预见互联网这一世界性通讯系统。"},
+  {"q": "课文里 'it pointed the way to the future' 中的 it 指什么？", "options": ["The IBM Personal Computer.", "Microsoft's operating system.", "The Altair, the first primitive home computer.", "The mainframe computer."], "answer": 2, "note": "it 承接上句，指代牛郎星机。"},
+  {"q": "课文最后一句 'If he... were alive today, he might be able to tell us...' 使用了什么语气？", "options": ["The imperative mood, giving an order.", "The subjunctive mood, expressing an unreal condition.", "The simple present tense, stating a general fact.", "The future perfect tense, predicting a result."], "answer": 1, "note": "were + might be 表达与现在相反的假设。"}
+ ]
+}

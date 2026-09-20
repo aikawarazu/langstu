@@ -1,0 +1,92 @@
+{
+ "unitId": "u024",
+ "lessons": [
+  {
+   "lesson": 47,
+   "title": "A cup of coffee",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "MRS YOUNG",
+     "en": "Do you like coffee, Mrs Price?"
+    },
+    {
+     "i": 1,
+     "speaker": "MRS PRICE",
+     "en": "Yes, I do."
+    },
+    {
+     "i": 2,
+     "speaker": "MRS YOUNG",
+     "en": "Do you want a cup?"
+    },
+    {
+     "i": 3,
+     "speaker": "MRS PRICE",
+     "en": "Yes, please. Mrs Young."
+    },
+    {
+     "i": 4,
+     "speaker": "MRS YOUNG",
+     "en": "Do you want any sugar?"
+    },
+    {
+     "i": 5,
+     "speaker": "MRS PRICE",
+     "en": "Yes, please."
+    },
+    {
+     "i": 6,
+     "speaker": "MRS YOUNG",
+     "en": "Do you want any milk?"
+    },
+    {
+     "i": 7,
+     "speaker": "MRS PRICE",
+     "en": "No, thank you. I don't like milk in my coffee. I like black coffee."
+    },
+    {
+     "i": 8,
+     "speaker": "MRS YOUNG",
+     "en": "Do you like biscuits?"
+    },
+    {
+     "i": 9,
+     "speaker": "MRS PRICE",
+     "en": "Yes, I do."
+    },
+    {
+     "i": 10,
+     "speaker": "MRS YOUNG",
+     "en": "Do you want one?"
+    },
+    {
+     "i": 11,
+     "speaker": "MRS PRICE",
+     "en": "Yes, please."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "47": [
+   "克里斯廷：你喜欢咖啡吗，安？",
+   "安：是的，我喜欢。",
+   "克里斯廷：你想要一杯吗？",
+   "安：好的，请来一杯，克里斯廷。",
+   "克里斯廷：你要放些糖吗？",
+   "安：好的，请放一些。",
+   "克里斯廷：要放些牛奶吗？",
+   "安：不了，谢谢。我不喜欢咖啡中放牛奶，我喜欢咖啡。",
+   "克里斯廷：你喜欢饼干吗？",
+   "安：是的，我喜欢。",
+   "克里斯廷：你想要一块吗？",
+   "安：好的，请来一块。"
+  ]
+ },
+ "rawPage": {
+  "47": "207.txt"
+ },
+ "parsedTranslation": []
+}

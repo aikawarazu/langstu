@@ -1,0 +1,164 @@
+{
+ "unitId": "u047",
+ "title": "Too High a Price",
+ "subtitle": "代价太高",
+ "lead": {
+  "question": "作者为何说现代化的代价太高？哪些污染正悄悄侵袭我们的日常生活？",
+  "warmup": "本课从“污染”谈起：人口过密、过度工业化的星球让我们付出代价。作者先列举垃圾与廉价食物带来的污染，再聚焦城市噪音——从防盗警报、汽车鸣笛到深夜聚会和鼾声。阅读时留意作者如何用列举、调查数据和让步句层层推进，最后感叹寂静已成黄金般的回忆。",
+  "goals": [
+   "掌握 pollution、noise、pesticide、snore、insidious 等本课核心词汇。",
+   "理解并会运用 the price we pay for... 描述“付出的代价”。",
+   "复习被动语态与比较级（an even more insidious kind）。",
+   "学会用 whatever 引导的让步状语从句概括观点。"
+  ],
+  "summary": "课文指出污染是人类为过度工业化星球付出的代价：垃圾、廉价食物中的疯牛病与沙门氏菌，以及更隐蔽的噪音污染。调查列出割草机、深夜聚会、集装箱卡车、手机等噪音源，并揭示最“有趣”的老式噪音竟是鼾声。作者最后感叹，寂静已成一种黄金般的回忆。",
+  "tips": "易错提醒：price 后的定语从句常省去 that（the price we pay for...），勿再加 what；ever-increasing 是合成形容词作定语，不可拆成 ever increasing。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What does the writer describe as an 'amusing old-fashioned source of noise'?",
+   "zh": "作者把什么描述为“一种有趣的老式噪音源”？",
+   "a": "Snoring.",
+   "aZh": "鼾声。",
+   "hint": "见课文倒数第四段：'...a possibly amusing old-fashioned source of noise. It turned out to be snoring!'"
+  },
+  {
+   "kind": "detail",
+   "q": "What are the only four ways we can deal with rubbish?",
+   "zh": "我们对付垃圾只有哪四种方法？",
+   "a": "Dump it, burn it, turn it into something we can use again, and attempt to produce less of it.",
+   "aZh": "倾倒、焚烧、把垃圾变成可再利用的东西、设法少产生一些垃圾。",
+   "hint": "见课文第二段列举的四种方法。"
+  },
+  {
+   "kind": "detail",
+   "q": "What price may we already be paying for cheap food?",
+   "zh": "为廉价食物我们可能正在付出什么代价？",
+   "a": "Mad Cow Disease (BSE) in cattle, salmonella in chicken and eggs, and listeria in dairy products.",
+   "aZh": "牛群的疯牛病、鸡肉和鸡蛋中的沙门氏菌，以及奶制品中的利斯特杆菌。",
+   "hint": "见课文第八段：The price we pay for cheap food may be already too high..."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the recent survey of the effects of noise reveal about snoring?",
+   "zh": "最近关于噪音影响的调查在打鼾方面揭示了什么？",
+   "a": "20% of men in their mid-thirties snore, rising to a staggering 60% of men in their sixties; only 5% of women snore regularly.",
+   "aZh": "35岁左右的男性中20%打鼾，到60多岁上升到惊人的60%；仅5%的女性经常打鼾。",
+   "hint": "见课文最后几段的调查数据。"
+  },
+  {
+   "kind": "think",
+   "q": "What does the writer mean by saying 'silence has become a golden memory'?",
+   "zh": "作者说“寂静已成为一种黄金般的回忆”是什么意思？",
+   "a": "Noise is now so widespread that true quiet is rare and precious, almost a thing of the past; the writer laments that we have lost silence and can only remember it as a treasure.",
+   "aZh": "噪音如今无处不在，真正的安静稀少而珍贵，几乎成了过去的事物；作者感叹我们已失去寂静，只能把它当作珍贵的回忆。",
+   "hint": "见课文最后一句的总结与作者的惋惜语气。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：污染就是我们为这个人口过密、过度工业化的星球所付出的代价。",
+   "a": "Pollution is the price we pay for an overpopulated, over-industrialized planet.",
+   "note": "price后定语从句省去that。"
+  },
+  {
+   "q": "填空：The use of pesticides and fertilizers ____ (produce) cheap grain and vegetables.",
+   "a": "produces",
+   "note": "主语中心词是use，谓语用单数。"
+  },
+  {
+   "q": "将下面句子改为被动语态：Car alarms constantly scream at us in the street.",
+   "a": "We are constantly screamed at by car alarms in the street.",
+   "note": "被动语态改写，保留in the street。"
+  },
+  {
+   "q": "汉译英：不管噪声来自何方，有一点是肯定的：寂静已变成一种珍贵的回忆。",
+   "a": "Whatever the source of noise, one thing is certain: silence, it seems, has become a golden memory.",
+   "note": "whatever引导让步状语从句。"
+  },
+  {
+   "q": "改错：20% of men in their mid-thirties snores.",
+   "a": "snores → snore",
+   "note": "百分比作主语，谓语随of后名词。"
+  },
+  {
+   "q": "汉译英：还有一种更加隐蔽有害的污染，它侵袭我们的日常生活。",
+   "a": "There is an even more insidious kind of pollution that invades our daily lives.",
+   "note": "even修饰比较级，表“更加”。"
+  },
+  {
+   "q": "汉译英：新技术也为噪音作出了自己的贡献。",
+   "a": "New technology has also made its own contribution to noise.",
+   "note": "固定搭配make a contribution to。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者认为污染是什么的代价？",
+   "options": [
+    "the price people pay for an over-industrialized planet",
+    "a golden memory of the past",
+    "a natural source of energy",
+    "an amusing old-fashioned habit"
+   ],
+   "answer": 0,
+   "note": "首句即为课文主旨。"
+  },
+  {
+   "q": "课文说对付垃圾只有几种方法？",
+   "options": [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+   ],
+   "answer": 2,
+   "note": "第二段明确列出四种。"
+  },
+  {
+   "q": "廉价食物让人类付出了哪些代价？",
+   "options": [
+    "Mad Cow Disease, salmonella and listeria",
+    "Cars and container trucks",
+    "Mobile phones and radios",
+    "Lawn mowers and helicopters"
+   ],
+   "answer": 0,
+   "note": "第八段列举的疾病。"
+  },
+  {
+   "q": "在1至7级的噪音污染刻度上，位列最严重的是什么？",
+   "options": [
+    "Dogs barking at night",
+    "Car alarms screaming",
+    "Late-night parties",
+    "Noisy neighbours"
+   ],
+   "answer": 0,
+   "note": "夜间狗叫声被评为最高级。"
+  },
+  {
+   "q": "调查显示，60多岁的男性打鼾比例上升到多少？",
+   "options": [
+    "20%",
+    "35%",
+    "60%",
+    "5%"
+   ],
+   "answer": 2,
+   "note": "a staggering 60% of men in their sixties。"
+  },
+  {
+   "q": "文章结尾说寂静如今变成了什么？",
+   "options": [
+    "A golden memory",
+    "A steady diet",
+    "A public place",
+    "An old-fashioned source"
+   ],
+   "answer": 0,
+   "note": "末句silence...has become a golden memory。"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "unitId": "u026",
+ "lessons": [
+  {
+   "lesson": 51,
+   "title": "A pleasant climate",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "HANS",
+     "en": "Where do you come from?"
+    },
+    {
+     "i": 1,
+     "speaker": "DIMITRI",
+     "en": "I come from Greece."
+    },
+    {
+     "i": 2,
+     "speaker": "HANS",
+     "en": "What's the climate like in your country?"
+    },
+    {
+     "i": 3,
+     "speaker": "DIMITRI",
+     "en": "It's very pleasant."
+    },
+    {
+     "i": 4,
+     "speaker": "HANS",
+     "en": "What's the weather like in spring?"
+    },
+    {
+     "i": 5,
+     "speaker": "DIMITRI",
+     "en": "It's often windy in March. It's always warm in April and May, but it rains sometimes."
+    },
+    {
+     "i": 6,
+     "speaker": "HANS",
+     "en": "What's it like in summer?"
+    },
+    {
+     "i": 7,
+     "speaker": "DIMITRI",
+     "en": "It's always hot in June, July and August. The sun shines every day."
+    },
+    {
+     "i": 8,
+     "speaker": "HANS",
+     "en": "Is it cold or warm in autumn?"
+    },
+    {
+     "i": 9,
+     "speaker": "DIMITRI",
+     "en": "It's always warm in September and October. It's often cold in November and it rains sometimes."
+    },
+    {
+     "i": 10,
+     "speaker": "HANS",
+     "en": "Is it very cold in winter?"
+    },
+    {
+     "i": 11,
+     "speaker": "DIMITRI",
+     "en": "It's often cold in December, January and February. It snows sometimes."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "51": [
+   "汉 斯：你是哪国人？",
+   "迪米特里：我是希腊人。",
+   "汉 斯：你们的国家的气候是怎么样？",
+   "迪米特里：气候非常宜人。",
+   "汉 斯：春季的天气怎么样？",
+   "迪米特里：3月里常常刮风。",
+   "4月和5月的天气总暖洋洋的，",
+   "但有时下雨。",
+   "汉 斯：夏季的天气如何呢？",
+   "迪米特里：6月、7月和8月的天气总是炎热的",
+   "每天都出太阳。",
+   "汉 斯：秋季的天气是冷还是暖呢？",
+   "迪米特里：9月和10月总是很暖和，",
+   "11月常常就冷了，而且有时下雨。",
+   "汉 斯：冬季的天气很冷吗？",
+   "迪米特里：12月、1月和2月常常很冷，",
+   "有时还下雪。"
+  ]
+ },
+ "rawPage": {
+  "51": "209.txt"
+ },
+ "parsedTranslation": []
+}

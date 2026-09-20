@@ -1,0 +1,35 @@
+{
+ "title": "The Double Life of Alfred Bloggs",
+ "subtitle": "阿尔弗雷德·布洛格斯的双重生活",
+ "lead": {
+  "question": "阿尔弗雷德·布洛格斯本是清洁工，为何却一心想当白领、还向妻子隐瞒职业？",
+  "warmup": "本课讲一个有趣的社会现象：体力劳动者收入更高，许多人却宁愿少挣钱也要当“白领”。清洁工艾尔弗雷德·布洛格斯就是这样一位“双重生活”者——他每天西装革履出门，再换上工作服扫街，连妻子都蒙在鼓里。阅读时请注意作者如何用对比和幽默揭示这种身份焦虑，并留意文中现在完成时的用法。",
+  "goals": ["掌握 manual work, white-collar, collar, dustman, overalls, corporation, fellow, status 等职业与身份词汇。", "理解并运用 too...to、half as much as、sacrifice A for B 等句型。", "区分现在完成时与一般过去时，特别是与 ago / for 的搭配习惯。", "读懂课文的社会讽刺意味，能用英语复述阿尔弗雷德的“双重生活”。"],
+  "summary": "课文指出，如今体力劳动者的收入常高于坐办公室的人，可许多人仍愿牺牲高薪去换取当“白领”的殊荣。清洁工艾尔弗雷德·布洛格斯就是如此：他为埃尔斯米尔公司扫街，却对妻子谎称在公司上班，每天西装出门、换上工作服干活，两年多来靠同事保密。如今他即将真正坐进办公室，收入减半，但他觉得地位提升值得。",
+  "tips": "易错提醒：现在完成时不能与表示过去的具体时间状语（如 ago）连用——“Alf has worked as a dustman two years ago”是病句，应改为“Alf worked as a dustman two years ago”或“Alf has worked as a dustman for two years”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did Alf want a white-collar job?", "zh": "阿尔弗雷德为什么想要一份白领工作？", "a": "Because he was willing to sacrifice higher pay for the privilege of becoming a white-collar worker; he felt that his rise in status was well worth the loss of money.", "aZh": "因为他情愿放弃更高的薪水，以换取做白领工人的殊荣；他觉得地位提升了，损失点钱也值得。", "hint": "答案出自第3段 willing to sacrifice higher pay for the privilege of becoming white-collar workers 与末段 his rise in status is well worth the loss of money。"},
+  {"kind": "detail", "q": "What did Alf tell his wife about his job?", "zh": "阿尔弗雷德对妻子是怎么说他的工作的？", "a": "He simply told her that he worked for the Corporation; he never mentioned that he was a dustman.", "aZh": "他只告诉妻子自己在埃尔斯米尔公司上班，从未提起自己是清洁工。", "hint": "见第5段 He simply told her that he worked for the Corporation."},
+  {"kind": "detail", "q": "How did Alf keep his job a secret every day?", "zh": "阿尔弗雷德每天怎样隐瞒自己的工作？", "a": "Every morning he left home dressed in a smart black suit, then changed into overalls to spend eight hours as a dustman; before returning home he took a shower and changed back into his suit.", "aZh": "每天早晨他穿着漂亮的黑色西装离家，然后换上工作服当八小时清洁工；晚上回家前先洗个淋浴，再换回西服。", "hint": "见第6至8段关于他每天换装的描写。"},
+  {"kind": "detail", "q": "Who kept his secret, and how long did his double life last?", "zh": "谁替他保守秘密？他的双重生活持续了多久？", "a": "His fellow dustmen kept his secret, and he did this for over two years.", "aZh": "他的清洁工同事们为他保密，这样的双重生活持续了两年多。", "hint": "见第9段 his fellow dustmen kept his secret... did this for over two years。"},
+  {"kind": "think", "q": "What does the title 'the double life' suggest, and why is the ending ironic?", "zh": "“双重生活”这一标题暗示了什么？为什么结局带有讽刺意味？", "a": "It suggests that Alf lived two identities — a smartly dressed office man outside and a dustman at work. The ending is ironic because the only way he can stop lying is to become what he pretended to be: he must give up half his pay just to be called 'Mr. Bloggs'.", "aZh": "它暗示阿尔弗雷德过着两种身份——外表是西装革履的上班族，实际却是清洁工。结局的讽刺在于：他终止谎言的办法竟是变成自己假装的那种人——为了被称作“布洛格斯先生”，他不得不放弃一半收入。", "hint": "综合标题与末段 He will be earning only half as much... his rise in status is well worth the loss of money... others will call him 'Mr. Bloggs'。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：如今，从事体力劳动的人往往比坐办公室的人挣得多得多。", "a": "These days, people who do manual work often receive far more money than people who work in offices.", "note": "manual work 体力劳动"},
+  {"q": "填空：People who work in offices are frequently referred to as '___ workers' for the simple reason that they usually wear a ___ and tie to go to work.", "a": "white-collar; collar", "note": "white-collar 白领；collar 衣领"},
+  {"q": "汉译英：艾尔弗太难为情了，没把工作的事告诉妻子。", "a": "Alf was too embarrassed to say anything to his wife about his job.", "note": "too...to 太……而不能"},
+  {"q": "填空：Alf worked as a ___ for the Ellesmere ___ , and after leaving home in a smart black suit he changed into ___ .", "a": "dustman; Corporation; overalls", "note": "dustman 清洁工；overalls 工作服"},
+  {"q": "改错：Alf has worked as a dustman two years ago.", "a": "Alf worked as a dustman two years ago.（或：Alf has worked as a dustman for two years.）", "note": "ago 不与现在完成时连用"},
+  {"q": "改为被动语态：His fellow dustmen kept his secret.", "a": "His secret was kept by his fellow dustmen.", "note": "keep a secret 保守秘密"},
+  {"q": "汉译英：他挣的钱将只有过去的一半，但他觉得地位提升值得这点损失。", "a": "He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.", "note": "half as much as 一半之多"}
+ ],
+ "quiz": [
+  {"q": "阿尔弗雷德为什么想要一份白领工作？", "options": ["Because he wanted to earn more money.", "Because he wanted the privilege and higher status of being a white-collar worker.", "Because he was tired of physical labour.", "Because his wife wanted him to change jobs."], "answer": 1, "note": "他为地位而牺牲高薪。"},
+  {"q": "阿尔弗雷德对妻子是怎么说自己的工作的？", "options": ["He told her he was a dustman.", "He told her he worked for the Corporation.", "He told her he was out of work.", "He told her he owned the Corporation."], "answer": 1, "note": "只说在公司上班。"},
+  {"q": "阿尔弗雷德每天是怎么伪装自己的？", "options": ["He wore overalls to the office.", "He left home in a smart black suit and changed into overalls at work.", "He worked only at night.", "He never went home after work."], "answer": 1, "note": "西装出门，换工作服。"},
+  {"q": "谁帮阿尔弗雷德保守了秘密？", "options": ["His wife.", "His boss.", "His fellow dustmen.", "His neighbours."], "answer": 2, "note": "同事为他保密。"},
+  {"q": "换了新工作后，阿尔弗雷德的收入会怎样？", "options": ["He will earn twice as much as before.", "He will earn about the same as before.", "He will earn only half as much as he used to.", "He will earn nothing at all."], "answer": 2, "note": "收入减半。"},
+  {"q": "下面哪一句正确使用了现在完成时？", "options": ["Alf has worked as a dustman two years ago.", "Alf has just found another job.", "Alf is finding another job just now.", "Alf finds another job recently."], "answer": 1, "note": "现在完成时不可与 ago 连用。"}
+ ]
+}

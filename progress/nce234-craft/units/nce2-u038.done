@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u038",
+ "book": "nce2",
+ "unitId": "u038",
+ "title": "Everything except the weather",
+ "subtitle": "唯独没有考虑到天气",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "3db9b34febdf",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

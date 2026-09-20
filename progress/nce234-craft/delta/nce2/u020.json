@@ -1,0 +1,40 @@
+{
+ "title": "One man in a boat",
+ "subtitle": "独坐孤舟",
+ "lead": {
+  "question": "作者守河钓鱼却常常空手而归，为何仍说钓鱼是最爱的运动？",
+  "warmup": "清晨的河面、一根钓竿、几小时的静坐——多数人以收获衡量钓鱼，一个上午空手回家便觉得白费工夫。可本课的作者恰恰相反：他从不为“没钓到”烦恼，不在乎朋友劝他放弃、说这是浪费时间，甚至连“运气不如别人”也说得轻松幽默。读懂他真正的乐趣所在，你就能明白动名词如何把连续的动作压缩成一句紧凑的话。",
+  "goals": [
+   "复述课文：能用英语讲清作者为何“一无所获”仍最爱钓鱼",
+   "掌握 without / instead of / after 后接动名词的造句方式",
+   "辨清 after having spent 这类完成式动名词表达的先后顺序",
+   "区分 interested 与 interesting，会写 be interested in doing"
+  ],
+  "summary": "本课是第二册动名词的第一课。作者借一连串 -ing 形式自述：without catching anything（一无所获）、instead of catching fish（钓到的不是鱼）、after having spent whole mornings（过了整整一上午之后）、give up fishing、be interested in fishing。规律只有一条：它们都跟在介词或固定搭配之后。抓住 without、instead of、after、in，记住表先后完成用 having + 过去分词，本课语法便拿下。",
+  "tips": "易错：instead of 后只能跟名词或动名词，不能接动词原形；单独使用 instead 时才放在句末。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why is fishing the writer's favourite sport?", "zh": "为什么钓鱼是作者最喜爱的运动？", "a": "Because he is not really interested in fishing. He is only interested in sitting in a boat and doing nothing at all.", "aZh": "因为他对钓鱼本身并不真感兴趣，他感兴趣的只是坐在船上，什么也不做。", "hint": "答案在课文最后一句：I'm not really interested in fishing. I am only interested in sitting in a boat and doing nothing at all!"},
+  {"kind": "detail", "q": "What do unlucky fishermen catch instead of fish?", "zh": "不走运的垂钓者钓上来的不是鱼，而是什么？", "a": "Instead of catching fish, they catch old boots and rubbish.", "aZh": "他们没钓到鱼，反倒钓上来旧靴子和垃圾。", "hint": "见 Instead of catching fish, they catch old boots and rubbish。"},
+  {"kind": "detail", "q": "What do the writer's friends say about fishing?", "zh": "作者的朋友们是怎么说钓鱼这件事的？", "a": "They say, 'You must give up fishing!' and 'It's a waste of time.'", "aZh": "他们说：“你可别再钓鱼了！”“这是浪费时间。”", "hint": "见 You must give up fishing! 与 It's a waste of time，give up 后须接动名词。"},
+  {"kind": "detail", "q": "How does the writer describe going home after a whole morning on the river?", "zh": "作者怎样描述在河上过了整整一上午之后回家？", "a": "After having spent whole mornings on the river, he always goes home with an empty bag.", "aZh": "在河上过了整整一上午之后，他总是带着空袋子回家。", "hint": "见 After having spent whole mornings on the river, I always go home with an empty bag，having spent 表示先发生、已完成。"},
+  {"kind": "think", "q": "The writer says 'I am even less lucky' although he is talking about catching nothing at all. What does he really mean?", "zh": "作者一无所获，却说自己“运气甚至更差”，他真正想表达什么？", "a": "It is a joke. Those fishermen catch something at least, even if it is only old boots and rubbish, while he catches nothing at all. But he does not worry, because catching fish is not his real interest.", "aZh": "这是句玩笑：别人至少还有“收获”，哪怕是旧靴子和垃圾，他却一无所获。但他毫不在意，因为钓鱼根本不是他真正的目的。", "hint": "联系 less 的比较级与全文语气：Some fishermen are unlucky… I am even less lucky. I never catch anything — not even old boots。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：你今天钓到鱼了吗？（用 catch）", "a": "Have you caught any fish today?", "note": "catch 及物：钓到、抓住。"},
+  {"q": "填空：I'm not really interested in ______ (fish). I'm only interested in ______ (sit) in a boat and ______ (do) nothing at all.", "a": "fishing; sitting; doing", "note": "be interested in 后用动名词。"},
+  {"q": "句型转换：用 instead of 合并两句。They did not catch fish. They caught old boots and rubbish.", "a": "Instead of catching fish, they caught old boots and rubbish.", "note": "instead of 后接动名词，不接原形。"},
+  {"q": "改错：After spend whole mornings on the river, I always go home with an empty bag.", "a": "After having spent whole mornings on the river, I always go home with an empty bag.", "note": "介词后表先发生用 having + 过去分词。"},
+  {"q": "汉译英：有些垂钓者就是不走运，他们钓上来的不是鱼，而是旧靴子和垃圾。", "a": "Some fishermen are unlucky. Instead of catching fish, they catch old boots and rubbish.", "note": "fisherman 复数为 fishermen。"},
+  {"q": "句型转换：用 without 合并两句。I often fish for hours. I do not catch anything.", "a": "I often fish for hours without catching anything.", "note": "without + 动名词，表示“不曾”。"},
+  {"q": "汉译英：朋友们说这是浪费时间，却没有认识到重要的一点。", "a": "My friends say it's a waste of time, but they don't realize one important thing.", "note": "realize 意识到；a waste of time。"}
+ ],
+ "quiz": [
+  {"q": "I often fish for hours ______ catching anything. 空格处应填入？", "options": ["without", "with", "instead of", "after"], "answer": 0, "note": "without 作介词，后接动名词。"},
+  {"q": "“Some ______ are unlucky.” 空格的正确形式是？", "options": ["fishermen", "fisherman", "fishing mans", "fishermans"], "answer": 0, "note": "fisherman 复数为 fishermen。"},
+  {"q": "Instead of ______ fish, they catch old boots and rubbish. 正确形式是？", "options": ["catch", "caught", "catching", "to catch"], "answer": 2, "note": "instead of 是介词短语，后接动名词。"},
+  {"q": "After ______ whole mornings on the river, he goes home with an empty bag. 正确形式是？", "options": ["having spent", "have spent", "to spend", "spends"], "answer": 0, "note": "表先于主句发生用 having + 过去分词。"},
+  {"q": "“你可别再钓鱼了！”在课文中的英文表达是？", "options": ["You must give up fishing!", "You must give in fishing!", "You must stop to fish!", "You must catch fishing!"], "answer": 0, "note": "give up 放弃，后接动名词。"},
+  {"q": "作者说朋友们没有认识到的重要一点是什么？", "options": ["He wants to catch bigger fish.", "He is only interested in sitting in a boat and doing nothing at all.", "He hopes to sell the old boots.", "He enjoys fishing with his friends."], "answer": 1, "note": "见课文末句 but they don't realize one important thing。"}
+ ]
+}

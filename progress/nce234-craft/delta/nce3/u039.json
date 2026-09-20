@@ -1,0 +1,35 @@
+{
+ "title": "Nothing to Worry About",
+ "subtitle": "不必担心",
+ "lead": {
+  "question": "同样面对险路、裂缝和水塘，布鲁斯开车的方式与其他人的反应究竟有何不同？",
+  "warmup": "这是一篇画面感十足的公路冒险故事。作者和同伴雇布鲁斯开车穿越一片荒原，路面崎岖、巨石遍布，前方还横着一条又长又深的裂缝和一片浅水塘，同伴们一路提心吊胆，布鲁斯却始终若无其事，把车越开越快。读前先想一想：是什么让这两种反应形成如此鲜明的对比？",
+  "goals": ["掌握 be perturbed / relief / boulder / fissure 等描写险境的词。", "学会用 not in the least、no matter what、sooner or later 表程度与让步。", "理解现在分词作状语（Glancing at his map…）及 before/when 引导的时间状语。", "体会用对比和幽默（cheerfully announced）刻画人物性格的写法。"],
+  "summary": "课文讲述作者一行乘坐布鲁斯开的车穿越荒原的经历。面对布满巨石、坑洼不平的土路，以及横亘前方的巨大裂缝和一片浅水塘，同伴们提心吊胆，布鲁斯却毫无惧色，始终把车开得飞快。最后车在水塘中央熄了火，他却兴高采烈地宣布发动机没油了。全文以强烈的对比和意外结局，塑造出一个‘不知危险’的司机形象。",
+  "tips": "写作诀窍：先渲染危险，再突出人物的淡然，反差能让人物立刻立起来；语法上牢记让步从句 No matter what the conditions were 要用陈述语序，不可用疑问语序倒装。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the difference between Bruce's behaviour and that of other people?", "zh": "布鲁斯的行为方式和其他人有什么区别？", "a": "Bruce was not in the least perturbed and had no sense of danger at all, while the others were worried and afraid.", "aZh": "布鲁斯一点儿也不慌乱，压根儿没有危险感，而其他人则忧心忡忡、担惊受怕。", "hint": "首听关注课文第2、5句 “Bruce was not in the least perturbed” 与 “no sense of danger at all”，与同伴的反应形成对比。"},
+  {"kind": "detail", "q": "Why did the travellers try to persuade Bruce to turn back?", "zh": "旅行者为什么试图劝说布鲁斯把车开回去？", "a": "Because the road across the plain was extremely rough—littered with boulders and pitted with holes.", "aZh": "因为穿越平原的路极其崎岖——布满巨石，坑坑洼洼。", "hint": "见课文第1、2句：“so bad that we tried to get Bruce to drive back” 与 “littered with boulders and pitted with holes”。"},
+  {"kind": "detail", "q": "How did Bruce react to the rough road?", "zh": "布鲁斯对糟糕的路况作何反应？", "a": "He was not in the least perturbed; he simply had no sense of danger at all.", "aZh": "他一点儿也不慌乱，他压根儿没有一点儿危险感。", "hint": "课文第2、5句 “Bruce was not in the least perturbed” 与 “He simply had no sense of danger at all”。"},
+  {"kind": "detail", "q": "What was Bruce's rule about driving, whatever the conditions were?", "zh": "无论路况如何，布鲁斯开车的信条是什么？", "a": "No matter what the conditions were, he believed that a car should be driven as fast as it could possibly go.", "aZh": "他认为不管路面情况如何，车必须以最高速度前进。", "hint": "课文第6句 “No matter what the conditions were…as fast as it could possibly go”。"},
+  {"kind": "think", "q": "What does the last sentence tell us about Bruce's character?", "zh": "课文最后一句说明了布鲁斯怎样的性格？", "a": "When the yellow light flashed angrily, he cheerfully announced there was no oil in the engine, showing he never worried or panicked.", "aZh": "黄灯刺眼地亮起时，他竟兴致勃勃地宣布发动机没油了，说明他从不为危险担忧或惊慌。", "hint": "课文末句 “Bruce cheerfully announced that there was no oil in the engine!” 及其中的 cheerfully。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们还未来得及担心后果，车已重新开上了平地。", "a": "Before we had time to worry about what might happen, we were back on the plain again.", "note": "worry about 担心；before 引导时间状语"},
+  {"q": "汉译英：尽管路面布满石头，坑坑洼洼，布鲁斯却一点儿也不慌乱。", "a": "Even though the road was littered with boulders and pitted with holes, Bruce was not in the least perturbed.", "note": "not in the least 丝毫不；be littered with"},
+  {"q": "改为间接引语：We said to him, “The fissure extends for fifty yards and is two feet wide.”", "a": "We informed him that the fissure extended for fifty yards and was two feet wide.", "note": "间接引语中时态要后移"},
+  {"q": "填空：No matter ____ the conditions were, he believed that a car should be driven as fast as it could ____ go.", "a": "what / possibly", "note": "no matter what 让步；as fast as possible"},
+  {"q": "用所给词的正确形式填空：____ (glance) at his map, he informed us that the next village was a mere twenty miles away.", "a": "Glancing", "note": "现在分词作状语，表伴随动作"},
+  {"q": "用虚拟语气完成句子：We did not notice the leak. If we ____ (notice) it earlier, the car ____ (not stop) in the middle of the pool.", "a": "had noticed / would not have stopped", "note": "与过去相反：had done … would have done"},
+  {"q": "改错：No matter what were the conditions, he believed that a car should be driven as fast as possible.", "a": "No matter what the conditions were, he believed that a car should be driven as fast as possible.", "note": "让步从句用陈述语序，不倒装"}
+ ],
+ "quiz": [
+  {"q": "布鲁斯对糟糕路况的镇定态度，可以用哪个短语概括？", "options": ["deeply anxious", "extremely worried", "not in the least perturbed", "in a panic"], "answer": 2, "note": "not in the least perturbed 意为‘丝毫不慌乱’。"},
+  {"q": "“littered with boulders and pitted with holes” 描述的是什么？", "options": ["the road across the plain", "the village they were heading for", "the deep fissure ahead", "the shallow pool of water"], "answer": 0, "note": "该短语描写穿越平原的土路路况。"},
+  {"q": "面对前方那条又长又深的大裂缝，布鲁斯做了什么？", "options": ["He stopped and refused to go on.", "He turned the car back to the village.", "He got out to examine it carefully.", "He drove at a terrifying speed, keeping the front wheels astride the crack."], "answer": 3, "note": "课文：挂慢档，前轮跨在裂缝两边飞驰。"},
+  {"q": "车在水塘中央为什么会嘎吱一声停住？", "options": ["A stone had ripped a hole in the petrol tank.", "There was no oil in the engine.", "The water was too deep for the car.", "The wheels were stuck in the mud."], "answer": 1, "note": "黄灯闪烁，布鲁斯宣布发动机没油了。"},
+  {"q": "作者写下 “What a relief it was when the boulders suddenly disappeared” 表达什么情绪？", "options": ["Bruce felt afraid of the boulders.", "The car had broken down again.", "The travellers felt greatly relieved.", "They decided to turn back."], "answer": 2, "note": "relief 表示‘宽慰、如释重负’。"},
+  {"q": "结尾 “Bruce cheerfully announced that there was no oil in the engine” 体现了布鲁斯什么特点？", "options": ["He was deeply concerned about the engine.", "He never panicked, even in serious trouble.", "He was anxious and worried about the oil.", "He was reassured by the flashing light."], "answer": 1, "note": "cheerfully 与险境对比，凸显他从不惊慌。"}
+ ]
+}

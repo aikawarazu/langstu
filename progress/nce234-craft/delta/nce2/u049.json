@@ -1,0 +1,40 @@
+{
+ "title": "The end of a dream",
+ "subtitle": "美梦告终",
+ "lead": {
+  "question": "德黑兰青年攒了多年钱买的真床，为何只睡了两晚就成了美梦的终点？",
+  "warmup": "你有没有为一件心仪的东西攒钱很久的经历？本课主人公厌倦了睡地板，攒钱多年买下生平第一张带弹簧和床垫的真床。因为天热，他把床搬到屋顶睡，头两晚睡得极香；第三晚起了风暴，一阵大风把床刮落院子摔成碎片，人却奇迹般无恙。",
+  "goals": [
+   "掌握 be tired of、save up、for the first time in one's life、a gust of wind 等核心短语",
+   "理解 Tired of...、Glancing at... 这类分词短语作状语如何代替状语从句",
+   "掌握 not...until、although 从句以及 sweep off、smash to pieces、blow up 等动词短语",
+   "能用本课词汇与句式复述故事，并体会标题 the end of a dream 的双关意味"
+  ],
+  "summary": "德黑兰青年厌倦睡地板，攒钱多年买下第一张带弹簧床垫的真床。天热他把床搬到屋顶，头两晚睡得很好；第三晚风暴骤起，一阵大风把床刮下屋顶摔碎在院子里，他却奇迹般毫发无伤。醒来后他看了一眼满地的碎片，伤心地拾起床垫搬进屋，铺在地上又很快睡着了——美梦就此告终。",
+  "tips": "Tired of...、Glancing at... 作状语时，其逻辑主语必须与主句主语一致；lie—lay—lain（躺、位于）与 lay—laid—laid（放置）过去式同为 lay，莫混淆。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How did the man save himself?", "zh": "这个人是怎么让自己安然脱险的？", "a": "The bed was smashed to pieces, but he was still on the mattress when it struck the ground, so he was miraculously unhurt.", "aZh": "床虽然摔成了碎片，但落地时他仍躺在床垫上，因此奇迹般地没有受伤——是床垫救了他。", "hint": "见 the man was miraculously unhurt 与 he was still on the mattress 两句。"},
+  {"kind": "detail", "q": "Why did he carry the bed on to the roof of his house?", "zh": "他为什么把床搬到自家屋顶上？", "a": "Because the weather was very hot.", "aZh": "因为天气很热，屋顶上睡觉凉快。", "hint": "Because the weather was very hot, he carried the bed on to the roof，on to 表动作方向。"},
+  {"kind": "detail", "q": "What happened to the bed on the third night?", "zh": "第三天晚上那张床遭遇了什么？", "a": "A storm blew up. A gust of wind swept the bed off the roof and sent it crashing into the courtyard below, and it was smashed to pieces.", "aZh": "起了风暴，一阵大风把床从屋顶刮落，撞进下面的院子里，摔成了碎片。", "hint": "blew up、a gust of wind、swept...off 与 was smashed to pieces。"},
+  {"kind": "detail", "q": "What did the young man do after he woke up?", "zh": "年轻人醒来之后做了些什么？", "a": "Glancing at the bits of wood and metal that lay around him, he sadly picked up the mattress, carried it into his house, put it on the floor and promptly went to sleep again.", "aZh": "他看了一眼周围的碎木片和碎金属片，伤心地拾起床垫搬进屋，铺在地板上，很快又睡着了。", "hint": "Glancing at... 分词短语作时间状语。"},
+  {"kind": "think", "q": "Why is the lesson called 'The end of a dream'? What does 'dream' refer to?", "zh": "本课为什么叫“美梦告终”？这里的 dream 指什么？", "a": "The dream is both his dream of owning a real bed and the sweet sleep he enjoyed on it: the storm smashed the bed, so the dream ended and he went back to sleeping on the mattress on the floor.", "aZh": "dream 既指他拥有真床的梦想，也指睡在真床上的美梦：床被摔碎，梦想破灭。", "hint": "把标题与“床毁人安、重新睡回地板上的床垫”结合。"}
+ ],
+ "exercises": [
+  {"q": "填空：Tired ____ sleeping on the floor, a young man in Teheran saved up for years ____ buy a real bed.", "a": "of; to", "note": "be tired of + 动名词；第二个 to 表目的。"},
+  {"q": "用分词短语改写：Because he was tired of sleeping on the floor, he saved up for years to buy a real bed.", "a": "Tired of sleeping on the floor, he saved up for years to buy a real bed.", "note": "省略 being，分词短语表原因。"},
+  {"q": "汉译英：他攒钱多年，平生第一次自豪地拥有了一张既有弹簧又带床垫的床。", "a": "He saved up for years and, for the first time in his life, became the proud owner of a bed which had springs and a mattress.", "note": "save up 攒钱。"},
+  {"q": "汉译英：一阵大风把床从屋顶上刮了下来。（须用 a gust of wind 与 sweep ... off）", "a": "A gust of wind swept the bed off the roof.", "note": "sweep 过去式为 swept。"},
+  {"q": "仿写复合宾语：一阵风把床刮落，使它撞进下面的院子里。", "a": "...and sent it crashing into the courtyard below.", "note": "crashing 为宾语补足语。"},
+  {"q": "用 not ... until 合并：The bed struck the ground. He woke up then.", "a": "He did not wake up until the bed had struck the ground.", "note": "not...until 直到……才。"},
+  {"q": "填空：____ (glance) at the bits of wood and metal that ____ (lie) around him, the man sadly picked up the mattress.", "a": "Glancing; lay", "note": "lie—lay—lain 意为躺、位于。"}
+ ],
+ "quiz": [
+  {"q": "“攒钱多年去买一张真正的床”，正确的说法是：", "options": ["save up for years to buy a real bed", "save on for years to buy a real bed", "save off years buying a real bed", "keep up for years to buy a real bed"], "answer": 0, "note": "save up 意为储蓄、攒钱。"},
+  {"q": "“一阵大风”的正确英语表达是：", "options": ["a gust of wind", "a piece of wind", "a gust wind", "a storm of wind"], "answer": 0, "note": "gust 指一阵强风。"},
+  {"q": "“起了风暴”，应说：", "options": ["A storm blew up.", "A storm blew out.", "A storm blew over.", "A storm blew off."], "answer": 0, "note": "blow up 此处指风起。"},
+  {"q": "要表示“把床搬到屋顶上”这一动作方向，应选：", "options": ["He carried the bed on to the roof.", "He carried the bed on the roof.", "He carried the bed in the roof.", "He carried the bed above the roof."], "answer": 0, "note": "onto/on to 表动作方向。"},
+  {"q": "“年轻人直到床撞到地上才醒了过来”，正确英文是：", "options": ["He did not wake up until the bed had struck the ground.", "He woke up until the bed had struck the ground.", "He did not wake up as soon as the bed had struck the ground.", "He had not slept until the bed struck the ground."], "answer": 0, "note": "not...until 表直到……才。"},
+  {"q": "床摔成碎片而人奇迹般无恙，因为他醒来时尚：", "options": ["was still on the mattress", "was still on the roof", "was still on the bed", "was still on the floor"], "answer": 0, "note": "still on the mattress 是他无恙的原因。"}
+ ]
+}

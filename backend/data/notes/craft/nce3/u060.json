@@ -1,0 +1,164 @@
+{
+ "unitId": "u060",
+ "title": "Too Early and Too Late",
+ "subtitle": "太早和太晚",
+ "lead": {
+  "question": "为什么说准时是文明社会的必需习惯？小姑娘明明早到，又为何误了火车？",
+  "warmup": "你是否有过“掐着点”出门、最终却错过班车的经历？在文明社会，准时是公共事务得以运转的前提；然而迟到令人厌烦，早到同样让人吃不消。本课从“太早”与“太晚”两个极端切入：一位小姑娘为防迟到提前赶到车站，却因忽略时刻表上一个微小的圆圈标记，眼睁睁看着火车进站又开走，被迫留在站台，实在令人心酸。",
+  "goals": [
+   "掌握 punctual / punctuality、platform、timetable、anxious、porter、adamant 等本课核心词汇。",
+   "理解并运用 only 置于句首引起的倒装句，以及 if / when / though 从句中主语与 be 的省略。",
+   "辨析 as much ... as、cut things fine、in good time 等短语，体会作者的对比与讽刺语气。",
+   "借助过去完成时 had impressed、虚拟语气 could not have made 与定语从句复述小姑娘误车的故事。"
+  ],
+  "summary": "课文先提出“准时是一切公共事务的必需习惯”，且早到与迟到同样使人难堪；接着以“赶火车宁可早到”作过渡，讲述小姑娘第一次独自出门的经历。她按父亲纸条提前二十分钟进站，却被搬运工告知早到两小时——原来那趟车到站时刻旁的小圆圈只表示停车装邮件、不载旅客。火车进站又开走，站长坚持“规章不能破坏”，她只得留在站台。",
+  "tips": "诀窍：记住 as much a trial to others as the unpunctual 这一“as much + 名词 + as”比较结构，译作“和……一样令人难以忍受”；另注意 only 修饰状语置于句首才部分倒装，修饰主语则不倒装。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the young girl miss the train?",
+   "zh": "那个小姑娘为什么误了火车？",
+   "a": "Because the train whose arrival time her father had written down stopped at the station only to take on mail, not passengers, so she could not get on it.",
+   "aZh": "因为纸条上那趟车虽在那个时刻到站，却只停站装邮件、不载旅客，所以她上不了车。",
+   "hint": "见课文第23句：a train did come...but only to take on mail, not passengers。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why does the writer say punctuality is a necessary habit in all public affairs in civilized society?",
+   "zh": "作者为什么说准时是文明社会一切公共事务中必需的习惯？",
+   "a": "Because without it nothing could ever be brought to a conclusion; everything would be in a state of chaos.",
+   "aZh": "因为没有准时，什么事情都无法完成，一切都会陷入混乱不堪的境地。",
+   "hint": "见课文第1、2句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the writer say about the guest who arrives half an hour too soon?",
+   "zh": "作者怎样评价提前半小时到达的客人？",
+   "a": "Such a guest is the greatest nuisance; the over-punctual can be as much a trial to others as the unpunctual, so they were asked to come half an hour later than the other guests.",
+   "aZh": "这样的客人最令人讨厌；到得过早的人和迟到的人同样使人无法忍受，所以作者只好请这些朋友比别的客人晚来半小时。",
+   "hint": "见课文第11、12、14句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the porter say the girl was two hours too soon?",
+   "zh": "搬运工为什么说姑娘早到了两个小时？",
+   "a": "Because the train listed on her father's paper did stop at that time, but only to take on mail, not passengers.",
+   "aZh": "因为纸条上那趟车确实在那个时刻到站停车，但它只停站装邮件，不载旅客。",
+   "hint": "见课文第23句。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you think the station master was right to refuse to let the girl get on? Give your reasons.",
+   "zh": "你认为站长拒绝小姑娘上车的做法对吗？请说明理由。",
+   "a": "I think he was right: rules could not be broken, for one exception would destroy the very order that punctuality depends on. Still, it was hard on a young girl travelling alone for the first time.",
+   "aZh": "我认为他是对的：规章制度不能破坏，破一次例就会动摇准时所依赖的秩序；不过对一个第一次独自出门的小姑娘来说，这也太不近人情了。",
+   "hint": "结合课文末句 rules could not be broken 谈个人看法。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：准时是文明社会中进行一切公共事务时必须养成的习惯。",
+   "a": "Punctuality is a necessary habit in all public affairs in civilized society.",
+   "note": "punctuality 名词作主语。"
+  },
+  {
+   "q": "句型转换：将 Only in a sparsely-populated rural community is it possible to disregard it. 改为正常语序。",
+   "a": "It is possible to disregard it only in a sparsely-populated rural community.",
+   "note": "only 置句首引起部分倒装。"
+  },
+  {
+   "q": "填空：An even harder situation is to be on the ______ in good time for a train and still to see it go off without you. The girl asked to see a ______, but a tiny 'o' showed the train only stopped for mail.",
+   "a": "platform; timetable",
+   "note": "platform 站台，timetable 时刻表。"
+  },
+  {
+   "q": "改错：Her parents had impressed on her that it will be unforgivable to miss the train.",
+   "a": "will 改为 would（宾语从句须与主句过去时一致）。",
+   "note": "主句过去时，从句用过去将来时。"
+  },
+  {
+   "q": "汉译英：姑娘确信父亲不可能犯这样的错误。",
+   "a": "The girl felt sure that her father could not have made such a mistake.",
+   "note": "could not have done 表对过去的否定推测。"
+  },
+  {
+   "q": "用定语从句合并：Her father had written down all the details on a piece of paper. She felt in her handbag for it.",
+   "a": "She felt in her handbag for the piece of paper on which her father had written down all the details of the journey.",
+   "note": "介词 on + which 引导定语从句。"
+  },
+  {
+   "q": "词形填空：1) The over-______ (punctual) can be as much a trial to others as the unpunctual. 2) She was ______ (anxiety) to slip into the guard's van.",
+   "a": "1) punctual  2) anxious",
+   "note": "anxious=焦虑的；over- 前缀表过度。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "根据课文，准时对文明社会公共事务的重要性体现在哪里？",
+   "options": [
+    "Without it, nothing could ever be brought to a conclusion.",
+    "It is only needed in sparsely-populated rural areas.",
+    "It can always be disregarded in ordinary living.",
+    "It matters only for dinner parties and appointments."
+   ],
+   "answer": 0,
+   "note": "课文第2句 Without it...conclusion。"
+  },
+  {
+   "q": "在人口稀少的农村，人们可以怎样对待准时的习惯？",
+   "options": [
+    "They must be held strictly to it.",
+    "It is possible to disregard it.",
+    "They can never be late at all.",
+    "They have to cut things fine."
+   ],
+   "answer": 1,
+   "note": "Only in a sparsely-populated...disregard it。"
+  },
+  {
+   "q": "作者怎样看待那些爱“掐钟点”的人？",
+   "options": [
+    "They are always lazy and useless citizens.",
+    "They are often more industrious, useful citizens than those who are never late.",
+    "They should never be forgiven by others.",
+    "They always arrive half an hour early."
+   ],
+   "answer": 1,
+   "note": "课文第10句表明作者的评价。"
+  },
+  {
+   "q": "作者家对爱早到的朋友采取了什么办法？",
+   "options": [
+    "They ask them to come half an hour later than the other guests.",
+    "They never invite those friends again.",
+    "They tell them to come an hour earlier.",
+    "They secretly change the time of the party."
+   ],
+   "answer": 0,
+   "note": "课文第14句 half an hour later。"
+  },
+  {
+   "q": "搬运工为什么说那小姑娘早到了两个小时？",
+   "options": [
+    "Because the train she wanted only stopped to take on mail, not passengers.",
+    "Because her ticket was for another day.",
+    "Because the timetable had been changed that day.",
+    "Because she had read the wrong platform number."
+   ],
+   "answer": 0,
+   "note": "那趟车只停站装邮件、不载旅客。"
+  },
+  {
+   "q": "面对小姑娘的央求，站长最后的态度如何？",
+   "options": [
+    "He let her slip into the guard's van after all.",
+    "He was adamant: rules could not be broken.",
+    "He gave her a new ticket for the next train.",
+    "He offered to drive her to her destination."
+   ],
+   "answer": 1,
+   "note": "课文末句 was adamant, rules could not be broken。"
+  }
+ ]
+}

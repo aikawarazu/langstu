@@ -1,0 +1,40 @@
+{
+ "title": "A private conversation",
+ "subtitle": "私人间的谈话",
+ "lead": {
+  "question": "在剧院被后排情侣吵得看不下去，你回头怒视，却换来一句“不关你的事”——作者是怎么收场的？",
+  "warmup": "花钱买了好座位，却被后排两个人的聊天声搅得一场好戏也看不下去，这种经历大概人人都遇到过。本课是《新概念英语》第二册的开篇，全文不足百词，却讲了一个完整又带讽刺意味的小故事。建议先不看原文，连续听两遍录音，只抓三个要素：谁、在哪儿、发生了什么；再逐句对照跟读，尤其留意过去进行时的背景描写和结尾那句出人意料的回答。",
+  "goals": [
+   "能用一般过去时复述一次被打扰的看戏经历，讲清时间、地点、人物与结果",
+   "理解并会写 go to the theatre、pay attention (to)、none of your business、turn round、could not bear it 等本课核心短语",
+   "能分辨过去进行时与一般过去时的分工，正确写出简单的陈述句语序（主语+谓语+宾语+方式+地点+时间）",
+   "能区分 get angry 与 look angrily 的用法，避免形容词、副词混用"
+  ],
+  "summary": "作者上星期去剧场看戏，座位很好，戏也有意思，可身后的一男一女大声聊天，吵得他听不见演员的台词。他先回头怒视，对方毫不理会；忍无可忍后他再次回头说“我一个字也听不见了”，却换来小伙子粗暴的一句“不关你的事，这是私人间的谈话”。全文以一般过去时叙述，用过去进行时交代背景动作，是练习简单陈述句语序的第一课。",
+  "tips": "记语序用一句口诀：谁 + 做 + 什么 + 怎样 + 何地 + 何时；另外注意 go to the theatre、go to the cinema 要加 the，而 go to school、go to bed 这类表“去干某事”的短语中名词前不加冠词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did the writer complain to the people behind him?", "zh": "作者为什么向后排的人抱怨？", "a": "Because they were talking loudly and he could not hear the actors.", "aZh": "因为他们大声说话，吵得他听不见演员在说什么。", "hint": "见课文第 3、4 句：They were talking loudly. / I could not hear the actors."},
+  {"kind": "detail", "q": "What was the writer's seat like, and who was sitting behind him?", "zh": "作者的座位怎么样？坐在他身后的是谁？", "a": "He had a very good seat, but a young man and a young woman were sitting behind him.", "aZh": "他的座位很好，可是身后坐着一男一女两个年轻人。", "hint": "见课文第 1、3 句：I had a very good seat. / A young man and a young woman were sitting behind me."},
+  {"kind": "detail", "q": "What did the writer do when he got very angry?", "zh": "作者非常生气时做了什么？", "a": "He turned round and looked at the man and the woman angrily.", "aZh": "他回过头去，怒视着那一男一女。", "hint": "见课文第 5 句：I turned round. I looked at the man and the woman angrily."},
+  {"kind": "detail", "q": "How did the young man answer the writer?", "zh": "那个男青年是怎么回答作者的？", "a": "He said rudely, 'It's none of your business. This is a private conversation!'", "aZh": "他毫不客气地说：“不关你的事，这是私人间的谈话！”", "hint": "见课文最后三句：‘It's none of your business,’ the young man said rudely. ‘This is a private conversation!’"},
+  {"kind": "think", "q": "Why is the young man's answer so ironic?", "zh": "为什么那个男青年的回答显得格外讽刺？", "a": "Because they were talking loudly in a public place, so their talk was not private at all — everyone around could hear it.", "aZh": "因为他们在影剧院这样的公共场所大声说话，全场都听得一清二楚，根本不是什么“私人间的谈话”；他把私下聊天和公共场合的礼貌混为一谈了。", "hint": "结合标题 A private conversation 与第 3 句、最后一句：They were talking loudly. / This is a private conversation!"}
+ ],
+ "exercises": [
+  {"q": "汉译英：上星期我去看戏了，我的座位很好。", "a": "Last week I went to the theatre. I had a very good seat.", "note": "go to the theatre 表示“去看戏”，全文用一般过去时。"},
+  {"q": "汉译英：最后，我忍不住了。", "a": "In the end, I could not bear it.", "note": "bear 与 can/could 连用表示“忍受”。"},
+  {"q": "汉译英：他们却毫不理会。", "a": "They did not pay any attention.", "note": "pay attention 是固定搭配，attention 不可数。"},
+  {"q": "用所给词的适当形式填空：I turned round and looked at the man and the woman ____ (angry).", "a": "angrily", "note": "修饰动词要用副词，形容词不能作状语。"},
+  {"q": "句型转换：把句子改为否定句。A young man and a young woman were sitting behind me.", "a": "A young man and a young woman were not sitting behind me.", "note": "过去进行时的否定式在 was/were 后加 not。"},
+  {"q": "句型转换：把下面的一般过去时改为过去进行时。They talked loudly behind me.", "a": "They were talking loudly behind me.", "note": "过去进行时强调当时正在持续的动作。"},
+  {"q": "改错：I didn't enjoyed the play because they were talking loudly.", "a": "I didn't enjoy the play because they were talking loudly.", "note": "助动词 did 之后必须接动词原形。"}
+ ],
+ "quiz": [
+  {"q": "“上星期我去看戏”最地道的一句是？", "options": ["Last week I went to the theatre.", "Last week I went to theatre.", "Last week I went to a theatre for see a play.", "Last week I went cinema."], "answer": 0, "note": "go to the theatre 意为去剧场看戏，名词前通常加 the；go to the cinema 同理。"},
+  {"q": "课文表示“他们毫不理会”用的是哪一句？", "options": ["They did not pay any attention.", "They did not pay any attentions.", "They did not make any attention.", "They did not take any attention."], "answer": 0, "note": "pay attention (to) 是固定搭配，attention 作“注意”讲时不可数。"},
+  {"q": "“最后，我忍不住了”的正确英文是？", "options": ["In the end, I could not bear it.", "In the end, I could not bare it.", "At the end, I could not bear it.", "In the end, I can't bear it."], "answer": 0, "note": "in the end 表示“最后、终于”；at the end 后常接 of；全文为过去时用 could。"},
+  {"q": "课文中描写当时正在发生的背景动作，用的是哪一组动词？", "options": ["were sitting; were talking", "sat; talked", "were sitting; talked", "sit; talk"], "answer": 0, "note": "两个并列的过去进行时，强调那一男一女当时正坐在身后大声说话。"},
+  {"q": "下列语序正确的一句是？", "options": ["The children played games quietly in their room yesterday.", "The children played quietly games in their room yesterday.", "The children quietly played yesterday games in their room.", "Quietly played the children games yesterday in their room."], "answer": 0, "note": "简单陈述句语序：主语+动词+宾语+方式+地点+时间。"},
+  {"q": "本课开头“我非常生气”，强调由不生气到生气的变化过程，应说？", "options": ["I got very angry.", "I was very angry.", "I very angry got.", "I got very angrily."], "answer": 0, "note": "get 表示状态的变化，接近 become；be angry 只说明当时的状态。"}
+ ]
+}

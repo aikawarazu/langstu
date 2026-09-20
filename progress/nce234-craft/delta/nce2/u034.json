@@ -1,0 +1,40 @@
+{
+ "title": "Quick Work",
+ "subtitle": "破案“神速”",
+ "lead": {
+  "question": "一封来自当地警察局的信让丹焦虑了整整一周，他为何最后反而放心？",
+  "warmup": "一封信让丹·鲁宾逊焦虑了整整一周：当地警察局要他去警察局走一趟，而他完全不知道警察为什么找他。等他昨天去了才知道——二十年前被偷的自行车找到了，正用火车运回家。本课借这段小故事复习被动语态，并讲清 call at、pick up、most 等用法。",
+  "goals": [
+   "复述课文情节，弄清警方找到自行车的时间、地点与运送方式",
+   "掌握 call at / call on / call up / call off 等 call 短语动词的辨析",
+   "巩固被动语态，尤其是过去时、过去完成时与现在进行时的被动结构",
+   "辨清 most 表“非常”与最高级的用法，以及 pick up、be wanted 的语境义"
+  ],
+  "summary": "全篇按时间推进：上周二来信—昨天去警察局—五天前自行车在四百英里外的小村被找到—现正用火车运回—二十年前被偷。叙述几乎全用被动语态，因为“谁做的”并不重要。结尾 surprised、amused、never expected 三层情绪叠加，让“破案神速”带上讽刺味。",
+  "tips": "most 前没有 the 时是副词，意为“非常”（most surprised＝惊奇万分），不是最高级；no longer 与 not...anymore 都表“不再”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How long had the police taken to find his bicycle?", "zh": "警方花了多长时间找到他的自行车？", "a": "Five days.", "aZh": "五天。警察告诉他，自行车是五天前在四百英里外的一个小村子里被找到的。", "hint": "答案出自警察那句间接引语。"},
+  {"kind": "detail", "q": "What did the letter from the local police ask Dan to do?", "zh": "当地警察局的来信要求丹做什么？", "a": "It asked him to call at the station.", "aZh": "信中要求他去警察局一趟。", "hint": "In the letter he was asked to call at the station。"},
+  {"kind": "detail", "q": "When and where was Dan's bicycle found, and how is it being sent back?", "zh": "丹的自行车何时何地被找到？又怎么运回来？", "a": "It was picked up five days ago in a small village four hundred miles away, and it is now being sent to his home by train.", "aZh": "五天前在四百英里外的一个小村子里被找到，现在正用火车运回他家。", "hint": "锁定警察的两句话。"},
+  {"kind": "detail", "q": "Why was Dan amused as well as surprised?", "zh": "丹为什么既惊讶又觉得好笑？", "a": "Because he never expected the bicycle to be found — it was stolen twenty years ago when he was a boy of fifteen.", "aZh": "因为他从未指望那辆车还能找回来——那是二十年前他还是个十五岁的孩子时被偷走的。", "hint": "见结尾 He was amused too, because..."},
+  {"kind": "think", "q": "Why is the passive voice used so often in this story?", "zh": "这篇故事为什么通篇大量使用被动语态？", "a": "Because the doer is unknown or unimportant. Who found the bike or who stole it does not matter; the writer keeps the focus on the bicycle and on Dan's feelings, and avoids vague subjects like someone or a person.", "aZh": "因为动作发出者不明或不重要；用被动还能避开 someone、a person 这类含糊主语。", "hint": "看各句主语：he、the bicycle、it 都是受事或当事人。"}
+ ],
+ "exercises": [
+  {"q": "翻译：上星期二他收到当地警察局的一封信，信中他被要求去警察局一趟。", "a": "Last Tuesday he received a letter from the local police. In the letter he was asked to call at the station.", "note": "call at 后接地点。"},
+  {"q": "填空：Dan wondered why he ______ ______ by the police.", "a": "was wanted", "note": "want 被动可表“被警方找”。"},
+  {"q": "填空：The bicycle ______ ______ ______ in a small village four hundred miles away five days ago.", "a": "was picked up", "note": "pick up 此处意为“偶然找到”。"},
+  {"q": "填空：It is now ______ ______ to his home by train.", "a": "being sent", "note": "现在进行时被动。"},
+  {"q": "翻译：丹听到这个消息后惊奇万分，又感到非常好笑。", "a": "Dan was most surprised when he heard the news. He was amused too.", "note": "most 前无 the，意为“非常”。"},
+  {"q": "同义改写：Dan is not worried anymore.（用 no longer）", "a": "Dan is no longer worried.", "note": "no longer 与 not...anymore 同义。"},
+  {"q": "翻译：他在巴黎旅行时偶然学会了几句法语。", "a": "He picked up some French while travelling in Paris.", "note": "while 后可直接跟 -ing 形式。"}
+ ],
+ "quiz": [
+  {"q": "警察叫丹去警察局，真正的原因是什么？", "options": ["His bicycle had been found.", "He was wanted for stealing a bicycle.", "He had to pay a fine immediately.", "They needed him to catch a thief."], "answer": 0, "note": "a smiling policeman told him that his bicycle had been found。"},
+  {"q": "课文中 the local police 的 local 最接近哪个意思？", "options": ["of the area nearby", "born in that place", "popular at the moment", "friendly to neighbours"], "answer": 0, "note": "local 表“当地的”。"},
+  {"q": "“一位面带笑容的警察告诉他，他的自行车找到了”，正确的被动表达是哪句？", "options": ["A smiling policeman told him that his bicycle had found.", "He was told by a smiling policeman that his bicycle had been found.", "He told by a smiling policeman that his bicycle had been found.", "He was told by a smiling policeman that his bicycle has found."], "answer": 1, "note": "须用过去完成时被动 had been found。"},
+  {"q": "要表达“他被要求去警察局一趟”，哪一句正确？", "options": ["He was asked to call at the station.", "He was asked to call on the station.", "He was asked to call up the station.", "He was asked to call off the station."], "answer": 0, "note": "call at＋地点；call on＋人。"},
+  {"q": "Dan was most surprised 一句中 most 的意思是？", "options": ["very", "the superlative degree", "almost all", "nearly not"], "answer": 0, "note": "most 前无 the，是副词“非常”。"},
+  {"q": "课文中 the bicycle was picked up 的 pick up 意为？", "options": ["found by chance", "lifted up", "went to fetch somebody", "learned a language"], "answer": 0, "note": "指警方在小村偶然找到。"}
+ ]
+}

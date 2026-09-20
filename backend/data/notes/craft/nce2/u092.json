@@ -1,0 +1,164 @@
+{
+ "unitId": "u092",
+ "title": "Asking for Trouble",
+ "subtitle": "自找麻烦",
+ "lead": {
+  "question": "作者深夜回家做了什么事自找麻烦，最后为何差点被警察带走？",
+  "warmup": "凌晨两点，作者回到家门口，按响门铃想叫醒熟睡的妻子，却没人应答。无奈之下，他从花园的小棚里搬来梯子，靠在墙上，准备爬向卧室窗户。谁知楼下传来一个讽刺的声音——一名警察正看着他。这一夜的小聪明，差点让他被当成小偷带进警察局。读课文时，注意作者与警察对话的语气，以及间接引语中人称和时态的变化。",
+  "goals": [
+   "掌握 ask for trouble、ladder、shed、sarcastic、tone、register 等本课核心词汇的用法。",
+   "学会用 so / neither / nor + 助动词 + 主语构成表示“也”“也不”的反应句。",
+   "辨析 regret、remember、forget、stop 后接动名词与不定式的意义差别。",
+   "能正确把直接引语改写为间接引语，注意人称、时态和语序的变化。"
+  ],
+  "summary": "课文以幽默的笔调讲述作者深夜回家忘带钥匙，按门铃无果后搬梯子爬窗，却被巡逻的警察撞见。警察用讽刺的口吻说“这个时间不必擦窗子吧”，作者赌气回敬“我喜欢夜里擦窗子”，随即被要求前往警察局。危急关头他大喊“我的钥匙”，喊声惊醒妻子，她开窗为他解围。故事围绕一场误会与作者的机智应答展开。",
+  "tips": "易错提醒：need 后接动名词表被动，need cleaning = need to be cleaned；regret doing 指后悔做过的事，regret to do 指遗憾要去做某事，二者不可混用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the policeman ask the writer to come to the police station?",
+   "zh": "警察为什么让作者跟他去警察局？",
+   "a": "Because he saw the writer climbing a ladder towards the bedroom window in the middle of the night and took him for a burglar.",
+   "aZh": "因为他看见作者半夜爬梯子向卧室窗户攀爬，把他当成了小偷。",
+   "hint": "答案在课文第2、3、8句：作者搬梯爬窗，警察最后要他“come with me to the station”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the writer do after the doorbell failed to wake his wife?",
+   "zh": "按门铃没能叫醒妻子后，作者做了什么？",
+   "a": "He got a ladder from the shed in the garden, put it against the wall, and began climbing towards the bedroom window.",
+   "aZh": "他从花园的小棚里搬来梯子，靠在墙上，开始向卧室窗户爬去。",
+   "hint": "课文第2句完整交代了作者的一系列动作。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the policeman say first, and in what tone of voice?",
+   "zh": "警察起初说了什么？用什么口气？",
+   "a": "In a sarcastic tone he said, “I don't think the windows need cleaning at this time of the night.”",
+   "aZh": "他用讽刺的口吻说：“我看不必在夜里这个时候擦窗子吧。”",
+   "hint": "课文第3句点明警察是“a sarcastic voice below”。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the writer say he would prefer to stay where he was?",
+   "zh": "作者为什么说他更愿意待在原地？",
+   "a": "Because he had forgotten his key and could not get into the house.",
+   "aZh": "因为他忘带钥匙，进不了家门。",
+   "hint": "课文第9、11句：作者说“I've forgotten my key.”。"
+  },
+  {
+   "kind": "think",
+   "q": "How does the misunderstanding between the writer and the policeman make the story funny?",
+   "zh": "作者与警察之间的误会为什么让故事显得滑稽？",
+   "a": "Instead of explaining, the writer answered sarcasm with sarcasm, so the policeman really took him for a burglar; the misunderstanding builds until the wife opens the window and clears things up.",
+   "aZh": "作者没有解释，反而用讽刺回敬讽刺，使警察真把他当成小偷；误会层层加深，直到妻子开窗才真相大白。",
+   "hint": "结合对话的语气和结尾“妻子开窗”来思考。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：你不该对她那么粗鲁，你这是在自找麻烦。",
+   "a": "You shouldn't have been so rude to her. You are asking for trouble.",
+   "note": "ask for trouble 自找麻烦"
+  },
+  {
+   "q": "选词填空（ladder / shed / sarcastic / register）：①He fetched a ____ from the ____ in the garden. ②“I don't think the windows need cleaning,” he said in a ____ tone. ③The officer asked him to ____ his name at the station.",
+   "a": "①ladder / shed ②sarcastic ③register",
+   "note": "本课核心词汇，注意词义与搭配"
+  },
+  {
+   "q": "句型转换：The strap needs mending. 用不定式改写，意思不变。",
+   "a": "The strap needs to be mended.",
+   "note": "need doing = need to be done"
+  },
+  {
+   "q": "改错：I immediately regretted to answer in the way I did.",
+   "a": "I immediately regretted answering in the way I did.",
+   "note": "regret doing 后悔已做过的事"
+  },
+  {
+   "q": "用 so / neither 完成反应句：I like classical music. — ____ I.",
+   "a": "So do",
+   "note": "肯定反应句 so + 助动词 + 主语"
+  },
+  {
+   "q": "把直接引语改为间接引语：“Would you mind coming with me to the station?” the policeman asked.",
+   "a": "The policeman asked if/whether I would mind coming with him to the station.",
+   "note": "一般疑问句间接引语用 if/whether"
+  },
+  {
+   "q": "用括号内动词的适当时态填空：By the time the policeman spoke, the writer ____ (climb) the ladder for several minutes.",
+   "a": "had been climbing",
+   "note": "过去完成进行时表示持续到过去某时"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "与 ask for trouble 意思最接近的一项是？",
+   "options": [
+    "to behave in a way that causes problems for oneself",
+    "to ask someone for help",
+    "to apologize for a mistake",
+    "to make a lot of noise at night"
+   ],
+   "answer": 0,
+   "note": "ask for trouble 自找麻烦"
+  },
+  {
+   "q": "I don't think the windows need cleaning. 中的 need cleaning 相当于？",
+   "options": [
+    "need to clean",
+    "need to be cleaned",
+    "need being cleaned",
+    "need clean"
+   ],
+   "answer": 1,
+   "note": "need doing 表被动含义"
+  },
+  {
+   "q": "警察回答 “So do I.”，他的意思是？",
+   "options": [
+    "He also enjoys cleaning windows at night.",
+    "He doesn't enjoy cleaning windows at night.",
+    "He doesn't believe the writer.",
+    "He orders the writer to stop climbing."
+   ],
+   "answer": 0,
+   "note": "So do I 表示“我也一样”"
+  },
+  {
+   "q": "表示“我也不喜欢古典音乐”，正确的一项是？",
+   "options": [
+    "Neither do I.",
+    "So do I.",
+    "Nor I do.",
+    "Neither I do."
+   ],
+   "answer": 0,
+   "note": "否定反应句用 neither/nor + 助动词 + 主语"
+  },
+  {
+   "q": "I immediately regretted ____ in the way I did. 应填？",
+   "options": [
+    "to answer",
+    "answering",
+    "answer",
+    "to answering"
+   ],
+   "answer": 1,
+   "note": "regret doing 后悔做过的事"
+  },
+  {
+   "q": "“You see, I've forgotten my key,” I said. 改为间接引语，正确的一项是？",
+   "options": [
+    "I said that I have forgotten my key.",
+    "I said that I had forgotten my key.",
+    "I said that I forget my key.",
+    "I said that I would forget my key."
+   ],
+   "answer": 1,
+   "note": "间接引语中现在完成时变过去完成时"
+  }
+ ]
+}

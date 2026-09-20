@@ -1,0 +1,64 @@
+{
+ "book": "nce2",
+ "unitId": "u004",
+ "lesson": 4,
+ "sourceFile": "259.txt",
+ "titleEn": "An exciting trip",
+ "titleZh": "激动人心的旅行",
+ "listenQuestion": "",
+ "lines": [
+  {
+   "en": "I have just received a letter from my brother, Tim. He is in Australia.",
+   "zh": "我刚刚收到弟弟蒂姆的来信，他正在澳大利亚。"
+  },
+  {
+   "en": "He has been there for six months.",
+   "zh": "他在那儿已经住了6个月了。"
+  },
+  {
+   "en": "Tim is an engineer. He is working for a big firm and he has already visited a great number of different places in Australia.",
+   "zh": "蒂姆是个工程师，正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。"
+  },
+  {
+   "en": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.",
+   "zh": "他刚买了一辆澳大利亚小汽车，现在去了澳大利亚中部的小镇艾利斯斯普林斯。"
+  },
+  {
+   "en": "He will soon visit Darwin From there, he will fly to Perth.",
+   "zh": "他不久还将到达尔文去，从那里，他再飞往珀斯。"
+  },
+  {
+   "en": "My brother has never been abroad before, so he is finding this trip very exciting.",
+   "zh": "我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。"
+  }
+ ],
+ "translationJoined": "我刚刚收到弟弟蒂姆的来信，他正在澳大利亚。他在那儿已经住了6个月了。蒂姆是个工程师，正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。他刚买了一辆澳大利亚小汽车，现在去了澳大利亚中部的小镇艾利斯斯普林斯。他不久还将到达尔文去，从那里，他再飞往珀斯。我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。",
+ "words": [
+  {
+   "word": "receive",
+   "pos": "v",
+   "zh": "accept：同意接收"
+  },
+  {
+   "word": "different",
+   "pos": "adj",
+   "zh": "★centre　n. 中心"
+  },
+  {
+   "word": "abroad　ad",
+   "pos": "v",
+   "zh": "副词，直接和动词连用"
+  },
+  {
+   "word": "go i",
+   "pos": "n",
+   "zh": "go into...有去向的动作，还有进入的动作　　go into the room"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．He is working for a big firm and he has already visited a great number of different places in Australia. （他）正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。\n（1） work for指“在……上班／任职”：\n表达“上班”这个意思时还可以说work at：\nShe\nworks\nat a department store.\n她在一家百货商店上班。\n（2）a number of只能接可数名词的复数形式。通常，number前有great, large, good, small, certain等形容词，数量大小也随之改变：\nA large/ great number of our students are Danish.\n我们的学生中有许多是丹麦人。\nThere are a small number of spelling mistakes in your homework.\n你的家庭作业里有少数几个拼写错误。\n2．He will soon visit Darwin. 他不久还将到达尔文去。\nwill 表示将来要发生的事。这句话的时态是一般将来时。（cf. 第12课语法）下一句话From there, he will fly to Perth也是一般将来时。\n3．My brother has never been abroad before, so he is finding this trip very exciting. 我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。\n（1）这句话由两个简单句组成，后一句由连词so引导，为表示结果的状语从句。\n（2）find作“发现”、“发觉”讲时宾语往往带补足语（一般为形容词），说明宾语的状况、性质等：\nI find the film very interesting.\n我觉得这电影很有趣。\nShe found Ton's room very dirty.\n她发现汤姆的房间非常脏。\nShe has already found herself wrong.\n她已经发现自己错了。\n需要注意的是，find一词很少用于进行时态，一般用于过去时、完成时及一般现在时等。",
+  "grammar": "1．现在完成时与现在进行时\n现在完成时的时间概念有时是不确定的。（cf. 第1册第83～88课）我们所关心的是现存的结果，或者过去发生的事对现在的影响。现在完成时不能和明确表示过去的副词（如ago, yesterday等）连用。经常和现在完成时连用的副词和副词短语有：before（now）（〈在此〉以前）；so far（到目前为止）；up to now （直到现在）；just（刚刚）；already（已经）；lately（最近）；now（现在）；疑问句和否定句中常用ever, yet, never, not… ever等。现在进行时经常用于表示在短期内正在进行的动作或存在的情况，因此往往不需要和时间状语连用。试比较：\n2．同位语 (Appositives)\n一个名词（或短语等）与另一个名词（或短语）并列而作为其说明或限定成分时称为同位语。同位语与它所补充说明的成分之间用逗号隔开。课文中有两句话含有同位语：\nI have just received a letter from my brother, Tim.\n我刚刚收到弟弟蒂姆的来信。（Tim是my brother的同位语。它们指的是同一个人。Tim用来补充说明my brother的名字）\nHe has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.\n他刚买了一辆澳大利亚小汽车，现在去了澳大利亚中部的小镇艾利斯斯普林斯。（在这句话中 a small town in the centre of Australia是Alice Springs的同位语，补充说明这是个多大的镇子，在什么地方）\n在译成汉语时，同位语或者插入主句中，或者另译为一句，很少像英语中那样用逗号隔开。请参阅课文中两个句子的译文。同位语如果太长，可以另译为一句。如课文中第二个例句的后半部分可以译为：“现在去了艾利斯斯普林斯。这是澳大利亚中部的一个小镇。”\n同位语的其他例子如：\nThis is John, one of my best friends.\n这位是约翰。他是我最好的朋友之一。\nMrs. Smith, my neighbour, has never been abroad.\n我的邻居史密斯夫人从来没有出过国。",
+  "wordStudy": "1．receive vt.\n（1）接到，收到，得到：\nWhen did you receive that letter?\n你什么时候收到那封信的？\nSusan received a gift/card this morning.\n今天上午苏珊收到了一份礼物／一张卡。\nreceive是“收到”，指的是一个被动的动作，主观上接受与不接受并不清楚。take则是主动地“拿”、“取”：\nHe told me to take the keys from his pocket.\n他让我从他口袋里把钥匙拿出来。\nI received a beautiful pen from my uncle. My brother took it from me yesterday.\n我叔叔给了我一枝漂亮的钢笔。昨天我弟弟把笔拿走了。\n（2）招待，接待：\nYou need a large room if you are going to receive so many guests.\n如果你要接待这么多客人，你就需要一个大房间。\nWe usually receive guests on Saturday.\n我们通常星期六招待宾客。\n2．different adj. (名词为difference)\n（1）不同的，相异的（经常与from连用）：\nDesks are different from tables.\n书桌与桌子不一样。\nMy room is different form yours.\n我的房间与你的不同。\nWe are planning something different this year.\n我们今年有不同的打算。\n（2）各种各样的，不同的：\nHe has visited many different places in China.\n他去过中国的不少地方。\nThis department store sells a large number of different things.\n这家百货商店出售许多各种各样的东西。",
+  "keyAnswers": "1．关键句型练习答案\nA 1 I have just had breakfast.\n2 He has been in prison for six months.\n3 The police have not caught the thief yet.\n4 You have (already) asked that question three times (already).\n5 Have you ever been to Switzerland?\n6 I have never been to Switzerland.\n7 He is a wonderful runner. He has broken two records so far .\n8 I haven't seen George lately .\nC 1 He has just left the house .\n2 He has just had breakfast .\n3 She has just written a letter .\n4 My sister has just turned on the radio .\n5 My mother has just made the bed .\n6 She has just bought a new hat.\nD 1 He hasn't washed the dishes yet .\n2 She hasn't made the beds yet .\n3 He hasn't combed his hair yet .\n4 She hasn't swept the carpet yet .\n5 We haven't read ‘ Macbeth’yet .\nE 1 Have you seen the new play at ‘The Globe’yet ?\n2 Have you taken your holidays yet ?\n3 Have you read this book yet ?\n4 Have you done your homework yet ?\n5 Have you finished your work yet ?\n2 ．难点练习答案\n1 received 2 received 3 took 4 taken 5 take\n3．\n多项选择题答案\n1d  2b  3a  4b  5b  6a\n7c  8b  9c  10a  11c  12c\n课堂笔记\n【NEW WORDS AND EXPRESSIONS】　生词和短语\n★exciting　adj. 令人兴奋的\nexcite\n:激动\nexcited:\n-ed: 自己感到\n-ing:令人感到\nexciting boy\ninteresting man\nThe man is interesting.\nThe news exciting,I am excited\n其宾语一定是人\nThe news excited me.\n让后面的人感到．．．\ninteresting:令人感到有趣的\ninterested: 感到有意思的\nThe book interests me.\n★receive　v. 接受，收到\naccept：同意接收\nreceive:客观的收到\nThis morning I received a\nbunch\nof flowers from a boy,but I didn't accept\nit.\ntake　take the exam：接收考试；　take advice接收建议\nre"
+ }
+}

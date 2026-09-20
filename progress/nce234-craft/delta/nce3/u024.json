@@ -1,0 +1,35 @@
+{
+ "title": "A Skeleton in the Cupboard",
+ "subtitle": "橱柜里的骷髅",
+ "lead": {
+  "question": "为什么一具骷髅不但没让乔治难堪，反而成了他引以为豪的'柜中骷髅'？",
+  "warmup": "小说里常有这样的桥段：一位看似体面的老妇人，年轻时却毒死了五任丈夫；体面的家族背后，藏着多年不为人知的丑闻。英语用 'a skeleton in the cupboard'（柜中骷髅）来形容这种家丑。本课作者先由小说的虚构写起，再转到亲身经历：他住进朋友乔治·卡尔顿家的客房，打开衣柜时，一具真骷髅赫然悬在眼前，而乔治竟笑着说'那是塞巴斯蒂安'，是他学医时留下的。",
+  "goals": ["掌握 skeleton、cupboard、conceal、reputation、respectable、scandal 等核心词的词义与搭配", "理解成语 'a skeleton in the cupboard' 的字面义与比喻义（家丑）", "学会被动语态（has been concealed、a reputation is ruined）和 who 引导的定语从句的用法", "理清课文由'小说中虚构的秘密'到'作者亲身经历'的叙事转换与幽默结尾"],
+  "summary": "课文先给出 'a skeleton in the cupboard' 这一成语，指体面人物或家族多年隐瞒的骇人秘密，并举小说为例：看似慈祥的老妇人年轻时竟毒死了五个丈夫。作者说人人都有不愿示人的秘密，却极少有人真有'柜中骷髅'。接着他讲起朋友乔治·卡尔顿：他学医出身，后来成了侦探小说家。作者在乔治家过周末，打开客房衣柜，一具骷髅赫然悬在眼前；乔治却毫不惊慌，笑称那不过是'塞巴斯蒂安'。",
+  "tips": "记牢搭配 conceal sth. from sb.（对某人隐瞒某事），别写成 conceal sb.；表达自豪用 be proud of，注意不是 pound。be about to do sth. 表示'即将做某事'，强调马上要发生的动作。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Who was Sebastian?", "zh": "塞巴斯蒂安是谁？", "a": "Sebastian was a skeleton hanging in the cupboard in George's guestroom. George had kept it since the days when he was a medical student.", "aZh": "塞巴斯蒂安是挂在乔治家客房柜子里的一具骷髅，是他学医时留下的。", "hint": "答案在课文结尾乔治的话：'That\\'s Sebastian. You forget that I was a medical student once upon a time.'"},
+  {"kind": "detail", "q": "What does the saying 'a skeleton in the cupboard' refer to?", "zh": "'柜中骷髅'这一说法指的是什么？", "a": "It refers to a terrible secret which a seemingly respectable person or family has concealed from strangers for years.", "aZh": "指表面上受人尊敬的人物或家庭多年向他人隐瞒的骇人听闻的秘密。", "hint": "见课文开头：a seemingly respectable person or family has some terrible secret which has been concealed from strangers for years."},
+  {"kind": "detail", "q": "What did George Carlton become instead of a doctor?", "zh": "乔治·卡尔顿没有当医生，而是成了什么？", "a": "Instead of becoming a doctor, he became a successful writer of detective stories.", "aZh": "他没有当医生，而成了一位成功的侦探小说作家。", "hint": "见课文：Instead of becoming a doctor, however, he became a successful writer of detective stories."},
+  {"kind": "detail", "q": "What did the narrator see when he opened the cupboard?", "zh": "作者打开柜门时看到了什么？", "a": "He saw a skeleton dangling before his eyes; the sudden movement of the door made it sway slightly and it seemed about to leap out at him.", "aZh": "他看到一具骷髅悬在眼前，柜门的突然移动使它轻轻摇晃，仿佛马上要朝他扑过来。", "hint": "见课文：A skeleton was dangling before my eyes. 及其后一句 the impression that it was about to leap out at me."},
+  {"kind": "think", "q": "Why does George feel proud of having a real skeleton in his cupboard?", "zh": "乔治为什么对柜子里真有一具骷髅引以为豪？", "a": "Because it is a genuine skeleton left over from his medical training, and it gives him, a writer of detective stories, a 'skeleton in the cupboard' more real than any in fiction. The twist is humorous: the man who writes about hidden secrets actually keeps one himself.", "aZh": "因为这是他学医时留下的真骷髅，让他这位侦探小说作家拥有一具比小说更真实的'柜中骷髅'；这一反转颇具幽默——专写隐秘真相的人自己竟真藏着一个秘密。", "hint": "结合课文 he is very proud of the fact 与结尾乔治的话一起理解。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：英语中有个生动的说法来形容这种情况。", "a": "The English language possesses a vivid saying to describe this sort of situation.", "note": "possess 表'拥有'，比 have 更正式"},
+  {"q": "汉译英：那个表面上受人尊敬的家庭多年来一直对邻居隐瞒这个秘密。", "a": "The seemingly respectable family has concealed the secret from its neighbours for years.", "note": "conceal sth. from sb. 对某人隐瞒某事"},
+  {"q": "句型转换（改为被动语态）：The scandal ruined his reputation.", "a": "His reputation was ruined by the scandal.", "note": "被动语态由 be + 过去分词构成"},
+  {"q": "填空：When he reads the final pages of the novel, the reader's hair stands ___ ___.", "a": "on end", "note": "固定习语，意为'毛骨悚然'"},
+  {"q": "填空：The skeleton seemed ___ ___ leap out at me.", "a": "about to", "note": "be about to do sth. 即将做某事"},
+  {"q": "改错：I once spend an uncomfortable weekend at his house.", "a": "把 spend 改为 spent", "note": "叙述过去，须用过去式"},
+  {"q": "用定语从句合并：I know only one person. He has a skeleton in the cupboard.", "a": "The only person I know who has a skeleton in the cupboard is George Carlton.", "note": "who 引导定语从句修饰 person"}
+ ],
+ "quiz": [
+  {"q": "'柜中骷髅(a skeleton in the cupboard)'在英语中比喻什么？", "options": ["A family's terrible secret hidden from strangers", "An old friend of the family", "A favourite piece of furniture", "A medical student's textbook"], "answer": 0, "note": "课文首段给它下定义"},
+  {"q": "乔治·卡尔顿年轻时学的是什么专业？", "options": ["Law", "History", "Medicine", "Detective writing"], "answer": 2, "note": "George studied medicine in his youth"},
+  {"q": "作者打开客房柜门时看到了什么？", "options": ["Two of his own suits", "A skeleton dangling in front of him", "An old friend named Sebastian", "A collection of detective stories"], "answer": 1, "note": "A skeleton was dangling before my eyes"},
+  {"q": "面对作者的惊慌，乔治是什么态度？", "options": ["He was terrified", "He was extremely angry", "He pretended not to know", "He was unsympathetic and smiled"], "answer": 3, "note": "But George was unsympathetic"},
+  {"q": "作者对这个周末的感受是？", "options": ["Uncomfortable and unforgettable", "Relaxing and pleasant", "Boring and forgettable", "Short but delightful"], "answer": 0, "note": "I shall never forget"},
+  {"q": "选出与 'conceal the secret from strangers' 意思最接近的说法。", "options": ["Share the secret with strangers", "Reveal the secret to strangers", "Keep the secret hidden from strangers", "Write the secret for strangers"], "answer": 2, "note": "conceal 意为 hide 隐藏"}
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Shopping Made Easy",
+ "subtitle": "购物变得轻松",
+ "lead": {
+  "question": "穿着讲究的太太每周一进大商场，为何能一次次免费拿走名贵连衣裙？",
+  "warmup": "超市的自助结账、无人收银，方便却也考验人心：没人盯着你时，你会怎么做？本课里，一位穿戴讲究的妇女每周一准时光顾大商场，挑中最贵的连衣裙，让售货员以最快速度包好，然后拎起包裹就走——她一次也没付钱。侦探盯了她很久，直到她被捕，真相才令人瞠目。这场“轻松的购物”，到底是谁在偷？",
+  "goals": [
+   "听懂课文叙述，弄清谁是小偷、侦探凭哪些线索破案",
+   "掌握 not so...as、比较级 + than ever before、as...as possible 等比较结构",
+   "活用 temptation、article、wrap、simply、arrest 及 a few、than usual、once a week",
+   "区分并会写 it is + adj. + for sb. to do 与 find it + adj. + to do 两种句式"
+  ],
+  "summary": "课文以侦探视角讲一桩母女合谋的商场偷窃案：穿戴讲究的妇女每周一进大商场，先买几样小商品作掩护，再挑最贵的连衣裙让女儿尽快包好，随后拿走却不付钱。她被捕后，侦探才发现售货员竟是她女儿——原来“免费衣裙”每周一件。全文围绕“人不如从前诚实”展开，比较结构贯穿始终。",
+  "tips": "诀窍：背课文时抓住“比较”这条线——not so honest as they once were、greater than ever before、fewer than usual、easier to watch、as quickly as possible；as...as 之间必须用原级，修饰动词用副词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Who was the thief?", "zh": "谁是小偷？", "a": "The well-dressed woman. She took the parcel out of the shop without paying, and her daughter, the shop assistant, helped her.", "aZh": "那位穿着讲究的妇女。她拿了包裹没付钱就走出商场，而帮她的是她女儿——店里的售货员。", "hint": "答案在课文最后两句。"},
+  {"kind": "detail", "q": "Why did the detective watch the well-dressed woman?", "zh": "侦探为什么监视那位穿着讲究的妇女？", "a": "Because she always went into a large store on Monday mornings, which made him suspicious.", "aZh": "因为她总是在星期一上午进入那家大商场，行为太有规律，令人生疑。", "hint": "见第 3 句。"},
+  {"kind": "detail", "q": "Why was it easier for the detective to watch her on that Monday?", "zh": "为什么那个星期一侦探更容易监视她？", "a": "Because there were fewer people in the shop than usual when the woman came in.", "aZh": "因为那天她走进商场时，店里的人比往常少。", "hint": "见第 4 句：there were fewer people in the shop than usual。"},
+  {"kind": "detail", "q": "Why is the word gave printed in quotation marks?", "zh": "课文中的 gave 为什么加上引号？", "a": "Because the girl did not really give the dress; her mother took it without paying, so it was stolen, not given.", "aZh": "因为那并不是真正的赠送——母亲没付钱就拿走了衣服，实为偷窃，引号表示反语。", "hint": "见末句 The girl 'gave' her mother a free dress once a week!"},
+  {"kind": "think", "q": "Some people say the real thief was the shop assistant, the daughter. Do you agree? Give reasons from the text.", "zh": "有人说真正行窃的是那名女店员，你同意吗？请结合课文细节说明理由。", "a": "I agree they acted together: the daughter wrapped the most expensive dress as quickly as possible and never asked for money, so the weekly 'free dress' was impossible without her. But the mother was arrested, because she was the one who carried the parcel out.", "aZh": "我同意是合谋：女儿把最贵的裙子尽快包好却从不收钱，没有她的配合不可能实现；不过被捕的是母亲，因为是她把包裹带出了商场。", "hint": "从 wrapped it up as quickly as possible、without paying、the shop assistant was her daughter 推断。"}
+ ],
+ "exercises": [
+  {"q": "填空：People are not so honest ____ they once ____.", "a": "as; were", "note": "not so...as 表“不如”。"},
+  {"q": "汉译英：偷窃的诱惑力比以往任何时候都更强烈。", "a": "The temptation to steal is greater than ever before.", "note": "to steal 是不定式作定语。"},
+  {"q": "用 find + it + 形容词 + to do 改写：It was easy for the detective to watch her.", "a": "The detective found it easy to watch her.", "note": "it 为形式宾语。"},
+  {"q": "填空：____ Monday, there were ____ people in the shop ____ usual, so it was ____ (easy) for the detective to watch her.", "a": "One; fewer; than; easier", "note": "讲故事用 one；than usual 比往常。"},
+  {"q": "汉译英：这位妇女先买了几样小商品，又把店里最贵的连衣裙递给售货员尽快包好。", "a": "The woman first bought a few small articles, then handed one of the most expensive dresses in the shop to an assistant who wrapped it up as quickly as possible.", "note": "a few + 可数复数；wrap up 包起来。"},
+  {"q": "汉译英：然后那妇女拿过包就走出了商场，根本没有付钱。", "a": "Then the woman simply took the parcel and walked out of the shop without paying.", "note": "simply 仅仅；without 后接动名词。"},
+  {"q": "汉译英：她被逮捕后，侦探发现那售货员是她的女儿。那姑娘每星期“送”她母亲一件免费的衣服！", "a": "When she was arrested, the detective found out that the shop assistant was her daughter. The girl 'gave' her mother a free dress once a week!", "note": "arrest 常用被动。"}
+ ],
+ "quiz": [
+  {"q": "“人们不再像以前那样诚实了”的正确英文是：", "options": ["People are not so honest as they once were.", "People are not so honest as they once are.", "People are not honest as they once were.", "People are not so honest than they once were."], "answer": 0, "note": "not so...as 引导比较状语。"},
+  {"q": "“偷窃的诱惑”应表达为：", "options": ["the temptation to steal", "the temptation of steal", "the temptation for steal", "the temptation stealing"], "answer": 0, "note": "temptation 后接不定式作定语。"},
+  {"q": "“售货员以最快的速度把衣服包好”的正确说法是：", "options": ["wrapped it up as quick as possible", "wrapped it up as quickly as possible", "wrapped it up so quickly as possible", "wrapped up it as quickly as possible"], "answer": 1, "note": "修饰动词用副词 quickly。"},
+  {"q": "“店里的人比往常少”应译为：", "options": ["less people than usual", "fewer people than usual", "fewer people as usual", "few people as usual"], "answer": 1, "note": "people 是可数复数，用 fewer。"},
+  {"q": "故事开头“有一个星期一”应表达为：", "options": ["One Monday", "A Monday", "In one Monday", "At a Monday"], "answer": 0, "note": "叙述故事用 one + 时间名词。"},
+  {"q": "“侦探惊讶地发现售货员是她的女儿”，其中“感到惊讶的”应写作：", "options": ["The detective was surprised to find that...", "The detective was surprising to find that...", "The detective surprised finding that...", "The detective was surprised finding that..."], "answer": 0, "note": "人作主语用 -ed 形容词。"}
+ ]
+}

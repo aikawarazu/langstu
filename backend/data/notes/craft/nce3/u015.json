@@ -1,0 +1,164 @@
+{
+ "unitId": "u015",
+ "title": "Fifty Pence Worth of Trouble",
+ "subtitle": "五十便士的麻烦",
+ "lead": {
+  "question": "乔治用五十便士买了什么让他陷入麻烦的东西？最后他又得到了什么？",
+  "warmup": "先回想自己的存钱经历：爸爸妈妈给的零花钱，你是一分一分攒进储蓄罐，还是转身就跑去了糖果店花个精光？课文里的男孩乔治也有个储蓄罐，却总是空空如也。叔叔给他五十便士，本想让他存起来，他反过来给自己买了一场麻烦。读课文时留意：钱是怎么从他手里溜走的，最后又是谁赏了他一份甜头。",
+  "goals": [
+   "掌握 pocket money、money box、thrifty、sweet shop 等与零花钱、糖果相关的词汇。",
+   "理解 go a long way、find one's way、what is more、exchange...for... 等固定表达。",
+   "辨析 fifty pence pieces 与 fifty pennies 的用法差异。",
+   "体会一般过去时叙述事件与现在完成时总结经历的搭配。"
+  ],
+  "summary": "课文先谈孩子对零花钱的态度：少量钱也能花很久，只有特别节俭的孩子才装得满储蓄罐。接着讲外甥乔治：他有个空储蓄罐，叔叔给的钱大多没存进去。昨天他拿五十便士去糖果店，硬币掉进阴沟，他伸手去掏，胳膊反被阴沟盖卡住，消防队用特殊润滑剂才把他救出。糖果店老板娘听说后，赏了他一大盒巧克力。",
+  "tips": "fifty pence pieces 指若干枚五十便士的硬币，复数仍用 pence；fifty pennies 则是五十枚一便士硬币，两者别混淆。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Did George get anything for his fifty pence? What?",
+   "zh": "乔治的五十便士换来了什么吗？换来了什么？",
+   "a": "Yes, he did. He did not get the sweets he wanted, but he ended up with a large box of chocolates from the owner of the sweet shop.",
+   "aZh": "换来了。他没买成想要的糖，却从糖果店老板娘那里得到了一大盒巧克力。",
+   "hint": "答案见课文最后一句：the lady who owns the sweet shop ... rewarded him with large box of chocolates."
+  },
+  {
+   "kind": "detail",
+   "q": "What do most children do with fifty pence, and what kind of children manage to fill up a money box?",
+   "zh": "大部分孩子拿五十便士做什么？什么样的孩子才能把储蓄罐装满？",
+   "a": "For most of them, fifty pence is a small price to pay for a nice big bar of chocolate. Only very thrifty children manage to fill up a money box.",
+   "aZh": "对大部分孩子来说，五十便士买一大块好巧克力算不了什么；只有特别节俭的孩子才能把储蓄罐装满。",
+   "hint": "见课文第4、5句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What happened to George's fifty pence on his way to the sweet shop?",
+   "zh": "乔治去糖果店的路上，那五十便士怎么了？",
+   "a": "He dropped it, and it bounced along the pavement and then disappeared down a drain.",
+   "aZh": "他把钱掉了，硬币在人行道上弹跳了几下，然后掉进了阴沟里。",
+   "hint": "见课文第10句 On his way to the sweet shop..."
+  },
+  {
+   "kind": "detail",
+   "q": "How was George finally freed from the drain cover?",
+   "zh": "乔治最后是怎么从阴沟盖里脱身的？",
+   "a": "The fire brigade was called and two fire fighters freed him using a special type of grease.",
+   "aZh": "有人叫来了消防队，两名消防员用一种特殊的润滑剂才使他脱身。",
+   "hint": "见课文倒数第二句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why was George not too upset by his experience?",
+   "zh": "为什么乔治对这次经历并不太难过？",
+   "a": "Because the lady who owned the sweet shop heard about his troubles and rewarded him with a large box of chocolates, so he got something sweet out of it.",
+   "aZh": "因为糖果店老板娘听说了他的遭遇后，赏了他一大盒巧克力，所以他反倒得了甜头。",
+   "hint": "见课文最后一句的 because 从句。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：爸爸妈妈当然经常给孩子零花钱。",
+   "a": "Mum or dad, of course, provide a regular supply of pocket money.",
+   "note": "pocket money 零花钱"
+  },
+  {
+   "q": "汉译英：对于有些孩子来说，少量的钱可以花很长一段时间。",
+   "a": "With some children, small sums go a long way.",
+   "note": "go a long way 可以维持很久"
+  },
+  {
+   "q": "填空：If fifty pence pieces are not ______ for sweets, they rattle for months inside money boxes.",
+   "a": "exchanged",
+   "note": "exchange...for... 以……换……"
+  },
+  {
+   "q": "句型转换：用 what is more 把 \"He could not find his fifty pence piece anywhere. He could not get his arm out.\" 合并为一句。",
+   "a": "He could not find his fifty pence piece anywhere, and what is more, he could not get his arm out.",
+   "note": "what is more 更有甚者"
+  },
+  {
+   "q": "改错：Very few of the fifty pence pieces and pound coins I gave him have found their way there.",
+   "a": "Very few of the fifty pence pieces and pound coins I have given him have found their way there.",
+   "note": "give 用现在完成时 have given"
+  },
+  {
+   "q": "填空并辨析：a fifty ______ piece 指一枚五十便士硬币，而 fifty ______ 指五十枚一便士硬币。",
+   "a": "pence; pennies",
+   "note": "pence 与 pennies 的区别"
+  },
+  {
+   "q": "汉译英：昨天我给了他五十便士，并建议他把它存起来。",
+   "a": "I gave him fifty pence yesterday and advised him to save it.",
+   "note": "advise sb. to do 建议某人做某事"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文开头说，孩子们总是喜欢什么？",
+   "options": [
+    "small gifts of money",
+    "big boxes of chocolates",
+    "new money boxes",
+    "regular supplies of sweets"
+   ],
+   "answer": 0,
+   "note": "Children always appreciate small gifts of money."
+  },
+  {
+   "q": "在课文中，除了父母，谁还是孩子额外收入的来源？",
+   "options": [
+    "Teachers and friends",
+    "Uncles and aunts",
+    "Brothers and sisters",
+    "Neighbours and strangers"
+   ],
+   "answer": 1,
+   "note": "uncles and aunts are always a source of extra income"
+  },
+  {
+   "q": "\"small sums go a long way\" 在文中是什么意思？",
+   "options": [
+    "Small sums last a long time.",
+    "Small sums are quickly spent.",
+    "Small sums are hard to save.",
+    "Small sums are worth little."
+   ],
+   "answer": 0,
+   "note": "go a long way = 可以维持很久"
+  },
+  {
+   "q": "乔治的储蓄罐为什么总是空空的？",
+   "options": [
+    "He has no money box at all.",
+    "He gives his money to his friends.",
+    "Very few of the coins he is given find their way there.",
+    "He lost his money box down a drain."
+   ],
+   "answer": 2,
+   "note": "大多数硬币没能存进储蓄罐"
+  },
+  {
+   "q": "乔治的五十便士掉进阴沟后，他的胳膊怎么了？",
+   "options": [
+    "He hurt it badly on the pavement.",
+    "He could not get it out of the drain cover.",
+    "He burned it on the hot pavement.",
+    "He dropped it into the money box."
+   ],
+   "answer": 1,
+   "note": "he could not get his arm out"
+  },
+  {
+   "q": "谁最后让乔治摆脱了困境？",
+   "options": [
+    "A lady with soap and butter",
+    "The owner of the sweet shop",
+    "Two fire fighters with a special grease",
+    "A crowd of people who gathered round him"
+   ],
+   "answer": 2,
+   "note": "two fire fighters freed George using a special type of grease"
+  }
+ ]
+}

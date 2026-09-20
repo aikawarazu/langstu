@@ -1,0 +1,151 @@
+{
+ "book": "nce3",
+ "unitId": "u060",
+ "lesson": 60,
+ "sourceFile": "375.txt",
+ "titleEn": "Too early and too late",
+ "titleZh": "太早和太晚",
+ "listenQuestion": "Why did the young girl miss the train?",
+ "lines": [
+  {
+   "en": "Punctuality is a necessary habit in all public affairs in civilized society.",
+   "zh": "准时是文明社会中进行一切社交活动时必须养成的习惯。"
+  },
+  {
+   "en": "Without it, nothing could ever be brought to a conclusion; everything would be in state of chaos .",
+   "zh": "不准时将一事无成，事事都会陷入混乱不堪的境地。"
+  },
+  {
+   "en": "Only in a sparsely -populated rural community is it possible to disregard it.",
+   "zh": "只有在人口稀少的农村，才可以忽视准时的习惯。"
+  },
+  {
+   "en": "In ordinary living, there can be some tolerance of unpunctuality.",
+   "zh": "在日常生活中人们可以容忍一定程度的不准时。"
+  },
+  {
+   "en": "The intellectual, who is working on some abstruse problem, has everything coordinated and organized for the matter in hand.",
+   "zh": "一个专心钻研某个复杂问题的知识分子，为了搞好手头的研究，要把一切都协调一致，组织周密。"
+  },
+  {
+   "en": "He is therefore forgiven if late for a dinner party.",
+   "zh": "因此，他要是赴宴迟到了会得到谅解。"
+  },
+  {
+   "en": "But people are often reproached for unpunctuality when their only fault is cutting things fine.",
+   "zh": "但有些人不准时常常因为掐钟点所致，他们常常受到责备，精力充沛、头脑敏捷的人极不愿意浪费时间，因此他们常想做完一件事后再去赴约。"
+  },
+  {
+   "en": "It is hard for energetic, quick-minded people to waste time, so they are often tempted to finish a job before setting out to keep an appointment.",
+   "zh": "要是路上没有发生如爆胎、改道、突然起雾等意外事故，他们决不会迟到。"
+  },
+  {
+   "en": "If no accidents occur on the way, like punctured tires, diversions of traffic, sudden descent of fog, they will be on time.",
+   "zh": "他们与那些从不迟到的人相比，常常是更勤奋有用的公民。"
+  },
+  {
+   "en": "They are often more industrious , useful citizens than those who are never late.",
+   "zh": "早到的人同迟到的人一样令人讨厌。"
+  },
+  {
+   "en": "The over-punctual can be as much a trial to others as the unpunctual.",
+   "zh": "客人提前半小时到达是令人讨厌的。"
+  },
+  {
+   "en": "The guest who arrives half an hour too soon is the greatest nuisance.",
+   "zh": "我家有几个朋友就有这有令人恼火的习惯。"
+  },
+  {
+   "en": "Some friends of my family had this irritating habit.",
+   "zh": "唯一的办法就是请他们比别的客人晚来半小时。"
+  },
+  {
+   "en": "The only thing to do was ask them to come half an hour later than the other guests.",
+   "zh": "这样，他们可以恰好在我们要求的时间到达。"
+  },
+  {
+   "en": "Then they arrived just when we wanted them.",
+   "zh": "如果赶火车，早到总比晚到好，哪怕早到一会儿也好。"
+  },
+  {
+   "en": "If you are citing a train, it is always better to be comfortably early than even a fraction of a minted too late.",
+   "zh": "虽然早到可能意味着浪费一点时间，但这比误了火车等上一个多小时坐下班车浪费的时间要少，而且可以避免那种正好在火车驶出站时赶到车站，因上不去车而感到的沮丧。"
+  },
+  {
+   "en": "Although being early may mean wasting a little time, this will be less than if you miss the train and have to wait an hour or more for the next one; and you avoid the frustration of arriving at the very moment when the train is drawing out of the station and being unable to get on it.",
+   "zh": "更难堪的情况是虽然及时赶到站台上，却眼睁睁地看着那趟火车启动，把你抛下。"
+  },
+  {
+   "en": "An even harder situation is to be on the platform in good time for a train and still to see it go off without you.",
+   "zh": "一个小姑娘第一次单独出门就碰到了这种情况。"
+  },
+  {
+   "en": "Such an experience befell a certain young girl the first time she was traveling alone.",
+   "zh": "在火车进站20分钟前她就进了车站。"
+  },
+  {
+   "en": "She entered the station twenty minutes before the train was due, since her parents had impressed upon her that it would be unforgivable to miss it and cause the friends with whom she was going to stay to make two journeys to meet her.",
+   "zh": "因为她的父母再三跟她说，如果误了这趟车，她的东道主朋友就得接她两趟，这是不应该的。"
+  },
+  {
+   "en": "She gave her luggage to a porter and showed him her ticket.",
+   "zh": "她把行李交给搬运工并给他看了车票。"
+  },
+  {
+   "en": "To her horror he said that she was two hours too soon.",
+   "zh": "搬运工说她早到了两个小时，她听后大吃一惊。"
+  },
+  {
+   "en": "She felt inhere handbag for the piece of paper on which her father had written down al the details of the journey and gave it to the porter.",
+   "zh": "她从钱包里摸出一张纸条，那上面有她父亲对这次旅行详细说明，她把这张纸条交给了搬运工。"
+  },
+  {
+   "en": "He agreed that a train did come into the station at the time on the paper and that it did stop, but only to take on mail, not passengers.",
+   "zh": "搬运工说，正如纸条所说，确有一趟火车在那个时刻到站，但它只停站装邮件，不载旅客。"
+  },
+  {
+   "en": "The girl asked to see a timetable, feeling sure that her father could not have made such a mistake.",
+   "zh": "姑娘要求看到时刻表，因为她相信父亲不能把这么大的事弄错。"
+  },
+  {
+   "en": "The porter went to fetch one and arrive back with the station master, who produced it with a flourish and pointed out a microscopic 'o' beside the time of the arrival of the train at his station; this little 'o' indicated that the train only stopped for mail.",
+   "zh": "搬运工跑回去取时刻表，同时请来了站长。站长拿着时刻表一挥手，指着那趟列车到站时刻旁边一个很小的圆圈标记。这个标记表示列车是为装邮件而停车。"
+  },
+  {
+   "en": "Just as that moment the train came into the station.",
+   "zh": "正在这时，火车进站了。"
+  },
+  {
+   "en": "The girl, tears streaming down her face, begged to be allowed to slip into the guard's van.",
+   "zh": "女孩泪流满面，央求让她不声不响地到押车员车厢里去算了。"
+  },
+  {
+   "en": "But the station master was adamant : rules could not be broken and she had to watch that train disappear towards her destination while she was left behind.",
+   "zh": "但站长态度坚决，规章制度不能破坏，姑娘只得眼看那趟火车消逝在她要去的方向而撇下了她。"
+  }
+ ],
+ "translationJoined": "准时是文明社会中进行一切社交活动时必须养成的习惯。不准时将一事无成，事事都会陷入混乱不堪的境地。只有在人口稀少的农村，才可以忽视准时的习惯。在日常生活中人们可以容忍一定程度的不准时。一个专心钻研某个复杂问题的知识分子，为了搞好手头的研究，要把一切都协调一致，组织周密。因此，他要是赴宴迟到了会得到谅解。但有些人不准时常常因为掐钟点所致，他们常常受到责备，精力充沛、头脑敏捷的人极不愿意浪费时间，因此他们常想做完一件事后再去赴约。要是路上没有发生如爆胎、改道、突然起雾等意外事故，他们决不会迟到。他们与那些从不迟到的人相比，常常是更勤奋有用的公民。早到的人同迟到的人一样令人讨厌。客人提前半小时到达是令人讨厌的。我家有几个朋友就有这有令人恼火的习惯。唯一的办法就是请他们比别的客人晚来半小时。这样，他们可以恰好在我们要求的时间到达。如果赶火车，早到总比晚到好，哪怕早到一会儿也好。虽然早到可能意味着浪费一点时间，但这比误了火车等上一个多小时坐下班车浪费的时间要少，而且可以避免那种正好在火车驶出站时赶到车站，因上不去车而感到的沮丧。更难堪的情况是虽然及时赶到站台上，却眼睁睁地看着那趟火车启动，把你抛下。一个小姑娘第一次单独出门就碰到了这种情况。在火车进站20分钟前她就进了车站。因为她的父母再三跟她说，如果误了这趟车，她的东道主朋友就得接她两趟，这是不应该的。她把行李交给搬运工并给他看了车票。搬运工说她早到了两个小时，她听后大吃一惊。她从钱包里摸出一张纸条，那上面有她父亲对这次旅行详细说明，她把这张纸条交给了搬运工。搬运工说，正如纸条所说，确有一趟火车在那个时刻到站，但它只停站装邮件，不载旅客。姑娘要求看到时刻表，因为她相信父亲不能把这么大的事弄错。搬运工跑回去取时刻表，同时请来了站长。站长拿着时刻表一挥手，指着那趟列车到站时刻旁边一个很小的圆圈标记。这个标记表示列车是为装邮件而停车。正在这时，火车进站了。女孩泪流满面，央求让她不声不响地到押车员车厢里去算了。但站长态度坚决，规章制度不能破坏，姑娘只得眼看那趟火车消逝在她要去的方向而撇下了她。",
+ "words": [
+  {
+   "word": "urban",
+   "pos": "adj",
+   "zh": "◆disregard v. 不顾，无视"
+  },
+  {
+   "word": "reproach",
+   "pos": "n",
+   "zh": "Beyond reproach 无可指责"
+  },
+  {
+   "word": "gesticulate",
+   "pos": "v",
+   "zh": "◆microscopic adj. 微小的"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "",
+  "grammar": "1  Only in a sparsely-populated…is it possible…，这是一个倒装句，因为only放在句首。\n2  for the matter in hand，为手中的事。\n3  if late for a dinner party，\n在以if，when，though等连词引导的从句中，当其谓语为be时，而主语又与主句的主语相同，从句中往往可以将主语和谓语省去。上句if后就省略了he is。\n4  cut things fine，把时间安排得不留余地。\n5  The over-punctual can be as much a trial to others as the unpunctual .\n到得过早的人和迟到的人同样使人无法忍受。as much as，和……一样。\n6  half an hour too soon（= half an hour earlier），早到半个小时。\n7  in good time，作“适当地”、“及时地”讲。",
+  "wordStudy": "",
+  "keyAnswers": ""
+ }
+}

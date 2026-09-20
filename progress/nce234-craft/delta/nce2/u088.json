@@ -1,0 +1,35 @@
+{
+ "title": "Trapped in a Mine",
+ "subtitle": "困在矿井里",
+ "lead": {
+  "question": "十七个小时过去了，矿井救援为何如此艰难，六名被困矿工能否平安脱险？",
+  "warmup": "六名矿工被困井下已经十七个小时，井外的营救却迟迟没有进展。用炸药会震塌矿顶，只能从北侧一点点往下钻，偏偏地下又横着一层坚硬的岩石。本课围绕这场紧张的救援展开，你会读到常见的矿井词汇、run 系列的短语，以及三类条件句在真实场景中的对比用法。",
+  "goals": ["掌握 trap、mine、collapse、layer、beneath、capsule、microphone 等矿井救援相关词汇", "理解并区分第一、第二、第三类条件句，尤其是 'If there had not been..., they would have completed...' 这类与过去相反的假设", "会用 as it is 表示“实际上”，会辨析 therefore 与 so 的用法差别", "掌握 run out of、keep in touch with、lose heart 等固定搭配及 run 系列短语"],
+  "summary": "课文讲六名矿工被困矿井十七小时，营救十分艰难：动用炸药会引起矿顶塌落，营救人员只得在北侧钻洞，再用特制容器把人救上来。要不是地下那层坚硬岩石，几小时就能完工；实际上钻了十六小时仍未钻透。井下矿工靠麦克风与亲人保持联系，虽然食物饮水快用尽，却依旧乐观，因为人们一直告诉他们救援进展顺利。",
+  "tips": "易错提醒：lose heart 表示“失去信心”，heart 前不加冠词；prove 后可直接跟形容词，如 operations are proving difficult（事实证明很困难）。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why is the rescue taking so long?", "zh": "为什么营救工作要花这么长时间？", "a": "Because there is a hard layer of rock beneath the soil, so drilling is very slow, and explosives cannot be used.", "aZh": "因为土壤下面有一层坚硬的岩石，钻探非常缓慢，而且又不能使用炸药。", "hint": "答案见课文第4、5、7、8句：用炸药会使矿顶塌落，只好钻洞，而地下岩层坚硬，已钻了16小时仍未钻透。"},
+  {"kind": "detail", "q": "Why can't the rescue workers use explosives?", "zh": "营救人员为什么不能使用炸药？", "a": "Because the vibrations would cause the roof of the mine to collapse.", "aZh": "因为震动会导致矿顶塌落。", "hint": "课文第4句：If explosives are used, vibrations will cause the roof of the mine to collapse."},
+  {"kind": "detail", "q": "How do the rescue workers intend to bring the men up?", "zh": "营救人员打算怎样把这6个人救上来？", "a": "They intend to drill a hole on the north side of the mine and then bring the men up in a special capsule.", "aZh": "他们打算先在矿井北侧钻一个洞，然后用一种特制的容器把这6个人救上来。", "hint": "课文第5、6句：therefore drilling a hole on the north side... in a special capsule."},
+  {"kind": "detail", "q": "What has the microphone enabled the trapped men to do, and how are they feeling?", "zh": "麦克风使被困矿工做到了什么？他们现在的状态如何？", "a": "It has enabled them to keep in touch with their closest relatives. Though they are running out of food and drink, they are cheerful and confident that they will get out soon.", "aZh": "麦克风使他们能与最亲近的亲属保持联系。虽然食物和饮料快消耗尽了，但他们心情很好，坚信很快就会出去。", "hint": "课文第9、10句：keep in touch with...；running out of food and drink, the men are cheerful and confident..."},
+  {"kind": "think", "q": "The last sentence says the men would lose heart if they knew the truth. Why do the rescuers keep telling them that operations are progressing smoothly?", "zh": "课文最后一句说，如果他们知道真相就会丧失信心。那么营救人员为什么一直告诉他们营救工作进展顺利？", "a": "Because hope keeps them cheerful and confident; telling them the truth would make them lose heart, which might harm their chance of survival.", "aZh": "因为希望让他们保持乐观和信心；说出真相会让他们丧失勇气，这可能危及他们生还的机会。", "hint": "结合课文最后两句以及 lose heart（丧失信心）的含义来思考。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：6个人被困在矿井里已有17个小时了。", "a": "Six men have been trapped in a mine for seventeen hours.", "note": "现在完成时＋for表示持续"},
+  {"q": "填空：If explosives ___ (use), vibrations will cause the roof of the mine to ___.", "a": "are used; collapse", "note": "第一类条件句＋被动；collapse原形"},
+  {"q": "句型转换：If there had not been a hard layer of rock beneath the soil, they would have completed the job in a few hours.（用 as it is 引出实情改写）", "a": "As it is, they have been drilling for sixteen hours and they still have a long way to go.", "note": "第三类条件句对比实情"},
+  {"q": "汉译英：虽然他们的食物和饮料都快消耗尽了，但这些人的心情很好。", "a": "Though they are running out of food and drink, the men are cheerful.", "note": "run out of 用完；though让步"},
+  {"q": "改错：Rescue operations are progressing smooth.", "a": "smooth → smoothly", "note": "副词修饰动词，rescue作定语"},
+  {"q": "填空：A microphone has enabled the men to keep in touch ___ their closest relatives.", "a": "with", "note": "keep in touch with 固定搭配"},
+  {"q": "汉译英：如果不把他们尽快救到地面上来，他们就有可能丧生。", "a": "If they are not brought to the surface soon they may lose their lives.", "note": "第一类条件句＋被动；surface"}
+ ],
+ "quiz": [
+  {"q": "六名矿工被困在矿井里已经多久了？", "options": ["seven hours", "seventeen hours", "seventy hours", "seven hundred hours"], "answer": 1, "note": "课文首句：for seventeen hours"},
+  {"q": "营救人员为什么不能使用炸药？", "options": ["Because there are too many rocks.", "Because the vibrations would cause the roof of the mine to collapse.", "Because explosives are too expensive.", "Because the men are too close to the surface."], "answer": 1, "note": "第4句，用炸药会震塌矿顶"},
+  {"q": "他们准备用什么把矿工救上来？", "options": ["a special capsule", "a strong basket", "a small boat", "a long ladder"], "answer": 0, "note": "第6句：in a special capsule"},
+  {"q": "文中的 As it is 是什么意思？", "options": ["As a matter of fact / in reality", "Because it is so", "As soon as possible", "In the same way"], "answer": 0, "note": "as it is＝实际上，事实上"},
+  {"q": "虽然食物和饮料快用尽，矿工们的状态如何？", "options": ["cheerful and confident", "angry and worried", "tired and silent", "ill and weak"], "answer": 0, "note": "第10句心情很好，坚信很快出去"},
+  {"q": "营救人员为什么告诉矿工营救进展顺利？", "options": ["Because it is really true.", "Because they want the men to keep up their spirits.", "Because the men have asked them to.", "Because they are not sure of the truth."], "answer": 1, "note": "若知真相他们会 lose heart"}
+ ]
+}

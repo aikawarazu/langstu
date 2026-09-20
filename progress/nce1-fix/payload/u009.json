@@ -1,0 +1,95 @@
+{
+ "unitId": "u009",
+ "lessons": [
+  {
+   "lesson": 17,
+   "title": "How do you do?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "MR. JACKSON",
+     "en": "Come and meet our employees, Mr. Richards."
+    },
+    {
+     "i": 1,
+     "speaker": "MR. RICHARDS",
+     "en": "Thank you, Mr. Jackson."
+    },
+    {
+     "i": 2,
+     "speaker": "MR. JACKSON",
+     "en": "This is Nicola Grey, and this is Claire Taylor."
+    },
+    {
+     "i": 3,
+     "speaker": "MR. RICHARDS",
+     "en": "How do you do?"
+    },
+    {
+     "i": 4,
+     "speaker": "MR. RICHARDS",
+     "en": "Those women are very hard-working."
+    },
+    {
+     "i": 5,
+     "speaker": "MR. RICHARDS",
+     "en": "What are their jobs?"
+    },
+    {
+     "i": 6,
+     "speaker": "MR. JACKSON",
+     "en": "They're keyboard operators."
+    },
+    {
+     "i": 7,
+     "speaker": "MR. JACKSON",
+     "en": "This is Michael Baker, and this is Jeremy Short."
+    },
+    {
+     "i": 8,
+     "speaker": "MR. RICHARDS",
+     "en": "How do you do?"
+    },
+    {
+     "i": 9,
+     "speaker": "MR. RICHARDS",
+     "en": "They aren't very busy!"
+    },
+    {
+     "i": 10,
+     "speaker": "MR. RICHARDS",
+     "en": "What are their jobs?"
+    },
+    {
+     "i": 11,
+     "speaker": "MR. JACKSON",
+     "en": "They're sales reps."
+    },
+    {
+     "i": 12,
+     "speaker": "MR. JACKSON",
+     "en": "They are very lazy."
+    },
+    {
+     "i": 13,
+     "speaker": "MR. RICHARDS",
+     "en": "Who is this young man?"
+    },
+    {
+     "i": 14,
+     "speaker": "MR. JACKSON",
+     "en": "This is Jim."
+    },
+    {
+     "i": 15,
+     "speaker": "MR. JACKSON",
+     "en": "He is our office assistant."
+    }
+   ]
+  }
+ ],
+ "reference": {},
+ "rawPage": {},
+ "parsedTranslation": []
+}

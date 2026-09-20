@@ -1,0 +1,164 @@
+{
+ "unitId": "u027",
+ "title": "Nothing to Sell and Nothing to Buy",
+ "subtitle": "不卖也不买",
+ "lead": {
+  "question": "真正的流浪汉为什么不肯出售任何东西，他生命中最珍视的又是什么？",
+  "warmup": "人人都靠出售某种东西为生：教师卖知识，哲学家卖智慧，牧师卖精神安慰。可是流浪汉既没有商品可卖，也从不向别人索取，却活得无牵无挂。作者甚至说，我们嘴上鄙视他们，心里却暗暗羡慕他们自由自在。学完本课，你会重新掂量自由与物质、尊严与舒适的分量。",
+  "goals": [
+   "掌握 live by doing、in the light of、in terms of、grudge doing 等重点短语的用法。",
+   "理解 such that 引导的同位语从句以及 which 引导的定语从句。",
+   "辨析 tramp、beggar、material、spiritual 等词的语义差别。",
+   "能用英语论述自由与物质的关系，表达对流浪汉生活方式的看法。"
+  ],
+  "summary": "课文先提出一条普遍规律：人人都靠出售某种东西为生——教师卖知识，哲学家卖智慧，牧师卖精神安慰；即便服务的价值难以衡量，技能也如商品一样必须付费。作者认为真正的流浪汉是唯一例外：他们不出售自己，也不乞求怜悯，而是主动选择这种生活，因而摆脱了万千焦虑、贴近自然，守住了尊严与自由。",
+  "tips": "易错提醒：grudge 表“吝惜、不愿”时后接名词或动名词，如 grudge paying a high fee；不要与表“怨恨”的用法混淆，也别写成 grudge to pay。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What is the most important thing for a tramp?",
+   "zh": "对流浪汉来说，最重要的东西是什么？",
+   "a": "His freedom. He may hunt, beg or steal to keep alive, and may even do a little work in times of real need, but he will never sacrifice his freedom.",
+   "aZh": "自由。为了生存他可以去打猎、乞讨甚至偷窃，确实需要时也肯干点活，但他绝不会牺牲自由。",
+   "hint": "见课文结尾：“but he will never sacrifice his freedom.”"
+  },
+  {
+   "kind": "detail",
+   "q": "How are teachers, philosophers and priests said to live?",
+   "zh": "文中说教师、哲学家和牧师分别靠什么为生？",
+   "a": "Teachers live by selling knowledge, philosophers by selling wisdom and priests by selling spiritual comfort.",
+   "aZh": "教师靠卖知识为生，哲学家靠卖智慧为生，牧师靠卖精神安慰为生。",
+   "hint": "见课文第二句，注意 live by selling 的并列结构。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why is it difficult to estimate the value of the services people perform for us?",
+   "zh": "为什么很难估算别人为我们提供的服务的价值？",
+   "a": "Though the value of material goods can be measured in terms of money, the true value of services is extremely difficult to estimate; we would give everything to save our lives, yet grudge paying a surgeon a high fee for precisely that service.",
+   "aZh": "虽然物质产品的价值可以用金钱衡量，但服务的真实价值却极难估算；我们为救命愿意付出一切，却又可能为外科医生提供的正是这项服务而抱怨收费太高。",
+   "hint": "见课文第三、四句，material goods 与 services 的对比。"
+  },
+  {
+   "kind": "detail",
+   "q": "In what ways is a real tramp different from a beggar?",
+   "zh": "真正的流浪汉和乞丐有什么不同？",
+   "a": "A beggar almost sells himself as a human being to arouse the pity of passers-by, while a real tramp has nothing to sell and requires nothing from others. He may ask for money but never asks you to feel sorry for him, and he does not sacrifice his human dignity.",
+   "aZh": "乞丐几乎是在出卖他本人以引起过路人的怜悯，而真正的流浪汉不出售任何东西，也不向别人索取。他可能向你讨钱，却从不求你可怜他，也不牺牲为人的尊严。",
+   "hint": "见“Beggars almost sell themselves…”与“But real tramps are not beggars.”两句。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you think the tramp's freedom is worth the hardships of his life? Give your reasons.",
+   "zh": "你认为流浪汉用生活的艰辛换来的自由值得吗？请说明理由。",
+   "a": "Open answer. A possible view: the text shows he has deliberately chosen this life and is fully aware of the consequences, so his freedom from the thousands of anxieties that afflict others, and his closeness to nature, may be worth more than material comfort—yet few of us would truly give up security.",
+   "aZh": "开放作答。一种看法：课文说他是故意选择这种生活并完全清楚后果，因此他摆脱了折磨他人的万千愁事、又更贴近自然，这些或许比物质舒适更可贵；不过我们中很少有人真的肯放弃安稳。",
+   "hint": "结合“fully aware of the consequences”与结尾的反问句作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：教师靠卖知识为生，哲学家靠卖智慧为生，牧师靠卖精神安慰为生。",
+   "a": "Teachers live by selling knowledge, philosophers by selling wisdom and priests by selling spiritual comfort.",
+   "note": "live by doing 结构"
+  },
+  {
+   "q": "汉译英：虽然物质产品的价值可以用金钱衡量，但要估算别人为我们提供的服务的真实价值却极其困难。",
+   "a": "Though it may be possible to measure the value of material goods in terms of money, it is extremely difficult to estimate the true value of the services which people perform for us.",
+   "note": "material goods；in terms of"
+  },
+  {
+   "q": "句型转换（合成含定语从句的句子）：It is hard to estimate the true value of the services. People perform these services for us.",
+   "a": "It is difficult to estimate the true value of the services which people perform for us.",
+   "note": "which 引导定语从句"
+  },
+  {
+   "q": "填空：The conditions of society are ______ that skills have to be paid for in the same way that goods are paid for at a shop.",
+   "a": "such",
+   "note": "such that 引导同位语从句"
+  },
+  {
+   "q": "填空：Beggars almost sell themselves to arouse the pity of passers-by, but real ______ are not beggars and never sell themselves.",
+   "a": "tramps",
+   "note": "tramp 与 beggar 之别"
+  },
+  {
+   "q": "改错：He is free of the thousands of anxieties which afflict other people.",
+   "a": "He is free from the thousands of anxieties which afflict other people.",
+   "note": "be free from 不受……影响"
+  },
+  {
+   "q": "用 would 改写，表达“愿意”：为了挽救生命，我们愿意付出我们所拥有的一切。",
+   "a": "We would willingly give everything we possess to save our lives.",
+   "note": "would 表意愿，近虚拟"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文说教师、哲学家和牧师分别靠什么为生？",
+   "options": [
+    "selling goods, ideas and prayers",
+    "selling knowledge, wisdom and spiritual comfort",
+    "selling books, advice and comfort",
+    "selling skills, money and faith"
+   ],
+   "answer": 1,
+   "note": "见首句 teachers live by selling knowledge…"
+  },
+  {
+   "q": "作者认为，估算他人为我们提供的服务的价值之所以困难，是因为——",
+   "options": [
+    "services are always free of charge",
+    "material goods have no value at all",
+    "we pay for the goods, not the skills",
+    "services cannot be measured in terms of money"
+   ],
+   "answer": 3,
+   "note": "服务价值难用金钱衡量"
+  },
+  {
+   "q": "乞丐与真正的流浪汉最大的区别在于——",
+   "options": [
+    "The beggar sells himself as a human being, while the tramp sells nothing.",
+    "The beggar works much harder than the tramp.",
+    "The tramp asks for money but the beggar never does.",
+    "The tramp owns far more goods than the beggar."
+   ],
+   "answer": 0,
+   "note": "卖身求怜 vs 一无出售"
+  },
+  {
+   "q": "关于流浪汉的生活方式，下列哪一项符合课文？",
+   "options": [
+    "He never asks anyone for money.",
+    "He is fully aware of the consequences of his choice.",
+    "He deeply regrets the life he leads.",
+    "He has a great many material possessions."
+   ],
+   "answer": 1,
+   "note": "fully aware of the consequences"
+  },
+  {
+   "q": "课文结尾的反问句表达了作者怎样的态度？",
+   "options": [
+    "He looks down upon tramps and their way of life.",
+    "He envies nobody and nothing at all.",
+    "Many people secretly envy the tramp's simple, carefree life.",
+    "He thinks tramps should be classed with beggars."
+   ],
+   "answer": 2,
+   "note": "结尾反问暗含羡慕"
+  },
+  {
+   "q": "课文中的 be free from 意为——",
+   "options": [
+    "not troubled by (anxieties or pain)",
+    "costing nothing to use",
+    "released from prison",
+    "travelling without a ticket"
+   ],
+   "answer": 0,
+   "note": "be free from 不受……影响"
+  }
+ ]
+}

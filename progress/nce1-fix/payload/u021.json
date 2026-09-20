@@ -1,0 +1,74 @@
+{
+ "unitId": "u021",
+ "lessons": [
+  {
+   "lesson": 41,
+   "title": "Penny's bag",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "SAM",
+     "en": "Is that bag heavy, Penny?"
+    },
+    {
+     "i": 1,
+     "speaker": "PENNY",
+     "en": "Not very."
+    },
+    {
+     "i": 2,
+     "speaker": "SAM",
+     "en": "Here! Put it on this chair."
+    },
+    {
+     "i": 3,
+     "speaker": "SAM",
+     "en": "What's in it?"
+    },
+    {
+     "i": 4,
+     "speaker": "PENNY",
+     "en": "A piece of cheese. A loaf of bread. A bar of soap. A bar of chocolate. A bottle of milk. A pound of sugar. Half a pound of coffee. A quarter of a pound of tea. And a tin of tobacco."
+    },
+    {
+     "i": 5,
+     "speaker": "SAM",
+     "en": "Is that tin of tobacco for me?"
+    },
+    {
+     "i": 6,
+     "speaker": "PENNY",
+     "en": "Well, it's certainly not for me!"
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "41": [
+   "萨姆：那个提包重吗，彭妮？",
+   "彭妮：不太重。",
+   "萨姆：放在这儿。把它放在这把椅子上。",
+   "里面是什么东西？",
+   "彭妮：一块乳酪、一块面包、一块肥皂、",
+   "一块巧克力、一瓶牛奶、一磅糖、",
+   "半磅咖啡、1/4 磅茶叶和一听烟丝。",
+   "萨姆：那听烟丝是给我的吗？",
+   "彭妮：噢，当然不会给我的！"
+  ]
+ },
+ "rawPage": {
+  "41": "204.txt"
+ },
+ "parsedTranslation": [
+  "萨姆：那个提包重吗，彭妮？",
+  "彭妮：不太重。",
+  "萨姆：放在这儿。把它放在这把椅子上。",
+  "里面是什么东西？",
+  "彭妮：一块乳酪、一块面包、一块肥皂、",
+  "一块巧克力、一瓶牛奶、一磅糖、",
+  "半磅咖啡、1/4 磅茶叶和一听烟丝。",
+  "萨姆：那听烟丝是给我的吗？",
+  "彭妮：噢，当然不会给我的！"
+ ]
+}

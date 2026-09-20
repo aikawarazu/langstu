@@ -1,0 +1,35 @@
+{
+ "title": "In the Public Interest",
+ "subtitle": "为了公众利益",
+ "lead": {
+  "question": "瑞典的司法特派员制度，如何保护公民权益、约束官员并杜绝不良作风？",
+  "warmup": "斯堪的纳维亚国家以开明的社会政策闻名于世。早在1809年，瑞典议会就设立司法特派员（Ombudsman），专门受理公民对政府机关的投诉。他不受政治压力左右，每年审阅约1200封书面投诉信，并有八位律师协助。课文通过一个外国人遭警察粗暴对待的真实案例，展示这位“公众利益守护者”如何查明真相、伸张正义。",
+  "goals": ["掌握 public interest、authority、investigate、complaint 等核心词汇的含义与用法。", "理解并运用被动语态（complaints must be made、was informed、would be prosecuted 等）。", "熟悉定语从句、宾语从句及形容词后置作定语（complaints large and small）等结构。", "了解瑞典司法特派员制度，学习用英语叙述一个典型案例的来龙去脉。"],
+  "summary": "本文介绍瑞典独创的司法特派员制度。议会委员会委派一位称职者，专门调查公民对国家机关的投诉；他独立于政治压力，每年处理约1200封书面来信，信件公开受公众监督。若投诉属实，他可为公民伸张正义，轻则斥责官员，重则建议议会修改法律。课文以外侨遭警察粗暴对待的案例，说明这一制度如何及时制止可能被忽视的弊端。",
+  "tips": "注意 complaints large and small 中两个相反形容词须后置作定语；suggest to parliament that a law be altered 用虚拟语气，动词用原形 be；subject to、in the belief that 等固定搭配要整体记忆。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What could not be reported in the official files?", "zh": "什么内容无法被记录在官方档案里？", "a": "The fact that the policeman was prejudiced against foreigners.", "aZh": "警察歧视外国人的这一事实。", "hint": "见课文末段：The fact that the policeman was prejudiced against foreigners could not be recorded in the official files."},
+  {"kind": "detail", "q": "What kind of system did Sweden evolve, and why was it adopted by other countries?", "zh": "瑞典逐渐形成了什么样的制度？为什么被其他国家采纳？", "a": "A system for protecting the individual citizen from highhanded or incompetent public officers; it worked so well that other countries adopted it.", "aZh": "一种保护公民不受专横、不称职官员欺压的制度；因行之有效而被其他国家采纳。", "hint": "见课文第2句。"},
+  {"kind": "detail", "q": "What are the requirements for making a complaint, and how many letters does the Ombudsman receive on average each year?", "zh": "提出投诉有什么要求？司法特派员每年平均收到多少封信？", "a": "Complaints must be made in writing; the Ombudsman receives an average of 1,200 letters a year.", "aZh": "投诉必须以书面形式提出；他每年平均收到1200封信。", "hint": "见课文第9句。"},
+  {"kind": "detail", "q": "How did the Ombudsman deal with the two complaints from the foreigners in the same village?", "zh": "司法特派员如何应对同一村庄两位外国人的投诉？", "a": "The first complaint could not be acted on because nothing in the record proved it; after a similar second complaint he immediately sent one of his lawyers to investigate, and the lawyer ascertained that a policeman had indeed dealt roughly with foreigners.", "aZh": "第一封投诉因档案中无证据而无法处理；收到内容类似的第二封投诉后，他立即派律师调查，证实一名警察确实多次粗鲁对待外国人。", "hint": "见课文后半部分关于典型案件的叙述。"},
+  {"kind": "think", "q": "Why is it important that the Ombudsman's correspondence is open to public inspection, and what does this suggest about good government?", "zh": "司法特派员的信件公开供公众监督为什么重要？这对良好的治理有何启示？", "a": "Because openness removes any secrecy and lets the public trust that complaints are handled fairly; it suggests good government must be transparent and accountable rather than subject to political pressure.", "aZh": "因为公开能消除隐秘，让公众相信投诉得到公正处理；这说明良好的治理必须透明、负责，而不应受政治压力左右。", "hint": "结合“There is nothing secretive…”及“not subject to political pressure”两句谈看法。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：司法特派员的工作是为了公众利益。", "a": "The work of the Ombudsman is in the public interest.", "note": "固定短语：为了公众利益"},
+  {"q": "汉译英：他派一位律师去调查此事。", "a": "He sent a lawyer to investigate the matter.", "note": "investigate 调查"},
+  {"q": "填空：He investigates ______ ______ ______ that come to him from all levels of society.（大大小小的）", "a": "complaints large and small", "note": "相反形容词后置作定语"},
+  {"q": "句型转换（改为被动语态）：The Ombudsman examines every single letter in detail.", "a": "Every single letter is examined in detail by the Ombudsman.", "note": "一般现在时被动语态"},
+  {"q": "改错：He may suggest to parliament that a law is altered.", "a": "He may suggest to parliament that a law be altered.", "note": "suggest 后从句用虚拟语气"},
+  {"q": "填空：A parliamentary committee appoints a person ______ is suitably qualified to investigate private grievances against the State.", "a": "who", "note": "who 引导定语从句"},
+  {"q": "汉译英：公民可以就政府当局的专横行为提出投诉。", "a": "Citizens may complain against the highhanded conduct of the authorities.", "note": "authorities 指政府当局"}
+ ],
+ "quiz": [
+  {"q": "司法特派员专门调查的是什么？", "options": ["private grievances against the State", "the public policies of Parliament", "the tax records of citizens", "disputes between two villages"], "answer": 0, "note": "investigate private grievances against the State"},
+  {"q": "关于投诉的形式，课文怎么说？", "options": ["They must be made in writing.", "They must be made by telephone.", "They must be signed by a lawyer.", "They must be sent to the newspapers."], "answer": 0, "note": "As complaints must be made in writing"},
+  {"q": "司法特派员的工作有什么特点？", "options": ["Nothing is secretive; his correspondence is open to public inspection.", "He keeps all letters strictly secret.", "He works under heavy political pressure.", "He never examines letters in detail."], "answer": 0, "note": "对应 open to public inspection"},
+  {"q": "对于经证实的投诉，司法特派员可能采取的行动是？", "options": ["He may gently reprimand an official or suggest altering a law.", "He may arrest the official at once.", "He may dismiss the whole parliament.", "He may pay the citizen a large sum of money."], "answer": 0, "note": "gently reprimand…or suggest a law be altered"},
+  {"q": "外侨的投诉案件最终结果如何？", "options": ["The policeman in question was severely reprimanded.", "The policeman was promoted for his work.", "The foreigner was asked to leave Sweden.", "The Chief of Police was prosecuted."], "answer": 0, "note": "当事警察受到严厉斥责"},
+  {"q": "瑞典这套制度为什么重要？", "options": ["It put an end to an unpleasant practice which might have gone unnoticed.", "It increased the number of civil servants.", "It raised taxes for the poor.", "It replaced the Swedish Parliament."], "answer": 0, "note": "结尾句点明其意义"}
+ ]
+}

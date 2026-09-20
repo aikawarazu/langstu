@@ -1,0 +1,130 @@
+{
+ "unitId": "u006",
+ "lessons": [
+  {
+   "lesson": 11,
+   "title": "Is this your shirt?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": null,
+     "en": "TEACHER：Whose shirt is that?"
+    },
+    {
+     "i": 1,
+     "speaker": null,
+     "en": "TEACHER：Is this your shirt, Dave?"
+    },
+    {
+     "i": 2,
+     "speaker": "DAVE",
+     "en": "No. Sir."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "It's not my shirt."
+    },
+    {
+     "i": 4,
+     "speaker": "DAVE",
+     "en": "This is my shirt."
+    },
+    {
+     "i": 5,
+     "speaker": null,
+     "en": "My shirt's blue."
+    },
+    {
+     "i": 6,
+     "speaker": "TEACHER",
+     "en": "Is this shirt Tim's?"
+    },
+    {
+     "i": 7,
+     "speaker": null,
+     "en": "DAVE:"
+    },
+    {
+     "i": 8,
+     "speaker": null,
+     "en": "Perhaps it is, sir."
+    },
+    {
+     "i": 9,
+     "speaker": null,
+     "en": "Tim's shirt's white."
+    },
+    {
+     "i": 10,
+     "speaker": null,
+     "en": "TEACHER：Tim!"
+    },
+    {
+     "i": 11,
+     "speaker": "TIM",
+     "en": "Yes, sir?"
+    },
+    {
+     "i": 12,
+     "speaker": null,
+     "en": "TEACHER：Is this your shirt?"
+    },
+    {
+     "i": 13,
+     "speaker": "TIM",
+     "en": "Yes, sir."
+    },
+    {
+     "i": 14,
+     "speaker": null,
+     "en": "TEACHER：Here you are."
+    },
+    {
+     "i": 15,
+     "speaker": null,
+     "en": "Catch!"
+    },
+    {
+     "i": 16,
+     "speaker": "TIM",
+     "en": "Thank you, sir."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "11": [
+   "老师：那是谁的衬衫？",
+   "老师：戴夫， 这是你的衬衫吗？",
+   "戴夫：不， 先生。这不是我的衬衫。",
+   "戴夫：这是我的衬衫。我的衬衫是蓝色的。",
+   "老师：这件衬衫是蒂姆的吗？",
+   "戴夫：也许是，先生。蒂姆的衬衫是白色的。",
+   "老师：蒂姆！",
+   "蒂姆: 什么事，先生。",
+   "老师：这是你的衬衫吗？",
+   "蒂姆：是的，先生。",
+   "老师：给你。接着！",
+   "蒂姆：谢谢您，先生。"
+  ]
+ },
+ "rawPage": {
+  "11": "189.txt"
+ },
+ "parsedTranslation": [
+  "老师：那是谁的衬衫？",
+  "老师：戴夫， 这是你的衬衫吗？",
+  "戴夫：不， 先生。这不是我的衬衫。",
+  "戴夫：这是我的衬衫。我的衬衫是蓝色的。",
+  "老师：这件衬衫是蒂姆的吗？",
+  "戴夫：也许是，先生。蒂姆的衬衫是白色的。",
+  "老师：蒂姆！",
+  "蒂姆: 什么事，先生。",
+  "老师：这是你的衬衫吗？",
+  "蒂姆：是的，先生。",
+  "老师：给你。接着！",
+  "蒂姆：谢谢您，先生。"
+ ]
+}

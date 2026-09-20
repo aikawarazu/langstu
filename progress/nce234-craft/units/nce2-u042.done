@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u042",
+ "book": "nce2",
+ "unitId": "u042",
+ "title": "Not very musical",
+ "subtitle": "并非很懂音乐",
+ "hasText": false,
+ "lines": 8,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "c400de9e27c0",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

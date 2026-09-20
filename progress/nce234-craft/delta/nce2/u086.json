@@ -1,0 +1,35 @@
+{
+ "title": "Out of control",
+ "subtitle": "失控",
+ "lead": {
+  "question": "两人驾快艇出海，方向盘脱手之后他们遭遇了怎样的危险？",
+  "warmup": "想象一下：你和同伴在海上滑水，快艇却突然失控——方向盘脱手、快艇撞上浮标，随后船身打着转、以惊人的速度朝你冲来。本课作者只用一页文字，就把这场生死追逐写得令人屏息。学完后你会发现，正是 hardly…when 和 just…when 这类结构，让惊险的时间点一个接一个，读起来格外紧凑。",
+  "goals": ["掌握 out of control、come away、use up 等短语，理解标题“失控”的含义", "熟练运用过去完成时，尤其是 hardly…when / just…when 表示“刚……就……”的结构", "区分 violently、wildly 等副词，准确描写动作的猛烈与失控程度", "学会用 swing、roar past、drift 等动词还原海上惊险一幕"],
+  "summary": "课文讲两名男子乘快艇出海滑水：快艇转弯时方向盘突然脱手，两人随即被抛入海中。失控的快艇撞上浮标后并未停下，反而绕圈全速冲回，从他们身边呼啸而过。两人拼命向岸边游，刚脱险船又转完一圈，但这一次速度明显放慢，因为汽油几乎被耗尽。噪音最终消失，快艇缓缓漂流，危险随之化解。",
+  "tips": "hardly…when 与 just…when 中，主句用过去完成时、when 从句用一般过去时，表示“刚要……就……”；hardly / just 位于助动词之后，切勿把 when 从句也写成完成时。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the danger?", "zh": "危险是什么？", "a": "The speedboat was out of control and kept circling back towards the two men at tremendous speed, nearly hitting them.", "aZh": "快艇失控了，不停绕圈全速朝那两人冲回来，几乎撞到他们。", "hint": "答案见课文第5—6句：快艇撞上浮标后仍绕圈，以惊人的速度直冲他们驶来。"},
+  {"kind": "detail", "q": "What happened to the steering wheel as the man tried to swing the speedboat round?", "zh": "当那人试图让快艇转弯时，方向盘怎么了？", "a": "The steering wheel came away in his hands.", "aZh": "方向盘在他手中脱落了。", "hint": "答案见第1句的 came away in his hands。"},
+  {"kind": "detail", "q": "Why did the speedboat keep moving after it struck a buoy?", "zh": "快艇撞上浮标后为什么还在继续行驶？", "a": "Because it continued to move very quickly across the water with nobody controlling it.", "aZh": "因为它无人操控，仍在水面上快速行驶。", "hint": "答案见撞击浮标后那句 continued to move very quickly。"},
+  {"kind": "detail", "q": "Why did the boat finally slow down and stop circling?", "zh": "快艇最终为什么慢下来、不再绕圈？", "a": "Because the petrol had nearly all been used up.", "aZh": "因为汽油几乎已经用光了。", "hint": "答案见倒数第2句 The petrol had nearly all been used up."},
+  {"kind": "think", "q": "What does the author's repeated use of hardly…when and just…when add to the story?", "zh": "作者反复使用 hardly…when 和 just…when，为故事增添了怎样的效果？", "a": "These structures compress the events into split seconds, making the men's escape seem even narrower and more breathless.", "aZh": "这些结构把事件压缩在转瞬之间，使两人的脱险显得更加千钧一发、令人屏息。", "hint": "思考课文多次出现 had hardly had…when / had just begun…when 的用意。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：当那人试图让快艇转弯时，方向盘脱手了。", "a": "As the man tried to swing the speedboat round, the steering wheel came away in his hands.", "note": "swing…round 使转弯；come away 脱落"},
+  {"q": "用 hardly…when 合并：They realized what was happening. At that moment they were thrown violently into the sea.", "a": "They had hardly had time to realize what was happening when they were thrown violently into the sea.", "note": "主句过去完成时，when 从句一般过去时"},
+  {"q": "填空并说明理由：Both men were thrown ___ into the sea.（violently / wildly）", "a": "violently；强调被猛烈、粗暴地抛入海中，wildly 多指失去控制地狂乱地。", "note": "violently 表猛烈粗暴"},
+  {"q": "改错：Both men had hardly had time to realize what was happening when they were thrown violent into the sea.", "a": "把 violent 改为 violently，修饰动词 were thrown 应用副词。", "note": "副词修饰动词"},
+  {"q": "汉译英：汽油几乎已经用光了。", "a": "The petrol had nearly all been used up.", "note": "use up 用完，用被动语态"},
+  {"q": "填空：They had just had ___ time to swim out of danger. The water was ___ warm, but not warm enough.（enough / fairly）", "a": "enough；fairly", "note": "enough 可放名词前，fairly 修饰肯定词"},
+  {"q": "用 just…when 改写：They had enough time to swim out of danger. At that moment the boat again completed a circle.", "a": "They had just had enough time to swim out of danger when the boat again completed a circle.", "note": "just…when 表刚……就……"}
+ ],
+ "quiz": [
+  {"q": "标题 Out of control 中 out of 表示什么意思？", "options": ["失去，欠缺", "来自，出自", "在……之外", "离开某地"], "answer": 0, "note": "out of work 失业，out of sight 看不见"},
+  {"q": "“方向盘在他手中脱落了”应如何表达？", "options": ["The steering wheel came out in his hands.", "The steering wheel came down in his hands.", "The steering wheel came away in his hands.", "The steering wheel came off his hands."], "answer": 2, "note": "come away 脱落，固定搭配"},
+  {"q": "hardly…when 结构中，主句通常用什么时态？", "options": ["一般现在时", "过去完成时", "一般将来时", "现在完成时"], "answer": 1, "note": "hardly 主句用过去完成时"},
+  {"q": "哪一句正确表达“汽油几乎已经用光”？", "options": ["The petrol had nearly all used up.", "The petrol nearly all had been use up.", "The petrol had been nearly all using up.", "The petrol had nearly all been used up."], "answer": 3, "note": "use up 用被动完成时"},
+  {"q": "快艇撞上浮标后仍快速移动的直接原因是什么？", "options": ["It continued to move quickly with no one controlling it.", "It was pushed by the wind towards the shore.", "The men were still water skiing behind it.", "The steering wheel had come back in place."], "answer": 0, "note": "失控后无人操控仍快速行驶"},
+  {"q": "“没过多久，噪音便彻底消失”应如何表达？", "options": ["Before long, the noise dropped down completely.", "Before long, the noise dropped completely.", "Long before, the noise was dropped completely.", "Before long, the noise was dropped completely."], "answer": 1, "note": "drop 不及物，表减弱、消失"}
+ ]
+}

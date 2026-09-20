@@ -1,0 +1,35 @@
+{
+ "title": "A Spot of Bother",
+ "subtitle": "一点小麻烦",
+ "lead": {
+  "question": "购物回家的老妇人发现家中疑遭盗窃，这'一点小麻烦'究竟怎么回事？",
+  "warmup": "一位独居的老妇人购物回家，拖着越来越沉的篮子回到住了三十年的公寓，只想吃顿午餐、好好休息。可她走出电梯却发现自家大门敞开，屋里所有房门也都打开，写字台边一片狼藉。是虚惊一场，还是真的遭了贼？学完本课，你不仅能读懂这段幽默的推理故事，还能学会用英语轻描淡写地说出'小麻烦'。",
+  "goals": ["掌握 bother、spot、nuisance 等描述'小麻烦'的名词及搭配", "学会用 must have done、should have done 表达对过去的推测与虚拟", "理解 with 短语、现在分词短语作状语，以及 it 作形式主语的用法", "能用 where / that / which 引导的定语从句描写地点与物品"],
+  "summary": "购物回家的老妇人在公寓门口发现大门敞开、房门尽开，写字台边一片狼藉，断定窃贼在她外出时闯入。她请来看门人并报警。警察发现门锁未被撬，推测窃贼或用万能钥匙、或翻越阳台；现场没有指纹，只留下一个装着别人珠宝的红包袱，可见窃贼受了惊。最后她嫌巡官大惊小怪，却仍向女儿求援，自嘲不过是'一点小麻烦'。",
+  "tips": "'a spot of bother' 是英式口语里故作轻松的说法，只表示'一点小麻烦'，别误译成'一块污点'；bother 此处是名词，语气比 trouble 轻得多。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What did the old lady find when she got home?", "zh": "老妇人到家时发现了什么？", "a": "She found her front door open, all the room doors open, and the drawing room in confusion over by her writing desk, which showed that burglars had forced an entry.", "aZh": "她发现自家大门开着，所有房门也都敞着，起居室写字台边一片狼藉，说明窃贼曾闯入。", "hint": "答案出自课文开头到'as clear as daylight'一段：出电梯发现大门开着，进厅见房门全开。"},
+  {"kind": "detail", "q": "Why did the old lady no longer blame her home help?", "zh": "老妇人为什么不再责怪她的家务帮手？", "a": "Because she remembered she had gone shopping after the home help had left, and she knew she had turned both keys in their locks herself.", "aZh": "因为她想起帮手是在她外出购物之前就离开了，而且她记得自己曾用两把钥匙把大门锁上。", "hint": "见'must reprimand her home help…when she remembered that she had gone shopping after the home help had left'一句。"},
+  {"kind": "detail", "q": "Why did she go to fetch the porter instead of searching the rooms alone?", "zh": "她为何不独自搜查房间，而是去找看门人？", "a": "Because at her age she thought it might be more prudent to have someone with her.", "aZh": "因为她觉得像自己这个年纪，最好有人陪着一起，更为稳妥。", "hint": "见'at her age it might be more prudent to have someone with her'一句。"},
+  {"kind": "detail", "q": "What did the constable's check of the front door prove?", "zh": "警察检查大门后证明了什么？", "a": "It proved the locks had not been forced, so the burglars had either used skeleton keys or entered over the balcony.", "aZh": "这证明门锁没有被撬过，因此窃贼或是用了万能钥匙，或是翻越阳台进来的。", "hint": "见'checked that the front door locks had not been forced, thereby proving that…either…or…'。"},
+  {"kind": "think", "q": "The inspector advised her not to stay alone. Did the old lady agree with him, and how do we know?", "zh": "巡官劝她不要独自过夜，老妇人同意他的意见吗？文中哪句可以看出？", "a": "She did not really agree — she thought he was a fussy creature. But since the porter agreed with him, she still rang up her daughter for help.", "aZh": "她其实并不认同——她觉得巡官是个大惊小怪的人；但因为看门人也赞同他，她最终还是打电话向女儿求助。", "hint": "见结尾'The old lady thought he was a fussy creature, but since the porter agreed with him…'。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我碰到了一点儿小麻烦，你能帮我一把吗？", "a": "I've run into a spot of bother — could you give me a hand?", "note": "spot of bother 是轻描淡写的'小麻烦'"},
+  {"q": "汉译英：窃贼一定受了惊吓，所以那天没能得手。", "a": "The burglars must have been disturbed, so they failed to finish the job that day.", "note": "must have done 表对过去的肯定推测"},
+  {"q": "句型转换：用 it 作形式主语改写 'To have someone with her might be more prudent.'", "a": "It might be more prudent to have someone with her.", "note": "it 作形式主语，真正主语后置"},
+  {"q": "填空：At least sorting out the things she ____ ____ discarded years ago was now made easier for her.", "a": "should have", "note": "should have done 表本该做却未做"},
+  {"q": "填空：Her basket had grown heavier ____ every step of the way home.", "a": "with", "note": "with 短语作伴随状语，表逐渐变化"},
+  {"q": "改错：The old lady was glad to be back at the block of flats which she lived.", "a": "which → where（也可用 in which）", "note": "先行词表地点，用关系副词 where"},
+  {"q": "汉译英：楼上传来的噪音真是个麻烦，吵得我一夜没睡好。", "a": "The noise from upstairs was a real nuisance — it kept me awake all night.", "note": "nuisance 指令人讨厌的人或事"}
+ ],
+ "quiz": [
+  {"q": "老妇人回到家，首先在自家门口发现了什么异常？", "options": ["Her front door was open.", "Her basket had been stolen.", "The porter was waiting for her by the lift.", "Her daughter had already arrived."], "answer": 0, "note": "课文开头：her front door was open"},
+  {"q": "标题里的 'a spot of bother' 最贴切的意思是？", "options": ["a small mark on the wall", "a little trouble", "a short rest", "a spot of tea"], "answer": 1, "note": "spot of bother 意为'一点小麻烦'"},
+  {"q": "老妇人为什么没有责怪她的家务帮手？", "options": ["Because the home help had locked all the doors.", "Because she had gone shopping after the home help left and had locked both keys herself.", "Because the home help had that day off.", "Because the porter told her not to blame her."], "answer": 1, "note": "她想起帮手走后自己才出门并上了锁"},
+  {"q": "警察检查门锁后，得出的结论是什么？", "options": ["The front door had been forced open.", "The old lady had simply forgotten to lock the door.", "The burglars had either used skeleton keys or entered over the balcony.", "The home help had left the door open."], "answer": 2, "note": "locks 未被撬 → 万能钥匙或翻阳台"},
+  {"q": "现场那个肮脏的红包袱说明了什么？", "options": ["It belonged to the old lady.", "The inspector had left it there by mistake.", "The burglars were not working there for the first time that day and had been disturbed.", "The porter had hidden it under the desk."], "answer": 2, "note": "not the burglars' first job…must have been disturbed"},
+  {"q": "故事结尾，老妇人为什么还是打电话向女儿求助？", "options": ["Because the porter agreed with the inspector, so she gave in and asked for help.", "Because her daughter had telephoned her first.", "Because the police ordered her to leave the flat.", "Because she wanted to hire a new home help."], "answer": 0, "note": "since the porter agreed with him…she rang up her daughter"}
+ ]
+}

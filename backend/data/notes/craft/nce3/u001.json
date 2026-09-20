@@ -1,0 +1,164 @@
+{
+ "unitId": "u001",
+ "title": "A Puma at Large",
+ "subtitle": "逃遁的美洲狮",
+ "lead": {
+  "question": "一只野生美洲狮出现在伦敦以南的乡间，它从哪里来，人们又如何追查？",
+  "warmup": "伦敦动物园接连收到报告：在伦敦以南45英里的地方出现过一头野生美洲狮。起初没人把报告当真，但随着目击者越来越多，描述又出奇地相似，专家们不得不展开调查。搜寻行动在宁静的乡间展开，美洲狮却始终未被捕获，人们甚至开始猜测它的来历。",
+  "goals": [
+   "掌握 spot、accumulate、oblige、convince、corner 等动词的含义与用法。",
+   "学会 at large、in the possession of、a trail of 等短语在语境中的意思。",
+   "理解并运用过去完成时被动语态（had been spotted / reported）与现在完成被动。",
+   "掌握同位语从句、unless 条件句以及 must have done 表推测的用法。"
+  ],
+  "summary": "伦敦动物园接到报告：伦敦以南45英里处出现一头野生美洲狮，起初无人重视。随着证据积累、描述出奇相似，专家们不得不调查。搜寻十分困难，它行踪飘忽，只留下死鹿、兔子与爪印毛发。全国动物园均未报失，专家推断它出自私人收藏者并设法逃脱。数周搜寻仍未捕获，想到它仍在乡间逍遥，令人不安。",
+  "tips": "记牢 spot 的过去分词是 spotted（双写 t）；a puma had been spotted 这类“过去完成＋被动”常用来交代更早发生的被动动作。标题里的 at large 别译成“大体上”，此处是“逍遥法外、未被捕获”。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Where must the puma have come from?",
+   "zh": "那只美洲狮一定是从哪儿来的呢？",
+   "a": "It must have been in the possession of a private collector and somehow managed to escape.",
+   "aZh": "它一定是某位私人收藏者豢养的，不知怎么设法逃了出来。",
+   "hint": "见课文倒数第二段：As no pumas had been reported missing... 全国动物园均未报失，故推断它出自私人收藏者并逃脱。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the experts from the Zoo feel obliged to investigate?",
+   "zh": "动物园的专家们为什么感到有必要进行调查？",
+   "a": "Because the evidence began to accumulate and the descriptions given by people who claimed to have seen the puma were extraordinarily similar.",
+   "aZh": "因为证据越来越多，而且声称见过美洲狮的人们所描述的情况出奇地相似。",
+   "hint": "见课文第一段 as the evidence began to accumulate... for the descriptions ... were extraordinarily similar。"
+  },
+  {
+   "kind": "detail",
+   "q": "According to the experts, under what condition will a puma attack a human being?",
+   "zh": "据专家证实，美洲狮在什么情况下才会伤人？",
+   "a": "A puma will not attack a human being unless it is cornered.",
+   "aZh": "美洲狮非被逼得走投无路，是决不会伤人的。",
+   "hint": "见课文 experts confirmed that a puma will not attack a human being unless it is cornered。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the search for the puma prove difficult?",
+   "zh": "为什么搜寻美洲狮的工作被证明十分困难？",
+   "a": "Because the puma was often observed at one place in the morning and at another place twenty miles away in the evening.",
+   "aZh": "因为常常早晨在甲地发现它，晚上却在20英里外的乙地发现它的踪迹。",
+   "hint": "见课文 The search proved difficult, for the puma was often observed at one place in the morning..."
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer find it 'disturbing' that the puma is still at large, and what does 'at large' mean here?",
+   "zh": "作者为什么说想到美洲狮仍在乡间会感到“不安”？这里的 at large 是什么意思？",
+   "a": "Because a dangerous wild animal is still roaming free in the quiet countryside where people live and no one has caught it; 'at large' means free and not yet captured.",
+   "aZh": "因为一头危险的野兽仍在有人居住的宁静乡间自由游荡、尚未被捕获；at large 意为“逍遥法外、未被捕获”。",
+   "hint": "结合课文末句 It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：随着证据越来越多，动物园的专家们感到有必要进行调查。",
+   "a": "As the evidence began to accumulate, experts from the Zoo felt obliged to investigate.",
+   "note": "accumulate 与 oblige 用法"
+  },
+  {
+   "q": "汉译英：美洲狮除非被逼得走投无路，否则不会伤人。",
+   "a": "A puma will not attack a human being unless it is cornered.",
+   "note": "unless 引导条件状语从句"
+  },
+  {
+   "q": "句型转换（改为被动语态）：People did not take the reports seriously.",
+   "a": "The reports were not taken seriously.",
+   "note": "一般过去时的被动语态"
+  },
+  {
+   "q": "句型转换（改为主动语态）：A wild puma had been spotted forty-five miles south of London.",
+   "a": "Someone had spotted a wild puma forty-five miles south of London.",
+   "note": "过去完成被动改主动"
+  },
+  {
+   "q": "填空（用所给词的适当形式）：The puma was often ______ (observe) at one place in the morning and at another place twenty miles away in the evening.",
+   "a": "observed",
+   "note": "被动语态用过去分词"
+  },
+  {
+   "q": "填空（用所给词的适当形式）：The experts were now fully ______ (convince) that the animal was a puma.",
+   "a": "convinced",
+   "note": "convince 意为使……信服"
+  },
+  {
+   "q": "改错（找出并改正一处错误）：As no pumas had been reported missing from any zoo in the country, this one must be in the possession of a private collector.",
+   "a": "this one must have been in the possession of a private collector",
+   "note": "对过去的推测用 must have done"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“a wild puma had been spotted”中 spot 的意思是？",
+   "options": [
+    "弄脏",
+    "看出，发现",
+    "预订（座位）",
+    "点缀"
+   ],
+   "answer": 1,
+   "note": "spot = catch sight of"
+  },
+  {
+   "q": "“experts felt obliged to investigate”中 feel obliged to do sth. 意为？",
+   "options": [
+    "被强迫放弃某事",
+    "有义务偿还债务",
+    "感到必须做某事",
+    "很乐意做某事"
+   ],
+   "answer": 2,
+   "note": "feel obliged to do = 不得不做"
+  },
+  {
+   "q": "下面哪句正确表达了“美洲狮非被逼得走投无路不会伤人”？",
+   "options": [
+    "A puma will not attack a human being unless it is cornered.",
+    "A puma will not attack a human being unless it cornered.",
+    "A puma will not attack a human being unless cornering.",
+    "A puma will not attack a human being unless it will be cornered."
+   ],
+   "answer": 0,
+   "note": "unless 从句用一般现在时"
+  },
+  {
+   "q": "标题 A Puma at Large 中 at large 的意思是？",
+   "options": [
+    "大体上，总的说来",
+    "详细地，逐一地",
+    "总共，合计",
+    "逍遥自在，未被捕获"
+   ],
+   "answer": 3,
+   "note": "此处指未被捕获"
+  },
+  {
+   "q": "“As no pumas had been reported missing...” 使用的是？",
+   "options": [
+    "现在完成时",
+    "一般过去时",
+    "过去进行时",
+    "过去完成时的被动语态"
+   ],
+   "answer": 3,
+   "note": "had been + 过去分词"
+  },
+  {
+   "q": "“as the evidence began to accumulate”中 accumulate 意为？",
+   "options": [
+    "积累，积聚",
+    "减少，缩小",
+    "分散，散开",
+    "消耗，用尽"
+   ],
+   "answer": 0,
+   "note": "accumulate 指逐渐积累"
+  }
+ ]
+}

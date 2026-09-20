@@ -1,0 +1,164 @@
+{
+ "unitId": "u012",
+ "title": "Life on a Desert Island",
+ "subtitle": "荒岛生活",
+ "lead": {
+  "question": "两个男人在荒岛上待了五天，为什么离开时反而真心感到遗憾？",
+  "warmup": "荒岛在电影和小说里常常是两副面孔：要么是椰林树影、果实自落的度假天堂，要么是饥寒交迫、无人搭救的绝境。真实情况究竟如何？课文里两个男人用一次意外经历给出了答案：他们驾驶的船在加勒比海下沉，只能带着食物、火柴和罐装啤酒爬上一只橡皮艇，划到一座珊瑚岛，在那里过了五天。",
+  "goals": [
+   "掌握本课核心词汇：desert island, coral, starve, element, opportunity, dinghy, tanker, rescue 等。",
+   "读懂课文两条线索：人们对荒岛生活的两种极端想象，以及两个男人的真实遭遇。",
+   "学会 imagine...to be...、quite the opposite、as one of them put it 等地道表达。",
+   "掌握 wish 后接虚拟语气（had done）以及 if 虚拟条件句的用法。"
+  ],
+  "summary": "课文先摆出两种极端想象：荒岛要么是阳光永照的天堂，要么是饿死或像鲁滨孙那样空等船只的绝境。接着讲两个男人的真实经历：他们押送破损的船去迈阿密修理，途中船沉，只得划橡皮艇登上加勒比海上一座珊瑚岛。岛上无树无水，他们用艇收集雨水，靠捕鱼枪天天吃鱼虾；五天后油轮将他们救起，两人竟为离开而遗憾。",
+  "tips": "易错提醒：wish 后的宾语从句表示与过去相反的愿望要用 had done（they wished they had stayed there longer），不要写成 wished they stayed；另外 few of us 不能漏掉 of，并注意区分 used to do（过去常常）与 be used to doing（习惯于）。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was exceptional about the two men's stay on a desert island?",
+   "zh": "这两个人在荒岛上度过的日子有什么非同寻常之处？",
+   "a": "Their stay was meant to be a disaster but turned out to be a holiday: they ate like kings and enjoyed it so much that they were genuinely sorry when a passing tanker rescued them and they had to leave.",
+   "aZh": "他们原本遇险漂流，却在岛上过得很舒服——吃得像国王一样好，以至于五天后被路过的油轮救起、不得不离开时，两人都真心感到遗憾。",
+   "hint": "答案在课文最后一句：both men were genuinely sorry that they had to leave（他们竟然为不得不离开而遗憾）。"
+  },
+  {
+   "kind": "detail",
+   "q": "What do most people imagine life on a desert island to be like?",
+   "zh": "大多数人把荒岛生活想象成什么样子？",
+   "a": "They imagine it to be a sort of paradise where the sun always shines, where life is simple and good and ripe fruit falls from the trees so that you never have to work.",
+   "aZh": "他们想象荒岛是阳光终日普照的天堂：生活简单又美好，成熟的水果自己从树上掉下来，人们根本无需劳动。",
+   "hint": "课文第 1—4 句：unrealistic picture / a sort of paradise / ripe fruit falls from the trees。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the two men get into a small rubber dinghy during the journey?",
+   "zh": "旅途中这两个男人为什么登上了一只小橡皮艇？",
+   "a": "They were taking a badly damaged boat from the Virgin Islands to Miami to have it repaired, and during the journey the boat began to sink, so they loaded the dinghy with food, matches and cans of beer and rowed across the Caribbean.",
+   "aZh": "他们正把一条严重损坏的船从维尔京群岛开往迈阿密修理，途中船开始下沉，于是他们把食物、火柴和罐装啤酒装上一只小橡皮艇，划过了加勒比海。",
+   "hint": "课文第 9—11 句：a badly damaged boat...began to sink...loaded a small rubber dinghy。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the two men manage to get food and drinking water on the coral island?",
+   "zh": "在珊瑚岛上，这两个男人怎样解决吃喝问题？",
+   "a": "There were hardly any trees and no water on the island, but they collected rainwater in the rubber dinghy, and since they had brought a spear gun with them they caught lobster and fish every day, so they had plenty to eat.",
+   "aZh": "岛上几乎没有树，也没有淡水，但他们用橡皮艇收集雨水；由于随身带了一支捕鱼枪，他们天天捕捉龙虾和鱼，因此吃饭不愁。",
+   "hint": "课文第 13—15 句：collected rainwater in the rubber dinghy / brought a spear gun / plenty to eat。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer say few of us have had the opportunity to find out the truth about life on a desert island?",
+   "zh": "作者为什么说很少有人有机会弄清荒岛生活的真相？",
+   "a": "Because desert islands exist only in our imagination for most of us: we form our picture from books and films, and only a chance accident like a sinking boat can put a man on a coral island. So the two men's experience is valuable precisely because it is rare.",
+   "aZh": "因为对多数人来说，荒岛只存在于想象中，我们的印象来自书本和影视；只有像沉船这样的偶然事故才会把人送上珊瑚岛。所以这两个男人的经历恰恰因其罕见而显得珍贵。",
+   "hint": "结合课文第 7 句（few of us have had the opportunity to find out）与后面两个男人的偶然经历作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我们有时想象荒岛是阳光终日普照的天堂。",
+   "a": "We sometimes imagine a desert island to be a sort of paradise where the sun always shines.",
+   "note": "imagine…to be…作宾补"
+  },
+  {
+   "q": "句型转换：用 wish 改写 —— Two men spent five days on a coral island, but they wanted to stay longer.",
+   "a": "Two men who recently spent five days on a coral island wished they had stayed there longer.",
+   "note": "wish 后接 had done 虚拟"
+  },
+  {
+   "q": "用所给词的正确形式填空：You either ______ (starve) to death or live like Robinson Crusoe, waiting for a boat which never comes.",
+   "a": "starve",
+   "note": "either…or 并列谓语"
+  },
+  {
+   "q": "改错（句中有一处错误）：Perhaps there is an element of truth in both these pictures, but few us have had the opportunity to find out.",
+   "a": "few us → few of us",
+   "note": "few of us 不能漏 of"
+  },
+  {
+   "q": "用 if 虚拟条件句改写：They had brought a spear gun with them, so they had plenty to eat.",
+   "a": "If they had not brought a spear gun with them, they would not have had plenty to eat.",
+   "note": "if 虚拟：与过去相反"
+  },
+  {
+   "q": "选词填空（element / opportunity）：There is an ______ of truth in both pictures, but few of us have had the ______ to find out.",
+   "a": "element; opportunity",
+   "note": "an element of truth 有道理"
+  },
+  {
+   "q": "汉译英：他们划着一只小橡皮艇在加勒比海上走了几英里，来到一座珊瑚岛，五天后被一艘路过的油轮救起。",
+   "a": "They rowed a few miles across the Caribbean in a small rubber dinghy until they arrived at a tiny coral island, and were rescued by a passing tanker five days later.",
+   "note": "dinghy / coral / rescue 等词"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“我们许多人对于荒岛生活有一种不切实际的想法。”最贴切的译文是：",
+   "options": [
+    "Most of us have made an unrealistic picture of life in a desert island.",
+    "Most of us formed an unrealistic picture of life on a desert island.",
+    "Most of us have formed an unrealistic picture of life on a desert island.",
+    "Most of us have formed a realistic picture of life on a desert island."
+   ],
+   "answer": 2,
+   "note": "现在完成时 + on a desert island"
+  },
+  {
+   "q": "“他们真希望在那儿多待些日子。”应译为：",
+   "options": [
+    "They wished they stayed there longer.",
+    "They wished they would have stayed there longer.",
+    "They wish they would stay there longer.",
+    "They wished they had stayed there longer."
+   ],
+   "answer": 3,
+   "note": "wish + had done 表过去虚拟"
+  },
+  {
+   "q": "“You either ______ to death or live like Robinson Crusoe.”横线处应填：",
+   "options": [
+    "starved",
+    "starve",
+    "starving",
+    "starves"
+   ],
+   "answer": 1,
+   "note": "either…or 连接并列动词原形"
+  },
+  {
+   "q": "“他们把食物、火柴和罐装啤酒迅速装上一只 ______”，此处应填表示“小橡皮艇”的词：",
+   "options": [
+    "tanker",
+    "dinghy",
+    "spear gun",
+    "lobster"
+   ],
+   "answer": 1,
+   "note": "rubber dinghy 橡皮小艇"
+  },
+  {
+   "q": "课文里 as one of them put it, they “ate like kings”，这句话的意思最接近：",
+   "options": [
+    "They ate very little.",
+    "They ate only fruit.",
+    "They ate very well.",
+    "They ate in a palace."
+   ],
+   "answer": 2,
+   "note": "like kings 引申为吃得极好"
+  },
+  {
+   "q": "下面哪一句表示“过去人们常把荒岛想象成天堂”？",
+   "options": [
+    "People are used to imagining a desert island to be a paradise.",
+    "People used to imagining a desert island to be a paradise.",
+    "People use to imagine a desert island to be a paradise.",
+    "People used to imagine a desert island to be a paradise."
+   ],
+   "answer": 3,
+   "note": "used to + 动词原形"
+  }
+ ]
+}

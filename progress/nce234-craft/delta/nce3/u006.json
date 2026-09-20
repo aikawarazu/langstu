@@ -1,0 +1,35 @@
+{
+ "title": "Smash and Grab",
+ "subtitle": "砸橱窗抢劫",
+ "lead": {
+  "question": "皮卡迪利附近珠宝店遭光天化日抢劫，泰勒先生如何尽力阻止窃贼，结果又如何？",
+  "warmup": "伦敦拱廊街的清晨几近无人，一家珠宝店的橱窗里刚摆好钻石项链和戒指。突然，一辆亮着车灯、响着喇叭的大轿车呼啸而来，一场精心策划的抢劫在三分钟内上演。店主泰勒先生和店员奋力反击：从楼上扔下家具，又追着汽车投掷烟灰缸和花瓶。读完本课，你将读懂这起“砸橱窗抢劫”的全过程，并学会用过去完成进行时描述背景。",
+  "goals": ["掌握 smash、grab、jeweller、arcade、assistant 等与抢劫、商店相关的核心词汇", "理解并运用过去完成进行时（had been doing）描述抢劫前店员一直忙碌的场景", "学会用过去完成时被动语态（had been arranged）描写橱窗的布置", "能复述这起“砸橱窗抢劫”的经过，并分析窃贼作案迅速、计划周密的特点"],
+  "summary": "课文讲述皮卡迪利附近拱廊街珠宝店遭抢劫的故事。清晨街上几乎无人，店主泰勒先生正欣赏店员从八点起一直忙着布置、陈列在黑色丝绒上的钻石首饰。突然一辆轿车鸣笛冲入，两名蒙面人用铁棒砸碎橱窗行抢。泰勒先生与店员扔下家具反击，仍未能阻止窃贼；抢劫仅三分钟，他们便带着数千镑钻石逃走。",
+  "tips": "注意区分过去完成进行时与一般过去时：“两名店员从八点起一直在忙”用 had been working，强调此前持续的动作；而“抢劫在三分钟内发生”用一般过去时 was。另外，蒙面用的长筒丝袜要写复数 stockings。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How did Mr. Taylor try to stop the thieves?", "zh": "泰勒先生试图怎样阻止窃贼？", "a": "He and his staff began throwing furniture out of the window, and chairs and tables went flying into the arcade. Just as the car was leaving, he rushed out and ran after it, throwing ashtrays and vases, but it was impossible to stop the thieves.", "aZh": "他和店员向窗外投掷家具，椅子和桌子飞落到拱廊街上。就在轿车离开时，他冲出去追车，一边扔烟灰缸和花瓶，但无法拦住窃贼。", "hint": "答案见课文 He and his staff began throwing furniture... 及 Just as it was leaving, Mr. Taylor rushed out... 两句"},
+  {"kind": "detail", "q": "What had the two assistants done before the robbery?", "zh": "抢劫发生前，两名店员做了什么？", "a": "They had been working busily since eight o'clock, arranging the new display; diamond necklaces and rings had been beautifully arranged on a background of black velvet, and they had only just finished.", "aZh": "他们从早上八点起一直忙着布置新橱窗，把钻石项链和戒指漂亮地陈列在黑色丝绒衬底上，刚刚才布置完毕。", "hint": "课文第4—5句（had been working busily since eight o'clock / had been beautifully arranged）"},
+  {"kind": "detail", "q": "How did the thieves smash the shop window?", "zh": "窃贼是怎样砸碎商店橱窗的？", "a": "One man stayed at the wheel while two others, with black stockings over their faces, jumped out and smashed the window of the shop with iron bars.", "aZh": "一人留在驾驶座上，另外两个用黑色长筒丝袜蒙面的人跳下车，用铁棒砸碎了商店的橱窗玻璃。", "hint": "课文第9句（smashed the window of the shop with iron bars）"},
+  {"kind": "detail", "q": "How long did the raid last, and what happened to one of the thieves?", "zh": "这场抢劫持续了多久？其中一名窃贼遇到了什么？", "a": "The raid was all over in three minutes. One of the thieves was struck by a heavy statue, but he was too busy helping himself to diamonds to notice any pain.", "aZh": "抢劫只持续了三分钟。一名窃贼被一尊很重的雕像击中，但他只顾着抢钻石，根本顾不上疼痛。", "hint": "课文第12—13句（all over in three minutes / struck by a heavy statue / too busy helping himself to diamonds）"},
+  {"kind": "think", "q": "Why was it impossible to stop the thieves, and what does the speed of the raid suggest?", "zh": "为什么泰勒先生无法拦住窃贼？抢劫的迅速又说明什么？", "a": "Because the car had already moved off at a fantastic speed and the thieves had got away with thousands of pounds worth of diamonds. The whole raid was over in three minutes, which suggests the crime was carefully planned and carried out quickly and precisely.", "aZh": "因为轿车早已以惊人的速度开走，窃贼带着价值数千镑的钻石逃走了；整个抢劫只用了三分钟，这说明犯罪经过精心策划，行动迅速而精准。", "hint": "结合课文最后两句及 The raid was all over in three minutes 推断"}
+ ],
+ "exercises": [
+  {"q": "汉译英：他们用铁棒砸碎商店橱窗，抢走了钻石项链和戒指。", "a": "They smashed the window of the shop with iron bars and grabbed the diamond necklaces and rings.", "note": "smash 砸碎；grab 抢夺。"},
+  {"q": "汉译英：珠宝店主泰勒先生的两名店员从早上八点起一直忙碌着。", "a": "The two assistants of Mr. Taylor, the owner of a jewellery shop, had been working busily since eight o'clock.", "note": "since 后接时间点，用 had been doing。"},
+  {"q": "句型转换：把下面句子改为被动语态（保持过去完成时）。She had arranged diamond necklaces and rings beautifully on a background of black velvet.", "a": "Diamond necklaces and rings had been beautifully arranged on a background of black velvet.", "note": "arrange = lay out，此处用被动语态。"},
+  {"q": "填空：The expensive shops in a famous ______ near ______ were just opening, and the ______ was almost empty.（提示：拱廊街 / 皮卡迪利）", "a": "arcade; Piccadilly; arcade", "note": "arcade 拱廊街；Piccadilly 皮卡迪利。"},
+  {"q": "改错：One man stayed at the wheel while two others with black stocking over their faces jumped out and smashed the window.", "a": "把 stocking 改为 stockings（with black stockings over their faces）。", "note": "表示两只长筒袜，应用复数 stockings。"},
+  {"q": "填空：He was too busy helping himself ______ diamonds ______ notice any pain.", "a": "to; to", "note": "help oneself to 擅自取用。"},
+  {"q": "汉译英：令我们吃惊的是，他们带着价值数千镑的钻石逃走了。", "a": "To our surprise, they had got away with thousands of pounds worth of diamonds.", "note": "to one's surprise 令某人吃惊的是。"}
+ ],
+ "quiz": [
+  {"q": "泰勒先生是哪家商店的店主？", "options": ["a jewellery shop", "a furniture shop", "a car showroom", "a department store"], "answer": 0, "note": "the owner of a jewellery shop。"},
+  {"q": "窃贼是用什么砸碎橱窗的？", "options": ["iron bars", "heavy statues", "ashtrays", "vases"], "answer": 0, "note": "smashed the window with iron bars。"},
+  {"q": "抢劫发生前，珠宝店的橱窗里是什么样子？", "options": ["The window was still completely empty.", "Diamond necklaces and rings had been arranged on black velvet.", "Only a few cheap rings were on display.", "The assistants had not started their work yet."], "answer": 1, "note": "钻石首饰陈列在黑色丝绒上。"},
+  {"q": "两名窃贼用什么蒙住了脸？", "options": ["black stockings", "black masks", "silk scarves", "iron bars"], "answer": 0, "note": "with black stockings over their faces。"},
+  {"q": "这场抢劫持续了多长时间？", "options": ["Ten minutes.", "Half an hour.", "Three minutes.", "The whole morning."], "answer": 2, "note": "The raid was all over in three minutes。"},
+  {"q": "泰勒先生和店员为了阻止窃贼做了什么？", "options": ["They handed over the diamonds at once.", "They locked themselves in the shop.", "They called the police on the phone.", "They threw furniture out of the window and later ashtrays and vases."], "answer": 3, "note": "先扔家具，追车时扔烟灰缸、花瓶。"}
+ ]
+}

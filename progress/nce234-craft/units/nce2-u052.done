@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u052",
+ "book": "nce2",
+ "unitId": "u052",
+ "title": "A pretty carpet",
+ "subtitle": "漂亮的地毯",
+ "hasText": false,
+ "lines": 8,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "919c56353e0d",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

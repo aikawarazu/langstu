@@ -1,0 +1,40 @@
+{
+ "title": "Not for Jazz",
+ "subtitle": "不适于演奏爵士乐",
+ "lead": {
+  "question": "一件 1681 年的德国古钢琴，为何禁止家人再碰它？",
+  "warmup": "想象客厅里摆着一件 1681 年德国造的乐器：音色古雅，却被禁止演奏。它叫击弦古钢琴，与现代钢琴不同，靠压弦发声，弦细而脆。祖父多年前买下它，成了家里的传家宝。一天来客兴起，非要在这件古董上弹一段爵士乐，两根弦应声而断。父亲震怒，下令谁也不许再碰。全篇被动句交代它的身世、遭遇与现状。",
+  "goals": [
+   "听懂并复述这架击弦古钢琴的来历、受损经过与现状",
+   "掌握被动语态一般过去时 It was made in Germany in 1681 的结构与用法",
+   "辨清 belong to、be called、damage、strike、allow 等本课核心词语",
+   "能把主动句改写为被动句，如 The instrument was bought by my grandfather"
+  ],
+  "summary": "本课围绕一件名为 clavichord 的古乐器展开：它 1681 年德国制造，存放于客厅，由祖父购入、传家多年；最近被一位执意弹爵士乐的客人敲断两根弦，父亲震怒后不许家人触碰，如今正由他的一位朋友修理。重点掌握 was made in、is kept、was damaged by、is being repaired，以及 belong to 与 for 连用的现在完成时。",
+  "tips": "belong to 无被动也无进行时，表示拥有多年要说 It has belonged to our family for a long time；另注意 allow sb to do 转被动为 be allowed to do。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What happened to the clavichord recently?", "zh": "最近那架击弦古钢琴出了什么事？", "a": "It was damaged by a visitor who tried to play jazz on it.", "aZh": "它被一位客人弄坏了，那位客人想用它弹奏爵士乐。", "hint": "出处：Recently it was damaged by a visitor. 以及 She tried to play jazz on it!"},
+  {"kind": "detail", "q": "What is the instrument called, and when and where was it made?", "zh": "这件乐器叫什么名字？何时何地制造？", "a": "It is called a clavichord. It was made in Germany in 1681.", "aZh": "它叫击弦古钢琴，是 1681 年德国制造的。", "hint": "出处：It is called a clavichord. It was made in Germany in 1681。"},
+  {"kind": "detail", "q": "Why was my father shocked?", "zh": "我父亲为什么感到震惊、不悦？", "a": "Because a visitor struck the keys too hard while playing jazz and broke two of the strings.", "aZh": "因为一位客人弹爵士乐时按键太猛，把两根弦弄断了。", "hint": "出处：She struck the keys too hard and two of the strings were broken。"},
+  {"kind": "detail", "q": "How long has the clavichord belonged to the family and who bought it?", "zh": "这件乐器属于这个家庭多久了？谁买来的？", "a": "It has belonged to their family for a long time. It was bought by their grandfather many years ago.", "aZh": "它属于他们家很久了，是许多年前祖父买来的。", "hint": "出处：It has belonged to our family for a long time. The instrument was bought by my grandfather many years ago。"},
+  {"kind": "think", "q": "Why is the title 'Not for Jazz' appropriate? Is jazz itself forbidden?", "zh": "标题“不适于演奏爵士乐”贴切在哪里？被禁的是爵士乐吗？", "a": "It refers to the instrument, not the music: a fragile clavichord made in 1681 cannot stand the hard striking jazz requires. What the father really forbids is the family's touching it, since now they are not allowed to touch it.", "aZh": "被限制的是琴而不是音乐：1681 年的古钢琴弦细而脆，经不起爵士乐那样猛烈的按键。父亲真正禁止的是家人再碰它。", "hint": "结合 She tried to play jazz on it!、two of the strings were broken 与 Now we are not allowed to touch it. 推断。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们有一件古老的乐器，它叫击弦古钢琴。", "a": "We have an old musical instrument. It is called a clavichord.", "note": "be called 表“被称作”。"},
+  {"q": "汉译英：它是 1681 年德国制造的。", "a": "It was made in Germany in 1681.", "note": "被动语态一般过去时 was made。"},
+  {"q": "句型转换：We keep our clavichord in the living-room.（改为被动语态）", "a": "Our clavichord is kept in the living-room.", "note": "一般现在时被动 is kept。"},
+  {"q": "主动变被动：Recently a visitor damaged it.", "a": "Recently it was damaged by a visitor.", "note": "recently＝lately，by 引出动作发出者。"},
+  {"q": "汉译英：她按键太猛，把两根弦弄断了。", "a": "She struck the keys too hard and two of the strings were broken.", "note": "strike 过去式 struck，hard 作副词。"},
+  {"q": "汉译英：我父亲为之震怒。现在我们不允许再碰它。", "a": "My father was shocked. Now we are not allowed to touch it.", "note": "allow sb to do 的被动为 be allowed to do。"},
+  {"q": "改错：It is belonged to our family for a long time.", "a": "It has belonged to our family for a long time.", "note": "belong to 无被动、无进行时。"}
+ ],
+ "quiz": [
+  {"q": "课文中那件古老的乐器叫什么？", "options": ["A modern piano", "A clavichord", "A violin", "A guitar"], "answer": 1, "note": "It is called a clavichord。"},
+  {"q": "父亲为什么被激怒？", "options": ["Because the clavichord was sold to a visitor", "Because the living-room was too small", "Because she struck the keys too hard and broke two strings", "Because his grandfather bought it secretly"], "answer": 2, "note": "My father was shocked。"},
+  {"q": "哪句话正确表达“我们不允许再碰它”？", "options": ["We don't allow to touch it.", "We are not allowed touching it.", "We are not allowed to touch it.", "We are not allow to touch it."], "answer": 2, "note": "被动式后接 to do。"},
+  {"q": "哪句话正确表达“它属于我们家很久了”？", "options": ["It has belonged to our family for a long time.", "It is belonged to our family for a long time.", "It belongs our family for a long time.", "It is belonging to our family for a long time."], "answer": 0, "note": "belong to 无被动、无进行时。"},
+  {"q": "“最近它被一位客人弄坏了”怎么表达？", "options": ["Recently it has damaged a visitor.", "Recently it damaged by a visitor.", "Recently a visitor was damaged by it.", "Recently it was damaged by a visitor."], "answer": 3, "note": "过去时被动 was damaged by。"},
+  {"q": "这件乐器现在处在什么状态？", "options": ["It is being repaired by a friend of my father's.", "It was made in Germany recently.", "It is played by my father every day.", "It has been sold to the visitor."], "answer": 0, "note": "现在进行时被动 is being repaired。"}
+ ]
+}

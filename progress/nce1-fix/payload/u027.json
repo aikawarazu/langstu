@@ -1,0 +1,64 @@
+{
+ "unitId": "u027",
+ "lessons": [
+  {
+   "lesson": 53,
+   "title": "An interesting climate",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "HANS",
+     "en": "Where do you come from?"
+    },
+    {
+     "i": 1,
+     "speaker": "JIM",
+     "en": "I come from England."
+    },
+    {
+     "i": 2,
+     "speaker": "HANS",
+     "en": "What's the climate like in your country?"
+    },
+    {
+     "i": 3,
+     "speaker": "JIM",
+     "en": "It's mild, but it's not always pleasant."
+    },
+    {
+     "i": 5,
+     "speaker": "HANS",
+     "en": "Which seasons do you like best?"
+    },
+    {
+     "i": 6,
+     "speaker": "JIM",
+     "en": "I like spring and summer. The days are long and the nights are short. The sun rises early and sets late. I don't like autumn and winter. The days are short and the nights are long. The sun rises late and sets early. Our climate is not very good, but it's certainly interesting. It's our favourite subject of conversation."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "53": [
+   "汉斯：你是哪国人？",
+   "吉姆：我是英国人。",
+   "汉斯：你们国家的气候怎么样？",
+   "吉姆：气候温和，但也不总是宜人的。",
+   "吉姆：北部的天气常常寒冷，",
+   "东部则常常刮风。",
+   "西部常下雨，南部有时则很暖和。",
+   "汉斯：你最喜欢哪些季节？",
+   "吉姆：我最喜欢春季和夏季。",
+   "因为此时白天长而夜晚短，",
+   "太阳升得早而落得迟。",
+   "虽然我们国家的气候并不很好，",
+   "但又确实很有意思。",
+   "天气是我们最喜欢谈论的话题"
+  ]
+ },
+ "rawPage": {
+  "53": "210.txt"
+ },
+ "parsedTranslation": []
+}

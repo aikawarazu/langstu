@@ -1,0 +1,40 @@
+{
+ "title": "The Crystal Palace",
+ "subtitle": "水晶宫",
+ "lead": {
+  "question": "1851年的万国工业博览会，凭什么吸引六百万人跨海而来？",
+  "warmup": "1851年，英国为万国工业博览会在海德公园建起一座通体用钢铁与玻璃装配的建筑——水晶宫。它不用砖石砌造，而由预制铁构件与玻璃拼装，施工极快、体量空前。世界各地的商品与机器在此陈列，内史密斯的蒸汽锤最引人注目。它后来迁往伦敦南部，1936年毁于一场大火。",
+  "goals": [
+   "掌握核心词汇：palace、extraordinary、exhibition、iron、various、machinery、display、steam、profit、college",
+   "辨析 be made of 与 be made from，掌握 on display、in all、of all time 等固定搭配",
+   "复习形容词最高级、as ... as 同级比较以及 one of + 最高级 + 复数名词 结构",
+   "正确理解并运用一般过去时被动语态复述水晶宫的建造、搬迁与结局"
+  ],
+  "summary": "本课以1851年万国工业博览会为线索，交代了水晶宫的建造材料、空前规模、参观盛况、展览赢利的去向，以及它最终被焚毁的命运。语言重点集中在形容词最高级与 as ... as 比较结构、一般过去时被动语态。",
+  "tips": "读被动句先找主语再判时态；be made of 用于成品中仍看得出原料，be made from 用于原料已变质看不出。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How many people visited the Great Exhibition of 1851?", "zh": "有多少人参观了1851年的万国工业博览会？", "a": "Six million visitors in all.", "aZh": "总共有六百万名参观者。", "hint": "见 There were six million visitors in all，in all 意为“总共”。"},
+  {"kind": "detail", "q": "What was the Crystal Palace made of and why was it different from all other buildings?", "zh": "水晶宫是用什么建造的？它为什么不同于其他建筑？", "a": "It was made of iron and glass, so it was different from all other buildings in the world.", "aZh": "它是用钢铁和玻璃建成的，因此不同于世界上所有其他建筑。", "hint": "见 for it was made of iron and glass。"},
+  {"kind": "detail", "q": "What was the most wonderful piece of machinery on show?", "zh": "展出的机器中最奇妙的一件是什么？", "a": "Nasmyth's steam hammer.", "aZh": "内史密斯的蒸汽锤。", "hint": "machinery 是集合名词，用 a piece of 计量。"},
+  {"kind": "detail", "q": "How did the visitors reach the Crystal Palace from Europe?", "zh": "来自欧洲大陆的参观者怎样到达水晶宫？", "a": "Steam boats carried them across the Channel, and on arriving in England they were taken to the Crystal Palace by train.", "aZh": "汽船载他们越过英吉利海峡，一到英国就被火车送到水晶宫。", "hint": "见 steam boats carried thousands of visitors across the Channel 与 on arriving in England。"},
+  {"kind": "think", "q": "Why does the writer call it the most extraordinary building of the nineteenth century?", "zh": "作者为什么称水晶宫为“19世纪最不寻常的建筑”？", "a": "Because it was made of iron and glass instead of bricks or stone, was one of the biggest buildings of all time and attracted six million visitors. A building is extraordinary when it uses new materials or techniques and changes how people build.", "aZh": "因为它不用砖石而用钢铁和玻璃建成，是有史以来最高大的建筑之一，并吸引了六百万人参观。", "hint": "结合 most extraordinary、one of the biggest buildings of all time 与 six million visitors。"}
+ ],
+ "exercises": [
+  {"q": "用 be made of 或 be made from 的正确形式填空：①The Crystal Palace was made ____ iron and glass. ②Wine is made ____ grapes.", "a": "of; from", "note": "看得出原料用 of，看不出用 from。"},
+  {"q": "选词填空（exhibition / various）：A great many goods were sent to the ____ from ____ parts of the world.", "a": "exhibition; various", "note": "exhibition 博览会；various 各种各样的。"},
+  {"q": "汉译英：展会上还展出了大量机器，其中最奇妙的一件是内史密斯的蒸汽锤。", "a": "There was also a great deal of machinery on display. The most wonderful piece of machinery on show was Nasmyth's steam hammer.", "note": "machinery 集合名词，谓语用单数。"},
+  {"q": "同义改写：The best dress on show was made in Paris.（用 on display 替换）", "a": "The best dress on display was made in Paris.", "note": "on show = on display。"},
+  {"q": "完成句子：参观的人数总共是600万。There were six million visitors ____ ____.", "a": "in all", "note": "in all 总共、合计。"},
+  {"q": "用 as ... as 改写：Travelling was more difficult than it is today.", "a": "Travelling was not as easy as it is today.", "note": "同级比较用 as + 原级 + as。"},
+  {"q": "改为被动语态：They used the profits from the exhibition to build museums and colleges.", "a": "The profits from the exhibition were used to build museums and colleges.", "note": "一般过去时被动。"}
+ ],
+ "quiz": [
+  {"q": "课文中表示“19世纪最不寻常的建筑”，正确的英文表达是：", "options": ["the most extraordinary building of the nineteenth century", "the most ordinary building of the nineteenth century", "more extraordinary building of the nineteenth century", "the extraordinaryest building of the nineteenth century"], "answer": 0, "note": "最高级加 the most。"},
+  {"q": "“它是用钢铁和玻璃建成的”应译为：", "options": ["It was made of iron and glass.", "It was made from iron and glass.", "It was made by iron and glass.", "It was made in iron and glass."], "answer": 0, "note": "看得出原料用 be made of。"},
+  {"q": "“它是有史以来最高大的建筑物之一”的正确英文是：", "options": ["It was one of the biggest buildings of all time.", "It was one of the bigger buildings of all time.", "It was one of the biggest buildings in all.", "It was the biggest building of all times."], "answer": 0, "note": "one of + 最高级 + 复数名词。"},
+  {"q": "表达“陈列着、展出着”的短语是：", "options": ["on display", "in display", "at display", "on displaying"], "answer": 0, "note": "on display = on show。"},
+  {"q": "“参观的人数总共是600万”应译为：", "options": ["There were six million visitors in all.", "There were six million visitors at all.", "There were six million visitors after all.", "There were six million visitors above all."], "answer": 0, "note": "in all 总共。"},
+  {"q": "关于水晶宫的结局，课文的说法是：", "options": ["It was burnt down in 1936.", "It was moved back to Hyde Park in 1936.", "It was rebuilt in South London in 1936.", "It was sold to a college in 1936."], "answer": 0, "note": "见 until it was burnt down in 1936。"}
+ ]
+}

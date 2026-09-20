@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u029",
+ "book": "nce2",
+ "unitId": "u029",
+ "title": "Taxi!",
+ "subtitle": "出租汽车",
+ "hasText": false,
+ "lines": 9,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "c7954f27bd5b",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

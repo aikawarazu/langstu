@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u010",
+ "book": "nce2",
+ "unitId": "u010",
+ "title": "Not for Jazz",
+ "subtitle": "不适于演奏爵士乐",
+ "hasText": false,
+ "lines": 8,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "5af9c647fede",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

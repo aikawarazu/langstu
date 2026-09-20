@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u028",
+ "book": "nce2",
+ "unitId": "u028",
+ "title": "No Parking",
+ "subtitle": "禁止停车",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "e7c92cebe377",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

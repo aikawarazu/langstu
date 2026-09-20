@@ -13,17 +13,16 @@ import json
 import os
 import re
 import shutil
-import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "app", "data", "courses")
+SRC = os.path.join(ROOT, "data", "courses")
 DST = os.path.join(ROOT, "extension", "data")
 PKGS = ["nce1", "nce2", "nce3", "nce4"]
 
 
 def norm_w(w):
     """与站点 js/lookup.js 的 normW 保持一致：小写 + 只留字母与 ' - 。"""
-    return re.sub(r"[^a-z'\\-]", "", str(w).to_unicode() if hasattr(str, "to_unicode") else str(w).lower())
+    return re.sub(r"[^a-z'\\-]", "", str(w).lower())
 
 
 def norm_phrase(p):
@@ -78,7 +77,6 @@ def build_vocab():
 
     for pkg_id in PKGS:
         pkg = json.load(open(os.path.join(SRC, pkg_id + ".json"), encoding="utf-8"))
-        unit_meta = {u["id"]: u for u in pkg.get("units", [])}
         for u in pkg.get("units", []):
             uid = u["id"]
             cref = u.get("contentRef") or ("content/%s/%s.json" % (pkg_id, uid))

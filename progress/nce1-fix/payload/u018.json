@@ -1,0 +1,121 @@
+{
+ "unitId": "u018",
+ "lessons": [
+  {
+   "lesson": 35,
+   "title": "Our village",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": null,
+     "en": "Our village is in a valley."
+    },
+    {
+     "i": 1,
+     "speaker": null,
+     "en": "It is between two hills."
+    },
+    {
+     "i": 2,
+     "speaker": null,
+     "en": "The village is on a river."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "Here is another photograph of the village."
+    },
+    {
+     "i": 4,
+     "speaker": null,
+     "en": "My wife and I are walking along the banks of the river."
+    },
+    {
+     "i": 5,
+     "speaker": null,
+     "en": "We are on the left."
+    },
+    {
+     "i": 6,
+     "speaker": null,
+     "en": "There is a boy in the water."
+    },
+    {
+     "i": 7,
+     "speaker": null,
+     "en": "He is swimming across the river."
+    },
+    {
+     "i": 8,
+     "speaker": null,
+     "en": "Here is another photograph."
+    },
+    {
+     "i": 9,
+     "speaker": null,
+     "en": "This is the school building."
+    },
+    {
+     "i": 10,
+     "speaker": null,
+     "en": "It is beside a park."
+    },
+    {
+     "i": 11,
+     "speaker": null,
+     "en": "The park is on the right."
+    },
+    {
+     "i": 12,
+     "speaker": null,
+     "en": "Some children are coming out of the building."
+    },
+    {
+     "i": 13,
+     "speaker": null,
+     "en": "Some of them are going into the park."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "35": [
+   "这是我们村庄的一张照片。",
+   "我们的村庄坐落在一个山谷之中。",
+   "它们于两座小山之间。",
+   "它靠近一条小河。",
+   "这是我们村庄的另一张照片。",
+   "我和妻子沿河岸走着。",
+   "我们在河的左侧。",
+   "河里面有个男孩。",
+   "他正横渡小河。",
+   "这是另一张照片。",
+   "这是学校大楼。",
+   "它位于公园的旁边。",
+   "公园在右面。",
+   "一些孩子正从楼里出来。",
+   "他们中有几个正走进公园。"
+  ]
+ },
+ "rawPage": {
+  "35": "201.txt"
+ },
+ "parsedTranslation": [
+  "这是我们村庄的一张照片。",
+  "我们的村庄坐落在一个山谷之中。",
+  "它们于两座小山之间。",
+  "它靠近一条小河。",
+  "这是我们村庄的另一张照片。",
+  "我和妻子沿河岸走着。",
+  "我们在河的左侧。",
+  "河里面有个男孩。",
+  "他正横渡小河。",
+  "这是另一张照片。",
+  "这是学校大楼。",
+  "它位于公园的旁边。",
+  "公园在右面。",
+  "一些孩子正从楼里出来。",
+  "他们中有几个正走进公园。"
+ ]
+}

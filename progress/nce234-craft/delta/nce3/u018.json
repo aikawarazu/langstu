@@ -1,0 +1,35 @@
+{
+ "title": "Electric Currents in Modern Art",
+ "subtitle": "现代艺术中的电流",
+ "lead": {
+  "question": "看似普通的现代雕塑展，为什么会让观众觉得危险，甚至可能遭到电击？",
+  "warmup": "一提到现代艺术，很多人会想到美术馆里静静摆放的绘画和雕塑。但本文作者却在一次现代雕塑展上大开了眼界：展品不再是静止的，而是会动、会闪、还会放电的装置。参观者刚进门就看到“切勿触摸，某些展品有危险”的告示。想弄懂作者为什么把这场展览比作“史前电子设备展”，就跟着课文一起走进这座奇特的展厅吧。",
+  "goals": ["掌握 current / electric / sculpture / gallery / magnet / flicker / emit 等本课核心词汇。", "理解 be attached to、in response to、be familiar to、take no interest in 等固定搭配。", "复习被动语态，以及 that 引导的同位语从句和 which 引导的定语从句。", "能用英语描述一件展品，并说明它为什么会使人感到危险。"],
+  "summary": "本文从现代雕塑已司空见惯谈起，指出人们误以为现代艺术只能在博物馆里看到，其实它早已出现在公共场所。接着作者描述一次令他吃惊的展览：靠墙的金属球经磁化后不停相吸相斥，展厅中央的高大构件里彩灯疯狂闪烁，小黑盒迸出火花，红灯怒闪。这些展品像古老电子设备，仿佛专为刺激人的情感、甚至给人电击而设计。",
+  "tips": "emit 是重读闭音节动词，过去式和过去分词要双写 t 写作 emitted，且多用被动 be emitted from，指火花、光、声音等从某处“散发出来”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How might some of the exhibits have been dangerous?", "zh": "这些展品怎么会具有危险性呢？", "a": "They were pieces of moving sculpture: magnetized metal spheres that attracted and repelled each other, continuously flickering lights, small black boxes emitting sparks, and they could even give people electric shocks.", "aZh": "它们是活动雕塑：被磁化、不停相吸相斥的金属球，不停闪烁的灯光，迸出火花的小黑盒，甚至还会给人电击。", "hint": "答案在课文后半段：展品是 pieces of moving sculpture，金属球被磁化，末尾说它们 give them electric shocks as well。"},
+  {"kind": "detail", "q": "What mistaken idea about modern art does the writer mention?", "zh": "作者提到关于现代艺术的哪种错误观点？", "a": "The idea that modern art can only be seen in museums is mistaken.", "aZh": "那种认为现代艺术只能在博物馆里才能看到的观点是错误的。", "hint": "课文第二句 The idea that modern art can only be seen in museums is mistaken."},
+  {"kind": "detail", "q": "What was the first thing the writer saw when he entered the art gallery?", "zh": "作者走进美术馆时首先看到的是什么？", "a": "A notice which said: 'Do not touch the exhibits. Some of them are dangerous!'", "aZh": "一张告示，上面写着“切勿触摸展品。某些展品有危险！”", "hint": "课文: The first thing I saw when I entered the art gallery was a notice which said..."},
+  {"kind": "detail", "q": "What were the objects standing against the wall?", "zh": "靠墙排列着的展品是什么样的？", "a": "There were long thin wires attached to metal spheres which had been magnetized and attracted or repelled each other all the time.", "aZh": "那里有细长的电线，连着被磁化的金属球，金属球一直相互吸引或相互排斥。", "hint": "课文: Lined up against the wall, there were long thin wires attached to metal spheres."},
+  {"kind": "think", "q": "Why does the writer compare the exhibition to 'an exhibition of prehistoric electronic equipment'?", "zh": "作者为什么把这个展览比作“古老的电子设备展览”？", "a": "Because the tall structures with continuously flickering coloured lights, the sparks emitted from small black boxes and the angrily flashing red lamps looked crude and old-fashioned, yet seemed alive with electricity.", "aZh": "因为装有不停闪烁的彩色灯泡的高大构件、小黑盒迸出的火花和发怒似忽明忽暗的红灯，看起来粗糙而陈旧，却充满了电流的动感。", "hint": "结合课文倒数第二句 It was rather like an exhibition of prehistoric electronic equipment 与其前后对灯光、火花的描写作答。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：现代雕塑不再使我们感到惊讶了。", "a": "Modern sculpture rarely surprises us any more.", "note": "rarely 表否定，“不再”用 any more"},
+  {"q": "填空：The first thing I saw when I entered the art ______ was a notice.", "a": "gallery", "note": "art gallery 画廊、美术馆"},
+  {"q": "句型转换（改被动）：Workers emitted sparks from small black boxes.", "a": "Sparks were emitted from small black boxes.", "note": "emit 过去分词双写 t，作被动"},
+  {"q": "改错：The idea which modern art can only be seen in museums is mistaken.", "a": "The idea that modern art can only be seen in museums is mistaken.", "note": "同位语从句用 that，不用 which"},
+  {"q": "填空：The spheres had been ______ (magnet) and attracted or repelled each other.", "a": "magnetized", "note": "magnetize 变过去分词，此处为被动"},
+  {"q": "汉译英：这些灯不停地闪烁着，就像失去控制的红绿灯。", "a": "These lights flickered continuously like traffic lights which have gone mad.", "note": "continuously 副词，修饰 flicker"},
+  {"q": "填空：An electric ______ flows through the wires and lights the bulbs.", "a": "current", "note": "current 指电流，也可指水流"}
+ ],
+ "quiz": [
+  {"q": "作者认为下列哪种观点是错误的？", "options": ["The idea that modern sculpture is always dangerous.", "The idea that public places should hold no art.", "The idea that modern art can only be seen in museums.", "The idea that all exhibits must be modern."], "answer": 2, "note": "课文第二句点明该观点错误"},
+  {"q": "作者走进展厅时首先看到了什么？", "options": ["A piece of moving sculpture hanging from the ceiling.", "A notice warning visitors not to touch the exhibits.", "A long thin wire attached to a metal sphere.", "A number of tall structures with coloured lights."], "answer": 1, "note": "先看到的是“切勿触摸”的告示"},
+  {"q": "靠墙排列着的展品是什么？", "options": ["Small black boxes emitting sparks.", "Tall structures containing coloured lights.", "Oddly shaped forms suspended from the ceiling.", "Long thin wires attached to metal spheres."], "answer": 3, "note": "细长电线连着金属球"},
+  {"q": "关于那些金属球，下列哪项说法正确？", "options": ["They were fixed to the ceiling and moved in the wind.", "They flickered continuously like traffic lights.", "They had been magnetized and attracted or repelled each other all the time.", "They were made of coloured glass and emitted sparks."], "answer": 2, "note": "金属球被磁化，不停相吸相斥"},
+  {"q": "展厅中央那些高大构件里有什么？", "options": ["Coloured lights which flickered continuously.", "Magnetized metal spheres.", "Small black boxes full of sparks.", "Notices warning of danger."], "answer": 0, "note": "构件里是彩色灯泡，不停闪烁"},
+  {"q": "作者把这个展览比作什么？", "options": ["An exhibition of modern oil paintings.", "A museum of ancient sculpture.", "A mad traffic light system.", "An exhibition of prehistoric electronic equipment."], "answer": 3, "note": "倒数第二句给出比喻"}
+ ]
+}

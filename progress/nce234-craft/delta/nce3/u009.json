@@ -1,0 +1,35 @@
+{
+ "title": "Flying Cats",
+ "subtitle": "飞猫",
+ "lead": {
+  "question": "猫从高楼坠落时，靠什么本领保护自己、大难不死？",
+  "warmup": "猫是让人着迷的动物。它们有时对你亲昵撒娇，有时又冷淡神秘，从不肯像狗那样俯首帖耳。人们常说'猫有九条命'，可这句话到底有没有根据呢？这篇课文里，科学家真的记录了一群从纽约高楼坠落的猫，看看它们经历了什么。读课文前先想一想：一只猫从几十层楼摔下，为什么还能活蹦乱跳？",
+  "goals": ["掌握 fascinate、feline、affectionate、submissive 等描写猫性格的核心词汇。", "读懂'猫有九条命'的说法，掌握132只猫坠楼研究的关键事实。", "学会 'the + 比较级, the + 比较级' 结构，表达'越……越……'。", "复习现在完成时与被动语态，用来说明研究结果和动作的影响。"],
+  "summary": "课文先写猫的迷人：对人友善亲昵，却保持神秘独立，从不像狗马那样俯首帖耳，人们因此学会尊重猫的独立性。接着引出'猫有九条命'之说——纽约动物医疗中心研究132只坠楼猫，五个月里仅8只死亡；一只叫萨伯瑞的猫从32层坠落只掉一颗牙。原因在于坠落越远，猫越有时间放松并伸展四肢，增大空气阻力。",
+  "tips": "'the further..., the less...' 两边都要用比较级，不能只变一边；feline 是形容词，只能作定语，不能说 felines independence。另外 never fail to do 中的 to 后只能跟动词原形。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How do cats try to protect themselves when falling from great heights?", "zh": "猫从高处坠落时，是如何设法保护自己的？", "a": "They stretch out their legs like flying squirrels. This increases their air-resistance and reduces the shock of impact when they hit the ground.", "aZh": "它们会像飞鼠一样伸展四肢，这样能增大空气阻力，并减轻着地时的冲击。", "hint": "答案见课文结尾：They stretch out their legs like flying squirrels… This increases their air-resistance and reduces the shock of impact."},
+  {"kind": "detail", "q": "How many cats did the New York Animal Medical Center study, and how long did the study last?", "zh": "纽约动物医疗中心研究了多少只猫？研究一共持续了多久？", "a": "It studied 132 cats over a period of five months.", "aZh": "它对132只猫进行了为期五个月的研究。", "hint": "出处：Recently the New York Animal Medical Center made a study of 132 cats over a period of five months."},
+  {"kind": "detail", "q": "What happened to the cat named Sabrina?", "zh": "那只叫萨伯瑞的猫遭遇了什么？", "a": "She fell 32 storeys, yet only suffered from a broken tooth.", "aZh": "她从32层楼高处跌下，却只摔断了一颗牙。", "hint": "出处：One cat, Sabrina, fell 32 storeys, yet only suffered from a broken tooth."},
+  {"kind": "detail", "q": "Why is New York an ideal place for such a study?", "zh": "为什么纽约是进行这项研究的理想地点？", "a": "Because there is no shortage of tall buildings — there are plenty of high-rise windowsills to fall from.", "aZh": "因为那里不缺少高楼大厦，有的是可供猫坠落的高层窗槛。", "hint": "出处：because there is no shortage of tall buildings. There are plenty of high-rise windowsills to fall from!"},
+  {"kind": "think", "q": "The belief that cats have nine lives seems to hold some truth. Why is it that the further a cat falls, the less it is likely to injure itself?", "zh": "'猫有九条命'的说法似乎确有几分真实。为什么猫坠落的距离越长，反而越不容易受伤？", "a": "In a long drop, a cat reaches high speeds and has time to relax; it stretches out its legs like a flying squirrel, which increases its air-resistance and reduces the shock of impact when it lands.", "aZh": "在长长的坠落过程中，猫会达到很高的速度，从而有充裕的时间放松身体，像飞鼠一样伸展四肢，增大空气阻力，减轻着地时的震动。", "hint": "出处：It seems that the further cats fall, the less they are likely to injure themselves… At high speeds, falling cats have time to relax."}
+ ],
+ "exercises": [
+  {"q": "汉译英：猫总能引起人们的极大兴趣。", "a": "Cats never fail to fascinate human beings.", "note": "never fail to 表示'总是'"},
+  {"q": "汉译英：结果是人们已经学会尊重猫的独立性。", "a": "As a result, humans have learned to respect feline independence.", "note": "现在完成时 + feline"},
+  {"q": "词形填空：They can be friendly and ______ (affection) towards humans.", "a": "affectionate", "note": "系动词后接形容词"},
+  {"q": "词形填空：They never become ______ (submit) like dogs and horses.", "a": "submissive", "note": "submit→submissive"},
+  {"q": "句型转换（用 the...the...）：Cats fall further, so they are less likely to injure themselves.", "a": "The further cats fall, the less they are likely to injure themselves.", "note": "the+比较级，the+比较级"},
+  {"q": "被动语态填空：A study of 132 cats ______ (make) by the New York Animal Medical Center recently.", "a": "was made", "note": "一般过去时的被动语态"},
+  {"q": "填空：There are plenty of high-rise ______ (windowsill) to fall from.", "a": "windowsills", "note": "plenty of 接复数名词"}
+ ],
+ "quiz": [
+  {"q": "下列哪句正确表达'猫总能引起人们的极大兴趣'？", "options": ["Cats never fail to fascinate human beings.", "Cats never fail fascinating human beings.", "Cats never fail fascinate human beings.", "Cats never fails to fascinate human beings."], "answer": 0, "note": "never fail to + 动词原形"},
+  {"q": "下列哪句正确使用了 feline？", "options": ["Humans have learned to respect feline independence.", "Humans have learned to respect feline independent.", "Humans have learned to respect the feline independent.", "Humans have learned respect feline independence."], "answer": 0, "note": "feline 作形容词修饰名词"},
+  {"q": "关于纽约动物医疗中心的研究，哪项说法正确？", "options": ["It studied 123 cats over a period of five months.", "It studied 132 cats over a period of five years.", "It studied 132 cats over a period of five months.", "It studied 132 dogs over a period of five months."], "answer": 2, "note": "132 cats，历时五个月"},
+  {"q": "关于那只叫萨伯瑞（Sabrina）的猫，课文怎么说？", "options": ["She fell 23 storeys yet only suffered from a broken tooth.", "She fell 32 storeys yet only suffered from a broken tooth.", "She fell 32 storeys and died from her injuries.", "She fell 32 storeys yet only broke a leg."], "answer": 1, "note": "32 storeys / broken tooth"},
+  {"q": "下列哪句正确使用了 'the further..., the less...' 结构？", "options": ["The further cats fall, the less they are likely to injure themselves.", "The further cats fall, the less they injure themselves likely.", "The further cats fall, the less they likely to injure themselves.", "Cats fall further, they are less likely to injure themselves."], "answer": 0, "note": "前后都用比较级"},
+  {"q": "下面哪句与课文一致？", "options": ["Cats behave like well-trained paratroopers.", "Cats behave like well-training paratroopers.", "Cats behave like well-trained paratrooper.", "Cats behaves like well-trained paratroopers."], "answer": 0, "note": "well-trained 复合形容词"}
+ ]
+}

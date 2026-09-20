@@ -1,0 +1,35 @@
+{
+ "title": "Instinct or Cleverness",
+ "subtitle": "是本能还是机智",
+ "lead": {
+  "question": "作者用胶带封住树干，为何仍败给蚂蚁？这究竟是本能还是机智？",
+  "warmup": "课文从人对昆虫的恐惧谈起：我们自幼怕虫，视其为害多益少的生物，却又着迷于它们的生活。作者尤其关注蚂蚁——它们把蚜虫当作“奶牛”获取蜜露。为保护心爱的桃树，他用粘胶带封住树干，本以为大功告成，蚂蚁却在树底转悠之后另辟蹊径。阅读时注意作者如何用被动语态、让步从句和定语从句推进这场人蚁较量。",
+  "goals": ["掌握 instinct、cleverness、insect、ant、aphid、ingenuity 等本课核心词汇。", "理解并会运用 do more harm than good、wage war on、embark on 等固定搭配。", "复习被动语态以及 so...that 结果状语从句的用法。", "学会用 even though、not only...but because 等结构表达让步与并列原因。"],
+  "summary": "课文前半写人类对昆虫的矛盾心理：既恐惧又着迷，恐惧虽不合理却难以消除。后半转入作者亲历的实验：夏天他发现桃树叶枯萎，叶背满是蚜虫，一窝蚂蚁前来采蜜。他用粘胶带绑住树干，蚂蚁一度团团转，半夜仍在胶带旁打转。次日清晨他却发现蚂蚁已另辟新路，顺墙爬上树叶。作者懊丧地承认，自己那套“完全不科学”的办法被蚂蚁的机智彻底击败。",
+  "tips": "易错提醒：make it impossible for sb. to do sth. 中 it 是形式宾语，真正宾语是后面不定式；The tape was so sticky that... 用 so...that 表结果，勿写成 such...that。另注意 bind/bound/bound 与 bear/bore/borne 的不规则变化。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Was the writer successful in protecting his peach tree? Why not?", "zh": "作者成功保护了他的桃树吗？为什么没有成功？", "a": "No, he was not. Although the sticky tape kept the ants off the trunk for a time, they discovered a new route: they climbed up the wall of the house and then on to the leaves of the tree.", "aZh": "没有成功。虽然粘胶带一度使蚂蚁无法爬上树干，但它们很快发现了一条新路线——顺着房子的外墙往上爬，再爬到树叶上。", "hint": "见课文倒数第三、四句：Instead, I saw that they had discovered a new route... climbing up the wall of the house."},
+  {"kind": "detail", "q": "What did the writer find on the underside of the leaves of his peach tree?", "zh": "作者在桃树叶的背面发现了什么？", "a": "Clusters of tiny insects called aphids, which were visited by a large colony of ants that obtained a sort of honey from them.", "aZh": "成串叫作蚜虫的小虫子；一大窝蚂蚁前来造访，从它们身上获取一种蜜。", "hint": "见课文第二段：Clusters of tiny insects called aphids were to be found on the underside of the leaves."},
+  {"kind": "detail", "q": "What did the writer do to protect his peach tree, and what happened at first?", "zh": "作者为保护桃树做了什么？最初情况如何？", "a": "He bound the base of the tree with sticky tape, making it impossible for the ants to reach the aphids. The tape was so sticky that the ants did not dare to cross it and scurried around the base of the tree in bewilderment.", "aZh": "他用粘胶带把树底部包住，使蚂蚁无法接近蚜虫。胶带太粘，蚂蚁不敢爬过去，只能在树底团团转，不知所措。", "hint": "见课文第二段：I bound the base of the tree with sticky tape..."},
+  {"kind": "detail", "q": "Why does the writer say most of our fears are unreasonable but impossible to erase?", "zh": "作者为什么说我们的大部分恐惧既不合理又无法消除？", "a": "Because we dread quite harmless creatures like moths, feel revulsion at hordes of industrious ants crawling over a picnic lunch, and have a horror of being stung although we love honey; reading about insects increases our understanding without dispelling our fears.", "aZh": "因为我们害怕飞蛾这类毫无害处的生物，看到大群勤劳的蚂蚁在野餐上爬行便心生反感，而且纵然爱吃蜂蜜仍害怕被蜇；读关于昆虫的书只增加了解，却消除不了恐惧。", "hint": "见课文第一段：Reading about them increases our understanding without dispelling our fears."},
+  {"kind": "think", "q": "According to this lesson, what is the difference between instinct and cleverness, and which does the writer think defeated him?", "zh": "按本课内容，本能与机智有何区别？作者认为自己是被哪一种打败的？", "a": "Instinct is the inborn, unthinking behaviour of insects, such as ants taking honey from aphids and following set routes; cleverness, or ingenuity, is their flexible, apparently intelligent response to a new problem. The writer felt that what defeated him was the ants' ingenuity, for they quickly found an entirely new route and an answer to his thoroughly unscientific methods.", "aZh": "本能是昆虫与生俱来、无需思考的行为，如蚂蚁从蚜虫身上取蜜、沿固定路线爬行；机智（足智多谋）则是它们面对新问题时表现出的灵活、近乎聪明的应变能力。作者觉得自己是被蚂蚁的机智打败的，因为它们迅速找到一条全新路线，对他那套完全不科学的办法作出了对策。", "hint": "见课文末两句：defeated by their ingenuity / quick to find an answer to my thoroughly unscientific methods。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们把它们看作害多益少的无用生物。", "a": "We regard them as unnecessary creatures that do more harm than good.", "note": "regard...as 加定语从句。"},
+  {"q": "汉译英：我们不断同它们作战，因为它们污染我们的食物、传播疾病、吞噬庄稼。", "a": "We continually wage war on them, for they contaminate our food, carry diseases, or devour our crops.", "note": "wage war on 与 for 表原因。"},
+  {"q": "将下面句子改为被动语态：A large colony of ants visited the aphids.", "a": "The aphids were visited by a large colony of ants.", "note": "主动改被动，注意数的一致。"},
+  {"q": "汉译英：我用粘胶带把树干底部包住，使蚂蚁无法接近蚜虫。", "a": "I bound the base of the tree with sticky tape, making it impossible for the ants to reach the aphids.", "note": "make it impossible for sb. to do。"},
+  {"q": "句型转换：用 even though 把 The experiment failed to get rid of the ants. / It kept me fascinated for twenty-four hours. 合成一句。", "a": "Even though the experiment failed to get rid of the ants, it kept me fascinated for twenty-four hours.", "note": "even though 引导让步状语从句。"},
+  {"q": "填空：I got up early next morning ____ (hope) to find that the ants had given up in despair.", "a": "hoping", "note": "现在分词作伴随状语。"},
+  {"q": "改错：The tape was so sticky that they did not dare crossing it.", "a": "crossing → to cross", "note": "dare to do sth.，勿用动名词。"}
+ ],
+ "quiz": [
+  {"q": "半夜打着手电筒出去时，作者看到了什么？", "options": ["The ants had given up in despair.", "The ants were eating the leaves.", "The ants were still swarming around the sticky tape.", "The ants had climbed up the wall."], "answer": 2, "note": "see: noted...still swarming。"},
+  {"q": "夏天作者发现树叶开始枯萎，原因是树叶背面有什么？", "options": ["Aphids on the underside of the leaves", "The severe winter", "A lack of water", "The warm wall"], "answer": 0, "note": "Clusters of tiny insects called aphids。"},
+  {"q": "蚂蚁从蚜虫身上获取的是什么？", "options": ["Fresh water", "A sort of honey", "Dead beetles", "Sticky tape"], "answer": 1, "note": "obtained a sort of honey from them。"},
+  {"q": "夜里作者用什么工具到花园里查看蚂蚁？", "options": ["A magnifying glass", "A jar", "A newspaper", "A torch"], "answer": 3, "note": "went out at midnight with a torch。"},
+  {"q": "第二天早上作者发现蚂蚁做了什么？", "options": ["They had died on the tape.", "They had discovered a new route up the wall.", "They had eaten the aphids.", "They had left the tree forever."], "answer": 1, "note": "discovered a new route。"},
+  {"q": "作者最后如何评价自己保护桃树的那套办法？", "options": ["highly organized", "quite reasonable", "thoroughly unscientific", "perfectly horrible"], "answer": 2, "note": "末句 my thoroughly unscientific methods。"}
+ ]
+}

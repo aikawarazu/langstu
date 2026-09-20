@@ -1,0 +1,35 @@
+{
+ "title": "The Facts",
+ "subtitle": "确切数字",
+ "lead": {
+  "question": "编辑坚持要确切的数字，迟迟收不到回音的记者最终落得什么结果？",
+  "warmup": "报刊编辑为了一个数字能较真到什么地步？一家杂志请记者写一篇关于新非洲共和国总统府的文章，开头写“几百级台阶通向高墙”，编辑嫌不够精确，要他查明台阶的确切数字和围墙高度。记者去数了，编辑等得不耐烦，连发三封传真，最后只能按原稿付印。一周后回音才到——他为什么迟迟不能答复，答案却出人意料。",
+  "goals": ["能按顺序复述故事，准确说出 1,084 steps、fifteen-foot wall 等关键数据", "能掌握并运用本课搭配：go to extremes、provide sb. with sth.、go to press、refuse to publish", "能掌握 not only 置于句首时主句的部分倒装结构，并会改写同类句子", "能正确使用过去完成时被动语态（had been instructed / arrested / sent）交代“过去的过去”"],
+  "summary": "本课以过去完成时被动语态为语法主线：had been instructed、had been arrested、had been sent to prison 都表示“过去的过去”，先于编辑收到传真发生。核心结构是 Not only had the poor man been arrested, but he had been sent to prison as well——not only 提到句首，前一分句须部分倒装。词汇要抓 go to extremes、provide sb. with sth.、go to press 三个搭配，还要会写 the 1,084 steps 与 the fifteen-foot wall 这类数词和复合形容词。",
+  "tips": "not only 置句首要部分倒装，只把助动词 had 提到主语前，实义动词位置不动；后半句 but…as well 用正常语序，不必再倒装。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the consequence of the editor's insistence on facts and statistics?", "zh": "编辑坚持要确切的事实和统计数字，结果是什么？", "a": "The journalist was arrested and sent to prison while counting the steps leading to the palace wall.", "aZh": "那名记者在数通往总统府围墙的台阶时被捕，还被送进了监狱。", "hint": "答案见课文后段：Not only had the poor man been arrested, but he had been sent to prison as well."},
+  {"kind": "detail", "q": "Why did the editor refuse to publish the article at first?", "zh": "编辑起初为什么拒绝发表这篇文章？", "a": "Because the first sentence gave only 'hundreds of steps', not the exact number of steps or the height of the wall.", "aZh": "因为第一句只写了“几百级台阶”，没有台阶的确切数字和围墙的高度。", "hint": "见第三、五句：编辑读完第一句 refuse to publish it，随即发传真索取 exact number of steps and the height of the wall。"},
+  {"kind": "detail", "q": "What did the editor do when the journalist failed to reply?", "zh": "记者迟迟不回复时，编辑做了什么？", "a": "He sent two more faxes and yet another one warning that the journalist would be fired, and at last published the article as it had originally been written.", "aZh": "他又发了两份传真，再发一份警告记者将被解雇，最后只好按原稿把文章发表了。", "hint": "见 He sent the journalist two more faxes… 与 reluctantly published the article as it had originally been written 两句。"},
+  {"kind": "detail", "q": "What did the journalist explain in the fax he was at last allowed to send?", "zh": "记者终于获准发出的那份传真里说明了什么？", "a": "He had been arrested while counting the 1,084 steps leading to the fifteen-foot wall which surrounded the president's palace.", "aZh": "他在数通往环绕总统府的 15 英尺高围墙的 1,084 级台阶时被捕了。", "hint": "见末句 in which he informed the editor that… 的宾语从句。"},
+  {"kind": "think", "q": "Why is the story called The Facts, and what does it satirize?", "zh": "故事为什么叫《确切数字》？它讽刺了什么？", "a": "Because the editor's insistence on exact facts and statistics sent an innocent reporter to prison, so the title mocks editors who go to extremes over unimportant facts.", "aZh": "因为编辑对确切数字的执着，一个本无恶意的记者进了监狱；标题正是讽刺编辑为无关紧要的事实在细枝末节上走极端。", "hint": "见首句 go to extremes to provide their readers with unimportant facts and statistics。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：报刊杂志的编辑常常为了向读者提供无关紧要的事实和统计数字而走向极端。", "a": "Editors of newspapers and magazines often go to extremes to provide their readers with unimportant facts and statistics.", "note": "go to extremes 走极端。"},
+  {"q": "汉译英：编辑拒绝发表这篇文章，因为杂志很快就要付印了。", "a": "The editor refused to publish the article, for the magazine would soon go to press.", "note": "go to press 付印；for 引原因。"},
+  {"q": "句型转换：用 Not only 开头改写 He has not only made this mistake before but he will make it again.", "a": "Not only has he made this mistake before, but he will make it again.", "note": "not only 置首，前句倒装。"},
+  {"q": "句型转换：把 I realized what was happening only then. 改为 only then 开头。", "a": "Only then did I realize what was happening.", "note": "only + 状语置首须倒装。"},
+  {"q": "填空：When the article arrived, the editor read the first sentence and refused to ______ it. The poor man ______ (arrest) and ______ (send) to prison.", "a": "publish; had been arrested; had been sent", "note": "用过去完成时被动表更早动作。"},
+  {"q": "填空（数词表达）：He counted ______ 1,084 steps leading to the ______ wall which surrounded the palace.", "a": "the; fifteen-foot", "note": "复合形容词用连字符且单数。"},
+  {"q": "改错：Not only the journalist had been arrested while counting the steps, but he had been sent to prison as well.", "a": "Not only had the journalist been arrested while counting the steps, but he had been sent to prison as well.", "note": "had 须移到主语之前。"}
+ ],
+ "quiz": [
+  {"q": "课文首句 go to extremes 的含义是？", "options": ["To behave in an extreme way.", "To walk to the far end of a street.", "To reach the highest point of a mountain.", "To go abroad for a long time."], "answer": 0, "note": "go to extremes 意为“走极端”。"},
+  {"q": "课文 The magazine would soon go to press 中的 go to press 相当于？", "options": ["To be printed.", "To push something hard.", "To interview the president.", "To apply for a job."], "answer": 0, "note": "go to press 即“付印、开印”。"},
+  {"q": "哪句正确表达“编辑立即给记者发去一份传真，要求他查明台阶的确切数字”？", "options": ["The editor at once sent the journalist a fax instructing him to find out the exact number of steps.", "The editor at once sent the journalist a fax instructing him find out the exact number of steps.", "The editor at once sent to the journalist a fax instructing him to find out the exact number of steps.", "The editor at once sent the journalist a fax to instructing him find out the exact number of steps."], "answer": 0, "note": "send sb. sth.；instruct sb. to do。"},
+  {"q": "not only 置于句首时，下面哪句语法正确？", "options": ["Not only had the poor man been arrested, but he had been sent to prison as well.", "Not only the poor man had been arrested, but he had been sent to prison as well.", "Not only had the poor man been arrested, but had he been sent to prison as well.", "Not only the poor man had been arrested, but he was sent to prison as well."], "answer": 0, "note": "not only 置首，仅前一分句倒装。"},
+  {"q": "关于记者被捕的原因，课文的说法是？", "options": ["He had been arrested while counting the 1,084 steps leading to the fifteen-foot wall.", "He had been arrested for writing an article about the president's palace.", "He had been arrested because the magazine refused to pay him.", "He had been arrested for sending too many faxes to the editor."], "answer": 0, "note": "见课文末句的宾语从句。"},
+  {"q": "关于数词与复合形容词，哪一种写法正确？", "options": ["the 1,084 steps leading to the fifteen-foot wall", "the 1,084 steps leading to the fifteen-feet wall", "the 1084 steps leading to the fifteen foot wall", "the 1.084 steps leading to the fifteen-foots wall"], "answer": 0, "note": "千位用逗号，复合形容词用连字符且单数。"}
+ ]
+}

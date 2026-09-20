@@ -1,0 +1,164 @@
+{
+ "unitId": "u075",
+ "title": "SOS",
+ "subtitle": "呼救信号",
+ "lead": {
+  "question": "深山雪夜里，带着两个婴儿的母亲怎样才能让飞过的飞机发现自己？",
+  "warmup": "一架轻型客机偏离航线，坠毁在深山，飞行员身亡，机上只剩一位年轻妇女和两个女婴。正值隆冬，地上积雪很厚，最近的村庄也在数英里外。天黑后气温骤降，她把提箱当床，把孩子放进去盖上所有衣服。天亮时飞机从头顶飞过——没有任何通讯工具，她怎样让高空中的人看见自己？",
+  "goals": [
+   "掌握 fly off course、turn...into、stamp out、send a signal、by radio 等核心短语",
+   "理解 Snow lay thick 中系动词 lie 后接形容词表状态的用法",
+   "熟练运用 It was not long before... 句型与一般过去时叙述事件",
+   "学会用一般过去时的被动语态转述救援过程"
+  ],
+  "summary": "飞机偏航坠山，飞行员身亡，一位妇女和两个女婴幸存。隆冬雪夜，她把提箱当床、用衣服护住孩子；天亮听见飞机掠过头顶，便在雪地上踩出巨大的“SOS”。飞行员发现信号，用电台通知最近的城镇，直升机很快赶来救人。",
+  "tips": "lie 表“处于某种状态”时后接形容词，Snow lay thick 不能写成 thickly；off course、by radio、on the scene 均为零冠词固定搭配。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How did the woman get help?",
+   "zh": "这位妇女是如何获救的？",
+   "a": "She stamped out the letters 'SOS' in the snow. A pilot saw the signal and sent a message by radio to the nearest town. It was not long before a helicopter arrived on the scene to rescue the survivors.",
+   "aZh": "她在雪地上踩出“SOS”；飞行员看到信号后用无线电通知了最近的城镇，不久直升机赶到现场救人。",
+   "hint": "见课文最后两句。"
+  },
+  {
+   "kind": "detail",
+   "q": "课文写 Snow lay thick on the ground，为什么用形容词 thick 而不用副词 thickly？",
+   "zh": "为什么是 lay thick 而不是 lay thickly？",
+   "a": "Because lie here is a link verb meaning 'be in a certain state', so it is followed by the adjective thick as a subject complement, not by an adverb.",
+   "aZh": "因为这里的 lie 是系动词，表示“处于某种状态”，后面接形容词 thick 作主语补足语。",
+   "hint": "lie 表示“处于某种状态”时后接形容词。"
+  },
+  {
+   "kind": "detail",
+   "q": "It was not long before a helicopter arrived on the scene. 是什么意思？before 是什么词性？",
+   "zh": "这句话如何理解，before 在句中作什么？",
+   "a": "It means 'Soon a helicopter arrived at the scene.' Here before is a conjunction introducing a time clause; 'It was not long before...' is a fixed pattern meaning '不久就……'.",
+   "aZh": "意思是“不久，一架直升飞机飞抵现场”。此处 before 是从属连词，引导时间状语从句。",
+   "hint": "It was not long before… 固定句型。"
+  },
+  {
+   "kind": "detail",
+   "q": "its pilot was killed 与 the only passengers were unhurt 为什么都用被动语态？",
+   "zh": "这两处为何要用被动语态？",
+   "a": "Because the writer wants to stress what happened to the people (the result or state), not who did it; both are past passive: was/were + past participle.",
+   "aZh": "因为要强调“飞行员丧生”“乘客安然无恙”这些结果和状态，动作执行者不言自明。",
+   "hint": "一般过去时被动。"
+  },
+  {
+   "kind": "think",
+   "q": "If you were that woman, what else could you do to attract the pilots' attention?",
+   "zh": "如果你是那位妇女，还能怎样求救？",
+   "a": "Possible ideas: spread dark clothes on the snow to make a contrasting mark, light a fire or burn fuel to make smoke, use something shiny to reflect sunlight. The text's solution is best because the letters are huge and 'SOS' is an internationally known distress signal.",
+   "aZh": "可行办法：把深色衣服铺在雪地上形成对比标志；生火冒烟；用反光物反射阳光。课文的办法最佳——字母巨大，且“SOS”是国际通用求救信号。",
+   "hint": "结合厚雪、严寒、头顶飞过的飞机思考。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空：Snow lay ______ (thick) on the ground.",
+   "a": "thick",
+   "note": "lie 为系动词，后接形容词表状态。"
+  },
+  {
+   "q": "用 fly off course 改写：The plane left its route and crashed in the mountains.",
+   "a": "The plane flew off course and crashed in the mountains.",
+   "note": "off course 零冠词。"
+  },
+  {
+   "q": "汉译英：天黑下来的时候，她把提箱当作小床，把孩子们放了进去。",
+   "a": "When it grew dark, she turned a suitcase into a bed and put the children inside it.",
+   "note": "turn...into..."
+  },
+  {
+   "q": "汉译英（须用 send a signal、stamp out）：她不知道怎样才能发个信号，后来她在雪地上踩出了“SOS”。",
+   "a": "She wondered how she could send a signal. Then she stamped out the letters 'SOS' in the snow.",
+   "note": "stamp out 踩出。"
+  },
+  {
+   "q": "把句子改为被动语态：A pilot sent a message by radio to the nearest town.",
+   "a": "A message was sent by radio to the nearest town by a pilot.",
+   "note": "一般过去时被动。"
+  },
+  {
+   "q": "用 It was not long before… 合并两句：A helicopter arrived on the scene. It rescued the survivors.",
+   "a": "It was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash.",
+   "note": "before 是连词。"
+  },
+  {
+   "q": "用“the + 形容词”表示一类人翻译：伤员们被直升机救走了。",
+   "a": "The injured were rescued by helicopter.",
+   "note": "the + 形容词表一类人，谓语用复数。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中“一架轻型客机偏离了航线”正确的表达是哪一句？",
+   "options": [
+    "The plane flew on course.",
+    "The plane flew off course.",
+    "The plane flew off the route.",
+    "The plane flew away course."
+   ],
+   "answer": 1,
+   "note": "off course 零冠词。"
+  },
+  {
+   "q": "课文中“地上积着厚厚的雪”原句是？",
+   "options": [
+    "Snow lay thick on the ground.",
+    "Snow lay thickly on the ground.",
+    "Snow lied thick on the ground.",
+    "Snow was laying thick on the ground."
+   ],
+   "answer": 0,
+   "note": "lie-lay-lain，后接形容词。"
+  },
+  {
+   "q": "“她把提箱变成一张小床”用的结构是？",
+   "options": [
+    "She turned the suitcase to a bed.",
+    "She made the suitcase as a bed.",
+    "She turned a suitcase into a bed.",
+    "She changed the suitcase for a bed."
+   ],
+   "answer": 2,
+   "note": "turn…into…"
+  },
+  {
+   "q": "飞行员看到信号后，是如何把消息发到最近城镇的？",
+   "options": [
+    "He sent a message by radio to the nearest town.",
+    "He sent a message with radio to the nearest town.",
+    "He sent a message by the radio for the nearest town.",
+    "He sent a message in radio to the nearest town."
+   ],
+   "answer": 0,
+   "note": "by radio 零冠词。"
+  },
+  {
+   "q": "It was not long before a helicopter arrived on the scene. 与哪句意思最接近？",
+   "options": [
+    "A helicopter arrived long before the scene.",
+    "It was a long time before the helicopter arrived.",
+    "The helicopter arrived after a long wait.",
+    "Before long a helicopter arrived at the scene."
+   ],
+   "answer": 3,
+   "note": "不久就……"
+  },
+  {
+   "q": "用“the + 形容词”表示一类人且谓语用复数，正确的一句是？",
+   "options": [
+    "The injured was rescued by helicopter.",
+    "The injured were rescued by helicopter.",
+    "The injuring were rescued by helicopter.",
+    "An injured were rescued by helicopter."
+   ],
+   "answer": 1,
+   "note": "the + 形容词表一类人。"
+  }
+ ]
+}

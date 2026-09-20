@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u057",
+ "book": "nce2",
+ "unitId": "u057",
+ "title": "Can I help you, madam?",
+ "subtitle": "您要买什么，夫人？",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "47768fd2565f",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

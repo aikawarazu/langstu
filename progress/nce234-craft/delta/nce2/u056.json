@@ -1,0 +1,40 @@
+{
+ "title": "Faster than sound!",
+ "subtitle": "比声音还快！",
+ "lead": {
+  "question": "这场老爷车比赛究竟有多快？它为何与现代赛车大不相同却同样激动人心？",
+  "warmup": "每年一次的老爷车大赛，去年吸引了大批车辆：最漂亮的是罗尔斯-罗伊斯银灵，最古怪的是只有三个轮子、造于1885年的奔驰。一阵震耳的爆炸声后比赛开始，不少车中途抛锚，车主钻到车底的时间比坐在车里还长。冠军车时速只有40英里，比声音慢得多——标题“比声音还快！”正是全文的反讽。",
+  "goals": [
+   "复述这场老爷车大赛的全过程，抓住冠军车“时速40英里”与标题之间的反讽",
+   "掌握 sound、excitement、handsome、explosion、course、rival、speed、downhill、wheel 等词语",
+   "熟练运用 more ... than、as ... as、the same as、different from 等比较结构",
+   "复习被动语态、一般过去时与过去完成时的时间层次"
+  ],
+  "summary": "课文写一场老爷车大赛：赛前异常激动，最漂亮的银灵与最古怪的三轮奔驰一同亮相，造于1885年的奔驰是参赛车中最老的一辆。一阵爆炸声后车辆出发，许多车中途抛锚，只有几辆跑完全程；冠军车时速40英里，远超对手，却在终点冲下山坡、难以刹停。",
+  "tips": "no less exciting 不是“不激动”：no less 意为“毫不逊色、同样”，全句是“与现代赛车大不相同，却一样激动人心”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How fast did the winning car go?", "zh": "获胜的那辆车跑得有多快？", "a": "It reached a speed of forty miles an hour — much faster than any of its rivals.", "aZh": "它达到了每小时 40 英里的速度——远远超过它的任何一个对手。", "hint": "reached a speed of forty miles an hour。"},
+  {"kind": "detail", "q": "Which was the most unusual car in the race, and what was special about it?", "zh": "比赛中最不寻常的是哪辆车？它有什么特别之处？", "a": "The most unusual car was a Benz which had only three wheels. Built in 1885, it was the oldest car taking part.", "aZh": "最不寻常的一辆是只有三个轮子的奔驰牌汽车；它造于1885年，是参赛车中最老的一辆。", "hint": "见第 4—5 句。"},
+  {"kind": "detail", "q": "What happened to many of the cars after the race began?", "zh": "比赛开始后许多车出了什么状况？", "a": "Many of the cars broke down on the course, and some drivers spent more time under their cars than in them.", "aZh": "很多汽车在途中抛了锚，有些驾驶员花在车底下的时间比坐在车里的时间还长。", "hint": "broke down on the course。"},
+  {"kind": "detail", "q": "What trouble did the driver of the winning car have at the end of the race?", "zh": "冠军车驾驶员在终点遇到了什么麻烦？", "a": "The car sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.", "aZh": "它在接近终点时冲下山坡，驾驶员费了好大劲才把车停下来。", "hint": "sped downhill / had a lot of trouble。"},
+  {"kind": "think", "q": "The winning car reached only forty miles an hour, so why is the lesson called 'Faster than sound!'?", "zh": "冠军车时速只有40英里，为什么课文却题为“比声音还快！”？", "a": "It is humorous irony: forty miles an hour is far slower than sound, yet for these old cars it was much faster than any of its rivals; the title pokes fun at the gap between the excitement and the real speed.", "aZh": "这是幽默的反讽：时速40英里远不及音速，但对老爷车来说已远超对手，标题调侃了“激动”与“速度”之间的落差。", "hint": "把标题与第 9 句对照读。"}
+ ],
+ "exercises": [
+  {"q": "语法填空：Once a year a race is ______ (hold) for old cars. The Benz, which had ______ (build) in 1885, was the oldest car taking part.", "a": "held; been built", "note": "被动语态；过去完成时。"},
+  {"q": "选词填空（excitement / explosions / course / speed / rivals / downhill）：There was a great deal of ______ before the race. After a great many loud ______ it began. Many cars broke down on the ______. The winning car reached a ______ of forty miles an hour — much faster than any of its ______ — and sped ______ at the end.", "a": "excitement; explosions; course; speed; rivals; downhill", "note": "course 此处指跑道、行程。"},
+  {"q": "汉译英：最漂亮的汽车之一是罗尔斯-罗伊斯生产的银灵汽车，而最不寻常的一辆则要属只有3只轮子的奔驰牌汽车了。", "a": "One of the most handsome cars was a Rolls-Royce Silver Ghost, and the most unusual car was a Benz which had only three wheels.", "note": "one of + 最高级 + 复数。"},
+  {"q": "汉译英：有些驾驶员花在汽车底下的时间比坐在汽车里面的时间还长。", "a": "Some drivers spent more time under their cars than in them.", "note": "more ... than 比较介词短语。"},
+  {"q": "汉译英：获胜的那辆车时速只有40英里，比声音慢得多。", "a": "The winning car reached a speed of only forty miles an hour — much slower than sound.", "note": "much 修饰比较级。"},
+  {"q": "比较结构填空（different from / as ... as / the same as）：This old car race was very ______ modern car races, but it was ______ exciting ______ them — in excitement it was the ______ ______ theirs.", "a": "different from; as; as; same; as", "note": "different from 表“与……不同”。"},
+  {"q": "搭配填空（a lot of / a great deal of / a great many）：There was ______ excitement just before the race began; after ______ loud explosions the race began; the driver had ______ trouble trying to stop it.", "a": "a great deal of; a great many; a lot of", "note": "a great many 只接复数名词。"}
+ ],
+ "quiz": [
+  {"q": "这场旧式汽车比赛多久举行一次？", "options": ["Once a year", "Once a month", "Twice a week", "Every four years"], "answer": 0, "note": "once a year 每年一次。"},
+  {"q": "比赛中最漂亮的汽车之一是哪一辆？", "options": ["A Rolls-Royce Silver Ghost", "A Benz with three wheels", "The winning car", "A modern racing car"], "answer": 0, "note": "handsome 可修饰汽车。"},
+  {"q": "只有三个轮子、造于1885年的是哪辆车？", "options": ["A Benz", "A Rolls-Royce", "A Ford", "A modern racing car"], "answer": 0, "note": "wheel 轮子。"},
+  {"q": "获胜的那辆车的时速是多少？", "options": ["Forty miles an hour", "Fourteen miles an hour", "Four hundred miles an hour", "Faster than sound"], "answer": 0, "note": "标题是反讽。"},
+  {"q": "“有些驾驶员花在车底下的时间比坐在车里的时间还长”是哪一句？", "options": ["... more time under their cars than in them", "... more time in their cars than under them", "... as much time under their cars as in them", "... less time under their cars than in them"], "answer": 0, "note": "more ... than 比较结构。"},
+  {"q": "末句 It was very different from modern car races but no less exciting. 的意思是？", "options": ["It was different but just as exciting.", "It was the same and less exciting.", "It was different and not exciting.", "It was faster than modern races."], "answer": 0, "note": "no less 意为“毫不逊色”。"}
+ ]
+}

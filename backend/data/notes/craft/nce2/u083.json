@@ -1,0 +1,164 @@
+{
+ "unitId": "u083",
+ "title": "After the elections",
+ "subtitle": "大选之后",
+ "lead": {
+  "question": "大选之后，帕特里克为什么连续三天去前首相家，反复追问同一个问题？",
+  "warmup": "《新概念英语》第二册第83课《After the elections》讲了一个耐人寻味的小故事：前首相莱恩先生在大选中落败，退出政界、去了国外；他的狂热反对者帕特里克却接连三天跑到他家门口，向同一位值班警察问同样的问题。警察先是耐心回答，继而略感疑心，最后竟大发雷霆。学完本课，你会明白帕特里克真正的乐趣究竟在哪里。",
+  "goals": [
+   "掌握 former / defeat / fanatical / opponent / radical / suspicious / progressive 等核心词汇的用法。",
+   "学会 ex- 前缀（ex-Prime Minister）和 the same ... as 结构的表达。",
+   "体会过去时与过去完成时的对比，尤其是间接引语中 had gone 的用法。",
+   "能用省略式让步状语从句（Though a little suspicious, ...）进行简洁表达。"
+  ],
+  "summary": "本课围绕“大选之后”展开：前首相莱恩先生竞选失败，退出政界、移居国外。他的狂热反对者帕特里克出于幸灾乐祸，接连三天来到莱恩旧宅，向同一位值班警察反复打听同一个问题。警察从最初的耐心作答，到略感疑心，最终失去耐心、大声咆哮。篇末帕特里克一句“我就是喜欢听你说出这句话”，点明了他执意追问的真实动机，读来颇具讽刺意味。",
+  "tips": "易错提醒：same 前接名词时须加定冠词 the，引出比较对象时用 as 而不用 like——the same question as yesterday。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did Patrick keep on asking the same question?",
+   "zh": "帕特里克为什么一再问同一个问题？",
+   "a": "Because he loved to hear the policeman say that Mr. Lane had been defeated and had gone abroad.",
+   "aZh": "因为他就是喜欢听警察说出莱恩先生落选、出国去了那句话。",
+   "hint": "答案见课文最后一句：'I know, but I love to hear you say it!'"
+  },
+  {
+   "kind": "detail",
+   "q": "What happened to Mr. Wentworth Lane in the recent elections?",
+   "zh": "在最近的大选中，温特沃兹·莱恩先生怎么了？",
+   "a": "He was defeated in the recent elections.",
+   "aZh": "他在最近的大选中被击败了。",
+   "hint": "见课文第一句 The former Prime Minister ... was defeated."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the policeman tell Patrick when he first asked if Mr. Lane lived there?",
+   "zh": "帕特里克第一次问莱恩先生是否住那里时，警察告诉他什么？",
+   "a": "He told him that since his defeat, the ex-Prime Minister had gone abroad.",
+   "aZh": "他告诉他，这位前首相落选后已经出国去了。",
+   "hint": "见课文第五句，注意间接引语中的过去完成时 had gone。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the policeman react the third time Patrick asked the same question?",
+   "zh": "帕特里克第三次问同样问题时，警察作何反应？",
+   "a": "He lost his temper and shouted that he had told him the day before and the day before that.",
+   "aZh": "他火了，大声说他昨天和前天都已经告诉过他了。",
+   "hint": "见课文 'This time, the policeman lost his temper.'"
+  },
+  {
+   "kind": "think",
+   "q": "Why does Patrick enjoy being told the same thing again and again?",
+   "zh": "帕特里克为什么乐意一遍又一遍地听同样的话？",
+   "a": "As a fanatical opponent of Mr. Lane's party, he takes pleasure in the defeat of his political rival.",
+   "aZh": "作为莱恩先生所在政党的狂热反对者，他从政敌的失败中获得了快感。",
+   "hint": "结合第三句 'a fanatical opponent' 理解其动机。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：前首相温特沃兹·莱恩先生在最近的大选中被击败了。",
+   "a": "The former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections.",
+   "note": "former + defeat 的被动语态"
+  },
+  {
+   "q": "句型转换：把 The ex-Prime Minister went abroad after his defeat. 改为用 since 引导、含过去完成时的句子。",
+   "a": "Since his defeat, the ex-Prime Minister had gone abroad.",
+   "note": "since 引导用过去完成时"
+  },
+  {
+   "q": "用所给词的适当形式填空：My friend, Patrick, has always been a fanatical ______ (oppose) of Mr. Lane's Radical ______ (Progress) Party.",
+   "a": "opponent; Progressive",
+   "note": "opponent 与 Progressive Party"
+  },
+  {
+   "q": "改错：Though a little suspicious, the policeman gave him same answer.",
+   "a": "gave him the same answer（same 前须加定冠词 the）",
+   "note": "same 前要加 the"
+  },
+  {
+   "q": "汉译英：他又问了一个和昨天完全相同的问题。",
+   "a": "He asked exactly the same question as he had asked the day before.",
+   "note": "the same ... as 结构"
+  },
+  {
+   "q": "选词填空（temper / mood）：This time, the policeman lost his ______.",
+   "a": "temper",
+   "note": "lose one's temper 发脾气"
+  },
+  {
+   "q": "句型转换：用省略式让步状语从句合并 The policeman was a little suspicious. He still gave the same answer.",
+   "a": "Though (a little) suspicious, the policeman still gave the same answer.",
+   "note": "让步从句省略主语和 be"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中 'the former Prime Minister' 的 former 意思是？",
+   "options": [
+    "the next",
+    "the previous",
+    "the future",
+    "the acting"
+   ],
+   "answer": 1,
+   "note": "former = 以前的、前任的"
+  },
+  {
+   "q": "帕特里克一直是莱恩先生所在政党的什么？",
+   "options": [
+    "a fanatical opponent",
+    "a loyal supporter",
+    "a party member",
+    "a close friend"
+   ],
+   "answer": 0,
+   "note": "opponent 意为反对者"
+  },
+  {
+   "q": "课文中 suspicious 的意思是？",
+   "options": [
+    "feeling doubt about something",
+    "feeling very angry",
+    "feeling rather tired",
+    "feeling quite pleased"
+   ],
+   "answer": 0,
+   "note": "suspicious = 起疑心的"
+  },
+  {
+   "q": "选词填空：The policeman told him that since his defeat, the ex-Prime Minister ______ abroad.",
+   "options": [
+    "had gone",
+    "has gone",
+    "went",
+    "goes"
+   ],
+   "answer": 0,
+   "note": "间接引语中用过去完成时"
+  },
+  {
+   "q": "选词填空：He asked exactly the same question ______ he had asked the day before.",
+   "options": [
+    "as",
+    "like",
+    "than",
+    "that"
+   ],
+   "answer": 0,
+   "note": "the same ... as 结构"
+  },
+  {
+   "q": "第三次被问同样的问题时，警察为什么发火了？",
+   "options": [
+    "Because Patrick kept asking the same question.",
+    "Because Patrick refused to leave the house.",
+    "Because Patrick insulted him rudely.",
+    "Because Patrick told him a lie."
+   ],
+   "answer": 0,
+   "note": "警察失去耐心"
+  }
+ ]
+}

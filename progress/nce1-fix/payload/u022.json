@@ -1,0 +1,121 @@
+{
+ "unitId": "u022",
+ "lessons": [
+  {
+   "lesson": 43,
+   "title": "Hurry up!",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "PENNY",
+     "en": "Can you make the tea, Sam?"
+    },
+    {
+     "i": 1,
+     "speaker": "SAM",
+     "en": "Yes, of course I can, Penny."
+    },
+    {
+     "i": 2,
+     "speaker": "PENNY",
+     "en": "Is there any water in this kettle?"
+    },
+    {
+     "i": 3,
+     "speaker": "SAM",
+     "en": "Yes, there is."
+    },
+    {
+     "i": 4,
+     "speaker": "PENNY",
+     "en": "Where's the tea?"
+    },
+    {
+     "i": 5,
+     "speaker": "SAM",
+     "en": "It's over there, behind the teapot. Can you see it?"
+    },
+    {
+     "i": 6,
+     "speaker": "PENNY",
+     "en": "I can see the teapot, but I can't see the tea."
+    },
+    {
+     "i": 7,
+     "speaker": "SAM",
+     "en": "There it is! It's in front of you."
+    },
+    {
+     "i": 8,
+     "speaker": "PENNY",
+     "en": "Ah yes, I can see it now."
+    },
+    {
+     "i": 9,
+     "speaker": "SAM",
+     "en": "Where are the cups?"
+    },
+    {
+     "i": 10,
+     "speaker": "PENNY",
+     "en": "There are some in the cupboard."
+    },
+    {
+     "i": 11,
+     "speaker": "PENNY",
+     "en": "Can you find them?"
+    },
+    {
+     "i": 12,
+     "speaker": "SAM",
+     "en": "Yes. Here they are."
+    },
+    {
+     "i": 13,
+     "speaker": "PENNY",
+     "en": "Hurry up, Sam. The kettle's boiling."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "43": [
+   "彭妮：你会沏茶吗，萨姆？",
+   "萨姆：会的，我当然会，彭妮。",
+   "萨姆：这水壶里有水吗？",
+   "彭妮：有水。",
+   "萨姆：茶叶在哪儿？",
+   "彭妮：就在那儿，茶壶后面。",
+   "彭妮：你看见了吗？",
+   "萨姆：茶壶我看见了，但茶叶没看到。",
+   "彭妮：那不是么！ 就在你眼前。",
+   "萨姆：噢，是啊，我现在看到了。",
+   "萨姆：茶杯在哪儿呢？",
+   "彭妮：碗橱里有几只。",
+   "彭妮：你找得到吗？",
+   "萨姆：找得到。就在这儿呢。",
+   "彭妮：快，萨姆。水开了！"
+  ]
+ },
+ "rawPage": {
+  "43": "205.txt"
+ },
+ "parsedTranslation": [
+  "彭妮：你会沏茶吗，萨姆？",
+  "萨姆：会的，我当然会，彭妮。",
+  "萨姆：这水壶里有水吗？",
+  "彭妮：有水。",
+  "萨姆：茶叶在哪儿？",
+  "彭妮：就在那儿，茶壶后面。",
+  "彭妮：你看见了吗？",
+  "萨姆：茶壶我看见了，但茶叶没看到。",
+  "彭妮：那不是么！ 就在你眼前。",
+  "萨姆：噢，是啊，我现在看到了。",
+  "萨姆：茶杯在哪儿呢？",
+  "彭妮：碗橱里有几只。",
+  "彭妮：你找得到吗？",
+  "萨姆：找得到。就在这儿呢。",
+  "彭妮：快，萨姆。水开了！"
+ ]
+}

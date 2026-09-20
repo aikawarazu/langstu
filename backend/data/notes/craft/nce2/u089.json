@@ -1,0 +1,164 @@
+{
+ "unitId": "u089",
+ "title": "A Slip of the Tongue",
+ "subtitle": "口误",
+ "lead": {
+  "question": "一台乏味的免费演出，全场唯一的笑声由谁带来，又究竟为何而来？",
+  "warmup": "设想你排了几个小时队，只为看一场免费喜剧，结果节目乏味透顶，登台的演员还大半缺席。就在你满心失望时，报幕员走上台，紧张地站在麦克风前。可他刚一开口，全场却哄堂大笑。他的话究竟哪里出了错，为什么反而成了整晚唯一的亮点？带着这个疑问读课文，看看这场口误到底是怎么发生的。",
+  "goals": [
+   "能用自己的话复述情节：免费演出、排长队、乏味节目、报幕员口误四条主线。",
+   "能正确使用 make a slip of the tongue / make a slip 表达‘口误、失误’。",
+   "能区分 must have done / needn't have done / should have done 三种‘对过去’的特殊结构。",
+   "能说出 burst out laughing、get round、queue、free、funny 等词在文中的含义与用法。"
+  ],
+  "summary": "课文讲一次免费喜剧演出：消息传开后人们争相排队进场，场内聚了好几百人，可节目乏味至极，许多该登台的演员也没来。整晚唯一令人发笑的是报幕员的开场白——他紧张地站在麦克风前，本想说‘Good evening, ladies and gentlemen’，却把词序说乱，成了‘Good ladies, evening and gentlemen’，于是全场哄堂大笑。",
+  "tips": "make a slip of the tongue 是固定搭配，表示‘一时口误’；注意 slip 前用 a、tongue 用单数，且常与 make/have 连用，别说成 do a slip。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Who made the only funny joke that evening and why?",
+   "zh": "那天晚上唯一逗乐大家的人是谁？原因是什么？",
+   "a": "The advertiser at the beginning of the programme. He was very nervous and made a slip of the tongue: he should have said 'Good evening, ladies and gentlemen', but what he actually said was 'Good ladies, evening and gentlemen'.",
+   "aZh": "是节目开始时那位报幕员。他非常紧张，一时口误：本该说‘女士们、先生们，晚上好’，实际却说成了‘好女士们，晚上和先生们’。",
+   "hint": "见课文最后两段：报幕员报公司名时把词序说乱了（burst out laughing 之前）。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why need the people who failed to get in not have felt disappointed?",
+   "zh": "那些没能进场的人为什么本不必感到失望？",
+   "a": "Because many of the artistes who should have appeared did not come, so the show was a poor one anyway.",
+   "aZh": "因为很多本该出场的专业演员都没有来，演出本来就很糟，所以没看成也没什么可惜。",
+   "hint": "见课文‘Those who failed to get in need not have felt disappointed, as…’一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the audience do as soon as the advertiser opened his mouth?",
+   "zh": "报幕员一开口，观众有什么反应？",
+   "a": "As soon as he opened his mouth, everyone burst out laughing.",
+   "aZh": "他刚一开口，所有人便哄堂大笑起来。",
+   "hint": "见课文倒数第二段 burst out laughing。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does 'the news got round' mean in the text?",
+   "zh": "文中 'the news got round' 是什么意思？",
+   "a": "It means the news spread and became widely known.",
+   "aZh": "意思是消息传开了、传遍了。",
+   "hint": "见课文第二句 news got round that…，get round 即消息传播。"
+  },
+  {
+   "kind": "think",
+   "q": "What makes the advertiser's mistake funny, and what does the text suggest about speaking in public?",
+   "zh": "报幕员的错误为什么好笑？课文对‘当众讲话’暗示了什么？",
+   "a": "Because he mixed up the fixed greeting 'Good evening, ladies and gentlemen', turning it into a nonsense sentence. It suggests that even a short public announcement needs steady nerves, and that nervousness easily leads to a slip of the tongue.",
+   "aZh": "因为他把固定问候语‘Good evening, ladies and gentlemen’的词序打乱，说成了一句不知所云的话。这说明当众讲话需要镇定，紧张很容易造成口误。",
+   "hint": "结合课文末句 should have said…but what he actually said… 的对比思考。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：他紧张时常常口误。",
+   "a": "When he is nervous, he often makes a slip of the tongue.",
+   "note": "固定搭配 make a slip of the tongue"
+  },
+  {
+   "q": "汉译英：消息很快传开了，说市里要上演一场免费演出。",
+   "a": "The news soon got round that a free show would be presented in the city.",
+   "note": "get round 传开 + 同位语从句"
+  },
+  {
+   "q": "填空：Those who failed to get in ____ (not feel) disappointed, as many artistes did not come.",
+   "a": "need not have felt",
+   "note": "needn't have done 本不必做却做了"
+  },
+  {
+   "q": "句型转换：It is certain that he was very nervous.（用 must 改写为对过去的推测）",
+   "a": "He must have been very nervous.",
+   "note": "must have done 对过去的推测"
+  },
+  {
+   "q": "改错：As soon as he opened his mouth, everyone burst out to laugh.",
+   "a": "As soon as he opened his mouth, everyone burst out laughing.",
+   "note": "burst out + 动名词"
+  },
+  {
+   "q": "汉译英：报幕员宣布节目开始，但他的话毫无意义。",
+   "a": "The advertiser announced the beginning of the programme, but his words made no sense.",
+   "note": "announce 宣布；make sense 有意义"
+  },
+  {
+   "q": "汉译英：他本该早点到，但实际上他迟到了。",
+   "a": "He should have arrived earlier, but actually he was late.",
+   "note": "should have done 本应做而未做"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文标题 A Slip of the Tongue 的意思是：",
+   "options": [
+    "一次成功的演出",
+    "一时口误／失言",
+    "一张滑倒的纸条",
+    "一句逗人的俏皮话"
+   ],
+   "answer": 1,
+   "note": "slip 失误 ＋ tongue 舌头＝口误"
+  },
+  {
+   "q": "下列哪句正确表示‘他紧张时往往会口误’？",
+   "options": [
+    "When he is nervous, he often does a slip of tongue.",
+    "When he is nervous, he often makes a slip of the tongue.",
+    "When he is nervous, he often makes a slip of tongue.",
+    "When he is nervous, he often takes a slip of the tongue."
+   ],
+   "answer": 1,
+   "note": "固定搭配 make a slip of the tongue，须带 the"
+  },
+  {
+   "q": "‘消息传开了，说将有一场喜剧演出’应译为：",
+   "options": [
+    "The news got round that a comedy show would be presented.",
+    "The news got around to present a comedy show.",
+    "The news was got round a comedy show would present.",
+    "The news round that a comedy show would be presented."
+   ],
+   "answer": 0,
+   "note": "get round that… 消息传开，that 后为同位语从句"
+  },
+  {
+   "q": "填空：Those who failed to get in ____ disappointed, as many artistes did not come.",
+   "options": [
+    "needn't have felt",
+    "must have felt",
+    "should have felt",
+    "can't have felt"
+   ],
+   "answer": 0,
+   "note": "needn't have done 表本不必做却已做"
+  },
+  {
+   "q": "填空：As soon as he opened his mouth, everyone burst out ____.",
+   "options": [
+    "to laugh",
+    "laughing",
+    "laughed",
+    "laugh"
+   ],
+   "answer": 1,
+   "note": "burst out 后接动名词"
+  },
+  {
+   "q": "下列哪句正确表达‘他本应说 Good evening, ladies and gentlemen，但实际却说错了’？",
+   "options": [
+    "He should say 'Good evening, ladies and gentlemen', but he said wrong.",
+    "He should have said 'Good evening, ladies and gentlemen', but he actually made a slip.",
+    "He must have said 'Good evening, ladies and gentlemen', but he slip.",
+    "He needn't have said 'Good evening, ladies and gentlemen', but he said it."
+   ],
+   "answer": 1,
+   "note": "should have done 表本应做而未做，与 actually 对比"
+  }
+ ]
+}

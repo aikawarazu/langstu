@@ -1,0 +1,164 @@
+{
+ "unitId": "u044",
+ "title": "Speed and Comfort",
+ "subtitle": "又快捷又舒适",
+ "lead": {
+  "question": "作者对比了火车、汽车、轮船和飞机，你猜他最终更偏爱哪种出行方式？",
+  "warmup": "出远门时常要在火车、汽车、轮船与飞机间做选择。作者先说火车车厢拥挤闷热，白天打盹夜里难眠；再说长途汽车连看书都难；接着承认轮船舒适，却耗时太久。最后他把目光转向飞机，用速度与平稳化解前三种方式的苦恼。读时请留意作者的褒贬轻重，尤其是结尾的结论。",
+  "goals": [
+   "掌握 comfort、speed、advantage、disadvantage、cramped、stuffy 等本课核心词汇及搭配。",
+   "读懂作者对火车、汽车、轮船、飞机四种出行方式的层层对比与先抑后扬的写法。",
+   "会用 less pleasant、far above、nothing can match…for 等比较结构表达优劣。",
+   "识别 even if、if、however 引导的让步与条件从句，并能写出 fresh and uncrumpled 式的状态表达。"
+  ],
+  "summary": "本文是一篇说明兼议论的散文。作者依次评点四种长途出行方式：火车拥挤闷热、夜里难眠，抵达时疲惫不堪；长途汽车连阅读都不便；轮船舒适却耗时太久；唯有飞机在速度与舒适上无与伦比，让人在高空俯瞰云海，抵达时仍精神焕发。全文以对比推进，先抑后扬，最终归结到‘速度与舒适’这一主题上。",
+  "tips": "易错提醒：the advantage of doing sth 与 have the disadvantage of being… 中 of 后须接名词或动名词；比较级前用 even／much 修饰，而 less pleasant 意为‘更不舒适’，勿与 fewer 混用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Which type of transport does the writer prefer, do you think?",
+   "zh": "你认为作者更偏爱哪种出行方式？",
+   "a": "The aeroplane. Nothing can match it for speed and comfort, and you arrive at your destination fresh and uncrumpled.",
+   "aZh": "飞机。就速度与舒适而言它无与伦比，抵达目的地时你仍精神焕发、毫无倦意。",
+   "hint": "见课文 But nothing can match them for speed and comfort 及结尾 fresh and uncrumpled。"
+  },
+  {
+   "kind": "detail",
+   "q": "What happens to train compartments, and why is reading only a partial solution?",
+   "zh": "火车车厢会变成什么样？为什么看书只能解决部分问题？",
+   "a": "Compartments soon get cramped and stuffy, and reading is only a partial solution because the monotonous rhythm of the wheels clicking on the rails soon lulls you to sleep.",
+   "aZh": "车厢很快就变得拥挤闷热；看书只能解决部分问题，因为车轮与铁轨间单调的响声很快会把你送入梦乡。",
+   "hint": "见课文第3句 cramped and stuffy 与第5句 lulls you to sleep。"
+  },
+  {
+   "kind": "detail",
+   "q": "What can you enjoy on a ferry, and what is the great disadvantage of sea journeys?",
+   "zh": "坐船能享受什么？海上旅行最大的缺点又是什么？",
+   "a": "You can stretch your legs on the spacious decks, play games, meet interesting people and enjoy good food; but sea journeys take a long time, and few people will sacrifice holiday time for them.",
+   "aZh": "你可以在宽敞的甲板上伸展腿脚、做游戏、结识有趣的人、享用美食；但海上旅行耗时太长，很少有人愿为它牺牲假期。",
+   "hint": "见课文 ferry trips or cruises 一段及 Relatively few people…一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "What can you enjoy from an aeroplane when the landscape is hidden from view?",
+   "zh": "当地面景色被遮住时，从飞机上可以欣赏到什么？",
+   "a": "You can enjoy the extraordinary sight of unbroken cloud plains that stretch out for miles before you, while the sun shines brilliantly in a clear sky.",
+   "aZh": "你可以观赏展现在眼前、绵延数英里的云海，同时阳光灿烂、晴空万里。",
+   "hint": "见课文 If the landscape is hidden from view… 一句。"
+  },
+  {
+   "kind": "think",
+   "q": "The writer admits planes are dangerous and expensive, yet still prefers them. Why does he write this way?",
+   "zh": "作者承认飞机危险又昂贵，却仍然偏爱它。他为什么这样安排？",
+   "a": "He first concedes the aeroplane's drawbacks to seem fair and objective, then argues that nothing can match it for speed and comfort; the contrast makes his final preference more convincing.",
+   "aZh": "他先承认飞机的缺点，显得客观公正，再指出其速度与舒适无与伦比；一抑一扬的对比使最后的偏爱更有说服力。",
+   "hint": "结合 Aeroplanes have the reputation… 与 But nothing can match them… 两句的转折。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：车厢很快就变得拥挤、闷热。",
+   "a": "Train compartments soon get cramped and stuffy.",
+   "note": "get＋形容词表状态变化。"
+  },
+  {
+   "q": "汉译英：乘汽车作长途旅行则更加不舒服。",
+   "a": "Long car journeys are even less pleasant.",
+   "note": "even＋比较级；less pleasant。"
+  },
+  {
+   "q": "填空：They also have the ______ of being an expensive form of transport.",
+   "a": "disadvantage",
+   "note": "have the disadvantage of doing 结构。"
+  },
+  {
+   "q": "句型转换：Even if you travel in ideal weather, sea journeys take a long time.（用 Although 改写）",
+   "a": "Although the weather is ideal, sea journeys take a long time.",
+   "note": "even if 与 although 皆表让步。"
+  },
+  {
+   "q": "改错：Hardly anyone can positive enjoy sitting in a train for more than a few hours.",
+   "a": "Hardly anyone can positively enjoy sitting in a train for more than a few hours.",
+   "note": "positive→positively 修饰动词。"
+  },
+  {
+   "q": "填空：It is almost impossible ______ (take) your mind off the journey.",
+   "a": "to take",
+   "note": "It is＋adj.＋to do 结构。"
+  },
+  {
+   "q": "填空：But nothing can ______ them for speed and comfort.",
+   "a": "match",
+   "note": "match sb./sth. for 意为在某方面比得上。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者认为哪种出行方式在速度与舒适上最出色？",
+   "options": [
+    "The train.",
+    "The car.",
+    "The aeroplane.",
+    "The ferry."
+   ],
+   "answer": 2,
+   "note": "nothing can match them for speed and comfort。"
+  },
+  {
+   "q": "火车车厢‘cramped and stuffy’是什么意思？",
+   "options": [
+    "spacious and airy",
+    "crowded and badly ventilated",
+    "quiet and clean",
+    "noisy but fast"
+   ],
+   "answer": 1,
+   "note": "cramped 拥挤，stuffy 闷热不畅。"
+  },
+  {
+   "q": "下列哪句表达‘飞机另一个缺点是昂贵’？",
+   "options": [
+    "It has the advantage of being cheap.",
+    "It also has the disadvantage of being an expensive form of transport.",
+    "It is nothing to match for speed.",
+    "It offers a great variety of comforts."
+   ],
+   "answer": 1,
+   "note": "the disadvantage of being…。"
+  },
+  {
+   "q": "‘Long car journeys are even ______ pleasant.’ 应填哪一项？",
+   "options": [
+    "less",
+    "fewer",
+    "little",
+    "least"
+   ],
+   "answer": 0,
+   "note": "even＋比较级 less pleasant。"
+  },
+  {
+   "q": "‘______ you travel in ideal weather, sea journeys take a long time.’ 应填哪一项？",
+   "options": [
+    "Even if",
+    "As if",
+    "What if",
+    "Only if"
+   ],
+   "answer": 0,
+   "note": "Even if 引导让步从句。"
+  },
+  {
+   "q": "‘People travelling long distances frequently have to decide…’ 中 frequently 意为？",
+   "options": [
+    "rarely",
+    "often",
+    "suddenly",
+    "hardly"
+   ],
+   "answer": 1,
+   "note": "frequently＝often 经常。"
+  }
+ ]
+}

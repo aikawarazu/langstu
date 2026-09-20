@@ -1,0 +1,164 @@
+{
+ "unitId": "u091",
+ "title": "Three Men in a Basket",
+ "subtitle": "三人同篮",
+ "lead": {
+  "question": "一只气球逼近空军基地，基地如临大敌，为何警察最后却抓不了人？",
+  "warmup": "上世纪，气球侦察还是一种真实存在的威胁。一名飞行员发现一只气球似乎正飞往附近的皇家空军基地，立刻报告。基地如临大敌，控制塔官员大怒，命令飞行员紧盯这个“神秘飞行物”，看它在基地上空拍照，随后降落。警察赶来准备抓人，却发现吊篮里的“间谍”竟是自家指挥官和两位国会议员。故事把官僚体系的荒诞调侃得淋漓尽致。",
+  "goals": [
+   "掌握 make for / keep track of / make out / call in 等固定短语的含义与用法。",
+   "学会用 seem to be doing 和 might be doing 表达对正在进行动作的推测。",
+   "掌握 spy on、be able to do、manage to do、be ordered to do 等结构的用法。",
+   "理解课文幽默：基地指挥官竟来“侦察”自家基地，并学会用英语复述要点。"
+  ],
+  "summary": "一架飞机发现一只气球像要飞往附近的皇家空军基地，飞行员立即报告。控制塔官员大怒，担心有人侦察基地，命令飞行员跟踪辨认。飞行员绕气球飞行，看清吊篮里有三个人，一人举着望远镜；气球飞临基地上空时还有人在拍照。气球随后降落，警察赶来却无法抓人——篮中竟是两位国会议员和基地指挥官。正如他所说：基地这一半不知另一半在干什么。",
+  "tips": "注意区分 make for（走向/飞往）、make out（辨认出）、make up（编造）、make up for（弥补）；seem 后接不定式进行式 to be doing 表示“似乎正在……”，不要写成 to doing。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Where was the station's Commanding Officer?",
+   "zh": "基地的指挥官当时在哪里？",
+   "a": "He was in the basket of the balloon — he was one of the three men in the basket.",
+   "aZh": "他就在气球的吊篮里，是篮中三个人之一。",
+   "hint": "出处：课文最后一段——吊篮里有两位国会议员和基地指挥官。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why was the officer in the control tower angry when he heard the news?",
+   "zh": "控制塔上的官员听到消息后为什么很生气？",
+   "a": "Because balloons can be a great danger to aircraft.",
+   "aZh": "因为气球有可能给飞机造成极大的危险。",
+   "hint": "出处：课文第3句 because balloons can be a great danger to aircraft。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the pilot see one of the men doing when the balloon was over the station?",
+   "zh": "当气球飞临基地上空时，飞行员看见其中一个人在做什么？",
+   "a": "He saw one of the men taking photographs.",
+   "aZh": "他看见其中一个人在拍照。",
+   "hint": "出处：课文第7句 saw one of the men taking photographs。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why could the police not arrest anyone after the balloon landed?",
+   "zh": "气球降落后，警察为什么不能逮捕任何人？",
+   "a": "Because the basket contained two Members of Parliament and the Commanding Officer of the station.",
+   "aZh": "因为吊篮里是两位国会议员和基地指挥官。",
+   "hint": "出处：课文倒数第二句 the basket contained two Members of Parliament…"
+  },
+  {
+   "kind": "think",
+   "q": "What does 'one half of the station did not know what the other half was doing' suggest?",
+   "zh": "“基地的这半边不知道那半边在干什么”这句话暗示了什么？",
+   "a": "It humorously suggests that the station was so disorganized that its own Commanding Officer was spying on it from a balloon — the left hand did not know what the right hand was doing.",
+   "aZh": "这句话幽默地暗示该基地管理混乱：连自家指挥官都坐着气球来“侦察”自己的基地，左右两边互不通气。",
+   "hint": "线索：课文结尾处指挥官本人的解释。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：他说可能有人正在对基地进行侦察。",
+   "a": "He said that someone might be spying on the station.",
+   "note": "might be doing 表推测"
+  },
+  {
+   "q": "句型转换（用 seem）：A balloon was making for a station.",
+   "a": "A balloon seemed to be making for a station.",
+   "note": "seem to be doing"
+  },
+  {
+   "q": "填空：The pilot was ordered to ____ ____ ____ the strange object.（跟踪）",
+   "a": "keep track of",
+   "note": "keep track of 跟踪"
+  },
+  {
+   "q": "改错：He managed circling the balloon for some time.",
+   "a": "He managed to circle the balloon for some time.",
+   "note": "manage 后接 to do"
+  },
+  {
+   "q": "汉译英：他只能勉强辨认出吊篮里的三个人。",
+   "a": "He could just make out three men in a basket.",
+   "note": "make out 辨认出"
+  },
+  {
+   "q": "填空（用 spy 的正确形式）：Someone might be ____ ____ the station.",
+   "a": "spying on",
+   "note": "spy on 侦察"
+  },
+  {
+   "q": "句型转换（用 be able to）：No one there could explain the mystery.",
+   "a": "No one there was able to explain the mystery.",
+   "note": "able 后接不定式作宾语"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "气球“正飞往”皇家空军基地，用哪个短语？",
+   "options": [
+    "making for",
+    "making out",
+    "making up",
+    "making up for"
+   ],
+   "answer": 0,
+   "note": "make for=走向/飞往"
+  },
+  {
+   "q": "“He could make out three men in a basket.”中 make out 的意思是？",
+   "options": [
+    "勉强辨认出",
+    "编造出",
+    "补偿",
+    "走向"
+   ],
+   "answer": 0,
+   "note": "make out=辨认出"
+  },
+  {
+   "q": "哪一句正确表达“有人可能正在侦察基地”？",
+   "options": [
+    "Someone might be spying on the station.",
+    "Someone might spy on the station.",
+    "Someone must be spied the station.",
+    "Someone might being spying on the station."
+   ],
+   "answer": 0,
+   "note": "might be doing"
+  },
+  {
+   "q": "为什么气球对飞机是极大危险？",
+   "options": [
+    "Balloons can be a great danger to aircraft.",
+    "Balloons can be a great danger of aircraft.",
+    "Balloons can make a great danger to aircraft.",
+    "Balloons are great dangerous to aircraft."
+   ],
+   "answer": 0,
+   "note": "be a danger to"
+  },
+  {
+   "q": "气球降落后，警察为什么不能逮捕任何人？",
+   "options": [
+    "Because the basket contained two Members of Parliament and the Commanding Officer.",
+    "Because the balloon was too high to reach.",
+    "Because the men had already run away.",
+    "Because the police found no basket at all."
+   ],
+   "answer": 0,
+   "note": "篮中有议员和指挥官"
+  },
+  {
+   "q": "文中乘客用来观察的“双筒望远镜”英语怎么说？",
+   "options": [
+    "binoculars",
+    "a pair of glasses",
+    "an airfield",
+    "a spyglass"
+   ],
+   "answer": 0,
+   "note": "双筒望远镜=binoculars"
+  }
+ ]
+}

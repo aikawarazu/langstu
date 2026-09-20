@@ -1,0 +1,14 @@
+{
+ "unit": "nce3-u005",
+ "book": "nce3",
+ "unitId": "u005",
+ "title": "The Facts",
+ "subtitle": "确切数字",
+ "hasText": false,
+ "lines": 12,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "529622f7930c",
+ "finishedAt": "2026-09-20T21:31:44+08:00"
+}

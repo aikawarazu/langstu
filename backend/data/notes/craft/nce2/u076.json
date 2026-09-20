@@ -1,0 +1,164 @@
+{
+ "unitId": "u076",
+ "title": "April Fools' Day",
+ "subtitle": "愚人节",
+ "lead": {
+  "question": "这则“专题新闻”说通心粉长在地里，它到底想开谁的玩笑？",
+  "warmup": "每年4月1日，英美媒体都会一本正经地播报一条假新闻，等着有人上当。本课正是这样一则“专题新闻”：播音员用严肃的口吻把通心粉说成种在地里的庄稼，还报出地名、人名和年份。请注意，越是煞有介事的数字和细节，越可能是陷阱：先看播出日期，再判断真假。",
+  "goals": [
+   "听懂并复述这则4月1日的“假新闻”，指出玩笑在于把通心粉说成种在地里的庄稼",
+   "掌握 bulletin、announcer、grower、stalk、thresh、process、champion、studio 等新闻与农事词汇",
+   "区分现在完成进行时（have been expecting / working）与现在完成时被动（has been grown）",
+   "学会用 no less than、cartload、between them 表达数量与“协力”"
+  ],
+  "summary": "本文是一则4月1日的“专题新闻”：播音员煞有介事地报道克拉布利亚的“通心粉田”——已种六百多年、两位主要种植者盼着大丰收、工人割下三车金色通心粉秸、全村日夜收割打场、吃通心粉大赛冠军年年卫冕，末句“回到演播室”点明这只是一个玩笑。",
+  "tips": "辨真假的诀窍是先看时间与常识：结尾的 “Thursday, April 1st” 就是破绽；且 macaroni 是加工过的面粉，不可能与 fields 连用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was the joke?",
+   "zh": "这个玩笑是什么？",
+   "a": "The joke was that the television bulletin pretended macaroni was a crop grown in fields in Calabria — with growers, golden brown stalks, harvesting, threshing and an eating competition — and broadcast it on Thursday, April 1st as if it were real news.",
+   "aZh": "玩笑在于：这则4月1日的“专题新闻”装作通心粉是长在克拉布利亚田里的庄稼，煞有介事地报道种植者、通心粉秸、收割打场和吃通心粉大赛。",
+   "hint": "见首句 “we're going over to the macaroni fields of Calabria” 与结尾播出日期。"
+  },
+  {
+   "kind": "detail",
+   "q": "How long has macaroni been grown in this area, and why has harvesting begun earlier than usual?",
+   "zh": "通心粉在这一地区已种植多久？为什么收割比往年开始得早？",
+   "a": "It has been grown there for over six hundred years, and harvesting has begun earlier than usual because the growers have been expecting a splendid crop this year.",
+   "aZh": "已经种了六百多年；因为两位主要种植者一直盼着今年有个大丰收，收割工作比往年开始得早。",
+   "hint": "见 has been grown... for over six hundred years 与 have been expecting。"
+  },
+  {
+   "kind": "detail",
+   "q": "What have the two workers and the whole village been doing, and why is there a time limit?",
+   "zh": "两名工人和全村的人都在做什么？为什么要赶时间？",
+   "a": "Between them the two workers have just finished cutting three cartloads of golden brown macaroni stalks, and the whole village has been working day and night gathering and threshing this year's crop, because they must finish before the September rains.",
+   "aZh": "两名工人合力刚割完三车金黄色的通心粉秸；全村日夜不停地收割、打场，因为必须赶在九月雨季之前干完。",
+   "hint": "见 between them、three cartloads 与 before the September rains。"
+  },
+  {
+   "kind": "detail",
+   "q": "Who is Signor Fratelli and what is he famous for?",
+   "zh": "弗拉特里先生是谁？他以什么出名？",
+   "a": "He is the present champion of the famous Calabrian macaroni-eating competition and has won it every year since 1991.",
+   "aZh": "他是著名的克拉布利亚吃通心粉大赛的现任冠军，自1991年以来年年获胜。",
+   "hint": "见 the famous Calabrian macaroni-eating competition 与 since 1991。"
+  },
+  {
+   "kind": "think",
+   "q": "Why did the bulletin sound so convincing, and where is the real clue that it was a joke?",
+   "zh": "为什么这则新闻听起来像真的？真正的破绽在哪里？",
+   "a": "It copied the style of a real report: a serious announcer, real-sounding names, places and figures. The clue is the closing date — Thursday, April 1st, April Fools' Day — and the impossible idea of macaroni fields.",
+   "aZh": "它完全模仿真正的新闻：严肃的播音员、像模像样的人名地名和数字。真正的破绽在结尾的播出日期——4月1日星期四，愚人节；通心粉根本不可能长在田里。",
+   "hint": "留意结尾 Thursday, April 1st 与首句 macaroni fields 之间的矛盾。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "用 fool 的适当形式填空：On April _______ Day people try to _______ their friends, and this news bulletin _______ its viewers into believing that macaroni grows in fields.",
+   "a": "Fools'; fool; fooled",
+   "note": "fool 名动两用，后接 into doing。"
+  },
+  {
+   "q": "据课文填空：'To end our special news _______ ,' said the voice of the television _______ . When the programme was _______ , they went back to the _______ .",
+   "a": "bulletin; announcer; over; studio",
+   "note": "be over 表结束；studio 演播室。"
+  },
+  {
+   "q": "用括号中动词的正确形式填空：Macaroni has _______ (grow) in this area for over six hundred years, and the growers have been _______ (expect) a splendid crop this year.",
+   "a": "been grown; expecting",
+   "note": "被动表持续状态，完成进行表持续动作。"
+  },
+  {
+   "q": "填空：Two of the _______ (首要的) growers, Giuseppe Moldova and Riccardo Brabante, tell me they have been expecting a _______ (极好的) crop this year.",
+   "a": "leading; splendid",
+   "note": "leading 首要的；splendid 极好的。"
+  },
+  {
+   "q": "用 begin doing 结构改写句子：Harvesting has begun earlier than usual.",
+   "a": "They have begun harvesting earlier than usual.",
+   "note": "begin doing 表开始做某事。"
+  },
+  {
+   "q": "翻译句子：这两个工人协力割下的金黄色通心粉秸足有三车。",
+   "a": "The two workers, between them, have just finished cutting no less than three cartloads of golden brown macaroni stalks.",
+   "note": "cartload 车载量；between them 表协力。"
+  },
+  {
+   "q": "综合填空：The whole village has been working day and night _______ (gather) and _______ (thresh) the crop; the growers _______ a busy _______ (过着忙碌的生活) at harvest time. The crop is _______ (加工) in the local factory, and the _______ (目前的) champion has won the competition every year since 1991.",
+   "a": "gathering; threshing; lead; life; processed; present",
+   "note": "lead a busy life；be processed 被加工。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "这则新闻说，通心粉在克拉布利亚地区已经种植了多久？",
+   "options": [
+    "For over six hundred years",
+    "For over sixty years",
+    "For thirty years",
+    "Since 1991"
+   ],
+   "answer": 0,
+   "note": "原句为 for over six hundred years。"
+  },
+  {
+   "q": "课文中 “between them” 是什么意思？",
+   "options": [
+    "In turns, one after another",
+    "Against each other",
+    "As a result of their joint effort",
+    "Between the two fields"
+   ],
+   "answer": 2,
+   "note": "between them 表“由于共同努力、协力”。"
+  },
+  {
+   "q": "全村的人为什么日夜不停地干活？",
+   "options": [
+    "They are building a new processing factory",
+    "They must gather and thresh the crop before the September rains",
+    "They are waiting for the television announcer",
+    "They want to go back to the studio"
+   ],
+   "answer": 1,
+   "note": "见 before the September rains。"
+  },
+  {
+   "q": "关于弗拉特里先生，下列哪一项正确？",
+   "options": [
+    "He is the manager of the local factory",
+    "He has been helping his wife for thirty years",
+    "He is one of the leading growers in Calabria",
+    "He is the present champion and has won it every year since 1991"
+   ],
+   "answer": 3,
+   "note": "present 此处意为“目前的”。"
+  },
+  {
+   "q": "“Macaroni has been grown in this area for over six hundred years.” 属于哪种时态和语态？",
+   "options": [
+    "The present perfect continuous",
+    "The simple past passive",
+    "The present perfect passive",
+    "The past perfect passive"
+   ],
+   "answer": 2,
+   "note": "has been + 过去分词。"
+  },
+  {
+   "q": "下列哪一项最能证明这是一条愚人节的玩笑？",
+   "options": [
+    "The announcer spoke in a serious voice",
+    "It was broadcast on Thursday, April 1st",
+    "The village was in Calabria",
+    "The champion had won it since 1991"
+   ],
+   "answer": 1,
+   "note": "播出日期4月1日即愚人节。"
+  }
+ ]
+}

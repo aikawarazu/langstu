@@ -1,0 +1,14 @@
+{
+ "unit": "nce3-u010",
+ "book": "nce3",
+ "unitId": "u010",
+ "title": "The Loss of the Titanic",
+ "subtitle": "泰坦尼克号的沉没",
+ "hasText": false,
+ "lines": 15,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "6cd4e4702a80",
+ "finishedAt": "2026-09-20T21:31:44+08:00"
+}

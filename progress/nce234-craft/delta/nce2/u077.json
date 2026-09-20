@@ -1,0 +1,40 @@
+{
+ "title": "A successful operation",
+ "subtitle": "一例成功的手术",
+ "lead": {
+  "question": "医生给一具两千多年前的木乃伊动手术，究竟想查明什么？",
+  "warmup": "一具死于公元前800年的埃及妇女木乃伊被推上了手术台。她叫赛潘姆特，曾在底比斯神殿里当歌手。X光片上出现奇怪斑点，医生们想弄清她是否死于某种罕见疾病，唯一的办法就是切开木乃伊；而皮肤上覆盖着的硬树脂，让这台手术格外艰难。",
+  "goals": [
+   "理解课文，能复述医生为赛潘姆特木乃伊动手术的原因、过程与结果",
+   "掌握 last 作动词表“持续”、prove / turn out to be、decide 表“判定”等用法",
+   "熟练运用 operate on、die of、fall to pieces、as a result、survive 等搭配",
+   "复习非限定性关系从句（指物用 which）与现在完成进行时"
+  ],
+  "summary": "课文把一具木乃伊当“病人”来写：X光片上的奇怪斑点引出手术，硬树脂让手术持续四个多小时且十分困难；医生取下切片送去化验，还发现了蜡制牛头神像，可死因至今未定——木乃伊却“成功地经受了手术”。",
+  "tips": "survive 是及物动词，直接接宾语；operate 表“动手术”必须加 on；last 表“持续”为不及物，for 可省。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Did the doctors find out how the woman died?", "zh": "医生们查明这位妇女的死因了吗？", "a": "No, they did not. The doctors have not yet decided how the woman died; they have been trying to find out whether she died of a rare disease.", "aZh": "没有。医生们至今还未确定这位妇女的死因，他们一直在试图搞清她是否死于一种罕见的疾病。", "hint": "见 The doctors have not yet decided how the woman died 与 have been trying to find out。"},
+  {"kind": "detail", "q": "Who was Shepenmut, and when did she die?", "zh": "赛潘姆特是谁？她死于什么时候？", "a": "She was an Egyptian woman who was once a singer in the Temple of Thebes. She died in 800 B.C.", "aZh": "她是一位埃及妇女，曾在底比斯神殿里当过歌手，死于公元前800年。", "hint": "见第 1—2 句。"},
+  {"kind": "detail", "q": "Why was the operation so difficult and how long did it take?", "zh": "手术为什么那么难做？持续了多久？", "a": "It lasted for over four hours and proved to be very difficult, because the hard resin which covered the skin had to be cut through.", "aZh": "手术持续了四个多小时，而且非常难做，因为皮肤上覆盖着一层硬硬的树脂。", "hint": "见 which lasted for over four hours 与 because of the hard resin。"},
+  {"kind": "detail", "q": "What did the doctors find that the X-ray plates did not show?", "zh": "医生们发现了什么X光片没显示出来的东西？", "a": "They found a small wax figure of the god Duamutef, a god which has the head of a cow and which was normally placed inside a mummy. They also removed a section of the mummy and sent it to a laboratory.", "aZh": "他们发现了一个蜡制的杜瓦木特夫神小塑像——这种牛头神像通常被放在木乃伊体内；此外还取下一个切片送去化验。", "hint": "见 They also found something which the X-ray plates did not show。"},
+  {"kind": "think", "q": "In what sense can the operation be called 'successful' if the doctors still do not know how the woman died?", "zh": "既然死因还没查明，这例手术“成功”在哪里？", "a": "It is a joke: the 'patient' had been dead for nearly 2,800 years, so the operation was successful only in the sense that the mummy did not fall to pieces and survived the operation.", "aZh": "这是个幽默：这位“病人”已死了近两千八百年，所谓成功只是指木乃伊没有散成碎片、经受住了手术。", "hint": "综合 have not yet decided、fall to pieces 与 survived the operation。"}
+ ],
+ "exercises": [
+  {"q": "选词填空（mummy / Egyptian / temple / mark / plate / disease）：The ___ of an ___ woman who died in 800 B.C. was once a singer in the ___ of Thebes. As there were strange ___s on the X-ray ___s, doctors wanted to know whether she died of a rare ___.", "a": "mummy; Egyptian; temple; marks; plates; disease", "note": "X-ray plate 指X光片。"},
+  {"q": "用 operate on 补全：The only way to find out how she died was ___ ___ ___ the mummy.", "a": "to operate on", "note": "operate on 后接手术对象。"},
+  {"q": "汉译英（注意 last 作动词表“持续”）：这台手术持续了四个多小时。", "a": "The operation lasted (for) over four hours.", "note": "for 可有可无。"},
+  {"q": "用 turn out 改写同义句：The operation proved to be very difficult.", "a": "The operation turned out (to be) very difficult.", "note": "prove / turn out to be 结果是。"},
+  {"q": "汉译英：他们曾担心在把木乃伊切开后，它会散成碎片。", "a": "They feared that the mummy would fall to pieces when they cut it open.", "note": "也可说 go to pieces。"},
+  {"q": "汉译英：这具木乃伊成功地经受了这次手术。", "a": "The mummy successfully survived the operation.", "note": "survive 直接接宾语。"},
+  {"q": "选词填空（as a result / resin / skin / section / laboratory / figure）：Hard ___ covered the ___. ___ ___ ___, the operation was very difficult. The doctors removed a ___ of the mummy, sent it to a ___ and found a small wax ___ of the god Duamutef.", "a": "resin; skin; As a result; section; laboratory; figure", "note": "as a result 后接句子。"}
+ ],
+ "quiz": [
+  {"q": "“死于公元前800年的一位埃及妇女的木乃伊刚刚接受了一次手术”，应选：", "options": ["The mummy of an Egyptian woman who died in 800 B.C. has just had an operation.", "The mummy of an Egypt woman who died in 800 B.C. has just had an operation.", "The mummy of an Egyptian woman who has died in 800 B.C. has just had an operation.", "The mummy of an Egyptian woman who died in 800 B.C. has just had a operation."], "answer": 0, "note": "Egyptian 为形容词；B.C. 用过去时。"},
+  {"q": "“医生们一直在试图搞清这位妇女是否死于一种罕见的疾病”，应选：", "options": ["Doctors have been trying to find out whether the woman died from a rare disease.", "Doctors have been trying to find out whether the woman died of rare disease.", "Doctors have been trying to find out whether the woman died of a rare disease.", "Doctors are trying to find out whether the woman has died of a rare disease."], "answer": 2, "note": "die of 接疾病；disease 前加 a。"},
+  {"q": "“手术持续了四个多小时，结果证明非常难做”，应选：", "options": ["The operation, which lasted for over four hours, proved to be very difficult.", "The operation, that lasted for over four hours, proved to be very difficult.", "The operation, which was lasted for over four hours, proved to be very difficult.", "The operation, which lasted for over four hours, proved being very difficult."], "answer": 0, "note": "非限定从句用 which；last 无被动。"},
+  {"q": "“他们担心切开木乃伊时它会散成碎片”，应选：", "options": ["They feared that the mummy will fall to pieces when they cut it open.", "They feared that the mummy would fall into pieces when they cut it open.", "They feared that the mummy would fall to piece when they cut it open.", "They feared that the mummy would fall to pieces when they cut it open."], "answer": 3, "note": "fall to pieces 为固定搭配。"},
+  {"q": "“这具木乃伊成功地经受了这次手术”，应选：", "options": ["The mummy successfully survived from the operation.", "The mummy successfully survived the operation.", "The mummy was successfully survived the operation.", "The mummy successfully survived in the operation."], "answer": 1, "note": "survive 为及物动词。"},
+  {"q": "“搞清这件事的唯一办法就是给木乃伊动手术”，应选：", "options": ["The only way to do this was to operate the mummy.", "The only way to do this was operating on the mummy.", "The only way to do this was to operate with the mummy.", "The only way to do this was to operate on the mummy."], "answer": 3, "note": "operate on 给……动手术。"}
+ ]
+}

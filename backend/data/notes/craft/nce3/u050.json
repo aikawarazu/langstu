@@ -1,0 +1,164 @@
+{
+ "unitId": "u050",
+ "title": "New Year Resolutions",
+ "subtitle": "新年决心",
+ "lead": {
+  "question": "作者的“新年决心”为何接连失败？究竟是什么最终让他的读书计划泡了汤？",
+  "warmup": "每到新年，人们总要立决心：早起、少吃、多陪孩子。可这些决心年年重复，却总难实现。作者总结出原因：目标太宏大、无暇实施，还忍不住向人宣布。于是今年他改了策略，把决心藏在心里，只定两项适中任务——早晨锻炼、晚上读书。通宵晚会、艰苦的自律、家人围观轮番考验着他，且看决心如何消退。",
+  "goals": [
+   "掌握 resolution、resolve、self-discipline、ambition 等本课核心词汇及搭配。",
+   "理解不定式在句中作宾语、同位语、目的状语等成分的用法。",
+   "体会现在完成时（I still haven't given up / I have just bought）的表达效果。",
+   "学会用 However、Nevertheless 等词表达转折与让步，梳理叙事逻辑。"
+  ],
+  "summary": "课文以幽默自嘲的口吻讲述作者两次新年决心的失败：锻炼计划因热情减退、时间从十一分钟递减到零而归零；读书计划则败给电视的诱惑，一晚在屏幕前打瞌睡后故态复萌。作者借此点明决心难行的根源——目标过于宏大、无暇实施、又轻率宣布，并暗示唯有切合实际的计划与持久的自律才能真正奏效。",
+  "tips": "注意区分动词 resolve（决心做，resolve to do sth）与名词 resolution（决心，常与 make/keep/give up 搭配）；另 carry out 意为“实施、执行”，不要与 carry on（继续）混淆。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What marked the end of the writer's New Year resolutions?",
+   "zh": "是什么标志着作者新年决心的终结？",
+   "a": "The night he went downstairs, sat in front of the television pretending to read, and soon dozed off in front of the screen.",
+   "aZh": "那一夜他下楼坐在电视机前假装看书，很快就在屏幕前打起瞌睡来。",
+   "hint": "答案在课文结尾：That proved to be my undoing, for I soon got back to my old bad habit of dozing off in front of the screen."
+  },
+  {
+   "kind": "detail",
+   "q": "According to the text, why do some people remain inveterate smokers?",
+   "zh": "根据课文，为什么有些人烟瘾大、戒不掉？",
+   "a": "Because they have so often experienced the frustration that results from failure.",
+   "aZh": "因为他们屡戒屡败，饱尝失败带来的挫败感，失去了信心。",
+   "hint": "见课文：If we remain inveterate smokers, it is only because we have so often experienced the frustration that results from failure."
+  },
+  {
+   "kind": "detail",
+   "q": "Why do most of us fail in our efforts at self-improvement?",
+   "zh": "我们大多数人想自我完善为什么却失败了？",
+   "a": "Because our schemes are too ambitious and we never have time to carry them out.",
+   "aZh": "因为我们的规划过于宏大，而根本抽不出时间去实施。",
+   "hint": "见课文：our schemes are too ambitious and we never have time to carry them out。"
+  },
+  {
+   "kind": "detail",
+   "q": "What were the writer's two modest ambitions this year?",
+   "zh": "今年作者给自己定下的两项适中的任务是什么？",
+   "a": "To do physical exercise every morning and to read more of an evening.",
+   "aZh": "每天早上锻炼身体，每天晚上多看点书。",
+   "hint": "见课文：I limited myself to two modest ambitions: to do physical exercise every morning and to read more of an evening."
+  },
+  {
+   "kind": "think",
+   "q": "What does the writer's experience suggest about making New Year resolutions?",
+   "zh": "作者的经历对我们立新年决心有什么启示？",
+   "a": "Resolutions should be kept to oneself and made modest and practical, for ambitious schemes without time and self-discipline are bound to fail.",
+   "aZh": "决心最好藏在心里、定得切合实际，因为脱离时间与自律的宏大计划注定失败。",
+   "hint": "综合全文，尤其是 announce 决心的教训、two modest ambitions 以及最终故态复萌的结局。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我们决心每天早晨起得早些，吃得少些。",
+   "a": "We resolve to get up earlier each morning and eat less.",
+   "note": "resolve to do sth 决心做某事"
+  },
+  {
+   "q": "句型转换：用 can't 改写 Certain accomplishments are beyond attainment.",
+   "a": "We can't attain certain accomplishments.",
+   "note": "beyond + 名词表示“超出”"
+  },
+  {
+   "q": "填空：I still ______ (not give) up my resolution to do more reading.（用正确时态）",
+   "a": "haven't given",
+   "note": "现在完成时 haven't given up"
+  },
+  {
+   "q": "改错：We also make the fundamental error of announce our resolutions to everybody.",
+   "a": "announce 改为 announcing",
+   "note": "介词 of 后接动名词"
+  },
+  {
+   "q": "填空：I have just bought a book ______ (entitle) How to Read a Thousand Words a Minute.",
+   "a": "entitled",
+   "note": "过去分词作后置定语"
+  },
+  {
+   "q": "汉译英：我给自己定下两项适中的任务：每天早上锻炼身体，每天晚上多看点书。",
+   "a": "I limited myself to two modest ambitions: to do physical exercise every morning and to read more of an evening.",
+   "note": "并列不定式作同位语"
+  },
+  {
+   "q": "句型转换：The daily exercises lasted only eleven minutes. But the self-discipline required was considerable.（用 Although 合并）",
+   "a": "Although the daily exercises lasted only eleven minutes, the self-discipline required was considerable.",
+   "note": "although 引导让步从句"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者认为大多数人想自我完善却失败，主要原因是什么？",
+   "options": [
+    "Their schemes are too ambitious and they never have time to carry them out.",
+    "They simply forget what they have resolved to do.",
+    "They cannot afford the time and money to improve themselves.",
+    "They are too lazy to get up early in the morning."
+   ],
+   "answer": 0,
+   "note": "见课文 schemes are too ambitious"
+  },
+  {
+   "q": "课文中的 inveterate smokers 指的是一类怎样的人？",
+   "options": [
+    "Those who smoke only on special occasions.",
+    "Those who have never tried to stop smoking.",
+    "Those who have smoked for a long time and can hardly give it up.",
+    "Those who smoke secretly in the evening."
+   ],
+   "answer": 2,
+   "note": "inveterate 积习难改的"
+  },
+  {
+   "q": "作者说把新年决心向大家宣布，会带来什么后果？",
+   "options": [
+    "Your friends will help you carry out your resolutions.",
+    "You look even more foolish when you slip back into your bad old ways.",
+    "You will feel more confident and work harder.",
+    "Your family will stop laughing at you."
+   ],
+   "answer": 1,
+   "note": "见 announcing our resolutions"
+  },
+  {
+   "q": "今年作者对自己的决心采取了什么新做法？",
+   "options": [
+    "He wrote his resolutions down and showed them to everybody.",
+    "He gave up making any resolutions at all.",
+    "He joined an all-night party to celebrate the New Year.",
+    "He kept his resolutions to himself and set only two modest ambitions."
+   ],
+   "answer": 3,
+   "note": "见 Aware of these pitfalls"
+  },
+  {
+   "q": "作者所说的自我约束（self-discipline）具体指什么？",
+   "options": [
+    "The effort of dragging himself out of bed eleven minutes earlier than usual.",
+    "The determination to eat less at breakfast every morning.",
+    "The courage to fend off the taunts of his family.",
+    "The patience to read a thousand words a minute."
+   ],
+   "answer": 0,
+   "note": "见 self-discipline required"
+  },
+  {
+   "q": "关于多读书的决心，作者最后是怎么处理的？",
+   "options": [
+    "He has completely forgotten it and never buys any books.",
+    "He gave it up after falling asleep in front of the screen.",
+    "He still hasn't given it up and has just bought a book to help him read faster.",
+    "He has already finished reading a thousand words a minute."
+   ],
+   "answer": 2,
+   "note": "见 I still haven't given up..."
+  }
+ ]
+}

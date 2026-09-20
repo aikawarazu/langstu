@@ -1,0 +1,35 @@
+{
+ "title": "The Loss of the Titanic",
+ "subtitle": "泰坦尼克号的沉没",
+ "lead": {
+  "question": "当时最大、被誉为“永不沉没”的泰坦尼克号，为何在首航就沉入海底？",
+  "warmup": "1912年4月10日，当时世界上最大的邮轮泰坦尼克号从英国南安普敦驶向纽约。她拥有十六个密封舱，被认为永远不会沉没。然而出发四天后，她在冰冷的北大西洋撞上冰山，首航即沉，一千五百人丧生。本课将带你走进这段海上悲剧，掌握描述巨轮、航行与沉没的常用词句。",
+  "goals": ["掌握描述船只与航行的核心词汇：colossal、liner、voyage、iceberg、collision、flood、abandon、plunge 等。", "理解并运用被动语态，重点是过去完成时的被动结构 had been done。", "学会用 even if 引导的虚拟条件句及 regard ... as ... 等本课重点句式。", "能复述泰坦尼克号沉没的关键过程，并说明她被看作“不会沉没”的原因。"],
+  "summary": "课文先介绍泰坦尼克号的庞大与“永不沉没”的名声：她拥有十六个密封舱，即使两个进水仍能漂浮。随后叙述灾难过程：出发第四天，了望员发现冰山，巨轮急转弯仍被擦伤，五个密封舱进水。船长惊恐地下令弃船，但因救生艇不足，一千五百人丧生。全篇大量使用被动语态与过去完成时，突出事件的客观与惨烈。",
+  "tips": "易错提醒：flood 表“进水”常说 had been flooded（被动），而 sink 是不及物动词，应说 the ship was sinking，别把两者的语态弄反。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What would have happened if only two of the sixteen water-tight compartments had been flooded?", "zh": "如果十六个密封舱中只有两个进水，会发生什么？", "a": "The Titanic would still have been able to float.", "aZh": "泰坦尼克号仍能漂浮在水面上。", "hint": "答案见课文：she had sixteen watertight compartments ... Even if two of these were flooded, she would still be able to float."},
+  {"kind": "detail", "q": "Why was the Titanic regarded as unsinkable?", "zh": "为什么泰坦尼克号被认为不会沉没？", "a": "Because she had sixteen watertight compartments, and even if two of these were flooded, she would still be able to float.", "aZh": "因为她有十六个密封舱，即使其中两个进水，仍能漂浮在水面上。", "hint": "见课文 regarded as unsinkable, for she had sixteen watertight compartments。"},
+  {"kind": "detail", "q": "What happened four days after the Titanic set out?", "zh": "泰坦尼克号出发四天后发生了什么？", "a": "While she was sailing across the icy water of the North Atlantic, a huge iceberg was suddenly spotted by a lookout. After the alarm, she turned sharply to avoid a direct collision, but only narrowly missed the immense wall of ice.", "aZh": "当她正航行在北大西洋冰冷的海面上时，了望员突然发现一座冰山。警报响过之后，她急转弯以躲避正面相撞，却只是勉强擦过那堵巨大的冰墙。", "hint": "见课文 while the Titanic was sailing ... a huge iceberg was suddenly spotted ... turned sharply to avoid a direct collision。"},
+  {"kind": "detail", "q": "What did the captain discover below, and what order did he give?", "zh": "船长在下面发现了什么，又下达了什么命令？", "a": "To his horror, he realized that the Titanic was sinking rapidly, for five of her sixteen watertight compartments had already been flooded. He then gave the order to abandon ship.", "aZh": "他惊恐地发现泰坦尼克号正在急速下沉，因为十六个密封舱中已有五个进水。随后他下达了弃船的命令。", "hint": "见课文 to his horror ... five of her sixteen watertight compartments had already been flooded ... the order to abandon ship。"},
+  {"kind": "think", "q": "The Titanic was called unsinkable, yet she went down on her first voyage with heavy loss of life. What does this irony tell us?", "zh": "泰坦尼克号被称为不会沉没，却在首航中沉没，造成大批人员死亡。这一反差说明了什么？", "a": "It shows that no ship, however colossal, is truly unsinkable. Human confidence in technology can be misplaced, and practical safety measures such as having enough lifeboats matter far more than claims of invincibility.", "aZh": "这说明再庞大的船也并非真的不会沉没。人类对技术的自信可能出错，而像配备足够救生艇这样的实际安全措施，远比“不会沉没”的宣称重要。", "hint": "结合课文 regarded as unsinkable 与 As there were not enough lifeboats ... 1,500 lives were lost。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：即使按现代标准衡量，泰坦尼克号也是一艘巨轮。", "a": "Even by modern standards, the Titanic was a colossal ship.", "note": "by 表“依照”。"},
+  {"q": "汉译英：这艘巨轮首航即沉没，伤亡惨重。", "a": "This great liner went down on her first voyage with heavy loss of life.", "note": "go down 意为下沉。"},
+  {"q": "句型转换（改为被动语态）：A lookout suddenly spotted a huge iceberg.", "a": "A huge iceberg was suddenly spotted by a lookout.", "note": "被动语态：be + 过去分词。"},
+  {"q": "填空（用过去完成时被动）：By the time the captain went below, five of her compartments ______ already ______ (flood).", "a": "had; been flooded", "note": "过去完成时被动 had been done。"},
+  {"q": "填空：The order to ______ ship was given and hundreds of people ______ into the icy water.", "a": "abandon; plunged", "note": "abandon ship 弃船；plunge 跳入。"},
+  {"q": "改错：The noise had been so faint that no one thought that the ship had damaged.", "a": "将 had damaged 改为 had been damaged", "note": "船是被损坏，需用被动。"},
+  {"q": "汉译英：巨轮急转弯，以避免正面相撞。", "a": "The great ship turned sharply to avoid a direct collision.", "note": "to avoid 表目的；collision 相撞。"}
+ ],
+ "quiz": [
+  {"q": "泰坦尼克号被认为是不会沉没的，主要原因是什么？", "options": ["She had enough lifeboats for everybody.", "She had sixteen watertight compartments.", "She was the most luxurious liner ever built.", "She carried 891 crew members."], "answer": 1, "note": "密封舱使她被视为不会沉没。"},
+  {"q": "即使按现代标准衡量，泰坦尼克号也是一艘怎样的船？", "options": ["a colossal ship", "a tiny boat", "an ordinary sailing ship", "a fishing vessel"], "answer": 0, "note": "colossal 意为巨大的。"},
+  {"q": "了望员发现冰山，警报响过后这艘巨轮做了什么？", "options": ["The captain stopped the engines.", "The lookout was punished.", "The ship turned sharply to avoid a direct collision.", "The iceberg melted away."], "answer": 2, "note": "她急转弯以躲避正面相撞。"},
+  {"q": "船长下到船舱后惊恐地发现了什么？", "options": ["The lifeboats had all been destroyed.", "Five of her sixteen watertight compartments had already been flooded.", "The captain had lost his way.", "There was no water below."], "answer": 1, "note": "十六个密封舱已有五个进水。"},
+  {"q": "为什么最终有一千五百人丧生？", "options": ["Because the water was too cold for swimming.", "Because the ship was too old to sail.", "Because there were not enough lifeboats for everybody.", "Because no alarm was given."], "answer": 2, "note": "救生艇不足以容纳所有人。"},
+  {"q": "船身撞上冰山时，人们从下方听到了什么？", "options": ["A loud explosion.", "The captain's shout.", "The lookout's warning.", "A slight trembling sound from below."], "answer": 3, "note": "a slight trembling sound from below。"}
+ ]
+}

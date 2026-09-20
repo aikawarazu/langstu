@@ -1,0 +1,164 @@
+{
+ "unitId": "u009",
+ "title": "Royal Espionage",
+ "subtitle": "王室谍报活动",
+ "lead": {
+  "question": "阿尔弗雷德大帝乔装潜入丹麦军营，究竟刺探到什么制胜的关键？",
+  "warmup": "公元九世纪，丹麦人（维京人）大举入侵英格兰。威塞克斯国王阿尔弗雷德一度退守阿塞尔纳沼泽，军队所剩无几；敌人却在切本哈姆扎营过冬，骄横松懈。陷入绝境的国王竟只身乔装，潜入敌营刺探虚实——这场以智取胜的谍报行动，正是本课的精彩之处。",
+  "goals": [
+   "掌握 espionage、spy、minstrel、monarch、Saxon 等本课核心词汇。",
+   "理解并运用过去完成时，表达'过去的过去'。",
+   "识别并使用被动语态（were collected 等结构）。",
+   "掌握定语从句关系代词 who / that 的用法，能复述阿尔弗雷德的谍报经过。"
+  ],
+  "summary": "课文讲述阿尔弗雷德大帝的传奇：他熟记吟游歌手的歌谣，乔装成歌手携竖琴混入古瑟罗姆的丹麦军营，发现敌军纪律松弛、沉溺安逸，断定其不适合持久战、军需全靠临时抢掠。于是他改用骚扰战术拖着敌人周旋，断其补给，不到一个月便迫使丹麦人投降。过去完成时与被动语态，更凸显这场谍报的非凡。",
+  "tips": "注意 the Danes（丹麦人）是复数，谓语须用 were，不可写成 was；espionage 为不可数名词，前面不加 a。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What important thing did King Alfred learn when he penetrated the Danish camp of Guthrum?",
+   "zh": "阿尔弗雷德大帝潜入古瑟罗姆的丹麦军营后，了解到什么重要情况？",
+   "a": "He learned that the Danes were no longer fit for prolonged battle, and that their commissariat had no organization but depended on irregular raids.",
+   "aZh": "他了解到丹麦人已不再适应持久作战，其军需供应毫无组织，只靠临时抢掠维持。",
+   "hint": "答案见课文 'But Alfred had deduced that the Danes were no longer fit for prolonged battle...' 一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did Alfred disguise himself to enter the Danish camp?",
+   "zh": "阿尔弗雷德如何乔装进入丹麦军营？",
+   "a": "He disguised himself as a wandering minstrel, and his harp was his passport.",
+   "aZh": "他扮成流浪的吟游歌手，以竖琴作为通行证。",
+   "hint": "见 'disguised as a minstrel' 及 'their harp was their passport'。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why were wandering minstrels welcome everywhere in those days?",
+   "zh": "当时浪迹天涯的吟游歌手为什么到处受欢迎？",
+   "a": "Because they were not fighting men, and their harp was their passport.",
+   "aZh": "因为他们不是作战人员，竖琴就是他们的通行证。",
+   "hint": "见 'They were not fighting men, and their harp was their passport.'"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Alfred notice about the Danish camp at Chippenham?",
+   "zh": "阿尔弗雷德在切本哈姆的丹麦军营里注意到了什么？",
+   "a": "He noticed that discipline was slack: the Danes had the self-confidence of conquerors and their security precautions were casual.",
+   "aZh": "他注意到丹麦军纪律松弛，他们以征服者自居，安全措施马马虎虎。",
+   "hint": "见 'He noticed at once that discipline was slack...'。"
+  },
+  {
+   "kind": "think",
+   "q": "Why could this episode be called 'a unique epic of royal espionage'?",
+   "zh": "为什么这段历史堪称'王室谍报活动中最精彩的篇章'？",
+   "a": "Because a king personally acted as a spy, and the intelligence he gathered let a tiny force defeat a far larger Danish army.",
+   "aZh": "因为一国之君亲自充当间谍，凭借搜集到的情报，以寡敌众击败了远比自己强大的丹麦军队。",
+   "hint": "结合全文主旨与末句 'royal espionage' 的评价作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：阿尔弗雷德大帝曾亲自充当间谍。",
+   "a": "Alfred the Great acted his own spy.",
+   "note": "act one's own spy 意为亲任间谍"
+  },
+  {
+   "q": "填空：While his little army gathered at Athelney, the king set out to ______ the camp of Guthrum.",
+   "a": "penetrate",
+   "note": "penetrate 潜入、渗透"
+  },
+  {
+   "q": "句型转换（改被动）：They collected women as well as food and drink.",
+   "a": "Women as well as food and drink were collected.",
+   "note": "be + 过去分词，主语为复数"
+  },
+  {
+   "q": "填空：Alfred ______ (learn) many of their ballads in his youth.",
+   "a": "had learned",
+   "note": "过去完成时表更早的动作"
+  },
+  {
+   "q": "填空：Guthrum, ______ commanded the Danish invaders, had settled at Chippenham.",
+   "a": "who",
+   "note": "非限制性定语从句用 who"
+  },
+  {
+   "q": "改错：Alfred had deduced that the Danes was no longer fit for prolonged battle.",
+   "a": "was → were",
+   "note": "the Danes 为复数"
+  },
+  {
+   "q": "汉译英：这一幕历史堪称王室谍报活动中的精彩篇章。",
+   "a": "The episode could reasonably serve as a unique epic of royal espionage.",
+   "note": "serve as 充当；espionage 谍报"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "本课标题'王室谍报活动'对应的英文是？",
+   "options": [
+    "Royal Espionage",
+    "Royal Minstrel",
+    "Royal Conquest",
+    "Royal Palace"
+   ],
+   "answer": 0,
+   "note": "espionage 谍报活动"
+  },
+  {
+   "q": "'Alfred the Great acted his own spy' 一句的意思是？",
+   "options": [
+    "He hired spies to work for him.",
+    "He himself served as a spy.",
+    "He was captured by a spy.",
+    "He wrote a book about spies."
+   ],
+   "answer": 1,
+   "note": "act one's own spy 亲自充当间谍"
+  },
+  {
+   "q": "下列哪一句使用的是被动语态？",
+   "options": [
+    "They collected women as well as food.",
+    "Alfred did not risk open battle.",
+    "Women as well as food were collected.",
+    "Hunger assailed the Danish army."
+   ],
+   "answer": 2,
+   "note": "be + 过去分词构成被动"
+  },
+  {
+   "q": "下列哪一句使用了过去完成时？",
+   "options": [
+    "Alfred stayed in the camp a week.",
+    "His patrols halted the raiding parties.",
+    "He was constantly on the move.",
+    "Alfred had deduced that the Danes were unfit."
+   ],
+   "answer": 3,
+   "note": "had + 过去分词表更早动作"
+  },
+  {
+   "q": "'prolonged battle' 的意思是？",
+   "options": [
+    "A battle lasting a long time.",
+    "A short, sudden skirmish.",
+    "A battle fought at night.",
+    "A peaceful agreement."
+   ],
+   "answer": 0,
+   "note": "prolonged 持久的、延长的"
+  },
+  {
+   "q": "面对丹麦人的进攻，阿尔弗雷德采取的战术是？",
+   "options": [
+    "He met the Danes in open battle.",
+    "He harried the enemy and avoided open battle.",
+    "He paid the Danes to withdraw.",
+    "He gave up and fled to Athelney."
+   ],
+   "answer": 1,
+   "note": "harry 骚扰、袭击"
+  }
+ ]
+}

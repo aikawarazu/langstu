@@ -1,0 +1,40 @@
+{
+ "title": "Jumbo Versus the Police",
+ "subtitle": "小象对警察",
+ "lead": {
+  "question": "马戏团老板骑小象上街送礼，为何十五名警察要合力把江伯推离主街？",
+  "warmup": "圣诞节街头本该欢乐：马戏团老板吉米·盖茨扮成圣诞老人，带礼物去看望儿童医院的孩子。可他把“仪仗队”和小象江伯一起带上城市主街，麻烦随之而来——庞然大物堵住交通，警察只好出面。故事既有温情也有英式幽默：警察费了很大劲，最后笑着说“这次饶了它”。",
+  "goals": [
+   "掌握 versus、circus、present、accompany、approach、weigh、fortunate 等词的词义与搭配",
+   "辨析 should / ought to / have to / must 的语气强弱，会用 should（ought to）have done 表“本该做而没做”",
+   "理解 hold up、set off、dress up as、agree to do、let off、have a difficult time 在语境中的含义",
+   "能用 must 对现在或过去作肯定推测，并能复述课文、转述警察的幽默评语"
+  ],
+  "summary": "马戏团老板吉米扮成圣诞老人，由六位姑娘的“仪仗队”陪同，骑小象江伯沿主街去儿童医院送礼。警察说他本该走小路，因为江伯堵住交通；吉米同意马上走，江伯却不肯动，十五名警察费力才把它推离主街。警察吃了苦头却觉得有趣：江伯重达数吨，幸好不必抬它；又因它“记录良好”，这次饶了它。",
+  "tips": "should / ought to have done 只谈过去“本该做却没做”，别与 must have done（对过去的肯定推测）混用。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did the police have to push Jumbo off the main street?", "zh": "为什么警察不得不把江伯推离主要街道？", "a": "Because Jumbo was holding up the traffic: though Jimmy agreed to go at once, Jumbo refused to move, so fifteen policemen had to push very hard to get him off the main street.", "aZh": "因为江伯阻碍了交通：虽然吉米同意马上走，江伯却拒绝移动，十五名警察只好用很大力气把它推离主街。", "hint": "见第 4—6 句。"},
+  {"kind": "detail", "q": "How was Jimmy dressed when he set off, and who went with him?", "zh": "吉米出发时是怎样装扮的？谁陪同他？", "a": "He was dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, riding a baby elephant called Jumbo.", "aZh": "他打扮成圣诞老人，由六位漂亮姑娘组成的“仪仗队”陪同，骑着一头名叫江伯的小象。", "hint": "见第 2 句。"},
+  {"kind": "detail", "q": "What did the policeman say Jimmy ought to have done, and why?", "zh": "警察说吉米本该怎么做？为什么？", "a": "He told Jimmy he ought to have gone along a side street, as Jumbo was holding up the traffic.", "aZh": "警察告诉吉米，他本该沿着一条小路走，因为江伯阻碍了交通。", "hint": "见第 4 句。"},
+  {"kind": "detail", "q": "Why did the police let Jumbo off instead of arresting him?", "zh": "警察为什么没有逮捕江伯，而是放过了它？", "a": "Because Jumbo had a good record — and the police were most amused — so they let him off this time.", "aZh": "因为江伯一贯表现良好（警察也觉得很有趣），所以这次他们饶了它。", "hint": "见末两句。"},
+  {"kind": "think", "q": "Why does the writer say 'He should have known that the police would never allow this sort of thing'?", "zh": "作者为何说“他本该知道警察绝不会允许这类事情”？", "a": "Riding an elephant down the main street was obviously going to block the traffic, so 'should have known' shows that Jimmy's plan was bound to go wrong. It creates irony and prepares the reader for the comic encounter with the police.", "aZh": "骑小象穿主街必然堵路，作者用 should have known 点出吉米的计划注定出岔，为后文警察出场的喜剧场面铺垫。", "hint": "结合第 3 句与全文幽默基调。"}
+ ],
+ "exercises": [
+  {"q": "词汇填空（circus / present）：The ______ owner, Jimmy Gates, decided to take some ______ to a children's hospital.", "a": "circus; presents", "note": "some 后接可数名词复数。"},
+  {"q": "用 versus 翻译课文标题“江伯对警察”，并写出它的常见缩写。", "a": "Jumbo versus the police（缩写为 vs.）", "note": "versus 表竞赛中的“对”。"},
+  {"q": "汉译英（dress up as / accompany）：他打扮成圣诞老人，由六位漂亮姑娘组成的“仪仗队”陪同，骑着一头名叫江伯的小象出发了。", "a": "Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, he set off riding a baby elephant called Jumbo.", "note": "过去分词短语作状语。"},
+  {"q": "改写句子，表示“他本该知道却不知道”：He didn't know that the police would never allow this sort of thing.", "a": "He should have known that the police would never allow this sort of thing.", "note": "should have done。"},
+  {"q": "课文填空（approach / ought / hold up）：A policeman ______ Jimmy and told him he ______ to have gone along a side street as Jumbo was ______ up the traffic.", "a": "approached; ought; holding", "note": "hold up 表阻碍。"},
+  {"q": "汉译英（agree to do / have a difficult time）：虽然吉米同意马上就走，警察还是费了很大劲才把江伯推离主街。", "a": "Though Jimmy agreed to go at once, the police had a difficult time getting him off the main street.", "note": "have a difficult time doing。"},
+  {"q": "用 must 对过去作推测改写：I'm sure Jumbo weighed a few tons.", "a": "Jumbo must have weighed a few tons, so it was fortunate that we didn't have to carry him.", "note": "must have done。"}
+ ],
+ "quiz": [
+  {"q": "警察认为吉米本该怎么做？", "options": ["He ought to have gone along a side street.", "He must have gone along the main street.", "He should go to the police station at once.", "He had better ride a horse next time."], "answer": 0, "note": "ought to have done。"},
+  {"q": "课文中 Jumbo was holding up the traffic，hold up 的意思是？", "options": ["To delay or block something", "To direct something", "To watch something carefully", "To clear something away"], "answer": 0, "note": "hold up 有阻碍之义。"},
+  {"q": "警察最后为什么放过了江伯？", "options": ["Because he has a good record.", "Because he ran away very quickly.", "Because he was as light as a child.", "Because Jimmy paid a heavy fine."], "answer": 0, "note": "let sb. off 饶过。"},
+  {"q": "哪一句正确表达了“他本该知道（却不知道）”？", "options": ["He should have known that the police would never allow this sort of thing.", "He should know that the police will never allow this sort of thing.", "He must know that the police would never allow this sort of thing.", "He had to know that the police never allowed this sort of thing."], "answer": 0, "note": "should have done 针对过去。"},
+  {"q": "课文里表示“陪伴、陪同”的是哪个词？", "options": ["accompany", "approach", "arrest", "amuse"], "answer": 0, "note": "be accompanied by…"},
+  {"q": "“Jumbo must weigh a few tons” 中 must weigh 最接近哪种含义？", "options": ["It is certain that Jumbo weighs", "Jumbo has to weigh", "Jumbo is able to weigh", "Jumbo wants to weigh"], "answer": 0, "note": "must + 动词原形表对现在的肯定推测。"}
+ ]
+}

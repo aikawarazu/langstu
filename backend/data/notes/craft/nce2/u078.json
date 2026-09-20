@@ -1,0 +1,164 @@
+{
+ "unitId": "u078",
+ "title": "The last one?",
+ "subtitle": "最后一枝吗？",
+ "lead": {
+  "question": "读完戒烟文章后，作者宣称那是最后一枝烟，他究竟戒了多久？",
+  "warmup": "作者读完一篇题为《吸烟与健康》的文章，反而点上烟安抚紧张的神经，还自信地说这是“最后一枝”。他真的整整一周没抽烟，可脾气暴躁、食欲大增，妻子跟着吃尽苦头；朋友不断递烟，他只能靠糖果解馋。第七天的聚会上人人吞云吐雾，老友布赖恩一劝，他便内疚地接过一枝，七天努力就此作废。",
+  "goals": [
+   "复述作者从“最后一枝烟”到七天后再度破戒的幽默戒烟全过程",
+   "掌握 smoke、nerve、concentration、symptom、temper、appetite、urge、satisfaction、delighted 等核心词",
+   "熟练运用 keep on doing、make no effort to do、more than one can bear、point out、after all",
+   "理解 it takes ... to do 与 it 作先行主语，以及 a 与 one 的区别"
+  ],
+  "summary": "本课以幽默笔调记录一次失败的戒烟：作者读完戒烟文章反而点烟镇定神经，发誓这是最后一枝，撑过七天却脾气暴躁、食欲大增，妻子吃尽苦头，最终在聚会上被老友一劝而破戒。语言重点：entitled 作后置定语；with + 抽象名词；keep on doing；it takes ... to do。",
+  "tips": "one 表数量、a 表类别：I took one = one cigarette，此处不可换成 a；entitled 是过去分词作后置定语。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "For how long did the writer give up smoking?",
+   "zh": "作者戒烟戒了多久？",
+   "a": "For a whole week (seven days).",
+   "aZh": "整整一个星期（七天）。",
+   "hint": "见 For a whole week I did not smoke at all 与 After seven days of this I went to a party。"
+  },
+  {
+   "kind": "detail",
+   "q": "What symptoms did the writer have while giving up smoking?",
+   "zh": "戒烟期间，作者出现了哪些症状？",
+   "a": "He had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite.",
+   "aZh": "他具备了戒烟者通常表现出来的全部症状：脾气暴躁和食欲旺盛。",
+   "hint": "见 a bad temper and an enormous appetite。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did his friends react when he produced a packet of sweets from his pocket?",
+   "zh": "当他从口袋里掏出一包糖果时，朋友们是什么反应？",
+   "a": "They made no effort to hide their amusement. Besides, they kept on offering him cigarettes and cigars.",
+   "aZh": "他们毫不掩饰自己觉得好笑；此外还不断地向他递香烟和雪茄。",
+   "hint": "见 made no effort to hide their amusement 与 kept on offering。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the writer finally take a cigarette at the party?",
+   "zh": "聚会上，作者为什么最终还是接过了烟？",
+   "a": "Because everybody around him was smoking and he felt extremely uncomfortable; when his old friend Brian urged him to accept a cigarette, it was more than he could bear.",
+   "aZh": "因为周围每个人都在吸烟，他感到极不自在；当老友布赖恩极力劝他接一枝烟时，他再也忍不住了。",
+   "hint": "见 felt extremely uncomfortable 与 more than I could bear。"
+  },
+  {
+   "kind": "think",
+   "q": "Why was his wife delighted that things had returned to normal once more, and what is the joke behind the title?",
+   "zh": "一切“恢复正常”，妻子为什么反而高兴？标题的笑点在哪儿？",
+   "a": "Because during his week without smoking she had suffered terribly from his bad temper and enormous appetite. The joke is that his 'last one' was never really the last, so the question mark in the title mocks his self-deception.",
+   "aZh": "因为他戒烟那一周，妻子被他的坏脾气和大胃口折磨得吃尽苦头。笑点在于“最后一枝”从来不是真的最后一枝，标题的问号正是对他的嘲弄。",
+   "hint": "综合 my wife suffered terribly 与标题的问号。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "选词填空（calm / nerves / concentration / pleasure / satisfaction）：I lit a cigarette to ___① my ___②. I smoked with ___③ and ___④. At the party I took one guiltily and smoked with ___⑤.",
+   "a": "calm; nerves; concentration; pleasure; satisfaction",
+   "note": "with + 抽象名词作状语。"
+  },
+  {
+   "q": "汉译英（用 entitled、be sure of oneself）：读完一篇题为《吸烟与健康》的文章后，我点上一枝烟来镇定神经；当时我很自信，确信这将是我最后一枝烟。",
+   "a": "After reading an article entitled 'Cigarette Smoking and Your Health', I lit a cigarette to calm my nerves; I was sure of myself at the time and believed that this would be my last cigarette.",
+   "note": "entitled 过去分词作定语。"
+  },
+  {
+   "q": "填空（suffer / symptom / temper / appetite / keep one's temper）：my wife ___① terribly. I had all the usual ___② of someone giving up smoking: a bad ___③ and an enormous ___④. With such a bad temper, it was hard for him to ___⑤.",
+   "a": "suffered; symptoms; temper; appetite; keep his temper",
+   "note": "symptom 常用复数形式。"
+  },
+  {
+   "q": "汉译英（用 keep on doing 与 make no effort to do）：我的朋友们不断地向我递香烟和雪茄；每当我从口袋里掏出一包糖果时，他们都毫不掩饰地表现出好笑。",
+   "a": "My friends kept on offering me cigarettes and cigars. They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.",
+   "note": "produce 此处意为掏出。"
+  },
+  {
+   "q": "汉译英（用 more than one can bear、urge）：当我的老朋友布赖恩极力劝我接一枝烟时，我再也忍不住了，内疚地低声答应了。",
+   "a": "When my old friend Brian urged me to accept a cigarette, it was more than I could bear; I agreed in a low, guilty voice.",
+   "note": "bear 勿误写成 bare。"
+  },
+  {
+   "q": "用 a 或 one 填空：① I lit ___ cigarette to calm my nerves. ② I took ___ guiltily, lit it and smoked with satisfaction. ③ He has given up smoking ___ hundred times.",
+   "a": "a; one; one",
+   "note": "a 表类别，one 表数量。"
+  },
+  {
+   "q": "汉译英（用 after all、it takes ... to do、point out、delighted）：毕竟，戒烟需要极大的毅力；可正如布赖恩指出的那样，戒烟又是世界上最容易的事情。一切恢复正常，我妻子似乎十分高兴。",
+   "a": "After all, it takes great determination to give up smoking; but, as Brian pointed out, it is the easiest thing in the world to give up smoking. My wife seemed delighted that things had returned to normal once more.",
+   "note": "it takes...to do；it 先行主语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“读完一篇题为《吸烟与健康》的文章”的正确英文是：",
+   "options": [
+    "After reading an article entitled 'Cigarette Smoking and Your Health'",
+    "After reading an article entitling 'Cigarette Smoking and Your Health'",
+    "After reading an article which entitling 'Cigarette Smoking and Your Health'",
+    "After reading an article was entitled 'Cigarette Smoking and Your Health'"
+   ],
+   "answer": 0,
+   "note": "entitled 过去分词作定语。"
+  },
+  {
+   "q": "“我点上一枝香烟来镇定紧张的神经”应译为：",
+   "options": [
+    "I lit a cigarette to calm my nerves.",
+    "I lit a cigarette to calm my nerve.",
+    "I lit a cigarette to quiet my nerve.",
+    "I lit a cigarette for calm my nerves."
+   ],
+   "answer": 0,
+   "note": "calm one's nerves，nerves 用复数。"
+  },
+  {
+   "q": "“他们毫不掩饰他们的好笑”的正确表达是：",
+   "options": [
+    "They made no effort to hide their amusement.",
+    "They made no efforts hiding their amusement.",
+    "They made not effort to hide their amusement.",
+    "They made no effort hiding their amusement."
+   ],
+   "answer": 0,
+   "note": "make no effort to do。"
+  },
+  {
+   "q": "“我再也忍不住了”应译为：",
+   "options": [
+    "It was more than I could bear.",
+    "It was more than I could bare.",
+    "It was much more than I can bear.",
+    "It was more than I could bearing."
+   ],
+   "answer": 0,
+   "note": "bear 忍受，勿写成 bare。"
+  },
+  {
+   "q": "“我内疚地接过一枝（烟）”应选：",
+   "options": [
+    "I took one guiltily.",
+    "I took a guiltily.",
+    "I took one of guiltily.",
+    "I took it guiltily."
+   ],
+   "answer": 0,
+   "note": "one 替代上文 cigarette。"
+  },
+  {
+   "q": "“正如布赖恩指出的那样，戒烟是世界上最容易的事情”应译为：",
+   "options": [
+    "As Brian pointed out, it is the easiest thing in the world to give up smoking.",
+    "As Brian pointed out, that is the easiest thing in the world to give up smoking.",
+    "As Brian pointed, it is the easiest thing in the world to give up smoking.",
+    "As Brian pointed out, it is the easiest thing in the world giving up smoking."
+   ],
+   "answer": 0,
+   "note": "point out；it 作先行主语。"
+  }
+ ]
+}

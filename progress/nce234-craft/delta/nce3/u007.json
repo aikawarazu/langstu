@@ -1,0 +1,35 @@
+{
+ "title": "Mutilated Ladies",
+ "subtitle": "残钞鉴别组",
+ "lead": {
+  "question": "简为什么会把约翰的钱包煮了？残钞鉴别组又是怎样帮他拿回钱的？",
+  "warmup": "你有没有把裤子塞进洗衣机，事后才想起后兜里还放着一张面值很大的纸币？结果那张钞票被洗得比白纸还白。在英国，遇到这种糟心事的储户大可不必绝望——英格兰银行有一支专门处理残损钞票的团队。本课就讲述约翰把装满钱的钱包放进微波炉，却被他未婚妻当作晚饭一起“煮”了的趣事。",
+  "goals": ["掌握本课核心词汇：mutilate, bank note, identify, chew, feed, microwave, safekeeping 等。", "学会用被动语态描述钞票被毁、残留物被鉴定的过程。", "理解现在完成时（Have you ever...?）与条件从句 so long as 的用法。", "能按顺序复述约翰钱包被“煮”以及残钞鉴别组赔付的经过。"],
+  "summary": "课文先以提问引起读者兴趣：把钞票忘在裤兜里洗得比白纸还白，是许多人经历过的烦心事。所幸英格兰银行设有“残钞鉴别组”，专门受理人们把钱塞进机器或喂给狗而提出的索赔。接着讲一个典型案例：约翰把装有3000英镑的钱包放进微波炉保管，未婚妻简做饭时无意中把它一起“煮”了。残留物经鉴定后，约翰拿回了全部的钱。",
+  "tips": "注意 so long as（只要）引导条件状语从句，相当于 provided (that)；mutilate 是及物动词，描述钞票被毁时多用被动语态 be mutilated。另外 put 的过去式和过去分词都是 put，切勿写成 putted。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did Jane cook John's wallet?", "zh": "简为什么把约翰的钱包也煮了？", "a": "Because she put it in the microwave oven without realizing it. She was cooking their dinner in the microwave oven and cooked her fiancé's wallet as well.", "aZh": "因为她没有意识到——她用微波炉煮晚饭时，无意中把未婚夫放在里面的钱包也一起煮了。", "hint": "出处：When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiancé's wallet as well."},
+  {"kind": "detail", "q": "Where did John put his wallet containing £3,000, and why?", "zh": "约翰把装有3000英镑的钱包放在了哪里？为什么？", "a": "He put it into the microwave oven for safekeeping.", "aZh": "他把钱包放进微波炉里妥善保管。", "hint": "出处：John ... put his wallet containing $3,000 into the microwave oven for safekeeping."},
+  {"kind": "detail", "q": "What are the 'Mutilated Ladies' at the Bank of England responsible for?", "zh": "“残钞鉴别组”负责受理哪些人的索赔？", "a": "They deal with claims from people who fed their money to a machine or to their dog.", "aZh": "他们负责受理那些把钱塞进机器或塞给狗的人提出的索赔。", "hint": "出处：a team called Mutilated Ladies which deals with claims from people who fed their money to a machine or to their dog."},
+  {"kind": "detail", "q": "What was the result of John's case?", "zh": "约翰这个案例最后的结果如何？", "a": "The remains were examined and John got all his money back.", "aZh": "残留物经过鉴定后，约翰拿回了他损失的全部钱款。", "hint": "出处：They examined the remain and John got all his money back."},
+  {"kind": "think", "q": "Why is the team called 'Mutilated Ladies'? What does 'lady' refer to?", "zh": "这个小组为什么叫“残钞鉴别组”？其中的“lady”指什么？", "a": "Because the notes they deal with are mutilated (damaged), and 'lady' refers to the Queen's head printed on English bank notes.", "aZh": "因为他们处理的都是残缺、被毁的纸币，而“lady”指的是英国纸币上印的女王头像。", "hint": "出处：课文末句 The Queen's head appears on English bank notes, and 'lady' refers to this."}
+ ],
+ "exercises": [
+  {"q": "填空（被动语态）：The note ______ (wash) whiter than white.", "a": "was washed", "note": "被动语态 was washed，钞票被洗。"},
+  {"q": "填空：The bank notes were badly ______ (mutilate) in the wash.", "a": "mutilated", "note": "mutilate 常用被动语态。"},
+  {"q": "填空（现在完成时）：Have you ever ______ (feed) your money to a machine or to your dog?", "a": "fed", "note": "现在完成时用过去分词 fed。"},
+  {"q": "汉译英：他把一张大面值的纸币放进微波炉妥善保管。", "a": "He put a large bank note into the microwave oven for safekeeping.", "note": "bank note 纸币；safekeeping 保管。"},
+  {"q": "汉译英：看起来狗很喜欢把钱币嚼碎。", "a": "Dogs, it seems, love to chew up money.", "note": "chew up 嚼碎、咬碎。"},
+  {"q": "句型转换（改为被动语态）：They identified the remains.", "a": "The remains were identified.", "note": "identify 被动；remains 用复数。"},
+  {"q": "改错：He has putted his wallet in the microwave oven.", "a": "He has put his wallet in the microwave oven.", "note": "put 的过去分词仍为 put。"}
+ ],
+ "quiz": [
+  {"q": "这个小组为什么叫“Mutilated Ladies”？", "options": ["Their job is to identify the Queen's head on damaged bank notes.", "They mutilate bank notes on purpose.", "Only ladies can do this difficult job.", "They wash large bank notes by accident."], "answer": 0, "note": "lady 指纸币上的女王头像。"},
+  {"q": "英格兰银行向哪类人提供特殊服务？", "options": ["People whose bank notes are damaged but identifiable.", "People who mutilate bank notes on purpose.", "People who try to wash large bank notes.", "People who have no bank manager."], "answer": 0, "note": "破损但可供识别的钞票。"},
+  {"q": "要拿回钱，必须具备什么条件？", "options": ["So long as there is something to identify.", "Only if you go to Newcastle in person.", "Only if your bank manager pays for it.", "Only if the dog is caught in the end."], "answer": 0, "note": "something to identify 可识别。"},
+  {"q": "约翰为什么把钱包放进微波炉？", "options": ["To keep it safe.", "To cook it for dinner.", "To dry it after the rain.", "To hide it from his fiancée."], "answer": 0, "note": "for safekeeping 妥善保管。"},
+  {"q": "简为什么会“煮”了约翰的钱包？", "options": ["She cooked it without realizing it.", "She wanted to punish John.", "She thought the wallet was food.", "She was angry with his fiancée."], "answer": 0, "note": "without realizing it 无意之中。"},
+  {"q": "John runs a furniture business. 意思是约翰 ______。", "options": ["is in charge of the business", "is in the charge of the business", "charges the business", "bears the charges of the business"], "answer": 0, "note": "run 意为“经营、负责”。"}
+ ]
+}

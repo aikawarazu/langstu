@@ -1,0 +1,86 @@
+{
+ "book": "nce2",
+ "unitId": "u029",
+ "lesson": 29,
+ "sourceFile": "284.txt",
+ "titleEn": "Taxi!",
+ "titleZh": "出租汽车",
+ "listenQuestion": "Does Captain Fawcett think any trip is too dangerous?",
+ "lines": [
+  {
+   "en": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
+   "zh": "本。弗西特机长买了一辆不同寻常的出租汽车，并开始了一项新的业务。"
+  },
+  {
+   "en": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter '.",
+   "zh": "这辆“出租汽车”是一架小型瑞士飞机，叫“皮勒特斯。"
+  },
+  {
+   "en": "This wonderful plane can carry seven passengers.",
+   "zh": "波特“号。"
+  },
+  {
+   "en": "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.",
+   "zh": "这架奇妙的飞机可以载7名乘客。然而，最令人惊奇的是它能够在任何地方降落：雪地上，水面上，甚至刚耕过的田里。"
+  },
+  {
+   "en": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
+   "zh": "弗西特机长的第一名乘客是位医生，他从伯明翰飞往威尔士山区一个偏僻的村庄。"
+  },
+  {
+   "en": "Since then, Captain Fawcett has flown passengers to many unusual places.",
+   "zh": "从那时开始，弗西特机长已经载送乘客到过许多不寻常的地方。"
+  },
+  {
+   "en": "Once he landed on the roof of a block of flats and on another occasion , he landed in a deserted car park.",
+   "zh": "一次，他把飞机降落在了一栋公寓楼的屋顶上；还有一次，降落在了一个废弃的停车场上。"
+  },
+  {
+   "en": "Captain Fawcett has just refused a strange request from a businessman.",
+   "zh": "弗西特机长刚刚拒绝了一位商人的奇怪要求。"
+  },
+  {
+   "en": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+   "zh": "这个人想要飞往大西洋上的一个孤岛--罗卡尔岛，弗西特机长之所以不送他去，是因为那段飞行太危险了。"
+  }
+ ],
+ "translationJoined": "本。弗西特机长买了一辆不同寻常的出租汽车，并开始了一项新的业务。这辆“出租汽车”是一架小型瑞士飞机，叫“皮勒特斯。波特“号。这架奇妙的飞机可以载7名乘客。然而，最令人惊奇的是它能够在任何地方降落：雪地上，水面上，甚至刚耕过的田里。弗西特机长的第一名乘客是位医生，他从伯明翰飞往威尔士山区一个偏僻的村庄。从那时开始，弗西特机长已经载送乘客到过许多不寻常的地方。一次，他把飞机降落在了一栋公寓楼的屋顶上；还有一次，降落在了一个废弃的停车场上。弗西特机长刚刚拒绝了一位商人的奇怪要求。这个人想要飞往大西洋上的一个孤岛--罗卡尔岛，弗西特机长之所以不送他去，是因为那段飞行太危险了。",
+ "words": [
+  {
+   "word": "taxi",
+   "pos": "n",
+   "zh": "taxi driver 出租车司机"
+  },
+  {
+   "word": "land",
+   "pos": "v",
+   "zh": "★plough　v. 耕地"
+  },
+  {
+   "word": "lonely",
+   "pos": "adj",
+   "zh": "lonely 　孤独的/cold fish"
+  },
+  {
+   "word": "Welsh",
+   "pos": "adj",
+   "zh": "★roof　n. 楼顶"
+  },
+  {
+   "word": "block",
+   "pos": "n",
+   "zh": "a block of flats　公寓楼"
+  },
+  {
+   "word": "flat",
+   "pos": "n",
+   "zh": "apartment 公寓"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．The‘taxi’is a small Swiss aeroplane called a‘Pilatus Porter’.\n这辆“出租汽车”是一架小型瑞士飞机，叫“皮勒特斯·波特”号。\n（1）taxi加引号是因为它不是一辆真正的出租汽车而是飞机。\n（2）Swiss aeroplane是指瑞士生产的飞机。\n（3） called a‘Pilatus Porter’是个过去分词短语，作aeroplane的定语，在意思上和一个定语从句差不多，即which is called a‘Pilatus Porter’。一般说来，过去分词短语作定语时要放在所修饰的名词／代词之后，而一个单独的分词作定语时则往往放在所修饰的名词／代词前面：\nIt can land on a ploughed field.\n它可以在耕过的田里降落。\nHe landed in a deserted car park.\n他降落在了一个废弃的停车场上。\n过去分词ploughed和deserted都位于它们所修饰的名词之前。\n2．The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field. 然而，最令人惊奇的是它能够在任何地方降落：雪地上，水面上，甚至刚耕过的田里。\n（1）表示转折的连词however可以位于句首、句末或句中，其意义不变。大多数情况下它位于句中，前后用逗号隔开。\n（2）从句 that it can land anywhere在句子中起表语作用，是表语从句，that为引导词，it代指this wonderful plane。\n（3） on snow, water, or even on a ploughed field是 anywhere的同位语，举例说明这架飞机可以在哪些地方降落。\n3．…Captain Fawcett has flown passengers to many unusual places.……弗西特机长已经载送乘客到过许多不寻常的地方。\n我们已经学过fly作为不及物动词的用法，其意义为“飞”、“飞行”：\nThe aeroplane is flying over the river.\n飞机正从河上飞过。\n在本课中，fly为及物动词，意思为“空运（乘客）”：\nHe has flown his car to France.\n他已将他的汽车空运到法国。",
+  "grammar": "一般过去时与现在完成时\n在第5课的语法中我们已学过与一般过去时和现在完成时连用的一些时间状语，在第28课的语法中又复习了与现在完成时连用的时间状语。对比这两种时态时，我们一方面要注意它们的时间状语的区别，另一方面要注意一般过去时往往强调动作本身，而现在完成时则表示始于过去并持续到现在的动作或表示过去不确定的时间发生过的并与现在有某种联系的动作。\n但介词for和since引导的时间状语通常与现在完成时连用，虽然for有时可以与一般过去时连用。\nI painted the picture last month/five days ago.\n我上个月／5天前画的这幅画。（一般过去时与具体时间连用）\n1．refuse与\ndeny\n当refuse作为及物／不及物动词表示“拒绝接受”时，不可与deny混用：\nI offered to pay him for his help but he refused（payment）.\n他帮助了我，为此我提出要酬谢他，但是他拒绝接受（酬谢）。\n但是，当refuse作为及物动词表示“拒绝给予”、“拒绝要求”时，它与deny可以互相替换：\nCaptain Fawcett has just refused/denied a strange request from a businessman.\n弗西特机长刚刚拒绝了一位商人的奇怪要求。\nAll those not holding tickets will be refused/denied entry.\n无票者不得入内。\ndeny最常用的含义是“否认（指控、做过某事等）”，refuse则没有这个意义：\nThe secretary\ndenies\nthat she has stolen the letter.\n那秘书不承认她偷了那封信。\n2．bring，take与fetch\nbring表示从某处将某物“带来”； take表示“拿走”；fetch则表示去某地将某物“取来”，是个双程的动作，（bring与take则表示单程的）：\nIf you're going to the kitchen, would you mind bringing me a glass of water please?\n如果你去厨房的话，请给我带杯水来好吗？\nDid he bring you a gift last Sunday?\n上星期天他给你带礼物了吗？\nPlease fetch me a glass of water.\n请帮我取一杯水来。\nTake this glass of water to your father.\n把这杯水拿给你父亲。\n3．too与very\nvery与too都表示程度，very的意思是“非常”、“很”，too表示“太”、“过于”：\nThis bus is going very slowly.\n这辆公共汽车走得非常慢。（very只描述状况，不涉及后果）\nThis bus is going too slowly. I'll miss the train.\n这辆公共汽车走得太慢了。我会赶不上火车的。（too表示“太……”以至于引起某种后果）\nTom's very clever.\n汤姆很聪明。\nTom's too clever. He won't believe such a thing.\n汤姆太聪明了，他不会相信这种事的。",
+  "wordStudy": "",
+  "keyAnswers": "1．关键句型练习答案\nA What happened：flew(1.6)；landed(1.8)；landed(1.9)；wanted(1.10)；did not take(1.11)\nWhat has happened：has bought(1.1)； has begun(1.1)；has flown(11.7-8)；has just refused(11.9-10)\n2．难点练习答案\n1 bring  2 fetch  3 refused  4 deny  5 Very\n3．多项选择题答案\n1b  2c  3c  4b  5d  6b\n7a  8b  9b  10b  11c  12b"
+ }
+}

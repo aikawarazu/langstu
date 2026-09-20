@@ -1,0 +1,164 @@
+{
+ "unitId": "u016",
+ "title": "The Modern City",
+ "subtitle": "现代城市",
+ "lead": {
+  "question": "现代城市究竟为谁而建，作者为何说它忽视了人的真正需求？",
+  "warmup": "在走进课文之前，请想一想你每天生活的城市：高耸的摩天大楼、拥挤的街道、川流不息的车辆、刺鼻的尾气……我们享受着便利与舒适，却很少追问这一切究竟是为谁而建。本篇选自法国医生、生理学家卡雷尔的《人，未知》，作者以冷静而尖锐的笔调，从现代工业的逐利本质出发，审视大城市如何忽视人的身心需求，把'现代城市'写成一篇发人深省的批判性议论文。",
+  "goals": [
+   "读懂作者对现代城市的核心批判：城市为盈利而建，而非为人的福祉。",
+   "掌握 be based on、with no regard for、deprive sb of sth、consist of 等重点短语。",
+   "辨析并运用现在完成时的被动语态（has been neglected / has not been planned）。",
+   "识别定语从句（who / that / where）在长句中的修饰作用，并理解 as ... as possible 的比较用法。"
+  ],
+  "summary": "课文是一篇批判性议论文，论点鲜明：现代工业以最低成本追求最大产量，只顾牟利，完全忽视了工厂对工人身心的影响。大城市毫不顾及居民而建，摩天大楼只求每平方英尺的最大收益并取悦租户，把大量人群挤在一起。文明人沉醉于住宅的舒适与庸俗豪华，却未察觉自己已被剥夺了生活必需品。作者最终断言，现代城市由可怕的高楼和阴暗嘈杂的街道构成，绝非为居民的利益而规划。",
+  "tips": "易错提醒：表达'被剥夺了某物'要用 deprive sb of sth，其被动形式为 be deprived of sth，介词只能用 of，切不可换成 from。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What is the author's main argument about the modern city?",
+   "zh": "作者关于现代城市的主要论点是什么？",
+   "a": "The modern city was built for profit rather than for people: modern industry and the growth of great cities have ignored the true nature and needs of human beings, so the city deprives its inhabitants of the necessities of life.",
+   "aZh": "现代城市是为盈利而非为人而建：现代工业和大城市的发展忽视了人的本质与真正需求，城市因此剥夺了居民生活所必需的东西。",
+   "hint": "答案出自课文首句与末句：'the influence of the factory ... has been completely neglected' 与 'it has not been planned for the good of its inhabitants'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the modern city consist of according to the author?",
+   "zh": "根据作者，现代城市由什么组成？",
+   "a": "It consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases, torn by the noise of taxicabs, lorries and buses, and thronged ceaselessly by great crowds.",
+   "aZh": "它由大得吓人的高楼和阴暗狭窄的街道组成，街道上充满汽油味和有毒气体，被出租汽车、卡车和公共汽车的噪音撕裂，人们络绎不绝地挤来挤去。",
+   "hint": "见课文 'The modern city consists of monstrous edifices and of dark, narrow streets ...'。"
+  },
+  {
+   "kind": "detail",
+   "q": "On what does the shape and dimensions of the skyscrapers depend?",
+   "zh": "摩天大楼的形状和尺寸取决于什么？",
+   "a": "They depend entirely on the necessity of obtaining the maximum income per square foot of ground and of offering to the tenants offices and apartments that please them.",
+   "aZh": "它们完全取决于每平方英尺地皮取得最大收入，以及向租房人提供令他满意的办公室和住房。",
+   "hint": "见课文 'The shape and dimensions of the skyscrapers depend entirely on ...'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the author say civilized men fail to realize while enjoying their dwellings?",
+   "zh": "作者说文明人在享受住宅时没有意识到什么？",
+   "a": "While they enjoy the comfort and banal luxury of their dwelling, they do not realize that they are deprived of the necessities of life.",
+   "aZh": "在享受自己住宅的舒适和庸俗的豪华时，他们没有意识到自己已被剥夺了生活所必需的东西。",
+   "hint": "见课文 'While they enjoy the comfort and banal luxury of their dwelling ...'。"
+  },
+  {
+   "kind": "think",
+   "q": "Do you agree that the modern city has not been planned for the good of its inhabitants? Give your reasons.",
+   "zh": "你同意'现代城市并非为居民的利益而规划'吗？请说明理由。",
+   "a": "Open answer. A model answer: partly agree — cities do offer comfort and convenience, but the pursuit of profit still shapes much of urban life, and problems like traffic, pollution and crowding show that people's real needs are often neglected.",
+   "aZh": "开放题。参考：部分同意——城市确实带来舒适与便利，但逐利仍在很大程度上决定着城市生活，交通、污染、拥挤等问题说明人的真实需求常被忽视。",
+   "hint": "结合课文 'Obviously, it has not been planned for the good of its inhabitants' 谈个人看法。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：现代城市由大得吓人的高楼和阴暗狭窄的街道组成。",
+   "a": "The modern city consists of monstrous edifices and of dark, narrow streets.",
+   "note": "consist of 表'由…组成'"
+  },
+  {
+   "q": "改为被动语态：They have completely neglected the influence of the factory.",
+   "a": "The influence of the factory has been completely neglected.",
+   "note": "现在完成时被动 has been done"
+  },
+  {
+   "q": "填空：Obviously, the city has not been planned ___ the good of its inhabitants.",
+   "a": "for",
+   "note": "for the good of 为了…的利益"
+  },
+  {
+   "q": "改错：This caused the construction of buildings where too large masses of human beings is crowded together.",
+   "a": "把 is 改为 are（主语 masses 为复数）。",
+   "note": "masses 复数主语，用 are"
+  },
+  {
+   "q": "汉译英：文明人享受着住宅的舒适，却没有意识到自己已被剥夺了生活必需品。",
+   "a": "While civilized men enjoy the comfort of their dwelling, they do not realize that they are deprived of the necessities of life.",
+   "note": "be deprived of 被剥夺"
+  },
+  {
+   "q": "用 as ... as possible 改写：An individual may earn the maximum amount of money.",
+   "a": "An individual may earn as much money as possible.",
+   "note": "'尽可能…' 用 as ... as possible"
+  },
+  {
+   "q": "填空：As the ___ grows, more people move to the ___s to live.（人口；郊区）",
+   "a": "population; suburb",
+   "note": "population 人口；suburb 郊区"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者认为现代工业建立在什么基本概念之上？",
+   "options": [
+    "The well-being of the workers",
+    "Maximum production at lowest cost",
+    "The beauty of the great cities",
+    "Fair distribution of wealth"
+   ],
+   "answer": 1,
+   "note": "课文：maximum production at lowest cost"
+  },
+  {
+   "q": "'The great cities have been built with no regard for us.' 中 with no regard for 意为：",
+   "options": [
+    "with great respect for us",
+    "because of us",
+    "without any concern for us",
+    "in memory of us"
+   ],
+   "answer": 2,
+   "note": "regard 意为'关心、顾及'"
+  },
+  {
+   "q": "摩天大楼的形状和尺寸完全取决于什么？",
+   "options": [
+    "The width of the narrow streets",
+    "The supply of petrol and gas",
+    "The number of the inhabitants",
+    "The necessity of obtaining the maximum income per square foot"
+   ],
+   "answer": 3,
+   "note": "每平方英尺的最大收益"
+  },
+  {
+   "q": "作者说文明人居住在现代城市里被剥夺了什么？",
+   "options": [
+    "Their jobs in the factory",
+    "The necessities of life",
+    "Their families and friends",
+    "Their money and property"
+   ],
+   "answer": 1,
+   "note": "the necessities of life 生活必需品"
+  },
+  {
+   "q": "下列哪句定语从句使用正确？",
+   "options": [
+    "The buildings where too many people are crowded together are monstrous.",
+    "The buildings who too many people are crowded together are monstrous.",
+    "The buildings which too many people are crowded together are monstrous.",
+    "The buildings whose too many people are crowded together are monstrous."
+   ],
+   "answer": 0,
+   "note": "先行词为地点，用关系副词 where"
+  },
+  {
+   "q": "表示'人口'和'郊区'的英文单词分别是：",
+   "options": [
+    "population; suburb",
+    "pollution; subway",
+    "popularity; subject",
+    "population; street"
+   ],
+   "answer": 0,
+   "note": "population 人口；suburb 郊区"
+  }
+ ]
+}

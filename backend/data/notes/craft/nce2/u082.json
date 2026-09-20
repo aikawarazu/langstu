@@ -1,0 +1,164 @@
+{
+ "unitId": "u082",
+ "title": "Monster or Fish?",
+ "subtitle": "是妖还是鱼？",
+ "lead": {
+  "question": "渔民在马达加斯加附近捕到的“怪物”究竟是什么？为什么人们极少见到它？",
+  "warmup": "大海深处藏着许多人类难得一见的东西。水手们总爱说自己在海上见过妖怪。可有时渔网里真的会拖出一条让人目瞪口呆的怪鱼：它力大无穷，能把小船拖出好几英里。它到底是传说中的海怪，还是一种我们还不了解的鱼？学完这一课，你会明白人们为什么把鱼当成妖怪，也会学到怎样用英语描述一次不寻常的捕捞。",
+  "goals": [
+   "掌握 claim to have seen 这类不定式完成式，理解动作先于谓语的表达。",
+   "会用 rarely、seldom、at times 描述罕见或偶发的现象，并知道它们自带否定意味。",
+   "能用 no ordinary fish、make every effort to、however 表达强调、努力与转折。",
+   "能读懂并复述这条“怪物”鱼的来历、外形以及被送进博物馆的经过。"
+  ],
+  "summary": "课文讲的是：渔夫和水手常声称在海里见过妖怪，但后来发现，这些“妖怪”多半只是奇怪的鱼，它们偶尔被冲上岸，却极少在海上被捕到。不久前，马达加斯加附近捕到一条怪鱼，它把小船拖到几英里外，身长超过十三英尺，头像马，蓝眼睛，银色皮肤，红尾巴。这条桨鱼被送进博物馆供科学家检查。",
+  "tips": "易错提醒：rarely、seldom 本身含否定意义，变反意疑问句时要用肯定形式，如 They rarely go there, do they? 另外 no ordinary fish 的否定语气比 not an ordinary fish 更重。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was the monster called?",
+   "zh": "这个“怪物”叫什么？",
+   "a": "It was called an oarfish.",
+   "aZh": "它叫桨鱼。",
+   "hint": "课文倒数第二句：The fish ... is called an oarfish."
+  },
+  {
+   "kind": "detail",
+   "q": "What happened to the small fishing boat?",
+   "zh": "那条小渔船遭遇了什么？",
+   "a": "It was carried miles out to sea by the powerful fish as it pulled on the line.",
+   "aZh": "那条力大无穷的鱼咬住鱼线，把小船拖到了几英里以外的海上。",
+   "hint": "课文第 5 句，注意 out to sea 表示“向外海”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the fisherman do when he realized this was no ordinary fish?",
+   "zh": "当渔民意识到这绝非一条普通的鱼时，他做了什么？",
+   "a": "He made every effort not to damage it in any way.",
+   "aZh": "他千方百计不让它受到丝毫伤害。",
+   "hint": "课文第 6 句，made every effort to 意为“尽一切努力”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was the fish like when it was brought to shore?",
+   "zh": "这条鱼被弄上岸时是什么样子？",
+   "a": "It was over thirteen feet long, with a head like a horse, big blue eyes, shining silver skin and a bright red tail.",
+   "aZh": "它身长超过十三英尺，头像马，有大大的蓝眼睛、闪闪发光的银色皮肤和鲜红色的尾巴。",
+   "hint": "课文第 7、8 句对其长度和外貌的描写。"
+  },
+  {
+   "kind": "think",
+   "q": "Why have such creatures rarely been seen alive by man?",
+   "zh": "为什么人们很少能看到活着的这类动物？",
+   "a": "Because they live at a depth of six hundred feet, so they are rarely caught out at sea and are usually noticed only when they are washed to the shore.",
+   "aZh": "因为它们生活在六百英尺深的水下，所以极少在海上被捕获，通常只有被冲上岸时才被人发现。",
+   "hint": "结合最后一句以及第 3 句 they are rarely caught out at sea。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：渔夫和水手们有时声称看到过海里的妖怪。",
+   "a": "Fishermen and sailors sometimes claim to have seen monsters in the sea.",
+   "note": "claim to have done 表动作已发生。"
+  },
+  {
+   "q": "汉译英：那位渔民意识到这根本不是一条普通的鱼，于是千方百计不让它受到丝毫伤害。",
+   "a": "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.",
+   "note": "no ordinary 否定语气重于 not an。"
+  },
+  {
+   "q": "填空：It had a head like a horse, big blue eyes, shining silver skin, and a bright red ____.",
+   "a": "tail",
+   "note": "tail 由形容词 red 修饰。"
+  },
+  {
+   "q": "填空：Such creatures have ____ been seen alive by man as they live at a depth of six hundred ____.",
+   "a": "rarely; feet",
+   "note": "rarely 带否定；foot 复数为 feet。"
+  },
+  {
+   "q": "改错：Some time ago, but a peculiar fish was caught near Madagascar.",
+   "a": "Some time ago, however, a peculiar fish was caught near Madagascar.",
+   "note": "however 是连接副词，不与 but 连用。"
+  },
+  {
+   "q": "句型转换：用 seldom 改写 “Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.” 的后半句。",
+   "a": "Occasionally, unusual creatures are washed to the shore, but they are seldom caught out at sea.",
+   "note": "rarely 与 seldom 同义，均表否定。"
+  },
+  {
+   "q": "句型转换：把 “People have at times sighted many of these ‘monsters’.” 改为被动语态。",
+   "a": "Many of these ‘monsters’ have at times been sighted by people.",
+   "note": "sight 的被动式为 have been sighted。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "渔夫捕到的“怪物”实际上叫什么名字？",
+   "options": [
+    "An oarfish.",
+    "A horse head.",
+    "A seaman.",
+    "A silver tail."
+   ],
+   "answer": 0,
+   "note": "课文称其为 oarfish（桨鱼）。"
+  },
+  {
+   "q": "意识到这不是普通的鱼之后，渔民做了什么？",
+   "options": [
+    "He made every effort not to damage it.",
+    "He cut the line at once.",
+    "He threw it back into the sea.",
+    "He sold it to a museum."
+   ],
+   "answer": 0,
+   "note": "made every effort 意为“尽一切努力”。"
+  },
+  {
+   "q": "“unusual creatures are washed to the shore”中 washed to the shore 的意思最接近哪一项？",
+   "options": [
+    "Carried onto the land by the sea.",
+    "Cleaned by the fishermen on the beach.",
+    "Caught out at sea by a boat.",
+    "Kept alive in a museum."
+   ],
+   "answer": 0,
+   "note": "washed to the shore 即“被冲上岸”。"
+  },
+  {
+   "q": "下列哪个词可以替换 “they are rarely caught out at sea” 中的 rarely？",
+   "options": [
+    "Seldom.",
+    "Often.",
+    "Always.",
+    "Usually."
+   ],
+   "answer": 0,
+   "note": "rarely 与 seldom 同义。"
+  },
+  {
+   "q": "“Fishermen sometimes claim ____ monsters in the sea.” 空白处最恰当的是？",
+   "options": [
+    "to have seen",
+    "to see",
+    "seeing",
+    "to be seeing"
+   ],
+   "answer": 0,
+   "note": "不定式完成式表动作先于谓语。"
+  },
+  {
+   "q": "这条被捕获的鱼有多长？",
+   "options": [
+    "Over thirteen feet long.",
+    "Six hundred feet long.",
+    "Thirteen inches long.",
+    "About six feet long."
+   ],
+   "answer": 0,
+   "note": "六百英尺是它生活的深度。"
+  }
+ ]
+}

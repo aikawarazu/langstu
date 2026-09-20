@@ -1,0 +1,40 @@
+{
+ "title": "He often does this!",
+ "subtitle": "他经常干这种事！",
+ "lead": {
+  "question": "乡村小酒店里，作者的提包为何不翼而飞？他为什么付不了账？",
+  "warmup": "在英国乡村，pub（即 public house）既是小酒馆，也供应午饭。作者在其中一家吃过午饭后准备付账，却发现放在门边椅子上的提包不见了；正当他四处寻找时，酒店老板笑着进来问他饭菜是否可口。几分钟后，老板拎着提包回来道歉——原来捣蛋的是他的狗，而且这种事早已发生过。",
+  "goals": [
+   "掌握过去完成时：先发生的动作用 had ＋ 过去分词，能判断“过去的过去”",
+   "区分助动词 have 与实义动词 have，会写 had had 并正确构成疑问与否定",
+   "辨析 beside 与 besides、look for 与 find 的用法与搭配",
+   "理解 give back / give away / give in / give up，会用 give sth back to sb 表达归还"
+  ],
+  "summary": "本课用一则笑话讲透过去完成时：先发生的事用 had ＋ 过去分词，而 have 表“吃、喝、拥有”时是实义动词，于是有了 had had。还要弄清 beside 与 besides、look for 与 find 的区别，牢记 give sth back to 表示“归还”，return 之后不加 back。",
+  "tips": "看到 have lunch / have dinner，先判断 have 是实义动词还是助动词：表“吃、喝、拥有”时它是实义动词，过去完成时写作 had had，别漏掉前面那个 had。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What had happened to the writer's bag?", "zh": "作者的提包出了什么事？", "a": "The landlord's dog had taken it into the garden.", "aZh": "酒店老板的狗把它弄到花园里去了。", "hint": "见课文最后一句 My dog had taken it into the garden. He often does this!"},
+  {"kind": "detail", "q": "Why is it 'After I had had lunch' and not 'After I had lunch'?", "zh": "为什么写 After I had had lunch，而不写 After I had lunch？", "a": "Because the first 'had' is the auxiliary verb of the past perfect and the second is the past participle of the full verb 'have lunch'.", "aZh": "因为第一个 had 是构成过去完成时的助动词，第二个 had 是实义动词词组 have lunch 的过去分词。", "hint": "见第 1 句 After I had had lunch at a village pub 及讲义“完全动词 have”。"},
+  {"kind": "detail", "q": "How do 'beside' and 'besides' differ?", "zh": "beside 和 besides 有什么不同？", "a": "'Beside' means 'next to', as in 'beside the door', while 'besides' means 'in addition' or 'apart from'.", "aZh": "beside 表示“在……旁边”，如 beside the door；besides 表示“此外、而且”或“除……之外（还）”。", "hint": "见第 2 句 on a chair beside the door，对比讲义 She has so much else to do besides。"},
+  {"kind": "detail", "q": "Why does the writer say 'I looked for my bag' instead of 'I found my bag'?", "zh": "作者为什么说 I looked for my bag，而不说 I found my bag？", "a": "'Look for' refers to the action of searching, not the result; the bag was missing, so 'find' would be wrong.", "aZh": "look for 强调“寻找”这一动作，不涉及结果；包还没找到，就不能用表示结果的 find。", "hint": "见第 1 句与第 3 句：I looked for my bag / As I was looking for it。"},
+  {"kind": "think", "q": "Why does the landlord say 'He often does this!' about his dog?", "zh": "说到自己的狗时，老板为什么说 He often does this!？", "a": "He personifies his pet by using 'he' instead of 'it', which sounds affectionate; 'this' refers to taking bags into the garden, so the remark explains the loss and makes a joke of it.", "aZh": "他用 he 而不用 it，把宠物人格化，语气亲切；this 指“把客人的提包叼进花园”，所以这句话既交代了包的下落，又透着店主的歉意与幽默。", "hint": "见末句 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我在一家乡村小酒店吃过午饭后，就找我的提包。", "a": "After I had had lunch at a village pub, I looked for my bag.", "note": "pub 为 public house 的缩略；look for 表寻找动作。"},
+  {"q": "汉译英：当我正在找它的时候，酒店老板走了进来。", "a": "As I was looking for it, the landlord came in.", "note": "as 引出进行时的背景动作；landlord 指店主。"},
+  {"q": "汉译英：很好，谢谢。但我付不了账，我的提包没有了。", "a": "Yes, thank you, but I can't pay the bill. I haven't got my bag.", "note": "bill 指账单；pay the bill 付款。"},
+  {"q": "句型转换：用过去完成时合并两句 —— My dog took my bag into the garden. / In a few minutes the landlord returned with it.", "a": "After my dog had taken my bag into the garden, the landlord returned with it in a few minutes.", "note": "先发生的用 had taken，后发生的用一般过去时。"},
+  {"q": "改错：① After I have had lunch at a village pub, I looked for my bag. ② Come and sit besides me.", "a": "① After I had had lunch at a village pub, I looked for my bag. ② Come and sit beside me.", "note": "① 过去完成时须用 had had；② beside 才表“在……旁边”。"},
+  {"q": "汉译英：一会儿工夫他拿着我的提包回来了，把它还给了我。", "a": "In a few minutes he returned with my bag and gave it back to me.", "note": "in a few minutes 一会儿工夫；return 后不再加 back。"},
+  {"q": "填空（it / one）：① My bag wasn't there, so I looked for ______ everywhere. ② This bag is too old. I want to buy a new ______.", "a": "① it ② one", "note": "it 指同一个提包，one 泛指同类中的另一个。"}
+ ],
+ "quiz": [
+  {"q": "本课第 1 句 After I had had lunch 中，两个 had 依次是什么成分？", "options": ["The first 'had' is the auxiliary verb and the second is the past participle of the full verb 'have'.", "Both 'had' are auxiliary verbs of the perfect tenses.", "Both 'had' are past forms of the full verb 'have'.", "The first 'had' is a full verb and the second is an auxiliary verb."], "answer": 0, "note": "have lunch 里的 have 是实义动词，须借助 had 构成过去完成时。"},
+  {"q": "下列哪一句中的 besides 意为“此外、而且”？", "options": ["Besides, I've got a bad cold.", "There is a chair beside the door.", "I left my bag beside the door.", "Come and sit beside us."], "answer": 0, "note": "beside 表在……旁边，besides 表此外或除……之外（还）。"},
+  {"q": "“我到处找钥匙，可还是没找到”的正确英文是？", "options": ["I looked for my key everywhere, but I couldn't find it.", "I found my key everywhere, but I couldn't look for it.", "I looked my key everywhere, but I couldn't find it.", "I looked for my key everywhere, but I couldn't find for it."], "answer": 0, "note": "look for 强调寻找的动作，find 强调找到的结果。"},
+  {"q": "表示“把某物归还给某人”应选择哪一项？", "options": ["give it back to me", "give it away to me", "give it in to me", "give it up to me"], "answer": 0, "note": "give away 赠送；give in 上交或屈服；give up 放弃。"},
+  {"q": "最后一句 He often does this! 中的 he 指的是谁？", "options": ["The landlord's dog", "The landlord", "The writer", "A thief in the village"], "answer": 0, "note": "宠物可人格化用 he，比用 it 更亲切生动。"},
+  {"q": "与 I haven't got my bag. 意思最接近的是哪一句？", "options": ["I don't have my bag.", "I didn't have my bag.", "I won't have my bag.", "I'm not having my bag."], "answer": 0, "note": "have got 等于 have，表“拥有”时不用于进行时态。"}
+ ]
+}

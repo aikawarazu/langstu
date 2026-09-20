@@ -1,0 +1,35 @@
+{
+ "title": "Pioneer Pilots",
+ "subtitle": "飞行员的先驱",
+ "lead": {
+  "question": "在莱瑟姆与布莱里奥的竞赛中，哪架飞机率先飞越了英吉利海峡？",
+  "warmup": "1908年，诺斯克利夫勋爵悬赏1,000英镑，奖励第一个飞越英吉利海峡的人。一年多后，两位勇敢的飞行员——法国的莱瑟姆和布莱里奥——展开了角逐。莱瑟姆7月首次试飞因引擎故障迫降海面；布莱里奥则在一周前完成了26英里的陆上飞行。1909年7月25日，两人本打算同时起飞，结局却出人意料。",
+  "goals": ["掌握 pioneer、pilot、attempt、overland、forced landing 等本课核心词汇。", "理解并运用 when 引导的并列句与过去完成时、过去完成进行时。", "学会用不定式替代定语从句（the first man to fly ...）。", "能讲述莱瑟姆与布莱里奥飞越英吉利海峡的故事与结局。"],
+  "summary": "1908年诺斯克利夫勋爵悬赏奖励第一个飞越英吉利海峡的人。1909年7月19日，莱瑟姆驾“安特瓦特4号”从法国起飞，仅飞7英里便因引擎故障迫降海面，被船救起。两天后布莱里奥携最新型“11号”飞机抵达加来，此前他刚完成26英里陆上飞行。7月25日，起晚的莱瑟姆错过时机，布莱里奥试飞后率先出发，37分钟飞临多佛，受到当地警察迎接；莱瑟姆一周后再试仍迫降海面。",
+  "tips": "注意“the first man to fly”用不定式替代定语从句，而“be forced to land”是“被动 + 不定式”结构；过去完成时 had + 过去分词表示比过去某时更早发生的动作。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the name of the first plane to fly across the English Channel?", "zh": "飞越英吉利海峡的第一架飞机叫什么名字？", "a": "It was Bleriot's 'No. XI'. He landed near Dover after a thirty-seven-minute flight.", "aZh": "是布莱里奥的“11号”飞机，他飞行37分钟后在多佛附近着陆。", "hint": "出处：课文第六句 a plane called 'No. XI' 及第十三句 When he landed near Dover ...。莱瑟姆的 'Antoinette IV' 只在海峡上空飞了7英里便迫降。"},
+  {"kind": "detail", "q": "What happened to Hubert Latham on July 19th, 1909?", "zh": "1909年7月19日，休伯特·莱瑟姆发生了什么？", "a": "In the early morning he took off from the French coast in his plane 'Antoinette IV', but he had travelled only seven miles across the Channel when his engine failed and he was forced to land on the sea. He was later picked up by a ship.", "aZh": "凌晨，他驾驶“安特瓦特4号”从法国海岸起飞，但只在海峡上空飞行7英里，引擎就发生故障，他被迫降落在海面上，后来被一艘船救起。", "hint": "出处：课文第三、四、五句（had travelled ... when ... was forced to land）。"},
+  {"kind": "detail", "q": "What had Bleriot done before the flight across the Channel?", "zh": "在飞越海峡之前，布莱里奥做了哪些准备？", "a": "He had been making planes since 1905, and 'No. XI' was his latest model. A week before, he had completed a successful overland flight during which he covered twenty-six miles.", "aZh": "他从1905年起便开始研制飞机，“11号”是他的最新型号。一周以前，他成功完成了一次26英里的陆上飞行。", "hint": "出处：课文第七、八句（had been making 与 had completed 属过去完成时）。"},
+  {"kind": "detail", "q": "How did the race on July 25th turn out?", "zh": "7月25日的这场竞赛结果如何？", "a": "Both planes were to take off that day, but Latham failed to get up early enough. After a short test flight at 4:15 a.m., Bleriot set off half an hour later; his flight lasted thirty-seven minutes and he landed near Dover.", "aZh": "两架飞机都打算那天起飞，但莱瑟姆起得不够早。布莱里奥凌晨4点15分作了短距离试飞，半小时后出发；他的飞行持续37分钟，在多佛附近着陆。", "hint": "出处：课文第十一、十二、十三句（failed to get up early enough / set off half an hour later）。"},
+  {"kind": "think", "q": "Latham never crossed the Channel. Why is he still regarded as a pioneer pilot?", "zh": "莱瑟姆终究没能飞越海峡，为什么他仍被视为飞行员中的先驱？", "a": "Because he made the very first attempt across the Channel in 1909, and although both attempts failed he did not give up easily. He tried again a week later and got within half a mile of Dover, paving the way for later pilots.", "aZh": "因为他是1909年最早尝试飞越海峡的人；尽管两次都失败，他仍不肯轻易罢休，一周后再试时已飞到离多佛不到半英里处，为后来的飞行员开辟了道路。", "hint": "出处：课文第二句 the first attempt、第九句 did not give up easily 与第十五句。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：他只在海峡上空飞行了7英里，引擎就发生故障，他只好降落在海面上。", "a": "He had travelled only seven miles across the Channel when his engine failed and he was forced to land on the sea.", "note": "when 引导并列 + 过去完成时"},
+  {"q": "句型转换：将 He was the first man who flew across the Channel. 改写为不定式结构。", "a": "He was the first man to fly across the Channel.", "note": "序数词后用不定式替代定语从句"},
+  {"q": "填空：用括号内动词的适当形式填空。Bleriot ______ (make) planes since 1905, and this was his latest model.", "a": "had been making", "note": "since 配过去完成进行时"},
+  {"q": "词汇填空：A week before, he had completed a successful ______ flight of twenty-six miles.（“陆上的”）", "a": "overland", "note": "overland 陆上的，反义 oversea"},
+  {"q": "汉译英：一周以后，莱瑟姆又作了一次尝试。", "a": "A week later, Latham made another attempt.", "note": "make an attempt 作尝试"},
+  {"q": "改错：He, too, arrived near Calais in the same day with a new 'Antoinette'.", "a": "把 in 改为 on：He, too, arrived near Calais on the same day with a new 'Antoinette'.", "note": "same day 前用介词 on"},
+  {"q": "汉译英：作为飞行员中的先驱，莱瑟姆不肯轻易罢休。", "a": "As a pioneer among pilots, Latham did not give up easily.", "note": "pioneer 先驱；give up 放弃"}
+ ],
+ "quiz": [
+  {"q": "飞越英吉利海峡的第一架飞机叫什么名字？", "options": ["'Antoinette IV'", "'No. XI'", "'No. XII'", "'Antoinette VII'"], "answer": 1, "note": "布莱里奥的“11号”完成首次飞越。"},
+  {"q": "1908年诺斯克利夫勋爵悬赏的目的是什么？", "options": ["To build a new plane.", "To reward the first man to fly across the English Channel.", "To train young pilots.", "To start a flying school."], "answer": 1, "note": "悬赏奖励第一个飞越海峡的人。"},
+  {"q": "1909年7月19日莱瑟姆迫降海面的原因是什么？", "options": ["He got up too late.", "His engine failed.", "He lost his way.", "It was too foggy."], "answer": 1, "note": "引擎故障，被迫降落海面。"},
+  {"q": "布莱里奥在飞越海峡前一周做了什么？", "options": ["He made a short test flight.", "He completed a successful overland flight of twenty-six miles.", "He built his latest model.", "He flew to Dover."], "answer": 1, "note": "一周前完成26英里陆上飞行。"},
+  {"q": "7月25日比赛当天发生了什么？", "options": ["Latham set off first.", "Latham failed to get up early enough, so Bleriot set off first.", "Both set off together.", "Neither plane took off."], "answer": 1, "note": "莱瑟姆起晚了，布莱里奥先行起飞。"},
+  {"q": "布莱里奥在多佛附近着陆时，谁第一个迎接他？", "options": ["A reporter.", "A local policeman.", "Lord Northcliffe.", "Hubert Latham."], "answer": 1, "note": "课文末段：a local policeman。"}
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u005",
+ "title": "Youth",
+ "subtitle": "青年",
+ "lead": {
+  "question": "作者认为“青年问题”从何而来？他更愿意以什么态度对待年轻人？",
+  "warmup": "人们总爱谈论“青年问题”，仿佛青春本身就是一种需要诊治的毛病。这篇选自《听众》杂志的短文却反问：这个问题是谁造出来的？作者回忆自己十几岁时的心理，甚至盼着被当作“问题”，因为那至少意味着一种身份。他不肯用“应当尊重长者”的套话武装自己，而是先弄清青年与长者究竟差在哪里。",
+  "goals": [
+   "读懂作者如何用反问、强调句拆掉“青年问题”这一伪命题，把握全文立场。",
+   "掌握 take leave to doubt、get down to fundamentals、the rub 等本课表达。",
+   "辨析 as if 虚拟语气（were）、动名词作主语、may...but 让步结构等语法点。",
+   "能就“代际差异”用英语表达自己的看法，并复述作者对年轻人的评价。"
+  ],
+  "summary": "课文开篇就拆解命题：真存在“青年问题”的话，那也是老年人造出来的。作者欣赏年轻人身上的自由气息：不追逐卑鄙名利，不贪图安逸，不热衷向上爬，因此他们与生命和万物之源相连。面对一个也许自负无礼的年轻人，他不搬出尊重长者的陈词滥调，而是承认彼此平等，认为对方错了就以平等身份争个明白。",
+  "tips": "牢记 as if 后的虚拟：It's as if they were... 用 were 而非 are，同理 as if mere age were a reason for respect。另外，泛指青年人须用 the young，谓语取复数：the young are after all human beings，不可说 the young is。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How does the writer like to treat young people?",
+   "zh": "作者喜欢怎样对待年轻人？",
+   "a": "He treats them as equals. Even if a young person is conceited, ill-mannered, presumptuous or fatuous, he refuses to fall back on dreary clichés about respect for elders; he accepts that they are equals and will argue with him, as an equal, if he thinks he is wrong.",
+   "aZh": "他把年轻人当作平等的人。即使对方自负、无礼、傲慢或愚昧，他也不搬出“应当尊重长者”这套陈词滥调；他承认彼此平等，若认为对方错了，就以平等的身份与他争论。",
+   "hint": "答案在课文最后两句：I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong."
+  },
+  {
+   "kind": "detail",
+   "q": "According to the writer, who really creates “the problem of youth”?",
+   "zh": "按照作者的说法，“青年问题”究竟是谁造成的？",
+   "a": "Older people create it, not the young themselves. The writer even takes leave to doubt whether such a problem exists at all.",
+   "aZh": "是老年人造成的，而不是青年人自己。作者甚至表示，对这种问题是否存在他持怀疑态度。",
+   "hint": "见第二句：If there is one -- which I take leave to doubt -- then it is older people who create it, not the young themselves."
+  },
+  {
+   "kind": "detail",
+   "q": "What is the only difference between an old man and a young one?",
+   "zh": "老年人和青年人之间唯一的区别是什么？",
+   "a": "The young man has a glorious future before him, while the old one has a splendid future behind him -- and maybe that is where the rub is.",
+   "aZh": "青年人有光辉灿烂的前景在他前方，老年人的辉煌则已成为过去——也许症结正在这里。",
+   "hint": "见第四句，注意 before him 与 behind him 的对照，以及 the rub 指“症结、难点”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the writer admire in young people, and what do they seem to him to be linked with?",
+   "zh": "作者欣赏年轻人的哪些品质？他觉得他们与什么相连？",
+   "a": "He finds them exciting: they have an air of freedom, no dreary commitment to mean ambitions or love of comfort, they are not anxious social climbers and have no devotion to material things. All this seems to link them with life and the origins of things.",
+   "aZh": "他觉得年轻人令人振奋：他们有一种自由的气息，不追逐卑鄙的名利，不贪图安逸，不热衷向上爬，也不一味追求物质享受。这一切似乎使他们与生命和万物之源相连。",
+   "hint": "见第七至第十句：I find young people exciting... All this seems to me to link them with life, and the origins of things."
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer call the young “cosmic beings in violent and lovely contrast with us suburban creatures”?",
+   "zh": "作者为什么把年轻人称为“宇宙人”，说他们“同我们这些凡夫俗子形成了强烈而鲜明的对照”？",
+   "a": "Because they appear fresh, free and elemental, untouched by mean ambitions and material devotion, they seem to belong to life itself, while settled elders look like dull “suburban creatures”. The violent and lovely contrast shows he does not treat youth as a problem to be solved but as energy he admires -- which is why he meets them as equals instead of demanding respect merely for his age.",
+   "aZh": "因为他们显得新鲜、自由而带原始的生命力，不为卑鄙名利与物质欲望所累，仿佛属于生命本身；而安顿下来的长者却像沉闷的“郊区生物”。这种强烈而可爱的对照说明他不把青年看作有待解决的“问题”，而看作他所欣赏的生命力——因此他平等待之，而不凭年长要求尊敬。",
+   "hint": "结合第十、十一、十二句与末尾两句：all this seems to link them with life... 以及 mere age were a reason for respect 的反问语气。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：如果这个问题存在的话，那也是老年人造成的，而不是青年人自己。",
+   "a": "If there is such a problem, then it is older people who create it, not the young themselves.",
+   "note": "强调句 it is...who；the young 用复数。"
+  },
+  {
+   "q": "填空：Let us get down to ______ and agree that the young are after all human beings.",
+   "a": "fundamentals",
+   "note": "get down to + 名词，意为“探讨实质”。"
+  },
+  {
+   "q": "改错：It's as if they are, in some sense, cosmic beings in violent and lovely contrast with us suburban creatures.",
+   "a": "It's as if they were, in some sense, cosmic beings in violent and lovely contrast with us suburban creatures.（are 改为 were）",
+   "note": "as if 后表虚拟假设用 were。"
+  },
+  {
+   "q": "句型转换：He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary clichés about respect of elders. 改为 although 引导的让步从句。",
+   "a": "Although he may be conceited, ill-mannered, presumptuous or fatuous, I do not turn for protection to dreary clichés about respect of elders.",
+   "note": "may...but 转为 although 让步句。"
+  },
+  {
+   "q": "改错：For one thing, be a problem gives you a certain identity.",
+   "a": "For one thing, being a problem gives you a certain identity.（be 改为 being）",
+   "note": "动名词短语作主语，谓语用单数。"
+  },
+  {
+   "q": "填空：They are not anxious social ______, and they have no ______ to material things.",
+   "a": "climbers; devotion",
+   "note": "social climbers 与 devotion to 固定搭配。"
+  },
+  {
+   "q": "汉译英：我认为我们是平等的；如果我认为他错了，我就以平等的身份和他争论。",
+   "a": "I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.",
+   "note": "条件从句用现在时表将来。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者说 “which I take leave to doubt”，这句话的意思是什么？",
+   "options": [
+    "I am leaving the argument to others.",
+    "I beg to be excused for doubting that such a problem exists.",
+    "I have no doubt at all about the problem of youth.",
+    "I refuse to discuss the problem of youth."
+   ],
+   "answer": 1,
+   "note": "take leave to do 即“恕我冒昧地做”，婉转表怀疑。"
+  },
+  {
+   "q": "“and maybe that is where the rub is” 中的 rub 在文中指什么？",
+   "options": [
+    "A kind of physical pain.",
+    "A piece of wise advice.",
+    "The crux of the matter -- the real difficulty.",
+    "An old proverb about age."
+   ],
+   "answer": 2,
+   "note": "rub 意为“症结、难点”，与“摩擦”义相关。"
+  },
+  {
+   "q": "按照作者的观点，“the problem of youth” 究竟是谁造成的？",
+   "options": [
+    "Older people, not the young themselves.",
+    "The young themselves.",
+    "Schools and teachers of his time.",
+    "The newspapers of his time."
+   ],
+   "answer": 0,
+   "note": "课文用 it is older people who create it 强调。"
+  },
+  {
+   "q": "“It's as if they were, in some sense, cosmic beings...” 中用 were 而非 are，是因为：",
+   "options": [
+    "作者在叙述过去发生的事情。",
+    "他们真的是来自宇宙的生物。",
+    "as if 后面在语法上不能接 are。",
+    "as if 引导的从句表示与实际情况不同的虚拟假设。"
+   ],
+   "answer": 3,
+   "note": "as if 从句常用 were 表示虚拟。"
+  },
+  {
+   "q": "作者把某些年轻人称作 “anxious social climbers”，这里 social climbers 指：",
+   "options": [
+    "喜欢登山运动的社交爱好者。",
+    "一心攀附权贵、谋求更高社会地位的人。",
+    "积极参加社交聚会的人。",
+    "从事社会工作的年轻人。"
+   ],
+   "answer": 1,
+   "note": "与 no devotion to material things 并列，含贬义。"
+  },
+  {
+   "q": "作者主张用什么方式对待年轻人？",
+   "options": [
+    "用“应当尊重长者”的道理要求他们服从。",
+    "尽量回避与年轻人争论。",
+    "视其为平等的人，认为他错了就以平等身份与他争论。",
+    "把年轻人当作需要解决的“问题”来研究。"
+   ],
+   "answer": 2,
+   "note": "依据末两句：we are equals / argue with him, as an equal。"
+  }
+ ]
+}

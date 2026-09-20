@@ -1,0 +1,40 @@
+{
+ "title": "Volcanoes",
+ "subtitle": "火山",
+ "lead": {
+  "question": "塔捷耶夫为何甘愿冒着生命危险，一次次靠近正在猛烈喷发的火山？",
+  "warmup": "火山喷发时岩浆奔流、浓烟冲天，普通人唯恐避之不及，波兰科学家哈罗恩·塔捷耶夫却偏偏把营地搭在火山口边上。他毕生研究世界各地的活火山和深洞，1948年在刚果基伍湖观察新火山基图罗，甚至爬进火山口拍照、测温。",
+  "goals": [
+   "掌握 volcano、active、erupt、violently、manage、brilliant、liquid、escape、alive 等核心词汇",
+   "辨析 can/could、be able to 与 manage to 的差别",
+   "理解一般过去时与现在完成时的分工：1948 年的考察用过去时，毕生成就用现在完成时",
+   "学会 set up、observe、take photographs、risk one's life、for long、close to 等表达"
+  ],
+  "summary": "课文记述塔捷耶夫的一次考察：1948 年他在刚果基伍湖观察新火山基图罗，趁火山猛烈喷发把营地搭在近旁抢拍照片；岩浆眼看合围，他及时逃脱；两天后他又爬进火山口拍照测温。语法重点：过去某次成功做到用 was able to 或 managed to，不用 could。",
+  "tips": "could 只说明“有能力”，不说明“已做到”；alive 作定语必须后置（any man alive）；for long 多用于否定句。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why does Tazieff risk his life like this?", "zh": "塔捷耶夫为什么这样冒着生命危险？", "a": "Because he wants to study active volcanoes and tell us more about them than any man alive — he even climbed into the mouth of Kituro to take photographs and measure temperatures.", "aZh": "因为他是研究活火山的科学家，想获得第一手资料；他甚至爬进基图罗火山口拍照、测温。", "hint": "见课文最后两句。"},
+  {"kind": "detail", "q": "In 1948, where did Tazieff go and what did he name the new volcano?", "zh": "1948 年塔捷耶夫去了哪里？他给那座新火山起了什么名字？", "a": "He went to Lake Kivu in the Congo to observe a new volcano, which he later named Kituro.", "aZh": "他去了刚果的基伍湖观察一座新火山，后来把它命名为基图罗。", "hint": "见第 2 句。"},
+  {"kind": "detail", "q": "Why could he not stay near the volcano for very long?", "zh": "他为什么不能在火山附近停留太久？", "a": "Because he noticed a river of liquid rock coming towards him; it threatened to surround him completely, so he managed to escape just in time.", "aZh": "因为他发现一股岩浆正向他流过来，眼看就要把他完全围住，他只好及时逃离。", "hint": "见第 4—6 句。"},
+  {"kind": "detail", "q": "What did he manage to do when he returned two days later?", "zh": "两天后他返回时，设法做了什么？", "a": "He managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.", "aZh": "他设法爬进了基图罗火山口，以便能拍照和测量温度。", "hint": "见倒数第 3 句。"},
+  {"kind": "think", "q": "Why does the text use 'was able to' / 'managed to' instead of 'could'?", "zh": "课文为什么用 was able to / managed to，而不用 could？", "a": "Because could only states ability and does not say the action was achieved; was able to / managed to tell us that one particular past action was successfully done, and manage to adds the idea 'in spite of great difficulty'.", "aZh": "因为 could 只表示有能力，不说明做成了；was able to 强调过去某一次确实成功，managed to 强调克服困难后做成。", "hint": "见第 3 句与第 6 句。"}
+ ],
+ "exercises": [
+  {"q": "根据汉语提示填空：The volcano was ______ ______ (猛烈喷发), and a river of ______ (液态的) rock was coming towards him.", "a": "erupting violently; liquid", "note": "liquid rock 即岩浆。"},
+  {"q": "汉译英：1948 年他去了刚果的基伍湖，去观察一座新火山并拍了一些精彩的照片。", "a": "In 1948, he went to Lake Kivu in the Congo to observe a new volcano and took a number of brilliant photographs.", "note": "a number of 后接复数名词。"},
+  {"q": "汉译英：他把营地搭在离正在猛烈喷发的火山非常近的地方。", "a": "He set up his camp very close to the volcano while it was erupting violently.", "note": "set up 搭建；close to 靠近。"},
+  {"q": "用 manage to 改写：He took a number of brilliant photographs.", "a": "He managed to take a number of brilliant photographs.", "note": "强调克服困难后做成。"},
+  {"q": "汉译英：塔捷耶夫经常这样冒着生命危险。", "a": "Tazieff has often risked his life in this way.", "note": "risk one's life。"},
+  {"q": "用括号内动词的正确形式填空：He ______ (wait) until it became quiet and ______ (return) two days later. The liquid rock threatened to surround him, but he ______ (manage) to escape just in time.", "a": "waited; returned; managed", "note": "一律用一般过去时。"},
+  {"q": "汉译英：他能告诉我们的有关活火山的情况比任何在世的人都要多。", "a": "He has been able to tell us more about active volcanoes than any man alive.", "note": "alive 作定语须后置。"}
+ ],
+ "quiz": [
+  {"q": "要表达“他终于设法把门打开了”（强调费了很大劲才做成），应选哪句？", "options": ["He could open the door.", "He tried to open the door.", "He managed to open the door.", "He was able to opening the door."], "answer": 2, "note": "manage to 强调克服困难后做成。"},
+  {"q": "“他把帐篷搭在离火山非常近的地方”，正确的英文表达是？", "options": ["He set up his camp very close to the volcano.", "He set up his camp very close with the volcano.", "He set up his camp very closely the volcano.", "He set his camp very near to the volcano."], "answer": 0, "note": "set up；close to。"},
+  {"q": "课文中“一股岩浆”的表达是哪一项？", "options": ["a river of liquid rock", "a river of liquid stone", "a sea of liquid rock", "a stream of melted stone"], "answer": 0, "note": "a river of 是暗喻。"},
+  {"q": "哪一项填入句子最恰当：He waited until the volcano became quiet and he ______ return two days later.", "options": ["could", "can", "was able to", "managed"], "answer": 2, "note": "was able to 表过去某次成功。"},
+  {"q": "“任何在世的人”的正确英文是？", "options": ["any alive man", "any man alive", "any man who is living", "any lived man"], "answer": 1, "note": "alive 作定语须后置。"},
+  {"q": "课文原句“塔捷耶夫经常冒这样的生命危险”是？", "options": ["Tazieff has often risked his life in this way.", "Tazieff often risks his life in this way.", "Tazieff had often risked his life in this way.", "Tazieff was often risking his life in this way."], "answer": 0, "note": "现在完成时。"}
+ ]
+}

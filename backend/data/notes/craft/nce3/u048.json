@@ -1,0 +1,164 @@
+{
+ "unitId": "u048",
+ "title": "The Silent Village",
+ "subtitle": "沉默的村庄",
+ "lead": {
+  "question": "一对夫妇走进巴尔干半岛的偏僻山村，为何遇上一片令人毛骨悚然的沉默？",
+  "warmup": "人们总以为偏远村庄的村民热情好客，作者与妻子却在巴尔干半岛的旅途中发现并非如此。他们离开熙攘的小镇，沿小路穿过树林、渡过深溪，来到一座挂在山坡上的小村。村庄空寂无人，只有一只被拴住的黑山羊。正当他们在破篱笆边野餐时，沉默的人群悄悄围了上来。",
+  "goals": [
+   "掌握 inaccessible to、hospitable、hostile、straggling、dilapidated、forbidding 等描写偏远村庄的词汇。",
+   "读懂 The village seemed deserted, the only sign of life being... 这类独立主格结构。",
+   "复习被动语态（were built of、were surrounded by、could be heard）以及定语从句和分词短语作定语。",
+   "体会全文如何用“沉默”层层渲染紧张气氛，并能依据线索复述故事梗概。"
+  ],
+  "summary": "全文以“沉默”为线索：先写偏僻之地未必好客，再写作者夫妇为躲避游客而深入乡野，历经小路、密林、深溪与渡船，抵达一座灰土坯砌成、看似无人居住的山村。孩子们无声围观、村民从门窗后注视、全村没有一丝声响，最终让他们意识到自己是不受欢迎的不速之客，于是匆匆离去。",
+  "tips": "易错提醒：deserted 是形容词“空无一人的”，别与 dessert（甜点）混淆；the only sign of life being... 是独立主格结构，不能写成 is。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why was the village silent?",
+   "zh": "这个村庄为什么一片寂静？",
+   "a": "Because the villagers were hostile to the strangers: they watched the couple in complete silence and no one made a sound, so the couple realised they were unwelcome visitors and left.",
+   "aZh": "因为村民对外来者怀有敌意：他们一声不响地注视着这对夫妇，全村听不到一点声音，夫妇俩于是意识到自己不受欢迎，便离开了。",
+   "hint": "答案见 The most frightening thing of all was that not a sound could be heard. 与 There was no doubt that we were unwelcome visitors."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the writer and his wife do on the last day of their stay in the small town?",
+   "zh": "在小镇逗留的最后一天，作者夫妇做了什么？",
+   "a": "They took a path out of the town, crossed a few fields, tramped through a dense wood and came to a deep stream, where a boatman ferried them across to a tiny village.",
+   "aZh": "他们沿一条出镇的小路穿过几片田地，在密林里跋涉了两个多小时来到一条深溪，由船夫摆渡过溪，到达一个小村庄。",
+   "hint": "见 so we decided to spend our last day exploring the countryside 一直到船夫摆渡那几段。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was the only sign of life in the village?",
+   "zh": "村里唯一的生命迹象是什么？",
+   "a": "An ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
+   "aZh": "附近田里一只面目可憎的黑山羊，被一截短绳拴在一棵树上。",
+   "hint": "见 The village seemed deserted, the only sign of life being... 一句。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the children behave when the couple offered them food and spoke to them kindly?",
+   "zh": "作者夫妇给孩子们食物、客气地同他们交谈时，孩子们有什么反应？",
+   "a": "They remained motionless; they just looked at the couple silently as they ate.",
+   "aZh": "他们一动不动，只是默不作声地看着夫妇俩吃饭。",
+   "hint": "见 We offered them food and spoke to them kindly, but they remained motionless."
+  },
+  {
+   "kind": "think",
+   "q": "What does the writer mean by We needed no further warning?",
+   "zh": "作者说“我们不需要进一步的警告了”是什么意思？",
+   "a": "The silent, glaring villagers were themselves the warning: the couple understood at once that they were unwelcome, so they turned back and hurried towards the stream.",
+   "aZh": "沉默围观、怒目而视的村民本身就是警告：夫妇俩立刻明白自己不受欢迎，于是转身加快脚步奔向溪边。",
+   "hint": "结合上句 There was no doubt that we were unwelcome visitors. 体会。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：在这个旅游频繁的世界上，仍有成千上万个游人足迹未至的地方。",
+   "a": "In this much-travelled world, there are still thousands of places which are inaccessible to tourists.",
+   "note": "which引导定语从句；inaccessible to。"
+  },
+  {
+   "q": "汉译英：村里似乎无人居住，唯一的生命迹象是附近田里一只面目可憎的黑山羊，用一截短绳拴在一棵树上。",
+   "a": "The village seemed deserted, the only sign of life being an ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
+   "note": "独立主格being；tied作后置定语。"
+  },
+  {
+   "q": "用所给词的正确形式填空：The village seemed ______ (desert), the only sign of life ______ (be) an ugly-looking black goat.",
+   "a": "deserted; being",
+   "note": "seem后接形容词；独立主格用being。"
+  },
+  {
+   "q": "改为被动语态：They built all the houses of grey mud bricks.",
+   "a": "All the houses were built of grey mud bricks.",
+   "note": "一般过去时被动；be built of。"
+  },
+  {
+   "q": "改错：Looking up I saw that we surrounded by children in rags who were looking at us silently.",
+   "a": "Looking up I saw that we were surrounded by children in rags who were looking at us silently.",
+   "note": "被动语态漏掉be动词were。"
+  },
+  {
+   "q": "合并句子（用分词或定语从句）：The path led to a tiny village. It was perched on the steep sides of a mountain.",
+   "a": "The path led to a tiny village perched on the steep sides of a mountain.",
+   "note": "过去分词短语作后置定语。"
+  },
+  {
+   "q": "汉译英：最令人害怕的是到处没有一点声音。",
+   "a": "The most frightening thing of all was that not a sound could be heard.",
+   "note": "被动语态；not a sound作主语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "那座村庄为什么一片沉默？",
+   "options": [
+    "All the villagers had been evacuated before the couple arrived.",
+    "The villagers watched the strangers in silence and made no sound at all.",
+    "The children were playing a game and had been told not to speak.",
+    "The couple were too frightened to speak to anybody."
+   ],
+   "answer": 1,
+   "note": "no sound could be heard，沉默即敌意。"
+  },
+  {
+   "q": "作者夫妇为什么在最后一天离开小镇去乡间？",
+   "options": [
+    "They wanted to visit more old churches in the vicinity.",
+    "They had run out of food and went to buy some in the village.",
+    "Several busloads of tourists arrived and it was more than they could bear.",
+    "The boatman had invited them to a picnic by the stream."
+   ],
+   "answer": 2,
+   "note": "游客descended on the town，人多得难以忍受。"
+  },
+  {
+   "q": "The village seemed deserted 中 deserted 最接近的意思是？",
+   "options": [
+    "crowded with noisy visitors",
+    "having no people living in it",
+    "destroyed by heavy rain",
+    "hidden behind a dense wood"
+   ],
+   "answer": 1,
+   "note": "deserted意为“空无一人的”。"
+  },
+  {
+   "q": "关于那座村庄，下面哪一句符合课文？",
+   "options": [
+    "The houses were built of grey mud bricks and the unmade road straggled along.",
+    "The village stood on the flat bank of a deep stream.",
+    "The houses were made of stone and contained beautiful frescoes.",
+    "The village was famous for its friendly and hospitable inhabitants."
+   ],
+   "answer": 0,
+   "note": "土坯房；straggling unmade road。"
+  },
+  {
+   "q": "作者起初怎样解释孩子们的一言不发？",
+   "options": [
+    "He believed they were hungry and wanted his sardines.",
+    "He thought they were simply shy of strangers.",
+    "He was sure they had come to warn him of danger.",
+    "He thought they were the boatman's own children."
+   ],
+   "answer": 1,
+   "note": "I concluded that they were simply shy of strangers."
+  },
+  {
+   "q": "夫妇俩走在村里的大街上时，出现了什么情形？",
+   "options": [
+    "The villagers came out and shouted angrily at them.",
+    "The village emptied and everybody hid indoors.",
+    "Faces appeared at windows, men glared and old women peered, all in silence.",
+    "The children led them politely to the boatman's house."
+   ],
+   "answer": 2,
+   "note": "村庄活跃起来，却仍无一丝声响。"
+  }
+ ]
+}

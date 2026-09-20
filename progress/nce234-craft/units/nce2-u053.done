@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u053",
+ "book": "nce2",
+ "unitId": "u053",
+ "title": "Hot snake",
+ "subtitle": "触电的蛇",
+ "hasText": false,
+ "lines": 12,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "1ff54d2b3f9a",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

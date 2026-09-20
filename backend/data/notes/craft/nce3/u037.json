@@ -1,0 +1,164 @@
+{
+ "unitId": "u037",
+ "title": "The Westhaven Express",
+ "subtitle": "西黑文快车",
+ "lead": {
+  "question": "作者为什么会坐上一趟早已停运的'西黑文快车'？他的错误究竟在哪里？",
+  "warmup": "在英国人心里，火车几乎是准点的代名词：轮船会因风暴误期，飞机会因天气取消，唯有火车必须准点。久而久之，人们对时刻表产生了一种近乎迷信的信任。可这张纸上除了黑字，还常常藏着不起眼的星号和脚注。本课的作者就因为只顾看正表、忽略了那行小字，白白在慢车上耗了两个小时。",
+  "goals": [
+   "学会用 punctual、timetable、delay、suspend 等词谈论交通与时刻表",
+   "掌握 unshakable faith、take advantage of、in black and white 等固定搭配",
+   "复习被动语态：can be held up、has been suspended",
+   "理解 more likely … than 比较级结构，并用一般过去时叙述经历"
+  ],
+  "summary": "人们总相信火车必然准点，出了差错便怪罪铁路当局，其实错的往往是我们自己。作者查时刻表，发现有一趟开往西黑文的直达快车，全程仅1小时17分。上车后他并不觉得奇怪，可火车却一站站慢行。同车乘客没听说过这趟车，站长也否认它的存在；最后，一个星号把他引向脚注：此趟列车已暂停运行。",
+  "tips": "易错提醒：'准时'是 be punctual，不要写成 be on punctual；can't help 后面接动名词，如 can't help noticing（不禁注意到），不能接动词原形。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was the mistake the author made?",
+   "zh": "作者犯的错误是什么？",
+   "a": "The mistake was his own: he trusted the timetable and boarded the 'express train to Westhaven' that, according to a footnote, had been suspended, because he failed to notice a tiny asterisk.",
+   "aZh": "错在作者自己：他轻信时刻表，上了那趟据脚注所说'已暂停运行'的'开往西黑文的快车'，只因他没有注意到那个小小的星号。",
+   "hint": "出处：课文末尾 'A tiny asterisk conducted me to a footnote…It said: \"This service has been suspended.\"'"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the timetable tell the author about the train to Westhaven?",
+   "zh": "时刻表上关于开往西黑文的那趟车告诉了他什么？",
+   "a": "It was an express train that went direct from his local station, and the journey would last a mere hour and seventeen minutes.",
+   "aZh": "那是一趟从他就近的车站直达的快车，全程仅需1小时17分钟。",
+   "hint": "出处：'there was an express train to Westhaven. It went direct from my local station and the journey lasted a mere hour and seventeen minutes.'"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the author not find it strange that many local people got on the same train?",
+   "zh": "为什么许多当地人也上了这趟车，作者却并不觉得奇怪？",
+   "a": "He reflected that there must be a great many local people besides himself who wished to take advantage of this excellent service.",
+   "aZh": "他当时想，除他之外，一定还有很多当地人想利用这趟优质列车之便。",
+   "hint": "出处：'I reflected that there must be a great many local people besides myself who wished to take advantage of this excellent service.'"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the author finally find out the truth about the train?",
+   "zh": "作者最终是怎样发现这趟车的真相的？",
+   "a": "The station master glanced briefly at the timetable and told him to look again; a tiny asterisk conducted him to a footnote at the bottom of the page, which said the service had been suspended.",
+   "aZh": "站长迅速扫了一眼时刻表，让他再看一遍；一个小小的星号把他引向该页底部的脚注，上面写着此趟列车已暂停运行。",
+   "hint": "出处：'A tiny asterisk conducted me to a footnote at the bottom of the page. It said: \"This service has been suspended.\"'"
+  },
+  {
+   "kind": "think",
+   "q": "What does the story suggest about trusting timetables and blaming the railway authorities?",
+   "zh": "这个故事对我们'信任时刻表'和'责怪铁路当局'说明了什么？",
+   "a": "It suggests we should read carefully and check the small print: when mistakes occur, they are more likely to be ours than theirs, so it is all too easy—and unfair—to blame the railway authorities.",
+   "aZh": "它说明我们应当细读、留意那些小字：出了差错，多半是我们自己而非铁路当局的错，因此怪罪铁路部门往往既轻率又不公平。",
+   "hint": "出处：'when mistakes occur, they are more likely to be ours than theirs.'"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：经过多年的适应，大多数人对火车时刻表产生了不可动摇的信念。",
+   "a": "After years of conditioning, most of us have developed an unshakable faith in railway timetables.",
+   "note": "现在完成时＋unshakable faith"
+  },
+  {
+   "q": "改为被动语态：Signals can hold up even a mighty express train.",
+   "a": "Even a mighty express train can be held up by signals.",
+   "note": "情态动词被动 can be done"
+  },
+  {
+   "q": "用括号内动词的适当形式填空：Ships may be ______ (delay) by storms, and flights may be ______ (cancel) because of bad weather.",
+   "a": "delayed; cancelled",
+   "note": "情态动词后接被动语态"
+  },
+  {
+   "q": "改错：This service have been suspended.",
+   "a": "This service has been suspended.",
+   "note": "第三人称单数用 has"
+  },
+  {
+   "q": "汉译英，用 more likely … than：事实上，差错很可能是我们自己，而不是铁路当局的。",
+   "a": "The truth is that when mistakes occur, they are more likely to be ours than theirs.",
+   "note": "比较级 more likely … than"
+  },
+  {
+   "q": "写出下列词的中文或英文：express, timetable, punctual, conductor",
+   "a": "express 快车；timetable 时刻表；punctual 准时的；conductor 列车员",
+   "note": "本课核心词汇"
+  },
+  {
+   "q": "用一般过去时填空：When I ______ (board) the train, I ______ (notice) that a great many local people ______ (get) on as well.",
+   "a": "boarded; noticed; got",
+   "note": "一般过去时叙述过去动作"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "什么原因可能暂时打乱铁路运行？",
+   "options": [
+    "An exceptionally heavy snowfall.",
+    "A sudden storm at sea.",
+    "The cancellation of a flight.",
+    "A mistake in the timetable."
+   ],
+   "answer": 0,
+   "note": "Only an exceptionally heavy snowfall…dislocate railway services."
+  },
+  {
+   "q": "作者从时刻表中得知，开往西黑文的快车全程需要多久？",
+   "options": [
+    "One hour and seventeen minutes.",
+    "Two hours exactly.",
+    "Ninety miles per hour.",
+    "Thirty minutes only."
+   ],
+   "answer": 0,
+   "note": "the journey lasted a mere hour and seventeen minutes"
+  },
+  {
+   "q": "当火车一站接一站地慢下来时，作者察觉到了什么？",
+   "options": [
+    "It was chugging along at barely thirty miles an hour.",
+    "It was roaring down the line at ninety miles an hour.",
+    "It had stopped for good at Widley.",
+    "It had taken a wrong line."
+   ],
+   "answer": 0,
+   "note": "not…ninety miles an hour, but barely chugging along at thirty"
+  },
+  {
+   "q": "作者问那位乘客时，对方是如何回答的？",
+   "options": [
+    "He had not even heard of the Westhaven Express.",
+    "He said the train was held up by signals.",
+    "He confirmed that it was the express.",
+    "He advised him to get off at Widley."
+   ],
+   "answer": 0,
+   "note": "he had not even heard of it"
+  },
+  {
+   "q": "站长为什么说根本没有这趟车？",
+   "options": [
+    "Because the service had been suspended.",
+    "Because the timetable was printed wrongly.",
+    "Because the author had taken the wrong train.",
+    "Because the express runs only in winter."
+   ],
+   "answer": 0,
+   "note": "This service has been suspended."
+  },
+  {
+   "q": "那个星号最终把作者引向了什么？",
+   "options": [
+    "A footnote at the bottom of the page.",
+    "The address of the railway authority.",
+    "A later train in the timetable.",
+    "A complaint form at the station."
+   ],
+   "answer": 0,
+   "note": "A tiny asterisk conducted me to a footnote"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Back in the Old Country",
+ "subtitle": "重返故里",
+ "lead": {
+  "question": "满怀期待重返故里，为何叙述者连母亲的墓地都找不到？",
+  "warmup": "本课是一篇游子归乡记：父亲在他五岁时带他出国，母亲惨死后，父亲决意移居异国，把根扎在了新的土地上。临终前，他要儿子独自回故乡，代自己为母亲扫墓。儿子租车、买地图，靠父亲反复描述的路标辨路，却在一片本不该有湖的地方迷了路。请留意 as if 虚拟句与分词状语写出的失落与错愕。",
+  "goals": ["读懂叙述者一家离乡、扎根异国又重返故里的情感脉络。", "掌握 native country、emigrate、foreign、familiar、submerge 等本课核心词汇。", "辨析 It was not that...but that...、must have done 与 as if 虚拟句的用法。", "学会用定语从句和分词状语把叙述写得连贯而有画面感。"],
+  "summary": "叙述者五岁随父出国，母亲死于意外后，父亲为摆脱伤痛而移居异国，从此既当父亲又当母亲，根也扎在了新的土地上。他一直想回故乡，却不愿久留；病重时他要儿子代自己返乡扫墓。他租车买图，凭父亲讲过的路标认路，却在十英里外只见到一片湖。一位骑马人告诉他：村子与山谷已被水淹没，那湖是人工水库。",
+  "tips": "易错提醒：emigrate 指“移出”本国，immigrate 指“移入”他国，切勿混用；he made me promise to go on my own 中 promise 前不加 to，on one's own 意为“独自、靠自己”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Did the narrator find is mother's grave?", "zh": "叙述者找到他母亲的墓地了吗？", "a": "No, he did not. The village no longer existed, because it and all the valley had been submerged; the lake he saw was in fact a man-made reservoir, so there was no village, no church spire and no grave to visit.", "aZh": "没有找到。那个村子已不复存在，它和整个山谷都被水淹没，他看见的湖其实是一座人工水库，因此既没有村子，也没有教堂尖顶和墓地。", "hint": "见课文倒数三句：He said that there was now no village… The village no longer existed because it had been submerged, and all the valley too. The lake was not a natural one, but a man-made reservoir."},
+  {"kind": "detail", "q": "Why did the narrator's father decide to emigrate?", "zh": "叙述者的父亲为什么决定移居国外？", "a": "Because after his wife's death in a tragic accident he could not quickly recover from the shock and loneliness, and everything around him was full of her presence, continually reopening the wound. So he decided to emigrate.", "aZh": "因为妻子在一次事故中惨死后，他久久无法从打击与孤独中恢复过来，身边的一切都是她的影子，不断勾起他的伤感，于是他决定移居他国。", "hint": "见课文第四、五、六句，注意 continually reopening the wound。"},
+  {"kind": "detail", "q": "How did the father rebuild the family's life in the new country?", "zh": "父亲在新的国家里怎样重建父子二人的生活？", "a": "He became absorbed in making a new life for the two of them, so that he gradually ceased to grieve. He did not marry again, and though the narrator was brought up without a woman's care, he lacked for nothing, for his father was both father and mother to him.", "aZh": "他专心致志地为父子俩开创新生活，渐渐不再伤心。他没有再娶，虽然叙述者在没有母亲照料的环境里长大，却什么都不缺，因为父亲既当父亲又当母亲。", "hint": "见课文第七、八句，注意 be（become）absorbed in 与 lack for nothing。"},
+  {"kind": "detail", "q": "What did the narrator expect to see ten miles from the town, and what did he see instead?", "zh": "出小镇十英里后，叙述者本应看到什么？实际看到的又是什么？", "a": "According to his father, he should have been looking at farms and cottages in a valley, with the spire of the church of their village showing in the far distance. But he could see no valley, no farms, no cottages and no church spire — only a lake.", "aZh": "按父亲的说法，他本应看到山谷里的农场和村舍，远处还有老家教堂的尖顶。可他既看不到山谷、农场和村舍，也看不到教堂尖顶，只见一片湖水。", "hint": "见课文第十八、十九句，注意 should be looking at 与 only a lake 的对照。"},
+  {"kind": "think", "q": "Why does the narrator's homecoming turn out to be a journey into 'a nightmare country'?", "zh": "为什么这次归乡之旅竟成了一场“噩梦之地”？", "a": "Because nothing his father had described still existed: the village and all the valley had been submerged, and the lake that puzzled him was not a natural one but a man-made reservoir covering his home. His father's careful account of every milestone only made the loss harder, and there was nobody in sight to help him.", "aZh": "因为父亲讲过的一切都已不复存在：村子与整个山谷被水淹没，那片令他困惑的湖并非天然，而是盖在他故乡之上的人工水库。父亲对每个路标的细致描述反而让这份失落更重，而四顾无人可以求助。", "hint": "见课文最后五句，尤其 the lake was not marked on the map 与 not a natural one, but a man-made reservoir。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：他决定离开祖国，移居国外。", "a": "He decided to leave his native country and emigrate.", "note": "native country 祖国；emigrate 移出"},
+  {"q": "汉译英：我确信这段路对我来说会是很熟悉的。", "a": "I was positive I should recognize it as familiar territory.", "note": "positive 确信；familiar 熟悉的"},
+  {"q": "填空：He did not marry again, and I was brought up in a ___ country without a woman's care; but I ___ for nothing.", "a": "foreign；lacked", "note": "foreign country；lack for nothing"},
+  {"q": "句型转换：用 as if 改写为虚拟语气——It seemed that I had stumbled into a nightmare country.", "a": "I felt as if I had stumbled into a nightmare country.", "note": "as if + 过去完成表虚拟"},
+  {"q": "句型转换：用非限制性定语从句合并——I bought a comprehensive book of maps. I found it most helpful on the cross-country journey.", "a": "I bought a comprehensive book of maps, which I found most helpful on the cross-country journey.", "note": "which 引非限制性定语从句"},
+  {"q": "改错：I decided that I must took a wrong turning somewhere.", "a": "I decided that I must have taken a wrong turning somewhere.", "note": "must have done 推测过去"},
+  {"q": "用现在分词改写：Everything around him was full of her presence and it continually reopened the wound.", "a": "Everything around him was full of her presence, continually reopening the wound.", "note": "现在分词作结果状语"}
+ ],
+ "quiz": [
+  {"q": "叙述者最终找到母亲的墓地了吗？", "options": ["No. The village and all the valley had been submerged.", "Yes, after he asked a man on horseback the way.", "Yes, he found it beside the old church spire.", "No, because he never reached his native country at all."], "answer": 0, "note": "村子与山谷皆已淹没"},
+  {"q": "父亲为什么决定移居国外？", "options": ["Because everything around him reminded him of his dead wife.", "Because he wanted to make a fortune in a new country.", "Because his son had begged him to leave the old country.", "Because there was no work for him in his native country."], "answer": 0, "note": "触景伤情，故远走他乡"},
+  {"q": "父亲在新国家里的生活是怎样的？", "options": ["He became absorbed in making a new life and gradually ceased to grieve.", "He married again and soon forgot his first wife.", "He never made any friends and never ceased to grieve.", "He went back to his old village to settle for good."], "answer": 0, "note": "专心开创新生活，渐不再伤心"},
+  {"q": "关于那本详尽的地图册，下面哪句符合课文？", "options": ["He found it most helpful on the cross-country journey but did not think he should need it on the last stage.", "He never opened it once during the whole journey.", "He bought it only after he had lost his way near the town.", "It clearly marked the man-made reservoir in the valley."], "answer": 0, "note": "长途有用，末段以为不需"},
+  {"q": "父亲对最后一段路的描述是什么？", "options": ["He should be looking at farms and cottages in a valley, with the church spire in the far distance.", "He should be crossing a wide river by a covered bridge.", "He should be passing a railway station and a busy market town.", "He should be driving through a thick forest for ten miles."], "answer": 0, "note": "十英里后应见村舍与尖顶"},
+  {"q": "“The lake was not a natural one, but a man-made reservoir.” 这句话说明了什么？", "options": ["A reservoir had been built and it had drowned the village and the whole valley.", "The lake had always been there but was missing from his map.", "A long drought had turned a natural lake into a reservoir.", "His father had described this lake to him years before."], "answer": 0, "note": "水库淹没了村庄与山谷"}
+ ]
+}

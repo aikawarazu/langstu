@@ -1,0 +1,164 @@
+{
+ "unitId": "u032",
+ "title": "A Lost Ship",
+ "subtitle": "一艘失踪的船",
+ "lead": {
+  "question": "打捞“埃尔科”号的船员找到他们想找的沉船了吗？他们最终发现了什么？",
+  "warmup": "打捞（salvage）失败后，小船“埃尔科”号正返航。船长收到大陆电报，命他放弃搜寻，可那艘沉船载着珍贵的金条（gold bullion），他决定再试一次。他们用大网搜索海床（sea bed），捞起一只只箱子。船员们原以为找到了目标，箱中之物却证明他们弄错了。本课用倒叙与被动语态，讲述一次意外的发现。",
+  "goals": [
+   "读懂课文大意：一次失败的打捞如何意外揭开“卡伦”号的谜团",
+   "掌握本课核心词汇：salvage、wreck、cargo、log book、sea bed 等",
+   "熟练运用过去完成时（had + 过去分词）表示更早的过去",
+   "辨析被动语态与过去完成时结合（had been done）的用法"
+  ],
+  "summary": "“埃尔科”号的打捞一度彻底失败。船长不顾电报，决定再试一次，用强力网遍搜海床。一只箱子被捞起，船员们以为找到了目标，里面却是水手菲尔丁的私人物品。一门大炮表明那是艘巡洋舰，一封未写完的信透露船名“卡伦”号，航海日志帮船长拼凑出它的遭遇：1943年护航驶往俄国时被敌方潜艇击沉。",
+  "tips": "注意过去完成时与被动语态叠加时的语序：had + been + 过去分词，如 had been sunk、had been written，切勿漏掉 been。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Did the crew of the Elkor find what they were looking for? Why?",
+   "zh": "“埃尔科”号的船员找到他们要找的东西了吗？为什么？",
+   "a": "No, they didn't. They were looking for a sunken ship that had been carrying a precious cargo of gold bullion, but they never found it. Instead, they found another ship—the Karen—which had been sunk many years before.",
+   "aZh": "没有。他们要找的是一艘载有珍贵金条的沉船，却始终没找到；他们找到的是另一艘沉没多年的船——“卡伦”号。",
+   "hint": "课文第1、4句点明打捞彻底失败、目标是金条；第6、7句说明捞上来的其实是另一艘沉船。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the captain do despite receiving the radio message?",
+   "zh": "尽管收到了电报，船长做了什么？",
+   "a": "Despite the message, the captain of the Elkor decided to try once more.",
+   "aZh": "尽管接到了电报，“埃尔科”号的船长还是决定再试一次。",
+   "hint": "课文第4句末：'Despite the message, the captain... decided to try once more.'"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the chest that was raised from the sea bed contain?",
+   "zh": "从海床捞上来的那只箱子里装的是什么？",
+   "a": "It contained the personal belongings of a seaman, Alan Fielding—books, clothing and photographs, together with letters which the seaman had once received from his wife.",
+   "aZh": "里面装着水手艾伦·菲尔丁的私人物品——书籍、衣服、照片，以及他曾经从妻子那里收到的信件。",
+   "hint": "课文第8、9句：'The chest contained the personal belongings of a seaman, Alan Fielding.'"
+  },
+  {
+   "kind": "detail",
+   "q": "How was the name of the lost ship discovered?",
+   "zh": "沉船的名字是怎样被发现的？",
+   "a": "In another chest containing a ship's officer's belongings there was an unfinished letter written on March 14th, 1943, and from it the captain learnt that the name of the lost ship was the Karen.",
+   "aZh": "在另一只装有船上军官财物的箱子里，有一封写于1943年3月14日却未写完的信，船长从信中得知沉船名叫“卡伦”号。",
+   "hint": "课文第13、14句：from the unfinished letter the captain learnt the name was the Karen。"
+  },
+  {
+   "kind": "think",
+   "q": "Why was the ship's log book the most valuable find of all?",
+   "zh": "为什么航海日志是打捞到的最有价值的东西？",
+   "a": "Because parts of it were still readable, and from it the captain was able to piece together all the information that had come to light—that the Karen had been sailing in a convoy to Russia when she was torpedoed by an enemy submarine.",
+   "aZh": "因为日志有一部分仍清晰可读，船长据此可以拼凑出所有已经得以查明的情况——“卡伦”号当年在护航驶往俄国途中被敌方潜艇用鱼雷击沉。",
+   "hint": "课文第15、16、17句：log book → piece together the information → torpedoed by an enemy submarine。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：打捞工作彻底失败了。",
+   "a": "The salvage operation had been a complete failure.",
+   "note": "过去完成时的被动语态"
+  },
+  {
+   "q": "用 be 的适当形式填空：The sea bed ___ (scour) with powerful nets, and a chest ___ (raise) from the bottom.",
+   "a": "was scoured; was raised",
+   "note": "一般过去时的被动语态"
+  },
+  {
+   "q": "把主动句改成被动句：An enemy submarine torpedoed the Karen.",
+   "a": "The Karen was torpedoed by an enemy submarine.",
+   "note": "宾语提前，动词变被动"
+  },
+  {
+   "q": "改错：The captain knew that another attempt will be made later.",
+   "a": "The captain knew that another attempt would be made later.",
+   "note": "宾语从句时态需呼应"
+  },
+  {
+   "q": "汉译英：船长命令船员们尽量从沉船中打捞物品。",
+   "a": "The captain of the Elkor ordered his men to salvage as much as possible from the wreck.",
+   "note": "salvage...from the wreck"
+  },
+  {
+   "q": "用分词短语改写：a ship which had been sunk many years before",
+   "a": "a ship sunk many years before",
+   "note": "过去分词作后置定语"
+  },
+  {
+   "q": "填空：The most valuable find of all was the ship's ___ ___, parts of which it was still possible to read.",
+   "a": "log book",
+   "note": "航海日志，含日志本义"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文开头说打捞工作“彻底失败了”，正确的英文表达是？",
+   "options": [
+    "The salvage operation had been a complete failure.",
+    "The salvage operation had been completely failed.",
+    "The salvage operation was a complete failure had been.",
+    "The salvage operation had been a complete succeed."
+   ],
+   "answer": 0,
+   "note": "salvage operation + 过去完成时被动"
+  },
+  {
+   "q": "“埃尔科”号船长收到电报后的决定是？",
+   "options": [
+    "He gave up the search at once.",
+    "He decided to try once more.",
+    "He returned home without delay.",
+    "He sent a message to the mainland."
+   ],
+   "answer": 1,
+   "note": "Despite the message... decided to try once more"
+  },
+  {
+   "q": "从海底捞起的那只箱子里装的是谁的物品？",
+   "options": [
+    "A ship's officer.",
+    "A naval official.",
+    "A seaman named Alan Fielding.",
+    "The captain's wife."
+   ],
+   "answer": 2,
+   "note": "the personal belongings of a seaman, Alan Fielding"
+  },
+  {
+   "q": "船长根据什么判断那艘船是巡洋舰（cruiser）？",
+   "options": [
+    "A letter written on March 14th, 1943.",
+    "A heavy gun that was raised.",
+    "The ship's log book.",
+    "A photograph of the crew."
+   ],
+   "answer": 1,
+   "note": "From a heavy gun that was raised..."
+  },
+  {
+   "q": "沉船“卡伦”号当年遭遇了什么？",
+   "options": [
+    "It was wrecked in a storm.",
+    "It was torpedoed by an enemy submarine while sailing in a convoy to Russia.",
+    "It was abandoned by its crew.",
+    "It hit rocks near the Barents Sea."
+   ],
+   "answer": 1,
+   "note": "sailing in a convoy to Russia... torpedoed by an enemy submarine"
+  },
+  {
+   "q": "打捞到的所有物品最后被送往哪里？",
+   "options": [
+    "The Ministry of Defence.",
+    "The Barents Sea Museum.",
+    "The War Museum.",
+    "The ship's home port."
+   ],
+   "answer": 2,
+   "note": "All the items... were sent to the War Museum"
+  }
+ ]
+}

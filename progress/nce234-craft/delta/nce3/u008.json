@@ -1,0 +1,35 @@
+{
+ "title": "A Famous Monastery",
+ "subtitle": "著名的修道院",
+ "lead": {
+  "question": "著名的圣伯纳德修道院里，那些狗有什么用途？修道士为何更喜欢冬天？",
+  "warmup": "在瑞士与意大利交界处，海拔2,473米的圣伯纳德大山口是欧洲最高的山口，11世纪修建的著名修道院就坐落在离山口约一英里处。几百年来，这里驯养的圣伯纳德犬在风雪中拯救了无数翻山者的生命。每到冬天，气温降到零下30度，修道院便归于宁静。走进这座修道院，感受它四季不同的生活。",
+  "goals": ["读懂圣伯纳德大山口与修道院的地理位置及彼此距离", "掌握圣伯纳德犬的来历与用途，分清现在完成时与一般现在时的用法", "学会 now that、despite、whenever、prefer…to… 等连接与搭配的用法", "体会修道院夏冬两季截然不同的生活景象"],
+  "summary": "圣伯纳德大山口连接瑞士与意大利，是欧洲最高的山口，11世纪修建的修道院距它约一英里。几百年来，院里驯养的圣伯纳德犬在风雪中救过无数翻山者；它们最早从亚洲引进，罗马时代便用作看门狗。夏天游客成千上万，狗被关进围栏；冬天客人稀少，气温低至零下30度，修道士得以清静，狗也更自由。",
+  "tips": "prefer A to B 的 to 是介词，后接名词或动名词，别误写成 prefer A than B，如 prefer winter to summer（喜欢冬天胜过夏天）。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What are the St. Bernard dogs used for?", "zh": "圣伯纳德犬的用途是什么？", "a": "They are used to save the lives of travellers who attempt to cross the dangerous Pass. The dogs are still sent out into the snow whenever a traveller is in difficulty.", "aZh": "它们用来拯救那些试图翻越危险山口的游客的生命。每当有游客遇险，它们就被派到雪地里去救援。", "hint": "见课文第4句和第6句：'St. Bernard dogs have saved the lives of travellers…' 及 '…the dogs are still sent out into the snow whenever a traveller is in difficulty.'"},
+  {"kind": "detail", "q": "Where is the famous monastery of St. Bernard located, and when was it founded?", "zh": "著名的圣伯纳德修道院位于何处？建于何时？", "a": "It lies about a mile away from the Pass and was founded in the eleventh century.", "aZh": "它位于离山口约一英里处，建于11世纪。", "hint": "见课文第3句：'…the famous monastery of St. Bernard, which was founded in the eleventh century, lies about a mile away.'"},
+  {"kind": "detail", "q": "Why do the monks prefer winter to summer?", "zh": "修道士们为什么更喜欢冬天而不喜欢夏天？", "a": "Because in winter they have more privacy, and the dogs have greater freedom, since they are allowed to wander outside their enclosure.", "aZh": "因为冬天他们能有更多无人打扰的清静，而狗也更自由，可以被放出围栏到外面四处遛达。", "hint": "见课文：'The monks prefer winter to summer for they have more privacy.' 及 'The dogs have greater freedom, too…'。"},
+  {"kind": "detail", "q": "What happens to the dogs during the summer months, and why?", "zh": "夏天的时候狗会被怎样对待？原因是什么？", "a": "They have to be kept in a special enclosure, because there are so many people about—thousands of people visit the monastery in cars.", "aZh": "它们不得不被关在一个专门的围栏里，因为周围游客太多——成千上万的人驱车前来参观修道院。", "hint": "见课文：'During the summer months, the monastery is very busy…' 与 'As there are so many people about, the dogs have to be kept in a special enclosure.'"},
+  {"kind": "think", "q": "Despite the new tunnel, why do some people still rashly attempt to cross the Pass on foot?", "zh": "尽管有了新隧道，为什么仍有人鲁莽地徒步翻越山口？", "a": "The tunnel makes the crossing less dangerous, but a few people still rashly attempt to cross on foot—perhaps for adventure or sport. That is exactly why the dogs are still needed today.", "aZh": "隧道让翻越山口不再那么危险，但仍有少数人鲁莽地徒步翻越——也许是为了冒险或运动。这也正是如今仍然需要这些狗的原因。", "hint": "见课文：'Despite the new tunnel, there are still a few people who rashly attempt to cross the Pass on foot.' 结合全文理解。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：几百年来，圣伯纳德犬一直拯救着翻越这道危险山口的旅行者的生命。", "a": "For hundreds of years, St. Bernard dogs have saved the lives of travellers crossing the dangerous Pass.", "note": "现在完成时表持续结果"},
+  {"q": "汉译英：冬天，气温降到零下30度，很少有人企图翻越山口。", "a": "In winter, the temperature drops to minus 30 degrees and very few people attempt to cross the Pass.", "note": "一般现在时叙述常态"},
+  {"q": "句型转换：用 Now that 改写 'As there are so many people about, the dogs have to be kept in a special enclosure.'", "a": "Now that there are so many people about, the dogs have to be kept in a special enclosure.", "note": "now that 表既然/由于"},
+  {"q": "填空：The monks prefer winter ______ summer because they have more privacy.", "a": "to", "note": "prefer A to B 固定搭配"},
+  {"q": "改错：Despite of the new tunnel, there are still a few people who rushly attempt to cross the Pass.", "a": "Despite the new tunnel, there are still a few people who rashly attempt to cross the Pass.", "note": "去掉 of；正确词是 rashly"},
+  {"q": "填空：The dogs are kept in a special ______ so that they cannot wander about among the crowds.", "a": "enclosure", "note": "enclosure 意为围栏"},
+  {"q": "汉译英：这些热爱高山清静的年轻人每年都受到修道院的热情欢迎。", "a": "These young people, who love the peace of the mountains, always receive a warm welcome at the monastery every year.", "note": "who 引导定语从句"}
+ ],
+ "quiz": [
+  {"q": "根据课文，圣伯纳德犬最出名的是哪一点？", "options": ["Saving the lives of travellers lost in the snow", "Being a great summer tourist attraction", "Pulling sledges for the monks in winter", "Frightening away the skiers at the monastery"], "answer": 0, "note": "救人是它扬名之处"},
+  {"q": "填空：'For hundreds of years, St. Bernard dogs ______ the lives of travellers.' 空白处应填：", "options": ["have saved", "saved", "are saving", "save"], "answer": 0, "note": "for+时间段用现在完成时"},
+  {"q": "'Now that a tunnel has been built, the Pass is less dangerous.' 中 now that 的含义是：", "options": ["Because / Since", "Although", "As soon as", "In case"], "answer": 0, "note": "now that 表原因"},
+  {"q": "The monks prefer winter to summer 的意思是：", "options": ["They like winter better than summer", "They dislike both winter and summer", "They like summer better than winter", "They treat winter and summer equally"], "answer": 0, "note": "prefer A to B 喜A胜B"},
+  {"q": "与 'Despite the new tunnel, a few people still attempt to cross the Pass on foot.' 意思最接近的是：", "options": ["Although a tunnel has been built, a few people still cross on foot", "Because a tunnel has been built, nobody crosses on foot", "The tunnel has stopped all people from crossing on foot", "Since the tunnel is new, everyone crosses the Pass by car"], "answer": 0, "note": "despite 相当于 although"},
+  {"q": "哪个词最能形容修道士们冬天安静的生活？", "options": ["Solitary", "Crowded", "Noisy", "Dangerous"], "answer": 0, "note": "solitary 意为独处的"}
+ ]
+}

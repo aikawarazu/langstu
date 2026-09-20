@@ -1,0 +1,35 @@
+{
+ "title": "Our Neighbour, the River",
+ "subtitle": "我们的邻居，河流",
+ "lead": {
+  "question": "面对不断上涨的洪水，邻居一家为何宁愿乘筏逃离，也不肯守在自家农场？",
+  "warmup": "在本课中，一条河既是农场的东界，也是全家人生活的依靠：从河里抽水灌溉，向河里倾诉秘密，沿河迎接四季。然而久雨之后河水泛滥，邻居的农场被淹，一家人竟乘着筏子逃了出来。读课文时，请注意作者如何用定语从句和被动语态，把这段与河流相依又相争的往事娓娓道来。",
+  "goals": ["读懂河流在农场生活与农业劳作中的双重作用，理清全文叙事脉络。", "掌握 river、flood、current、bank 等与水相关词汇及其固定搭配。", "辨析并运用定语从句（which/who/whose）与被动语态描述事物和事件。", "体会作者对河流既依赖又敬畏的复杂情感，理解邻居弃家的心理。"],
+  "summary": "课文讲述一条河与农场的深厚关系：河水滋养农田，家人向它倾诉秘密，沿河迎接四季。久雨之后河水偶尔漫过堤岸，作者庆幸自家低洼地不多，却为地势低洼的新邻居担忧。洪水冲断电话，一家人轮流从顶楼守望；死羊漂过，一匹马奋力游水，最后邻居全家乘筏出现。男人们用船篙钩住筏子，把它拽出激流拖回岸边。",
+  "tips": "注意 bank 指河岸、current 指水流激流、flood 指洪水，勿与 bank（银行）混淆；'overflow its banks' 中 banks 必须用复数。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why had the neighbours left their farm?", "zh": "邻居一家为什么离开了自己的农场？", "a": "Because they must have become unduly frightened by the rising flood. Their house had sound foundations and would have stood stoutly even if it had been almost submerged.", "aZh": "因为他们一定是被不断上涨的洪水吓坏了。他们的房子地基牢固，即使几乎被淹没也不会倒塌。", "hint": "见课文倒数第三句：We realized that they must have become unduly frightened by the rising flood..."},
+  {"kind": "detail", "q": "How did the river play an important part in the family's life?", "zh": "这条河在全家人的生活中发挥了怎样的重要作用？", "a": "It forms the eastern boundary of the farm. Without it they could not make a living, and they have to pump from the river for farm use, because the spring water is only enough for the houses.", "aZh": "它构成农场的东部边界。没有它他们无法生存，而且泉水只够家庭生活用，他们必须从河里抽水用于农业。", "hint": "见课文前三句。"},
+  {"kind": "detail", "q": "Why does the family tell the river all their secrets?", "zh": "家里人为什么要把所有秘密都告诉这条河？", "a": "Because they know instinctively, just as beekeepers with their bees, that misfortune might overtake them if the important events of their lives were not related to it.", "aZh": "因为他们本能地懂得，就像养蜂人对自己蜜蜂那样，若不把生活中的重大事件告诉它，就可能大祸临头。", "hint": "见课文第五句，注意 instinctively 与 beekeepers 的比喻。"},
+  {"kind": "detail", "q": "After a long period of rain, what might happen, and which farm was most at risk?", "zh": "久雨之后可能发生什么？哪座农场最危险？", "a": "The river may overflow its banks. Only the lower fields, a very small proportion of the author's farm, are affected; but other farms, including their low-lying neighours' farm, are less favourably sited and flooding may spell disaster for their owners.", "aZh": "河水可能漫过堤岸。作者农场只有很小比例的低洼地受影响，但其他农场，包括新邻居那块低洼农场，地势不佳，洪水可能给它们的主人带来灾难。", "hint": "见课文第九至十三句，注意 less favorably sited。"},
+  {"kind": "think", "q": "The family waded out with boathooks to rescue the raft. What does this detail suggest about them?", "zh": "全家人带着船篙涉水去救筏子，这一细节说明了什么？", "a": "It suggests courage and true neighbourliness: although the current was dangerous, they risked the flooded meadows in the hope of grappling a corner of the raft and pulling it out of the current towards their bank — and they still think it a miracle that they succeeded.", "aZh": "这体现了勇气与真正的邻里之情：尽管激流危险，他们仍冒险涉过被淹的草场，希望能钩住筏子一角，把它拽出激流拖回岸边，至今仍觉得成功是个奇迹。", "hint": "见课文最后两句。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：要是没有这条河，我们就无法生存下去。", "a": "Without it we could not make a living.", "note": "without 引导虚拟条件"},
+  {"q": "汉译英：所有的牲口已被赶进畜圈里。", "a": "All the cattle had been moved into stalls.", "note": "过去完成时被动语态"},
+  {"q": "句型转换：用定语从句合并——The river forms the eastern boundary of our farm. It has always played an important part in our lives.", "a": "The river which forms the eastern boundary of our farm has always played an important part in our lives.", "note": "which 作主语不可省略"},
+  {"q": "填空：We were worried about our nearest neighbours, ___ farm was low-lying and ___ were newcomers to the district.", "a": "whose；who", "note": "whose 表所属，who 指人"},
+  {"q": "改错：Flooding can sometimes spell disaster to their owners.", "a": "Flooding can sometimes spell disaster for their owners.", "note": "固定搭配 spell disaster for"},
+  {"q": "用现在分词改写：A raft appeared, and it looked rather like Noah's ark, and it carried the whole family.", "a": "A raft appeared, looking rather like Noah's ark, carrying the whole family.", "note": "分词作伴随状语"},
+  {"q": "选词填空（river / current / bank）：We feared the strength of the ___ would stop the horse landing before it tired; after long rain the river may overflow its ___.", "a": "current；banks", "note": "current 激流；banks 河岸复数"}
+ ],
+ "quiz": [
+  {"q": "“谋生”用下面哪个短语？", "options": ["make a life", "do a living", "make a living", "take a living"], "answer": 2, "note": "make a living 谋生"},
+  {"q": "课文 'the river may overflow its banks' 中 banks 指什么？", "options": ["places where money is kept", "the sides of a river", "rows of seats in a hall", "steps leading to water"], "answer": 1, "note": "banks 此处指河岸，须用复数"},
+  {"q": "下列哪句正确合并了定语从句？", "options": ["The river which forms the eastern boundary of our farm has always played an important part in our lives.", "The river who forms the eastern boundary of our farm has always played an important part in our lives.", "The river what forms the eastern boundary of our farm has always played an important part in our lives.", "The river which forms the eastern boundary of our farm, it has always played an important part in our lives."], "answer": 0, "note": "先行词为物用 which"},
+  {"q": "下列哪句被动语态正确？", "options": ["All the cattle had moved into stalls.", "All the cattle has been moved into stalls.", "All the cattle had been moving into stalls.", "All the cattle had been moved into stalls."], "answer": 3, "note": "过去完成时被动 had been done"},
+  {"q": "课文 'the strength of the current' 中 current 最接近的意思是：", "options": ["something happening now", "the flowing water of a river", "a flow of electricity", "a general tendency of events"], "answer": 1, "note": "current 此处指水流、激流"},
+  {"q": "下列哪项搭配正确？", "options": ["spell disaster to their owners", "spell disaster at their owners", "spell disaster for their owners", "spell disaster on their owners"], "answer": 2, "note": "spell disaster for sb 给某人带来灾难"}
+ ]
+}

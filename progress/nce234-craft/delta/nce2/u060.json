@@ -1,0 +1,54 @@
+{
+ "title": "The future",
+ "subtitle": "未来",
+ "text": [
+  {"lesson": 60, "title": "The future", "kind": "课文 · 短文", "lines": [
+   {"en": "At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.", "zh": "在乡村的一个集市上，我决定去拜访一位名叫别林斯基夫人的算命师。"},
+   {"en": "I went into her tent and she told me to sit down.", "zh": "我走进她的帐篷，她让我坐下。"},
+   {"en": "After I had given her some money, she looked into a crystal ball and said, 'A relation of yours is coming to see you.'", "zh": "我给了她一些钱之后，她盯着水晶球说道：“你的一个亲戚就要来看你了。”"},
+   {"en": "'She will be arriving this evening and she intends to stay for a few days.'", "zh": "“她将在今晚到达，并打算住上几天。”"},
+   {"en": "'The moment you leave this tent, you will get a big surprise.'", "zh": "“你一离开这个帐篷，就会得到一个大大的惊喜。”"},
+   {"en": "'A woman you know well will rush towards you. She will speak to you and then she will lead you away from this place. That is all.'", "zh": "“一位你很熟悉的女人会朝你冲过来。她会跟你说话，然后把你从这个地方带走。就这些。”"},
+   {"en": "As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.", "zh": "我一走出去，就把别林斯基夫人忘得一干二净，因为我妻子正急匆匆地朝我走来。"},
+   {"en": "'Where have you been hiding?' she asked impatiently.", "zh": "“你一直躲到哪儿去了？”她不耐烦地问道。"},
+   {"en": "'Your sister will be here in an hour and we must be at the station to meet her. We are late already.'", "zh": "“你妹妹一小时后就要到了，我们得去车站接她。我们已经迟到了。”"},
+   {"en": "As she walked away, I followed her out of the fair.", "zh": "她走开的时候，我跟着她走出了集市。"}
+  ]}
+ ],
+ "lead": {
+  "question": "算命师预言的“大惊喜”究竟是什么？她的话为何会“应验”？",
+  "warmup": "想象你走进集市边的一顶帐篷，里面坐着自称能预见未来的人。她盯着水晶球说：会有亲戚来访，还会有一个大惊喜。你会信吗？很多“预言”之所以显得灵验，是因为说得含糊、谁都能对号入座。读这篇小故事时请留意：真正知道你去向的人，往往不是算命师，而是家人。",
+  "goals": [
+   "掌握 fortune-teller、crystal、relation、impatiently、intend 等核心词汇与搭配",
+   "辨析 will do、be going to 与将来进行时 will be doing 的用法差别",
+   "学会用 a relation of yours、the moment、as soon as 等结构连贯叙事",
+   "能复述故事情节，并用恰当的将来时描述自己的计划与预测"
+  ],
+  "summary": "故事讲“我”在乡村集市上拜访一位名叫别林斯基夫人的算命师。她收了钱后盯着水晶球，说“我”的亲戚今晚要到、出了帐篷会遇上惊喜、会被一位熟悉的女人拉走。“我”一出门就把这些话忘了个精光，因为妻子正急匆匆走来，催他去车站接一小时后到站的妹妹。预言句句“应验”，结果却完全出人意料。",
+  "tips": "记一句口诀：有计划用 be going to，纯预测用 will，已安排好用 will be doing，马上发生用 be about to。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Where does the story take place, and whom does the writer decide to visit?", "zh": "故事发生在哪里？作者决定去拜访谁？", "a": "It takes place at a village fair. The writer decides to visit a fortune-teller called Madam Bellinsky.", "aZh": "故事发生在乡村的一个集市上。作者决定去拜访一位名叫别林斯基夫人的算命师。", "hint": "抓住 at a village fair 和 fortune-teller。"},
+  {"kind": "detail", "q": "What did the fortune-teller say after she looked into the crystal ball?", "zh": "算命师看了水晶球之后说了些什么？", "a": "She said a relation of his was coming to see him, that she would be arriving that evening and intended to stay for a few days.", "aZh": "她说他的一个亲戚要来看他，将于当晚到达，并打算住上几天。", "hint": "a relation of yours 与 intends to stay。"},
+  {"kind": "detail", "q": "What surprise did the writer get as soon as he left the tent?", "zh": "作者一走出帐篷就遇到了什么？", "a": "His wife hurried towards him and told him that his sister would be there in an hour, so they had to meet her at the station.", "aZh": "他的妻子急匆匆朝他走来，告诉他妹妹一小时后到，他们必须去车站接她。", "hint": "my wife hurried towards me。"},
+  {"kind": "detail", "q": "How did the writer's wife speak to him outside the tent?", "zh": "妻子在帐篷外是怎么跟作者说话的？", "a": "She spoke impatiently. She asked where he had been hiding and said they were late already.", "aZh": "她说话很不耐烦，问他躲到哪儿去了，还说他们已经迟到了。", "hint": "副词 impatiently 和 late already。"},
+  {"kind": "think", "q": "Was Madam Bellinsky's prediction really successful? Why or why not?", "zh": "别林斯基夫人的预言真的成功了吗？为什么？", "a": "In a way it came true: a relation was coming and a woman he knew well did speak to him and lead him away. But the words were so vague that they could fit almost anyone, and the 'surprise' was simply his wife, not magic.", "aZh": "某种意义上“应验”了：亲戚确实要来，熟悉的女人也确实把他带走了。但这些话含糊到几乎对谁都成立，所谓的惊喜其实就是他的妻子。", "hint": "想一想 vague（含糊）与巧合。"}
+ ],
+ "exercises": [
+  {"q": "根据汉语提示写单词：At a village _____ (集市), I visited a _____ (算命师) called Madam Bellinsky.", "a": "fair; fortune-teller", "note": "fair 指集市。"},
+  {"q": "用所给词的适当形式填空：She looked into a _____ (crystal) ball and asked me _____ (impatient) where I had been.", "a": "crystal; impatiently", "note": "修饰动词用副词 -ly。"},
+  {"q": "同义改写：A relation of yours is coming. → One of your _____ is coming.", "a": "relations", "note": "a ... of yours 是双重所有格。"},
+  {"q": "汉译英：她打算在这里住几天。（提示词：intend）", "a": "She intends to stay here for a few days.", "note": "intend to do sth."},
+  {"q": "用将来进行时改写句子：She will arrive this evening. → She _____ _____ _____ this evening.", "a": "will be arriving", "note": "will be doing。"},
+  {"q": "用 the moment / as soon as 填空：_____ _____ _____ I went outside, I forgot all about Madam Bellinsky.", "a": "As soon as（或 The moment）", "note": "一……就……。"},
+  {"q": "对划线部分提问：Your sister will be here in an hour.（就 in an hour 提问）", "a": "How soon will your sister be here?", "note": "对 in + 时间段提问用 how soon。"}
+ ],
+ "quiz": [
+  {"q": "Where did the writer meet Madam Bellinsky?", "options": ["At a village fair", "At the railway station", "In a big hotel", "In his own house"], "answer": 0, "note": "首句 at a village fair。"},
+  {"q": "What did the fortune-teller look into before making her prediction?", "options": ["A map", "A crystal ball", "A mirror", "A newspaper"], "answer": 1, "note": "look into a crystal ball。"},
+  {"q": "In 'A relation of yours is coming to see you', 'a relation of yours' means _____.", "options": ["one of your relatives", "your old friend", "your neighbour", "your classmate"], "answer": 0, "note": "双重所有格。"},
+  {"q": "Which sentence is in the future continuous tense?", "options": ["She will be arriving this evening.", "She arrived this evening.", "She has arrived this evening.", "She arrives every evening."], "answer": 0, "note": "will be + doing。"},
+  {"q": "How did the writer's wife speak to him outside the tent?", "options": ["Impatiently", "Politely", "Sadly", "Shyly"], "answer": 0, "note": "she asked impatiently。"},
+  {"q": "Who was the woman that hurried towards the writer outside the tent?", "options": ["His wife", "His sister", "Madam Bellinsky", "A stranger"], "answer": 0, "note": "惊喜的真相是 his wife。"}
+ ]
+}

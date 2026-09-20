@@ -11,7 +11,7 @@ import sys
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(REPO, "data", "courses")
 BOOKS = {"nce1": 72, "nce2": 96, "nce3": 60, "nce4": 48}
-POLLUTE = re.compile(r"参考例句|英音|美音|人性化|相关词条|柯林斯|来自\d+部分")
+POLLUTE = re.compile(r"参考例句|英音|美音|人性化 adjacent|相关词条|柯林斯|来自\d+部分")
 
 LEAD = ["question", "warmup", "goals", "summary", "tips"]
 

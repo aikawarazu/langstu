@@ -1,0 +1,164 @@
+{
+ "unitId": "u074",
+ "title": "Out of the limelight",
+ "subtitle": "舞台之外",
+ "lead": {
+  "question": "影星戴墨镜穿旧衣去干河床野餐，为何反被治安官当作违规者赶走？",
+  "warmup": "“limelight”原指舞台照明的石灰光，引申为“众人注目的中心”。本课几位影星为躲开镜头，坐古旧汽车来到干涸河床，戴墨镜、穿旧衣，做好周密防范。可他们刚把食品篮提到树荫下安顿好，一位自称治安官的人就出现了，指着“禁止野营”的布告牌要他们马上离开。化装太成功，反而没人信他们是明星。",
+  "goals": [
+   "掌握 limelight、precaution、fan、shady、sheriff、notice、sneer 等核心词",
+   "会用 out of the limelight、take precautions、in case、get out of here、keep out of 等短语",
+   "掌握 Why don't we... 提建议句型与 needn't have done 的含义",
+   "辨别一般现在时与现在进行时的被动语态"
+  ],
+  "summary": "故事以 'disguises can sometimes be too perfect' 为转折：前半写四人戴墨镜、穿旧衣、做防范，把食品篮搬到树荫下；后半写治安官冷笑讥讽，既没认出明星，也不信他们自报姓名。",
+  "tips": "in case 表将来时后接现在时或 should，绝不接 will；另记 needn't have done（本不必却做了）与 didn't need to do 之别。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why was their disguise 'too perfect'?",
+   "zh": "为什么说他们的伪装“太完美了”？",
+   "a": "Because it was so convincing that the sheriff took them for ordinary campers: he did not recognize them and refused to believe they were stars, answering with a sneer, 'I'm Brinksley Meers.'",
+   "aZh": "因为化装太逼真，治安官把他们当成普通野营者，根本不认得他们，还冷笑着说：“我就是布林克斯利·米尔斯。”",
+   "hint": "见第 3 句与结尾 sheriff 的回答。"
+  },
+  {
+   "kind": "detail",
+   "q": "What precautions had the actors taken before the picnic?",
+   "zh": "野餐前演员们做了哪些防范？",
+   "a": "They came in an ancient bus to a dry river bed, dressed in dark glasses and old clothes, and had taken special precautions so that no one should recognize them.",
+   "aZh": "他们坐一辆古旧的汽车来到干涸的河床，戴着墨镜、穿着旧衣裳，还做了特别防范以免被认出。",
+   "hint": "见第 1-2 句。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the stranger order them to leave?",
+   "zh": "那个陌生人为什么命令他们离开？",
+   "a": "He was the sheriff there. He found them camping beside a notice which said 'No Camping' and thought they were breaking the rule.",
+   "aZh": "他是当地的治安官，看见他们在写着“禁止野营”的布告牌旁野餐，以为他们违反规定。",
+   "hint": "见 Do you see that notice? It says 'No Camping'。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the sheriff say 'Well, I'm Brinksley Meers, and my other name is Gloria Gleam'?",
+   "zh": "治安官为什么那样说？",
+   "a": "He said it with a sneer to mock them: he did not believe a word they said, meaning 'if you are stars, then so am I'.",
+   "aZh": "他是冷笑着讥讽他们：根本不信他们的话，意思是“如果你们是明星，那我也是”。",
+   "hint": "结合 said the sheriff with a sneer。"
+  },
+  {
+   "kind": "think",
+   "q": "如果他们少化装一点，结局会怎样？这说明了标题的什么意味？",
+   "zh": "如果化装没那么彻底，结局会怎样？",
+   "a": "If they had still looked a little like stars, the sheriff would have recognized them and probably let them stay; the story is ironic — they got what they wanted (to be out of the limelight) and lost the picnic.",
+   "aZh": "若他们还多少像点明星，治安官就会认出来并多半放行。故事因此带反讽意味：他们如愿躲开了众人的目光，却丢了野餐。",
+   "hint": "结合标题与结尾。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空：Although he is a government official, he tries to keep ______ of the limelight.",
+   "a": "out",
+   "note": "out of the limelight 避开公众注意。"
+  },
+  {
+   "q": "汉译英：他们戴着墨镜、穿着旧衣，采取了特别预防措施，还把两个大食品篮子提到了树荫下。",
+   "a": "Dressed in dark glasses and old clothes, they had taken special precautions and carried two large food baskets to a shady spot under some trees.",
+   "note": "take precautions；shady 成荫的。"
+  },
+  {
+   "q": "用 Why don't we... 改写建议句：Let's come here more often.",
+   "a": "Why don't we come here more often?",
+   "note": "Why don't we + 动词原形。"
+  },
+  {
+   "q": "用括号内动词的正确形式填空：No one recognized them, so they ______ (not take) such trouble.",
+   "a": "needn't have taken",
+   "note": "本不必做却已做。"
+  },
+  {
+   "q": "填空：I'm taking a raincoat with me ______ I ______ (need) it.",
+   "a": "in case; need",
+   "note": "in case 后接现在时。"
+  },
+  {
+   "q": "选词填空（sheriff / notice / get out of here / sneer）：When the ______ appeared, he pointed to a ______ and shouted, 'Now you ______, all of you!'",
+   "a": "sheriff; notice; get out of here",
+   "note": "get out of here 滚开。"
+  },
+  {
+   "q": "用括号内动词的适当时态、语态填空：A new notice ______ (put up) by the sheriff now, and the river bed ______ (keep) clean every day.",
+   "a": "is being put up; is kept",
+   "note": "现在进行被动与一般现在被动。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中“影迷”对应的英文是？",
+   "options": [
+    "film fans",
+    "film stars",
+    "film crews",
+    "film makers"
+   ],
+   "answer": 0,
+   "note": "film fans 即影迷。"
+  },
+  {
+   "q": "布告牌上“禁止野营”的规范写法是？",
+   "options": [
+    "No Camping",
+    "Not Camping",
+    "Don't Camping",
+    "No Camp"
+   ],
+   "answer": 0,
+   "note": "公共标语用 no + 名词/动名词。"
+  },
+  {
+   "q": "治安官喊“你们都给我滚出去”用的是哪一句？",
+   "options": [
+    "Now you get out of here, all of you!",
+    "Now you get into here, all of you!",
+    "Now you get over here, all of you!",
+    "Now you get on with it, all of you!"
+   ],
+   "answer": 0,
+   "note": "get out of here。"
+  },
+  {
+   "q": "“他尽量避免引人注目”的正确表达是？",
+   "options": [
+    "He tries to keep out of the limelight.",
+    "He tries to keep away the limelight.",
+    "He tries to keep off the limelight.",
+    "He tries to keep out the limelight."
+   ],
+   "answer": 0,
+   "note": "keep out of the limelight。"
+  },
+  {
+   "q": "填入正确形式：I'm taking a raincoat with me in case I ______ it.",
+   "options": [
+    "need",
+    "will need",
+    "would need",
+    "have needed"
+   ],
+   "answer": 0,
+   "note": "in case 后不用 will。"
+  },
+  {
+   "q": "“他们本不必如此大费周章”应译为？",
+   "options": [
+    "They needn't have taken such trouble.",
+    "They didn't need take such trouble.",
+    "They needn't took such trouble.",
+    "They hadn't need to take such trouble."
+   ],
+   "answer": 0,
+   "note": "needn't have done。"
+  }
+ ]
+}

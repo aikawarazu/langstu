@@ -1,0 +1,164 @@
+{
+ "unitId": "u034",
+ "title": "A Happy Discovery",
+ "subtitle": "幸运的发现",
+ "lead": {
+  "question": "课文中的'幸运发现'究竟指什么，弗兰克为何能捡到这个大便宜？",
+  "warmup": "很多人喜欢逛古玩店，希望能在杂乱的旧货堆里捡到宝贝。但真正的发现从不靠运气，而要有耐心、眼力和行家的知识。本课讲述弗兰克·哈利戴在一家不起眼的古玩店里，凭着一双慧眼，从一只刚运到、无人愿意打开的货箱中，发现了一件被严重低估的珍品，并以极低的价格买下，最终证实是无价之宝。",
+  "goals": [
+   "掌握 antique、bargain hunter、dealer、rarity、masterpiece 等本课核心词汇。",
+   "学会用 exert a fascination on、muster up courage、be about to ... when 等短语描述发现的过程。",
+   "理解并运用非限制性定语从句（much of which 结构）以及与过去事实相反的虚拟语气。",
+   "体会'发现珍品靠的是知识与耐心，而非运气'这一主题，并能复述故事。"
+  ],
+  "summary": "古玩店对许多人有着特殊的魅力：高档店令人望而却步，不起眼的小店却藏着一线希望。但真正的发现绝非偶然，寻宝者必须有耐心、有眼力，像行家一样辨别价值。弗兰克·哈利戴正是这样的人，他在货箱底部发现一幅微型画，被古董商以50美元卖出，最终证实是柯勒乔的杰作，价值数十万英镑。",
+  "tips": "注意 be about to ... when 表示'正要……这时突然……'，when 不能换成 while；exert ... on 中介词固定用 on，不要误用 to。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was the 'happy discovery'?",
+   "zh": "那件'幸运的发现'是什么？",
+   "a": "Frank Halliday discovered a miniature painting at the bottom of a packing case in an antique shop; it proved to be an unknown masterpiece by Correggio, worth hundreds of thousands of pounds.",
+   "aZh": "弗兰克·哈利戴在古玩店的一只货箱底部发现了一幅微型画，后来证实是柯勒乔的一幅未被发现的杰作，价值数十万英镑。",
+   "hint": "答案见课文末句 'The tiny painting proved to be an unknown masterpiece by Correggio...'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What qualities must a truly dedicated bargain hunter have?",
+   "zh": "一个真正执着的寻宝者必须具备哪些品质？",
+   "a": "He must have patience and, above all, the ability to recognize the worth of something when he sees it; he must be at least as knowledgeable as the dealer.",
+   "aZh": "他必须有耐心，而且最重要的是看到珍品时要有识别其价值的能力；他至少要像古董商一样懂行。",
+   "hint": "见课文 'A truly dedicated bargain hunter must have patience, and above all, the ability to recognize the worth of something...'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Frank notice when he was about to leave the shop?",
+   "zh": "弗兰克正准备离开时注意到了什么？",
+   "a": "He noticed a large packing case lying on the floor.",
+   "aZh": "他注意到地板上放着一只很大的货箱。",
+   "hint": "见课文 'Frank was about to leave when he noticed a large packing case lying on the floor.'。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Frank find at the bottom of the packing case, and what did the dealer say it was worth?",
+   "zh": "弗兰克在货箱底部发现了什么？古董商说它值多少钱？",
+   "a": "He found a miniature painting; the dealer glanced at it briefly and said it was worth $50.",
+   "aZh": "他发现了一幅微型画；古董商漫不经心地看了一眼，说它值50美元。",
+   "hint": "见课文 'suddenly noticed a miniature painting at the bottom of the packing case' 与 'the dealer told him that it was worth $50'。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer say that no one discovers a rarity by chance?",
+   "zh": "作者为什么说没有人是偶然发现珍品的？",
+   "a": "Because finding a real treasure takes patience and knowledge rather than luck; Frank recognized the painting's composition and line because they reminded him of an Italian painting he knew well, so his discovery came from his eye, not from chance.",
+   "aZh": "因为发现真正的珍品靠的是耐心和知识，而不是运气；弗兰克之所以认出那幅画，是因为它的构图和线条让他想起一幅熟悉的意大利画，可见他的发现源于眼力而非偶然。",
+   "hint": "结合课文 'No one discovers a rarity by chance.' 与弗兰克认出画作那一段共同思考。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "古玩店对许多人来说有一种特殊的魅力。",
+   "a": "Antique shops exert a peculiar fascination on a great many people.",
+   "note": "exert ... on 为固定搭配"
+  },
+  {
+   "q": "一个真正执着的寻宝者必须有耐心，而且要有识别珍品价值的能力。",
+   "a": "A truly dedicated bargain hunter must have patience, and above all, the ability to recognize the worth of something when he sees it.",
+   "note": "bargain hunter 指淘便宜货的人"
+  },
+  {
+   "q": "To do this, he must be at least as knowledgeable as the ______ (古董商).",
+   "a": "dealer",
+   "note": "dealer 指古董商、经销商"
+  },
+  {
+   "q": "只有懂行的行家才能分辨出哪件古董是真品，而那幅小画让弗兰克发了一笔大财。",
+   "a": "Only a knowledgeable expert can tell which antique is genuine, and the tiny painting made Frank a fortune.",
+   "note": "genuine 真品的；make a fortune 发财"
+  },
+  {
+   "q": "The box was full of crockery. Much of it was broken. (用定语从句合并为一句)",
+   "a": "The box was full of crockery, much of which was broken.",
+   "note": "非限制性定语从句用 much of which"
+  },
+  {
+   "q": "He was very knowledgeable, so he recognized the painting. (改为与过去事实相反的虚拟语气)",
+   "a": "If he had not been so knowledgeable, he would not have recognized the painting.",
+   "note": "与过去相反：had done / would have done"
+  },
+  {
+   "q": "Frank was about to leave while he noticed a large packing case lying on the floor. (改错并改正)",
+   "a": "Frank was about to leave when he noticed a large packing case lying on the floor.",
+   "note": "be about to ... when，不用 while"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文中弗兰克'幸运的发现'是什么？",
+   "options": [
+    "A beautifully carved dagger.",
+    "An unknown masterpiece by Correggio.",
+    "A rare piece of old crockery.",
+    "An old Italian glass case."
+   ],
+   "answer": 1,
+   "note": "小画实为柯勒乔杰作"
+  },
+  {
+   "q": "'a truly dedicated bargain hunter' 最接近的意思是？",
+   "options": [
+    "A dealer who sells rare antiques.",
+    "A scientist bent on a discovery.",
+    "A person who patiently hunts for good buys.",
+    "A collector who always pays full price."
+   ],
+   "answer": 2,
+   "note": "bargain hunter 淘便宜货的人"
+  },
+  {
+   "q": "课文中高档古玩店被称为 'a forbidding place'，原因是？",
+   "options": [
+    "It is always crowded with tourists.",
+    "It is dirty and full of junk.",
+    "It refuses to open its packing cases.",
+    "Rare objects are kept in glass cases and it looks intimidating."
+   ],
+   "answer": 3,
+   "note": "forbidding 令人望而却步"
+  },
+  {
+   "q": "'muster up courage to enter' 中 muster up 的意思是？",
+   "options": [
+    "To gather or summon (courage).",
+    "To lose one's courage.",
+    "To pay a high price.",
+    "To clean up a messy shop."
+   ],
+   "answer": 0,
+   "note": "muster up courage 鼓起勇气"
+  },
+  {
+   "q": "关于那幅微型画，古董商当时的态度是？",
+   "options": [
+    "He refused to sell it at any price.",
+    "He recognized it at once as a masterpiece.",
+    "He glanced at it briefly and said it was worth $50.",
+    "He wrapped it in glass to keep off dust."
+   ],
+   "answer": 2,
+   "note": "dealer 低估了画的价值"
+  },
+  {
+   "q": "课文最后，那幅画的真实价值是多少？",
+   "options": [
+    "A mere $50.",
+    "Nothing — it turned out to be a copy.",
+    "Fifty pounds in cash.",
+    "Hundreds of thousands of pounds."
+   ],
+   "answer": 3,
+   "note": "结局出人意料，价值连城"
+  }
+ ]
+}

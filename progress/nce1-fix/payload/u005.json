@@ -1,0 +1,101 @@
+{
+ "unitId": "u005",
+ "lessons": [
+  {
+   "lesson": 9,
+   "title": "How are you today?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "STEVEN",
+     "en": "Hello, Helen."
+    },
+    {
+     "i": 1,
+     "speaker": "HELEN",
+     "en": "Hi, Steven."
+    },
+    {
+     "i": 2,
+     "speaker": "STEVEN",
+     "en": "How are you today?"
+    },
+    {
+     "i": 3,
+     "speaker": "HELEN",
+     "en": "I'm very well, thank you."
+    },
+    {
+     "i": 4,
+     "speaker": null,
+     "en": "And you?"
+    },
+    {
+     "i": 5,
+     "speaker": "STEVEN",
+     "en": "I'm fine, thanks. How is Tony?"
+    },
+    {
+     "i": 6,
+     "speaker": "HELEN",
+     "en": "He's fine, thanks."
+    },
+    {
+     "i": 7,
+     "speaker": null,
+     "en": "How's Emma?"
+    },
+    {
+     "i": 8,
+     "speaker": "STEVEN",
+     "en": "She's very well, too, Helen. Goodbye, Helen."
+    },
+    {
+     "i": 9,
+     "speaker": null,
+     "en": "Nice to see you."
+    },
+    {
+     "i": 10,
+     "speaker": "HELEN",
+     "en": "Nice to see you, too, Steven."
+    },
+    {
+     "i": 11,
+     "speaker": null,
+     "en": "Goodbye."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "9": [
+   "史蒂文：你好，海伦",
+   "海  伦：你好，史蒂文",
+   "史蒂文：你今天好吗？",
+   "海  伦：很好，谢谢你。你好吗？",
+   "史蒂文：很好，谢谢。",
+   "史蒂文：托尼好吗？",
+   "海  伦：他很好，谢谢。埃玛好吗？",
+   "史蒂文：她也很好，海伦。",
+   "史蒂文：再见，海伦。见到你真高兴。",
+   "海  伦：我见到你也很高兴，史蒂文。再见。"
+  ]
+ },
+ "rawPage": {
+  "9": "188.txt"
+ },
+ "parsedTranslation": [
+  "史蒂文：你好，海伦",
+  "海  伦：你好，史蒂文",
+  "史蒂文：你今天好吗？",
+  "海  伦：很好，谢谢你。你好吗？",
+  "史蒂文：很好，谢谢。",
+  "史蒂文：托尼好吗？",
+  "海  伦：他很好，谢谢。埃玛好吗？",
+  "史蒂文：她也很好，海伦。",
+  "史蒂文：再见，海伦。见到你真高兴。",
+  "海  伦：我见到你也很高兴，史蒂文。再见。"
+ ]
+}

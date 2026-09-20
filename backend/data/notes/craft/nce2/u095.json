@@ -1,0 +1,164 @@
+{
+ "unitId": "u095",
+ "title": "A fantasy",
+ "subtitle": "纯属虚构",
+ "lead": {
+  "question": "大使狼狈回家，却把荒唐遭遇讲得轻描淡写——他为何还说自己走运？",
+  "warmup": "课文里，艾斯卡罗比亚大使回家吃午饭，却让妻子大吃一惊：他脸色苍白、衣衫凌乱。原来大使馆上午被人放火，他自己还被灭火器喷了一身，帽子也被子弹打穿。面对这一连串离奇事件，他却语气冷冷地娓娓道来。读这段对话前，先想想大使馆里究竟发生了什么，也留意本课出现的火灾、枪击以及大使、大使馆等相关词汇。",
+  "goals": [
+   "掌握 ambassador、embassy、fantasy、mess、shot 等本课词汇。",
+   "学会 set ... on fire、break out、go on doing、aim ... at、get ... posted 等短语。",
+   "理解并模仿与过去事实相反的虚拟条件句。",
+   "体会大使冷淡反讽的语气，把握对话中的间接引语与时态变化。"
+  ],
+  "summary": "《A fantasy》是一段对话体故事：艾斯卡罗比亚大使回家吃饭时狼狈不堪，衣服一塌糊涂。他向妻子解释，大学生上午放火烧了大使馆，地下室突然起火，他下楼查看时被霍斯特用灭火器喷了一身，因为霍斯特以为他着了火，他打算把那家伙打发走。夫人又发现他帽子上有洞，他答是有人从窗外开枪，幸亏当时没戴，否则就回不了家吃饭。标题暗示这番遭遇离奇得像虚构。",
+  "tips": "易错提醒：break out 表示火灾、战争等“突然发生”，是不及物动词，没有被动语态，不能说 The fire was broken out。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why was the Ambassador particularly lucky?",
+   "zh": "大使为什么特别走运？",
+   "a": "Because he was not wearing his hat at the time. Someone fired a shot through his office window, which made a big hole in the hat; if he had been wearing it, he would not have been able to get home for lunch.",
+   "aZh": "因为当时他没戴帽子。有人朝他办公室窗户开了一枪，帽子上被打了个大洞；如果他当时戴着帽子，就不能回家来吃午饭了。",
+   "hint": "答案见课文最后两句：Fortunately, I wasn't wearing it at the time. If I had been... get home for lunch."
+  },
+  {
+   "kind": "detail",
+   "q": "Where did the fire break out, and what did the Ambassador do?",
+   "zh": "火灾是从哪里烧起来的？大使做了什么？",
+   "a": "The fire broke out in the basement. The Ambassador went down immediately, and Horst aimed a fire extinguisher at him.",
+   "aZh": "火灾是从地下室烧起来的。大使立刻下去了，而霍斯特把灭火器对准了他。",
+   "hint": "见课文中间部分：The fire broke out in the basement... and that fool, Horst, aimed a fire extinguisher at me."
+  },
+  {
+   "kind": "detail",
+   "q": "What had happened to the Ambassador's clothes, and why?",
+   "zh": "大使的衣服怎么了？为什么会这样？",
+   "a": "His clothes were in a frightful mess, because Horst had aimed a fire extinguisher at him, thinking the Ambassador was on fire.",
+   "aZh": "他的衣服一塌糊涂，因为霍斯特以为大使身上着火了，把灭火器对准了他。",
+   "hint": "见开头 his clothes were in a frightful state 一句及灭火器的解释。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the Ambassador's wife suddenly notice, and how did he explain it?",
+   "zh": "大使夫人突然注意到了什么？大使又如何解释？",
+   "a": "She suddenly noticed a big hole in her husband's hat. The Ambassador explained that someone had fired a shot through his office window.",
+   "aZh": "她突然发现丈夫的帽子上有个大洞。大使解释说，有人朝他办公室的窗户开了一枪。",
+   "hint": "见后段对话：notice a big hole in her husband's hat 与 Someone fired a shot through my office window."
+  },
+  {
+   "kind": "think",
+   "q": "Why is the story titled \"A fantasy\"? What does the title suggest?",
+   "zh": "为什么课文标题叫“纯属虚构”？这个标题暗示了什么？",
+   "a": "The title is ironic: the Ambassador tells a string of absurd happenings—a fire, a fire extinguisher aimed at him, a shot through the window—so calmly and drily that the whole story sounds unreal, like a fantasy. The matter-of-fact tone makes real events read like fiction.",
+   "aZh": "标题带有讽刺意味：大使如此平静、冷淡地讲述一连串荒唐遭遇——起火、被灭火器喷、有人从窗外开枪，使整个故事听起来不真实，像虚构一样。这种就事论事的语气让真实发生的事读起来倒像小说。",
+   "hint": "结合 drily（冷冷地）一词与标题 fantasy 的含义。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：大学生们今天上午放火点着了大使馆。",
+   "a": "University students set the Embassy on fire this morning.",
+   "note": "set ... on fire 放火烧"
+  },
+  {
+   "q": "选词填空（ambassador / embassy / fantasy）：①The ____ of Escalopia returned home for lunch. ②He works at the ____ in London. ③The whole story sounds like a ____.",
+   "a": "①ambassador ②embassy ③fantasy",
+   "note": "注意 ambassador 与人、embassy 与地"
+  },
+  {
+   "q": "句型转换：The Ambassador's wife went on asking questions.（用 continue 改写，意思不变）",
+   "a": "The Ambassador's wife continued to ask questions. / The Ambassador's wife continued asking questions.",
+   "note": "go on doing ≈ continue doing"
+  },
+  {
+   "q": "汉译英：那个傻瓜霍斯特把灭火器对准了我。",
+   "a": "That fool, Horst, aimed a fire extinguisher at me.",
+   "note": "aim ... at 把……对准"
+  },
+  {
+   "q": "汉译英：我一定要把那个家伙打发走（派走）。",
+   "a": "I must definitely get that fellow posted.",
+   "note": "get + 宾语 + 过去分词 使役式"
+  },
+  {
+   "q": "改错：The fire was broken out in the basement last night.",
+   "a": "The fire broke out in the basement last night.",
+   "note": "break out 不及物，无被动"
+  },
+  {
+   "q": "填空（用括号中动词的适当形式）：If I ____ (be) wearing it, I would not have been able to get home for lunch.",
+   "a": "had been",
+   "note": "与过去事实相反的虚拟条件句"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "大使的衣服为什么一塌糊涂？",
+   "options": [
+    "He was caught in a big fire.",
+    "Horst aimed a fire extinguisher at him.",
+    "He fell down in the basement.",
+    "Someone fired a shot at him."
+   ],
+   "answer": 1,
+   "note": "灭火器喷了他一身"
+  },
+  {
+   "q": "下列哪句语法正确？",
+   "options": [
+    "The fire was broken out in the basement.",
+    "The fire broke out in the basement.",
+    "The fire broke in the basement.",
+    "The fire has broken out in the basement yesterday."
+   ],
+   "answer": 1,
+   "note": "break out 不及物，无被动"
+  },
+  {
+   "q": "I must get that fellow posted. 中 posted 的意思是：",
+   "options": [
+    "Mailed a letter to him.",
+    "Sent him away to another place.",
+    "Published his name.",
+    "Put up a poster for him."
+   ],
+   "answer": 1,
+   "note": "post 表示派任、调职"
+  },
+  {
+   "q": "填空：The Ambassador's wife ____ asking questions.",
+   "options": [
+    "went on",
+    "went on to",
+    "went on with",
+    "went for"
+   ],
+   "answer": 0,
+   "note": "go on doing 继续做同一事"
+  },
+  {
+   "q": "填空：The ____ of Escalopia returned home for lunch.",
+   "options": [
+    "embassy",
+    "Ambassador",
+    "fantasy",
+    "shot"
+   ],
+   "answer": 1,
+   "note": "大使本人用 ambassador"
+  },
+  {
+   "q": "填空：If I ____ wearing it, I would not have been able to get home for lunch.",
+   "options": [
+    "was",
+    "had been",
+    "have been",
+    "would be"
+   ],
+   "answer": 1,
+   "note": "对过去的虚拟用 had done"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u007",
+ "title": "Bats",
+ "subtitle": "蝙蝠",
+ "lead": {
+  "question": "蝙蝠的回声定位与人类的雷达有何相似之处，它又如何体现声音的实用价值？",
+  "warmup": "学这一课之前，先想一想：你在山谷或空旷的大厅里喊一声，会听到什么？声音遇到墙壁或山腰会被反射回来，这就是回声。人类正是利用回声制成了回声测深仪，并把它用于探测鱼群和雷达；而蝙蝠早就掌握了同类本领。课文以回声为线索，先谈人的发明，再讲蝙蝠的回声定位，思路清晰，逻辑严密。",
+  "goals": [
+   "掌握 utilitarian, echo-location, obstruction, interval, apparatus, shoal, herring, cod, squeak, steer clear of, radar 等词汇与搭配。",
+   "学会用 have only to ... to ... 表示“只需……就……”以及用 not all 表示部分否定。",
+   "理解 the further ... the longer ... 比较结构，以及 So was born ... 这类倒装句。",
+   "能用被动语态和 in which / of which / on which 引导的定语从句说明回声定位的原理。"
+  ],
+  "summary": "动物发出的声音并非都用于交际。课文先讲人类的发明：敲击船体，声音自海底反射，测出间歇时间便可算出海深，回声测深仪由此问世；固体都能反射声音，鱼群亦然。由测海深到测鱼群只是一小步，凭回声特点还能分辨鲱鱼、鳕鱼。最后转到蝙蝠：某些蝙蝠发出尖叫声，靠接收回声确定并躲开障碍物，找到赖以生存的昆虫，这与雷达原理相似。",
+  "tips": "注意 Not all sounds made by animals serve as language 是部分否定，意为“动物发出的声音并非都用作语言交际”，不可译成“动物发出的声音都不是语言”；要表达全部否定须用 No sounds made by animals serve as language。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "In what way does echo-location in bats play an utilitarian role?",
+   "zh": "蝙蝠的回声定位以何种方式发挥实用作用？",
+   "a": "Certain bats emit squeaks and, by receiving the echoes, they can locate and steer clear of obstacles, or locate the flying insects on which they feed. Here the voice serves no language purpose at all: it works purely as a practical tool, just as radar does.",
+   "aZh": "某些蝙蝠发出尖叫声，并靠接收回声来确定并躲开障碍物，或找到它们赖以生存的飞虫。此时声音毫无语言交际的用途，而是纯粹当作实用工具，就像雷达一样。",
+   "hint": "答案出处：课文首段提出声音可发挥 strictly utilitarian role，倒数第二段 It has been found that certain bats emit squeaks ... 给出具体解释。"
+  },
+  {
+   "kind": "detail",
+   "q": "How can the depth of the sea at a certain point be calculated by means of sound?",
+   "zh": "人类怎样借助声音算出某处海洋的深度？",
+   "a": "A sound made by tapping on the hull of a ship is reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes, the depth of the sea at that point can be calculated.",
+   "aZh": "敲击船体发出的声音会从海底反射回来；测出敲击与收到回声之间的时间间隔，便可算出该处海洋的深度。",
+   "hint": "答案出处：A sound made by tapping on the hull of a ship ... the depth of the sea at that point can be calculated."
+  },
+  {
+   "kind": "detail",
+   "q": "How is it possible to tell whether a shoal of fish is herring, cod or other well-known fish?",
+   "zh": "人们凭什么分辨鱼群是鲱鱼、鳕鱼还是其他常见鱼类？",
+   "a": "Every solid object reflects a sound varying according to its size and nature, and a shoal of fish does this too. With experience and improved apparatus, one can tell by the pattern of its echo whether the shoal is herring, cod or other well-known fish.",
+   "aZh": "任何固体都会反射声音，反射的声音因物体的大小和性质而异，鱼群也如此。有了经验和改进的仪器，人们便可凭鱼群回声的特点分辨出它是鲱鱼、鳕鱼还是其他常见鱼类。",
+   "hint": "答案出处：With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell ... by the pattern of its echo."
+  },
+  {
+   "kind": "detail",
+   "q": "What basic point does the first sentence of the text make?",
+   "zh": "课文第一句提出了什么基本论点？",
+   "a": "Not all sounds made by animals serve as language: some sounds, such as the squeaks of bats, play a strictly utilitarian role instead of carrying a message.",
+   "aZh": "动物发出的声音并非都用作语言交际：有些声音，例如蝙蝠的尖叫声，并不传递信息，而起的是严格的实用作用。",
+   "hint": "答案出处：课文首句 Not all sounds made by animals serve as language，是全文主题句，注意 not all 表部分否定。"
+  },
+  {
+   "kind": "think",
+   "q": "The writer describes human inventions before turning to bats. Why is this order effective?",
+   "zh": "作者先讲人类的发明，最后才讲蝙蝠，这样安排有什么好处？",
+   "a": "It moves from the familiar to the unfamiliar. Readers already know echoes and echo-sounding, and the examples of measuring the sea depth and locating fish prepare them, by analogy, to understand how bats use reflected sound; the final comparison with radar then comes naturally.",
+   "aZh": "这样循着由熟悉到陌生的顺序：读者本就了解回声和回声探测，测海深、找鱼群这两个例子为理解蝙蝠如何利用反射声作了类比铺垫，最后与雷达相比也就顺理成章。",
+   "hint": "从课文结构看：首句立论—人类发明（测深、测鱼）—蝙蝠回声定位—雷达，属由已知到未知、由浅入深。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：动物发出的声音并非都用作语言交际。",
+   "a": "Not all sounds made by animals serve as language.",
+   "note": "not all 表部分否定。"
+  },
+  {
+   "q": "填空：The further off this solid obstruction, the longer time will ______ for the return of the echo.",
+   "a": "elapse",
+   "note": "elapse 指时间流逝。"
+  },
+  {
+   "q": "填空：We have only ______ turn to that extraordinary discovery of echo-location in bats.",
+   "a": "to",
+   "note": "have only to 意为“只需”。"
+  },
+  {
+   "q": "句型转换：把 It has been found that certain bats emit squeaks ... 改为以 People 作主语的主动句。",
+   "a": "People have found that certain bats emit squeaks ...",
+   "note": "被动句可还原为 People have found。"
+  },
+  {
+   "q": "汉译英：敲击船体发出的声音会从海底反射回来，据此可以算出该处海洋的深度。",
+   "a": "A sound made by tapping on the hull of a ship is reflected from the sea bottom, and by measuring the time interval the depth of the sea at that point can be calculated.",
+   "note": "is reflected / can be calculated。"
+  },
+  {
+   "q": "用“介词 + which”定语从句合并：①Bats locate flying insects. They feed on the insects. ②This echo-location in bats is often compared with radar. The principle of radar is similar.",
+   "a": "①Bats locate flying insects on which they feed. ②This echo-location in bats is often compared with radar, the principle of which is similar.",
+   "note": "介词+which 还原介词于从句。"
+  },
+  {
+   "q": "改错：Bats can locate and steer clear from obstacles, or locate flying insects.",
+   "a": "Bats can locate and steer clear of obstacles, or locate flying insects.",
+   "note": "steer clear of 为固定搭配。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "下面哪句正确表达“动物发出的声音并非都用作语言交际”？",
+   "options": [
+    "All sounds made by animals do not serve as language.",
+    "No sounds made by animals serve as language.",
+    "Not all sounds made by animals serve as language.",
+    "Not any sounds made by animals serve as language."
+   ],
+   "answer": 2,
+   "note": "not all 为部分否定。"
+  },
+  {
+   "q": "The further off this solid obstruction, the longer time will ______ for the return of the echo. 应填哪一项？",
+   "options": [
+    "collapse",
+    "elapse",
+    "relapse",
+    "elaborate"
+   ],
+   "answer": 1,
+   "note": "elapse 指时间流逝。"
+  },
+  {
+   "q": "下列哪句用被动语态正确表达“该处海洋的深度便可算出”？",
+   "options": [
+    "The depth of the sea at that point can calculate.",
+    "The depth of the sea at that point can be calculating.",
+    "The depth of the sea at that point can be calculated.",
+    "The depth of the sea at that point can calculated."
+   ],
+   "answer": 2,
+   "note": "can 后接 be + 过去分词。"
+  },
+  {
+   "q": "This echo-location in bats is often compared with radar, ______ 应选哪一项补全？",
+   "options": [
+    "the principle of which is similar",
+    "which principle is similar",
+    "its principle is similar",
+    "of which the principle similar"
+   ],
+   "answer": 0,
+   "note": "of which 引导非限定定语从句。"
+  },
+  {
+   "q": "根据课文，蝙蝠靠什么来确定并躲开障碍物？",
+   "options": [
+    "By using its sharp eyes in the dark.",
+    "By smelling the obstacles ahead of it.",
+    "By giving out squeaks and receiving the echoes.",
+    "By the radar it carries in its body."
+   ],
+   "answer": 2,
+   "note": "蝙蝠发声并接收回声。"
+  },
+  {
+   "q": "下列哪句正确使用 not only ... but ... 的并列结构？",
+   "options": [
+    "With experience, it is now possible not only to locate a shoal but to tell if it is herring or cod.",
+    "With experience, it is now possible not only to locate a shoal but telling if it is herring or cod.",
+    "With experience, it is now possible not only locating a shoal but to tell if it is herring or cod.",
+    "With experience, it is now possible not only to locate a shoal but also tell if it is herring or cod."
+   ],
+   "answer": 0,
+   "note": "not only...but 后并列 to do。"
+  }
+ ]
+}

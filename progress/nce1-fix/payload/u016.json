@@ -1,0 +1,93 @@
+{
+ "unitId": "u016",
+ "lessons": [
+  {
+   "lesson": 31,
+   "title": "Where's Sally?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "JEAN",
+     "en": "Where's Sally, Jack?"
+    },
+    {
+     "i": 1,
+     "speaker": "JACK",
+     "en": "She's in the garden, Jean."
+    },
+    {
+     "i": 2,
+     "speaker": "JEAN",
+     "en": "What's she doing?"
+    },
+    {
+     "i": 3,
+     "speaker": "JACK",
+     "en": "She's sitting under the tree."
+    },
+    {
+     "i": 4,
+     "speaker": "JEAN",
+     "en": "Is Tim in the garden, too?"
+    },
+    {
+     "i": 5,
+     "speaker": "JACK",
+     "en": "Yes, he is. He's climbing the tree."
+    },
+    {
+     "i": 6,
+     "speaker": "JEAN",
+     "en": "I beg your pardon? Who's climbing the tree?"
+    },
+    {
+     "i": 7,
+     "speaker": "JACK",
+     "en": "Tim is."
+    },
+    {
+     "i": 8,
+     "speaker": "JEAN",
+     "en": "What about the dog?"
+    },
+    {
+     "i": 9,
+     "speaker": "JACK",
+     "en": "The dog's in the garden, too. It's running across the grass. It's running after a cat."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "31": [
+   "简：杰克，萨莉在哪儿？",
+   "杰克：她在花园里，简。",
+   "简：她在干什么？",
+   "杰克：她正在树荫下坐着。",
+   "简：蒂姆也在花园里吗？",
+   "杰克：是的，他也在花园里。他正在爬树。",
+   "简：你说什么？谁在爬树？",
+   "杰克：蒂姆在爬树。",
+   "简：那么狗呢？",
+   "杰克：狗也在花园里。它正在草地上跑，",
+   "在追一只猫。"
+  ]
+ },
+ "rawPage": {
+  "31": "199.txt"
+ },
+ "parsedTranslation": [
+  "简：杰克，萨莉在哪儿？",
+  "杰克：她在花园里，简。",
+  "简：她在干什么？",
+  "杰克：她正在树荫下坐着。",
+  "简：蒂姆也在花园里吗？",
+  "杰克：是的，他也在花园里。他正在爬树。",
+  "简：你说什么？谁在爬树？",
+  "杰克：蒂姆在爬树。",
+  "简：那么狗呢？",
+  "杰克：狗也在花园里。它正在草地上跑，",
+  "在追一只猫。"
+ ]
+}

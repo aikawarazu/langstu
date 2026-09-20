@@ -1,0 +1,164 @@
+{
+ "unitId": "u087",
+ "title": "A Perfect Alibi",
+ "subtitle": "一个绝妙的不在场证明",
+ "lead": {
+  "question": "嫌犯称案发时在开往伦敦的火车上，探长凭什么断定他说谎？",
+  "warmup": "一个杀人嫌犯声称，案发时他正坐在8点钟开往伦敦的火车上，还搬出雇主证明自己10点准时上班。探长不动声色，一步步追问：是否总坐早班车、几点到站、有没有发现异常。男子答得滴水不漏，甚至说提前买了报纸等车。然而越是天衣无缝，越藏着破绽。读对话时，请特别留意他反复强调的那班车。",
+  "goals": [
+   "掌握 alibi、commit、murder、inspector、employer、confirm 等本课核心词汇",
+   "区分 on time 与 in time，并会用 run、break down、take off the line 描述交通工具",
+   "掌握直接引语变间接引语时的时态后移与 must→had to 的转换",
+   "体会过去进行时（表背景）与一般过去时（表发生的事）在同一语境中的配合"
+  ],
+  "summary": "凶杀案发生后，一名男子向探长声称：案发时他正乘8点开往伦敦的火车，10点还要上班，雇主可以作证。探长步步紧逼，问他是否总乘早班车、几点到站、有没有发现异常。男子对答如流，还说提前买了报纸等车。探长却一语道破：案发那天早晨8点那班车因故障在芬格林车站停驶并被取消，他乘的根本是8点25分的车，证词是编造的。",
+  "tips": "转述对话时最容易漏掉时态后移：was travelling 要退成 had been travelling，will confirm 要退成 would confirm，而 must 通常得改成 had to。别只改动词，人称和指代也要跟着变。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "What was wrong with the man's story?",
+   "zh": "这个人的说法（证词）有什么破绽？",
+   "a": "He claimed he had caught the 8 o'clock train, but on the morning of the murder that train did not run at all — it had broken down at Ferngreen station and been taken off the line, so he could only have taken the 8.25.",
+   "aZh": "他声称自己乘的是8点钟的火车，可案发那天早晨那班车根本没有发——它在芬格林车站出了故障并被取消，所以他乘的只能是8点25分那班。",
+   "hint": "答案在课文最后一句：the 8 o'clock train did not run at all."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the man say his employer would confirm?",
+   "zh": "那人说他的雇主会证明什么？",
+   "a": "That he was at work on time — he had to be at work at 10 o'clock.",
+   "aZh": "会证明他按时到了班上——他必须在10点钟上班。",
+   "hint": "见 'My employer will confirm that I was there on time.'"
+  },
+  {
+   "kind": "detail",
+   "q": "At what time did the man say he arrived at the station, and what did he do while waiting?",
+   "zh": "那人说他几点到的火车站？等车时做了什么？",
+   "a": "He said he arrived at ten to eight, bought a paper and waited for the train.",
+   "aZh": "他说他7点50分到站，买了张报纸，然后等着车来。",
+   "hint": "见 'At ten to eight. I bought a paper and waited for the train.'"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the inspector suggest about a later train?",
+   "zh": "探长对'晚一点的车'做了怎样的推断？",
+   "a": "He suggested that the man did not catch the 8 o'clock train but the 8.25, which would still get him to work on time.",
+   "aZh": "他推断那人乘的不是8点钟的火车，而是8点25分的，而那班车同样能让他按时上班。",
+   "hint": "见 'you did not catch the 8 o'clock train, but that you caught the 8.25.'"
+  },
+  {
+   "kind": "think",
+   "q": "The inspector has no witness who saw the man, yet he still catches the lie. What kind of evidence does he use, and why can the man hardly argue against it?",
+   "zh": "探长并没有目击证人，却依然揭穿了谎言。他用的是哪一类证据？为什么那人几乎无法反驳？",
+   "a": "He uses an objective fact about the railway: on the morning of the murder the 8 o'clock train did not run at all because it broke down and was taken off the line. A verifiable fact, not anyone's word, cannot be talked away — that is what makes the 'alibi' fall apart.",
+   "aZh": "他用的是关于铁路运行的客观事实：案发那天早晨8点钟那班车因故障被取消，根本没有发车。这种可查证的事实而非任何人的一面之词，是狡辩不掉的——正因如此，那个'不在场证明'才彻底崩塌。",
+   "hint": "结合标题 A perfect alibi 与结尾 the 8 o'clock train did not run at all 体会。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：在凶杀发生的时候，我正坐在开往伦敦的8点钟火车上。",
+   "a": "At the time the murder was committed, I was travelling on the 8 o'clock train to London.",
+   "note": "过去进行时表背景动作"
+  },
+  {
+   "q": "填空：The police asked him where he was ______ the time of the murder.",
+   "a": "at",
+   "note": "at the time 在……时候"
+  },
+  {
+   "q": "汉译英：警方怀疑他的不在场证明。",
+   "a": "The police are suspicious of his alibi.",
+   "note": "alibi 不在犯罪现场的证明"
+  },
+  {
+   "q": "句型转换（改间接引语）：The inspector asked, 'Did you notice anything unusual?'",
+   "a": "The inspector asked him if/whether he had noticed anything unusual.",
+   "note": "一般疑问句用 if/whether，时态后移"
+  },
+  {
+   "q": "填空：My employer will ______ that I was there on time.",
+   "a": "confirm",
+   "note": "confirm 证实，作证"
+  },
+  {
+   "q": "改错：It broke down at Ferngreen station and was taken off line.",
+   "a": "It broke down at Ferngreen station and was taken off the line.",
+   "note": "take off the line 取消线路，the 不能省"
+  },
+  {
+   "q": "汉译英：弄清他案发时的行踪是至关重要的。",
+   "a": "It was essential to find out where he was at the time of the murder.",
+   "note": "it is essential to do sth 至关重要"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文标题 A Perfect Alibi 中 alibi 一词的意思是：",
+   "options": [
+    "proof that someone was elsewhere when a crime took place",
+    "a written confession to a crime",
+    "a description of the scene of a crime",
+    "a reason for missing work"
+   ],
+   "answer": 0,
+   "note": "alibi 指不在犯罪现场的申辩或证明"
+  },
+  {
+   "q": "'At the time the murder was committed' 中 committed 的含义是：",
+   "options": [
+    "犯（罪），做（坏事）",
+    "承诺，使承担义务",
+    "证实，确认",
+    "取消，停止"
+   ],
+   "answer": 0,
+   "note": "commit 犯（罪）"
+  },
+  {
+   "q": "'My employer will confirm that I was there on time.' 中 on time 的意思是：",
+   "options": [
+    "at exactly the right time, not late",
+    "before it is too late",
+    "now and then",
+    "earlier than expected"
+   ],
+   "answer": 0,
+   "note": "on time 准时，区别于 in time 及时"
+  },
+  {
+   "q": "'It broke down at Ferngreen station and was taken off the line.' 这句话的意思是：",
+   "options": [
+    "The train broke down and was removed from service.",
+    "The train arrived at Ferngreen very late.",
+    "The station was closed for repairs.",
+    "The man was ordered off the train."
+   ],
+   "answer": 0,
+   "note": "break down 出故障，take off the line 取消线路"
+  },
+  {
+   "q": "把 The man said, 'I must be at work at 10 o'clock.' 改为间接引语，正确的是：",
+   "options": [
+    "The man said (that) he had to be at work at 10 o'clock.",
+    "The man said (that) I must be at work at 10 o'clock.",
+    "The man said (that) he must be at work at 10 o'clock.",
+    "The man said (that) he has to be at work at 10 o'clock."
+   ],
+   "answer": 0,
+   "note": "must 在间接引语中常变为 had to，人称也随之改变"
+  },
+  {
+   "q": "探长凭什么断定那人在撒谎？",
+   "options": [
+    "The 8 o'clock train did not run at all that morning.",
+    "The man's employer had already reported him.",
+    "A witness saw the man at Ferngreen station.",
+    "The man forgot to buy a newspaper."
+   ],
+   "answer": 0,
+   "note": "依据是案发当天8点那班车停运的客观事实"
+  }
+ ]
+}

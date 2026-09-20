@@ -1,0 +1,14 @@
+{
+ "unit": "nce3-u040",
+ "book": "nce3",
+ "unitId": "u040",
+ "title": "Who's Who",
+ "subtitle": "名人录",
+ "hasText": false,
+ "lines": 18,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "da60fa472be1",
+ "finishedAt": "2026-09-20T21:31:44+08:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "The Search for Oil",
+ "subtitle": "寻找石油",
+ "lead": {
+  "question": "石油一旦被钻到，石油工人为什么不让它像喷泉一样涌上地面？",
+  "warmup": "石油深埋地下数千米，人类却不必亲自下去把它取出。钻井、井架、钻杆、钻头这些沉重的钢铁设备，正是把黑暗地下的秘密一点点带上地面的工具。本课作者以搞石油的行家口吻，讲述寻找石油的全过程：定位、下钻、取样、控制压力。读时请带着一个问题：石油既能自喷，为什么反而要设法把它“按”在井下？",
+  "goals": ["掌握 oil、drill、derrick、sediment、gusher 等本课核心词汇。", "理解寻找石油的完整流程：定位、下钻、取样、控制压力。", "学会被动语态与现在完成时在说明文中的运用。", "能用英语复述钻井取油的过程并解释为何要控制压力。"],
+  "summary": "课文讲述寻找石油的钻井过程。为取油所钻的洞可深达25,000英尺，却只是直径不到一英尺的钻孔。确定井位后竖立高大的井架，它像巨型滑轮组，下放并提起长钻杆，顶部发动机使其旋转，底部装有钻头。地质学家用芯钻头取样，从岩芯看出钻穿的地层。到油层后石油因地下压力上涌，工人用循环泥浆控制压力，不要浪费油气的旧式喷井。",
+  "tips": "留意 strike oil 意为“钻到石油”，strike 此处作“发现、找到”；under control 前不加 the，说 be under control；by means of 与 by 都可引出手段，注意说明文中被动语态与现在完成时的搭配。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What do oilmen want to achieve as soon as they strike oil?", "zh": "石油工人一旦钻到石油，最想实现什么目标？", "a": "They want to keep the oil down the hole until they can lead it off in a controlled manner, that is, to keep the great pressure under control instead of letting the oil gush.", "aZh": "他们想让石油留在井下，直到能用一种有控制的方法把它引上来，也就是把巨大的压力控制住，而不是任其喷涌。", "hint": "答案见课文最后两句：This pressure must be under control … until we can lead it off in a controlled manner."},
+  {"kind": "detail", "q": "Why does an oil derrick have to be tall?", "zh": "为什么石油井架必须建得很高？", "a": "Because it is like a giant block and tackle: it has to lower into the ground and haul out of the ground great lengths of drill pipe.", "aZh": "因为它像一个巨型滑轮组，必须把很长的钻杆一节节地下入地下，再从地下拉出来。", "hint": "见课文 when we are going to drill, we put up … an oil derrick 之后一句。"},
+  {"kind": "detail", "q": "How does the geologist find out what rocks the drill has reached?", "zh": "地质学家怎样查明钻头到达了什么岩层？", "a": "Every so often a sample is obtained with a coring bit, which cuts a clean cylinder of rock showing the strata the drill has been cutting through.", "aZh": "时常要用芯钻头取样，它能切下一段光滑的圆柱形岩芯，从中可看出钻头所钻穿的地层。", "hint": "见课文 the geologist needs to know what rocks the drill has reached 之后两句。"},
+  {"kind": "detail", "q": "Why does the oil usually flow to the surface once the drill reaches it?", "zh": "为什么钻到油层后石油通常会自己流到地面？", "a": "Because great pressure, either from gas or water, is pushing it.", "aZh": "因为来自地下天然气或水的巨大压力在推着它。", "hint": "见课文 Once we get down to the oil … it usually flows to the surface。"},
+  {"kind": "think", "q": "Since oil can gush out by itself, why do oilmen try to avoid the gusher?", "zh": "既然石油能自己喷出来，石油工人为什么还要尽量避免喷井？", "a": "Because a gusher is uncontrolled and wastes oil and gas; they prefer to keep the oil down the hole and lead it off in a controlled manner.", "aZh": "因为喷井无法控制，会浪费石油和天然气；他们宁愿让石油留在井下，再用有控制的方法把它引出来。", "hint": "综合课文最后三句关于 gusher 与 controlled manner 的论述。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我们尽量避免那种浪费石油和天然气的旧式喷井。", "a": "We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.", "note": "endeavour to do；which 引导定语从句。"},
+  {"q": "改为被动语态：An engine at the top rotates the drill pipe.", "a": "The drill pipe is rotated by an engine at the top.", "note": "一般现在时被动：is/are + 过去分词。"},
+  {"q": "填空：When it ___ (decide) where we are going to drill, we put up an oil derrick.", "a": "has been decided", "note": "现在完成时的被动语态。"},
+  {"q": "改错：This pressure must be under the control, and we control it by mud.", "a": "This pressure must be under control, and we control it by means of mud.", "note": "under control 无冠词；by means of 表手段。"},
+  {"q": "补全关系词：… the strata ___ the drill has been cutting through.", "a": "which / that", "note": "定语从句关系代词作宾语，可省略。"},
+  {"q": "汉译英：这些洞只不过是一些钻孔，直径不到一英尺。", "a": "The holes are only borings, less than a foot in diameter.", "note": "in diameter 表直径；less than 修饰数量。"},
+  {"q": "用 once 改写并保持原意：As soon as we get down to the oil, it usually flows to the surface.", "a": "Once we get down to the oil, it usually flows to the surface.", "note": "once 相当于 as soon as，引导时间状语。"}
+ ],
+ "quiz": [
+  {"q": "课文说，为寻找石油所钻的洞是所有洞中最深的，最深可达多少？", "options": ["About 2,500 feet.", "As much as 25,000 feet.", "Less than a foot.", "About one hundred feet."], "answer": 1, "note": "课文首句：25,000 feet。"},
+  {"q": "为什么石油井架必须建得很高？", "options": ["To hold the mud used to control pressure.", "Because it works like a giant block and tackle.", "To mark the location of the oil.", "To shelter the geologists from wind."], "answer": 1, "note": "像巨型滑轮组下放、提起钻杆。"},
+  {"q": "地质学家为什么每隔一段时间就要取一次岩芯？", "options": ["To test the quality of the mud.", "To measure the depth of the hole.", "To find out what rocks the drill has reached.", "To keep the drill pipe rotating."], "answer": 2, "note": "取样为知钻头所到岩层。"},
+  {"q": "到达油层后，石油为什么通常会自己流到地面？", "options": ["Because the mud pushes it up.", "Because the derrick lifts it.", "Because the drill pipe is removed.", "Because great pressure from gas or water is pushing it."], "answer": 3, "note": "巨大压力来自天然气或水。"},
+  {"q": "石油工人用什么方法控制井下的巨大压力？", "options": ["By letting the oil gush out freely.", "By circulating mud down the drill pipe.", "By shutting down the engine at the top.", "By lowering the derrick into the ground."], "answer": 1, "note": "让泥浆沿钻杆向下循环。"},
+  {"q": "作者对 old, romantic idea of a gusher（旧式喷井）持什么态度？", "options": ["He thinks it is the best way to get oil.", "He wants to avoid it because it wastes oil and gas.", "He believes it improves deep drilling.", "He considers it a modern technique."], "answer": 1, "note": "喷井浪费油气，应避免。"}
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u035",
+ "book": "nce2",
+ "unitId": "u035",
+ "title": "Stop thief!",
+ "subtitle": "捉贼！",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "29ab07c43930",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

@@ -1,0 +1,106 @@
+{
+ "unitId": "u017",
+ "lessons": [
+  {
+   "lesson": 33,
+   "title": "A fine day",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "GEORGE",
+     "en": "It's a fine day today, isn't it?"
+    },
+    {
+     "i": 1,
+     "speaker": "HUSBAND",
+     "en": "Yes, it is."
+    },
+    {
+     "i": 2,
+     "speaker": "GEORGE",
+     "en": "There are some clouds in the sky, but the sun is shining."
+    },
+    {
+     "i": 3,
+     "speaker": "HUSBAND",
+     "en": "Mr. Jones is with his family. They are walking over the bridge."
+    },
+    {
+     "i": 4,
+     "speaker": "GEORGE",
+     "en": "They are looking at some boats on the river."
+    },
+    {
+     "i": 5,
+     "speaker": "GEORGE",
+     "en": "The men are sailing boats. The women are looking at a ship."
+    },
+    {
+     "i": 6,
+     "speaker": "HUSBAND",
+     "en": "Tim is over there. He's sitting on the grass. He's looking at an aeroplane. It's flying over the river."
+    },
+    {
+     "i": 7,
+     "speaker": "GEORGE",
+     "en": "Look at the children. They're playing in the garden."
+    },
+    {
+     "i": 8,
+     "speaker": "HUSBAND",
+     "en": "The dog is in the garden, too. He's digging holes in the garden."
+    },
+    {
+     "i": 9,
+     "speaker": "GEORGE",
+     "en": "What's the dog doing?"
+    },
+    {
+     "i": 10,
+     "speaker": "HUSBAND",
+     "en": "He's digging a hole. He likes bones."
+    },
+    {
+     "i": 11,
+     "speaker": "GEORGE",
+     "en": "The sun is shining. The birds are singing."
+    },
+    {
+     "i": 12,
+     "speaker": "HUSBAND",
+     "en": "Yes, it is. It's a lovely day."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "33": [
+   "今天天气好。",
+   "天空中飘着几朵云，但阳光灿烂。",
+   "琼斯先生同他的家人在一起。",
+   "他们正在过桥。",
+   "河上有几艘船。",
+   "琼斯先生和他的妻子正在看这些船。",
+   "莎莉正在观看一艘大船。",
+   "那船正从桥下驶过。",
+   "蒂姆正望着一架飞机。",
+   "飞机正从河上飞过。"
+  ]
+ },
+ "rawPage": {
+  "33": "200.txt"
+ },
+ "parsedTranslation": [
+  "今天天气好。",
+  "天空中飘着几朵云，但阳光灿烂。",
+  "琼斯先生同他的家人在一起。",
+  "他们正在过桥。",
+  "河上有几艘船。",
+  "琼斯先生和他的妻子正在看这些船。",
+  "莎莉正在观看一艘大船。",
+  "那船正从桥下驶过。",
+  "蒂姆正望着一架飞机。",
+  "飞机正从河上飞过。"
+ ]
+}

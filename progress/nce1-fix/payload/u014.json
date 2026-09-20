@@ -1,0 +1,112 @@
+{
+ "unitId": "u014",
+ "lessons": [
+  {
+   "lesson": 27,
+   "title": "Mrs. Smith's living room",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": null,
+     "en": "Mrs. Smith's living room is large."
+    },
+    {
+     "i": 1,
+     "speaker": null,
+     "en": "There is a television in the room."
+    },
+    {
+     "i": 2,
+     "speaker": null,
+     "en": "The television is near the window."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "There are some magazines on the television."
+    },
+    {
+     "i": 4,
+     "speaker": null,
+     "en": "There is a table in the room."
+    },
+    {
+     "i": 5,
+     "speaker": null,
+     "en": "There are some newspapers on the table."
+    },
+    {
+     "i": 6,
+     "speaker": null,
+     "en": "There are some armchairs in the room."
+    },
+    {
+     "i": 7,
+     "speaker": null,
+     "en": "The armchairs are near the table."
+    },
+    {
+     "i": 8,
+     "speaker": null,
+     "en": "There is a stereo in the room."
+    },
+    {
+     "i": 9,
+     "speaker": null,
+     "en": "The stereo is near the door."
+    },
+    {
+     "i": 10,
+     "speaker": null,
+     "en": "There are some books on the stereo."
+    },
+    {
+     "i": 11,
+     "speaker": null,
+     "en": "There are some pictures in the room."
+    },
+    {
+     "i": 12,
+     "speaker": null,
+     "en": "The pictures are on the wall."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "27": [
+   "史密斯夫人的客厅很大。",
+   "客厅里有台电视机。",
+   "电视机靠近窗子。",
+   "电视机上放着几本杂志。",
+   "客厅里有张桌子。",
+   "桌上放着几份报纸。",
+   "客厅里有几把扶手椅。",
+   "那些扶手椅靠近桌子。",
+   "客厅里有台立体声音响。",
+   "音响靠近门。",
+   "音响上面有几本书。",
+   "客厅里有几幅画。",
+   "画挂在墙上。"
+  ]
+ },
+ "rawPage": {
+  "27": "197.txt"
+ },
+ "parsedTranslation": [
+  "史密斯夫人的客厅很大。",
+  "客厅里有台电视机。",
+  "电视机靠近窗子。",
+  "电视机上放着几本杂志。",
+  "客厅里有张桌子。",
+  "桌上放着几份报纸。",
+  "客厅里有几把扶手椅。",
+  "那些扶手椅靠近桌子。",
+  "客厅里有台立体声音响。",
+  "音响靠近门。",
+  "音响上面有几本书。",
+  "客厅里有几幅画。",
+  "画挂在墙上。"
+ ]
+}

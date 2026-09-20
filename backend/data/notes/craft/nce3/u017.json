@@ -1,0 +1,164 @@
+{
+ "unitId": "u017",
+ "title": "The Longest Suspension Bridge in the World",
+ "subtitle": "世界上最长的吊桥",
+ "lead": {
+  "question": "世界上最长的吊桥靠什么支撑？它为何庞大却又简单优雅？",
+  "warmup": "吊桥（suspension bridge）靠钢缆把桥面悬吊在高塔上，跨度越大，工程难度越高。1964年11月21日，纽约港入口处建成了以意大利探险家维拉萨诺命名的维拉萨诺大桥。它连接布鲁克林与斯塔顿岛，曾是世界上最长的吊桥。本课将带你读懂它的跨度、承重与简约之美。",
+  "goals": [
+   "掌握 span、cable、tower、platform、suspend 等桥梁相关词汇",
+   "理解并运用 describe...as...、be named after、be taken into account 等短语",
+   "熟悉被动语态及 so...that、in the midst of which 等句式",
+   "能用英语准确表达长度、深度、数量等数据"
+  ],
+  "summary": "课文先交代维拉萨诺大桥的由来：1524年探险家维拉萨诺驶入纽约港，1964年建成的大桥以他的名字命名。接着用数据说明其规模——跨度4,260英尺，两座巨塔支撑四根钢缆，每根含26,108股钢绳，水下平台深入海底100多英尺。最后点出它虽庞大却简单优雅，实现了设计者“以最细线条勾勒庞然大物”的梦想。",
+  "tips": "诀窍：数字表达要在千位加逗号（4,260 feet；26,108 lengths of wire）；易错点是 by no means（决不）置于句首时须部分倒装，如 By no means is he a great explorer."
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How is the bridge supported?",
+   "zh": "这座桥是如何被支撑的？",
+   "a": "Two great towers support four huge cables, and the towers support the cables from which the bridge has been suspended.",
+   "aZh": "两座巨塔支撑着四根粗大的钢缆，塔支撑着钢缆，而钢缆又悬吊着大桥。",
+   "hint": "答案见课文：Two great towers support four huge cables... They support the cables from which the bridge has been suspended."
+  },
+  {
+   "kind": "detail",
+   "q": "How long is the span of the Verrazano Bridge?",
+   "zh": "维拉萨诺大桥的跨度有多长？",
+   "a": "It has a span of 4,260 feet.",
+   "aZh": "它的跨度为4,260英尺。",
+   "hint": "见课文：It has a span of 4,260 feet."
+  },
+  {
+   "kind": "detail",
+   "q": "What are the two great towers built on, and how deep do the platforms go?",
+   "zh": "两座巨塔建在什么之上？平台深入海底多深？",
+   "a": "They are built on immense underwater platforms of steel and concrete, which extend to a depth of over 100 feet under the sea.",
+   "aZh": "它们建在巨大的钢混水下平台上，平台深入海底100多英尺。",
+   "hint": "见课文：The towers are built on immense underwater platforms... The platforms extend to a depth of over 100 feet under the sea."
+  },
+  {
+   "kind": "detail",
+   "q": "How many cables does the bridge have, and how many lengths of wire does each contain?",
+   "zh": "这座桥有几根钢缆？每根由多少股钢绳组成？",
+   "a": "It has four cables, and each of them contains 26,108 lengths of wire.",
+   "aZh": "它有四根钢缆，每根由26,108股钢绳组成。",
+   "hint": "见课文：Each of the four cables contains 26,108 lengths of wire."
+  },
+  {
+   "kind": "think",
+   "q": "Why did the designer have to take the shape of the earth into account, and how does 'an enormous object drawn as faintly as possible' describe the bridge?",
+   "zh": "设计者为何必须考虑地球的形状？“尽量用细线条勾勒庞然大物”又是如何形容这座桥的？",
+   "a": "Because the bridge is so long that the curve of the earth affects its alignment; the phrase shows the bridge is vast yet simple and elegant, fulfilling its designer's dream.",
+   "aZh": "因为桥身太长，地球的弧度会影响桥的走向；这一说法表明桥虽巨大却简单优雅，实现了设计者的梦想。",
+   "hint": "见课文：The bridge is so long that the shape of the earth had to be taken into account... Despite its immensity, it is both simple and elegant, fulfilling its designer's dream..."
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：维拉萨诺大桥由奥斯马·阿曼设计，连接布鲁克林与斯塔顿岛。",
+   "a": "The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Staten Island.",
+   "note": "定语从句改写"
+  },
+  {
+   "q": "句型转换：改为被动句——The designer had to take the shape of the earth into account.",
+   "a": "The shape of the earth had to be taken into account by the designer.",
+   "note": "情态动词被动语态"
+  },
+  {
+   "q": "填空：Located within two small hills in the midst of ___ flowed a great river.",
+   "a": "which",
+   "note": "in the midst of which 定语从句"
+  },
+  {
+   "q": "改错：Each of the four cables contain 26,108 lengths of wire.",
+   "a": "contain → contains",
+   "note": "each of… 谓语用单数"
+  },
+  {
+   "q": "汉译英：这座桥的跨度为4,260英尺，每根钢缆含26,108股钢绳。",
+   "a": "The bridge has a span of 4,260 feet, and each cable contains 26,108 lengths of wire.",
+   "note": "数字千位加逗号"
+  },
+  {
+   "q": "汉译英：虽然维拉萨诺绝算不上一个伟大的探险家，但这座桥以他的名字命名。",
+   "a": "Though Verrazano is by no means considered to be a great explorer, the bridge was named after him.",
+   "note": "by no means 决不"
+  },
+  {
+   "q": "填空：They support the cables from which the bridge ___ been suspended.",
+   "a": "has",
+   "note": "现在完成时被动"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "维拉萨诺大桥的跨度为多少？",
+   "options": [
+    "700 feet",
+    "100 feet",
+    "4,260 feet",
+    "26,108 feet"
+   ],
+   "answer": 2,
+   "note": "It has a span of 4,260 feet."
+  },
+  {
+   "q": "支撑四根粗大钢缆的是什么？",
+   "options": [
+    "Two great towers",
+    "The river",
+    "Underwater concrete platforms",
+    "A single steel cable"
+   ],
+   "answer": 0,
+   "note": "Two great towers support four huge cables."
+  },
+  {
+   "q": "每根钢缆包含多少股钢绳？",
+   "options": [
+    "4,260 lengths of wire",
+    "26,108 lengths of wire",
+    "700 lengths of wire",
+    "16 lengths of wire"
+   ],
+   "answer": 1,
+   "note": "Each cable contains 26,108 lengths of wire."
+  },
+  {
+   "q": "若桥上摆满汽车，它仅承载总承载力的多少？",
+   "options": [
+    "A half",
+    "Two thirds",
+    "All of it",
+    "A third"
+   ],
+   "answer": 3,
+   "note": "It would still only be carrying a third of its total capacity."
+  },
+  {
+   "q": "设计者为何必须考虑地球的形状？",
+   "options": [
+    "Because the towers are short",
+    "Because the bridge is so long",
+    "Because the sea is deep",
+    "Because the cables are thin"
+   ],
+   "answer": 1,
+   "note": "The bridge is so long that the shape of the earth had to be taken into account."
+  },
+  {
+   "q": "下列哪句正确描述这座桥的外观？",
+   "options": [
+    "It is both rough and heavy.",
+    "It is both simple and elegant.",
+    "It is both narrow and dark.",
+    "It is both ugly and small."
+   ],
+   "answer": 1,
+   "note": "It is both simple and elegant."
+  }
+ ]
+}

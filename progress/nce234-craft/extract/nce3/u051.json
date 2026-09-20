@@ -1,0 +1,107 @@
+{
+ "book": "nce3",
+ "unitId": "u051",
+ "lesson": 51,
+ "sourceFile": "366.txt",
+ "titleEn": "Predicting the future",
+ "titleZh": "预测未来",
+ "listenQuestion": "What was the 'future' electronic development that Leon Bagrit wasn't able to foresee?",
+ "lines": [
+  {
+   "en": "is notoriously difficult.",
+   "zh": "众所周知，预测未来是非常困难的。"
+  },
+  {
+   "en": "Who could have imagined, in the mid 1970s, for example, that by the end of the 20th century, computers would be as common in people's homes as TV sets?",
+   "zh": "举个例子吧，在20世纪70年代中叶又有谁能想得到在20世纪末的时候，家庭用的计算机会像电视机一样普遍？"
+  },
+  {
+   "en": "In the 1970s, computers were common enough, but only in big business, government departments, and large organizations.",
+   "zh": "在70年代，计算机已经相当普及了，但只用在大公司，政府部门和大的组织之中，它们被称为主机。"
+  },
+  {
+   "en": "These were the so-called mainframe machines.",
+   "zh": "计算机主机确实很大，常常占据了装有空调的多间房间，雇用专职的技师，而且得用专门编写的软件才能运行。"
+  },
+  {
+   "en": "Mainframe computers were very large indeed, often occupying whole air-conditioned rooms, employing full-time technicians and run on specially-written software.",
+   "zh": "虽然这种大计算机仍然存在，但它们的许多功能已被体积小但功能齐全的个人电脑——即我们常说的PC机——所代替了。"
+  },
+  {
+   "en": "Though these large machines still exist, many of their functions have been taken over by small powerful personal computers, commonly known as PCs.",
+   "zh": "1975年，美国推出了一台被称为“牛郎星”的原始机型。"
+  },
+  {
+   "en": "In 1975, a primitive machine called the Altair, was launched in the USA.",
+   "zh": "严格地说起来，它可以被称为第一台“家用电脑”，而且它也指了今后的方向。"
+  },
+  {
+   "en": "It can properly be described as the first 'home computer' and it pointed the way to the future.",
+   "zh": "70年代末，在牛郎星之后又出现了一种被称为“苹果”的机型。"
+  },
+  {
+   "en": "This was followed, at the end of the 1970s, by a machine called an Apple.",
+   "zh": "80年代初，计算机行业的王牌公司美国国际商用机器公司（IBM）生产出了世界上第一台个人电脑。"
+  },
+  {
+   "en": "In the early 1980s, the computer giant, IBM produced the world's first Personal Computer.",
+   "zh": "这种电脑采用了一种被称为磁盘操作系统（DOS）的工作程序，而这种程序是由当时规模不大的微软公司生产的。"
+  },
+  {
+   "en": "This ran on an 'operating system' called DOS, produced by a then small company named Microsoft.",
+   "zh": "IBM的个人电脑被大规模地模仿。"
+  },
+  {
+   "en": "The IBM Personal Computer was widely copied.",
+   "zh": "从那些简陋的初级阶段，我们看到了现在都已普及的、使用简便的家用电脑和多媒体的微机的发展。"
+  },
+  {
+   "en": "From those humble beginnings, we have seen the development of the user-friendly home computers and multimedia machines which are in common use today.",
+   "zh": "想一想这些发展的时间多么短，就更觉得英国人莱昂。"
+  },
+  {
+   "en": "Considering how recent these developments are, it is even more remarkable that as long ago as the 1960s, an Englishman, Leon Bagrit, was able to predict some of the uses of computers which we know today.",
+   "zh": "巴格瑞特有着非凡的能力。"
+  },
+  {
+   "en": "Bagrit dismissed the idea that computers would learn to 'think' for themselves and would 'rule the world', which people liked to believe in those days.",
+   "zh": "他在60年代就能预言我们今天知道的计算机的一些用途。"
+  },
+  {
+   "en": "Bagrit foresaw a time when computers would be small enough to hold in the hand, when they would be capable of providing information about traffic jams and suggesting alternative routes, when they would be used in hospitals to help doctors to diagnose illnesses, when they would relieve office workers and accountants of dull, repetitive clerical work.",
+   "zh": "巴格瑞特根本不接受计算机可以学会自己去“思考”和计算可以“统治世界”这种想法，而这种想法是当时的人们都愿意相信的。巴格瑞特预示有一天计算机可以小到拿在手上，计算机可以使办公室人员和会计免除那些枯燥、重复的劳动。"
+  },
+  {
+   "en": "All these computer uses have become commonplace .",
+   "zh": "计算机的所有这些功能现在都变得很平常。"
+  },
+  {
+   "en": "Of course, Leon Bagrit could not possibly have foreseen the development of the Internet, the worldwide system that enables us to communicate instantly with anyone in any part of the world by using computers linked to telephone networks.",
+   "zh": "当然了，莱昂。巴格瑞特根本没有可能预测到国际交互网——就是把计算机连结到电话线路上，以便和世界上任何一个地方的人立即进行联系的一个世界范围的通讯系统——的发展。"
+  },
+  {
+   "en": "Nor could he have foreseen how we could use the Internet to obtain information on every known subject, so we can read it on a screen in our homes and even print it as well if we want to.",
+   "zh": "他也无法预测到我们可以利用国际交互网获取有关任何已知专题的信息，以便在家里的屏幕上阅读，如果愿意的话甚至可以将其打印出来。"
+  },
+  {
+   "en": "Computers have become smaller and smaller, more and more powerful and cheaper and cheaper.",
+   "zh": "计算机已经变得体积越来越小，功能越来越多，价格越来越低，这就是莱昂。"
+  },
+  {
+   "en": "This is what makes Leon Bagrit's predictions particularly remarkable.",
+   "zh": "巴格瑞特的预测非凡的地方。"
+  },
+  {
+   "en": "If he, or someone like him, were alive today, he might be able to tell us what to expect in the next fifty years.",
+   "zh": "如果他或是像他的什么人今天还活着的话，他大概可以告诉我们下一个50年后会发生什么事情。"
+  }
+ ],
+ "translationJoined": "众所周知，预测未来是非常困难的。举个例子吧，在20世纪70年代中叶又有谁能想得到在20世纪末的时候，家庭用的计算机会像电视机一样普遍？在70年代，计算机已经相当普及了，但只用在大公司，政府部门和大的组织之中，它们被称为主机。计算机主机确实很大，常常占据了装有空调的多间房间，雇用专职的技师，而且得用专门编写的软件才能运行。虽然这种大计算机仍然存在，但它们的许多功能已被体积小但功能齐全的个人电脑——即我们常说的PC机——所代替了。1975年，美国推出了一台被称为“牛郎星”的原始机型。严格地说起来，它可以被称为第一台“家用电脑”，而且它也指了今后的方向。70年代末，在牛郎星之后又出现了一种被称为“苹果”的机型。80年代初，计算机行业的王牌公司美国国际商用机器公司（IBM）生产出了世界上第一台个人电脑。这种电脑采用了一种被称为磁盘操作系统（DOS）的工作程序，而这种程序是由当时规模不大的微软公司生产的。IBM的个人电脑被大规模地模仿。从那些简陋的初级阶段，我们看到了现在都已普及的、使用简便的家用电脑和多媒体的微机的发展。想一想这些发展的时间多么短，就更觉得英国人莱昂。巴格瑞特有着非凡的能力。他在60年代就能预言我们今天知道的计算机的一些用途。巴格瑞特根本不接受计算机可以学会自己去“思考”和计算可以“统治世界”这种想法，而这种想法是当时的人们都愿意相信的。巴格瑞特预示有一天计算机可以小到拿在手上，计算机可以使办公室人员和会计免除那些枯燥、重复的劳动。计算机的所有这些功能现在都变得很平常。当然了，莱昂。巴格瑞特根本没有可能预测到国际交互网——就是把计算机连结到电话线路上，以便和世界上任何一个地方的人立即进行联系的一个世界范围的通讯系统——的发展。他也无法预测到我们可以利用国际交互网获取有关任何已知专题的信息，以便在家里的屏幕上阅读，如果愿意的话甚至可以将其打印出来。计算机已经变得体积越来越小，功能越来越多，价格越来越低，这就是莱昂。巴格瑞特的预测非凡的地方。如果他或是像他的什么人今天还活着的话，他大概可以告诉我们下一个50年后会发生什么事情。",
+ "words": [],
+ "rawNotes": {
+  "zixue": "课文详注 Further notes on the text\n1．…but things got so bad recently that he\ndecided\nto go on a diet.……但是近来情况变得越发糟糕，以致他决定节食。\n（1）things（要用复数形式）可以表示“情况”、“情形”、“状况”、“形势”等含义：\nYou've surely made things worse.\n你确实使情况变得更糟了。\nHow are things going on with you?\n你那里情况如何？\n（2）get作不及物动词时可以表示“变得”：\nI got interested in French.\n我（变得）对法语感兴趣了。\nI got angry with him.\n我（变得）对他很生气。\n（3）diet用于表示治疗某种疾病或调节体重的“特种饮食”、“规定饮食”时通常与on连用：\nThe doctor put him on a strict diet.\n医生让他严格控制饮食。\nShe is on a diet.\n她正在节食。\nI once went on a diet for a week and then I gave up.\n我曾经节食过一周，然后就放弃了。\n2．First of all, he wrote out a long list of all the foods which were forbidden.首先，他开列了一张长长的单子，上面列了所有禁吃的食物。\n（1）first of all为固定短语，表示“首先”、“第一”：\nFirst of all I must see your passport.\n首先我必须看一下你的护照。\n（2）write out这个短语表示“（正式）写”、“写出”或“全部写出”：\nYou should write out a report.\n你应该写一份报告。\n3．The list included most of the things Hugh loves…这张单子上的大多数食物都是休喜欢吃的……\nIt contained five large bars of chocolate and three bags of sweets!\n里面装了5大块巧克力和3袋糖果！\ninclude和contain都有“包含”的意思，但contain可以用于表示所包含的全部事物，include则只表示其中的一部分：\nIt included three bags of sweets.\n其中有3袋糖果。（另外还有其他东西）\ncontain的主语通常为某个容器，include则含义更广：\nDoes the bill include a tip?\n账单包括小费吗？\nWe're including you in our team.\n我们把你列为我们队中的一员了。\n4．Yesterday I paid him a visit.昨天我去看望了他。\npay a visit to sb. 表示“拜访某人”：\nI paid a visit to Jane the other day.\n前几天我去看望了简。\n5．…Hugh was still as fat as ever．……休仍和往常一样胖。\nas ever是as he ever was的省略形式。as…as ever这个结构表示“照旧”、“依然”：\nHe is as strong as ever.\n他依然那么强壮。\n6．It was obvious that he was very embarrassed.显然他感到很尴尬。\nit为先行主语，真正的句子主语是that引导的从句，它在句子中起名词的作用。从句作主语时通常前面用先行主语it，以免句子看上去头重脚轻：\nIt is certain now that he'll come on Monday.\n现在可以肯定他星期一将会来。",
+  "grammar": "一般过去时\n在第3课及第27课的语法中我们都学习了一般过去时。在一段文字中，初次使用一般过去时的时候通常要有明确的时间状语，随后的叙述则可以不一定使用时间状语；如果不加before, after等词语，过去的动作就被认为是按所描述的顺序发生的：\nOne afternoon she set out from the coast in a small boat and was caught in a storm. Towards evening, the boat struck a rock and the girl jumped into the sea.\n一天下午，她乘小船从海岸出发，遇上了风暴。天将黑时，小船撞在了一块礁石上，姑娘跳进了海里。\n与一般过去时常用的两个词是once和recently：\nI went on an excursion recently.\n最近我作了一次短途旅行。\nrecently在表示“最近一段时期”时也可以与现在完成时连用：I haven't heard from him recently.\n我最近没有收到他的信。\n一般过去时也可以用于时间状语从句中：",
+  "wordStudy": "1．raise与rise\n（1）raise作动词时只能作及物动词，即它必须跟宾语。它可以表示“举起”、“往上提”、“使……升高”等含义：\nWill those who agree with me please raise their hands?\n请那些同意我的人举起手来好吗？\nWhy did they raise prices?\n他们为什么提高物价？\n（2）rise作动词时通常为不及物动词，表示“起立”、“起床”、“（日、月等）升起”等含义：\nYou're still in bed and the sun has already risen!\n你还在床上，太阳已经升起来了！\nI used to rise at half past six.\n我过去常常6点半起床。\nAll the students rose when the teacher came into the classroom.\n老师走进教室时所有的学生都起立。\n2．lay与lie\n（1）lay的过去式与过去分词均为laid。它通常为及物动词，表示“置”、“搁”、“铺”、“准备”等：\nPlease lay the book open on the desk.\n请把书打开放在书桌上。\nI laid your clothes on the bed so yon could put them away.\n我把你的衣服放在床上了，这样你可以把它们收起来。\nIf you can't cook the dinner, you can at least lay the table.\n你如果不会做饭，至少可以把桌子摆好。\n（2）lie的过去式和过去分词分别为lay和lain。它是个不及物动词，表示“躺”、“平卧”等：\nAre you going to lie in bed all morning?\n你打算在床上躺一上午吗？\nAre you going to spend the whole morning lying in bed?\n（译文同上）\nWe were so tired after last night's party that we lay in bed all morning.\n昨晚的晚会之后我们非常疲劳，今天在床上躺了一上午。\n3．beat与win\n（1）beat作及物动词时可以表示“打败”、“战胜”、“胜过”、“超过”：\nThey beat their enemy, though they were fewer in number.\n他们虽然人少，但打败了敌人。\n表示一个球队打败另一个球队时也用beat。\n（2）win作及物动词时可以表示“在……获胜（成功）”、“赢得”、“获得”、“夺得”等：",
+  "keyAnswers": "1．关键句型练习答案\nA got(1.1); decided(1.2);began(1.2); wrote out(1.3); included(1.4); paid(1.5); rang(1.6);was not surprised (1.6); led(1.7); hid(1.7); asked(1.9); smiled(1.9); put(1.9);explained(1.10); had to reward(1.10); showed(1.10)\n2．难点练习答案\n1 rose  2 lying  3 laid  4 rose  5 beats  6 win\n3．多项选择题答案\n1 b  2c  3d  4d  5d  6a\n7 d  8 c  9 a  10 d  11 d  12 b\n课堂笔记\nFirst of all首先，首要 at first首先\nwrite out 写出\nincluded contain一定是容器里面装\nmost of 大部分\nfatten\n：使某人长胖\npay sb a visit 拜访某人pay a visit to call at拜访某地\npay you a visit\nhave a visit＝visit\nas...as ever像往常一样... as clean as ever\nbe surprised to do\nlead sb into（进门） show sb out（出门） see sb off（送行）\nobviously ＝ it was obvious that\nletter writing\n如果给一个不很熟悉的人写信，应按如下方式开头：亲爱的布朗先生\n对对方熟悉，但是为了表示一种尊重\nraise及物动词\nrise：不能加宾语\nlay：及物动词 lie不及物\nbeat后面接对手 win不能接对手\nmultiple choices\n4、有ago的词，一定不用完成时，用一般过去时\n11、半联系动词：be动词\n感官动词feel，smell...\nget：变得，become，\nlie\nfeel＋adj\nshy：害羞的（习惯性的，在某一种情况下就会作出的反应）\nshame：（n）羞愧\nshameful：令人羞愧的\nashamed：感到羞愧的\nhot热的，恼火的\nuncomfortable：不舒服的\n点击\n收听单词发音\nnotoriously\nadv.声名狼藉地\n参考例句：\nThe weather here is notoriously fickle. 这里的天气出了名的变化无常。\nThe trains are notoriously unreliable. 火车不准点是出了名的。\nmid\nadj.中央的，中间的\n参考例句：\nOur mid-term exam is pending.我们就要期中考试了。\nHe switched over to teaching in mid-career.他在而立之年转入教学工作。\nfull-time\nadj.满工作日的或工作周的，全时间的\n参考例句：\nA full-time job may be too much for her.全天工作她恐怕吃不消。\nI don't know how she copes with looking after her family and doing a full-time job.既要照顾家庭又要全天工作，我不知道她是如何对付的。\nprimitive\nadj.原始的；简单的；n.原(始)人，原始事物\n参考例句：\nIt is a pri"
+ }
+}

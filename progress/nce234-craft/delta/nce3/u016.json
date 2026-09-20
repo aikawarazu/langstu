@@ -1,0 +1,35 @@
+{
+ "title": "Mary Had a Little Lamb",
+ "subtitle": "玛丽有一只小羔羊",
+ "lead": {
+  "question": "一只被偷的小白羊，怎么会让迪米特里在雨中发现真相，并向邻居道歉？",
+  "warmup": "《玛丽有一只小羔羊》是英语世界最著名的童谣之一，本课却借它讲了一个希腊小村庄的失窃案：玛丽心爱的小白羊被偷，丈夫迪米特里四处打听，听说邻居家突然多了一只小羊便上门指责，结果因一只'黑羊'闹出误会。读课文时请留意过去完成时被动语态（had been cut、had been stolen）和分词短语作状语的用法，看作者如何把误会一步步推向意外的结局。",
+  "goals": ["掌握本课生词：prize、tie、theft、accuse、deny、ashamed、apologize、dye 的含义与固定搭配。", "理清故事脉络：小羊被偷→迪米特里寻贼→错怪邻居→雨中真相大白。", "能熟练使用过去完成时被动语态（had been cut / had been stolen / had been dyed）叙述已发生的事。", "会用 accuse sb. of、deny doing、apologize to sb. for、had better 等结构表达指责、否认与道歉。"],
+  "summary": "玛丽与丈夫迪米特里住在希腊南部的波拉考拉村，她珍爱的小白羊白天拴在地里的树上。一天傍晚羊不见了，绳子被割断。迪米特里打听后得知邻居阿列科家突然多了一只小羊，便上门指责。阿列科否认，牵出的羊却是黑色的，他只好为鲁莽道歉。半小时后他出门，惊奇地发现小黑羊几乎变白——羊毛上染的黑色被雨水冲掉了。",
+  "tips": "易错提醒：deny 后只接动名词（denied taking it），不能说 deny to take；表示'人感到惭愧、惊讶'的表语要用 ashamed、astonished 这类 -ed 分词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What did Dimitri find when he went outside half an hour later?", "zh": "半小时后迪米特里走到屋外时发现了什么？", "a": "He was astonished to find that the little black lamb was almost white, because the black dye on its wool had been washed clean by the rain.", "aZh": "他惊奇地发现那只小黑羔羊几乎变成了白色，因为羊毛上染的黑色已被雨水冲掉了。", "hint": "答在课文最后两句（he was astonished to find that the little black lamb was almost white / had been washed clean by the rain）。"},
+  {"kind": "detail", "q": "Why did Dimitri believe that it would not be difficult to find the thief?", "zh": "迪米特里为什么认为找到小偷并不难？", "a": "Because they lived in such a tiny village, where news travels fast and a newly acquired lamb would soon be noticed.", "aZh": "因为他们住在一个很小的村庄里，消息传得快，谁家新添了一只羊很容易被发现。", "hint": "见 He knew it would not prove difficult in such a small village."},
+  {"kind": "detail", "q": "What did Dimitri do after he heard that his neighbour Aleko had suddenly acquired a new lamb?", "zh": "听说邻居阿列科家突然多了一只小羊后，迪米特里做了什么？", "a": "He went to Aleko's house at once and angrily accused him of stealing the lamb, telling him that he had better return it or he would call the police.", "aZh": "他立刻赶到阿列科家，气呼呼地指责他偷了羔羊，并说他最好把羊还回来，否则就报警。", "hint": "见 Dimitri immediately went to Aleko's house and angrily accused him of stealing the lamb."},
+  {"kind": "detail", "q": "How did Aleko answer the accusation, and how did Dimitri react?", "zh": "阿列科如何回应指责？迪米特里又有什么反应？", "a": "Aleko denied taking it and led Dimitri into his backyard, where he showed him a black lamb he had just bought. Ashamed of having acted so rashly, Dimitri apologized to Aleko for having accused him.", "aZh": "阿列科不承认偷羊，把迪米特里领进后院，让他看自己刚买的一只黑羊。迪米特里为自己的鲁莽感到惭愧，为错怪了他而道歉。", "hint": "见 Aleko denied taking it... 与 Ashamed of having acted so rashly... 两句。"},
+  {"kind": "think", "q": "Why was Dimitri's accusation rash, and what should he have done before accusing his neighbour?", "zh": "迪米特里的指责为什么是鲁莽的？在指责邻居之前他本该怎么做？", "a": "He judged only from the fact that Aleko had suddenly got a new lamb, without examining the animal itself. He should have gathered real evidence first, such as the colour and the marks of the lamb, or left the matter to the police.", "aZh": "他仅凭阿列科家突然多了一只羊就下结论，没有核实那只羊本身。他本该先弄清证据，比如羊的颜色和特征，或者把事情交给警察处理。", "hint": "结合 ashamed of having acted so rashly 与全文情节思考。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：丈夫送给玛丽一只白色小羔羊。（用 present 的被动结构）", "a": "A little white lamb had been presented to Mary by her husband.", "note": "present 作动词表赠送，用被动"},
+  {"q": "句型转换：Someone had cut the rope and stolen the lamb.（改为被动语态）", "a": "The rope had been cut and the lamb had been stolen.", "note": "过去完成时被动 had been done"},
+  {"q": "句型转换：用宾语从句合并 His wife told him. + What had happened?", "a": "His wife told him what had happened.", "note": "what 引导宾语从句，语序不倒装"},
+  {"q": "填空：Dimitri was ______ (astonish) to find that the little black lamb was almost white.", "a": "astonished", "note": "-ed 分词表人的感受"},
+  {"q": "改错：Aleko denied to take it.", "a": "Aleko denied taking it.", "note": "deny 后接动名词"},
+  {"q": "改错：Dimitri apologized Aleko for having accused him.", "a": "Dimitri apologized to Aleko for having accused him.", "note": "apologize to sb. for sth."},
+  {"q": "汉译英：孩子们喜欢背诵这首童谣，因为它押韵。", "a": "Children like reciting this nursery rhyme, because it rhymes.", "note": "nursery rhyme 童谣，rhyme 押韵"}
+ ],
+ "quiz": [
+  {"q": "玛丽的小羔羊是丈夫送给她的。下面哪一句正确？", "options": ["The lamb had presented to her by her husband.", "The lamb had been presented to her by her husband.", "The lamb was present to her by her husband.", "The lamb had been presenting by her husband to her."], "answer": 1, "note": "present 用被动语态"},
+  {"q": "迪米特里为什么断定找到小偷并不困难？", "options": ["Because the police station was nearby.", "Because the village was very small.", "Because the lamb was white and easy to see.", "Because Aleko had told him the truth."], "answer": 1, "note": "in such a small village"},
+  {"q": "阿列科面对指责时怎样为自己解释？", "options": ["He said he had never bought a lamb.", "He said the lamb belonged to Mary.", "It was true that he had just bought a lamb, but his lamb was black.", "He said Dimitri had stolen his lamb."], "answer": 2, "note": "It is true that... but... 转折"},
+  {"q": "填空：Aleko denied ______ the lamb.", "options": ["to take", "take", "took", "taking"], "answer": 3, "note": "deny 后接动名词"},
+  {"q": "迪米特里走出屋门时为什么感到惊奇？", "options": ["Aleko had called the police.", "His own white lamb had come back.", "The little black lamb was almost white.", "It had stopped raining."], "answer": 2, "note": "astonished to find 后的内容"},
+  {"q": "哪一句正确表达'羊毛上染的黑色被雨水冲掉了'？", "options": ["Its wool, which had dyed black, had washed clean by the rain.", "The rain had been dyed black by its wool.", "Its wool had been dyeing black by the rain.", "Its wool, which had been dyed black, had been washed clean by the rain."], "answer": 3, "note": "dye 用过去完成时被动"}
+ ]
+}

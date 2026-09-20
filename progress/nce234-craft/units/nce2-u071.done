@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u071",
+ "book": "nce2",
+ "unitId": "u071",
+ "title": "A famous clock",
+ "subtitle": "一个著名的大钟",
+ "hasText": false,
+ "lines": 10,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "3d982a3a3298",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

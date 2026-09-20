@@ -1,0 +1,55 @@
+{
+ "title": "Percy Buttons",
+ "subtitle": "珀西·巴顿斯",
+ "text": [
+  {"lesson": 6, "title": "Percy Buttons", "kind": "课文 · 短文", "lines": [
+   {"en": "I have just moved to a house in Bridge Street.", "zh": "我刚刚搬进大桥街的一所房子。"},
+   {"en": "Yesterday a beggar knocked at my door.", "zh": "昨天一个乞丐来敲我的门。"},
+   {"en": "He asked me for a meal and a glass of beer.", "zh": "他向我索要一顿饭和一杯啤酒。"},
+   {"en": "In return for this, the beggar stood on his head and sang songs.", "zh": "作为回报，那个乞丐倒立起来，还唱了几支歌。"},
+   {"en": "I gave him a meal.", "zh": "我给了他一顿饭。"},
+   {"en": "He ate the food and drank the beer.", "zh": "他吃了食物，喝了啤酒。"},
+   {"en": "Then he put a piece of cheese in his pocket and went away.", "zh": "然后他把一块乳酪放进口袋，就走了。"},
+   {"en": "Later a neighbour told me about him.", "zh": "后来一位邻居向我讲了他的情况。"},
+   {"en": "Everybody knows him.", "zh": "人人都认识他。"},
+   {"en": "His name is Percy Buttons.", "zh": "他叫珀西·巴顿斯。"},
+   {"en": "He calls at every house in the street once a month and always asks for a meal and a glass of beer.", "zh": "他每月拜访这条街上每一户人家一次，而且总是讨一顿饭和一杯啤酒。"}
+  ]}
+ ],
+ "lead": {
+  "question": "一个每月只来敲一次门的乞丐，为什么街坊人人都认识他？",
+  "warmup": "搬家之后总会遇到形形色色的敲门人。本课的作者刚搬进大桥街的新家，就有一位名叫珀西·巴顿斯的乞丐上门讨一顿饭和一杯啤酒；吃饱后他倒立唱歌作为回报，又把一块乳酪放进口袋才离开。阅读时请留意三个表达：向人索要某物、作为回报、每月一次。",
+  "goals": [
+   "能用 ask sb. for sth. 与 call at 造句，描述乞丐每月拜访每户人家的行为",
+   "掌握 in return for、stand on one's head、sing songs、go away 等本课短语",
+   "区分可数与不可数名词，正确使用 a meal、a glass of beer、a piece of cheese",
+   "用一般过去时口头复述本课情节"
+  ],
+  "summary": "作者刚搬进大桥街，昨天一位乞丐敲门讨饭，他给了对方一顿饭和一杯啤酒；乞丐倒立唱歌作答谢，随后把一块乳酪放进口袋离去。邻居后来告诉他，此人叫珀西·巴顿斯，每月沿街挨家拜访一次，所以人人都认识他。本课重点：ask sb. for sth.、in return for、call at、knock at、once a month。",
+  "tips": "记住 ask sb. for sth. 的介词是 for 不是 to；food、beer 不可数，要借 a glass of、a piece of 来计量。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Who is Percy Buttons?", "zh": "珀西·巴顿斯是谁？", "a": "He is a beggar who calls at every house in Bridge Street once a month and always asks for a meal and a glass of beer.", "aZh": "他是一个乞丐，每月拜访大桥街上每一户人家一次，总是讨一顿饭和一杯啤酒。", "hint": "听第一句敲门声和最后一句邻居的介绍。"},
+  {"kind": "detail", "q": "What did Percy Buttons ask the writer for?", "zh": "珀西·巴顿斯向作者要了什么？", "a": "He asked the writer for a meal and a glass of beer.", "aZh": "他向作者要一顿饭和一杯啤酒。", "hint": "注意 ask sb. for sth. 的结构。"},
+  {"kind": "detail", "q": "What did the beggar do in return for the meal?", "zh": "作为这顿饭的回报，乞丐做了什么？", "a": "In return for this, he stood on his head and sang songs.", "aZh": "作为回报，他倒立起来并唱了几支歌。", "hint": "找 in return for this 后面的动作。"},
+  {"kind": "detail", "q": "What did Percy Buttons do before he went away?", "zh": "珀西·巴顿斯离开之前做了什么？", "a": "He put a piece of cheese in his pocket.", "aZh": "他把一块乳酪放进了他的口袋。", "hint": "注意 cheese 是不可数名词，要加 a piece of。"},
+  {"kind": "think", "q": "Why does everybody in the street know Percy Buttons?", "zh": "为什么街上的每个人都认识珀西·巴顿斯？", "a": "Because he calls at every house in the street once a month and always asks for a meal and a glass of beer.", "aZh": "因为他每月沿着这条街挨家挨户拜访一次，还总是讨一顿饭和一杯啤酒，自然会人人都认得他。", "hint": "从他每月一次的固定路线去推断。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：他每月拜访这条街上的每一户人家一次，并且总是要一顿饭和一杯啤酒。", "a": "He calls at every house in the street once a month and always asks for a meal and a glass of beer.", "note": "call at 表“拜访某处”；每月一次 once a month。"},
+  {"q": "填空：He asked me ______ a meal and a glass of beer.", "a": "for", "note": "ask sb. for sth. 向某人索要某物。"},
+  {"q": "句型转换：The beggar stood on his head and sang songs.（改为一般疑问句，句首用 Did）", "a": "Did the beggar stand on his head and sing songs?", "note": "一般过去时疑问句，did 已表过去，动词还原。"},
+  {"q": "改错：He put a piece of cheese in his pocket and go away.", "a": "He put a piece of cheese in his pocket and went away.", "note": "and 连接的并列谓语时态须一致。"},
+  {"q": "汉译英：作为回报，那个乞丐倒立起来唱了几支歌。", "a": "In return for this, the beggar stood on his head and sang songs.", "note": "in return for“作为对……的回报”；stand on one's head 倒立。"},
+  {"q": "用 a / an / the 或不填（用 / 表示）：I gave him ______ meal and ______ glass of ______ beer.", "a": "a; a; /", "note": "meal、glass 可数；beer 不可数，借容器计量。"},
+  {"q": "句型转换：Everybody knows him.（改为反意疑问句）", "a": "Everybody knows him, doesn't he / don't they?", "note": "主语为 everybody 时常用 they 指代。"}
+ ],
+ "quiz": [
+  {"q": "“他向我索要一顿饭和一杯啤酒”的正确英文表达是：", "options": ["He asked me for a meal and a glass of beer.", "He asked me a meal and a glass of beer.", "He said me for a meal and a glass of beer.", "He asked me to a meal and a glass of beer."], "answer": 0, "note": "ask sb. for sth.，for 不可省也不可换。"},
+  {"q": "“作为对这顿饭的回报”应选哪个短语？", "options": ["in return for this", "in return to this", "for return of this", "as return for this"], "answer": 0, "note": "固定搭配 in return for sth.。"},
+  {"q": "乞丐站在门外，课文中描写他敲门用的是：", "options": ["He knocked at my door.", "He knocked my door.", "He knocked in my door.", "He knocked to my door."], "answer": 0, "note": "knock at (on) the door，需介词。"},
+  {"q": "乞丐每月拜访这条街上每一户人家，最恰当的译法是：", "options": ["He calls at every house in the street once a month.", "He calls every house in the street a month.", "He calls on every house once in month.", "He calls for every house one month."], "answer": 0, "note": "call at + 地点；once a month 表频率。"},
+  {"q": "他把一块乳酪放进口袋，cheese 是不可数名词，应说：", "options": ["a piece of cheese", "a cheese", "a few cheese", "one cheeses"], "answer": 0, "note": "不可数名词用 a piece of 计量。"},
+  {"q": "对 He calls at every house “once a month” 提问，应使用：", "options": ["How often does he call at every house?", "How long does he call at every house?", "How many does he call at every house?", "How much does he call at every house?"], "answer": 0, "note": "问频率用 how often。"}
+ ]
+}

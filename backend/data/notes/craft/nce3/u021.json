@@ -1,0 +1,164 @@
+{
+ "unitId": "u021",
+ "title": "Daniel Mendoza",
+ "subtitle": "丹尼尔·门多萨",
+ "lead": {
+  "question": "门多萨在成为全英拳击冠军之前，总共经历了几次失败的较量？",
+  "warmup": "两百年前，拳击风靡英国，拳手赤手空拳为奖金搏斗，被称作职业拳击手，比赛粗野且毫无规则。本文将带您认识拳击史上最引人注目的人物之一丹尼尔·门多萨，看他如何把科学引入拳坛，将粗野的搏斗变成一项运动，又如何在声望与财富的顶峰坠入债务与贫困。读前请思考：他的冠军之路是否一帆风顺？",
+  "goals": [
+   "掌握 boxer, prizefighter, bare fists, science, popularity, crude, draw up 等本课核心词汇。",
+   "理解并运用 be known as, change...into..., bring...to..., rise to fame, be in debt 等固定搭配。",
+   "掌握 not...until 结构及其强调句形式 It was not until...that...。",
+   "读懂门多萨由盛转衰的一生，体会 rich and poor alike 等生动表达。"
+  ],
+  "summary": "两百年前拳击在英国盛行，拳手赤手空拳为奖金而战，规则全无，十分粗野。门多萨生于1764年，14岁一战成名，引起名将汉弗莱斯的注意并拜其为师。后两人反目，他两度落败，直到1790年第三次交手才击败对手，成为全英冠军。他把科学引入拳坛，广受欢迎，还开办拳校。但他挥霍无度，负债入狱，1836年贫困而终。",
+  "tips": "注意 not...until 与其强调句的互换：\"The use of gloves was not introduced until 1860\" 可改写为 \"It was not until 1860 that the use of gloves was introduced\"，含义不变，切勿漏掉否定词 not。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How many unsuccessful attempts did Mendoza make before becoming Champion of all England?",
+   "zh": "门多萨在成为全英冠军之前经历了几次失败的较量？",
+   "a": "Two. He was defeated by Humphries in their first match at Stilton and lost again in their second meeting, so it was not until his third match in 1790 that he beat Humphries and became Champion of England.",
+   "aZh": "两次。他与汉弗莱斯在斯蒂尔顿的首次交手中落败，第二次较量又输了，直到1790年第三次交手才击败对手，成为全英冠军。",
+   "hint": "答案见课文后段：第一场被击败、第二场又输、第三场才获胜。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why were boxers in those days called 'prizefighters', and why was boxing considered crude?",
+   "zh": "当时的拳手为何被称作“职业拳击手”？拳击为什么被认为很野蛮？",
+   "a": "Because they fought with bare fists for prize money, they were known as 'prizefighters'. Boxing was crude because there were no rules and a prizefighter could be seriously injured or even killed during a match.",
+   "aZh": "因为他们不戴手套、为争夺奖金而搏斗，所以被称作“职业拳击手”。拳击很野蛮，因为当时没有任何规则，拳手可能在比赛中受重伤甚至丧命。",
+   "hint": "见课文开头第2、4句，抓住 bare fists 与 no rules。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did Mendoza do to change prizefighting, and when were gloves introduced?",
+   "zh": "门多萨对拳击运动做了什么改变？手套是何时引入的？",
+   "a": "Though technically a prizefighter, he did much to change crude prizefighting into a sport because he brought science to the game. The use of gloves was not introduced until 1860, when the Marquis of Queensberry drew up the first set of rules.",
+   "aZh": "虽然他严格来说只是职业拳击手，但他把科学引入拳击，为把粗野的拳击变成一项运动作出了重大贡献。手套直到1860年昆斯伯里侯爵制定第一套规则时才被引入。",
+   "hint": "见课文第6、7句，注意 not...until 1860 与 draw up。"
+  },
+  {
+   "kind": "detail",
+   "q": "How popular was Mendoza in his day, and how did his life end?",
+   "zh": "门多萨在全盛时期有多受欢迎？他的一生结局如何？",
+   "a": "In his day he enjoyed tremendous popularity and was adored by rich and poor alike. He founded a highly successful Academy, and even Lord Byron became one of his pupils. But he was so extravagant that he was always in debt; after being defeated by Gentleman Jackson he was quickly forgotten, was sent to prison for failing to pay his debts and died in poverty in 1836.",
+   "aZh": "他在全盛时期极受欢迎，无论富人还是穷人都对他崇拜备至。他创办了一所非常成功的拳击学校，连拜伦勋爵也成了他的学生。但他挥霍无度，经常负债；被杰克逊绅士击败后很快被遗忘，因无力还债被捕入狱，1836年在贫困中死去。",
+   "hint": "见课文后半部分，抓住 popularity, Academy, in debt, died in poverty。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is Mendoza described as 'one of the most colourful figures in boxing history'?",
+   "zh": "为什么门多萨被称为“拳击史上最引人注目的人物之一”？",
+   "a": "Because his life was full of dramatic ups and downs: he rose from a fourteen-year-old unknown to Champion of England by bringing science to the game, enjoyed tremendous popularity and great wealth, yet through extravagance fell into debt, prison and poverty. His talent, fame and tragic end make him a truly colourful figure.",
+   "aZh": "因为他的一生充满戏剧性的起落：他从14岁的无名少年起步，凭把科学引入拳击而成为全英冠军，享受巨大的声望与财富，却因挥霍无度沦入债务、牢狱与贫困。他的才华、名声与悲剧结局使他成为真正引人注目的人物。",
+   "hint": "需综合全文评价人物，抓住 rise to fame 与 died in poverty 的对比。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：拳击手们赤手空拳为奖金而搏斗，因此被称作“职业拳击手”。",
+   "a": "Boxers fought with bare fists for prize money, so they were known as 'prizefighters'.",
+   "note": "be known as 表“被称作”。"
+  },
+  {
+   "q": "句型转换：用强调句改写 “The use of gloves was not introduced until 1860.”",
+   "a": "It was not until 1860 that the use of gloves was introduced.",
+   "note": "not...until 改 It was not until...that...。"
+  },
+  {
+   "q": "填空：Though he was technically a prizefighter, Mendoza did much to change crude prizefighting ____ a sport, for he brought science ____ the game.",
+   "a": "into; to",
+   "note": "change...into... / bring...to...。"
+  },
+  {
+   "q": "改错：Mendoza rose to fame swift after a boxing match when he was only fourteen years old.",
+   "a": "swift → swiftly",
+   "note": "副词 swiftly 修饰动词 rise。"
+  },
+  {
+   "q": "汉译英：他在全盛时期极受欢迎，无论富人还是穷人都对他崇拜备至。",
+   "a": "In his day he enjoyed tremendous popularity and was adored by rich and poor alike.",
+   "note": "in his day / rich and poor alike。"
+  },
+  {
+   "q": "填空（时态）：Boxing ____ (change) a great deal since Mendoza's day.",
+   "a": "has changed",
+   "note": "since 引导，用现在完成时。"
+  },
+  {
+   "q": "填空（比较级）：Mendoza earned ____ (much) money than most prizefighters of his day.",
+   "a": "more",
+   "note": "much 的比较级为 more。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "两百年前的拳击手为何被称作 “prizefighters”？",
+   "options": [
+    "They trained hard for the prize.",
+    "They fought with bare fists for prize money.",
+    "They were paid by the Marquis of Queensberry.",
+    "They fought only for fame and honour."
+   ],
+   "answer": 1,
+   "note": "为奖金赤手搏斗，故称 prizefighter。"
+  },
+  {
+   "q": "昆斯伯里侯爵的第一套拳击规则制定于哪一年？",
+   "options": [
+    "1764.",
+    "1790.",
+    "1836.",
+    "1860."
+   ],
+   "answer": 3,
+   "note": "1860年 draw up 第一套规则。"
+  },
+  {
+   "q": "门多萨对拳击运动最重要的贡献是什么？",
+   "options": [
+    "He invented the boxing gloves.",
+    "He became Champion of England.",
+    "He brought science to the game.",
+    "He founded a highly successful Academy."
+   ],
+   "answer": 2,
+   "note": "他把科学引入拳击。"
+  },
+  {
+   "q": "门多萨与汉弗莱斯交手几次才获胜？",
+   "options": [
+    "He won at the first match.",
+    "He won at the second match.",
+    "He won at the third match in 1790.",
+    "He never beat Humphries."
+   ],
+   "answer": 2,
+   "note": "第三次即1790年获胜。"
+  },
+  {
+   "q": "下列哪一句正确描述了门多萨的财务状况？",
+   "options": [
+    "He died rich and famous.",
+    "He was so extravagant that he was always in debt.",
+    "He gave all his money to Lord Byron.",
+    "He earned nothing from his Academy."
+   ],
+   "answer": 1,
+   "note": "挥霍无度、负债入狱。"
+  },
+  {
+   "q": "“rich and poor alike” 意为？",
+   "options": [
+    "Only the rich liked him.",
+    "Only the poor liked him.",
+    "Both the rich and the poor liked him.",
+    "Neither the rich nor the poor liked him."
+   ],
+   "answer": 2,
+   "note": "alike 意为“同样地”。"
+  }
+ ]
+}

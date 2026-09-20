@@ -1,0 +1,14 @@
+{
+ "unit": "nce3-u029",
+ "book": "nce3",
+ "unitId": "u029",
+ "title": "Funny or Not",
+ "subtitle": "是否可笑",
+ "hasText": false,
+ "lines": 23,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "8083a47785b3",
+ "finishedAt": "2026-09-20T21:31:44+08:00"
+}

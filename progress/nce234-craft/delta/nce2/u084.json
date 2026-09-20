@@ -1,0 +1,35 @@
+{
+ "title": "On Strike",
+ "subtitle": "罢工",
+ "lead": {
+  "question": "下星期公共汽车司机将罢工，究竟由谁来驾驶公交车呢？",
+  "warmup": "伦敦的公共汽车司机决定下星期罢工，要求就工资和工作条件达成全面协议。罢工定于星期二开始，没人知道会持续多久，多数人估计至少一星期。为缓解通勤压力，私家车主主动提供“免费乘车”，一些大学生也自愿在罢工期间驾驶公交车。他们虽是开车能手，却必须先通过一项专门测验。即使这样，人们上班仍会感到困难。",
+  "goals": ["掌握 go on strike、be due to、to some extent、give in 等与罢工相关的核心短语。", "理解 until 引导的时间状语从句，以及定语被谓语隔开的特殊语序。", "掌握 it 作形式宾语的结构：find / think / consider it + adj. + to do。", "区分 object + that 从句与 object to + 动名词的用法，并能谈论劳资纠纷话题。"],
+  "summary": "课文讲述公共汽车司机因工资和工作条件问题决定下周罢工。罢工定于星期二开始，预计至少持续一周。为减轻对火车的压力，许多私家车主准备为上班族提供“免费乘车”，一些大学生则自愿在罢工期间驾驶公交车。他们虽是开车能手，仍须先通过一项专门测验。即便如此，人们上班仍会有困难。公众纷纷写信向学生们致谢，只有一两人抱怨他们开得太快。",
+  "tips": "due to 后接不定式表示“预定”，due to + 名词才表示“由于”；object 后可直接跟 that 从句，而 object to 后只能接名词或动名词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Who will be driving the buses next week?", "zh": "下星期将由谁来驾驶公共汽车？", "a": "A number of university students have volunteered to drive the buses while the strike lasts.", "aZh": "一些大学生自愿在罢工期间驾驶公共汽车。", "hint": "见课文第6句：Meanwhile, a number of university students have volunteered to drive buses while the strike lasts."},
+  {"kind": "detail", "q": "When is the strike due to begin, and how long will it last?", "zh": "罢工定于何时开始？预计会持续多久？", "a": "The strike is due to begin on Tuesday. No one knows how long it will last, but most people believe it will last for at least a week.", "aZh": "罢工定于星期二开始。谁也不知道会持续多久，但多数人认为至少会持续一星期。", "hint": "见课文第2、4句：The strike is due to begin on Tuesday... / Most people believe that the strike will last for at least a week."},
+  {"kind": "detail", "q": "Why are many owners of private cars going to offer 'free rides'?", "zh": "为什么许多私家车主准备提供“免费乘车”服务？", "a": "Because it will relieve pressure on the trains to some extent.", "aZh": "因为这将在某种程度上减轻对火车的压力。", "hint": "见课文第5句：This will relieve pressure on the trains to some extent."},
+  {"kind": "detail", "q": "What must the students do before they drive any of the buses?", "zh": "学生们在驾驶公共汽车之前必须先做什么？", "a": "They will have to pass a special test, which they are going to take in two days' time.", "aZh": "他们必须先通过一项专门测验，测验将在两天后进行。", "hint": "见课文第7、8句：before they drive any of the buses, they will have to pass a special test... The students are going to take the test in two days' time."},
+  {"kind": "think", "q": "Only one or two people objected that the students will drive too fast. Do you think this is a reasonable worry?", "zh": "只有一两个人反对，说学生们会把车开得太快。你认为这种担忧合理吗？", "a": "Sample: I don't think it is a serious problem. The students are expert drivers and they must pass a special test, so they are likely to drive safely. Besides, most of the public has already expressed its gratitude to them.", "aZh": "示例：我认为这不是个大问题。学生们都是开车能手，还须通过专门测验，因此很可能驾驶得很安全；况且大多数公众都向他们表达了感激之情。", "hint": "结合课文第7句（expert drivers / pass a special test）与末句的反对意见作答，言之成理即可。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：公共汽车司机已决定下星期罢工。", "a": "Busmen have decided to go on strike next week.", "note": "go on strike 举行罢工"},
+  {"q": "填空：The strike is due ____ begin on Tuesday.", "a": "to", "note": "be due to do 预定、预计"},
+  {"q": "填空：The strike will continue ____ general agreement is reached about pay and working conditions.", "a": "until", "note": "until 引导时间状语从句"},
+  {"q": "句型转换：People are going to find that it is difficult to get to work.（用 it 作形式宾语改写）", "a": "People are going to find it difficult to get to work.", "note": "find it + adj. + to do，it 为形式宾语"},
+  {"q": "改错：Many people object to smoke in public places.", "a": "Many people object to smoking in public places.", "note": "object to 后接动名词"},
+  {"q": "句型转换：The strike began. Immediately the trains became very crowded.（用 no sooner ... than 改写）", "a": "No sooner had the strike begun than the trains became very crowded.", "note": "no sooner 后用倒装，并搭配 than"},
+  {"q": "汉译英：工人和学生都不肯让步。", "a": "Neither the workers nor the students would give in.", "note": "neither ... nor；give in 让步"}
+ ],
+ "quiz": [
+  {"q": "短语 go on strike 的意思最接近：", "options": ["stop working as a protest", "go back to work as usual", "ask the boss for more money", "keep on working without pay"], "answer": 0, "note": "go on strike 意为举行罢工"},
+  {"q": "The strike is due to begin on Tuesday. 句中 due to 表示：", "options": ["because of", "expected or scheduled to", "close to", "thankful for"], "answer": 1, "note": "be due to do 表示预定、预计"},
+  {"q": "下列哪句正确表达“人们会感到上班有困难”？", "options": ["People are going to find difficult to get to work.", "People are going to find it difficult to get to work.", "People are going to find it difficult get to work.", "People are going to feel difficult to getting to work."], "answer": 1, "note": "find it + adj. + to do，it 为形式宾语"},
+  {"q": "课文中的 free rides 指的是什么？", "options": ["free bus tickets", "free driving lessons", "free lifts offered in private cars", "free car repairs"], "answer": 2, "note": "私家车主为上班族提供免费搭车"},
+  {"q": "关于 object 的用法，哪一句是正确的？", "options": ["A few people objected that the students would drive too fast.", "A few people objected to that the students would drive too fast.", "A few people objected the students would drive too fast.", "A few people objected for the students driving too fast."], "answer": 0, "note": "object + that 从句表示提出异议"},
+  {"q": "根据课文，下周将由谁驾驶公共汽车？", "options": ["The busmen who are on strike", "A number of university students", "The owners of private cars", "Members of the press"], "answer": 1, "note": "大学生自愿在罢工期间驾驶公交车"}
+ ]
+}

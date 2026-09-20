@@ -1,0 +1,40 @@
+{
+ "title": "Football or polo?",
+ "subtitle": "足球还是水球？",
+ "lead": {
+  "question": "河边的一场球赛，为什么让船上的人差点落水？",
+  "warmup": "晴朗的下午，作者照例坐在威尔河畔：岸上孩子嬉戏，河面有人划船，一切安静平常。可一脚狠踢改变了画面——球直奔小船而去，岸上人高声喊叫，船上人却没听见，被球击中后险些落水。等他弄清原委，反倒笑着把球扔回岸上。读完后想一想：标题为什么叫 Football or polo？",
+  "goals": [
+   "掌握 cut across、row、kick、call out、in sight 等核心词语",
+   "理解 so...that 结果状语从句与 passing 作定语",
+   "辨析 some/any 以及 a、the 与零冠词的使用场合",
+   "能用本课句式复述这起河边意外"
+  ],
+  "summary": "课文以第一人称讲述河边小插曲：作者常坐在横穿公园的威尔河畔；某个暖和的星期天，孩子踢出的球飞向小船，击中了没听见呼喊的船中人，他险些落水。回头看时孩子们早已跑光，弄清原委后他笑着把球扔回岸上。全文用一般过去时叙事，穿插过去进行时，so...that 与 in sight 是理解关键。",
+  "tips": "河流名 the Wayle 必须带 the；on fine afternoons 有修饰语用 on、复数表经常性；否定句中 some 要改成 any，in sight 中间不加冠词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What happened to the man in the boat?", "zh": "船上的那个人发生了什么事？", "a": "A child kicked a ball very hard; it went towards a passing boat and struck the man so hard that he nearly fell into the water.", "aZh": "一个孩子狠狠踢了一脚球，球飞向一只划过来的小船，重重地打在那人身上，他差点儿落入水中。", "hint": "见第 5、7 句：it went towards a passing boat 与 The ball struck him so hard that he nearly fell into the water。"},
+  {"kind": "detail", "q": "How is the Wayle described in the opening sentence, and where does the writer like to sit?", "zh": "开头怎样描写威尔河？作者喜欢坐在哪里？", "a": "It is a small river that cuts across the park near his home, and he likes sitting by the Wayle on fine afternoons.", "aZh": "威尔河是横穿他家附近公园的一条小河；他喜欢在天气晴朗的下午坐在河边。", "hint": "见第 1—2 句。"},
+  {"kind": "detail", "q": "What did the people on the bank do when the ball went towards the boat?", "zh": "球飞向小船时，岸上的人做了什么？", "a": "Some people on the bank called out to the man in the boat, but he did not hear them.", "aZh": "岸上的一些人对着船上的人高声喊叫，但他没有听见。", "hint": "见第 6 句。"},
+  {"kind": "detail", "q": "Why couldn't the writer see any children when he turned to look at them?", "zh": "作者转过头去看孩子们时，为什么一个也看不见？", "a": "Because they had all run away — there weren't any in sight.", "aZh": "因为他们全都跑掉了，视野里一个孩子也没有。", "hint": "见第 8 句：there weren't any in sight。"},
+  {"kind": "think", "q": "Why did the man laugh and throw the ball back, and what is funny about the title Football or polo?", "zh": "船上的人为什么笑了并把球扔回岸上？标题妙在哪里？", "a": "He realised it was only an accident, not an attack, so he laughed and threw the ball back to the bank. The joke is that a football knocked among boats on a river nearly becomes water polo.", "aZh": "他明白这不过是孩子们的意外而非恶意，于是笑着把球扔回岸上。妙处在于足球被打到河上的小船之间，几乎成了“水球”。", "hint": "结合末两句 realized what had happened、threw the ball back to the bank。"}
+ ],
+ "exercises": [
+  {"q": "填空：The Wayle is a small river ____ cuts ____ the park near my home.", "a": "that; across", "note": "that 作主语；cut across 横穿。"},
+  {"q": "填入冠词：____ Wayle is ____ small river.", "a": "The; a", "note": "河流名前加 the。"},
+  {"q": "填空：I like sitting ____ the Wayle ____ fine afternoons. It was warm last Sunday, so I sat on the river bank ____ ____.", "a": "by; on; as usual", "note": "by 在…旁；有修饰语用 on。"},
+  {"q": "改为否定句：There were some people rowing on the river.", "a": "There weren't any people rowing on the river.", "note": "否定句中 some 改 any。"},
+  {"q": "填空：Some people on the bank ____ ____ to the man in the boat.（朝…高喊）", "a": "called out", "note": "call out to sb. 朝某人喊。"},
+  {"q": "汉译英：突然一个孩子狠狠踢了一脚球，球打在船上的人身上，他差点儿落水。", "a": "Suddenly, one of the children kicked a ball very hard and it struck the man in the boat so hard that he nearly fell into the water.", "note": "so+副词+that 结果从句。"},
+  {"q": "汉译英：我转过头去看那些孩子，但一个也不见——全都跑了！", "a": "I turned to look at the children, but there weren't any in sight: they had all run away!", "note": "in sight 在视野之内。"}
+ ],
+ "quiz": [
+  {"q": "课文中“威尔河横穿过公园”，“横穿”用哪个短语？", "options": ["cut across", "cut down", "cut off", "cut into"], "answer": 0, "note": "cut down 砍倒，cut off 切断。"},
+  {"q": "“我喜欢在天气晴朗的下午坐在河边”，哪句正确？", "options": ["I like sitting by the Wayle in fine afternoons.", "I like sitting by the Wayle on fine afternoons.", "I like sitting by the Wayle at fine afternoons.", "I like sit by the Wayle on fine afternoon."], "answer": 1, "note": "有修饰语用 on，复数表经常。"},
+  {"q": "河流名 the Wayle 为什么用定冠词 the？", "options": ["河流等专有名词前通常加 the", "因为 Wayle 以元音字母开头", "因为它是复数名词", "因为上文从未提过"], "answer": 0, "note": "江河、海洋、山脉前加 the。"},
+  {"q": "called out to the man in the boat 中 called out to 是什么意思？", "options": ["make a phone call to", "call off", "shout loudly to", "pay a visit to"], "answer": 2, "note": "call out 比 call 语气更重。"},
+  {"q": "“我转过头去看孩子们，但一个也看不见”，课文原句是？", "options": ["There weren't any children in the sight.", "There weren't some children in sight.", "There weren't any in the sight.", "There weren't any in sight."], "answer": 3, "note": "in sight 固定搭配不加 the。"},
+  {"q": "“球打得如此之重，他差点掉进水里”，哪句正确？", "options": ["The ball struck him so hard that he nearly fell into the water.", "The ball struck him so hardly that he nearly fell into the water.", "The ball struck him such hard that he nearly fell into the water.", "The ball struck him very hard that he nearly fell into the water."], "answer": 0, "note": "hardly 意为“几乎不”。"}
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "unitId": "u003",
+ "title": "An Unknown Goddess",
+ "subtitle": "无名女神",
+ "lead": {
+  "question": "考古学家凭什么断定这尊雕像是一位女神？他们最终查明她的身份了吗？",
+  "warmup": "在爱琴海的基亚岛上，一支美国考古队考察了一座古老庙宇，找到了十五尊陶制女神雕像的碎片。碎片散落在不同年代的遗迹里，其中一尊的躯干与头颅竟相隔千年才被发现。当考古学家把它们重新拼合起来时，眼前的形象却出乎所有人的意料。本课将带你跟随这次发现，学习考古、文明与古代遗迹相关的表达。",
+  "goals": [
+   "掌握 archaeologist、goddess、excavate、ancient、civilization 等考古主题词汇",
+   "理解并运用 storey、level、classical、prosperous 等描述古城与文明的词",
+   "熟悉被动语态以及 must have been、happen to 等表示推测与偶然的结构",
+   "能用英语复述雕像躯干与头颅的发现过程，并说出最终结论"
+  ],
+  "summary": "美国考古队在爱琴海基亚岛的古庙中出土了十五尊陶制女神雕像。这座石砌古城曾享有高度文明，房屋多达三层，街下铺着排水陶管。其中一尊雕像的躯干来自公元前十五世纪的遗物，头颅却出自公元前五世纪的遗物，可见它早在古典时代便被发现珍藏。碎片拼好后，女神竟是一位双手叉腰、身着拖地长裙的摩登女郎，身份至今无人查明。",
+  "tips": "易错提醒：storey 才表“楼层”，写成 story 会与“故事”混淆；worship（崇拜）也别错拼为 warship（军舰）。描述历史事实多用被动语态。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How did the archaeologists know that the statue was a goddess?",
+   "zh": "考古学家是怎么知道这尊雕像是一位女神的？",
+   "a": "The clay fragments were found in the most sacred room of the temple, and each of the fifteen statues represented a goddess.",
+   "aZh": "因为这些陶制碎片是在庙中最神圣的殿堂里发现的，而且这十五尊雕像中的每一尊都代表一位女神。",
+   "hint": "答案出处：课文第9-10句 “in the most sacred room of temple… Each of these represented a goddess.”"
+  },
+  {
+   "kind": "detail",
+   "q": "What shows that the ancient city had enjoyed a high level of civilization?",
+   "zh": "哪些证据表明这座古城曾享有高度的文明？",
+   "a": "Houses of three storeys built of stone, large rooms with beautifully decorated walls, and a drainage system of clay pipes beneath the narrow streets.",
+   "aZh": "房屋多为三层、用石块修建，房间宽大且墙壁装饰华丽，狭窄街道下还有陶土管道构成的排水系统。",
+   "hint": "答案出处：第4-6句 House… three storeys… drainage system… clay pipes."
+  },
+  {
+   "kind": "detail",
+   "q": "Where was the body of one statue found, and where was its missing head found?",
+   "zh": "其中一尊雕像的躯干在哪里被发现，它缺失的头颅又在哪里被找到？",
+   "a": "The body was found among remains dating from the fifteenth century B.C., and its missing head happened to be among remains of the fifth century B.C.",
+   "aZh": "躯干是在公元前十五世纪的历史遗物中发现的，而它缺失的头颅则碰巧在公元前五世纪的遗物中被找到。",
+   "hint": "答案出处：第10句 The body of one statue… Its missing head happened to be…"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the goddess turn out to be like after the fragments were reconstructed?",
+   "zh": "碎片被重新拼合后，这位女神呈现出怎样的形象？",
+   "a": "She turned out to be a very modern-looking woman, three feet high, with her hands resting on her hips and wearing a full-length skirt that swept the ground.",
+   "aZh": "她原来是一位相貌十分摩登的女郎，身高三英尺，双手叉腰，身穿一条拖地长裙。",
+   "hint": "答案出处：第13-15句 turned out to be a very modern-looking woman… full-length skirt…"
+  },
+  {
+   "kind": "think",
+   "q": "Why do you think the head was found among remains much later than the body?",
+   "zh": "为什么头颅所在的遗物年代比躯干晚得多？这对你有什么启发？",
+   "a": "The head must have been found and carefully preserved in Classical times because it was already old and precious, so it survived in later remains, while the body lay undisturbed in the older layer. It shows how chance and human care can shape the archaeological record.",
+   "aZh": "因为这颗头颅在古典时代就已被人发现并精心保存，当时它已属古老珍奇之物，因而留存于较晚的遗物中；而躯干则一直未被扰动地留在更早的地层里。这说明偶然与人为收藏都会影响考古记录。",
+   "hint": "结合第11-12句 must have been… carefully preserved… very old and precious even then 推断。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：不久之前，考古学家在爱琴海的基亚岛上有一项有趣的发现。",
+   "a": "Some time ago, an interesting discovery was made by archaeologists on the Aegean island of Kea.",
+   "note": "用被动语态，突出 discovery。"
+  },
+  {
+   "q": "填空：The city at one time must have been ______ (prosper), for it enjoyed a high level of ______ (civilize).",
+   "a": "prosperous; civilization",
+   "note": "prosperous 繁荣的；civilization 文明。"
+  },
+  {
+   "q": "填空：The head must ______ (be) found in Classical times and carefully ______ (preserve).",
+   "a": "have been; preserved",
+   "note": "must have been done 表过去的被动推测。"
+  },
+  {
+   "q": "句型转换（改为被动语态）：Archaeologists explored a temple which stands in an ancient city.",
+   "a": "A temple which stands in an ancient city was explored by archaeologists.",
+   "note": "explore 考察，近义 excavate 发掘。"
+  },
+  {
+   "q": "改错：Houses -- often three storeys high -- were built of stones.",
+   "a": "Houses -- often three storeys high -- were built of stone.",
+   "note": "be built of stone，stone 不可数。"
+  },
+  {
+   "q": "汉译英：她身高三英尺，双手叉腰，身穿一条拖地长裙。",
+   "a": "She stood three feet high, her hands resting on her hips, wearing a full-length skirt.",
+   "note": "rest on…hips 叉腰；full-length 拖地的。"
+  },
+  {
+   "q": "汉译英：考古学家至今未能查明这位女神的身份。",
+   "a": "So far, the archaeologists have been unable to discover her identity.",
+   "note": "so far 常与现在完成时连用。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "这项有趣的考古发现是由谁、在哪里做出的？",
+   "options": [
+    "A team of Roman soldiers",
+    "Archaeologists on the Aegean island of Kea",
+    "A group of visiting tourists",
+    "Historians in an ancient library"
+   ],
+   "answer": 1,
+   "note": "首句 by archaeologists on the Aegean island of Kea。"
+  },
+  {
+   "q": "为什么说这座古城一度很繁荣？",
+   "options": [
+    "It had a famous king.",
+    "It enjoyed a high level of civilization.",
+    "It stood on a high mountain.",
+    "It had a great many temples."
+   ],
+   "answer": 1,
+   "note": "for it enjoyed a high level of civilization。"
+  },
+  {
+   "q": "古城的房屋有什么特点？",
+   "options": [
+    "They were built of wood.",
+    "They were often three storeys high and built of stone.",
+    "They were one storey high.",
+    "They had no walls."
+   ],
+   "answer": 1,
+   "note": "Houses — often three storeys high — were built of stone。"
+  },
+  {
+   "q": "在庙中最神圣的殿堂里发现了什么？",
+   "options": [
+    "Gold coins and jewels",
+    "Clay fragments of fifteen statues",
+    "A complete marble statue",
+    "Ancient weapons"
+   ],
+   "answer": 1,
+   "note": "clay fragments of fifteen statues were found。"
+  },
+  {
+   "q": "那尊雕像缺失的头颅是在哪个年代的遗物中找到的？",
+   "options": [
+    "Remains of the fifteenth century B.C.",
+    "Remains of the fifth century B.C.",
+    "Remains of Roman times",
+    "Remains of the nineteenth century"
+   ],
+   "answer": 1,
+   "note": "among remains of the fifth century B.C."
+  },
+  {
+   "q": "文章结尾说考古学家至今未能做什么？",
+   "options": [
+    "Reconstruct the fragments",
+    "Discover her identity",
+    "Find the temple",
+    "Date the remains"
+   ],
+   "answer": 1,
+   "note": "have been unable to discover her identity。"
+  }
+ ]
+}

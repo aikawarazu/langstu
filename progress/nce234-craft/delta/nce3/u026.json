@@ -1,0 +1,35 @@
+{
+ "title": "Wanted a Large Biscuit Tin",
+ "subtitle": "征购大饼干筒",
+ "lead": {
+  "question": "广告真能让人“免费”得利吗？一场饼干竞赛为何让厂家付出了24,000美元？",
+  "warmup": "广告无处不在，它悄悄影响我们的选择。广告商深谙人性：大家都想“免费”拿到东西，于是 FREE 成了最打动人的字眼——免费样品、免费汽车、免费环球旅行，以及巨额奖金竞赛层出不穷。本课就讲了这样一个故事：一家饼干厂在电台节目中请听众烤制饼干，出价每磅10美元收购最大的一个，结果引来了一块重达2,400磅的“巨无霸”。",
+  "goals": ["掌握 avoid 后接动名词及动名词一般式被动 being influenced 的用法。", "理解 much as 引导的让步状语从句，学会表达“尽管很……”。", "熟悉 advertise 派生词及 FREE、get something for nothing 等广告高频表达。", "复习并运用一般过去时/过去完成时的被动语态及 offer to do、persuade sb to do 等不定式结构。"],
+  "summary": "课文立论：无人能免受广告影响，广告商研究人性、分类弱点。“免费”是广告魔法词，从免费样品、汽车到环球旅行、大奖竞赛层出不穷。随后以饼干厂竞赛为例：公司出价每磅10美元收购最大的饼干；713磅的一块本似稳操胜券，孰料截止前一辆卡车载来重达2,400磅的巨饼，厂家只得付24,000美元买下。",
+  "tips": "avoid 后只接动名词，不接不定式：正 avoid being influenced，误 avoid to be influenced；动名词被动式为 being + 过去分词。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Listen who the prize for biggest biscuit?", "zh": "听一听：谁获得了最大饼干的奖项？", "a": "A college student. His truly colossal biscuit weighed 2,400 pounds, and the manufacturers bought it from him for $24,000.", "aZh": "一名大学生。他烤的特大饼干重达2,400磅，厂家付给他24,000美元买下。", "hint": "答案在课文末尾：'It had been baked by a college student...weighed 2,400 pounds.' 和 'they bought the biscuit from the student for $24,000'。"},
+  {"kind": "detail", "q": "How much did the biscuit company offer to pay for the biggest biscuit baked by a listener?", "zh": "饼干公司出价多少钱收购由听众烤制的最大饼干？", "a": "$10 a pound.", "aZh": "每磅10美元。", "hint": "见课文：'They offered to pay $10 a pound for the biggest biscuit baked by a listener.'"},
+  {"kind": "detail", "q": "How did the listeners' biscuits arrive at the factory, and how much did the largest one weigh?", "zh": "听众的饼干是怎样送到工厂的？最大的一块有多重？", "a": "They came in all shapes and sizes—one lady brought hers on a wheelbarrow, a man's filled the boot of his car, and the largest arrived by lorry just before the competition closed and weighed 2,400 pounds.", "aZh": "它们形状、大小各异——一位女士用手推车送来，一位男士的把汽车行李箱塞满；最大的一块在竞赛截止前用卡车运到，重达2,400磅。", "hint": "见课文 'one lady brought in a biscuit on a wheelbarrow' 与 'a lorry arrived...which weighed 2,400 pounds'。"},
+  {"kind": "detail", "q": "Why did the manufacturers have to pay more money than they had anticipated?", "zh": "为什么厂家最后付的钱比他们预想的多？", "a": "Because they had to pay $10 a pound for a biscuit of 2,400 pounds, which came to $24,000.", "aZh": "因为他们得按每磅10美元为那块2,400磅的饼干付款，合计24,000美元。", "hint": "见课文末句 'they bought the biscuit from the student for $24,000'。"},
+  {"kind": "think", "q": "The text says 'An advertisement which begins with the magic word FREE can rarely go wrong.' How does the biscuit competition prove this?", "zh": "课文说以神奇字眼 FREE 开头的广告很少会失败；这个饼干竞赛是如何证明这一点的？", "a": "The offer of 'free' money (a competition with a big cash prize) drew a tremendous response: listeners sent in biscuits of all shapes and sizes, and the company ended up spending far more than it had expected—so the advertisement certainly succeeded in capturing public attention.", "aZh": "用“免费”的钱（一场有大笔现金奖的竞赛）作诱饵，引来极其热烈的反响：听众送来各种形状大小的饼干，公司最后花的钱远超预期——可见这则广告确实成功地抓住了公众的注意力。", "hint": "结合 'The response to this competition was tremendous.' 与结尾厂家多付费的对比来回答。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：没有人能避免受广告的影响。", "a": "No one can avoid being influenced by advertisements.", "note": "avoid 后接动名词被动式 being influenced。"},
+  {"q": "汉译英：凡是用“免费”这个神奇的词开头的广告很少会失败的。", "a": "An advertisement which begins with the magic word FREE can rarely go wrong.", "note": "which 引导定语从句；go wrong 意为出差错。"},
+  {"q": "句型转换（改为被动语态）：A college student had baked the biscuit.", "a": "The biscuit had been baked by a college student.", "note": "过去完成时被动为 had been + 过去分词。"},
+  {"q": "填空（用括号内动词的正确形式）：They offered ___ (pay) $10 a pound for the biggest biscuit; advertisers try to persuade us ___ (buy) this or that product.", "a": "to pay; to buy", "note": "offer、persuade 后接动词不定式。"},
+  {"q": "填空（用 advertise 的适当形式）：Good ___ is everywhere; an ___ that begins with the word FREE seldom fails.", "a": "advertising; advertisement", "note": "advertising 指广告活动，advertisement 指具体一则广告。"},
+  {"q": "改错（找出并改正）：No one can avoid to be influenced by advertisements.", "a": "No one can avoid being influenced by advertisements.（avoid 后应接动名词 being influenced，不能用不定式 to be）", "note": "avoid 后只接动名词，不接不定式。"},
+  {"q": "汉译英（广告用语与课文词汇）：免费样品；免费得到东西；一个特大无比的饼干。", "a": "free samples; get something for nothing; a truly colossal (giant) biscuit", "note": "colossal 意为巨大的，近义于 giant。"}
+ ],
+ "quiz": [
+  {"q": "课文认为没有人能避免什么？", "options": ["being influenced by advertisements", "being trusted by advertisers", "being paid by advertisements", "being bored by advertisements"], "answer": 0, "note": "首句 No one can avoid being influenced by advertisements."},
+  {"q": "'Much as we may pride ourselves on our good taste' 中 much as 表达的含义是：", "options": ["because we may...", "although we may...", "as soon as we may...", "in case we may..."], "answer": 1, "note": "much as 引导让步状语从句，意为“尽管很……”。"},
+  {"q": "饼干公司许诺为听众烤制的最大饼干支付多少钱？", "options": ["$10 for the whole biscuit", "$24,000 a pound", "$10 a pound", "$100 a pound"], "answer": 2, "note": "They offered to pay $10 a pound."},
+  {"q": "那位大学生烤的巨形饼干重达多少？", "options": ["500 pounds", "713 pounds", "1,000 pounds", "2,400 pounds"], "answer": 3, "note": "a truly colossal biscuit which weighed 2,400 pounds。"},
+  {"q": "为什么厂家最后付出的钱比预想的要多？", "options": ["Because the crane cost a lot of money.", "Because at $10 a pound a 2,400-pound biscuit came to $24,000.", "Because the student refused to sell his biscuit.", "Because they had offered free cars and houses."], "answer": 1, "note": "按每磅10美元计，2,400磅即24,000美元。"},
+  {"q": "根据课文，那个巨形饼干用了哪些原料？", "options": ["500 pounds of flour and 200 pounds of sugar.", "713 pounds of flour and 800 pounds of fat.", "over 1,000 pounds of flour, 800 pounds of sugar, 200 pounds of fat and 400 pounds of other ingredients.", "2,400 pounds of flour and no sugar."], "answer": 2, "note": "见课文列出的各种原料及数量。"}
+ ]
+}

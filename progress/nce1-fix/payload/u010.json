@@ -1,0 +1,80 @@
+{
+ "unitId": "u010",
+ "lessons": [
+  {
+   "lesson": 19,
+   "title": "Tired and thirsty",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "MOTHER",
+     "en": "What's the matter, children?"
+    },
+    {
+     "i": 1,
+     "speaker": "CHILDREN",
+     "en": "We are tired and thirsty, Mum."
+    },
+    {
+     "i": 2,
+     "speaker": "MOTHER",
+     "en": "Sit down here."
+    },
+    {
+     "i": 3,
+     "speaker": "MOTHER",
+     "en": "Are you all right now?"
+    },
+    {
+     "i": 4,
+     "speaker": "CHILDREN",
+     "en": "No, we aren't."
+    },
+    {
+     "i": 5,
+     "speaker": "MOTHER",
+     "en": "Look!"
+    },
+    {
+     "i": 6,
+     "speaker": "MOTHER",
+     "en": "There's an ice cream man."
+    },
+    {
+     "i": 7,
+     "speaker": "MOTHER",
+     "en": "Two ice creams please."
+    },
+    {
+     "i": 8,
+     "speaker": "MOTHER",
+     "en": "Here you are, children."
+    },
+    {
+     "i": 9,
+     "speaker": "CHILDREN",
+     "en": "Thanks, Mum."
+    },
+    {
+     "i": 10,
+     "speaker": "GIRL",
+     "en": "These ice creams are nice."
+    },
+    {
+     "i": 11,
+     "speaker": "MOTHER",
+     "en": "Are you all right now?"
+    },
+    {
+     "i": 12,
+     "speaker": "CHILDREN",
+     "en": "Yes, we are, thank you."
+    }
+   ]
+  }
+ ],
+ "reference": {},
+ "rawPage": {},
+ "parsedTranslation": []
+}

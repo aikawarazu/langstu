@@ -1,0 +1,164 @@
+{
+ "unitId": "u046",
+ "title": "Do It Yourself",
+ "subtitle": "自己动手",
+ "lead": {
+  "question": "作者最后修好割草机了吗？为什么没有成功，这件事又说明了什么？",
+  "warmup": "如今“自己动手”（do it yourself，简称 DIY）蔚然成风：装壁炉、铺地板、修水管，人们既想省下请专业工人的钱，也从中获得乐趣。本课作者就是这样一位自信满满的 DIY 爱好者。家里的割草机坏了，他拒绝请人修理，坚持要亲自动手。结果会怎样呢？让我们带着这份好奇，读一读这篇幽默又自嘲的课文。",
+  "goals": [
+   "掌握 do-it-yourself / DIY 话题词汇：tackle, install, dismantle, assemble, rickety, clogged 等",
+   "学会 so...that 句式，尤其 so 置于句首时主句的倒装用法",
+   "理解过去分词短语作状语（Armed with..., Buried...）的表达效果",
+   "体会让步从句、被动语态与自嘲幽默叙述相结合的写作手法"
+  ],
+  "summary": "课文先描绘席卷社会的自己动手热潮：人们借助书报杂志的力量，纷纷安装壁炉、布置花园，甚至自制电脑。接着笔锋一转写男人的自负——妻子总以为丈夫无所不能。最后叙述作者修割草机的经过：他满以为只需稍加调整，拆开后发现链条断了一节，装回去却多出几个不知放哪儿的零件，只好放弃，任割草机在深草中生锈。",
+  "tips": "记忆诀窍：so + 形容词/副词提到句首时，主句必须部分倒装，即把 be 动词、助动词或情态动词移到主语之前，如 So great is our passion...；若写成 So great our passion is 则错。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Did the writer repair his lawn mower in the end? Why/Why not?",
+   "zh": "作者最后修好他的割草机了吗？为什么？",
+   "a": "No, he didn't. After he had reassembled the mower, it still refused to work, for he was left with several curiously shaped bits of metal which did not seem to fit anywhere. He gave up in despair, and the rusting mower is now buried in deep grass.",
+   "aZh": "没有。他把割草机重新装好后，它仍旧不能运转，因为他剩下几个形状奇特、似乎哪里都装不上的金属零件。他无可奈何只好放弃，那台生锈的割草机如今埋在深草丛中。",
+   "hint": "答案见课文最后六段：从 dismantle 到结尾 Buried somewhere in deep grass..."
+  },
+  {
+   "kind": "detail",
+   "q": "How did shops cater for the do-it-yourself craze?",
+   "zh": "商店是怎样迎合自己动手热潮的？",
+   "a": "Not only by running special advisory services for novices, but by offering consumers bits and pieces which they can assemble at home.",
+   "aZh": "不仅为初学者提供专门的咨询服务，而且为顾客准备了各种零件，供他们买回家去组装。",
+   "hint": "见课文 Shops cater for the do-it-yourself craze not only...but..."
+  },
+  {
+   "kind": "detail",
+   "q": "What was the actual cause of the trouble with the mower?",
+   "zh": "割草机故障的真正原因是什么？",
+   "a": "One of the links in the chain that drives the wheels had snapped.",
+   "aZh": "驱动轮子的链条断了一节。",
+   "hint": "见课文 One of links in the chain that drives the wheels had snapped."
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the mower still refuse to work after the writer had reassembled it?",
+   "zh": "作者把割草机重新组装后，它为什么仍旧不能运转？",
+   "a": "For the simple reason that he was left with several curiously shaped bits of metal which did not seem to fit anywhere.",
+   "aZh": "原因很简单，因为他剩下几个形状奇特、似乎哪里都装不上的金属零件。",
+   "hint": "见课文 I was not surprised to find...for the simple reason that..."
+  },
+  {
+   "kind": "think",
+   "q": "Why does the writer say 'It is a question of pride as much as anything else'?",
+   "zh": "作者为什么说‘这和其他任何东西一样，是个面子问题’？",
+   "a": "Because men like the writer refuse to admit that they cannot manage a job: he would not hear of calling in a man to fix the mower, and he kept believing he could do anything even after being repeatedly proved wrong. Pride, not skill, drives the do-it-yourself game.",
+   "aZh": "因为像作者这样的男人不肯承认自己干不了：他不愿听请人修割草机的建议，即便一再被证明错了，仍以为自己什么都行。推动这场自己动手“游戏”的是面子，而不是手艺。",
+   "hint": "结合课文 The worst thing about the do-it-yourself game is... 及 I would not hear of the suggestion 综合回答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：我们如此热衷于自己动手，以至于对专业工人的依赖越来越少。",
+   "a": "So great is our passion for doing things for ourselves that we are increasingly less dependent on specialized labour.",
+   "note": "so 提句首需倒装"
+  },
+  {
+   "q": "句型转换：将 Armed with the right tools and materials, newlyweds gaily embark on the task of decorating their own homes. 中的分词短语改写为状语从句。",
+   "a": "As/Because they are armed with the right tools and materials, newlyweds gaily embark on the task of decorating their own homes.",
+   "note": "分词状语可还原为从句"
+  },
+  {
+   "q": "用括号中动词的适当形式填空：Men spend hours of their leisure time ______ (install) their own fireplaces and ______ (lay) out their own gardens.",
+   "a": "installing; laying",
+   "note": "spend time doing 结构"
+  },
+  {
+   "q": "改错：Even men who can hardly drive a nail in straight are supposed being born electricians.",
+   "a": "Even men who can hardly drive a nail in straight are supposed to be born electricians.（将 being 改为 to be）",
+   "note": "be supposed to + 动词原形"
+  },
+  {
+   "q": "汉译英：我告诉她，要么买一台新割草机，要么让草长下去。",
+   "a": "I told her that either I would have to buy a new mower or let the grass grow.",
+   "note": "either...or 连接并列成分"
+  },
+  {
+   "q": "完成句子（用被动语态）：The garden ______ soon ______ (litter) with chunks of metal which had once made up a lawn mower.",
+   "a": "was; littered（The garden was soon littered with chunks of metal...）",
+   "note": "be littered with 布满"
+  },
+  {
+   "q": "汉译英：有时甚至男人尽管一再被证明错了，还误以为自己什么都能做。",
+   "a": "Sometimes even men live under the delusion that they can do anything, even when they have repeatedly been proved wrong.",
+   "note": "even when 让步 + 被动"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "下列哪个动词意为“拆开、拆卸（机器）”？",
+   "options": [
+    "to install a machine",
+    "to dismantle a machine",
+    "to assemble a machine",
+    "to tackle a machine"
+   ],
+   "answer": 1,
+   "note": "install 安装；assemble 组装；tackle 处理。"
+  },
+  {
+   "q": "课文中哪一表达最准确地表示“我们越来越不依赖专业工人”？",
+   "options": [
+    "increasingly more dependent on specialized labour",
+    "increasingly less dependent on specialized labour",
+    "increasingly less independent from specialized labour",
+    "increasingly dependent to specialized labour"
+   ],
+   "answer": 1,
+   "note": "be dependent on 为固定搭配，less 表程度递减。"
+  },
+  {
+   "q": "Men spend hours of their leisure time installing their own fireplaces. 中 installing 的形式由什么决定？",
+   "options": [
+    "spend + time to do",
+    "spend + time doing",
+    "spend + time do",
+    "spend + time for do"
+   ],
+   "answer": 1,
+   "note": "spend time (in) doing sth. 为固定结构。"
+  },
+  {
+   "q": "面对坏掉的割草机，作者的最终结局是什么？",
+   "options": [
+    "He repaired it successfully.",
+    "He bought a new mower.",
+    "He gave up in despair.",
+    "He called in a man to fix it."
+   ],
+   "answer": 2,
+   "note": "关键句 I gave up in despair."
+  },
+  {
+   "q": "Buried somewhere in deep grass there is a rusting lawn mower... 中 Buried 的语法作用是？",
+   "options": [
+    "the predicate verb of the sentence",
+    "a past participle used as an adverbial",
+    "an attributive modifying 'mower'",
+    "an object complement"
+   ],
+   "answer": 1,
+   "note": "过去分词短语作状语，表状态。"
+  },
+  {
+   "q": "妻子最初对割草机提出了什么建议？",
+   "options": [
+    "that he should repair it himself",
+    "that he should call in a man to look at it",
+    "that they should buy a new mower",
+    "that they should let the grass grow"
+   ],
+   "answer": 1,
+   "note": "Last spring my wife suggested that I call in a man to look at our lawn mower."
+  }
+ ]
+}

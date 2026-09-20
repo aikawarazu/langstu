@@ -1,0 +1,164 @@
+{
+ "unitId": "u040",
+ "title": "Who's Who",
+ "subtitle": "名人录",
+ "lead": {
+  "question": "那个学生用一通电话，怎样让警察和真正的工人都成了恶作剧的受害者？",
+  "warmup": "先想一想：你听过或经历过的恶作剧（practical joke）里，哪一次最'高明'？恶作剧的妙处，常在于被耍的人最后才知道真相。本文中，一名大学生只用两通电话，就让警察和真正的工人都上了当。阅读时请留意三点：作者为何说这类玩笑'除了受害者，人人都觉得好笑'；学生分别对警察和工人说了什么；警察又是在哪一刻才明白这整件事是一场骗局。",
+  "goals": [
+   "掌握本篇恶作剧叙事的关键词汇：hoax, deception, victim, indulge in, dress up, tear up 等。",
+   "理解并运用被动语态：It has never been explained... / Permission was granted.",
+   "学会用定语从句及 only when、as soon as 等结构串连叙事。",
+   "能复述这则'整人不成反被整'的连锁骗局，体会其中的幽默与讽刺。"
+  ],
+  "summary": "课文讲的是大学生最爱的恶作剧——'戏弄人'。请消防队扑灭一场根本不存在的大火，只是低级的骗人把戏；真正的行家会设下让人真假难辨的圈套。一名学生谎报有两个'装扮成工人的人在破坏路面'，又提醒两位真正的工人别理会前来驱赶他们的警察。结果警察和工人都成了这场恶作剧的受害者，直到工人真的打电话报警，大家才恍然大悟。",
+  "tips": "易错点：dress up as sb 表示'装扮成某人'，as 后接身份或职业，不能用 like；而 be dressed in 后接的是衣服（如 in a tight black dress）。此外 take sb seriously（认真对待某人）不能写成 take sb serious。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "How did the policeman discover that the whole thing was a joke?",
+   "zh": "警察是怎么发现整件事其实是个玩笑的？",
+   "a": "Only when he accompanied one of the 'workmen' to a pay phone and saw that the man was actually telephoning the police did he realize that they had all been the victims of a hoax.",
+   "aZh": "直到他陪其中一个'工人'来到投币电话旁，看到那人真的是在给警察打电话，他才恍然大悟：他们全都成了一场骗局的受害者。",
+   "hint": "见课文最后一句（Only when he saw that the man was actually telephoning the police...）。"
+  },
+  {
+   "kind": "detail",
+   "q": "Why did the student telephone the police?",
+   "zh": "那个学生为什么给警察打电话？",
+   "a": "He informed them that two students dressed up as workmen were tearing up the road with a pneumatic drill.",
+   "aZh": "他报告说有两个学生装扮成工人，正用风钻破坏路面。",
+   "hint": "见第4句（When a student recently saw two workmen using a pneumatic drill...）。"
+  },
+  {
+   "kind": "detail",
+   "q": "What did the student tell the real workmen after he had hung up?",
+   "zh": "挂断电话后，那个学生对真正的工人说了什么？",
+   "a": "He told them that if a policeman ordered them to go away, they should not take him seriously, and added that a student had dressed up as a policeman and was playing all sorts of silly jokes on people.",
+   "aZh": "他告诉他们，若有个警察让他们走开，别把那人当回事；还说有个学生常装扮成警察，无聊地同人开玩笑。",
+   "hint": "见第5、6句（As soon as he had hung up... / He added that...）。"
+  },
+  {
+   "kind": "detail",
+   "q": "How did the workmen react when the police tried to remove them?",
+   "zh": "当警察想赶走工人时，工人是如何反应的？",
+   "a": "They refused to stop working, so the police tried to seize the pneumatic drill; the workmen struggled fiercely, one of them lost his temper and threatened to call the police.",
+   "aZh": "他们拒绝停工，警察便想夺走风钻；两个工人奋力抗争，其中一个发了火，威胁要去叫警察。",
+   "hint": "见第11至13句（As the men refused to stop working...）。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is this hoax so effective, and who ends up being the 'victims'?",
+   "zh": "这场恶作剧为什么如此奏效？最终谁成了'受害者'？",
+   "a": "It works by setting the police against the workmen so that everyone except the student is fooled; in the end both the police and the workmen are the victims of the hoax, and the truth comes out only when the workman really telephones the police.",
+   "aZh": "它让警察与工人彼此对立，除那个学生外所有人都上了当；最后警察和工人都成了一场骗局的受害者，直到工人真的打电话报警，真相才水落石出。",
+   "hint": "结合开头'funny to everyone except the victims'与结尾'victims of a hoax'作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：谁也弄不清为什么大学生好像比任何人都更喜欢恶作剧。",
+   "a": "It has never been explained why university students seem to enjoy practical jokes more than anyone else.",
+   "note": "it 作形式主语 + 现在完成时被动"
+  },
+  {
+   "q": "改为被动语态：The police had already arrested the two men. →",
+   "a": "The two men had already been arrested (by the police).",
+   "note": "过去完成时被动：had been + 过去分词"
+  },
+  {
+   "q": "用短语动词填空：The student ______ ______ as a policeman and played all sorts of silly jokes on people.（他装扮成一个警察）",
+   "a": "dressed up",
+   "note": "dress up as 装扮成某身份"
+  },
+  {
+   "q": "改错：Both the police and the workmen was grateful to the student for this piece of advance information.",
+   "a": "was → were（both...and... 连接的并列主语，谓语用复数）",
+   "note": "both A and B 谓语用复数"
+  },
+  {
+   "q": "汉译英：请消防队来扑灭一场根本没有的大火是一种低级骗局。",
+   "a": "Inviting the fire brigade to put out a nonexistent fire is a crude form of deception.",
+   "note": "动名词短语作主语，谓语用单数"
+  },
+  {
+   "q": "用定语从句合并：Students often create amusing situations. They are funny to everyone except the victims.",
+   "a": "Students often create amusing situations which are funny to everyone except the victims.",
+   "note": "which 引导定语从句，指代 situations"
+  },
+  {
+   "q": "用所给动词的适当形式填空（间接引语）：He told the workmen that if a policeman ______ (order) them to go away, they ______ (not take) him seriously.",
+   "a": "ordered; were not to take",
+   "note": "祈使句变间接引语用 be to 结构"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "'若有个警察让你们走开，别把他当回事。'其中'别把他当回事'的英文是？",
+   "options": [
+    "Don't take him seriously.",
+    "Don't take him serious.",
+    "Don't take him as serious.",
+    "Don't take him like serious."
+   ],
+   "answer": 0,
+   "note": "take sb seriously 为固定搭配"
+  },
+  {
+   "q": "下面哪一句正确表达'谁也弄不清为什么……'？",
+   "options": [
+    "It has never been explained why...",
+    "It has never explained why...",
+    "It never has explained why...",
+    "It was never explaining why..."
+   ],
+   "answer": 0,
+   "note": "it 形式主语 + 现在完成时被动"
+  },
+  {
+   "q": "'put out a nonexistent fire' 中 put out 的意思是？",
+   "options": [
+    "postpone a fire",
+    "extinguish (a fire)",
+    "display a fire",
+    "produce a fire"
+   ],
+   "answer": 1,
+   "note": "put out = 扑灭（火、灯）"
+  },
+  {
+   "q": "文中 'hoax' 与下列哪个意思最接近？",
+   "options": [
+    "a practical joke",
+    "a serious accident",
+    "a formal apology",
+    "a simple mistake"
+   ],
+   "answer": 0,
+   "note": "hoax 意为恶作剧、戏弄、骗局"
+  },
+  {
+   "q": "Students often create amusing situations ______ are funny to everyone except the victims. 空白处应填？",
+   "options": [
+    "who",
+    "whose",
+    "which",
+    "what"
+   ],
+   "answer": 2,
+   "note": "先行词为物，从句缺主语，用 which"
+  },
+  {
+   "q": "文末 'the men were already under arrest' 意思是？",
+   "options": [
+    "they had lost their tools",
+    "they had been fired",
+    "they had been warned",
+    "they had been caught by the police"
+   ],
+   "answer": 3,
+   "note": "under arrest 表示被逮捕"
+  }
+ ]
+}

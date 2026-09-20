@@ -1,0 +1,164 @@
+{
+ "unitId": "u012",
+ "title": "Banks and Their Customers",
+ "subtitle": "银行与顾客",
+ "lead": {
+  "question": "银行为什么必须辨认储户的签名？把顾客姓名印在支票上，储户为何反而没有风险？",
+  "warmup": "在日常生活里，我们几乎都要和银行打交道：开账户、存钱、取现、签支票。可你是否想过，当你把钱存进银行，法律上你其实成了债权人，银行反倒成了债务人？本课从“活期账户”说起，带你弄清银行与顾客之间那一大堆看不见的义务，尤其是一条关键规定：银行只能认储户本人的签名，认错就得自己承担损失。",
+  "goals": [
+   "掌握 current account、debtor、creditor、deposit、draw a cheque、in favour of 等银行业核心词汇。",
+   "理清银行与顾客之间债务人和债权人的关系，以及双方各自承担的义务。",
+   "掌握被动语态与含介词的定语从句（a cheque on which ...）的用法。",
+   "能就“伪造签名”这一情形说明银行为何须辨认签名、为何损失由银行承担。"
+  ],
+  "summary": "课文指出，顾客在银行开立活期账户，实际上是把钱借给银行，二者的基本关系是债务人与债权人。除这一简单概念外，双方还互负大量义务：银行必须只服从顾客本人的指令，认准其签名样本，无权凭伪造签名的支票付款。正因为辨认签名是银行的责任，即使把顾客姓名印在支票上方便了伪造，受损失的也是银行，而不是顾客。",
+  "tips": "in favour of 在此意为“以……为收款人”，不要理解成“赞成”；draw a cheque 是“开、签支票”，注意 draw 的过去式是 drew、过去分词是 drawn，课文用的是被动的 drawn。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why is there no risk to the customer when a bank prints the customer's name on his cheques?",
+   "zh": "当银行把顾客的姓名印在他的支票上时，为什么顾客毫无风险？",
+   "a": "Because the bank must recognize its customer's signature and has no right or authority to pay out a customer's money on a cheque on which the signature has been forged; if printing the name facilitates forgery, it is the bank that will lose, not the customer.",
+   "aZh": "因为辨认储户签名是银行的责任，银行无权凭一张签名被伪造的支票把储户的钱付出去；如果印姓名反而方便了伪造，受损失的是银行，而不是顾客。",
+   "hint": "答案在课文最后两句，点明“辨认签名是银行责任、损失归银行”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What is the primary relationship between the banker and the customer?",
+   "zh": "银行与储户之间的主要关系是什么？",
+   "a": "That of debtor and creditor.",
+   "aZh": "债务人和债权人的关系。",
+   "hint": "课文第二句直接给出：debtor and creditor。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does a customer instruct the bank to do when he first opens an account?",
+   "zh": "储户首次开户时，嘱咐银行做什么？",
+   "a": "He instructs the bank to debit his account only in respect of cheques drawn by himself.",
+   "aZh": "他嘱咐银行只能凭他本人签发的支票从他的账户中付款。",
+   "hint": "见课文“he instructs the bank to debit his account only in respect of cheques drawn by himself”。"
+  },
+  {
+   "kind": "detail",
+   "q": "What is the firm rule concerning a cheque with a forged signature?",
+   "zh": "关于签名被伪造的支票，那条严格规定是什么？",
+   "a": "The bank has no right or authority to pay out a customer's money on a cheque on which its customer's signature has been forged.",
+   "aZh": "银行没有任何权利或理由，凭一张伪造了储户签名的支票把储户的钱付出去。",
+   "hint": "课文“there is a very firm rule that ...”一句。"
+  },
+  {
+   "kind": "think",
+   "q": "Why does the customer take no risk if a bank prints his name on his cheques?",
+   "zh": "如果银行把顾客姓名印在支票上，为什么顾客不承担风险？",
+   "a": "Because the bank must recognize its customer's signature; if printing the name facilitates forgery, it is the bank that will lose, not the customer.",
+   "aZh": "因为认准签名是银行的责任；即便印姓名方便了伪造，受损失的是银行，而不是顾客。",
+   "hint": "综合课文“the bank must recognize its customer's signature”与末句“it is the bank which will lose”作答。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "填空：When anyone opens a current ______ at a bank, he is lending the bank money.",
+   "a": "account",
+   "note": "活期账户为 current account。"
+  },
+  {
+   "q": "汉译英：任何人在银行开一个活期账户，就等于把钱借给了银行。",
+   "a": "When anyone opens a current account at a bank, he is lending the bank money.",
+   "note": "“借给某人某物”用 lend sb sth。"
+  },
+  {
+   "q": "句型转换（改为被动语态）：The bank must recognize its customer's signature.",
+   "a": "Its customer's signature must be recognized by the bank.",
+   "note": "情态动词被动：must be done。"
+  },
+  {
+   "q": "改错：It makes no difference that the forgery may has been a very skilful one.",
+   "a": "It makes no difference that the forgery may have been a very skilful one.",
+   "note": "情态动词后须接动词原形 have。"
+  },
+  {
+   "q": "填空：Primarily, the banker-customer relationship is that of ______ and creditor.",
+   "a": "debtor",
+   "note": "与 creditor 相对的债务人为 debtor。"
+  },
+  {
+   "q": "合并为定语从句（用 on which）：The bank has no right to pay out the money on a cheque. Its customer's signature has been forged on it.",
+   "a": "The bank has no right to pay out the money on a cheque on which its customer's signature has been forged.",
+   "note": "介词 on 提前，用 on which 引导。"
+  },
+  {
+   "q": "汉译英：如果因这种做法出现了伪造，受损失的将不是储户，而是银行。",
+   "a": "If this facilitates forgery, it is the bank which will lose, not the customer.",
+   "note": "强调句型 it is ... which ...，注意 not the customer。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "课文认为，银行与储户之间的关系主要是哪一种？",
+   "options": [
+    "Debtor and creditor",
+    "Landlord and tenant",
+    "Employer and employee",
+    "Buyer and seller"
+   ],
+   "answer": 0,
+   "note": "第二句点明债务人与债权人。"
+  },
+  {
+   "q": "顾客在银行开立活期账户，法律上等于做了什么？",
+   "options": [
+    "Borrowing money from the bank",
+    "Lending the bank money",
+    "Buying shares of the bank",
+    "Depositing money for the bank to keep"
+   ],
+   "answer": 1,
+   "note": "开活期账户即借钱给银行。"
+  },
+  {
+   "q": "按照课文，这笔钱他可以怎样随时提取？",
+   "options": [
+    "Only in cash",
+    "Only by drawing a cheque",
+    "Either in cash or by drawing a cheque",
+    "Only through a third person"
+   ],
+   "answer": 2,
+   "note": "取现金或开以他人为收款人的支票。"
+  },
+  {
+   "q": "关于签名被伪造的支票，那条很严格的规定是什么？",
+   "options": [
+    "The bank must still pay if the forgery is very skilful.",
+    "The bank has no right or authority to pay out the customer's money.",
+    "The customer must report it to the police at once.",
+    "The loss is shared equally by both sides."
+   ],
+   "answer": 1,
+   "note": "银行无权凭伪造签名的支票付款。"
+  },
+  {
+   "q": "银行必须遵照谁的指令办事？",
+   "options": [
+    "Those of anyone who holds the cheque",
+    "Those of its customer, and not those of anyone else",
+    "Those of the government",
+    "Those of the person named on the cheque"
+   ],
+   "answer": 1,
+   "note": "只服从顾客本人的指令。"
+  },
+  {
+   "q": "如果银行把顾客姓名印在支票上，结果会怎样？",
+   "options": [
+    "The customer bears all the risk.",
+    "Both the bank and the customer lose.",
+    "It is the bank which will lose, not the customer.",
+    "Nobody suffers any loss."
+   ],
+   "answer": 2,
+   "note": "末句：损失由银行承担。"
+  }
+ ]
+}

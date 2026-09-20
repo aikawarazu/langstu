@@ -1,0 +1,40 @@
+{
+ "title": "An exciting trip",
+ "subtitle": "激动人心的旅行",
+ "lead": {
+  "question": "弟弟远赴澳大利亚半年，为什么他觉得这趟旅行“激动人心”？",
+  "warmup": "这是一封来自南半球的家书。弟弟蒂姆是工程师，半年前去了澳大利亚任职，到现在已经把当地不少地方走遍了。听读时先抓主线：收到来信——弟弟的近况——下一段行程——他的感受；第二遍再留意 just、already、never、before 这类词，它们正是现在完成时的信号。",
+  "goals": [
+   "能用 receive、work for、firm、abroad 讲述亲人在海外工作的经历",
+   "理解 have been 与 have gone 的区别，能对课文句子作出判断",
+   "会写 a great number of + 复数名词、in the centre of、fly to 等本课短语",
+   "能用 find + 宾语 + 形容词（find this trip very exciting）表达感受"
+  ],
+  "summary": "作者刚收到弟弟蒂姆从澳大利亚寄来的信。蒂姆是工程师，在一家大公司工作，六个月里已游览很多地方；他买了辆澳洲小车去了中部小镇艾利斯斯普林斯，还将飞到达尔文与珀斯。全文用现在完成时串起已发生的事（has been、has visited、has bought），用 has gone 表示“人已去未归”，并出现同位语和 find + 宾语 + 宾补结构。",
+  "tips": "记住 has been 是“去过／待过”，has gone 是“去了还没回来”；遇到 for six months 这样的时间段，一律用 been 不用 gone。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "How long has Tim been in Australia?", "zh": "蒂姆在澳大利亚待了多久？", "a": "He has been there for six months.", "aZh": "他在那儿已经住了六个月了。", "hint": "听第 2 句 He has been there for six months，for 后面接的是一段时间。"},
+  {"kind": "detail", "q": "What does Tim do, and who is he working for?", "zh": "蒂姆是做什么的？他在为谁工作？", "a": "Tim is an engineer. He is working for a big firm in Australia and has already visited a great number of different places there.", "aZh": "蒂姆是个工程师，正在澳大利亚的一家大公司工作，并且已经去过那里不少不同的地方。", "hint": "见第 3 句 Tim is an engineer. He is working for a big firm."},
+  {"kind": "detail", "q": "What has Tim just bought, and where has he gone?", "zh": "蒂姆刚刚买了什么？他去了哪里？", "a": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.", "aZh": "他刚买了一辆澳大利亚小汽车，去了澳大利亚中部的小镇艾利斯斯普林斯。", "hint": "见第 4 句；a small town in the centre of Australia 是 Alice Springs 的同位语。"},
+  {"kind": "detail", "q": "Where will Tim go next after Alice Springs?", "zh": "离开艾利斯斯普林斯之后，蒂姆接下去要去哪里？", "a": "He will soon visit Darwin. From there, he will fly to Perth.", "aZh": "他不久还将到达尔文去，从那里，他再飞往珀斯。", "hint": "见第 5 句 He will soon visit Darwin. From there, he will fly to Perth，注意将来时 will。"},
+  {"kind": "think", "q": "Why does the writer say 'He has been there' in one sentence but 'he has gone to Alice Springs' in another?", "zh": "作者为什么先说 He has been there，后说 he has gone to Alice Springs？两句分别说明蒂姆的什么情况？", "a": "'He has been there' means Tim has stayed in Australia for six months and is still there; 'He has gone to Alice Springs' means Tim has set off for Alice Springs and is not here now.", "aZh": "He has been there 说明蒂姆在澳大利亚待了六个月，人仍在那里，强调经历与持续；he has gone to Alice Springs 说明他已动身去了艾利斯斯普林斯，此刻人不在这里，强调去向未归。", "hint": "对比第 2 句 He has been there for six months 与第 4 句 has gone to Alice Springs。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：我刚刚收到弟弟蒂姆的来信，他正在澳大利亚。", "a": "I have just received a letter from my brother, Tim. He is in Australia.", "note": "receive 指客观收到；Tim 是 my brother 的同位语。"},
+  {"q": "汉译英：他不久还将到达尔文去，从那里，他再飞往珀斯。", "a": "He will soon visit Darwin. From there, he will fly to Perth.", "note": "fly to 后直接接地名，不加其他介词。"},
+  {"q": "汉译英：蒂姆是个工程师，正在为一家大公司工作，并且已经去过澳大利亚的不少地方了。", "a": "Tim is an engineer. He is working for a big firm and he has already visited a great number of different places in Australia.", "note": "work for 表任职；a number of 只接复数名词。"},
+  {"q": "句型转换：用 just 把下面的句子改成现在完成时。He bought an Australian car.", "a": "He has just bought an Australian car.", "note": "just 常放在助动词与过去分词之间。"},
+  {"q": "填空：He has gone to Alice Springs, a small town ___ the centre ___ Australia.", "a": "in; of", "note": "in the centre of 意为“在……的中心／中部”。"},
+  {"q": "改错：He has gone to Australia for six months.", "a": "He has been in Australia for six months.", "note": "for 引导时间段时要用 been 不用 gone。"},
+  {"q": "填空：My brother has never been abroad before, so he is finding this trip very ___.", "a": "exciting", "note": "find 后接宾语加形容词作宾语补足语。"}
+ ],
+ "quiz": [
+  {"q": "“我刚刚收到弟弟蒂姆的来信”的正确英文是哪一句？", "options": ["I have just received a letter from my brother, Tim.", "I have just accepted a letter from my brother, Tim.", "I have just taken a letter from my brother, Tim.", "I have just heard a letter from my brother, Tim."], "answer": 0, "note": "receive 表示客观上“收到”；accept 是“同意接受”，不是课文要表达的意思。"},
+  {"q": "要表达“他去了艾利斯斯普林斯，此刻人不在这里”，应选哪一项？", "options": ["He has gone to Alice Springs, so he is not here now.", "He has been to Alice Springs, so he is not here now.", "He has went to Alice Springs, so he is not here now.", "He is going Alice Springs, so he is not here now."], "answer": 0, "note": "has gone 表示“去了某地尚未回来”；has been 表示去过或待过。"},
+  {"q": "下列哪一项的搭配是正确的？", "options": ["a great number of different places", "a great number of water", "a great number of money", "a great number of time"], "answer": 0, "note": "a great number of 只能接可数名词复数。"},
+  {"q": "“我弟弟以前从未出过国”的正确英文是哪一句？", "options": ["My brother has never been abroad before.", "My brother has never been to abroad before.", "My brother has never been in abroad before.", "My brother has never gone abroad ago."], "answer": 0, "note": "abroad 是副词，前面不加 to 或 in；ago 也不与现在完成时连用。"},
+  {"q": "“他正在一家大公司上班”的正确英文是哪一句？", "options": ["He is working for a big firm.", "He is working as a big firm.", "He is working to a big firm.", "He is working by a big firm."], "answer": 0, "note": "work for 表示“为……任职／工作”，firm 即 company。"},
+  {"q": "“他觉得这次旅行非常激动人心”的正确英文是哪一句？", "options": ["He is finding this trip very exciting.", "He is finding this trip very excited.", "He is finding this trip very excite.", "He is finding this trip very excitement."], "answer": 0, "note": "trip 是事物，用 -ing 形容词 exciting；find 后接宾语加形容词补足语。"}
+ ]
+}

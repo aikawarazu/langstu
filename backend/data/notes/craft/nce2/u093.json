@@ -1,0 +1,164 @@
+{
+ "unitId": "u093",
+ "title": "A Noble Gift",
+ "subtitle": "崇高的礼物",
+ "lead": {
+  "question": "自由女神像由谁设计、用什么材料制成，又怎样从法国运往美国？",
+  "warmup": "自由女神像无疑是世界上最著名的纪念碑之一。它矗立在纽约港入口，是法国人民在19世纪赠送给美国人民的礼物，也是自由的象征。这尊巨大的雕像由雕塑家巴托尔迪设计，由埃菲尔建造的金属框架支撑，1884年在巴黎竖立，次年拆解运往美国，1886年重新组装并正式赠送。本课带你读懂这段建造与赠送的故事。",
+  "goals": [
+   "掌握 noble、gift、statue、liberty、sculptor、copper、framework、site、pedestal 等本课核心词汇。",
+   "理解 one of + 最高级 结构及其同位语用法，如 the Statue of Liberty 与 one of the most famous monuments 的关系。",
+   "掌握 be made of 表示“由某种材料制成”以及被动语态（含过去完成时的被动）的本课用法。",
+   "能用英语按时间顺序复述雕像的设计、建造、拆解、运输、组装与赠送过程，并表达尺寸与年代数字。"
+  ],
+  "summary": "本课讲述自由女神像的由来：它是法国人民在19世纪赠送给美国的礼物，由雕塑家巴托尔迪设计，历时十年完成，主体用铜制成，由埃菲尔建造的金属框架支撑。雕像安放在纽约港入口的一个岛上，1884年在巴黎竖立，次年拆解运往美国，1886年10月重新组装并正式赠送。从此它成为自由的象征。",
+  "tips": "易错提醒：made of 指原材料性质或形状未变、成品仍能看出材质（The figure was made of copper），made from 则指原料已发生变化、看不出原样；另外 present 作名词重音在前，作动词重音在后。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Where was the Statue of Liberty made?",
+   "zh": "自由女神像是在哪里制成的？",
+   "a": "It was made in France. The statue was designed by the French sculptor Auguste Bartholdi, and by 1884 a statue 151 feet tall had been erected in Paris before it was taken to pieces and sent to America.",
+   "aZh": "它是在法国制成的。雕像由法国雕塑家奥古斯特·巴托尔迪设计，到1884年一座高151英尺的雕像已在巴黎竖立起来，之后才被拆解运往美国。",
+   "hint": "答案见课文第1句 the people of France 及第7、8句 had been erected in Paris / sent to America。"
+  },
+  {
+   "kind": "detail",
+   "q": "Who designed the great statue and how long did it take to complete?",
+   "zh": "这座巨大的雕像由谁设计？完成它花了多长时间？",
+   "a": "It was designed by the sculptor Auguste Bartholdi, and it took ten years to complete.",
+   "aZh": "它由雕塑家奥古斯特·巴托尔迪设计，完成它花了十年时间。",
+   "hint": "答案见课文第2句：which was designed by the sculptor Auguste Bartholdi, took ten years to complete。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was the actual figure made of and what supported it?",
+   "zh": "雕像主体是用什么材料制成的？又靠什么支撑？",
+   "a": "The actual figure was made of copper, supported by a metal framework which had been especially constructed by Eiffel.",
+   "aZh": "雕像主体是用铜制成的，由埃菲尔特地建造的金属框架支撑着。",
+   "hint": "答案见课文第3句：was made of copper / supported by a metal framework … constructed by Eiffel。"
+  },
+  {
+   "kind": "detail",
+   "q": "What had to be done before the statue could be transported to the United States? Where was the site chosen?",
+   "zh": "在雕像运往美国之前必须先做什么？场地选在哪里？",
+   "a": "A site had to be found for it and a pedestal had to be built. The site chosen was an island at the entrance of New York Harbour.",
+   "aZh": "必须先为它选好一块场地，并建造一个基座。选中的场地是纽约港入口处的一个岛。",
+   "hint": "答案见课文第4、5句：a site had to be found … a pedestal had to be built / an island at the entrance of New York Harbour。"
+  },
+  {
+   "kind": "think",
+   "q": "Why is the Statue of Liberty called “a symbol of liberty”? Why has it become so important to the millions of people who passed through New York Harbour?",
+   "zh": "为什么自由女神像被称为“自由的象征”？你认为它为什么对千百万通过纽约港进入美国的人如此重要？",
+   "a": "Because it was a noble gift from the people of France and has stood at the entrance of New York Harbour ever since 1886. For the millions of immigrants who passed through the harbour to make their homes in America, it was the first thing they saw — a symbol of the freedom and the new life that awaited them.",
+   "aZh": "因为它是法国人民赠予的崇高礼物，自1886年起便矗立在纽约港入口。对于通过纽约港来美国安家落户的千百万人来说，它是他们最先看到的景象——一个象征着自由与新生活的标志。",
+   "hint": "结合课文最后一句 a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America，言之成理即可。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：这座雕像的主体是用铜制成的，由一个金属框架支撑着。",
+   "a": "The actual figure was made of copper, supported by a metal framework.",
+   "note": "be made of + 过去分词作定语"
+  },
+  {
+   "q": "句型转换（改为被动语态）：The people of France presented the Statue of Liberty to the United States in the nineteenth century.",
+   "a": "The Statue of Liberty was presented to the United States by the people of France in the nineteenth century.",
+   "note": "一般过去时被动 was presented"
+  },
+  {
+   "q": "填空（用括号内词的适当形式）：The great statue, which was ______ (design) by the sculptor Auguste Bartholdi, took ten years to ______ (complete).",
+   "a": "designed; complete",
+   "note": "被动语态 be + 过去分词"
+  },
+  {
+   "q": "改错：One of the most famous monument in the world, the Statue of Liberty, was presented to the United States by the people of France.",
+   "a": "把 monument 改为 monuments。",
+   "note": "one of + 复数名词"
+  },
+  {
+   "q": "汉译英：从那时起，这座纪念碑对通过纽约港进入美国定居的千百万人来说就一直是自由的象征。",
+   "a": "Ever since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.",
+   "note": "ever since + 现在完成时"
+  },
+  {
+   "q": "汉译英：到1884年，一座高151英尺的雕像已经在巴黎竖立起来了。",
+   "a": "By 1884, a statue which was 151 feet tall had been erected in Paris.",
+   "note": "by + 时间 + 过去完成时被动"
+  },
+  {
+   "q": "词汇填空：The Statue of Liberty is a ______ (崇高的) gift. Before it was sent to America, a ______ (场地) had to be found for it.",
+   "a": "noble; site",
+   "note": "noble 崇高的；site 场地"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "自由女神像是由谁设计的？",
+   "options": [
+    "Eiffel",
+    "Auguste Bartholdi",
+    "the American people",
+    "the people of France"
+   ],
+   "answer": 1,
+   "note": "由雕塑家巴托尔迪设计。"
+  },
+  {
+   "q": "“雕像主体是用什么材料制成的？”用英语回答。",
+   "options": [
+    "copper",
+    "iron",
+    "stone",
+    "wood"
+   ],
+   "answer": 0,
+   "note": "was made of copper。"
+  },
+  {
+   "q": "支撑雕像的金属框架是谁建造的？",
+   "options": [
+    "Bartholdi",
+    "the French people",
+    "Eiffel",
+    "the American government"
+   ],
+   "answer": 2,
+   "note": "framework constructed by Eiffel。"
+  },
+  {
+   "q": "到1884年，雕像在巴黎竖立起来时高度是多少？",
+   "options": [
+    "15 feet tall",
+    "511 feet tall",
+    "151 metres tall",
+    "151 feet tall"
+   ],
+   "answer": 3,
+   "note": "151 feet tall。"
+  },
+  {
+   "q": "雕像的场地final选在哪里？",
+   "options": [
+    "an island at the entrance of New York Harbour",
+    "in the centre of New York",
+    "on the coast of France",
+    "in Paris"
+   ],
+   "answer": 0,
+   "note": "纽约港入口处的岛。"
+  },
+  {
+   "q": "到1886年10月底，雕像发生了什么？",
+   "options": [
+    "It was taken to pieces and sent to America.",
+    "It was first designed by Bartholdi.",
+    "It was erected in Paris for the first time.",
+    "It had been put together again and was officially presented to the American people."
+   ],
+   "answer": 3,
+   "note": "重新组装并正式赠送。"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "unitId": "u004",
+ "lessons": [
+  {
+   "lesson": 7,
+   "title": "Are you a teacher?",
+   "kind": "课文 · 对话",
+   "lines": [
+    {
+     "i": 0,
+     "speaker": "ROBERT",
+     "en": "I am a new student."
+    },
+    {
+     "i": 1,
+     "speaker": null,
+     "en": "My name's Robert."
+    },
+    {
+     "i": 2,
+     "speaker": "SOPHIE",
+     "en": "Nice to meet you."
+    },
+    {
+     "i": 3,
+     "speaker": null,
+     "en": "My name's Sophie."
+    },
+    {
+     "i": 4,
+     "speaker": "ROBERT",
+     "en": "Are you French?"
+    },
+    {
+     "i": 5,
+     "speaker": "SOPHIE",
+     "en": "Yes, I am. Are you French too?"
+    },
+    {
+     "i": 6,
+     "speaker": "ROBERT",
+     "en": "No, I am not."
+    },
+    {
+     "i": 7,
+     "speaker": "SOPHIE",
+     "en": "What nationality are you?"
+    },
+    {
+     "i": 8,
+     "speaker": "ROBERT",
+     "en": "I'm Italian. Are you a teacher?"
+    },
+    {
+     "i": 9,
+     "speaker": "SOPHIE",
+     "en": "No, I'm not."
+    },
+    {
+     "i": 10,
+     "speaker": "ROBERT",
+     "en": "What's your job?"
+    },
+    {
+     "i": 11,
+     "speaker": "SOPHIE",
+     "en": "I'm a keyboard operator What's your job?"
+    },
+    {
+     "i": 12,
+     "speaker": "ROBERT",
+     "en": "I'm an engineer."
+    }
+   ]
+  }
+ ],
+ "reference": {
+  "7": [
+   "罗伯特：我是个新学生，我的名字叫罗伯特。",
+   "索菲娅：很高兴见到你。我的名字叫索菲娅。",
+   "罗伯特：你是法国人吗？",
+   "索菲娅：是的，我是法国人。",
+   "索菲娅：你也是法国人吗？",
+   "罗伯特：不，我不是。",
+   "索菲娅：你是哪国人？",
+   "罗伯特：我是意大利人。",
+   "罗伯特：你是教师吗？",
+   "索菲娅：不，我不是。",
+   "罗伯特：你是做什么工作的？",
+   "索菲娅：我是电脑录入员。",
+   "索菲娅：你是做什么工作的？",
+   "罗伯特：我是工程师。"
+  ]
+ },
+ "rawPage": {
+  "7": "187.txt"
+ },
+ "parsedTranslation": [
+  "罗伯特：我是个新学生，我的名字叫罗伯特。",
+  "索菲娅：很高兴见到你。我的名字叫索菲娅。",
+  "罗伯特：你是法国人吗？",
+  "索菲娅：是的，我是法国人。",
+  "索菲娅：你也是法国人吗？",
+  "罗伯特：不，我不是。",
+  "索菲娅：你是哪国人？",
+  "罗伯特：我是意大利人。",
+  "罗伯特：你是教师吗？",
+  "索菲娅：不，我不是。",
+  "罗伯特：你是做什么工作的？",
+  "索菲娅：我是电脑录入员。",
+  "索菲娅：你是做什么工作的？",
+  "罗伯特：我是工程师。"
+ ]
+}

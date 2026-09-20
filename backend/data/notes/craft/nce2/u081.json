@@ -1,0 +1,164 @@
+{
+ "unitId": "u081",
+ "title": "Escape",
+ "subtitle": "脱逃",
+ "lead": {
+  "question": "一名战俘乔装成卫兵逃出军营，为什么最后又打倒了汽车司机？",
+  "warmup": "本课讲一个战俘越狱脱逃的故事。他杀死卫兵，把尸体拖进灌木丛，换上死者的蓝军装，肩扛步枪在营门口大胆地来回走动。营内灯火通明、人声嘈杂，人们刚发现有人逃跑。一辆载着四名军官的黑车停在门口。战俘趁机打倒走下车的司机，夺车逃去。",
+  "goals": [
+   "能认读并拼写 bush / uniform / rifle / shoulder / march / blaze / bold / salute 等本课核心词汇。",
+   "能正确使用 change into、up and down、here and there、stand at/to attention 等固定短语。",
+   "能理解并运用 It is not long before ... 句型表达“不久就……”。",
+   "能复述战俘脱逃的完整经过，并说明他为何袭击好心的司机。"
+  ],
+  "summary": "一名战俘杀死卫兵后把尸体拖进灌木丛，换上死者的蓝军装，肩扛步枪在营门口大胆巡视。营内灯火通明，人们四处奔跑，刚发现有人逃跑。一辆载有四名军官的黑色轿车停在营门口，战俘立正敬礼目送他们离去。司机随后走近想攀谈，战俘别无选择，一拳将他打倒在地，跳上车飞速逃走。",
+  "tips": "易错提醒：clothes 指衣服，永远用复数，如 the dead man's clothes；cloth 指布料，多不可数，别混用。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Why did the prisoner attack the driver?",
+   "zh": "战俘为什么袭击司机？",
+   "a": "Because he needed the car to escape. The driver had come close to him, and although the prisoner felt sorry for him, there was nothing else he could do.",
+   "aZh": "因为他需要这辆车逃走。司机走到了他跟前，尽管战俘为他感到惋惜，却别无选择。",
+   "hint": "见课文最后两句：The prisoner felt sorry for him, but there was nothing else he could do. / he drove off as quickly as he could."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the prisoner do as soon as he had killed the guard?",
+   "zh": "战俘杀死卫兵后立刻做了什么？",
+   "a": "He quickly dragged the body into the bushes, and working rapidly in the darkness he soon changed into the dead man's clothes.",
+   "aZh": "他迅速把尸体拖进灌木丛，并在黑暗中忙活一阵，很快换上了死者的衣服。",
+   "hint": "见课文第 1、2 句中的 dragged him into the bushes 与 changed into the dead man's clothes。"
+  },
+  {
+   "kind": "detail",
+   "q": "What was happening inside the camp?",
+   "zh": "当时军营里是什么情形？",
+   "a": "Lights were blazing and men were running here and there, because they had just discovered that a prisoner had escaped.",
+   "aZh": "那里灯火通明，人们东奔西跑，因为他们刚刚发现有个俘虏逃跑了。",
+   "hint": "见 Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped."
+  },
+  {
+   "kind": "detail",
+   "q": "What did the prisoner do when the officers got out of the car?",
+   "zh": "军官们下车时战俘做了什么？",
+   "a": "He stood to attention and saluted as they passed.",
+   "aZh": "他立正站好，并在他们从他面前经过时敬了礼。",
+   "hint": "见 the prisoner stood to attention and saluted as they passed。"
+  },
+  {
+   "kind": "think",
+   "q": "The prisoner felt sorry for the elderly driver, yet he still knocked him down. How do you understand this?",
+   "zh": "战俘为这位上了年纪的司机感到惋惜，却仍把他打倒在地。你如何理解他这种矛盾的心理？",
+   "a": "He was not cruel by nature, but his own freedom was at stake. He pitied the old man, yet the car was his only way out, so he had no real choice.",
+   "aZh": "他本性并不残忍，只是自己的自由危在旦夕。他同情这位老人，可这辆车是他唯一的出路，所以他实在没有别的选择。",
+   "hint": "结合 The prisoner felt sorry for him, but there was nothing else he could do. 与结尾情节进行推理。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "汉译英：士兵们肩并肩地站着，随时准备战斗。",
+   "a": "The soldiers stood shoulder to shoulder, ready to fight. / The soldiers stood shoulder to shoulder and were prepared to fight.",
+   "note": "shoulder to shoulder；be prepared to do"
+  },
+  {
+   "q": "用适当介词填空：The prisoner was dressed ___ a blue uniform, with a rifle ___ his shoulder.",
+   "a": "in; over",
+   "note": "dressed in；a rifle over one's shoulder"
+  },
+  {
+   "q": "句型转换：用 It is not long before ... 改写句子：The camp was quiet. Then the men discovered that a prisoner had escaped.",
+   "a": "It was not long before the men discovered that a prisoner had escaped.",
+   "note": "It is/was not long before + 从句"
+  },
+  {
+   "q": "改错：The prisoner changed into the dead man's cloth and marched bold up and down.",
+   "a": "错误两处：cloth 改为 clothes；bold 改为 boldly。",
+   "note": "cloth 是布料；修饰动词用副词"
+  },
+  {
+   "q": "用 prison 的适当形式填空：The ___ of war killed the guard, but he was soon caught and put in ___ again.",
+   "a": "prisoner; prison",
+   "note": "prisoner 囚犯；prison 监狱"
+  },
+  {
+   "q": "汉译英：那段时间他一直躲在灌木丛里。",
+   "a": "He was hiding in the bushes the whole time.",
+   "note": "the whole time 一直"
+  },
+  {
+   "q": "用括号中动词的适当形式填空：Lights ___ (blaze) and men were running here and there.",
+   "a": "were blazing",
+   "note": "过去进行时；blaze → blazing"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“灌木丛”的英文是：",
+   "options": [
+    "bush",
+    "brush",
+    "bunch",
+    "bushy"
+   ],
+   "answer": 0,
+   "note": "bush 灌木丛；brush 刷子"
+  },
+  {
+   "q": "“肩扛步枪”应说：",
+   "options": [
+    "with a rifle over his shoulder",
+    "with a rifle at his shoulder",
+    "with a rifle in his shoulder",
+    "with a rifle below his shoulder"
+   ],
+   "answer": 0,
+   "note": "over one's shoulder 肩扛"
+  },
+  {
+   "q": "下列哪句正确表达“不久他们就发现有个俘虏逃跑了”？",
+   "options": [
+    "It was not long before they discovered that a prisoner had escaped.",
+    "It was not long when they discovered that a prisoner had escaped.",
+    "It was not long that they discovered a prisoner had escaped.",
+    "It was long before they discovered a prisoner had escaped."
+   ],
+   "answer": 0,
+   "note": "It is/was not long before + 从句"
+  },
+  {
+   "q": "The officers got out and the prisoner stood ___ attention and saluted.",
+   "options": [
+    "at",
+    "in",
+    "on",
+    "by"
+   ],
+   "answer": 0,
+   "note": "stand at/to attention 立正"
+  },
+  {
+   "q": "下列哪句与课文一致、用法正确？",
+   "options": [
+    "He soon changed into the dead man's clothes.",
+    "He soon changed into the dead man's cloth.",
+    "He soon changed into the dead man's clothe.",
+    "He soon changed into the dead man's cloths."
+   ],
+   "answer": 0,
+   "note": "clothes 衣服，永远复数"
+  },
+  {
+   "q": "The prisoner knocked the driver to the ground with a sharp ___.",
+   "options": [
+    "blow",
+    "blew",
+    "blowing",
+    "blown"
+   ],
+   "answer": 0,
+   "note": "blow 名词：一击；blew 是过去式"
+  }
+ ]
+}

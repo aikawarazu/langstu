@@ -1,0 +1,35 @@
+{
+ "title": "The Butterfly Effect",
+ "subtitle": "蝴蝶效应",
+ "lead": {
+  "question": "为什么微小的误差让天气预报无法达到高度精确？蝴蝶效应又意味着什么？",
+  "warmup": "你有没有想过，亚马逊雨林里一只蝴蝶扇动翅膀，竟可能引发得克萨斯州的一场龙卷风？这正是课文中提到的“蝴蝶效应”。本课节选自 James Gleick 的《Chaos（混沌）》。作者用天气预报作例子，说明为什么再强大的计算机、再密集的传感器，也无法精确预测一个月后的天气。阅读时请留意：误差是怎样一步步被放大的。",
+  "goals": ["掌握 speculative、deteriorate、fluctuation、deviation 等描述天气与误差的词汇。", "理解“蝴蝶效应”的核心含义：初始状态的微小误差会指数式放大。", "学会用 Suppose + 过去式表达虚拟假设，以及用现在分词作结果状语。", "能用 whether 引导的宾语从句复述课文对普林斯顿天气的预测。"],
+  "summary": "课文节选自 James Gleick 的《Chaos》。作者指出，超过六七天的天气预报毫无价值，原因正是“蝴蝶效应”：误差与不确定因素不断倍增，沿着湍流特征逐级上升，从小尘暴一直到横跨大陆的涡旋。即便现代模型以相隔约六十英里的网格点运算，部分初始数据仍只能靠推测；就算布满相距一英尺的传感器、由极其强大的计算机处理，也无法预测一个月后普林斯顿的阴晴。",
+  "tips": "易错提醒：predict 后面表示“是否”的宾语从句要用 whether 而非 that（predict whether...）；suppose 引出的假设句常用虚拟语气（Suppose the earth could be covered...），不要误写成 can。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why do small errors make it impossible to predict the weather system with a high degree of accuracy?", "zh": "为什么微小的误差会使人们无法高度精确地预报天气系统？", "a": "Because tiny errors are never fully known: they multiply rapidly and cascade upward through a chain of turbulent features, growing from the one-foot scale to the size of the globe.", "aZh": "因为微小的误差永远无法被完全掌握：它们迅速倍增，沿着一连串湍流特征逐级上升，从一英尺的尺度扩展到全球的尺度，最终使预报失去准确性。", "hint": "见课文 Errors and uncertainties multiply, cascading upward... 以及 Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe."},
+  {"kind": "detail", "q": "How good are the world's best weather forecasts beyond two or three days, and beyond six or seven days?", "zh": "超过两三天、超过六七天时，世界上最好的天气预报分别处于什么水平？", "a": "Beyond two or three days they are speculative, and beyond six or seven days they are worthless.", "aZh": "超过两三天就带有猜测性，超过六七天就毫无价值。", "hint": "见课文第一句 Beyond two or three days, the world's best weather forecasts are speculative..."},
+  {"kind": "detail", "q": "What grid do modern weather models work with, and why does some starting data have to be guessed?", "zh": "现代气象模型使用什么样的网格？为什么有些初始数据只能靠推测？", "a": "They work with a grid of points about sixty miles apart; even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere.", "aZh": "它们使用间隔约六十英里的点阵网格；即便如此，有些初始数据仍只能靠推测，因为地面站和卫星无法看到每一个地方。", "hint": "见课文 The modern weather models work with a grid of points of the order of sixty miles apart..."},
+  {"kind": "detail", "q": "Suppose the earth were covered with sensors one foot apart and an infinitely powerful computer took all the data — could it predict whether Princeton will have sun or rain a month away?", "zh": "假设地球布满相隔一英尺的传感器，并有一台极为强大的计算机处理所有数据，它能预测一个月后普林斯顿是晴是雨吗？", "a": "No. The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away, because the spaces between the sensors hide fluctuations it cannot know about.", "aZh": "不能。计算机仍然无法预测一个月后新泽西州的普林斯顿究竟是晴天还是雨天，因为传感器之间的空隙掩盖了计算机无法知晓的波动。", "hint": "见课文 The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away."},
+  {"kind": "think", "q": "What does the Butterfly Effect teach us about prediction and the limits of science?", "zh": "蝴蝶效应关于预测与科学局限告诉了我们什么道理？", "a": "It shows that tiny, invisible differences in a system's initial state can multiply exponentially and eventually change the whole outcome, so perfect long-range prediction is impossible — the problem is not better technology but the very nature of small errors.", "aZh": "它说明系统中初始状态里微小到看不见的差异会指数式放大，最终改变整个结果，因此完美的长期预测是不可能的——问题不在于技术不够好，而在于微小误差本身的性质。", "hint": "结合课文 Errors and uncertainties multiply... 与 tiny deviations from the average 归纳。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：世界上最好的天气预报，超过两三天就带有猜测性，超过六七天就毫无价值。", "a": "Beyond two or three days, the world's best weather forecasts are speculative, and beyond six or seven they are worthless.", "note": "speculative 猜测性的"},
+  {"q": "句型转换（用分词合并）：The errors and uncertainties multiply. They cascade upward through a chain of turbulent features.", "a": "Errors and uncertainties multiply, cascading upward through a chain of turbulent features.", "note": "现在分词作结果状语"},
+  {"q": "填空（用所给动词的适当形式）：Soon the errors ______ (multiply) to the ten-foot scale, and so on up to the size of the globe.", "a": "will have multiplied", "note": "将来完成时表到某时为止"},
+  {"q": "填空（虚拟语气）：Suppose the earth ______ (can) be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere.", "a": "could", "note": "suppose 后接虚拟假设"},
+  {"q": "汉译英：计算机仍然无法预测一个月后新泽西州的普林斯顿是晴天还是雨天。", "a": "The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away.", "note": "whether 引导宾语从句"},
+  {"q": "改错：At noon the spaces between the sensors will hide fluctuations the computer will not know about them.", "a": "At noon the spaces between the sensors will hide fluctuations that the computer will not know about.（删去多余的 them）", "note": "定语从句中宾语已被省略"},
+  {"q": "汉译英：即便如此，有些初始数据也不得不靠推测，因为地面站和卫星不可能看到每一个地方。", "a": "Even so, some starting (initial) data has to be guessed, since ground stations and satellites cannot see everywhere.", "note": "has to be guessed 被动结构"}
+ ],
+ "quiz": [
+  {"q": "课文中，人们无法高度精确地预报天气，根本原因是什么？", "options": ["The sensors are too expensive to place.", "Tiny errors multiply and cascade upward through turbulent features.", "Weather forecasts are only made twice a day.", "Satellites can see every corner of the earth."], "answer": 1, "note": "误差倍增、逐级上升"},
+  {"q": "课文开篇说，超过六七天的天气预报是怎样的？", "options": ["highly accurate", "speculative but useful", "worthless", "completely reliable"], "answer": 2, "note": "原文用 worthless"},
+  {"q": "现代气象模型的网格点大约相距多少？", "options": ["one foot apart", "sixty miles apart", "ten feet apart", "the size of the globe"], "answer": 1, "note": "of the order of sixty miles apart"},
+  {"q": "即使布满相隔一英尺的传感器，计算机仍无法预测什么？", "options": ["whether it will rain tomorrow", "where the satellite is", "whether Princeton will have sun or rain one month away", "the temperature at noon"], "answer": 2, "note": "普林斯顿一个月后的阴晴"},
+  {"q": "课文用哪个短语指代“计算机无法知晓的、偏离平均值的微小波动”？", "options": ["dust devils and squalls", "turbulent features", "tiny deviations from the average", "continent-size eddies"], "answer": 2, "note": "fluctuations 的同位语"},
+  {"q": "句子 Suppose the earth could be covered with sensors... 使用了什么语气？", "options": ["The indicative mood", "The imperative mood", "The subjunctive mood", "The interrogative mood"], "answer": 2, "note": "虚拟语气表假设"}
+ ]
+}

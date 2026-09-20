@@ -1,0 +1,35 @@
+{
+ "title": "Matterhorn Man",
+ "subtitle": "马特霍恩山区人",
+ "lead": {
+  "question": "早期登山者历尽艰险登上顶峰，他们真正追求的目标究竟是什么？",
+  "warmup": "今天，登山者偏爱最险的路线，路线愈难愈受推崇。可在一百多年前的登山运动初期，情况恰好相反：那时的人只想找一条最省力的路登上山顶，顶峰就是他们唯一的目标。本课把我们带回阿尔卑斯山区的拓荒年代，看看早期的先锋们如何在肮脏、贫穷、与世隔绝的山村里艰难跋涉，只为把顶峰踩在脚下。",
+  "goals": ["掌握 climb / summit / Alpine / settlement 等登山主题词汇", "理解并运用 the more..., the more... 比较结构", "辨析定语从句与分词作定语，如 settlements cut off from civilization", "会用 must have been 表推测、be accustomed to 等常用短语"],
+  "summary": "本课对比了两代登山者。现代登山者追求运动的乐趣，路线越难越受推崇；而在拓荒时代，先驱们只求以最省力的方式登顶，顶峰便是他们唯一的目标。他们冒着极度的危险，装备简陋得令今人一想就战栗，却并非刻意寻求刺激。课文还描绘了当时阿尔卑斯山村的穷困：肮脏、跳蚤猖獗的客栈，陈年的面包与劣酒，登山者只能投宿于牧师或牧羊人处。",
+  "tips": "易错提醒：go out of one's way 意为不辞辛苦、特意，而非偏离道路；must have been 表对过去的肯定推测，不要误写成 must be。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the main objective of early mountain climbers?", "zh": "早期登山者的主要目标是什么？", "a": "The summit — the top — was the prize they sought. The early climbers were looking for the easiest way to the top, especially a summit that had never been attained before.", "aZh": "顶峰——也就是山顶——才是他们寻求的目标。早期登山者寻找的是通往山顶最省力的途径，尤其是前人从未登顶过的顶峰。", "hint": "见课文第 3 句：the summit was the prize they sought..."},
+  {"kind": "detail", "q": "How did modern alpinists choose their routes, and how was a difficult route regarded?", "zh": "现代登山运动员怎样选择登山路线？艰险的路线受到怎样的对待？", "a": "They try to climb mountains by a route which will give them good sport, and the more difficult the route is, the more highly it is regarded.", "aZh": "他们总想找一条能带来运动乐趣的路线登山；路线愈艰险，愈受推崇。", "hint": "见第 1 句 the more difficult..., the more highly it is regarded."},
+  {"kind": "detail", "q": "What were the conditions in the Alpine villages and their inns?", "zh": "阿尔卑斯山区的村庄和小客栈条件如何？", "a": "Except for places like Zermatt and Chamonix, the Alpine villages were impoverished settlements cut off from civilization; the inns were dirty and flea-ridden, and the food was local cheese with bread often twelve months old, washed down with coarse wine.", "aZh": "除泽曼特、夏蒙尼等少数地方外，阿尔卑斯山区的小村是与世隔绝的穷乡僻壤；客栈肮脏、跳蚤猖獗，食物是当地干酪和常放了一年之久的面包，就着劣酒咽下。", "hint": "见课文描写 settlements 与 Such inns as there were 的两句。"},
+  {"kind": "detail", "q": "Where did climbers find shelter when a valley had no inn?", "zh": "当山谷里没有客栈时，登山者在哪儿找到住处？", "a": "They found shelter wherever they could — sometimes with the local priest, sometimes with shepherds or cheese-makers.", "aZh": "他们只好随遇而安——有时同当地牧师住在一起，有时同牧羊人或制乳酪的人住在一起。", "hint": "见第 9 句 climbers found shelter wherever they could..."},
+  {"kind": "think", "q": "Why was the change to the Alps so hard for the early climbers?", "zh": "对早期的登山者来说，来到阿尔卑斯山区的生活为何如此艰难？", "a": "Because at home they were accustomed to eating seven-course dinners and sleeping between fine linen sheets, but in the Alps they faced dirt, poverty and great discomfort.", "aZh": "因为他们在家里过惯了一顿饭吃七道菜、睡亚麻细布床单的生活，而在阿尔卑斯山区面对的却是肮脏、贫穷和极大的不舒适。", "hint": "见课文末句 For men accustomed to eating seven-course dinners... must have been very hard indeed."}
+ ],
+ "exercises": [
+  {"q": "汉译英：路线愈艰险，愈受推崇。", "a": "The more difficult the route is, the more highly it is regarded.", "note": "the more...the more 结构"},
+  {"q": "汉译英：现代登山者试图找一条能带来运动乐趣的路线登山，因为顶峰是他们寻求的目标。", "a": "Modern alpinists try to climb mountains by a route which will give them good sport, because the summit is the prize they seek.", "note": "climb 与 summit 用法"},
+  {"q": "句型转换：将定语从句改为分词短语——Alpine villages tended to be settlements which were cut off from civilization.", "a": "Alpine villages tended to be settlements cut off from civilization.", "note": "定语从句化简为过去分词"},
+  {"q": "填空：They often faced difficulties and dangers ____ the most perilous nature.", "a": "of", "note": "be of the + adj + noun 结构"},
+  {"q": "填空：For men accustomed to ____ (eat) seven-course dinners at home...", "a": "eating", "note": "be accustomed to 接动名词"},
+  {"q": "改错：The change to the Alps must be very hard indeed.", "a": "The change to the Alps must have been very hard indeed.", "note": "must have been 表过去推测"},
+  {"q": "汉译英：山谷常常连一家客栈都没有，登山者只好找到哪里就住哪里。", "a": "Often a valley boasted no inn at all, and climbers found shelter wherever they could.", "note": "wherever 引导从句，boast 表拥有"}
+ ],
+ "quiz": [
+  {"q": "现代登山者选择登山路线时，衡量标准是什么？", "options": ["The shortest route to the top", "The easiest route to the summit", "The route that gives good sport — the harder, the better", "The route with the finest mountain views"], "answer": 2, "note": "the more difficult..., the more highly it is regarded"},
+  {"q": "早期登山者真正寻求的是什么？", "options": ["The easiest way to the top", "The excitement of danger", "A route that offers good sport", "The chance to hunt in the mountains"], "answer": 0, "note": "summit was the prize they sought"},
+  {"q": "关于拓荒时代登山者的处境，哪项符合课文？", "options": ["They deliberately looked for exciting dangers", "They faced perilous dangers though ill-equipped, but did not court excitement", "They were richly equipped and feared nothing", "They never met any real danger"], "answer": 1, "note": "they did not go out of their way to court excitement"},
+  {"q": "下列哪项符合课文对阿尔卑斯山村的描写？", "options": ["Every village had a comfortable inn", "They were rich and rapidly became popular", "Zermatt and Chamonix stayed completely unknown", "They were impoverished settlements cut off from civilization, with dirty, flea-ridden inns"], "answer": 3, "note": "impoverished settlements / flea-ridden"},
+  {"q": "山谷里没有客栈时，登山者怎样解决住宿？", "options": ["They slept in tents in the open air", "They gave up and went home", "They stayed with the local priest, shepherds or cheese-makers", "They built new hotels for themselves"], "answer": 2, "note": "found shelter wherever they could"},
+  {"q": "对过惯舒适生活的人来说，来到阿尔卑斯山区感受如何？", "options": ["The change must have been very hard indeed", "It was a pleasant and comfortable change", "It made no difference to them", "It was easier than life at home"], "answer": 0, "note": "accustomed to seven-course dinners and fine linen sheets"}
+ ]
+}

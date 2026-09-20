@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u004",
+ "book": "nce2",
+ "unitId": "u004",
+ "title": "An exciting trip",
+ "subtitle": "激动人心的旅行",
+ "hasText": false,
+ "lines": 6,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "ee5df6af35b0",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

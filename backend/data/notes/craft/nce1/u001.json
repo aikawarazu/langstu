@@ -1,0 +1,133 @@
+{
+ "title": "Excuse me! / Is this your …?",
+ "subtitle": "打扰一下！/ 这是你的……吗？",
+ "lead": {
+  "question": "Whose handbag is it?（这是谁的手提包？）",
+  "warmup": "这是全书第一课，也是开口说英语的第一步。场景很日常：一位男士在公共场所发现一只手提包，想找到失主。他要先礼貌地打断别人（Excuse me!），再指着包发问（Is this your handbag?）——问句里只要把 be 动词提到句首就够了。本课只需掌握这三个“小动作”：引起注意、提问、答谢。读对话时请留意男士问了几次、女士为何请他再说一遍。",
+  "goals": [
+   "能用 Excuse me 自然地引起陌生人注意，而不是用 Sorry",
+   "会指着近处的东西问 Is this your …?，并听懂对方 Yes? / Pardon? 的追问",
+   "能用 Yes, it is. / No, it isn't. 简略作答，答语中用 it 指代 this 或 that",
+   "能说出 excuse、handbag、pardon、thank you very much 等本课核心词组的含义"
+  ],
+  "summary": "入门第一关，核心只有一句：Is this your …?（这是你的……吗？）。第 1 课在一段 7 句的短对话里学会用 Excuse me 引起注意、用 Pardon 请对方重说；第 2 课把 10 个日常名词依次填进这个句型反复操练。整课语法只有一点：be 动词提前构成一般疑问句，回答时用 it 简略作答。",
+  "tips": "练法建议：把 Lesson 2 的 10 个名词挨个填进 Is this your ___? 问一遍、答一遍，肯定否定各来一次，形成肌肉记忆。听写时注意三个连读点：Is this 连读、your 弱读、it is 连读成 /ɪtɪz/。另外 this 指近处、that 指远处，但回答一律用 it，这是中国学生最容易错的地方。"
+ },
+ "questions": [
+  {
+   "kind": "listen",
+   "q": "Whose handbag is it?",
+   "zh": "这是谁的手提包？",
+   "a": "It is the woman's handbag. The man asks 'Is this your handbag?', and she answers 'Yes, it is.'",
+   "aZh": "是那位女士的手提包。男士问“这是你的手提包吗？”，女士回答“是的”。",
+   "hint": "见对话第 3 句与第 6 句：Is this your handbag? / Yes, it is."
+  },
+  {
+   "kind": "detail",
+   "q": "What does the man say to get the woman's attention?",
+   "zh": "男士用什么话引起女士的注意？",
+   "a": "He says 'Excuse me!'",
+   "aZh": "他说：“打扰一下！”",
+   "hint": "见对话第 1 句 Excuse me!；注意道歉才用 Sorry。"
+  },
+  {
+   "kind": "detail",
+   "q": "What does the woman say when she does not hear clearly, and what does the man do then?",
+   "zh": "女士没听清时说了什么？男士随后怎么做？",
+   "a": "She says 'Pardon?', and the man repeats the same question: 'Is this your handbag?'",
+   "aZh": "她说“请再说一遍？”，男士就把同一个问题重复了一遍：“这是你的手提包吗？”",
+   "hint": "见对话第 4、5 句 Pardon? / Is this your handbag?"
+  },
+  {
+   "kind": "detail",
+   "q": "How does the woman answer the question, and what does the man say at last?",
+   "zh": "女士怎样回答？男士最后说了什么？",
+   "a": "She answers 'Yes, it is.' and the man says 'Thank you very much.'",
+   "aZh": "她回答“是的。”男士最后说：“非常感谢。”",
+   "hint": "见对话第 6、7 句 Yes, it is. / Thank you very much."
+  },
+  {
+   "kind": "think",
+   "q": "Why do we answer 'Yes, it is.' instead of 'Yes, this is.'?",
+   "zh": "回答为什么用 Yes, it is. 而不用 Yes, this is.？",
+   "a": "Because in a short answer we use 'it' to stand for 'this' or 'that'. 'Yes, this is.' is not English; the pronoun must be 'it'.",
+   "aZh": "因为简略回答里要用 it 代替 this 或 that；“Yes, this is.”不符合英语习惯，代词必须用 it。",
+   "hint": "本课语法点：用 it 指代 this / that（见讲义与 Lesson 2 的操练）。"
+  }
+ ],
+ "exercises": [
+  {
+   "q": "把 This is my handbag. 改成一般疑问句。",
+   "a": "Is this your handbag?",
+   "note": "be 动词 is 提到句首；问对方时 my 换成 your。"
+  },
+  {
+   "q": "回答：Is this your watch?（肯定）",
+   "a": "Yes, it is.",
+   "note": "用 it 指代 this，不要写成 Yes, this is."
+  },
+  {
+   "q": "回答：Is this your car?（否定）",
+   "a": "No, it isn't.",
+   "note": "isn't = is not，口语一律用缩略式。"
+  },
+  {
+   "q": "汉译英：这是你的铅笔吗？",
+   "a": "Is this your pencil?",
+   "note": "pencil 铅笔；pen 钢笔，别混。"
+  },
+  {
+   "q": "想从人群中挤过去，该说什么？",
+   "a": "Excuse me!",
+   "note": "借过、引起注意都用 Excuse me；道歉才用 Sorry。"
+  },
+  {
+   "q": "改错：Is this you umbrella?",
+   "a": "Is this your umbrella?",
+   "note": "you 是主格/宾格，修饰名词要用形容词性物主代词 your。"
+  },
+  {
+   "q": "汉译英：这不是我的手袋。",
+   "a": "This is not my handbag. / This isn't my handbag.",
+   "note": "否定在 be 动词后加 not；isn't 更口语。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "“Excuse me!” 在课文中的意思是：",
+   "options": ["对不起，我做错了", "打扰一下（引起注意）", "再见", "非常感谢"],
+   "answer": 1,
+   "note": "Excuse me 用于引起注意、借过；道歉用 Sorry。"
+  },
+  {
+   "q": "对方说话你没有听清，想请他再说一遍，应说：",
+   "options": ["Yes?", "Pardon?", "Thank you?", "Excuse me?"],
+   "answer": 1,
+   "note": "本课用 Pardon?，读升调。"
+  },
+  {
+   "q": "Is this your handbag? 的肯定回答是：",
+   "options": ["Yes, this is.", "Yes, it is.", "Yes, it's.", "Yes, is it."],
+   "answer": 1,
+   "note": "简略回答用 it 指代 this；Yes, it's. 不合习惯。"
+  },
+  {
+   "q": "Is this your car? 的否定回答正确的是：",
+   "options": ["No, it isn't.", "No, this isn't.", "No, it is.", "No, isn't it."],
+   "answer": 0,
+   "note": "No, it isn't. = No, it is not."
+  },
+  {
+   "q": "“钢笔”的英文是：",
+   "options": ["pencil", "pen", "watch", "car"],
+   "answer": 1,
+   "note": "pen 钢笔；pencil 铅笔。"
+  },
+  {
+   "q": "“这是你的手表吗？”正确的译法是：",
+   "options": ["Is this your watch?", "Is this you watch?", "This is your watch?", "Is this watch your?"],
+   "answer": 0,
+   "note": "be 动词提前构成疑问句，your 修饰名词。"
+  }
+ ]
+}

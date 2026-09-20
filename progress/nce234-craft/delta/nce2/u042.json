@@ -1,0 +1,40 @@
+{
+ "title": "Not very musical",
+ "subtitle": "并非很懂音乐",
+ "lead": {
+  "question": "耍蛇人吹起爵士乐后，那条蛇为什么还在慢悠悠地“舞动”？",
+  "warmup": "想象你在旧德里的集市里走了很久，正坐在广场上歇脚。广场对面，一个耍蛇人掀开竹筐，吹起镶满硬币的长管，一条蛇应声而起，随管子的摆动扭动身子。可当曲子换成爵士乐和流行歌时，蛇依旧慢悠悠地“舞动”。读完这一课你会发现：真正“不太懂音乐”的，其实不是耍蛇人。",
+  "goals": [
+   "准确理解并运用 musical、market、snake charmer、pipe、tune、glimpse、movement、obviously、difference 等核心词汇",
+   "熟练掌握 play a tune、have a glimpse of、tell the difference between、pick up 等短语",
+   "掌握“have + 名词”代替普通动词的表达（have a rest / have a look / have a glimpse）",
+   "辨析 stop to do 与 stop doing、continue to do 与 continue doing"
+  ],
+  "summary": "作者一行穿过旧德里的一个集市，走得疲惫后在广场歇脚，随即被对面的耍蛇人吸引：他拿起镶满硬币的长管吹奏曲子，蛇从筐中探身，随管子的摆动作舞。曲风突变为爵士乐与现代流行歌曲，蛇却照旧慢舞不止——它根本分不清印度音乐与爵士乐。",
+  "tips": "易错点：stop to do 是“停下来去做另一件事”，stop doing 才是“停止正在做的事”；glimpse 固定搭配 have/catch/get a glimpse of。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What happened when the snake charmer began to play jazz?", "zh": "当耍蛇人开始吹奏爵士乐时，发生了什么事？", "a": "The snake continued to 'dance' slowly. It obviously could not tell the difference between Indian music and jazz!", "aZh": "那条蛇依旧缓慢地“舞动”着，显然它分辨不出印度音乐和爵士乐！", "hint": "见课文第 6—8 句。"},
+  {"kind": "detail", "q": "Where did they stop to have a rest, and what did they notice after a time?", "zh": "他们在哪里停下来休息？过了一会儿又注意到了什么？", "a": "They stopped at a square and noticed a snake charmer with two large baskets at the other side of the square.", "aZh": "他们在一个广场上停下来休息，随后注意到广场另一边有个带着两个大筐的耍蛇人。", "hint": "见第 1—2 句。"},
+  {"kind": "detail", "q": "What did the snake do when the snake charmer began to play a tune?", "zh": "耍蛇人开始吹奏曲子时，蛇做了什么？", "a": "It rose out of the basket and began to follow the movements of the pipe.", "aZh": "它从筐里探出身子，随着管子的摆动而扭动。", "hint": "见第 4—5 句。"},
+  {"kind": "detail", "q": "Why were they very much surprised?", "zh": "他们为什么感到非常惊奇？", "a": "Because the snake charmer suddenly began to play jazz and modern pop songs.", "aZh": "因为耍蛇人突然吹奏起爵士乐和现代流行歌曲。", "hint": "见第 6 句。"},
+  {"kind": "think", "q": "Why is the lesson called 'Not very musical'? Who is really not musical?", "zh": "课文为什么叫“并非很懂音乐”？到底是谁不懂音乐？", "a": "It is the snake, not the man: it went on 'dancing' to jazz and pop exactly as it had to Indian music, so it was the one with no ear for music.", "aZh": "指的不是耍蛇人，而是那条蛇：它跟着爵士乐和流行曲照旧慢舞，所以它才是“不懂音乐”的那个。", "hint": "结合标题与末句。"}
+ ],
+ "exercises": [
+  {"q": "填空：As soon as he saw us, he picked up a long ___ which was covered with coins and opened one of the ___.", "a": "pipe; baskets", "note": "pipe 管乐器，basket 筐。"},
+  {"q": "用“have + 名词”改写：They looked at the snake charmer for a moment.", "a": "They had a look at the snake charmer.", "note": "have a look at = look at。"},
+  {"q": "就划线部分提问：We had our first glimpse of the snake when he began to play a tune.（对 when 从句提问）", "a": "When did you have your first glimpse of the snake?", "note": "glimpse 一瞥。"},
+  {"q": "汉译英：显然，它分辨不出印度音乐和爵士乐！", "a": "It obviously could not tell the difference between Indian music and jazz!", "note": "tell 与 can/could 连用表辨别。"},
+  {"q": "用“have + 名词”改写：I swam in the river yesterday morning.", "a": "I had a swim in the river yesterday morning.", "note": "have + 名词代替普通动词。"},
+  {"q": "填空：The snake continued ___ (dance) slowly; it ___ (rise) out of the basket a moment earlier.", "a": "to dance / dancing; had risen", "note": "过去完成时表先于过去的动作。"},
+  {"q": "标题 Not very musical 中的 musical 指谁？用一句英文回答。", "a": "It refers to the snake, which could not tell Indian music from jazz.", "note": "musical 此处指“懂音乐的”。"}
+ ],
+ "quiz": [
+  {"q": "课文中的耍蛇人拿起的是一件什么样的乐器？", "options": ["A long pipe which was covered with coins", "A short flute made of bamboo", "A violin with two strings", "A drum full of coins"], "answer": 0, "note": "第 3 句：pick up a long pipe。"},
+  {"q": "作者一行在什么地方走了很长一段路？", "options": ["Along the streets of new Delhi", "Through one of the markets of old Delhi", "Around a square in old Delhi", "Inside the snake charmer's house"], "answer": 1, "note": "第 1 句。"},
+  {"q": "“we stopped at a square to have a rest”中 stop 的用法是哪一项？", "options": ["It means they gave up resting", "It means they rested while walking", "It means they stopped walking in order to rest", "It means they had already rested"], "answer": 2, "note": "stop to do 表停下原动作去做。"},
+  {"q": "文中 “After a time” 的含义最接近哪一项？", "options": ["In time", "On time", "At times", "After a while"], "answer": 3, "note": "after a time = 过了一会儿。"},
+  {"q": "have a glimpse of 的同义表达是哪一个？", "options": ["catch a brief look at", "stare at for a long time", "look for something carefully", "watch something slowly move"], "answer": 0, "note": "glimpse 强调短暂一瞥。"},
+  {"q": "课文最后一句说，那条蛇显然做不到什么？", "options": ["dance to the movements of the pipe", "rise out of the basket again", "tell the difference between Indian music and jazz", "follow the snake charmer home"], "answer": 2, "note": "末句点题。"}
+ ]
+}

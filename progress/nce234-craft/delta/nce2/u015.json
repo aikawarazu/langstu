@@ -1,0 +1,54 @@
+{
+ "title": "Good news",
+ "subtitle": "好消息",
+ "text": [
+  {"lesson": 15, "title": "Good news", "kind": "课文 · 短文", "lines": [
+   {"en": "The secretary told me that Mr. Harmsworth would see me.", "zh": "秘书告诉我说，哈姆斯沃斯先生要见我。"},
+   {"en": "I felt very nervous when I went into his office.", "zh": "我走进他办公室的时候感到非常紧张。"},
+   {"en": "He did not look up from his desk when I entered.", "zh": "我进去的时候，他没有从办公桌上抬起头来。"},
+   {"en": "After I had sat down, he said that business was very bad.", "zh": "我坐下之后，他说生意很不景气。"},
+   {"en": "He told me that the firm could not afford to pay such large salaries.", "zh": "他告诉我说，公司付不起这么大笔的薪水。"},
+   {"en": "Twenty people had already left.", "zh": "已经有二十个人离开了。"},
+   {"en": "I knew that my turn had come.", "zh": "我知道轮到我了。"},
+   {"en": "'Mr. Harmsworth,' I said in a weak voice.", "zh": "“哈姆斯沃斯先生，”我用微弱的声音说。"},
+   {"en": "'Don't interrupt,' he said.", "zh": "“别打断我，”他说。"},
+   {"en": "Then he smiled and told me I would receive an extra thousand pounds a year!", "zh": "接着他笑了笑，告诉我说我每年将额外得到一千英镑！"}
+  ]}
+ ],
+ "lead": {
+  "question": "被老板叫去谈话，你会紧张吗？本课的好消息究竟是什么？",
+  "warmup": "想象一下：秘书告诉你老板要见你，你忐忑地走进办公室，老板却头也不抬。他先说生意不景气、公司付不起高薪，还提到已有二十人离职——你多半以为自己要被辞退了。可最后一句话却峰回路转。听读前先猜一猜：等着这位职员的，究竟是坏消息还是好消息？",
+  "goals": [
+   "听懂并复述全文，抓住结尾的反转与幽默",
+   "掌握 secretary、nervous、afford、interrupt、look up 等核心词",
+   "巩固间接引语中时态、人称的呼应规则",
+   "会用 can't afford to、too ... to 表达压力与情绪"
+  ],
+  "summary": "本课讲一位职员被老板叫去谈话：他紧张得不敢开口，又听说生意不景气、二十人已离职，便认定自己要被辞退；结果老板宣布每年给他加薪一千英镑，反转成幽默。重点表达有 afford to pay such large salaries、in a weak voice、look up from his desk、an extra thousand pounds a year。",
+  "tips": "读间接引语时，先把 he said that / he told me that 后的从句圈出来，再按“主句过去、从句退一步”还原原话，速度与准确率都会提高。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What was the good news?", "zh": "好消息是什么？", "a": "The writer would receive an extra thousand pounds a year.", "aZh": "作者每年将额外得到一千英镑（加薪）。", "hint": "抓住最后一句的 smiled 与 extra thousand pounds。"},
+  {"kind": "detail", "q": "How did the writer feel when he went into the boss's office?", "zh": "作者走进老板办公室时感觉如何？", "a": "He felt very nervous.", "aZh": "他感到非常紧张。", "hint": "注意第二句中的 nervous，以及他说话时 in a weak voice。"},
+  {"kind": "detail", "q": "Why had twenty people already left?", "zh": "为什么已经有二十个人离开了？", "a": "Because business was very bad and the firm could not afford to pay such large salaries.", "aZh": "因为生意很不景气，公司付不起这么大笔的薪水。", "hint": "老板在作者坐下后给出的两个理由。"},
+  {"kind": "detail", "q": "What did the writer think when he said 'I knew that my turn had come'?", "zh": "作者说“我知道轮到我了”时，他以为会发生什么？", "a": "He thought he was going to lose his job.", "aZh": "他以为自己要被解雇了。", "hint": "联系前文：二十人已离职，公司付不起高薪。"},
+  {"kind": "think", "q": "Why is the story funny? What makes the ending surprising?", "zh": "这个故事为什么好笑？结尾为何出人意料？", "a": "Because everything prepares us for bad news — nervousness, weak voice, twenty people leaving — but the boss ends with a pay rise, so the surprise creates humour.", "aZh": "因为全文都在铺垫坏消息——紧张、声音微弱、二十人离职——老板却以加薪收尾，反差制造了幽默。", "hint": "从“预期被解雇”与“结果加薪”的反差入手。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：秘书告诉我说，哈姆斯沃斯先生要见我。", "a": "The secretary told me that Mr. Harmsworth would see me.", "note": "间接引语时态后退一格。"},
+  {"q": "填空：After I had sat down, he said that business ____ very bad.", "a": "was", "note": "主句过去时，从句用 was。"},
+  {"q": "汉译英：公司付不起这么大笔的薪水。", "a": "The firm could not afford to pay such large salaries.", "note": "afford 后接 to do 形式。"},
+  {"q": "句型转换（改为间接引语）：'Don't interrupt,' he said. → He told me ____ ____ interrupt.", "a": "not to", "note": "祈使句转 tell sb. not to do。"},
+  {"q": "改错：He did not looked up from his desk when I entered.", "a": "He did not look up from his desk when I entered.", "note": "助动词 did 后用动词原形。"},
+  {"q": "填空：我紧张得一句话也说不出来。→ I was ____ nervous ____ say a word.", "a": "too; to", "note": "too ... to 表“太……而不能”。"},
+  {"q": "汉译英：“哈姆斯沃斯先生，”我用微弱的声音说。接着他笑了笑，告诉我说我每年将额外得到一千英镑。", "a": "'Mr. Harmsworth,' I said in a weak voice. Then he smiled and told me I would receive an extra thousand pounds a year.", "note": "in a ... voice 表“用……的声音”。"}
+ ],
+ "quiz": [
+  {"q": "The secretary told me that Mr. Harmsworth would see me. 句中 secretary 的意思是？", "options": ["秘书", "会计", "经理", "门卫"], "answer": 0, "note": "secretary 意为“秘书”。"},
+  {"q": "He did not look up from his desk. 句中 look up 的含义是？", "options": ["抬头看", "查阅", "拜访", "照顾"], "answer": 0, "note": "此处 look up 指“抬头看”，不是查阅。"},
+  {"q": "The firm could not afford to pay such large salaries. 句中 afford 意为？", "options": ["负担得起", "拒绝", "借给", "推迟"], "answer": 0, "note": "afford 常与 can/could 连用，后接 to do。"},
+  {"q": "I said in a weak voice. 中 a weak voice 指什么样的声音？", "options": ["微弱无力的", "沙哑难听的", "愤怒激动的", "低沉粗重的"], "answer": 0, "note": "weak 表虚弱无力，衬托作者的紧张。"},
+  {"q": "He told me that the firm ____ afford to pay such large salaries. 应选？", "options": ["couldn't", "can't", "needn't", "mustn't"], "answer": 0, "note": "主句为过去时，从句情态动词也用过去式。"},
+  {"q": "故事中的“好消息”到底是什么？", "options": ["作者每年加薪一千英镑", "作者被提升为经理", "公司新招了二十人", "老板取消了这次谈话"], "answer": 0, "note": "结尾反转：不是被辞退，而是加薪一千英镑。"}
+ ]
+}

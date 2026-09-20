@@ -1,0 +1,40 @@
+{
+ "title": "Taken for a ride",
+ "subtitle": "乘车兜风",
+ "lead": {
+  "question": "喜欢乡间旅行的作者，为什么没能在目的地伍德福德草地下车？",
+  "warmup": "坐上一辆乡村巴士，把目的地交代给售票员，听起来省心——前提是他真记得提醒你下车。本课作者正是如此：他爱在乡间旅行，却最怕迷路；上车时坦言不知道伍德福德草地在哪儿，售票员满口答应“我来告诉您在哪儿下车”。于是他安心坐在车前部看风景，直到车停下才发现，整辆车只剩他自己……",
+  "goals": [
+   "掌握 ride、excursion、conductor、view 等核心词的词义与搭配",
+   "分清 get on / get off、put off、in the front of / in front of 等易混短语",
+   "掌握“疑问词 + 不定式”结构及 as far as、prefer to do 的用法",
+   "复习一般现在时表习惯与状态、状态动词不用于进行时的规则"
+  ],
+  "summary": "故事讲的是一次“被兜了风”的旅行：作者要去伍德福德草地，却不知它在哪儿，只能指望售票员提醒。他坐在车前部饱览乡间景色，等车停下才惊觉车上只剩自己——售票员早忘了让他下车。此时车已到终点、马上要返回，作者索性说“既然如此，我还是留在车上吧”。",
+  "tips": "标题 taken for a ride 一语双关：字面是“被带着乘车兜风”，口语里还有“被耍、受骗”的意思；in the front of（内部的前部）不同于 in front of（外部的前方）。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "Why did the writer not get off the bus at Woodford Green?", "zh": "作者为什么没有在伍德福德草地站下车？", "a": "Because the conductor forgot to put him off; the bus had gone past Woodford Green and was going back.", "aZh": "因为售票员忘了让他下车，车已经开过了伍德福德草地，而且马上要原路返回。", "hint": "“I forgot to put you off.”"},
+  {"kind": "detail", "q": "Where did the writer sit on the bus, and why did he choose that seat?", "zh": "作者坐在车上哪个位置？为什么选那个位置？", "a": "He sat in the front of the bus to get a good view of the countryside.", "aZh": "他坐在汽车的前部，以便饱览农村风光。", "hint": "I sat in the front of the bus…"},
+  {"kind": "detail", "q": "What did the writer realize when he looked round after the bus stopped?", "zh": "车停下后，作者环视四周发现了什么？", "a": "He realized with a shock that he was the only passenger left on the bus.", "aZh": "他惊奇地发现，车上只剩他一个乘客了。", "hint": "Looking round, I realized with a shock that…"},
+  {"kind": "detail", "q": "Where did the writer want to go, and what did he say to the conductor as he got on the bus?", "zh": "作者想去哪儿？上车时对售票员说了什么？", "a": "He wanted to go to Woodford Green. He said, 'I'm going to Woodford Green, but I don't know where it is.'", "aZh": "他要去伍德福德草地，说：“我要去伍德福德草地，但我不知道它在哪儿。”", "hint": "as I got on the bus 中 as 表示“当……时”。"},
+  {"kind": "think", "q": "What is the joke in the title 'Taken for a ride', and why did the writer finally prefer to stay on the bus?", "zh": "标题妙在何处？作者最后为何宁愿留在车上？", "a": "Literally he was given a bus ride he had not planned; idiomatically 'take someone for a ride' means to cheat or fool someone. He stayed on the bus because it was going back and he doesn't like losing his way in the country.", "aZh": "字面意思是他被带着多坐了一段车；短语 take sb. for a ride 还有“耍弄”的意思。他留在车上是因为车要原路返回，而他不愿在乡间迷路。", "hint": "把首句与结尾 in that case, I prefer to stay on the bus 对照。"}
+ ],
+ "exercises": [
+  {"q": "填空：I love travelling in the country, but I don't like ______ ______ ______.", "a": "losing my way", "note": "lose one's way 迷路。"},
+  {"q": "汉译英：最近我作了一次短途旅行，但这次旅行花的时间比我预计的要长。", "a": "I went on an excursion recently, but my trip took me longer than I expected.", "note": "go on an excursion 去远足。"},
+  {"q": "填空：“I'm going to Woodford Green,” I said to the ______ as I ______ ______ the bus.", "a": "conductor; got on", "note": "conductor 售票员。"},
+  {"q": "用“疑问词 + 不定式”改写：The conductor didn't tell me where I should get off.", "a": "The conductor didn't tell me where to get off.", "note": "where to get off 作 tell 的宾语。"},
+  {"q": "汉译英：我坐在汽车的前部，以便饱览农村风光。", "a": "I sat in the front of the bus to get a good view of the countryside.", "note": "in the front of 前部。"},
+  {"q": "汉译英：我们的车就到此为止了。", "a": "This is as far as we go.", "note": "as far as 表示“到……的限度”。"},
+  {"q": "简答：课文用 I love travelling，为什么不用 I am loving travelling？", "a": "love、like 表示喜好与心理状态，通常只用一般现在时；love / like doing 强调一贯习惯，不用于进行时。", "note": "状态动词一般不用进行时。"}
+ ],
+ "quiz": [
+  {"q": "售票员突然发现自己忘了让作者下车，他说的是哪一句？", "options": ["I forgot to put you off.", "I forgot to get you on.", "I forgot to take you down.", "I forgot to let you away."], "answer": 0, "note": "put off 在此意为“让……下车”。"},
+  {"q": "“我坐在汽车的前部”正确的英文表达是：", "options": ["I sat in the front of the bus.", "I sat in front of the bus.", "I sat on the front of the bus.", "I sat in the front bus."], "answer": 0, "note": "in the front of 指内部的前部。"},
+  {"q": "“我们的车就到此为止了”应译为：", "options": ["This is as far as we go.", "This is so far as we go.", "This is as far than we go.", "This is as far as we are going to."], "answer": 0, "note": "as far as 表示“到……的限度”。"},
+  {"q": "作者说不知道伍德福德草地在哪儿，售票员的回答是：", "options": ["I'll tell you where to get off.", "I'll tell you where getting off.", "I'll tell you where you get off.", "I'll tell you where should you get off."], "answer": 0, "note": "疑问副词 where + 不定式作宾语。"},
+  {"q": "课文中表示“迷路”的固定搭配是：", "options": ["lose one's way", "lose one's road", "miss one's road", "lose the street"], "answer": 0, "note": "lose one's way，也可说 get lost。"},
+  {"q": "听说车要返回，作者回答的是：", "options": ["Well, in that case, I prefer to stay on the bus.", "Well, in that case, I prefer stay on the bus.", "Well, in that case, I prefer to stay in the bus.", "Well, in that case, I prefer to stay at the bus."], "answer": 0, "note": "prefer to do。"}
+ ]
+}

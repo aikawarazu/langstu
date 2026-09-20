@@ -1,0 +1,14 @@
+{
+ "unit": "nce2-u022",
+ "book": "nce2",
+ "unitId": "u022",
+ "title": "A glass envelope",
+ "subtitle": "玻璃信封",
+ "hasText": false,
+ "lines": 7,
+ "questions": 5,
+ "exercises": 7,
+ "quiz": 6,
+ "sha1": "b8fdeb759f3c",
+ "finishedAt": "2026-09-20T22:00:08+08:00"
+}

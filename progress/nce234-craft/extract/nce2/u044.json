@@ -1,0 +1,61 @@
+{
+ "book": "nce2",
+ "unitId": "u044",
+ "lesson": 44,
+ "sourceFile": "299.txt",
+ "titleEn": "Through the forest",
+ "titleZh": "",
+ "listenQuestion": "How did Mrs.",
+ "lines": [
+  {
+   "en": "Sterling get her bag back?",
+   "zh": "安。"
+  },
+  {
+   "en": "Mrs.. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.",
+   "zh": "斯特林夫人在穿过森林追赶两个男人时，她并没有考虑到所冒的风险。"
+  },
+  {
+   "en": "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.",
+   "zh": "刚才，当她和孩子们正在森林边上野餐的时候，这两个人冲到她跟前，企图抢走她的手提包。"
+  },
+  {
+   "en": "In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.",
+   "zh": "在争抢中，手提包的带断了，包落入这两个人手里，他们拔腿跑进了树林。"
+  },
+  {
+   "en": "Mrs.. Sterling got so angry that she ran after them.",
+   "zh": "斯特林夫人非常气愤，向着他们追了过去。"
+  },
+  {
+   "en": "She was soon out of breath, but she continued to run.",
+   "zh": "只追了一会儿便上气不接下气了，但她还是继续追赶。"
+  },
+  {
+   "en": "When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.",
+   "zh": "当她赶上他们时，发现他们已经坐了下来，正翻着包里的东西。于是她直冲过去。"
+  },
+  {
+   "en": "The men got such a fright that they dropped the bag and ran away.",
+   "zh": "这两个人吓了一跳，扔下提包逃跑了。"
+  },
+  {
+   "en": "'The strap needs mending,' said Mrs.. Sterling later, 'but they did not steal anything.'",
+   "zh": "“这提包带需要修理，”斯特林夫人事后说道，“不过他们什么也没偷走。”"
+  }
+ ],
+ "translationJoined": "安。斯特林夫人在穿过森林追赶两个男人时，她并没有考虑到所冒的风险。刚才，当她和孩子们正在森林边上野餐的时候，这两个人冲到她跟前，企图抢走她的手提包。在争抢中，手提包的带断了，包落入这两个人手里，他们拔腿跑进了树林。斯特林夫人非常气愤，向着他们追了过去。只追了一会儿便上气不接下气了，但她还是继续追赶。当她赶上他们时，发现他们已经坐了下来，正翻着包里的东西。于是她直冲过去。这两个人吓了一跳，扔下提包逃跑了。“这提包带需要修理，”斯特林夫人事后说道，“不过他们什么也没偷走。”",
+ "words": [
+  {
+   "word": "mend",
+   "pos": "v",
+   "zh": "参考译文"
+  }
+ ],
+ "rawNotes": {
+  "zixue": "1．Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men. 安·斯特林夫人在穿过森林追赶两个男人时，她并没有考虑到所冒的风险。\n（1）think of在这里表示“考虑”、“思考”。\nHave you ever thought of settling down in this town?\n你有没有考虑过在这个镇上定居？\n（2）表示“冒……危险”可以用 take the risk(of doing…)。\n（3）run after 表示“追赶”：\nOn my way home, I saw a dog running after a cat.\n我在回家的路上看到一只狗在追一只猫。\n2．They had rushed up to her while she was having a picnic at the edge of a forest with her children…刚才，当她和孩子们正在森林边上野餐的时侯，这两个人冲到她跟前……\n（1）up to可以表示地点、时间等“一直到……”：\nThe child ran up to his mother when he saw her.\n那孩子看到他的母亲后便跑到她跟前。\nHe worked up to nine o'clock in the evening.\n他一直工作到晚上9点。\n（2）at the edge of表示“在……的边上”：\nThe park lies at the edge of the town.\n公园位于镇边上。\n3．in one's possession, 为某人所有。\n也可以说 in the possession of sb.。这两种意思相同，但是人称代词一般用前一种表达方式：\nThe house used to be in my possession, but now it is in the possession of an old lady.\n这座房子曾经归我所有，但现在它归一位老太太所有。\n4．Mrs. Sterling got so angry that she ran after them. 斯特林太太非常气愤，向着他们追了过去。\nso…that引导结果状语从句，表示“如此……以至于……”。\n下文中，The men got such a fright that they dropped the bag and ran away用了类似的引导结果状语从句的连词 such a…that。\n5．out of breath，喘不上气，上气不接下气。\nTom ran to the shop to get some salt for his mother. When he reached there, he was quite out of breath.\n汤姆为了给母亲买盐跑步去了商店。当他到那里时，他已很是上气不接下气。\n6．go through，翻看。\n这是个固定短语，含义之一是“（仔细地）搜查”、“在……中搜寻”：\nShe went through her bag, but she couldn't find her key.\n她翻遍了包，但就是找不到她的钥匙。",
+  "grammar": "动名词（2）\n在第20课的语法中，我们学习了动名词的形式和一般作用，知道它可以代替名词作句子的主语、宾语、介词宾语等，也学习了它的否定式和完成式：\nWashing the car made me tired.\n擦洗汽车使我很累。（主语）\nI enjoy reading.\n我喜爱读书。（宾语）\nBefore leaving the office, he gave me a book.\n他离开办公室之前给了我一本书。（介词宾语）\n（1）动名词还可以用于动词+介词之后：\nWe are looking forward to his coming.\n我们盼望着他的到来。\n（2）在start，begin， continue等后面，既可以用不定式又可以用动名词，区别不大：\nI began to learn/\nlearning\nEnglish two years ago.\n我两年前开始学英语。\n（3）在love，like，prefer等动词后面，用不定式和动名词意义有所区别。带不定式时常表示特定的未来的事件（如正准备做某事或建议做某事），带动名词形式时则表示目前正在进行中的活动或一般的行为。在prefer…to…结构中则只能用动名词\n我喜欢看电视。（一般行为）\n（4）在need，want之后，动名词形式具有被动的含义，相当于被动的不定式：\nThe windows need cleaning.\n这些窗子该擦了。（=need to be cleaned）\nHis shirt needs washing.\n他的衬衣该洗了。",
+  "wordStudy": "1．risk\n（1）n. 危险，风险：\nIs there much risk of losing money in doing football pools?\n买足球新概念很有输钱的风险吗？\nRoy Trenton took/ ran the risk of damaging his bus and drove it into the back of the thieves' car.\n罗伊·特雷顿冒着撞坏他开的那辆公共汽车的危险把它撞在了小偷们的车的后尾上。\nJohn saved me at the risk of his own life.\n约翰冒着生命危险救了我。\n（2）vt. 冒……危险，使……遭受危险：\nWe'd better take a taxi. We can't risk\nmissing\nthe plane.\n我们最好还是坐出租车。我们不能冒误飞机的危险。\nJohn risked his own life to save me.\n约翰冒着生命危险救了我。\n2．run与catch\n动词run的本意是“跑”，后面加上不同的小品词可以表达“追赶”、“逃跑”等多种含义：\nShe ran through the forest after two men.\n她穿过森林，追赶两个男人。\nThe man ran away with her bag.\n那人拿了她的包跑了。\nShe has run off with all his money.\n她拐带着他所有的钱逃走了。\nThe men dropped the bag and ran away.\n他们扔下提包逃跑了。\ncatch的主要意思是“抓住”、“捉住”、“逮住”，但有些时候它可以表示“（及时）赶上”、“追上”等：\nHe ran quickly to catch the last bus home.\n为了赶上最后一班回家的公共汽车他快速地跑着。\nWhen she caught up with them, she saw that they were going through the contents of the bag.\n当她赶上他们时，发现他们正翻着包里的东西。",
+  "keyAnswers": "1．关键句型练习答案\nA tried to steal(1.4); started running(1.5); continued to run (1.7); needs mending(1.10)\nB 1 to see           2 working                     3 ironing\n4 to leave           5 to argue/ arguing         6 to come\n7 seeing             8 knocking                    9 waiting\n10 to rain/ raining                                   11 working\n12 taking\n2．难点练习答案\n1(sample sentences)\nIn the last minutes of the race, Jim caught up with the leader and passed him. 2 The farmer shouted at the children and they ran away.\n3．多项选择题答案\n1 c  2 b  3 c  4 c  5 c  6 b\n7 d  8 a  9 b  10 a  11 b  12 d\ntake a risk：冒...风险\nrun after：追赶，追随，追求，\nrun behind：在某人后面跑\nrun to：跑向\nrush up to：\nup：向上；面对面 （down：方向相同）\nin one's possession：为某人所拥有\nso...that：如此...以至于\ncontinued to do：接着做\ncatch up with：追上，赶上（强调结果）\ncontents of the bag：包里的东西\ngo through：浏览，翻看\nrun（straight）at\nneed doing：需要做，需要被做（被动含义）\nneedn't可以回答must开头的疑问句，只能用在肯定句中，可以直接加动词－ing\nwant doing：主动，表示被动含义\n它们的主语一定是物\nneed to be done主语是人，也可以是物\n1、never/not think of the risk she was taking\n2、with sth in one's possession\n3、need doing\nletter writing：\nEsq.\nEsquire写信时对男性的敬称（放在人名的后面）\nMr.and Mrs.（已婚）\n先写人名，再写地址\nkey structures\na.动词-ing做介词宾语，或做主语\nb.to 做介词＋动词-ing\nlook forward to，be used to，be accustomed to（习惯于），\ndevote oneself to全身心投入， object to反对\nmy mother devote herself to doing the housework\ni object to eating out\nc.begin，start，continue＋to do/doing（没有区别）\nd.hate，love，like＋doing--表示一种习惯\nhate，love，like＋to do--表示一次性的行为\ni like drinking tea我喜欢喝茶\ni like to drink coffee我喜欢喝咖啡（现在）\nw"
+ }
+}

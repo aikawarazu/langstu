@@ -1,0 +1,35 @@
+{
+ "title": "Silicon Valley",
+ "subtitle": "硅谷",
+ "lead": {
+  "question": "除无政府状态外，计算机产业还依靠什么发展？硅谷为何能重新回到未来？",
+  "warmup": "本篇选自 1989 年 10 月 2 日的《美国新闻与世界报道》。当时有人断言硅谷终将沦为退休村，可技术趋势却可能把它重新推向未来。卡弗·米德指出，工作站已让工程师在办公桌上设计、试验和生产芯片，时间与费用降到几天和几百美元，失败不再昂贵。车库创业随之复兴，亚裔工程师则成为新一代公司的骨干。",
+  "goals": ["掌握 silicon、semiconductor、chip、campus、start-up 等科技与创业词汇", "理解并运用被动语态，如 without being penalized by expensive failures", "熟练使用现在完成时与定语从句描述硅谷的人才与产业", "能用英语讨论技术创新、移民人才与创业环境等话题"],
+  "summary": "米德指出，工作站让芯片的设计、试验与生产缩减到几天、几百美元，工程师的想像力不再因昂贵失败受罚。他预言发明者能在办公室用一个周末做出定制的强力芯片，催生新一代车库创业公司，使美国在产品上市上抢得先机。硅谷依靠的，是无政府状态与亚洲人：东方人和亚裔美国人已是公司工程人员的主体。",
+  "tips": "易错提醒：thrive on 意为“靠……兴旺发达”，介词 on 不可换成 in 或 with；garage start-ups 指车库起家的创业公司，不是汽车修理厂；give sb a jump on 是使某人抢先于对手，与“跳跃”无关。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What does the computer industry thrive on apart from anarchy?", "zh": "除无政府状态之外，计算机产业还依靠什么而兴旺？", "a": "It thrives on Asians. Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms, and Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges.", "aZh": "靠的是亚洲人。硅谷许多公司中工程技术人员的大多数是东方人和亚裔美国人；中国、韩国、菲律宾和印度的工程师正一批批地从加州各大学毕业。", "hint": "答案出处：'We really thrive on anarchy.' 之后的 'And on Asians.' 以及紧随其后的两句。"},
+  {"kind": "detail", "q": "Why may engineers soon be free to let their imaginations soar?", "zh": "工程师为何不久就能自由自在地发挥想像力？", "a": "Because the time and cost of making a chip have dropped to a few days and a few hundred dollars, so they are no longer penalized by expensive failures.", "aZh": "因为制造一块芯片的时间已缩短到几天、费用降到几百美元，他们不会再因代价高昂的失败而受罚。", "hint": "见第 3 句 As the time and cost of making a chip drop to a few days... without being penalized by expensive failures."},
+  {"kind": "detail", "q": "What does Mead predict inventors will be able to do?", "zh": "米德预言发明者将能做到什么？", "a": "They will be able to perfect powerful customized chips over a weekend at the office, spawning a new generation of garage start-ups and giving the U.S. a jump on its foreign rivals in getting new products to market fast.", "aZh": "他们能在办公室用一个周末做出完美的、功能强大的定制芯片，从而催生新一代车库创业公司，并使美国在迅速把新产品推向市场方面领先于外国对手。", "hint": "见第 4 句 Mead predicts that inventors will be able to perfect powerful customized chips over a weekend at the office。"},
+  {"kind": "detail", "q": "How can Asian innovators help next-generation start-ups?", "zh": "亚裔创新者能怎样帮助新一代创业公司？", "a": "As the heads of next-generation start-ups, they can draw on their customs and languages to forge tighter links with the crucial Pacific Rim markets.", "aZh": "作为新一代创业公司的带头人，他们可以凭借自己的习俗和语言，与关键的太平洋沿岸市场建立起更牢固的联系。", "hint": "见第 9 句 As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages..."},
+  {"kind": "think", "q": "Why does Silicon Valley need both anarchy and immigrants to keep thriving?", "zh": "硅谷为何既需要“无政府状态”又需要移民才能持续繁荣？", "a": "Anarchy here means a loose, free-wheeling environment of many small garages rather than rigid big firms: it lets smart people experiment cheaply and fail without ruin. Immigrant engineers then supply the skills, languages and Pacific Rim connections that carry new chips and products to world markets.", "aZh": "这里的“无政府状态”指一种松散自由的环境：众多小车库而非僵硬的大公司，让聪明人以低成本试验、失败也不致破产；移民工程师则带来技术、语言和太平洋沿岸的人脉，把新芯片与新产品送向世界市场。", "hint": "结合米德 'We really thrive on anarchy.' And on Asians. 以及 Alex Au、Reddy 两个实例，言之成理即可。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：由于制造一块芯片的时间与费用降到几天和几百美元，工程师们很快就能自由地让想像力翱翔，而不会因昂贵的失败受到惩罚。", "a": "As the time and cost of making a chip drop to a few days and a few hundred dollars, engineers may soon be free to let their imaginations soar without being penalized by expensive failures.", "note": "without being + 过去分词"},
+  {"q": "汉译英：在硅谷许多公司里，东方人和亚裔美国人构成了工程技术人员的大多数。", "a": "Orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms.", "note": "constitute the majority of"},
+  {"q": "句型转换：将 Work-stations enable engineers to design, test and produce chips right on their desks. 改为被动语态。", "a": "Engineers are enabled by work-stations to design, test and produce chips right on their desks.", "note": "enable sb to do 变被动"},
+  {"q": "填空：There are now work-stations ____ enable engineers to design, test and produce chips right on their desks.", "a": "that / which", "note": "定语从句关系代词作主语"},
+  {"q": "填空：Alex Au, a Stanford Ph.D. from Hong Kong, ____ (set up) a Taiwan factory to challenge Japan's near lock on the memory-chip market.", "a": "has set up", "note": "现在完成时表已完成的动作"},
+  {"q": "改错：We are got more garages with smart people.", "a": "We've got more garages with smart people.", "note": "have got 表“拥有”"},
+  {"q": "汉译英：这家公司的园区里有一家半导体工厂，生产用于工作站的芯片。", "a": "The company's campus houses a semiconductor plant which produces chips for work-stations.", "note": "campus / semiconductor / chip"}
+ ],
+ "quiz": [
+  {"q": "课文说，除无政府状态之外，计算机产业还依靠什么而兴旺？", "options": ["Tariffs on foreign rivals", "Government financing", "Asians", "Cheaper real estate"], "answer": 2, "note": "原文 'We really thrive on anarchy.' And on Asians."},
+  {"q": "制造一块芯片的时间与费用如今已降到什么程度？", "options": ["A few months and a few thousand dollars", "A few days and a few hundred dollars", "A few hours and a few cents", "A few weeks and a few million dollars"], "answer": 1, "note": "drop to a few days and a few hundred dollars。"},
+  {"q": "米德预言发明者能在办公室用多长时间做出功能强大的定制芯片？", "options": ["A single afternoon", "A whole year", "Ten years", "A weekend"], "answer": 3, "note": "perfect powerful customized chips over a weekend at the office。"},
+  {"q": "关于硅谷许多公司的工程人员构成，课文怎么说？", "options": ["Orientals and Asian Americans constitute the majority of the engineering staffs.", "Almost all the engineers are native-born Americans.", "Asian engineers are rarely hired in the Valley.", "Most engineers graduated from European universities."], "answer": 0, "note": "Already, orientals and Asian Americans constitute the majority..."},
+  {"q": "来自香港的斯坦福博士 Alex Au 做了什么？", "options": ["He financed a chip plant for the state of Missouri.", "He reopened an AT&T plant in Kansas City.", "He set up a Taiwan factory to challenge Japan's near lock on the memory-chip market.", "He retired and moved to a small village."], "answer": 2, "note": "见 Alex Au 一句；重开堪萨斯城芯片厂的是 Reddy。"},
+  {"q": "课文末句对硅谷的未来作了怎样的展望？", "options": ["Silicon Valley has already turned into a retirement village.", "Silicon Valley may prove a classroom for building a global business before it becomes a retirement village.", "Silicon Valley will soon close down all its chip plants.", "Silicon Valley can teach nothing about global business."], "answer": 1, "note": "Before it becomes a retirement village, Silicon Valley may prove a classroom..."}
+ ]
+}

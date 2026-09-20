@@ -1,0 +1,35 @@
+{
+ "title": "Future Champions",
+ "subtitle": "未来的冠军",
+ "lead": {
+  "question": "洛杉矶的婴儿为何能在水下骑车比赛，他们真能成为未来的奥运冠军吗？",
+  "warmup": "洛杉矶有一家特设的游泳池，两个月大的婴儿在此学游泳，还没学会走路就练会在水下屏住呼吸。他们最爱的游戏是水下三轮车比赛：三轮车并排摆在水下七英尺的池底，谁先到对岸谁就赢。本课围绕这群小游泳者展开，你会读到 instruct、compete、reluctant 等词汇，以及 so...that、be accustomed to doing 等常用结构。",
+  "goals": ["掌握 instruct、champion、compete、reluctant、accustomed、popular、pedal 等本课核心词汇及其搭配", "学会 be expert at / be accustomed to / be reluctant to 后接名词或动名词的用法", "掌握 so...that 引导的结果状语从句，以及 not long before 表示“不久”的句型", "会用 compete against/with、be popular with、line up 等固定搭配，并理解只有时间能回答这类倒装句"],
+  "summary": "实验证明，儿童很小就能被教会游泳。在洛杉矶特设的游泳池里，两个月大的婴儿不怕入水，还没会走路就能在水下屏住呼吸，很快便能捡起池底物品。他们最爱水下三轮车比赛：三轮车并排放在七英尺深的池底，孩子们争相比谁先游到对岸，多数人宁愿推或拉。能否成为奥运冠军，只有时间能回答。",
+  "tips": "易错提醒：be accustomed to、be reluctant to、be expert at 中的 to/at 都是介词，后面须接名词或动名词；使役动词 make/have 后接 sb do sth，动词前不带 to。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What kind of race do the children compete in?", "zh": "孩子们参加的是哪一种比赛？", "a": "They compete in the underwater tricycle race.", "aZh": "他们参加的是水下三轮车比赛。", "hint": "答案见课文第5、7句：A game that is very popular with these young swimmers is the underwater tricycle race... The children compete against each other..."},
+  {"kind": "detail", "q": "What are the children able to do under water even before they can walk?", "zh": "孩子们甚至在学会走路之前就能在水下做什么？", "a": "They become expert at holding their breath under water.", "aZh": "他们能熟练地在水下屏住呼吸。", "hint": "课文第2句：children become expert at holding their breath under water even before they can walk."},
+  {"kind": "detail", "q": "Where are the tricycles lined up, and what do the children do with them?", "zh": "三轮车摆在哪里？孩子们拿它们做什么？", "a": "The tricycles are lined up on the floor of the pool seven feet under water, and the children compete against each other to reach the other end of the pool.", "aZh": "三轮车并排放在水下七英尺深的池底，孩子们比赛看谁先到达游泳池的另一端。", "hint": "课文第6、7句：lined up on the floor of the pool seven feet under water... compete against each other to reach the other end."},
+  {"kind": "detail", "q": "What does the writer say about the children's chances of becoming Olympic champions?", "zh": "作者怎样看待这些孩子成为奥运冠军的前景？", "a": "Only time will tell whether they will ever become future Olympic champions.", "aZh": "他们将来是否能成为奥林匹克的冠军，这只能由时间来作出回答。", "hint": "课文第10句：Whether they will ever become future Olympic champions, only time will tell."},
+  {"kind": "think", "q": "The writer says these children should encourage those of us who cannot swim five yards before gasping for air. What does he really mean?", "zh": "作者说这些孩子对“游不了5码就喘不过气来的人”是种鼓舞，他真正的意思是什么？", "a": "He means that if even two-month-old babies can feel at home under water, no adult need despair of learning to swim; their skill is an encouragement rather than a reproach.", "aZh": "他的意思是：连两个月的婴儿都能在水下自如活动，成年人就更不必对学游泳灰心；这些孩子的本领对我们是一种鼓舞，而不是嘲讽。", "hint": "结合课文最后一句中 encourage 与 cannot swim five yards before gasping for air 的对比来思考。"}
+ ],
+ "exercises": [
+  {"q": "汉译英：实验证明，儿童在很小的时候就可以开始学习游泳。", "a": "Experiments have proved that children can be instructed in swimming at a very early age.", "note": "instruct sb in sth，此处用被动"},
+  {"q": "填空：Babies of two months old do not appear to be reluctant ___ (enter) the water.", "a": "to enter", "note": "be reluctant to do sth"},
+  {"q": "句型转换：They are accustomed to swimming. They can pick up weights from the floor of the pool.（用 so...that 合并）", "a": "They are so accustomed to swimming that they can pick up weights from the floor of the pool.", "note": "so...that 引导结果状语从句"},
+  {"q": "句型转换：The instructor makes the children dive into the water.（改用 have sb do sth 结构）", "a": "The instructor has the children dive into the water.", "note": "have sb do sth 为使役用法"},
+  {"q": "改错：Many of them prefer push their tricycles, but most of them prefer to pedal them.", "a": "prefer push → prefer to push（或 prefer pushing）", "note": "prefer 后接 to do 或 doing"},
+  {"q": "汉译英：他只是一名业余游泳者，却梦想成为冠军。", "a": "He is only an amateur swimmer, but he dreams of becoming a champion.", "note": "amateur 与 champion 对照"},
+  {"q": "填空：The children compete ___ each other to reach the other end of the pool, and swimming is very popular ___ these young swimmers.", "a": "against; with", "note": "compete against/with；be popular with"}
+ ],
+ "quiz": [
+  {"q": "孩子们参加的是哪一种比赛？", "options": ["the underwater tricycle race", "the swimming relay race", "the diving competition", "the breath-holding contest"], "answer": 0, "note": "课文第5句点明是水下三轮车比赛"},
+  {"q": "两个月大的婴儿下水时表现如何？", "options": ["They are reluctant to enter the water.", "They do not appear to be reluctant to enter the water.", "They are frightened of the water.", "They refuse to enter the water."], "answer": 1, "note": "课文第3句：do not appear to be reluctant"},
+  {"q": "孩子们适应游泳后能在池底做什么？", "options": ["They can walk along the floor of the pool.", "They can pick up weights from the floor of the pool.", "They can hold their breath for an hour.", "They can ride tricycles out of the water."], "answer": 1, "note": "课文第4句：pick up weights from the floor"},
+  {"q": "三轮车放在水下多深的地方？", "options": ["seven feet", "seventeen feet", "seventy feet", "seven inches"], "answer": 0, "note": "课文第6句：seven feet under water"},
+  {"q": "多数孩子怎样移动自己的三轮车？", "options": ["They pedal them as fast as they can.", "They push or drag them.", "They carry them on their backs.", "They ask their instructors for help."], "answer": 1, "note": "课文第8句：most of them prefer to push or drag them"},
+  {"q": "他们将来能否成为奥运冠军，课文怎样表达？", "options": ["Only time will tell.", "The instructor will decide.", "Their parents already know.", "Everyone can see it clearly."], "answer": 0, "note": "课文第10句的倒装句表达"}
+ ]
+}

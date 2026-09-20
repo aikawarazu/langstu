@@ -1,0 +1,40 @@
+{
+ "title": "A pretty carpet",
+ "subtitle": "漂亮的地毯",
+ "lead": {
+  "question": "作家口中的“漂亮地毯”究竟是什么？为什么他还得踩着它进出房间？",
+  "warmup": "刚搬进新家本是高兴事，可作家有一千多本书。他想把新房间收拾整齐，奋战一上午仍未完工；房间又小，书只能暂堆地板，铺得寸土不留，进出都得踩着走。妹妹上楼一瞧，竟把这一地书夸成“我见过的最漂亮的地毯”。",
+  "goals": [
+   "复述搬家整理房间的全过程，抓住“满地图书被夸成地毯”的幽默反转",
+   "掌握 temporarily、inch、space、actually、own、spare、gaze at 等核心词语",
+   "熟练运用 get/put ... in order、to make matters worse、at the moment、not ... at all 等结构",
+   "辨析现在完成时与现在完成进行时的差别，掌握最高级后接 ever + 现在完成时的用法"
+  ],
+  "summary": "课文以“刚搬进新房子、忙了一上午”开篇，点出整理房间之难：藏书千余册，房间又小，书只能暂放地板，铺满每一寸地面，作家进出都得踩着书走。几分钟前妹妹帮忙把旧书橱抬上楼，进门看见满地图书大吃一惊，却夸它是“我见过的最漂亮的地毯”，还劝他不必再买书橱。",
+  "tips": "I have been trying to get my new room in order 用现在完成进行时，强调持续整理、至今未完；若说 I have tried 只表示“试过”。"
+ },
+ "questions": [
+  {"kind": "listen", "q": "What is the writer's carpet made of?", "zh": "作家那块“地毯”是用什么做成的？", "a": "It is made of books — the thousand-odd books he has temporarily put on the floor, which now cover every inch of floor space.", "aZh": "它是用书做成的——就是他暂时堆在地板上、铺满每一寸地面的那一千多本书。", "hint": "见第 3—4 句与第 7 句。"},
+  {"kind": "detail", "q": "Why has it not been easy to get the new room in order?", "zh": "为什么把新房间收拾整齐并不容易？", "a": "Because he owns over a thousand books and, to make matters worse, the room is rather small, so the books have been temporarily put on the floor.", "aZh": "因为他有一千多本书，更糟糕的是房间还相当小。", "hint": "第 2—3 句。"},
+  {"kind": "detail", "q": "What did the writer's sister do a short while ago, and how did she react?", "zh": "几分钟前妹妹做了什么？她进屋后有何反应？", "a": "She helped him carry one of his old bookcases up the stairs; going into his room, she got a big surprise when she saw all those books on the floor.", "aZh": "她帮他把一个旧书橱抬上了楼；走进房间看到满地是书，大吃一惊。", "hint": "第 5—6 句。"},
+  {"kind": "detail", "q": "Why does the writer say 'I have been working' rather than the present perfect?", "zh": "为什么用 I have been working 而不用现在完成时？", "a": "The present perfect continuous stresses that the action has been going on all morning and is still unfinished, while 'have moved' simply states a completed result.", "aZh": "现在完成进行时强调动作持续了一上午且尚未结束。", "hint": "第 1—2 句。"},
+  {"kind": "think", "q": "Why does the sister say 'You don't need bookcases at all'? Where does the humour lie?", "zh": "妹妹为什么说“你根本用不着书橱”？妙在哪里？", "a": "Because the books already lie over the whole floor like a carpet; by praising the mess as the prettiest carpet she has ever seen, she turns his failure to tidy up into a compliment.", "aZh": "因为书已像地毯一样铺满地面；她把一片狼藉夸作“最漂亮的地毯”，把收拾失败的窘境变成了赞美。", "hint": "把第 7—8 句与第 2—4 句对照读。"}
+ ],
+ "exercises": [
+  {"q": "语法填空：We ______ just ______ (move) into a new house and I ______ ______ ______ (work) hard all morning.", "a": "have; moved; have been working", "note": "搬入已完成，干活持续至今。"},
+  {"q": "汉译英（用 get ... in order）：我一直在设法把我的新房间收拾整齐。", "a": "I have been trying to get my new room in order.", "note": "get/put ... in order。"},
+  {"q": "汉译英：更糟糕的是，房间还相当小，所以我暂时把书放在了地板上。", "a": "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.", "note": "插入语须用逗号隔开。"},
+  {"q": "选词填空（temporarily / inch / space / actually）：I have ______ put my books on the floor. They cover every ______ of floor ______ and I ______ have to walk on them.", "a": "temporarily; inch; space; actually", "note": "actually 表“实际上”。"},
+  {"q": "用 It has been ... since 改写：My sister helped me carry one of my old bookcases up the stairs a short while ago.", "a": "It has been a short while since my sister helped me carry one of my old bookcases up the stairs.", "note": "since 从句用一般过去时。"},
+  {"q": "课文原句填空：You don't need bookcases ______ ______. You can sit here in your ______ ______ and read the ______!", "a": "at all; spare time; carpet", "note": "not ... at all 根本不。"},
+  {"q": "汉译英：这是我见过的最漂亮的地毯。", "a": "This is the prettiest carpet I have ever seen.", "note": "最高级 + ever + 现在完成时。"}
+ ],
+ "quiz": [
+  {"q": "作家口中的“漂亮地毯”实际上是什么？", "options": ["A real Persian carpet", "Over a thousand books lying on the floor", "A large old bookcase", "A new woollen blanket"], "answer": 1, "note": "满地是书，被戏称地毯。"},
+  {"q": "他为什么暂时把书放到地板上？", "options": ["The room is rather small.", "He has sold all his bookcases.", "The floor is warmer than the shelves.", "His sister asked him to do so."], "answer": 0, "note": "to make matters worse, the room is rather small。"},
+  {"q": "“I have been working hard all morning”强调什么？", "options": ["An action that began this morning and has continued till now", "A single action finished long ago", "A habit formed in childhood", "An action that will start tomorrow"], "answer": 0, "note": "现在完成进行时强调持续。"},
+  {"q": "课文中表示“此刻、目前”的短语是哪一个？", "options": ["A short while ago", "All morning", "At the moment", "In one's spare time"], "answer": 2, "note": "at the moment = 此刻。"},
+  {"q": "“They cover every inch of floor space”中 inch 在句中的含义是什么？", "options": ["Every bit of the floor, from one end to the other", "A piece of furniture in the room", "A kind of old book", "A small corner near the door"], "answer": 0, "note": "inch 引申为“一点空隙”。"},
+  {"q": "妹妹走进房间后说了哪句话？", "options": ["“This is the prettiest carpet I have ever seen.”", "“You have far too many bookcases.”", "“Let me help you tidy the room.”", "“The floor needs cleaning at once.”"], "answer": 0, "note": "最高级 + ever seen。"}
+ ]
+}
