@@ -2,7 +2,10 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。版本与 tag 规范见 [docs/versioning.md](./docs/versioning.md)。
 
-## [Unreleased] - 2026-09-20
+## [data-v1.1.0] - 2026-09-20
+
+> 数据内容版本 `1.0.0` → `1.1.0`（`data/VERSION`）。`specVersion` 仍为 `1.0`、`schemaVersion` 仍为 `1`：
+> 本次只补内容（`lead` / `text` / `questions` / `exercises` / `quiz` 规范里本就存在且可选），结构与规范未变。
 
 ### 新增
 - **第二册、第三册精编稿全量补齐**：nce2 96 课、nce3 60 课全部达到与第一册一致的精编标准（`lead` 导学 5 字段 / `questions` 5 条（首条听力）/ `exercises` 7 条 / `quiz` 6 条），并检出中英逐句对齐的课文 `text`。
@@ -26,6 +29,18 @@
 
 ### 数据
 - 四册校验现状：`nce1` / `nce2` / `nce3` 全部 **NG=0**；`nce4` 已完成 u001–u016（其余 32 课按需求暂不生成）。
+
+## [app-v1.4.1] - 2026-09-20
+
+### 变更
+- **内置资源网站指向 `data-v1.1.0`**：`app/data/sources.json` 的 `manifest` / `manifestMirrors` / `baseMirrors` 由 `@data-v1.0.0` 升到 `@data-v1.1.0`。
+  原 tag 停在 2026-09-09，第二/三/四册精编稿（导学 / 课文 / 练习 / 测验）虽已进仓库，CDN 上仍是旧数据；且两边 `version` 都是 `1.0.0`，前端判定「已是最新」不会提示更新，线上第二册因此看不到导学。
+- `docs/data-url-spec.md` 官方地址示例同步升到 `@data-v1.1.0`。
+- 资源版本号 `v=62` → `v=63`（`app/index.html` 与 `app/sw.js` 的 `VERSION` / `PRECACHE` 同步）。
+
+### 修复
+- **顶栏「教材目录」按钮宽度固化**：此前宽度随当前课名长短伸缩（8~33 字符），切课时会把两侧「‹ 上一课 / 下一课 ›」推来推去，并可能把右侧工具组挤到折行。
+  - `app/css/split.css`：`.dir-wrap` 锁死 `min(200px,42vw)`、`.dir-btn` 填满；课名 `flex:1 + min-width:0 + ellipsis` 单行截断；右端箭头 `margin-left:auto` 固定。
 
 ## [Unreleased] - 2026-09-13
 
