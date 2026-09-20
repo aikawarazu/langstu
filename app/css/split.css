@@ -35,10 +35,13 @@
 #overview{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:4px 4px 24px}
 
 /* ---------- 顶栏：教材目录气泡 ---------- */
-.dir-wrap{position:relative;flex:none}
-.dir-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 13px;border-radius:9px;
+/* 目录按钮固定宽度：课名长短不一，若随文字伸缩会把两侧「上一课/下一课」推来推去。
+   这里锁死宽度，长课名用省略号截断，切课按钮位置恒定。 */
+.dir-wrap{position:relative;flex:none;width:min(200px,42vw)}
+.dir-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 13px;border-radius:9px;width:100%;
   background:#eef1f8;color:#5b6380;font-size:12.5px;font-weight:800;white-space:nowrap}
-.dir-btn .dir-cur{max-width:230px;overflow:hidden;text-overflow:ellipsis}
+.dir-btn .dir-cur{flex:1;min-width:0;max-width:none;overflow:hidden;text-overflow:ellipsis;text-align:left}
+.dir-btn .caret{margin-left:auto}
 .dir-btn:hover{color:var(--pri);background:#e7ebf7}
 .dir-btn.on{background:var(--ink);color:#fff}
 .dir-btn .caret{font-style:normal;font-size:10px;opacity:.7;transition:transform .18s}
