@@ -34,7 +34,8 @@ var MODE_TXT={show:'字幕：双语',zh:'字幕：中文',en:'字幕：英文',b
 var RATES=[0.75,1,1.25,1.5,2];
 var S={book:'',ui:1,tab:'audio',mode:0,ver:'new',rate:1,abA:null,abB:null,loop:false,
   loopAll:true,view:'study',vsimple:false,vp:1,ovBook:'',ovType:'all',ovQ:'',dict:{},
-  seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0};
+  seg:[],divs:[],cur:-1,dur:0,doneFlag:false,playing:false,drag:false,lastFile:null,wantStart:null,req:0,playTok:0,
+  oneShot:null}; /* oneShot：点读模式——只播这一句，到句尾自动暂停 */
 (function initPref(){
   /* 当前教材：恢复「上次打开的那一册」。该册可能已被删除，boot 里会再校验一次并回退到第一册。
      注意：各册的学习位置另存为 last.<册id>，所以这里只要恢复册 id 就能连同位置一起回到原处。 */
@@ -198,14 +199,14 @@ function bindStatic(){
     var wd=e.target.closest('.tb-word[data-w]');
     if(wd){showWPop(wd);return;}                     /* 生词卡 → 下钻 */
     hideWPop();
-    var line=e.target.closest('.tb-sline');
-    if(line){                                        /* 点课文句子 → 音频跳到该句 */
+    var line=e.target.closest('.tb-sline,.tb-line[data-si]');
+    if(line){                                        /* 点课文句子 → 播放本句，到句尾自动停 */
       var i=+line.dataset.si;
-      if(i>=0&&S.seg[i]){setT(segStart(i));tryPlay();}
+      if(i>=0&&S.seg[i]){playOne(i);}
       return;
     }
     var en=e.target.closest('.tb-en,.tb-pat .en');
-    if(en)speakToggle(en.textContent);               /* 整句点读 */
+    if(en)speakToggle(en.textContent);               /* 对不上音频的句子 → TTS 点读兜底 */
   };
   a.addEventListener('loadedmetadata',()=>{
     if(a.dataset.tok!==String(S.req))return; /* 旧音频的元数据迟到：丢弃，否则会把上一课的时长/起点写进来 */
@@ -233,7 +234,7 @@ function setBook(id){
   if(!bk){toast('课程数据未加载：'+id);console.error('[course] setBook 失败，无数据：',id);return false;}
   try{$('#audio').pause();}catch(e){}
   var sel=$('#bookSel');if(sel)sel.value=id; /* 保持下拉框与当前课程一致 */
-  S.book=id;rememberBook(id);S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;
+  S.book=id;rememberBook(id);S.lastFile=null;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.dur=0;S.doneFlag=false;S.oneShot=null;
   S.seg=[];S.divs=[];S.wantStart=null;
   S.ui=Math.max(1,Math.min(bk.units.length,+(window.AppStore.pref('last.'+id,1)||1)||1));
   closeDir();renderDir();
@@ -374,7 +375,7 @@ function openUnit(u,autoplay){
   if(u<1)u=units.length;else if(u>units.length)u=1;
   /* 当前在「视频讲解」页签时切课不自动起播音频：避免正在看视频却被课文音频抢声 */
   if(S.tab==='video')autoplay=false;
-  S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;
+  S.ui=u;S.abA=null;S.abB=null;S.loop=false;S.cur=-1;S.doneFlag=false;S.wantStart=null;S.oneShot=null;
   /* 立即落盘：不等轮询，关页面也不丢进度 */
   try{window.AppStore.setPref('last.'+S.book,S.ui);}catch(e){}
   var req=++S.req; /* 防快速切换：旧请求返回时丢弃 */
@@ -674,7 +675,7 @@ function bindWPop(){
     var ex=e.target.closest('.wp-ex');
     if(ex){
       var si=+ex.dataset.si;
-      if(si>=0&&S.seg[si]){setT(segStart(si));tryPlay();}   /* 语境句 → 跳音频 */
+      if(si>=0&&S.seg[si]){playOne(si);return;}             /* 语境句 → 播放本句 */
       else speakToggle(ex.dataset.en);                      /* 例句 → 朗读 */
     }
   };
@@ -682,8 +683,20 @@ function bindWPop(){
 function tbSec(title,en,inner){
   return '<div class="tbk-sec"><h5>'+esc(title)+' <i>'+esc(en)+'</i></h5>'+inner+'</div>';
 }
+/* ===== 课文句子 ↔ LRC 字幕对齐：点精编稿课文句子也能定位课文音频 ===== */
+function normLine(s){return String(s||'').toLowerCase().replace(/[^a-z0-9'’]+/g,' ').replace(/\s+/g,' ').trim();}
+/* 精编稿一行可能合并了 LRC 的多句：先精确匹配，再找“是本行开头”的那句（取第一句起点） */
+function lineSi(text,sim){
+  var k=normLine(text);if(!k)return -1;
+  if(sim[k]!=null)return sim[k];
+  for(var i=0;i<S.seg.length;i++){
+    var kk=normLine(S.seg[i].en);
+    if(kk&&k.indexOf(kk)===0)return i;
+  }
+  return -1;
+}
 /* 一课课文：{lesson,title?,kind?,lines:[{speaker,en,zh?,note?}],drill?} */
-function tbLesson(L,dict){
+function tbLesson(L,dict,sim){
   var h='<div class="tbk-sec"><h5>'+(L.lesson?('Lesson '+esc(L.lesson)):'课文')+(L.title?' · '+esc(L.title):'')+
     (L.kind?' <i>'+esc(L.kind)+'</i>':'')+'</h5>';
   if(L.lines&&L.lines.length){
@@ -691,7 +704,8 @@ function tbLesson(L,dict){
       var sp=l.speaker||'',cls=(sp==='B'||sp==='2')?'b':'';
       /* 圆点只放得下 1-2 字符：长名字取首字母，全名放悬停提示 */
       var ini=sp.length>2?sp.slice(0,1):sp;
-      return '<div class="tb-line"><span class="tb-sp '+cls+'"'+(sp&&sp.length>2?(' title="'+esc(sp)+'"'):'')+'>'+esc(ini||'·')+'</span>'+
+      var si=sim?lineSi(l.en,sim):-1;
+      return '<div class="tb-line"'+(si>=0?(' data-si="'+si+'" title="点击播放本句"'):'')+'><span class="tb-sp '+cls+'"'+(sp&&sp.length>2?(' title="'+esc(sp)+'"'):'')+'>'+esc(ini||'·')+'</span>'+
         '<div class="tb-l"><div class="tb-en">'+markWords(l.en,dict)+'</div>'+
         (l.zh?'<div class="tb-zh">'+esc(l.zh)+'</div>':'')+
         (l.note?'<div class="tb-note">'+esc(l.note)+'</div>':'')+'</div></div>';
@@ -885,7 +899,9 @@ function lessonTextHTML(bk,u,nt,dict){
   var lessons=(nt&&nt.text)||[];
   var inner='';
   if(lessons.length){
-    inner=lessons.map(function(L){return tbLesson(L,dict);}).join('');
+    /* 建 LRC 句子索引：精编稿句子能对齐到音频时间戳才可点播 */
+    var sim={};S.seg.forEach(function(r,i){var k=normLine(r.en);if(k&&sim[k]==null)sim[k]=i;});
+    inner=lessons.map(function(L){return tbLesson(L,dict,sim);}).join('');
   }else if(S.seg.length){
     var h='',di=0;
     S.seg.forEach(function(r,i){
@@ -1560,7 +1576,12 @@ function segEnd(i){
   if(i+1<S.seg.length)return S.seg[i+1].t-0.02;
   return Math.min((S.seg[i]?S.seg[i].t:0)+4,S.dur>0?S.dur-0.02:1e9);
 }
-function togglePlay(){var a=$('#audio');if(a.paused)tryPlay();else a.pause();}
+/* 点读：只播第 i 句，到句尾自动暂停（单句循环/A-B 开启时交给既有循环逻辑） */
+function playOne(i){
+  var a=$('#audio');if(!a.src)return;
+  S.oneShot=i;setT(segStart(i));tryPlay();
+}
+function togglePlay(){var a=$('#audio');S.oneShot=null;if(a.paused)tryPlay();else a.pause();}
 /* 统一走这里播放：用 playTok 防止“快速切换”时旧播放请求的结果覆盖新状态 */
 function tryPlay(){
   var a=$('#audio');if(!a.src)return;
@@ -1608,13 +1629,14 @@ function cycleAB(){
 }
 function seekAt(e){
   if(!S.dur)return;
+  S.oneShot=null;
   var r=$('#seek').getBoundingClientRect();
   var ratio=Math.max(0,Math.min(1,(e.clientX-r.left)/r.width));
   setT(ratio*S.dur);
 }
 function renderTime(){$('#tall').textContent=fmt(S.dur);var bk=dataOf(S.book);$('#metaT').textContent=bk.units[S.ui-1].title;}
 function resetSeekUI(){
-  S.dur=0;S.wantStart=null;S.cur=-1;S.playing=false;
+  S.dur=0;S.wantStart=null;S.cur=-1;S.playing=false;S.oneShot=null;
   $('#tcur').textContent='0:00';
   var t=$('#tall');if(t)t.textContent='0:00';
   var f=$('#sfill');if(f)f.style.width='0%';
@@ -1662,6 +1684,8 @@ function tick(){
     if(t>=ed){setT(st);return;}
   }else seg.style.display='none';
   if(S.loop&&S.cur>=0&&t>=segEnd(S.cur)){setT(segStart(S.cur));return;}
+  /* 点读模式：播完被点的那句就停（整段循环也不接管，点读意图优先） */
+  if(S.oneShot!=null&&t>=segEnd(S.oneShot)){S.oneShot=null;a.pause();return;}
   /* 近尾完成 */
   if(!S.doneFlag&&d-t<=0.8)finishUnit();
 }
