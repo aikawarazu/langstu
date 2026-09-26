@@ -318,6 +318,9 @@
 .vmini{font-size:11px;font-weight:800;padding:4px 9px;border-radius:6px;background:transparent;color:#5b6380}
 .vmini:hover{color:var(--ink);background:#e4e9f6}
 .vmini.on{background:#fff;color:var(--pri);box-shadow:0 2px 6px -3px rgba(30,45,95,.5)}
+/* 视频倍速档位：未装扩展时整组置灰，点击给出安装提示 */
+.vrates.off{opacity:.45}
+.vrates.off .vmini{cursor:help}
 
 /* ---------- 笔记总览页 ---------- */
 .ov-head{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;margin-bottom:14px}

@@ -129,7 +129,8 @@ var VIDEO_PANE=
     '<div class="vframe blank" id="vframe"><div class="v-empty"><div class="play-ic">▶</div><div id="vEmptyTxt">选择上方某一集开始播放</div></div>'+
     '<iframe id="vid" allowfullscreen loading="lazy" allow="accelerometer;autoplay;clipboard-write;encrypted-media;picture-in-picture"></iframe></div>'+
     '<div class="vfoot"><span id="vlabel"></span><span class="sp"></span>'+
-      '<span class="vmode" title="切换播放器外观；两种模式均已禁止跳转 B 站">'+
+      '<span class="vmode vrates off" id="vrates" title="视频倍速：由「NCE 学习助手」扩展在播放器内部执行"></span>'+
+      '<span class="vmode" title="切换播放器外观；简洁模式更干净，倍速仍由扩展提供">'+
         '<button class="vmini on" id="vModeFull">普通模式</button>'+
         '<button class="vmini" id="vModeSimple">简洁模式</button></span>'+
       '<a id="vlink" target="_blank" rel="noopener">B站原链 ↗</a></div>'+
@@ -171,7 +172,7 @@ function bindStatic(){
   /* 顶栏切课：夹住课程下拉的上一课 / 下一课 */
   $('#tPrev').onclick=()=>openUnit(S.ui-1,true);
   $('#tNext').onclick=()=>openUnit(S.ui+1,true);
-  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindTextModal();bindImport();bindVocabModal();
+  bindDirPop();bindWPop();bindView();bindAnchors();bindNoteModal();bindVideoMode();bindVideoRate();bindTextModal();bindImport();bindVocabModal();
   $('#overview').onclick=ovClick;
   var bs=$('#bookSel');
   function doBookSwitch(){
@@ -1283,11 +1284,14 @@ function setLoopAll(v){
   toast(S.loopAll?'整段循环已开启（听完整课自动重播）':'整段循环已关闭');
 }
 
-/* ===== 视频播放器：普通 / 简洁两种模式，均带 sandbox 禁止跳转 B 站 =====
+/* ===== 视频播放器：普通 / 简洁两种模式 + sandbox 兜底 =====
    做法参照 https://perrykum.github.io/rtcls/study/bliframe/bliframe.html
-   - 普通模式：player.bilibili.com（默认）
-   - 简洁模式：移动版嵌入地址 html5mobileplayer，本身就没有跳转入口
-   - sandbox 不给 allow-popups / allow-top-navigation，两种模式下点击播放器都无法跳走 */
+   - 普通模式：player.bilibili.com（默认，控制栏自带画质 / 倍速）
+   - 简洁模式：移动版嵌入地址 html5mobileplayer，没有推广与跳转入口，但也没有倍速
+   - sandbox 不给 allow-popups / allow-top-navigation：点击播放器时播放器仍会「尝试」
+     跳转（控制台可见 Blocked opening），只是开不了新窗口、改不了顶层页面。
+     注意：sandbox 挡不住 iframe 自身的 location 跳转，那一条改由扩展的
+     js/bili-main.js 与 bili.js 在 iframe 内部拦截（见 extension/README.md）。 */
 var V_SANDBOX='allow-scripts allow-same-origin allow-forms allow-presentation';
 function videoUrl(vid,p){
   return S.vsimple
@@ -1305,6 +1309,7 @@ function setVideoSrc(url){
   var f=$('#vid');if(!f)return;
   f.setAttribute('sandbox',V_SANDBOX); /* 无论哪种模式都禁止跳转 */
   f.src=url; /* 改 sandbox 本身就会让 iframe 重载，这里再置一次 src 兜底 */
+  vExtReset(); /* 新文档 = 扩展的新实例，重新握手 */
 }
 /* 用当前单元 + 当前集数按新模式重新装载播放器 */
 function reloadVideo(){
@@ -1330,6 +1335,87 @@ function bindVideoMode(){
   var f=$('#vModeFull'),s=$('#vModeSimple');
   if(f)f.onclick=function(){setVideoMode(false);};
   if(s)s.onclick=function(){setVideoMode(true);};
+}
+
+/* ===== 视频倍速 =====
+   站点在父页面，跨域拿不到 iframe 里的 <video>（同源策略，无解），
+   所以真正改速率的是扩展的内容脚本 —— 它跑在 iframe 内部，天然同源。
+   这里只负责两件事：把档位发过去、把当前值显示出来。
+   没装扩展时按钮照常显示但置灰，点击给出安装提示，不影响其它功能。 */
+var V_RATES=[0.75,1,1.25,1.5,2];
+var V_ORIGINS=['https://player.bilibili.com','https://www.bilibili.com'];
+var vRate=1,vExtReady=false,vPingTimer=null,vLastState=null;
+(function () {
+  try { var v=parseFloat(localStorage.getItem('nce_vrate')); if(v>0)vRate=v; } catch(e) {}
+})();
+
+/* 只往当前 iframe 所在的域发消息，不用 '*' */
+function vTargetOrigin(){
+  var f=$('#vid'),u=(f&&f.src)?String(f.src):'';
+  for(var i=0;i<V_ORIGINS.length;i++)if(u.indexOf(V_ORIGINS[i])===0)return V_ORIGINS[i];
+  return '*';
+}
+function vPost(msg){
+  var f=$('#vid');if(!f||!f.contentWindow)return;
+  /* ping 不带任何数据，用 '*' 发：iframe 刚换 src 时文档还是 about:blank，
+     此刻用精确 origin 会抛「target origin 不匹配」。set / get 一律走精确 origin。 */
+  var to=(msg&&msg.op==='ping')?'*':vTargetOrigin();
+  try{f.contentWindow.postMessage(msg,to);}catch(e){}
+}
+function renderVideoRates(){
+  var box=$('#vrates');if(!box)return;
+  box.classList.toggle('off',!vExtReady);
+  box.innerHTML=V_RATES.map(function(r){
+    return '<button class="vmini'+(Math.abs(r-vRate)<0.001?' on':'')+'" data-r="'+r+'">'+r+'x</button>';
+  }).join('');
+  var bs=box.querySelectorAll('button');
+  for(var i=0;i<bs.length;i++)bs[i].onclick=function(){setVideoRate(parseFloat(this.dataset.r));};
+}
+function setVideoRate(r){
+  if(!vExtReady){
+    toast('调视频倍速需要「NCE 学习助手」扩展：chrome://extensions → 开启开发者模式 → 加载已解压的扩展程序 → 选 extension/ 目录');
+    return;
+  }
+  vRate=r;
+  try{localStorage.setItem('nce_vrate',String(r));}catch(e){}
+  vPost({nce:'player',op:'set',rate:r});
+  renderVideoRates();
+}
+/* 播放器文档一换（切课 / 切集 / 切模式），扩展实例就是新的，重新握手 */
+function vExtReset(){
+  vExtReady=false;renderVideoRates();
+  if(vPingTimer)clearInterval(vPingTimer);
+  var n=0;
+  var tick=function(){
+    vPost({nce:'player',op:'ping'});
+    if(++n>=12){clearInterval(vPingTimer);vPingTimer=null;}
+  };
+  tick();
+  vPingTimer=setInterval(tick,500);
+}
+window.addEventListener('message',function(e){
+  var d=e.data;
+  if(!d||d.nce!=='player')return;
+  if(V_ORIGINS.indexOf(e.origin)<0)return; /* 只认 B 站播放器域 */
+  if(d.op==='pong'){
+    if(!vExtReady){vExtReady=true;renderVideoRates();}
+  }else if(d.op==='state'){
+    vLastState=d;
+    if(typeof d.rate==='number'&&Math.abs(d.rate-vRate)>0.001){
+      vRate=d.rate;
+      try{localStorage.setItem('nce_vrate',String(d.rate));}catch(e2){}
+      renderVideoRates();
+    }
+  }
+});
+function bindVideoRate(){
+  renderVideoRates();
+  var f=$('#vid');
+  if(f)f.addEventListener('load',function(){
+    /* iframe 内部自己导航过（扩展拦跳转后重载），也要重新握手 */
+    if(!vExtReady)vPost({nce:'player',op:'ping'});
+  });
+  vExtReset();
 }
 
 /* ===== 视图切换：学习 / 笔记总览 ===== */

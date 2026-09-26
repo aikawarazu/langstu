@@ -7,6 +7,12 @@
 ## 功能
 
 - **即点即译（内容脚本）**：在任意网页双击英文单词或选中短语，页面内浮出释义（音标 / 词性 / 释义 / 例句）与出处；提供「🔊 朗读」与「在侧栏查看本课」。命中来自跨 276 课的聚合词库 `data/vocab.json`。
+- **B 站嵌入播放器增强（内容脚本 `bili.js`）**：注入到站点里那个播放器 iframe 的**内部**（`player.bilibili.com` / `html5mobileplayer`），所以能做到站点自己做不到的事：
+  - **倍速遥控**：站点视频面板上的 0.75~2x 档位经 `postMessage` 发过来，这里直接改 `<video>.playbackRate`（跨域下父页面无解，只有内容脚本能做到）。
+  - **倍速记忆**：B 站播放器在切课 / 切分 P 后会把倍速打回 1，这里会夺回来。
+  - **简洁模式也有倍速**：`html5mobileplayer` 自身连倍速按钮都没有，装了扩展一样能调。
+  - **去推广**：隐藏「进入哔哩哔哩，观看更高清」、顶部栏（logo / 点赞 / 评论 / 分享 / +关注）、弹幕输入条、结束卡等，选择器在 `bili.css`。
+  - **拦跳转**：捕获阶段掐掉指向 B 站的点击；`js/bili-main.js` 再在页面世界拦一次 `window.open`。
 - **侧栏学习台**：
   - 🎧 音频精听：LRC 逐句字幕（双语 / 中文 / 英文 / 模糊）、上一句 / 下一句、单句循环、整段循环、A-B 复读、0.75~1.5x 倍速、点句定位、新版 / 1985 老版音轨切换。
   - 📖 教材：导学 / 课文 / 生词 / 短语 / 语法 / 重点句 / 自测练习；点单词浮出释义并可朗读。
@@ -14,6 +20,21 @@
   - 已学进度、我的笔记沿用站点存储（localStorage / IndexedDB，不上传）。
 - **工具栏弹窗**：打开侧栏、随机一课、查词跳转。
 - **右键菜单**：「打开 NCE 学习侧栏」「在 NCE 词库中查询选中内容」。
+
+## 与站点配合：postMessage 协议
+
+站点（`app/`）在父页面，扩展的内容脚本在播放器 iframe 内部，两者只能发消息：
+
+```
+站点 → iframe   { nce:'player', op:'ping' }                      握手（用 '*' 发，iframe 刚换 src 时文档还是 about:blank）
+站点 → iframe   { nce:'player', op:'set', rate: 1.5 }            设倍速
+站点 → iframe   { nce:'player', op:'get' }                       取状态
+iframe → 站点   { nce:'player', op:'pong' }                      扩展在
+iframe → 站点   { nce:'player', op:'state', rate, duration, currentTime, paused }
+```
+
+站点侧会校验 `event.origin` 必须是 `https://player.bilibili.com` 或 `https://www.bilibili.com`。
+没装扩展时 ping 无人应答，档位置灰并提示安装；装了扩展则自动握手、恢复上次的倍速。
 
 ## 安装（开发者模式）
 
@@ -40,6 +61,8 @@ extension/
   manifest.json            MV3 清单（side_panel / content_scripts / web_accessible_resources）
   background.js            后台：上下文菜单、侧栏打开与跳转消息
   content.js / content.css 任意网页即点即译浮框
+  bili.js / bili.css       B 站嵌入播放器增强（倍速遥控 / 去推广 / 拦跳转）
+  js/bili-main.js          主世界脚本：拦掉播放器发起的 window.open
   sidepanel.html / .css / .js  侧栏学习台（音频 + 教材 + 词典）
   popup.html / .css / .js  工具栏弹窗
   js/

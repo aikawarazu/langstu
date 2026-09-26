@@ -1,0 +1,38 @@
+/* ===== B 站嵌入播放器：去掉推广与跳转入口 =====
+   只在 player.bilibili.com / html5mobileplayer 的文档内生效（由 manifest 的 matches 限定）。
+   选择器全部取自播放器真实类名（实测 DOM 扒取），类名变了就自然失效，不会误伤其它元素。 */
+
+/* ---------- 普通模式 player.bilibili.com ---------- */
+
+/* 顶部整条：bilibili logo、标题（点击跳 B 站）、点赞 / 评论 / 分享 / 更多、UP 主「+关注」 */
+.bpx-player-top-wrap,
+/* 画面中央「进入哔哩哔哩，观看更高清 >」 */
+.bpx-player-enter-button,
+/* 底部「一起去哔哩哔哩发送弹幕吧！」输入条 */
+.bpx-player-inputbar-mask,
+.bpx-player-inputbar-close,
+/* 结束卡：推荐位 + UP 主空间链接，播完自动盖在画面上 */
+.bpx-player-ending-wrap,
+.bpx-player-ending-backdrop,
+.bpx-player-ending-panel,
+/* 分享面板 */
+.bpx-player-share-panel,
+/* 画面内的分P / 播放量信息浮层 */
+.bpx-player-video-info {
+  display: none !important;
+}
+
+/* ---------- 简洁模式 html5mobileplayer ---------- */
+
+/* 「点我去 App 发弹幕」 */
+.mplayer-comment-text-callapp,
+.mplayer-comment-text,
+/* 播放量 / 弹幕数 / 发布日期提示 */
+.mplayer-video-tips,
+.mplayer-view-count,
+.mplayer-danmu-count,
+.mplayer-video-pubdate,
+/* 全景模式 logo */
+.mplayer-panorama-logo {
+  display: none !important;
+}
