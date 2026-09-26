@@ -19,7 +19,8 @@
 - **左栏 · 🎧 音频精听 / 🎬 视频讲解**
   - 逐句字幕双语跟随（双语 / 中文 / 英文 / 模糊四种字幕模式）
   - 单句循环、A-B 复读、0.75~2x 倍速（最快 2x）、**整段循环（默认开启）**
-  - 讲解视频嵌入 B 站**简洁播放器 + iframe 沙箱**，点击播放器不会跳转到 B 站
+  - 讲解视频嵌入 B 站播放器（普通 / 简洁两种模式）+ `iframe` 沙箱：点播放器时它仍会**尝试**跳转，但开不了新窗口、改不了顶层页面
+  - 视频倍速（0.75~2x）由配套的 [`extension/`](./extension/)「NCE 学习助手」扩展提供：站点跨域拿不到 iframe 里的 `<video>`，只有扩展的内容脚本能在播放器内部改速率。装了扩展还能顺带去掉播放器里的推广与跳转入口
 - **右栏 · 📖 教材（整篇文档 + 锚点跳转）**
   - 顶栏「📚 教材目录」气泡弹窗：搜课号 / 标题、已学标记、定位当前课
   - 锚点按钮条（📌 导学 / 🔤 词汇 / 🗣 短语 / 📐 语法 / 💬 句型 / ✏️ 练习）平滑滚动到对应区块
@@ -121,7 +122,8 @@ python3 -m http.server 8080     # 在仓库根执行
 - 纯静态 HTML + CSS + JavaScript，无框架、无构建步骤、无后端
 - **PWA**：`manifest.json` + `sw.js`（壳层 cache-first 预缓存、文本数据 stale-while-revalidate、导航离线回退）；音频不进 Cache Storage（全量约 216 MB，由 `js/data/cache.js` 存 IndexedDB）；改静态资源后把 `index.html` 的 `?v=N` 与 `sw.js` 顶部 `VERSION` / `PRECACHE` 一起 +1；图标由 `python3 backend/scripts/make_pwa_icons.py` 重新生成（纯标准库，无需装依赖）
 - 音频播放：`<audio>` + LRC 解析，逐句时间轴驱动字幕与 A-B 复读
-- 视频防跳转：B 站移动版嵌入地址（`html5mobileplayer`）+ `sandbox`（不给 `allow-popups` / `allow-top-navigation`），做法参照 [PerryKum 的 iframe 嵌入 B 站笔记](https://perrykum.github.io/rtcls/study/bliframe/bliframe.html)
+- 视频防跳转：`sandbox` 不给 `allow-popups` / `allow-top-navigation`（做法参照 [PerryKum 的 iframe 嵌入 B 站笔记](https://perrykum.github.io/rtcls/study/bliframe/bliframe.html)）——注意它只挡「开新窗口 / 改顶层页面」，挡不住 iframe 自身的 `location` 跳转；那一条由 [`extension/`](./extension/) 在 iframe 内部拦截
+- **视频倍速只能靠扩展**：站点跨域读不到 iframe 里的 `<video>`（同源策略，无解），B 站官方嵌入播放器既无倍速 URL 参数也无 postMessage / JS API。做法是站点通过 `postMessage` 把目标倍速发给扩展的内容脚本，由它在播放器内部执行；未装扩展时档位置灰并提示安装，其它功能不受影响
 - 单词即点即译：本地生词表匹配 + 简单词形还原（复数 / 过去式 / -ing），离线可用
 - 数据与站点解耦：站点只登记来源 URL，课程一律经 `js/data/registry.js` 远程加载（相对 URL 按包 base 解析 + 镜像 fallback + 版本校验），不再嗅探全局变量
 - 个人数据分存：已学标记、我的笔记、生词、偏好存 `localStorage`；课程包、缓存的音频/字幕、资源网站存 `IndexedDB`，均不上传

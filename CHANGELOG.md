@@ -2,6 +2,32 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。版本与 tag 规范见 [docs/versioning.md](./docs/versioning.md)。
 
+## [app-v1.6.0] / [ext-v1.1.0] - 2026-09-25
+
+> 站点 `APP` 常量 `1.5.1` → `1.6.0`；扩展版本 `1.0.1` → `1.1.0`。
+> 数据侧无改动（`data/VERSION`、`specVersion`、`schemaVersion` 均不变）。
+
+### 新增
+
+- **视频倍速 0.75~2x**（配 `extension/` 的「NCE 学习助手」扩展）。
+  - 背景：站点视频是 B 站 iframe，跨域下父页面拿不到 `<video>`（同源策略，无解）；B 站官方嵌入播放器实测**既无倍速 URL 参数**（`rate` / `playbackRate` / `speed` 等全部无效）**也无 postMessage / JS API**。官方另有一个带 `iframe-player-bridge` 的「NANO 通用播放器」（`blackboard/newplayer.html`），但被 `whitelist.js` 的域名白名单锁死，非白名单域直接 `[Permission] Not Allowed`。
+  - 因此改由**扩展的内容脚本注入到 iframe 内部**执行——那里与播放器同源，可以直接改 `playbackRate`。
+  - `app/js/app.js`：视频面板新增倍速档位（复用音频那套 `0.75 / 1 / 1.25 / 1.5 / 2`），新增 `bindVideoRate()` / `vExtReset()` / `setVideoRate()`，用 `postMessage` 与扩展通信并按 `event.origin` 校验回包。
+  - `app/css/split.css`：`.vrates.off` 置灰样式。
+  - 未装扩展时档位照常显示但置灰，点击提示安装；不影响站点其它功能。
+- **扩展侧 `bili.js` / `bili.css` / `js/bili-main.js`**（`extension/manifest.json` 新增两条 `content_scripts`，`matches` 限定 `player.bilibili.com/player.html*` 与 `www.bilibili.com/blackboard/html5mobileplayer.html*`，`all_frames: true`）：
+  - **倍速遥控**：响应站点的 `ping` / `set` / `get`，直接操作播放器内的 `<video>`。
+  - **倍速记忆**：B 站播放器在切课 / 切分 P 后会把倍速重置回 1，扩展在 `loadedmetadata` / `canplay` / `play` / `seeked` / `ended` 时机夺回（并在加载窗口期内忽略播放器自己的重置）。
+  - **简洁模式也有倍速**：`html5mobileplayer` 自身连倍速按钮都没有，装扩展后同样可调。
+  - **去推广**：隐藏「进入哔哩哔哩，观看更高清」、顶部栏（logo / 点赞 / 评论 / 分享 / +关注）、弹幕输入条、结束卡、分享面板等（选择器取自实测 DOM）。
+  - **拦跳转**：捕获阶段掐掉指向 B 站的点击；`js/bili-main.js` 以 `world:"MAIN"` 注入页面世界再拦一次 `window.open`。
+
+### 变更
+
+- **修正防跳转的说法**：`sandbox` 只挡「开新窗口 / 改顶层页面」，挡不住 iframe 自身的 `location` 跳转（点击播放器时 B 站播放器仍会尝试跳转，控制台可见 `Blocked opening ... in a sandboxed frame`）。README 与 `app/js/app.js` 里原先「两种模式下点击播放器都无法跳走」的说法已改正；这一条改由扩展在 iframe 内部拦截。
+- 站点资源版本号 `?v=64` → `?v=65`（`app/index.html` 与 `app/sw.js` 的 `VERSION` / `PRECACHE` 同步）。
+- `extension/README.md`：补充 B 站播放器增强功能、文件结构与 `postMessage` 协议说明。
+
 ## [data-v1.1.0] - 2026-09-20
 
 > 数据内容版本 `1.0.0` → `1.1.0`（`data/VERSION`）。`specVersion` 仍为 `1.0`、`schemaVersion` 仍为 `1`：
