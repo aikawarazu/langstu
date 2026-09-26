@@ -136,9 +136,10 @@
 .tb-ldiv::before,.tb-ldiv::after{content:'';flex:1;height:1px;background:#ece3cf}
 .tb-line.tb-sline{width:100%;text-align:left;cursor:pointer}
 .tb-line.tb-sline:hover{background:#fdf8ea}
-/* 精编稿课文行：对齐到音频的句子可点播（data-si 由 JS 标注），对不上的仍走 TTS */
-.tbk-text .tb-line[data-si]{cursor:pointer}
-.tbk-text .tb-line[data-si]:hover{background:#fdf8ea;border-radius:8px}
+/* 精编稿课文行：对齐到音频的句子可独立朗读（data-si 由 JS 标注），对不上的仍走 TTS */
+.tbk-text .tb-line[data-si]{cursor:pointer;border-radius:8px}
+.tbk-text .tb-line[data-si]:hover{background:#fdf8ea}
+.tbk-text .tb-line[data-si].reading{background:#fdf3dc;box-shadow:inset 3px 0 0 #e0b95f}
 #tbk .tbk-empty{border:1px dashed #e0d6bf;border-radius:12px;padding:14px;text-align:center;
   color:#a0947a;font-size:12.5px;background:#fffdf7}
 
